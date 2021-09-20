@@ -17,7 +17,7 @@ class HomeView {
       
       <div class="page-content">
         <h1>Welcome to the Destore </h1>
-        <p> This is the home page of the Grad Show website! Let's do this :) </p>
+        <p> This is the home page of the Grad Show website. </p>
       </div>
      
     `
