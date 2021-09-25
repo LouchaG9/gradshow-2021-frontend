@@ -7580,7 +7580,7 @@ var _Utils = _interopRequireDefault(require("../../Utils"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject() {
-  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"About page\"></va-app-header>\n      <div class=\"page-content\">        \n        <h1>About</h1>\n        <p>This is the about page. Who the heck are we though?</p>\n      </div>      \n    "]);
+  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"Contact\"></va-app-header>\n      <div class=\"page-content\">        \n        <h1>Contact the DeStore</h1>\n        <p>Contact Info</p>\n      </div>      \n    "]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -9786,7 +9786,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57344" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62917" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

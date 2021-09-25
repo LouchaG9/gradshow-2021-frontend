@@ -12,10 +12,10 @@ class ContactView {
 
   render(){
     const template = html`
-      <va-app-header title="About page"></va-app-header>
+      <va-app-header title="Contact"></va-app-header>
       <div class="page-content">        
-        <h1>About</h1>
-        <p>This is the about page. Who the heck are we though?</p>
+        <h1>Contact the DeStore</h1>
+        <p>Contact Info</p>
       </div>      
     `
     render(template, App.rootEl)
