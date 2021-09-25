@@ -2,11 +2,11 @@
 
 * {
   box-sizing: border-box;
-  -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
 
 body {
-  padding: 0;  
+  padding: 0;
   margin: 0;
   color: var(--base-txt-color);
   font-family: var(--base-font-family);
@@ -15,10 +15,13 @@ body {
   height: 100vh;
 }
 
-
 // headings ------------
-h1,h2,h3,h5,h6 {
-  margin: 0 0 .5em;
+h1,
+h2,
+h3,
+h5,
+h6 {
+  margin: 0 0 0.5em;
   color: var(--heading-color);
 }
 
@@ -27,7 +30,6 @@ a {
   color: var(--link-color);
 }
 
-
 // app splash screen -------
 .app-splash {
   position: fixed;
@@ -35,7 +37,7 @@ a {
   color: #777;
   display: flex;
   left: 0;
-  top:0;
+  top: 0;
   right: 0;
   bottom: 0;
   align-items: center;
@@ -47,7 +49,6 @@ a {
     margin-bottom: 1em;
   }
 }
-
 
 // helper classes ---------
 .calign {
@@ -64,9 +65,9 @@ a {
 
 // generic-entry ------------
 .generic-entry {
-  box-shadow: 0px 3px 5px rgba(0,0,0,0.07);
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.07);
   border-radius: 5px;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
   padding: 1em;
   background: #fff;
 }
@@ -77,7 +78,7 @@ a {
   top: 0;
   bottom: 0;
   left: 0;
-  right: 0;  
+  right: 0;
   overflow: hidden;
 }
 
@@ -93,6 +94,8 @@ a {
   &.no-pad {
     padding: 0;
   }
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 .page-centered {
@@ -101,9 +104,25 @@ a {
   justify-content: center;
 }
 
+.image-slider {
+  height: 20vh;
+  border: 1px solid #000;
+}
+
+footer {
+  height: 20vh;
+  width: 100%;
+  border: 1px solid #000;
+  .footer-content {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
 // sign in + sign up pages ----------
 .signinup-box,
-.signup-box {  
+.signup-box {
   max-width: 320px;
   text-align: center;
 }
@@ -130,23 +149,21 @@ a {
   flex-wrap: wrap;
   .haircut-card {
     width: calc(33.3% - 1em);
-    margin: 0.5em; 
+    margin: 0.5em;
   }
 }
 
-// va-haircuts.js Dialog pop-up styling 
+// va-haircuts.js Dialog pop-up styling
 .haircut-dialog {
   --width: 70%;
 }
 
-.haircut-dialog::part(body){
+.haircut-dialog::part(body) {
   margin-top: -4em;
 }
 
-
 // RESPONSIVE - MOBILE -------------------
-@media all and (max-width: 768px){ 
-
+@media all and (max-width: 768px) {
   .signinup-box {
     width: 90%;
     max-width: none;

@@ -4,22 +4,22 @@
   --heading-color: #333;
   --base-font-family: 'Work Sans', sans-serif;
   --body-bg: #fff;
-  --brand-color: #aa1a6c;
+  --brand-color: #E92530;
   --link-color: --brand-color;
   --app-header-height: 60px;
   --app-header-txt-color: #fff;
   --app-header-title-font-size: 1.6em;
   --sl-color-primary-50: #f4f4f4;
-  --sl-color-primary-100: #f0a0ce;
-  --sl-color-primary-200: #ea73b7;
-  --sl-color-primary-300: #e347a0;
-  --sl-color-primary-400: #d62188;
-  --sl-color-primary-500: #aa1a6c;
-  --sl-color-primary-600: #7e1350;
-  --sl-color-primary-700: #520c34;
-  --sl-color-primary-800: #250618;
-  --sl-color-primary-900: black;
-  --sl-focus-ring-color-primary: rgba(170, 26, 108, 0.1);
+  --sl-color-primary-100: #fcdee0;
+  --sl-color-primary-200: #f7b0b4;
+  --sl-color-primary-300: #f28288;
+  --sl-color-primary-400: #ee535c;
+  --sl-color-primary-500: #E92530;
+  --sl-color-primary-600: #c7141e;
+  --sl-color-primary-700: #990f17;
+  --sl-color-primary-800: #6a0b10;
+  --sl-color-primary-900: #3c0609;
+  --sl-focus-ring-color-primary: rgba(233, 37, 48, 0.1);
 }
 
 * {
@@ -38,8 +38,12 @@ body {
   height: 100vh;
 }
 
-h1, h2, h3, h5, h6 {
-  margin: 0 0 .5em;
+h1,
+h2,
+h3,
+h5,
+h6 {
+  margin: 0 0 0.5em;
   color: var(--heading-color);
 }
 
@@ -89,7 +93,7 @@ a {
   -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.07);
           box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.07);
   border-radius: 5px;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
   padding: 1em;
   background: #fff;
 }
@@ -111,6 +115,8 @@ a {
   bottom: 0;
   overflow-y: scroll;
   padding: 1em;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 .page-content.no-pad {
@@ -127,6 +133,26 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.image-slider {
+  height: 20vh;
+  border: 1px solid #000;
+}
+
+footer {
+  height: 20vh;
+  width: 100%;
+  border: 1px solid #000;
+}
+
+footer .footer-content {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .signinup-box,
@@ -238,5 +264,114 @@ sl-dialog::part(title) {
 .toast-entry.is-error {
   background: #d4195d;
   color: #fff;
+}
+
+.height-1 {
+  height: 40vh;
+}
+
+.height-2 {
+  height: 20vh;
+}
+
+.block-50-50 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border: 1px solid #000;
+}
+
+.block-50-50 .column {
+  width: 50%;
+  border: 1px solid #000;
+}
+
+.block-33-33-33 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border: 1px solid #000;
+}
+
+.block-33-33-33 .subject {
+  height: 100%;
+  width: 33.33%;
+  border: 1px solid #000;
+}
+
+.block-33-66 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border: 1px solid #000;
+}
+
+.block-33-66 .column-1 {
+  width: 33.3%;
+  border: 1px solid #000;
+}
+
+.block-33-66 .column-2 {
+  width: 66.6%;
+  border: 1px solid #000;
+}
+
+.block-33-66 .reviews {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.block-33-66 .reviews .review {
+  width: 33.3%;
+  height: 100%;
+  border: 1px solid #000;
+}
+
+.block-25-25-25-25 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #000;
+}
+
+.block-25-25-25-25 .column {
+  width: 25%;
+  border: 1px solid #000;
+}
+
+.block-100 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid #000;
+}
+
+.credit-block {
+  width: 300px;
+  border: 1px solid #000;
 }
 /*# sourceMappingURL=master.css.map */

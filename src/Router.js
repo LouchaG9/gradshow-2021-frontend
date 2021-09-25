@@ -2,6 +2,7 @@
 import homeView from './views/pages/home'
 import fourOFourView from './views/pages/404'
 import AboutView from './views/pages/about'
+import ContactView from './views/pages/contact'
 import graduateSearchView from './views/pages/graduateSearch'
 
 
@@ -11,6 +12,7 @@ const routes = {
 	'404' : fourOFourView,
 	'/about': AboutView,
 	'/graduates': graduateSearchView,
+	'/contact': ContactView,
 }
 
 class Router {

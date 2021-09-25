@@ -72,17 +72,6 @@ customElements.define('va-app-header', class AppHeader extends LitElement {
         box-shadow: 4px 0px 10px rgba(0,0,0,0.2);
         align-items: center;
       }
-      
-
-      .app-header-main {
-        flex-grow: 1;
-        display: flex;
-        align-items: center;
-      }
-
-      .app-header-main::slotted(h1){
-        color: #fff;
-      }
 
       .app-logo a {
         color: #fff;
@@ -99,12 +88,22 @@ customElements.define('va-app-header', class AppHeader extends LitElement {
       
       .hamburger-btn::part(base) {
         color: #fff;
+        display: none;
       }
 
       .app-top-nav {
         display: flex;
         height: 100%;
         align-items: center;
+        justify-content: space-between;
+        width: 100%;
+      }
+
+      .logo-container {
+        width: 200px;
+        height: var(--app-header-height);
+        align-self: flex-end;
+        background: blue;
       }
 
       .app-top-nav a {
@@ -148,6 +147,10 @@ customElements.define('va-app-header', class AppHeader extends LitElement {
         .app-top-nav {
           display: none;
         }
+
+        .hamburger-btn::part(base) {
+        display: flex;
+      }
       }
 
     </style>
@@ -156,28 +159,29 @@ customElements.define('va-app-header', class AppHeader extends LitElement {
     
       <!-- This is the hamburger button on the top left -->
       <sl-icon-button class="hamburger-btn" name="list" @click="${this.hamburgerClick}" style="font-size: 1.5em;"></sl-icon-button>    
-      
-      <div class="app-header-main">
-        <!-- This is where our logo will probably go on the nav bar -->
-        <a href="/" @click="${anchorRoute}">Home</a>    
-      </div>
 
       <nav class="app-top-nav">
-        <a href="/about" @click="${() => gotoRoute('/about')}">About</a>    
-
-        <!-- This is the graduates drop-down on the top right-->
-        <sl-dropdown>
-          <a slot="trigger" href="#" @click="${(e) => e.preventDefault()}">
-            Graduates        
-          </a>
-          <sl-menu>            
-            <sl-menu-item @click="${() => gotoRoute('/graduates')}">All Gradutes</sl-menu-item>
-            <sl-menu-item @click="${() => gotoRoute('/graduates')}">Animation and Game Design</sl-menu-item>
-            <sl-menu-item @click="${() => gotoRoute('/graduates')}">Digital Design</sl-menu-item>
-            <sl-menu-item @click="${() => gotoRoute('/graduates')}">Graphic Design</sl-menu-item>
-            <sl-menu-item @click="${() => gotoRoute('/graduates')}">Illustration</sl-menu-item>
-          </sl-menu>
-        </sl-dropdown>
+        <div class=links>
+          <a href="/" @click="${anchorRoute}">Home</a> 
+          <sl-dropdown>
+            <a slot="trigger" href="#" @click="${(e) => e.preventDefault()}">
+              Graduates        
+            </a>
+            <sl-menu>            
+              <sl-menu-item @click="${() => gotoRoute('/graduates')}">All Gradutes</sl-menu-item>
+              <sl-menu-item @click="${() => gotoRoute('/graduates')}">Animation and Game Design</sl-menu-item>
+              <sl-menu-item @click="${() => gotoRoute('/graduates')}">Digital Design</sl-menu-item>
+              <sl-menu-item @click="${() => gotoRoute('/graduates')}">Graphic Design</sl-menu-item>
+              <sl-menu-item @click="${() => gotoRoute('/graduates')}">Illustration</sl-menu-item>
+            </sl-menu>
+          </sl-dropdown>
+          <a href="/about" @click="${() => gotoRoute('/about')}">About</a>
+          <a href="/contact" @click="${() => gotoRoute('/contact')}">Contact</a>   
+        </div>
+        <div class="logo-container">
+        <!-- This is where our logo will probably go on the nav bar -->  
+        </div>
+        
       </nav>
     </header>
 

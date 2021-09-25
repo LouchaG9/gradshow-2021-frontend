@@ -7440,7 +7440,7 @@ var _Utils = _interopRequireDefault(require("./../../Utils"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject() {
-  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"Home\"></va-app-header>\n      \n      <div class=\"page-content\">\n        <h1>Welcome to the Destore </h1>\n        <p> This is the home page of the Grad Show website! Let's do this :) </p>\n      </div>\n     \n    "]);
+  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"Home\"></va-app-header>\n      \n      <div class=\"page-content\">\n        <section class=\"block-50-50 height-1\">\n          <div class=\"column\">\n            <h1>Welcome to the Destore</h1>\n            <p>Locally sourced, organic produce.</p>\n            <p>Only the finest cuts.</p>\n            <p>Fresh from the bakery.</p>\n            <button class=\"primary\">Shop all Graduates</button>\n            <p>Showcase of the Curtin University Design Graduates.</p>\n          </div>\n          <div class=\"column\">\n            <img src=\".../static/images/placeholder.png\" alt=\"Placeholder\">\n          </div>\n        </section>\n\n        <section class=\"block-33-33-33 height-2\">\n          <div class=\"subject\">\n           <h1>Locally sourced, organic produce.</h1>\n           <p>Animation & Game Design.</p>\n          </div>\n          <div class=\"subject\">\n            <h1>Only the finest cuts.</h1>\n            <p>Graphic Design.</p>\n          </div>\n          <div class=\"subject\">\n            <h1>Fresh from the bakery.</h1>\n            <p>Digital Experience & Interaction Design.</p>\n          </div>\n        </section>\n\n        <section class=\"block-33-66 height-1\">\n          <div class=\"column-1\"></div>\n          <div class=\"column-2\">\n            <h1>What are we?</h1>\n            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\n          </div>\n        </section>\n\n        <section class=\"block-33-66 height-1\">\n          <div class=\"column-1\">\n            <h1>What are people saying?</h1>\n          </div>\n          <div class=\"column-2 reviews\">\n            <div class=\"review\">\n              <h3>Joel Louie</h3>\n              <p>Digital Experience & Interaction Design.</p>\n              <p>\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\"</p>\n          </div>\n            <div class=\"review\">\n              <h3>Lee Ingram</h3>\n              <p>Graphic Design.</p>\n              <p>\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\"</p>\n            </div>\n            <div class=\"review\">\n              <h3>Jonathan Pillai</h3>\n              <p>Animation & Game Design.</p>\n              <p>\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\"</p>\n            </div>\n          </div>\n        </section>\n\n        <section class=\"image-slider\">\n          <!-- not sure how we want to code this one in. Might need to look at something like slick-slider or glide.js -->\n        </section>\n\n        <footer>\n          <div class=\"footer-content\">\n            <div class=footer-col>\n              <h3>DeStore</h3>\n              <p>\n                Monday \u2013 Saturday: 8:00 am \u2013 4:00pm <br>\n                Sunday: 9:00 am \u2013 5:00pm<br>\n                Kent St, Bentley, 6102, Western Australia<br><br>\n                @destore\n              </p>\n            </div>\n            <div class=footer-col>\n              <h3>Quick Links</h3>\n              <ul>\n                <li>Home</li>\n                <li>Shop</li>\n                <li>About</li>\n                <li>Contact</li>\n              </ul>\n            </div>\n            <div class=footer-col>\n            <h3>Shop</h3>\n              <ul>\n                <li>Fresh Produce</li>\n                <li>Butcher</li>\n                <li>Bakery</li>\n              </ul>\n            </div>\n          </div>\n        </footer>\n      </div>\n     \n    "]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -7532,7 +7532,7 @@ var _Utils = _interopRequireDefault(require("../../Utils"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject() {
-  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"About page\"></va-app-header>\n      <div class=\"page-content\">        \n        <h1>About</h1>\n        <p>This is the about page. Who the heck are we though?</p>\n      </div>      \n    "]);
+  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"About page\"></va-app-header>\n      <div class=\"page-content\">        \n        <section class=\"block-50-50 height-1\">\n          <div class=\"column\">\n            <h1>About The DeStore.</h1>\n            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus suspendisse non, sit euismod mauris ut. Suscipit non elit at sem massa eget semper. Eget tristique adipiscing congue turpis tincidunt non. Commodo tortor nunc lacus lacinia amet, platea. Ut nec leo, lobortis mattis. Tristique molestie orci nec nulla dapibus ultricies vel cursus. Eget dictumst volutpat integer eu, suscipit tincidunt gravida aliquam ultricies. Pretium parturient a, integer eget aenean vel. Diam commodo, pellentesque purus pretium, nisi nunc nisi tempus, tellus. Amet suspendisse sodales tristique purus. Netus est quam neque arcu elit aliquam. Tristique vulputate sed a in morbi. Enim, adipiscing a purus enim curabitur nunc, ac. Non, eu cursus arcu ut eu, ut</p>\n          </div>\n          <div class=\"column\">\n            <img src=\".../static/images/placeholder.png\" alt=\"Placeholder\">\n          </div>\n        </section>\n\n        <section class=\"block-25-25-25-25 height-2\">\n          <div class=\"column\">\n            <h3>Value 1</h3>\n            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus suspendisse non, sit euismod mauris ut.</p>\n          </div>\n          <div class=\"column\">\n            <h3>Value 2</h3>\n            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus suspendisse non, sit euismod mauris ut.</p>\n          </div>\n          <div class=\"column\">\n            <h3>Value 3</h3>\n            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus suspendisse non, sit euismod mauris ut.</p>\n          </div>\n          <div class=\"column\">\n            <h3>Value 4</h3>\n            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus suspendisse non, sit euismod mauris ut.</p>\n          </div>\n        </section>\n\n        <section class=\"block-100\">\n          <div class=\"credit-block\">\n            <h3>Treasury</h3>\n            <ul>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n            </ul>\n          </div>\n          <div class=\"credit-block\">\n            <h3>Animation & Video Production Team</h3>\n            <ul>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n            </ul>\n          </div>\n          <div class=\"credit-block\">\n            <h3>Photography Team</h3>\n            <ul>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n            </ul>\n          </div>\n          <div class=\"credit-block\">\n            <h3>Testing & Quality Team</h3>\n            <ul>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n            </ul>\n          </div>\n          <div class=\"credit-block\">\n            <h3>Website Programmers</h3>\n            <ul>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n            </ul>\n          </div>\n          <div class=\"credit-block\">\n            <h3>Copy Writing Team</h3>\n            <ul>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n            </ul>\n          </div>\n          <div class=\"credit-block\">\n            <h3>Communications & Logistics Team</h3>\n            <ul>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n            </ul>\n          </div>\n          <div class=\"credit-block\">\n            <h3>UI / UX Designers</h3>\n            <ul>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n            </ul>\n          </div>\n          <div class=\"credit-block\">\n            <h3>Social Media</h3>\n            <ul>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n            </ul>\n          </div>\n        </section>\n        <section class=\"image-slider\">\n          <!-- not sure how we want to code this one in. Might need to look at something like slick-slider or glide.js -->\n        </section>\n\n        <footer>\n          <div class=\"footer-content\">\n            <div class=footer-col>\n              <h3>DeStore</h3>\n              <p>\n                Monday \u2013 Saturday: 8:00 am \u2013 4:00pm <br>\n                Sunday: 9:00 am \u2013 5:00pm<br>\n                Kent St, Bentley, 6102, Western Australia<br><br>\n                @destore\n              </p>\n            </div>\n            <div class=footer-col>\n              <h3>Quick Links</h3>\n              <ul>\n                <li>Home</li>\n                <li>Shop</li>\n                <li>About</li>\n                <li>Contact</li>\n              </ul>\n            </div>\n            <div class=footer-col>\n            <h3>Shop</h3>\n              <ul>\n                <li>Fresh Produce</li>\n                <li>Butcher</li>\n                <li>Bakery</li>\n              </ul>\n            </div>\n          </div>\n        </footer>\n      </div>      \n    "]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -7559,6 +7559,54 @@ class AboutView {
 }
 
 var _default = new AboutView();
+
+exports.default = _default;
+},{"../../App":"App.js","lit-html":"../node_modules/lit-html/lit-html.js","../../Router":"Router.js","../../Utils":"Utils.js"}],"views/pages/contact.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _App = _interopRequireDefault(require("../../App"));
+
+var _litHtml = require("lit-html");
+
+var _Router = require("../../Router");
+
+var _Utils = _interopRequireDefault(require("../../Utils"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _templateObject() {
+  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"About page\"></va-app-header>\n      <div class=\"page-content\">        \n        <h1>About</h1>\n        <p>This is the about page. Who the heck are we though?</p>\n      </div>      \n    "]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+class ContactView {
+  init() {
+    document.title = 'About Page';
+    this.render();
+
+    _Utils.default.pageIntroAnim();
+  }
+
+  render() {
+    const template = (0, _litHtml.html)(_templateObject());
+    (0, _litHtml.render)(template, _App.default.rootEl);
+  }
+
+}
+
+var _default = new ContactView();
 
 exports.default = _default;
 },{"../../App":"App.js","lit-html":"../node_modules/lit-html/lit-html.js","../../Router":"Router.js","../../Utils":"Utils.js"}],"views/pages/graduateSearch.js":[function(require,module,exports) {
@@ -7625,6 +7673,8 @@ var _ = _interopRequireDefault(require("./views/pages/404"));
 
 var _about = _interopRequireDefault(require("./views/pages/about"));
 
+var _contact = _interopRequireDefault(require("./views/pages/contact"));
+
 var _graduateSearch = _interopRequireDefault(require("./views/pages/graduateSearch"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -7635,7 +7685,8 @@ const routes = {
   '/': _home.default,
   '404': _.default,
   '/about': _about.default,
-  '/graduates': _graduateSearch.default
+  '/graduates': _graduateSearch.default,
+  '/contact': _contact.default
 };
 
 class Router {
@@ -7689,7 +7740,7 @@ function anchorRoute(e) {
   const pathname = e.target.closest('a').pathname;
   AppRouter.gotoRoute(pathname);
 }
-},{"./views/pages/home":"views/pages/home.js","./views/pages/404":"views/pages/404.js","./views/pages/about":"views/pages/about.js","./views/pages/graduateSearch":"views/pages/graduateSearch.js"}],"Toast.js":[function(require,module,exports) {
+},{"./views/pages/home":"views/pages/home.js","./views/pages/404":"views/pages/404.js","./views/pages/about":"views/pages/about.js","./views/pages/contact":"views/pages/contact.js","./views/pages/graduateSearch":"views/pages/graduateSearch.js"}],"Toast.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -9551,7 +9602,7 @@ var _App = _interopRequireDefault(require("./../App"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject() {
-  const data = _taggedTemplateLiteral(["\n    <style>      \n      * {\n        box-sizing: border-box;\n      }\n      .app-header {\n        background: var(--brand-color);\n        position: fixed;\n        top: 0;\n        right: 0;\n        left: 0;\n        height: var(--app-header-height);\n        color: #fff;\n        display: flex;\n        z-index: 9;\n        box-shadow: 4px 0px 10px rgba(0,0,0,0.2);\n        align-items: center;\n      }\n      \n\n      .app-header-main {\n        flex-grow: 1;\n        display: flex;\n        align-items: center;\n      }\n\n      .app-header-main::slotted(h1){\n        color: #fff;\n      }\n\n      .app-logo a {\n        color: #fff;\n        text-decoration: none;\n        font-weight: bold;\n        font-size: 1.2em;\n        padding: .6em;\n        display: inline-block;        \n      }\n\n      .app-logo img {\n        width: 90px;\n      }\n      \n      .hamburger-btn::part(base) {\n        color: #fff;\n      }\n\n      .app-top-nav {\n        display: flex;\n        height: 100%;\n        align-items: center;\n      }\n\n      .app-top-nav a {\n        display: inline-block;\n        padding: .8em;\n        text-decoration: none;\n        color: #fff;\n      }\n      \n      .app-side-menu-items a {\n        display: block;\n        padding: .5em;\n        text-decoration: none;\n        font-size: 1.3em;\n        color: #333;\n      }\n\n      .app-side-menu-logo {\n        width: 120px;\n        margin-bottom: 1em;\n        position: absolute;\n        top: 2em;\n        left: 1.5em;\n      }\n\n      .page-title {\n        color: var(--app-header-txt-color);\n        margin-right: 0.5em;\n        font-size: var(--app-header-title-font-size);\n      }\n\n      /* active nav links */\n      .app-top-nav a.active,\n      .app-side-menu-items a.active {\n        font-weight: bold;\n      }\n\n      /* RESPONSIVE - MOBILE ------------------- */\n      @media all and (max-width: 768px){       \n        \n        .app-top-nav {\n          display: none;\n        }\n      }\n\n    </style>\n\n    <header class=\"app-header\">\n    \n      <!-- This is the hamburger button on the top left -->\n      <sl-icon-button class=\"hamburger-btn\" name=\"list\" @click=\"", "\" style=\"font-size: 1.5em;\"></sl-icon-button>    \n      \n      <div class=\"app-header-main\">\n        <!-- This is where our logo will probably go on the nav bar -->\n        <a href=\"/\" @click=\"", "\">Home</a>    \n      </div>\n\n      <nav class=\"app-top-nav\">\n        <a href=\"/about\" @click=\"", "\">About</a>    \n\n        <!-- This is the graduates drop-down on the top right-->\n        <sl-dropdown>\n          <a slot=\"trigger\" href=\"#\" @click=\"", "\">\n            Graduates        \n          </a>\n          <sl-menu>            \n            <sl-menu-item @click=\"", "\">All Gradutes</sl-menu-item>\n            <sl-menu-item @click=\"", "\">Animation and Game Design</sl-menu-item>\n            <sl-menu-item @click=\"", "\">Digital Design</sl-menu-item>\n            <sl-menu-item @click=\"", "\">Graphic Design</sl-menu-item>\n            <sl-menu-item @click=\"", "\">Illustration</sl-menu-item>\n          </sl-menu>\n        </sl-dropdown>\n      </nav>\n    </header>\n\n\n    <sl-drawer class=\"app-side-menu\" placement=\"left\">\n\n      <img class=\"app-side-menu-logo\" src=\"/images/logo.svg\">\n      <nav class=\"app-side-menu-items\">\n\n        <a href=\"/\" @click=\"", "\">Home</a>\n        <a href=\"/graduates\" @click=\"", "\">Graduates</a>\n        <a href=\"/about\" @click=\"", "\">About</a>\n      </nav>  \n\n    </sl-drawer>\n    "]);
+  const data = _taggedTemplateLiteral(["\n    <style>      \n      * {\n        box-sizing: border-box;\n      }\n      .app-header {\n        background: var(--brand-color);\n        position: fixed;\n        top: 0;\n        right: 0;\n        left: 0;\n        height: var(--app-header-height);\n        color: #fff;\n        display: flex;\n        z-index: 9;\n        box-shadow: 4px 0px 10px rgba(0,0,0,0.2);\n        align-items: center;\n      }\n\n      .app-logo a {\n        color: #fff;\n        text-decoration: none;\n        font-weight: bold;\n        font-size: 1.2em;\n        padding: .6em;\n        display: inline-block;        \n      }\n\n      .app-logo img {\n        width: 90px;\n      }\n      \n      .hamburger-btn::part(base) {\n        color: #fff;\n        display: none;\n      }\n\n      .app-top-nav {\n        display: flex;\n        height: 100%;\n        align-items: center;\n        justify-content: space-between;\n        width: 100%;\n      }\n\n      .logo-container {\n        width: 200px;\n        height: var(--app-header-height);\n        align-self: flex-end;\n        background: blue;\n      }\n\n      .app-top-nav a {\n        display: inline-block;\n        padding: .8em;\n        text-decoration: none;\n        color: #fff;\n      }\n      \n      .app-side-menu-items a {\n        display: block;\n        padding: .5em;\n        text-decoration: none;\n        font-size: 1.3em;\n        color: #333;\n      }\n\n      .app-side-menu-logo {\n        width: 120px;\n        margin-bottom: 1em;\n        position: absolute;\n        top: 2em;\n        left: 1.5em;\n      }\n\n      .page-title {\n        color: var(--app-header-txt-color);\n        margin-right: 0.5em;\n        font-size: var(--app-header-title-font-size);\n      }\n\n      /* active nav links */\n      .app-top-nav a.active,\n      .app-side-menu-items a.active {\n        font-weight: bold;\n      }\n\n      /* RESPONSIVE - MOBILE ------------------- */\n      @media all and (max-width: 768px){       \n        \n        .app-top-nav {\n          display: none;\n        }\n\n        .hamburger-btn::part(base) {\n        display: flex;\n      }\n      }\n\n    </style>\n\n    <header class=\"app-header\">\n    \n      <!-- This is the hamburger button on the top left -->\n      <sl-icon-button class=\"hamburger-btn\" name=\"list\" @click=\"", "\" style=\"font-size: 1.5em;\"></sl-icon-button>    \n\n      <nav class=\"app-top-nav\">\n        <div class=links>\n          <a href=\"/\" @click=\"", "\">Home</a> \n          <sl-dropdown>\n            <a slot=\"trigger\" href=\"#\" @click=\"", "\">\n              Graduates        \n            </a>\n            <sl-menu>            \n              <sl-menu-item @click=\"", "\">All Gradutes</sl-menu-item>\n              <sl-menu-item @click=\"", "\">Animation and Game Design</sl-menu-item>\n              <sl-menu-item @click=\"", "\">Digital Design</sl-menu-item>\n              <sl-menu-item @click=\"", "\">Graphic Design</sl-menu-item>\n              <sl-menu-item @click=\"", "\">Illustration</sl-menu-item>\n            </sl-menu>\n          </sl-dropdown>\n          <a href=\"/about\" @click=\"", "\">About</a>\n          <a href=\"/contact\" @click=\"", "\">Contact</a>   \n        </div>\n        <div class=\"logo-container\">\n        <!-- This is where our logo will probably go on the nav bar -->  \n        </div>\n        \n      </nav>\n    </header>\n\n\n    <sl-drawer class=\"app-side-menu\" placement=\"left\">\n\n      <img class=\"app-side-menu-logo\" src=\"/images/logo.svg\">\n      <nav class=\"app-side-menu-items\">\n\n        <a href=\"/\" @click=\"", "\">Home</a>\n        <a href=\"/graduates\" @click=\"", "\">Graduates</a>\n        <a href=\"/about\" @click=\"", "\">About</a>\n      </nav>  \n\n    </sl-drawer>\n    "]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -9613,7 +9664,7 @@ customElements.define('va-app-header', class AppHeader extends _litElement.LitEl
   }
 
   render() {
-    return (0, _litElement.html)(_templateObject(), this.hamburgerClick, _Router.anchorRoute, () => (0, _Router.gotoRoute)('/about'), e => e.preventDefault(), () => (0, _Router.gotoRoute)('/graduates'), () => (0, _Router.gotoRoute)('/graduates'), () => (0, _Router.gotoRoute)('/graduates'), () => (0, _Router.gotoRoute)('/graduates'), () => (0, _Router.gotoRoute)('/graduates'), this.menuClick, this.menuClick, this.menuClick);
+    return (0, _litElement.html)(_templateObject(), this.hamburgerClick, _Router.anchorRoute, e => e.preventDefault(), () => (0, _Router.gotoRoute)('/graduates'), () => (0, _Router.gotoRoute)('/graduates'), () => (0, _Router.gotoRoute)('/graduates'), () => (0, _Router.gotoRoute)('/graduates'), () => (0, _Router.gotoRoute)('/graduates'), () => (0, _Router.gotoRoute)('/about'), () => (0, _Router.gotoRoute)('/contact'), this.menuClick, this.menuClick, this.menuClick);
   }
 
 });
@@ -9735,7 +9786,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64195" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57344" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

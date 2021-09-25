@@ -37,7 +37,11 @@ body {
   height: 100vh;
 }
 
-h1, h2, h3, h5, h6 {
+h1,
+h2,
+h3,
+h5,
+h6 {
   margin: 0 0 0.5em;
   color: var(--heading-color);
 }
@@ -102,6 +106,8 @@ a {
   bottom: 0;
   overflow-y: scroll;
   padding: 1em;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 .page-content.no-pad {
   padding: 0;
@@ -111,6 +117,22 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.image-slider {
+  height: 20vh;
+  border: 1px solid #000;
+}
+
+footer {
+  height: 20vh;
+  width: 100%;
+  border: 1px solid #000;
+}
+footer .footer-content {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .signinup-box,
@@ -204,6 +226,79 @@ sl-dialog::part(title) {
 .toast-entry.is-error {
   background: #d4195d;
   color: #fff;
+}
+
+.height-1 {
+  height: 40vh;
+}
+
+.height-2 {
+  height: 20vh;
+}
+
+.block-50-50 {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #000;
+}
+.block-50-50 .column {
+  width: 50%;
+  border: 1px solid #000;
+}
+
+.block-33-33-33 {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #000;
+}
+.block-33-33-33 .subject {
+  height: 100%;
+  width: 33.33%;
+  border: 1px solid #000;
+}
+
+.block-33-66 {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #000;
+}
+.block-33-66 .column-1 {
+  width: 33.3%;
+  border: 1px solid #000;
+}
+.block-33-66 .column-2 {
+  width: 66.6%;
+  border: 1px solid #000;
+}
+.block-33-66 .reviews {
+  display: flex;
+  flex-direction: row;
+}
+.block-33-66 .reviews .review {
+  width: 33.3%;
+  height: 100%;
+  border: 1px solid #000;
+}
+
+.block-25-25-25-25 {
+  display: flex;
+  border: 1px solid #000;
+}
+.block-25-25-25-25 .column {
+  width: 25%;
+  border: 1px solid #000;
+}
+
+.block-100 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  border: 1px solid #000;
+}
+
+.credit-block {
+  width: 300px;
+  border: 1px solid #000;
 }
 
 /*# sourceMappingURL=/src.e31bb0bc.css.map */
