@@ -4,6 +4,7 @@ import fourOFourView from './views/pages/404'
 import AboutView from './views/pages/about'
 import ContactView from './views/pages/contact'
 import graduateSearchView from './views/pages/graduateSearch'
+import GraduateView from './views/pages/graduate'
 
 
 // define routes
@@ -13,6 +14,7 @@ const routes = {
 	'/about': AboutView,
 	'/graduates': graduateSearchView,
 	'/contact': ContactView,
+	'/graduate': GraduateView // This is acutally going to be /graduate/_id but we will get to that later.
 }
 
 class Router {

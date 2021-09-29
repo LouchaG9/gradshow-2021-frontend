@@ -1,8 +1,11 @@
 // I have used flexbox to structure the pages out. I have tried to make the classes as reusable as possible so that I could apply them to multiple pages.
 // Where it has numbers in the class name it is referring to the percentage of the width each column is taking up.
 // eg. 50-50 means two equal columns, 33-66 means two columns the first being 33% and the second 66%.
-// For now the heights of each sections are just guesses and can change.
+// For now the heights of each sections are just guesses and can change. I have just included them to keep the empty sections visible, the content will dictate the height.
 // Obviously the borders are just there to help see the content blocks. They can be removed once more content gets put in :)
+
+// I also understand that this is a pretty weird system I have created here but it was late at night and I was tired. And hey, it's working ¯\_(ツ)_/¯
+// But seriously, if you need any explanations or can't figure something out, hit me up and I will try and understand what I wrote...
 
 .height-1 {
   height: 40vh;
@@ -75,4 +78,34 @@
 .credit-block {
   width: 300px;
   border: 1px solid #000;
+}
+
+// This is a pretty rudimentary media query and I am sure that it will need to change but for now it does basically what we need it to.
+
+@media screen and (max-width: 475px) {
+  .height-1,
+  .height-2 {
+    height: unset;
+  }
+
+  .block-33-33-33,
+  .block-50-50,
+  .block-33-66,
+  .block-25-25-25-25 {
+    flex-direction: column;
+    .subject {
+      width: 100%;
+    }
+    .column,
+    .column-1,
+    .column-2 {
+      width: 100%;
+    }
+    .reviews {
+      flex-direction: column;
+      .review {
+        width: 100%;
+      }
+    }
+  }
 }

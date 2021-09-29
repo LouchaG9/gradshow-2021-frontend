@@ -7628,7 +7628,7 @@ var _Utils = _interopRequireDefault(require("../../Utils"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject() {
-  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"All Graduates\"></va-app-header>\n      <div class=\"page-content\">        \n        <h1>All Graduates</h1>\n        <p>This is where all of the graduates will live. We will use a filter to determine which ones to show and update the page heading / banner accordingly</p>\n      </div>      \n    "]);
+  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"All Graduates\"></va-app-header>\n      <div class=\"page-content\">\n        <section class =\"block-100 height-1 showreel-container\">\n              <!-- This is where we will display a couple of the students best works. -->\n        </section>      \n        <section class=\"block-100 height-2\">\n            <h1>All Graduates</h1> <!-- Change title depending on the current filter, eg. \"graphic design graduates\" etc. -->\n              <!-- Some kind of dropdown / search bar to filter the students below. -->\n        </section>\n        <section class=\"block-100 height-1\">\n          <!-- This is where all the students will be inserted. -->\n        </section>\n        <footer>\n          <div class=\"footer-content\">\n            <div class=footer-col>\n              <h3>DeStore</h3>\n              <p>\n                Monday \u2013 Saturday: 8:00 am \u2013 4:00pm <br>\n                Sunday: 9:00 am \u2013 5:00pm<br>\n                Kent St, Bentley, 6102, Western Australia<br><br>\n                @destore\n              </p>\n            </div>\n            <div class=footer-col>\n              <h3>Quick Links</h3>\n              <ul>\n                <li>Home</li>\n                <li>Shop</li>\n                <li>About</li>\n                <li>Contact</li>\n              </ul>\n            </div>\n            <div class=footer-col>\n            <h3>Shop</h3>\n              <ul>\n                <li>Fresh Produce</li>\n                <li>Butcher</li>\n                <li>Bakery</li>\n              </ul>\n            </div>\n          </div>\n        </footer>\n      </div>      \n    "]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -7657,6 +7657,54 @@ class graduateSearchView {
 var _default = new graduateSearchView();
 
 exports.default = _default;
+},{"../../App":"App.js","lit-html":"../node_modules/lit-html/lit-html.js","../../Router":"Router.js","../../Utils":"Utils.js"}],"views/pages/graduate.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _App = _interopRequireDefault(require("../../App"));
+
+var _litHtml = require("lit-html");
+
+var _Router = require("../../Router");
+
+var _Utils = _interopRequireDefault(require("../../Utils"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _templateObject() {
+  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"Contact\"></va-app-header>\n      <div class=\"page-content\">        \n      <section class=\"block-50-50 height-1\">\n          <div class=\"column\">\n            <img src=\".../static/images/placeholder.png\" alt=\"Placeholder\">\n          </div>\n          <div class=\"column\">\n            <h3>Subject/Major</h3>\n            <h1>Jane Doe</h1>\n            <p><strong>Quirky Fact</strong><br>Something quirky/interesting about the student.</p>\n            <p><strong>Hobbies</strong><br>A list of hobbies of the student.</p>\n\n            <div class=\"buttons-wrapper\">\n              <button class=\"secondary\">Portfolio</button>\n              <button class=\"icon\">Linkedin</button>\n              <button class=\"icon\">Instagram</button>\n            </div>\n            \n            <p><strong>Description</strong></p>\n            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus suspendisse non, sit euismod mauris ut. Suscipit non elit at sem massa eget semper. Eget tristique adipiscing congue turpis tincidunt non. Commodo tortor nunc lacus lacinia amet, platea. Ut nec leo, lobortis mattis. Tristique molestie orci nec nulla dapibus ultricies vel cursus. Eget dictumst volutpat integer eu, suscipit tincidunt gravida aliquam ultricies. Pretium parturient a, integer eget aenean vel. Diam commodo, pellentesque purus pretium, nisi nunc nisi tempus, tellus. Amet suspendisse sodales tristique purus. Netus est quam neque arcu elit aliquam. Tristique vulputate sed a in morbi. Enim, adipiscing a purus enim curabitur nunc, ac. Non, eu cursus arcu ut eu, ut.</p>\n          </div>\n        </section>\n        \n        <section class=\"block-100 height-1\">\n          <h1>Jane Doe's Work</h1>\n          <div class =\"work-container\">\n            <!-- This is where we will display a couple of the students best works. -->\n          </div>\n        </section>\n\n        <footer>\n          <div class=\"footer-content\">\n            <div class=footer-col>\n              <h3>DeStore</h3>\n              <p>\n                Monday \u2013 Saturday: 8:00 am \u2013 4:00pm <br>\n                Sunday: 9:00 am \u2013 5:00pm<br>\n                Kent St, Bentley, 6102, Western Australia<br><br>\n                @destore\n              </p>\n            </div>\n            <div class=footer-col>\n              <h3>Quick Links</h3>\n              <ul>\n                <li>Home</li>\n                <li>Shop</li>\n                <li>About</li>\n                <li>Contact</li>\n              </ul>\n            </div>\n            <div class=footer-col>\n            <h3>Shop</h3>\n              <ul>\n                <li>Fresh Produce</li>\n                <li>Butcher</li>\n                <li>Bakery</li>\n              </ul>\n            </div>\n          </div>\n        </footer>\n      </div>      \n    "]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+class GraduateView {
+  init() {
+    document.title = 'About Page';
+    this.render();
+
+    _Utils.default.pageIntroAnim();
+  }
+
+  render() {
+    const template = (0, _litHtml.html)(_templateObject());
+    (0, _litHtml.render)(template, _App.default.rootEl);
+  }
+
+}
+
+var _default = new GraduateView();
+
+exports.default = _default;
 },{"../../App":"App.js","lit-html":"../node_modules/lit-html/lit-html.js","../../Router":"Router.js","../../Utils":"Utils.js"}],"Router.js":[function(require,module,exports) {
 "use strict";
 
@@ -7677,6 +7725,8 @@ var _contact = _interopRequireDefault(require("./views/pages/contact"));
 
 var _graduateSearch = _interopRequireDefault(require("./views/pages/graduateSearch"));
 
+var _graduate = _interopRequireDefault(require("./views/pages/graduate"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // import views
@@ -7686,7 +7736,9 @@ const routes = {
   '404': _.default,
   '/about': _about.default,
   '/graduates': _graduateSearch.default,
-  '/contact': _contact.default
+  '/contact': _contact.default,
+  '/graduate': _graduate.default // This is acutally going to be /graduate/_id but we will get to that later.
+
 };
 
 class Router {
@@ -7740,7 +7792,7 @@ function anchorRoute(e) {
   const pathname = e.target.closest('a').pathname;
   AppRouter.gotoRoute(pathname);
 }
-},{"./views/pages/home":"views/pages/home.js","./views/pages/404":"views/pages/404.js","./views/pages/about":"views/pages/about.js","./views/pages/contact":"views/pages/contact.js","./views/pages/graduateSearch":"views/pages/graduateSearch.js"}],"Toast.js":[function(require,module,exports) {
+},{"./views/pages/home":"views/pages/home.js","./views/pages/404":"views/pages/404.js","./views/pages/about":"views/pages/about.js","./views/pages/contact":"views/pages/contact.js","./views/pages/graduateSearch":"views/pages/graduateSearch.js","./views/pages/graduate":"views/pages/graduate.js"}],"Toast.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -9786,7 +9838,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62917" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63572" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

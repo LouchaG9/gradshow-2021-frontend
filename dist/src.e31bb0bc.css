@@ -96,6 +96,7 @@ a {
   left: 0;
   right: 0;
   overflow: hidden;
+  overflow-y: scroll;
 }
 
 .page-content {
@@ -104,7 +105,6 @@ a {
   left: 0;
   right: 0;
   bottom: 0;
-  overflow-y: scroll;
   padding: 1em;
   max-width: 1920px;
   margin: 0 auto;
@@ -299,6 +299,52 @@ sl-dialog::part(title) {
 .credit-block {
   width: 300px;
   border: 1px solid #000;
+}
+
+@media screen and (max-width: 475px) {
+  .height-1,
+.height-2 {
+    height: unset;
+  }
+
+  .block-33-33-33,
+.block-50-50,
+.block-33-66,
+.block-25-25-25-25 {
+    flex-direction: column;
+  }
+  .block-33-33-33 .subject,
+.block-50-50 .subject,
+.block-33-66 .subject,
+.block-25-25-25-25 .subject {
+    width: 100%;
+  }
+  .block-33-33-33 .column,
+.block-33-33-33 .column-1,
+.block-33-33-33 .column-2,
+.block-50-50 .column,
+.block-50-50 .column-1,
+.block-50-50 .column-2,
+.block-33-66 .column,
+.block-33-66 .column-1,
+.block-33-66 .column-2,
+.block-25-25-25-25 .column,
+.block-25-25-25-25 .column-1,
+.block-25-25-25-25 .column-2 {
+    width: 100%;
+  }
+  .block-33-33-33 .reviews,
+.block-50-50 .reviews,
+.block-33-66 .reviews,
+.block-25-25-25-25 .reviews {
+    flex-direction: column;
+  }
+  .block-33-33-33 .reviews .review,
+.block-50-50 .reviews .review,
+.block-33-66 .reviews .review,
+.block-25-25-25-25 .reviews .review {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=/src.e31bb0bc.css.map */
