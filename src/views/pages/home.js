@@ -14,8 +14,87 @@ class HomeView {
   render(){
     const template = html`
       <va-app-header title="Home"></va-app-header>
-      
-      <div class="page-content">
+
+     
+     <div class="page-content">
+
+     <section class="banner">
+        <div class="column-1">
+          <h1>Organic Shop<br>Fruit & Vegetables</h1>
+          <button class="shop-graduates-btn">Shop all graduates</button>
+          <p>The showcase of Curtin University design graduates</p>
+        </div>
+
+        <div class="column-2">
+          <img src="https://i.stack.imgur.com/y9DpT.jpg">
+        </div>
+      </section>
+
+      <section class="majors">
+      <div class="major-columns">
+
+       <div class="animation-column">
+         <img class="animation-image" src="https://freepngclipart.com/thumb/bread/61-bread-png-image.png">
+         <h3>Animation & Game Design</h3>
+       </div>
+       
+        <div class="digex-column">
+         <img class="digex-image" src="https://freepngclipart.com/thumb/bread/61-bread-png-image.png">
+         <h3>Digital Design</h3>
+    </div>
+
+    <div class="graphic-column">
+         <img class="graphic-image" src="https://freepngclipart.com/thumb/bread/61-bread-png-image.png">
+         <h3>Graphic Design</h3>
+    </div>
+      </section>
+
+      <section class="what-are-we">
+        <div class="what-are-we-left">
+
+        </div>
+        <div class="what-are-we-right">
+        <h1>What are we?</h1>
+        <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and 
+          demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the 
+          pain and trouble that are bound to ensue;<br><br>and equal blame belongs to those who fail in their duty through 
+          weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly 
+          simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when 
+          nothing prevents our being able to do what we like best </p>
+        <button>Learn about us</button>
+        </div>
+        
+      </section>
+
+      <section class="what-are-people-saying">
+        <div class="saying-left">
+          <h1>What are people saying?</h1>
+        </div>
+
+        <div class="saying-right">
+          <div class="saying-joel">
+            <h2>Joel Louie</h2>
+            <h3>Digital Design Major Coordinator</h3>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum maximus 
+              sem non venenatis. In erat turpis, suscipit non libero sed, fermentum interdum nunc. 
+              Duis sagittis neque sit amet."</p>
+            </div>
+          <div class="saying-lee">
+            <h2>Lee Ingram</h2>
+            <h3>Digital Design Major Coordinator</h3>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum maximus 
+              sem non venenatis. In erat turpis, suscipit non libero sed, fermentum interdum nunc. 
+              Duis sagittis neque sit amet."</p>
+            </div>
+          <div class="saying-jonathon">
+            <h2>Jonathon Pillai</h2>
+            <h3>Digital Design Major Coordinator</h3>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum maximus 
+              sem non venenatis. In erat turpis, suscipit non libero sed, fermentum interdum nunc. 
+              Duis sagittis neque sit amet."</p>
+            </div>
+      </section>
+     <!---
         <section class="block-50-50 height-1">
           <div class="column">
             <h1>Welcome to the Destore</h1>
@@ -29,18 +108,18 @@ class HomeView {
             <img src=".../static/images/placeholder.png" alt="Placeholder">
           </div>
         </section>
+        --!>
 
+        <!----
         <section class="block-33-33-33 height-2">
           <div class="subject">
-           <h1>Locally sourced, organic produce.</h1>
            <p>Animation & Game Design.</p>
           </div>
           <div class="subject">
-            <h1>Only the finest cuts.</h1>
             <p>Graphic Design.</p>
           </div>
-          <div class="subject">
-            <h1>Fresh from the bakery.</h1>
+          <div class="digital-bread">
+          <img alt="bread" src="https://freepngclipart.com/thumb/bread/61-bread-png-image.png">
             <p>Digital Experience & Interaction Design.</p>
           </div>
         </section>
@@ -77,7 +156,7 @@ class HomeView {
         </section>
 
         <section class="image-slider">
-          <!-- not sure how we want to code this one in. Might need to look at something like slick-slider or glide.js -->
+         not sure how we want to code this one in. Might need to look at something like slick-slider or glide.js 
         </section>
 
         <footer>
@@ -111,7 +190,9 @@ class HomeView {
           </div>
         </footer>
       </div>
-     
+      -->
+
+
     `
     render(template, App.rootEl)
   }

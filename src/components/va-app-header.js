@@ -60,7 +60,7 @@ customElements.define('va-app-header', class AppHeader extends LitElement {
         box-sizing: border-box;
       }
       .app-header {
-        background: var(--brand-color);
+        background: var(--sl-color-white);
         position: fixed;
         top: 0;
         right: 0;
@@ -103,14 +103,14 @@ customElements.define('va-app-header', class AppHeader extends LitElement {
         width: 200px;
         height: var(--app-header-height);
         align-self: flex-end;
-        background: blue;
+        
       }
 
       .app-top-nav a {
         display: inline-block;
         padding: .8em;
         text-decoration: none;
-        color: #fff;
+        color: black;
       }
       
       .app-side-menu-items a {
@@ -188,7 +188,7 @@ customElements.define('va-app-header', class AppHeader extends LitElement {
 
     <sl-drawer class="app-side-menu" placement="left">
 
-      <img class="app-side-menu-logo" src="/images/logo.svg">
+      <img class="app-side-menu-logo" src="/images/logo.png">
       <nav class="app-side-menu-items">
 
         <a href="/" @click="${this.menuClick}">Home</a>

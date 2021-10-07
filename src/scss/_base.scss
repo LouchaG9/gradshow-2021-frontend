@@ -163,6 +163,151 @@ footer {
   margin-top: -4em;
 }
 
+// homepage design
+
+// banner 
+button {
+  background-color: var(--brand-color);
+  color: white;
+  border: none;
+  margin: 1rem 0 1rem 1rem;
+  padding: 0.5rem 5rem;
+  text-align: center;
+  place-items: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+h1 {
+  color: var(--brand-color);
+  font-size: 3rem;
+  margin: 1rem;
+}
+
+.banner {
+  display: flex;
+  .column-1 {
+    width: 40%;
+    padding: 1rem;
+
+    p {
+      text-transform: uppercase;
+      margin: 1rem 0 1rem 1rem;
+      font-size: 0.5rem;
+      letter-spacing: 0.1rem;
+    }
+  }
+  .column-2 {
+    width: 60%;
+    img {
+      width: 90%;
+      margin: 1rem rem 1rem 4rem;
+    }
+  }
+}
+
+// major categories
+.major-columns {
+  display: flex;
+  padding-top: 3rem;
+}
+
+.animation-image {
+  width: 60%;
+  margin-top: -80px;
+  margin-bottom: 50px;
+}
+
+.digex-image {
+  width: 60%;
+  margin-top: -80px;
+  margin-bottom: 50px;
+}
+
+.graphic-image {
+  width: 60%;
+  margin-top: -80px;
+  margin-bottom: 50px;
+}
+
+.animation-column, .digex-column, .graphic-column{
+  background: var(--destore-blue);
+  height: 200px;
+  width: 33.3%;
+  text-align: center;
+  padding: 20px 0 0 0;
+  margin: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.digex-column {
+  background: var(--destore-green);
+}
+
+.graphic-column {
+  background: var(--destore-purple);
+}
+
+// what are we 
+.what-are-we {
+  display: flex;
+  padding: 0.6rem;
+  margin-top: 3rem;
+}
+
+.what-are-we-left {
+  background-color: var(--destore-purple);
+  height: 25rem;
+  width: 75rem;
+}
+
+.what-are-we-right {
+  p {
+  width: 60%;
+  margin-left: 4rem;
+  }
+  h1 {
+    margin-left: 4rem;
+  }
+  button {
+    margin-left: 4rem;
+  }
+}
+
+// what are people saying
+.what-are-people-saying  {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.saying-left {
+  width: 40%;
+}
+
+.saying-right {
+  background-color: var(--destore-purple);
+  width: 70%;
+  padding: 2.5rem 4rem;
+  display: flex;
+  gap: 20px;
+  p {
+    font-size: 0.8rem;
+  }
+  h2 {
+    text-transform: uppercase;
+    font-size: 1rem;
+  }
+  h3 {
+    font-size: 0.8rem;
+    font-weight: 200;
+  }
+}
+
 // RESPONSIVE - MOBILE -------------------
 @media all and (max-width: 768px) {
   .signinup-box {
