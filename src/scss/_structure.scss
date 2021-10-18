@@ -18,67 +18,67 @@
 .block-50-50 {
   display: flex;
   flex-direction: row;
-  border: 1px solid #000;
-  .column {
+/*   border: 1px solid #000;
+ */  .column {
     width: 50%;
-    border: 1px solid #000;
-  }
+/*     border: 1px solid #000;
+ */  }
 }
 
 .block-33-33-33 {
   display: flex;
   flex-direction: row;
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   .subject {
     height: 100%;
     width: 33.33%;
-    border: 1px solid #000;
+  /*   border: 1px solid #000; */
   }
 }
 
 .block-33-66 {
   display: flex;
   flex-direction: row;
-  border: 1px solid #000;
-  .column-1 {
+/*   border: 1px solid #000;
+ */  .column-1 {
     width: 33.3%;
-    border: 1px solid #000;
-  }
+/*     border: 1px solid #000;
+ */  }
   .column-2 {
     width: 66.6%;
-    border: 1px solid #000;
-  }
+/*     border: 1px solid #000;
+ */  }
   .reviews {
     display: flex;
     flex-direction: row;
     .review {
       width: 33.3%;
       height: 100%;
-      border: 1px solid #000;
-    }
+/*       border: 1px solid #000;
+ */    }
   }
 }
 
 .block-25-25-25-25 {
   display: flex;
-  border: 1px solid #000;
-  .column {
+/*   border: 1px solid #000;
+ */  .column {
     width: 25%;
-    border: 1px solid #000;
-  }
+/*     border: 1px solid #000;
+ */  }
 }
 
 .block-100 {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  border: 1px solid #000;
-}
+/*   border: 1px solid #000;
+ */}
 
 .credit-block {
   width: 300px;
-  border: 1px solid #000;
-}
+/*   border: 1px solid #000;
+ */}
 
 // This is a pretty rudimentary media query and I am sure that it will need to change but for now it does basically what we need it to.
 

@@ -16,7 +16,7 @@ class GraduateView {
       <div class="page-content">        
       <section class="block-50-50 height-1">
           <div class="column">
-            <img src=".../static/images/placeholder.png" alt="Placeholder">
+            <img class="about-img" src=".../static/images/placeholder.png" alt="Placeholder">
           </div>
           <div class="column">
             <h3>Subject/Major</h3>

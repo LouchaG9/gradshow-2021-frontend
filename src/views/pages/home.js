@@ -66,7 +66,7 @@ class HomeView {
         
       </section>
 
-      <section class="what-are-people-saying">
+      <div class="what-are-people-saying">
         <div class="saying-left">
           <h1>What are people saying?</h1>
         </div>
@@ -93,7 +93,7 @@ class HomeView {
               sem non venenatis. In erat turpis, suscipit non libero sed, fermentum interdum nunc. 
               Duis sagittis neque sit amet."</p>
             </div>
-      </section>
+  </div>
      <!---
         <section class="block-50-50 height-1">
           <div class="column">
