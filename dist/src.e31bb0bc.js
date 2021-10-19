@@ -7609,7 +7609,7 @@ class ContactView {
 var _default = new ContactView();
 
 exports.default = _default;
-},{"../../App":"App.js","lit-html":"../node_modules/lit-html/lit-html.js","../../Router":"Router.js","../../Utils":"Utils.js"}],"views/pages/graduateSearch.js":[function(require,module,exports) {
+},{"../../App":"App.js","lit-html":"../node_modules/lit-html/lit-html.js","../../Router":"Router.js","../../Utils":"Utils.js"}],"views/partials/splash.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -7617,18 +7617,10 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _App = _interopRequireDefault(require("../../App"));
-
 var _litHtml = require("lit-html");
 
-var _Router = require("../../Router");
-
-var _Utils = _interopRequireDefault(require("../../Utils"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
 function _templateObject() {
-  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"All Graduates\"></va-app-header>\n      <div class=\"page-content\">\n        <section class =\"block-100 height-1 showreel-container\">\n              <!-- This is where we will display a couple of the students best works. -->\n        </section>      \n        <section class=\"block-100 height-2\">\n            <h1>All Graduates</h1> <!-- Change title depending on the current filter, eg. \"graphic design graduates\" etc. -->\n              <!-- Some kind of dropdown / search bar to filter the students below. -->\n        </section>\n        <section class=\"block-100 height-1\">\n          <!-- This is where all the students will be inserted. -->\n        </section>\n        <footer>\n          <div class=\"footer-content\">\n            <div class=footer-col>\n              <h3>DeStore</h3>\n              <p>\n                Monday \u2013 Saturday: 8:00 am \u2013 4:00pm <br>\n                Sunday: 9:00 am \u2013 5:00pm<br>\n                Kent St, Bentley, 6102, Western Australia<br><br>\n                @destore\n              </p>\n            </div>\n            <div class=footer-col>\n              <h3>Quick Links</h3>\n              <ul>\n                <li>Home</li>\n                <li>Shop</li>\n                <li>About</li>\n                <li>Contact</li>\n              </ul>\n            </div>\n            <div class=footer-col>\n            <h3>Shop</h3>\n              <ul>\n                <li>Fresh Produce</li>\n                <li>Butcher</li>\n                <li>Bakery</li>\n              </ul>\n            </div>\n          </div>\n        </footer>\n      </div>      \n    "]);
+  const data = _taggedTemplateLiteral(["\n\n  <div class=\"app-splash\">\n    <div class=\"inner\">\n      <img class=\"app-logo\" src=\"/images/logo.svg\" />\n      <sl-spinner style=\"font-size: 2em;\"></sl-spinner>\n    </div>\n  </div>\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -7639,160 +7631,10 @@ function _templateObject() {
 
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
-class graduateSearchView {
-  init() {
-    document.title = 'All Graduates';
-    this.render();
-
-    _Utils.default.pageIntroAnim();
-  }
-
-  render() {
-    const template = (0, _litHtml.html)(_templateObject());
-    (0, _litHtml.render)(template, _App.default.rootEl);
-  }
-
-}
-
-var _default = new graduateSearchView();
-
+const splash = (0, _litHtml.html)(_templateObject());
+var _default = splash;
 exports.default = _default;
-},{"../../App":"App.js","lit-html":"../node_modules/lit-html/lit-html.js","../../Router":"Router.js","../../Utils":"Utils.js"}],"views/pages/graduate.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _App = _interopRequireDefault(require("../../App"));
-
-var _litHtml = require("lit-html");
-
-var _Router = require("../../Router");
-
-var _Utils = _interopRequireDefault(require("../../Utils"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _templateObject() {
-  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"Contact\"></va-app-header>\n      <div class=\"page-content\">        \n      <section class=\"block-50-50 height-1\">\n          <div class=\"column\">\n            <img class=\"about-img\" src=\".../static/images/placeholder.png\" alt=\"Placeholder\">\n          </div>\n          <div class=\"column\">\n            <h3>Subject/Major</h3>\n            <h1>Jane Doe</h1>\n            <p><strong>Quirky Fact</strong><br>Something quirky/interesting about the student.</p>\n            <p><strong>Hobbies</strong><br>A list of hobbies of the student.</p>\n\n            <div class=\"buttons-wrapper\">\n              <button class=\"secondary\">Portfolio</button>\n              <button class=\"icon\">Linkedin</button>\n              <button class=\"icon\">Instagram</button>\n            </div>\n            \n            <p><strong>Description</strong></p>\n            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus suspendisse non, sit euismod mauris ut. Suscipit non elit at sem massa eget semper. Eget tristique adipiscing congue turpis tincidunt non. Commodo tortor nunc lacus lacinia amet, platea. Ut nec leo, lobortis mattis. Tristique molestie orci nec nulla dapibus ultricies vel cursus. Eget dictumst volutpat integer eu, suscipit tincidunt gravida aliquam ultricies. Pretium parturient a, integer eget aenean vel. Diam commodo, pellentesque purus pretium, nisi nunc nisi tempus, tellus. Amet suspendisse sodales tristique purus. Netus est quam neque arcu elit aliquam. Tristique vulputate sed a in morbi. Enim, adipiscing a purus enim curabitur nunc, ac. Non, eu cursus arcu ut eu, ut.</p>\n          </div>\n        </section>\n        \n        <section class=\"block-100 height-1\">\n          <h1>Jane Doe's Work</h1>\n          <div class =\"work-container\">\n            <!-- This is where we will display a couple of the students best works. -->\n          </div>\n        </section>\n\n        <footer>\n          <div class=\"footer-content\">\n            <div class=footer-col>\n              <h3>DeStore</h3>\n              <p>\n                Monday \u2013 Saturday: 8:00 am \u2013 4:00pm <br>\n                Sunday: 9:00 am \u2013 5:00pm<br>\n                Kent St, Bentley, 6102, Western Australia<br><br>\n                @destore\n              </p>\n            </div>\n            <div class=footer-col>\n              <h3>Quick Links</h3>\n              <ul>\n                <li>Home</li>\n                <li>Shop</li>\n                <li>About</li>\n                <li>Contact</li>\n              </ul>\n            </div>\n            <div class=footer-col>\n            <h3>Shop</h3>\n              <ul>\n                <li>Fresh Produce</li>\n                <li>Butcher</li>\n                <li>Bakery</li>\n              </ul>\n            </div>\n          </div>\n        </footer>\n      </div>      \n    "]);
-
-  _templateObject = function _templateObject() {
-    return data;
-  };
-
-  return data;
-}
-
-function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
-
-class GraduateView {
-  init() {
-    document.title = 'About Page';
-    this.render();
-
-    _Utils.default.pageIntroAnim();
-  }
-
-  render() {
-    const template = (0, _litHtml.html)(_templateObject());
-    (0, _litHtml.render)(template, _App.default.rootEl);
-  }
-
-}
-
-var _default = new GraduateView();
-
-exports.default = _default;
-},{"../../App":"App.js","lit-html":"../node_modules/lit-html/lit-html.js","../../Router":"Router.js","../../Utils":"Utils.js"}],"Router.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.gotoRoute = gotoRoute;
-exports.anchorRoute = anchorRoute;
-exports.default = void 0;
-
-var _home = _interopRequireDefault(require("./views/pages/home"));
-
-var _ = _interopRequireDefault(require("./views/pages/404"));
-
-var _about = _interopRequireDefault(require("./views/pages/about"));
-
-var _contact = _interopRequireDefault(require("./views/pages/contact"));
-
-var _graduateSearch = _interopRequireDefault(require("./views/pages/graduateSearch"));
-
-var _graduate = _interopRequireDefault(require("./views/pages/graduate"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-// import views
-// define routes
-const routes = {
-  '/': _home.default,
-  '404': _.default,
-  '/about': _about.default,
-  '/graduates': _graduateSearch.default,
-  '/contact': _contact.default,
-  '/graduate': _graduate.default // This is acutally going to be /graduate/_id but we will get to that later.
-
-};
-
-class Router {
-  constructor() {
-    this.routes = routes;
-  }
-
-  init() {
-    // initial call
-    this.route(window.location.pathname); // on back/forward
-
-    window.addEventListener('popstate', () => {
-      this.route(window.location.pathname);
-    });
-  }
-
-  route(fullPathname) {
-    // extract path without params
-    const pathname = fullPathname.split('?')[0];
-    const route = this.routes[pathname];
-
-    if (route) {
-      // if route exists, run init() of the view
-      this.routes[window.location.pathname].init();
-    } else {
-      // show 404 view instead
-      this.routes['404'].init();
-    }
-  }
-
-  gotoRoute(pathname) {
-    window.history.pushState({}, pathname, window.location.origin + pathname);
-    this.route(pathname);
-  }
-
-} // create appRouter instance and export
-
-
-const AppRouter = new Router();
-var _default = AppRouter; // programmatically load any route
-
-exports.default = _default;
-
-function gotoRoute(pathname) {
-  AppRouter.gotoRoute(pathname);
-} // allows anchor <a> links to load routes
-
-
-function anchorRoute(e) {
-  e.preventDefault();
-  const pathname = e.target.closest('a').pathname;
-  AppRouter.gotoRoute(pathname);
-}
-},{"./views/pages/home":"views/pages/home.js","./views/pages/404":"views/pages/404.js","./views/pages/about":"views/pages/about.js","./views/pages/contact":"views/pages/contact.js","./views/pages/graduateSearch":"views/pages/graduateSearch.js","./views/pages/graduate":"views/pages/graduate.js"}],"Toast.js":[function(require,module,exports) {
+},{"lit-html":"../node_modules/lit-html/lit-html.js"}],"Toast.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -7851,7 +7693,546 @@ class Toast {
 }
 
 exports.default = Toast;
-},{"./App":"App.js","lit-html":"../node_modules/lit-html/lit-html.js","gsap":"../node_modules/gsap/index.js"}],"App.js":[function(require,module,exports) {
+},{"./App":"App.js","lit-html":"../node_modules/lit-html/lit-html.js","gsap":"../node_modules/gsap/index.js"}],"Auth.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _App = _interopRequireDefault(require("./App"));
+
+var _Router = _interopRequireWildcard(require("./Router"));
+
+var _splash = _interopRequireDefault(require("./views/partials/splash"));
+
+var _litHtml = require("lit-html");
+
+var _Toast = _interopRequireDefault(require("./Toast"));
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+class Auth {
+  constructor() {
+    this.currentUser = {};
+  }
+
+  async signUp(userData) {
+    let fail = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
+    const response = await fetch("".concat(_App.default.apiBase, "/user"), {
+      method: 'POST',
+      body: userData
+    }); // if response not ok
+
+    if (!response.ok) {
+      // console log error
+      const err = await response.json();
+      if (err) console.log(err); // show error      
+
+      _Toast.default.show("Problem getting user: ".concat(response.status)); // run fail() functon if set
+
+
+      if (typeof fail == 'function') fail();
+    } /// sign up success - show toast and redirect to sign in page
+
+
+    _Toast.default.show('Account created, please sign in'); // redirect to signin
+
+
+    (0, _Router.gotoRoute)('/signin');
+  }
+
+  async signIn(userData) {
+    let fail = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
+    const response = await fetch("".concat(_App.default.apiBase, "/auth/signin"), {
+      method: 'POST',
+      body: userData
+    }); // if response not ok
+
+    if (!response.ok) {
+      // console log error
+      const err = await response.json();
+      if (err) console.log(err); // show error      
+
+      _Toast.default.show("Problem signing in: ".concat(err.message), 'error'); // run fail() functon if set
+
+
+      if (typeof fail == 'function') fail();
+    } // sign in success
+
+
+    const data = await response.json();
+
+    _Toast.default.show("Welcome  ".concat(data.user.firstName)); // save access token (jwt) to local storage
+
+
+    localStorage.setItem('accessToken', data.accessToken); // set current user
+
+    this.currentUser = data.user; // console.log(this.currentUser)       
+
+    _Router.default.init(); // Redirection
+
+
+    if (data.user.newUser == true) {
+      // Redirect NEW USER to the guide page! (url/guide)
+      (0, _Router.gotoRoute)('/guide');
+    } else {
+      // If it is an EXISTING USER, bring them to the home page (url/)
+      (0, _Router.gotoRoute)('/');
+    }
+  } // Redirect to home
+  //***   Router.init()
+  //***   gotoRoute('/')
+  //*** }
+
+
+  async check(success) {
+    // show splash screen while loading ...   
+    (0, _litHtml.render)(_splash.default, _App.default.rootEl); // check local token is there
+
+    if (!localStorage.accessToken) {
+      // no local token!
+      _Toast.default.show("Please sign in"); // redirect to sign in page      
+
+
+      (0, _Router.gotoRoute)('/signin');
+      return;
+    } // token must exist - validate token via the backend
+
+
+    const response = await fetch("".concat(_App.default.apiBase, "/auth/validate"), {
+      method: 'GET',
+      headers: {
+        "Authorization": "Bearer ".concat(localStorage.accessToken)
+      }
+    }); // if response not ok
+
+    if (!response.ok) {
+      // console log error
+      const err = await response.json();
+      if (err) console.log(err); // delete local token
+
+      localStorage.removeItem('accessToken');
+
+      _Toast.default.show("session expired, please sign in"); // redirect to sign in      
+
+
+      (0, _Router.gotoRoute)('/signin');
+      return;
+    } // token is valid!
+
+
+    const data = await response.json(); // console.log(data)
+    // set currentUser obj
+
+    this.currentUser = data.user; // run success
+
+    success();
+  }
+
+  signOut() {
+    _Toast.default.show("You are signed out"); // delete local token
+
+
+    localStorage.removeItem('accessToken'); // redirect to sign in    
+
+    (0, _Router.gotoRoute)('/signin'); // unset currentUser
+
+    this.currentUser = null;
+  }
+
+}
+
+var _default = new Auth();
+
+exports.default = _default;
+},{"./App":"App.js","./Router":"Router.js","./views/partials/splash":"views/partials/splash.js","lit-html":"../node_modules/lit-html/lit-html.js","./Toast":"Toast.js"}],"GraduateAPI.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _App = _interopRequireDefault(require("./App"));
+
+var _Auth = _interopRequireDefault(require("./Auth"));
+
+var _Toast = _interopRequireDefault(require("./Toast"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+class GraduateAPI {
+  // GET ALL GRADUATES ------------------------------
+  async getGraduates() {
+    // fetch the json data
+    const response = await fetch("".concat(_App.default.apiBase, "/graduate")); // convert response payload into json - store as data
+
+    const data = await response.json(); // return data
+
+    return data;
+  } // GET SINGLE GRADUATE ------------------------------
+
+
+  async getGraduate(id) {
+    // fetch the json data
+    const response = await fetch("".concat(_App.default.apiBase, "/graduate/").concat(id)); // convert response payload into json - store as data
+
+    const data = await response.json(); // return data
+
+    return data;
+  }
+
+}
+
+var _default = new GraduateAPI();
+
+exports.default = _default;
+},{"./App":"App.js","./Auth":"Auth.js","./Toast":"Toast.js"}],"views/pages/viewGraduate.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _App = _interopRequireDefault(require("./../../App"));
+
+var _litHtml = require("lit-html");
+
+var _Router = require("./../../Router");
+
+var _Auth = _interopRequireDefault(require("./../../Auth"));
+
+var _Utils = _interopRequireDefault(require("./../../Utils"));
+
+var _GraduateAPI = _interopRequireDefault(require("./../../GraduateAPI"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _templateObject3() {
+  const data = _taggedTemplateLiteral(["\n\n        <!-- ABOUT THE STUDENT ---------------------------------->\n        <section class=\"block-50-50\">\n          <div class=\"column\">\n            <img src=\"", "/images/", "\" />\n          </div>\n          <div class=\"column\">\n            <h3>Major", "</h3>\n            <h1>First Name", "</h1>\n            <p><strong>Quirky Fact</strong><br>Something quirky/interesting about the student.", "</p>\n            <p><strong>Hobbies</strong><br>A list of hobbies of the student.", "</p>\n\n            <div class=\"buttons-wrapper\">\n              <button class=\"secondary\">Portfolio</button>\n              <button class=\"icon\">Linkedin</button>\n              <button class=\"icon\">Instagram</button>\n            </div>\n            \n            <p><strong>Description</strong></p>\n            <p>", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus suspendisse non, sit euismod mauris ut. Suscipit non elit at sem massa eget semper. Eget tristique adipiscing congue turpis tincidunt non. Commodo tortor nunc lacus lacinia amet, platea. Ut nec leo, lobortis mattis. Tristique molestie orci nec nulla dapibus ultricies vel cursus. Eget dictumst volutpat integer eu, suscipit tincidunt gravida aliquam ultricies. Pretium parturient a, integer eget aenean vel. Diam commodo, pellentesque purus pretium, nisi nunc nisi tempus, tellus. Amet suspendisse sodales tristique purus. Netus est quam neque arcu elit aliquam. Tristique vulputate sed a in morbi. Enim, adipiscing a purus enim curabitur nunc, ac. Non, eu cursus arcu ut eu, ut.</p>\n          </div>\n        </section>\n        \n\n        <!-- WORK ---------------------------------->\n        <section class=\"block-100 height-1\">\n          <h1>Jane Doe's Work</h1>\n          <div class =\"work-container\">\n            <!-- This is where we will display a couple of the students best works. -->\n          </div>\n        </section>\n\n        "]);
+
+  _templateObject3 = function _templateObject3() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject2() {
+  const data = _taggedTemplateLiteral(["\n        <sl-spinner></sl-spinner>\n        "]);
+
+  _templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject() {
+  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"View Graduate\" user=\"", "\"></va-app-header>\n      <div class=\"page-content\">\n        \n        ", " <!-- end of individual rendering -->\n\n\n         <!-- FOOTER ---------------------------------->\n         <footer>\n          <div class=\"footer-content\">\n            <div class=footer-col>\n              <h3>DeStore</h3>\n              <p>\n                Monday \u2013 Saturday: 8:00 am \u2013 4:00pm <br>\n                Sunday: 9:00 am \u2013 5:00pm<br>\n                Kent St, Bentley, 6102, Western Australia<br><br>\n                @destore\n              </p>\n            </div>\n            <div class=footer-col>\n              <h3>Quick Links</h3>\n              <ul>\n                <li>Home</li>\n                <li>Shop</li>\n                <li>About</li>\n                <li>Contact</li>\n              </ul>\n            </div>\n            <div class=footer-col>\n            <h3>Shop</h3>\n              <ul>\n                <li>Fresh Produce</li>\n                <li>Butcher</li>\n                <li>Bakery</li>\n              </ul>\n            </div>\n          </div>\n        </footer>\n        \n      </div>      \n    "]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+class viewGraduateView {
+  init() {
+    document.title = 'View Graduate';
+    this.graduate = null;
+    this.render();
+
+    _Utils.default.pageIntroAnim();
+
+    this.getGraduate();
+  }
+
+  async getGraduate() {
+    // get id param from URL
+    const urlParams = new URLSearchParams(location.search);
+    const id = urlParams.get('id'); // console.log(id)
+    // get the graduate
+
+    this.graduate = await _GraduateAPI.default.getGraduate(id);
+    console.log(this.graduate);
+    this.render();
+  }
+
+  render() {
+    const template = (0, _litHtml.html)(_templateObject(), JSON.stringify(_Auth.default.currentUser), this.graduate == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), _App.default.apiBase, this.graduate.normalPhoto, this.graduate.major, this.graduate.firstName, this.graduate.quirkyFact, this.graduate.hobbies, this.graduate.description));
+    (0, _litHtml.render)(template, _App.default.rootEl);
+  }
+
+}
+
+var _default = new viewGraduateView();
+
+exports.default = _default;
+},{"./../../App":"App.js","lit-html":"../node_modules/lit-html/lit-html.js","./../../Router":"Router.js","./../../Auth":"Auth.js","./../../Utils":"Utils.js","./../../GraduateAPI":"GraduateAPI.js"}],"views/pages/graduates.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _App = _interopRequireDefault(require("./../../App"));
+
+var _litHtml = require("lit-html");
+
+var _Router = require("./../../Router");
+
+var _Auth = _interopRequireDefault(require("./../../Auth"));
+
+var _Utils = _interopRequireDefault(require("./../../Utils"));
+
+var _GraduateAPI = _interopRequireDefault(require("./../../GraduateAPI"));
+
+var _Toast = _interopRequireDefault(require("../../Toast"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _templateObject4() {
+  const data = _taggedTemplateLiteral(["\n\n              <va-graduates class=\"graduate-card\"\n                  id=\"", "\" \n                  firstName=\"", "\" \n                  lastName=\"", "\"\n                  normalPhoto=\"", "\"\n                  quirkyPhoto=\"", "\"\n                >\n              </va-graduates>\n\n              "]);
+
+  _templateObject4 = function _templateObject4() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject3() {
+  const data = _taggedTemplateLiteral(["\n              ", "\n            "]);
+
+  _templateObject3 = function _templateObject3() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject2() {
+  const data = _taggedTemplateLiteral(["\n              <sl-spinner></sl-spinner>\n            "]);
+
+  _templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject() {
+  const data = _taggedTemplateLiteral(["\n\n\n      <va-app-header title=\"Shop\" user=\"", "\"></va-app-header>\n      <div class=\"page-content\">\n\n        <!-- title -->\n        <h2>Graduates.</h2>\n\n\n        <!-- SHOWREEL CONTAINER ---------------------------------->\n        <section class =\"block-100 height-1 showreel-container\">\n          <h1>showreel container</h1>\n          <!-- This is where we will display a couple of the students best works. -->\n        </section> \n\n       \n        <!-- FILTER DROPDOWN / SEARCH BAR ---------------------------------->\n        <section class=\"search-and-filter-container\">\n\n          <!-- search bar -->\n          <div class=\"search-input-container\">\n            <input class=\"search-input\" type=\"search\" @keyup=", " placeholder=\"Search\" />\n            <i class=\"fas fa-search\"></i>\n          </div>\n\n\n          <!-- search filters -->\n          <label class=\"dropdown\">\n            <div class=\"dd-button\">\n              Filter\n            </div>\n            <input type=\"checkbox\" class=\"dd-input\" id=\"test\">\n            <ul class=\"dd-menu\">\n              <li size=\"small\" @click=", ">All Employees</li>\n              <li class=\"divider\"></li>\n              <li class=\"filter-btn\" size=\"small\" data-field=\"major\" data-match=\"animation-and-game-design\" @click=", ">Animation & Game Design</li>\n              <li class=\"divider\"></li>\n              <li class=\"filter-btn\" size=\"small\" data-field=\"major\" data-match=\"graphic-design\" @click=", ">Graphic Design</li>\n              <li class=\"divider\"></li>\n              <li class=\"filter-btn\" size=\"small\" data-field=\"major\" data-match=\"digital-design\" @click=", ">Digital Design</li>\n            </ul>\n          </label>\n        \n        </section>\n\n        \n        <!-- ALL STUDENTS ---------------------------------->\n        <section class=\"all-graduates-container\">\n\n          <!-- graduate component -->\n          <div class=\"graduate-grid\">\n            ", "\n          </div> <!-- /component -->\n          \n        </section>\n\n\n        <!-- FOOTER ---------------------------------->\n        <footer>\n          <div class=\"footer-content\">\n            <div class=footer-col>\n              <h3>DeStore</h3>\n              <p>\n                Monday \u2013 Saturday: 8:00 am \u2013 4:00pm <br>\n                Sunday: 9:00 am \u2013 5:00pm<br>\n                Kent St, Bentley, 6102, Western Australia<br><br>\n                @destore\n              </p>\n            </div>\n            <div class=footer-col>\n              <h3>Quick Links</h3>\n              <ul>\n                <li>Home</li>\n                <li>Shop</li>\n                <li>About</li>\n                <li>Contact</li>\n              </ul>\n            </div>\n            <div class=footer-col>\n            <h3>Shop</h3>\n              <ul>\n                <li>Fresh Produce</li>\n                <li>Butcher</li>\n                <li>Bakery</li>\n              </ul>\n            </div>\n          </div>\n        </footer>\n        \n      </div>      \n    "]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+class GraduatesView {
+  async init() {
+    document.title = 'Shop';
+    this.graduates = null;
+    this.render();
+
+    _Utils.default.pageIntroAnim();
+
+    await this.getGraduates();
+  }
+
+  async filterGraduates(field, match) {
+    // validate
+    if (!field || !match) return; // get fresh copy of the graduates - reset graduates so that no filters have been applied already
+
+    this.graduates = await _GraduateAPI.default.getGraduates();
+    let filteredGraduates; // by major
+
+    if (field == 'major') {
+      filteredGraduates = this.graduates.filter(graduate => graduate.texture == match);
+    } // by firstName
+
+
+    if (field == 'firstName') {
+      // filter this.graduate where graduate.name contains a searchQuery
+      filteredGraduates = this.graduates.filter(graduate => graduate.firstName.toLowerCase().includes(match.toLowerCase()));
+    } // by lastName
+
+
+    if (field == 'lastName') {
+      // filter this.graduate where graduate.description contains a searchQuery
+      filteredGraduates = this.graduates.filter(graduate => graduate.lastName.toLowerCase().includes(match.toLowerCase()));
+    } // set and render
+
+
+    this.graduates = filteredGraduates;
+    this.render();
+  }
+
+  clearFilterBtns() {
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    filterBtns.forEach(btn => btn.removeAttribute("type"));
+  }
+
+  async handleSearchKeyup(e) {
+    // if search query is empty, clear filters
+    if (e.target.value == '') {
+      this.getGraduates();
+    } else {
+      console.log(e.target.value); // filter graduates based on name and search query
+
+      await this.filterGraduates('firstName', e.target.value); // if no result, filter graduates based on description and search query
+
+      if (this.graduates.length === 0) {
+        this.getGraduates();
+        this.filterGraduates('lastName', e.target.value);
+      }
+    }
+  }
+
+  handleFilterBtn(e) {
+    // clear all filter buttons active state (remove type = primary)
+    this.clearFilterBtns(); // set button active (type = primary)
+
+    e.target.setAttribute("type", "primary"); // extract the field and match from the button
+
+    const field = e.target.getAttribute("data-field");
+    const match = e.target.getAttribute("data-match"); // filter graduates
+
+    this.filterGraduates(field, match);
+  }
+
+  clearFilters() {
+    this.getGraduates();
+    this.clearFilterBtns();
+  }
+
+  async getGraduates() {
+    try {
+      this.graduates = await _GraduateAPI.default.getGraduates();
+      console.log(this.graduates);
+      this.render();
+    } catch (err) {
+      _Toast.default.show(err, 'error');
+    }
+  }
+
+  render() {
+    const template = (0, _litHtml.html)(_templateObject(), JSON.stringify(_Auth.default.currentUser), this.handleSearchKeyup.bind(this), this.clearFilters.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), this.graduates == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), this.graduates.map(graduate => (0, _litHtml.html)(_templateObject4(), graduate._id, graduate.name, graduate.description, graduate.photoMain, graduate.photoMain))));
+    (0, _litHtml.render)(template, _App.default.rootEl);
+  }
+
+}
+
+var _default = new GraduatesView();
+
+exports.default = _default;
+},{"./../../App":"App.js","lit-html":"../node_modules/lit-html/lit-html.js","./../../Router":"Router.js","./../../Auth":"Auth.js","./../../Utils":"Utils.js","./../../GraduateAPI":"GraduateAPI.js","../../Toast":"Toast.js"}],"Router.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.gotoRoute = gotoRoute;
+exports.anchorRoute = anchorRoute;
+exports.default = void 0;
+
+var _home = _interopRequireDefault(require("./views/pages/home"));
+
+var _ = _interopRequireDefault(require("./views/pages/404"));
+
+var _about = _interopRequireDefault(require("./views/pages/about"));
+
+var _contact = _interopRequireDefault(require("./views/pages/contact"));
+
+var _viewGraduate = _interopRequireDefault(require("./views/pages/viewGraduate"));
+
+var _graduates = _interopRequireDefault(require("./views/pages/graduates"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+// import views
+// to view individual graduates
+// to view all graduates
+// define routes
+const routes = {
+  '/': _home.default,
+  '404': _.default,
+  '/about': _about.default,
+  '/contact': _contact.default,
+  '/viewGraduate': _viewGraduate.default,
+  // to view individual graduates
+  '/graduates': _graduates.default // to view all graduates
+
+};
+
+class Router {
+  constructor() {
+    this.routes = routes;
+  }
+
+  init() {
+    // initial call
+    this.route(window.location.pathname); // on back/forward
+
+    window.addEventListener('popstate', () => {
+      this.route(window.location.pathname);
+    });
+  }
+
+  route(fullPathname) {
+    // extract path without params
+    const pathname = fullPathname.split('?')[0];
+    const route = this.routes[pathname];
+
+    if (route) {
+      // if route exists, run init() of the view
+      this.routes[window.location.pathname].init();
+    } else {
+      // show 404 view instead
+      this.routes['404'].init();
+    }
+  }
+
+  gotoRoute(pathname) {
+    window.history.pushState({}, pathname, window.location.origin + pathname);
+    this.route(pathname);
+  }
+
+} // create appRouter instance and export
+
+
+const AppRouter = new Router();
+var _default = AppRouter; // programmatically load any route
+
+exports.default = _default;
+
+function gotoRoute(pathname) {
+  AppRouter.gotoRoute(pathname);
+} // allows anchor <a> links to load routes
+
+
+function anchorRoute(e) {
+  e.preventDefault();
+  const pathname = e.target.closest('a').pathname;
+  AppRouter.gotoRoute(pathname);
+}
+},{"./views/pages/home":"views/pages/home.js","./views/pages/404":"views/pages/404.js","./views/pages/about":"views/pages/about.js","./views/pages/contact":"views/pages/contact.js","./views/pages/viewGraduate":"views/pages/viewGraduate.js","./views/pages/graduates":"views/pages/graduates.js"}],"App.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -9720,7 +10101,121 @@ customElements.define('va-app-header', class AppHeader extends _litElement.LitEl
   }
 
 });
-},{"@polymer/lit-element":"../node_modules/@polymer/lit-element/lit-element.js","./../Router":"Router.js","./../App":"App.js"}],"../node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+},{"@polymer/lit-element":"../node_modules/@polymer/lit-element/lit-element.js","./../Router":"Router.js","./../App":"App.js"}],"UserAPI.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _App = _interopRequireDefault(require("./App"));
+
+var _Toast = _interopRequireDefault(require("./Toast"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+class UserAPI {
+  async getUser(userId) {
+    // validate
+    if (!userId) return; // fetch the json data
+
+    const response = await fetch("".concat(_App.default.apiBase, "/user/").concat(userId), {
+      headers: {
+        "Authorization": "Bearer ".concat(localStorage.accessToken)
+      }
+    }); // if response not ok
+
+    if (!response.ok) {
+      // console log error
+      const err = await response.json();
+      if (err) console.log(err); // throw error (exit this function)      
+
+      throw new Error('Problem getting user');
+    } // convert response payload into json - store as data
+
+
+    const data = await response.json(); // return data
+
+    return data;
+  }
+
+}
+
+var _default = new UserAPI();
+
+exports.default = _default;
+},{"./App":"App.js","./Toast":"Toast.js"}],"components/va-graduates.js":[function(require,module,exports) {
+"use strict";
+
+var _litElement = require("@polymer/lit-element");
+
+var _litHtml = require("lit-html");
+
+var _Router = require("./../Router");
+
+var _Auth = _interopRequireDefault(require("./../Auth"));
+
+var _App = _interopRequireDefault(require("./../App"));
+
+var _UserAPI = _interopRequireDefault(require("./../UserAPI"));
+
+var _Toast = _interopRequireDefault(require("./../Toast"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _templateObject() {
+  const data = _taggedTemplateLiteral(["\n    <style>\n      button {\n        height: 50px;\n        width: calc(50% - 2em);\n        background-color: transparent;\n        color: black;\n        font-size: 15px;\n        border: 1px solid black;\n      }\n\n      .view-employee-button {\n        background-color: var(--brand-color);\n        color: white;\n        border: none;\n      }\n\n      button:hover {\n        cursor: pointer;\n        background-color: var(--destore-purple);\n        border: none;\n        color: black;\n      }\n\n      h3, p {\n        margin: 0 auto;\n        padding: 0;\n      }\n\n      h3 {\n        font-size: 27px;\n      }\n\n      p {\n        font-size: 18px;\n      }\n\n      .image-container {\n        width: 100%;\n        height: 400px;\n        background-repeat: no-repeat;\n        background-size: cover;\n        background-position: center;\n        border-bottom: 1px solid black;\n        /* easing the hover transition */\n        transition: 0.3s;\n      }\n\n      /* hover effect */\n      .image-container:hover {\n        background-image: url(\"", "/images/", "\")!important;\n        cursor: pointer;\n      }\n\n      .text-container {\n        height: 200px;\n        display: flex;\n        flex-direction: column;\n        align-items: center;\n        justify-content: space-evenly;\n      }\n\n      .buttons-container {\n        display: flex;\n        justify-content: space-evenly;\n        width: 100%;\n      }\n\n\n      \n    </style>\n\n\n    <!-- delete placeholder text when the real data is used -->\n    <div>\n      <div class=\"image-container\" style=\"background-image: url('", "/images/", "');\"></div>\n      <div class=\"text-container\">\n        <h3>Graduate Name", "</h3>\n        <p>Short description of student", "</p>\n        <div class=\"buttons-container\">\n          <button class=\"view-employee-button\" @click=", ">View Employee</button>\n          <button onclick=\"window.location.href='", "';\">Portfolio</button> <!-- format of the link 'https://www.google.com' -->\n        </div>\n      </div>\n    </div>\n\n      \n    "]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+customElements.define('va-graduates', class Graduate extends _litElement.LitElement {
+  constructor() {
+    super();
+  }
+
+  static get properties() {
+    return {
+      id: {
+        type: String
+      },
+      firstName: {
+        type: String
+      },
+      lastName: {
+        type: String
+      },
+      normalPhoto: {
+        type: String
+      },
+      quirkyPhoto: {
+        type: String
+      }
+    };
+  }
+
+  firstUpdated() {
+    super.firstUpdated();
+  } // go to single page for each clicked graduate
+
+
+  moreInfoHandler() {
+    (0, _Router.gotoRoute)("/viewGraduate?id=".concat(this.id));
+  }
+
+  render() {
+    return (0, _litElement.html)(_templateObject(), _App.default.apiBase, this.quirkyPhoto, _App.default.apiBase, this.normalPhoto, this.GraduateName, this.shortDescription, this.moreInfoHandler.bind(this), this.portfolioLink);
+  }
+
+});
+},{"@polymer/lit-element":"../node_modules/@polymer/lit-element/lit-element.js","lit-html":"../node_modules/lit-html/lit-html.js","./../Router":"Router.js","./../Auth":"Auth.js","./../App":"App.js","./../UserAPI":"UserAPI.js","./../Toast":"Toast.js"}],"../node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -9799,6 +10294,8 @@ var _App = _interopRequireDefault(require("./App.js"));
 
 require("./components/va-app-header");
 
+require("./components/va-graduates");
+
 require("./scss/master.scss");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -9810,7 +10307,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 document.addEventListener('DOMContentLoaded', () => {
   _App.default.init();
 });
-},{"./App.js":"App.js","./components/va-app-header":"components/va-app-header.js","./scss/master.scss":"scss/master.scss"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./App.js":"App.js","./components/va-app-header":"components/va-app-header.js","./components/va-graduates":"components/va-graduates.js","./scss/master.scss":"scss/master.scss"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -9838,7 +10335,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59009" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50372" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

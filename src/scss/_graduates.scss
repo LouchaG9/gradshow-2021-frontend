@@ -1,0 +1,200 @@
+.showreel-container {
+    background-color: var(--destore-purple);
+}
+
+
+// SEARCH -----------------------------------------
+.search-and-filter-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 20vh; // same height as footer
+}
+
+.search-input-container {
+  position: relative;
+  width: calc(100% / 3);
+  
+  /* icon in search bar */
+  i {
+    position: absolute;
+    transform: translate(0%, -50%);
+    left: 20px;
+    top: 50%;
+  }
+}
+
+.search-input {
+  padding-left: 50px;
+  font-size: 18px;
+  width: 100%;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid black;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+
+// FILTERING ---------------------------------------------
+.dropdown {
+  display: inline-block;
+  position: relative;
+  width: calc(100% / 5);
+}
+
+.dd-button {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 20px;
+  align-items: center;
+  cursor: pointer;
+  height: 50px;
+  width: 100%;
+  color: var(--base-txt-color);
+  font-family: 'montserrat';
+  font-size: 18px;
+  border: 1px solid black;
+  background-color: var(--body-bg);
+
+  &:hover {
+    background-color: var(--destore-purple);
+  }
+}
+
+.dd-button:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid black;
+}
+
+.dd-input {
+  display: none;
+}
+
+.dd-menu {
+  position: absolute;
+  top: 90%;
+  width: 100%;
+  border: 1px solid black;
+  padding: 0;
+  list-style-type: none;
+  font-family: 'montserrat';
+  font-size: 1.1em;
+
+  li {
+    padding: 15px;
+    cursor: pointer;
+    white-space: nowrap;
+    background-color: white;
+
+    &:hover {
+      background-color: var(--destore-purple);
+    }
+  }
+}
+
+li.divider{
+  padding: 0;
+  border-bottom: 1px solid black;
+}
+
+.dd-input + .dd-menu {
+  display: none;
+} 
+
+.dd-input:checked + .dd-menu {
+  display: block;
+} 
+
+
+// GRADUATES ------------------------------------------
+// grid for graduates displayed in a four
+.graduate-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .graduate-card {
+    width: calc(100% / 4);
+    border: 1px solid black;
+    text-align: center;
+  }
+}
+
+
+// RESPONSIVE - LAPTOP -------------------
+@media all and (max-width: 1024px){ 
+
+  // grid for graduates displayed in a three
+  .graduate-grid {
+    .graduate-card {
+      width: calc(100% / 3);
+    }
+  }
+
+  .dropdown {
+    width: calc(100% / 3);
+  }
+
+  .search-input-container {
+    width: calc(100% / 2.5);
+  }
+}
+
+// RESPONSIVE - TABLET -------------------
+@media all and (max-width: 768px){ 
+
+  // grid for graduates displayed in a three
+  .graduate-grid {
+    .graduate-card {
+      width: calc(100% / 2);
+    }
+  }
+
+  .search-input-container {
+    width: calc(100% / 2);
+  }
+}
+
+// RESPONSIVE - MOBILE -------------------
+@media all and (max-width: 425px){ 
+
+  // grid for graduates displayed in a three
+  .graduate-grid {
+    .graduate-card {
+      width: calc(100%);
+    }
+  }
+
+  .search-input-container {
+    width: 100%;
+  }
+
+  .dropdown {
+    width: 100%;
+  }
+
+  .search-and-filter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .search-input {
+    padding-left: 50px;
+    font-size: 18px;
+    width: 100%;
+  }
+
+
+}
+

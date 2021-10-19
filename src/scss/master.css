@@ -549,7 +549,6 @@ sl-dialog::part(title) {
 
 .credit-block {
   width: 300px;
-  background-color: var(--destore-purple);
   /*   border: 1px solid #000;
  */
 }
@@ -684,5 +683,204 @@ sl-dialog::part(title) {
   background-color: #DFD8EE;
   width: 100%;
   height: 800px;
+}
+
+.credit-fill {
+  background-color: var(--destore-purple);
+}
+
+.showreel-container {
+  background-color: var(--destore-purple);
+}
+
+.search-and-filter-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 20vh;
+}
+
+.search-input-container {
+  position: relative;
+  width: calc(100% / 3);
+  /* icon in search bar */
+}
+
+.search-input-container i {
+  position: absolute;
+  -webkit-transform: translate(0%, -50%);
+          transform: translate(0%, -50%);
+  left: 20px;
+  top: 50%;
+}
+
+.search-input {
+  padding-left: 50px;
+  font-size: 18px;
+  width: 100%;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+  width: calc(100% / 5);
+}
+
+.dd-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-left: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  height: 50px;
+  width: 100%;
+  color: var(--base-txt-color);
+  font-family: 'montserrat';
+  font-size: 18px;
+  border: 1px solid black;
+  background-color: var(--body-bg);
+}
+
+.dd-button:hover {
+  background-color: var(--destore-purple);
+}
+
+.dd-button:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid black;
+}
+
+.dd-input {
+  display: none;
+}
+
+.dd-menu {
+  position: absolute;
+  top: 90%;
+  width: 100%;
+  border: 1px solid black;
+  padding: 0;
+  list-style-type: none;
+  font-family: 'montserrat';
+  font-size: 1.1em;
+}
+
+.dd-menu li {
+  padding: 15px;
+  cursor: pointer;
+  white-space: nowrap;
+  background-color: white;
+}
+
+.dd-menu li:hover {
+  background-color: var(--destore-purple);
+}
+
+li.divider {
+  padding: 0;
+  border-bottom: 1px solid black;
+}
+
+.dd-input + .dd-menu {
+  display: none;
+}
+
+.dd-input:checked + .dd-menu {
+  display: block;
+}
+
+.graduate-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.graduate-grid .graduate-card {
+  width: calc(100% / 4);
+  border: 1px solid black;
+  text-align: center;
+}
+
+@media all and (max-width: 1024px) {
+  .graduate-grid .graduate-card {
+    width: calc(100% / 3);
+  }
+  .dropdown {
+    width: calc(100% / 3);
+  }
+  .search-input-container {
+    width: calc(100% / 2.5);
+  }
+}
+
+@media all and (max-width: 768px) {
+  .graduate-grid .graduate-card {
+    width: calc(100% / 2);
+  }
+  .search-input-container {
+    width: calc(100% / 2);
+  }
+}
+
+@media all and (max-width: 425px) {
+  .graduate-grid .graduate-card {
+    width: calc(100%);
+  }
+  .search-input-container {
+    width: 100%;
+  }
+  .dropdown {
+    width: 100%;
+  }
+  .search-and-filter-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .search-input {
+    padding-left: 50px;
+    font-size: 18px;
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=master.css.map */
