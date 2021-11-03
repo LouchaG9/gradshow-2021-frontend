@@ -53,7 +53,7 @@ class HomeView {
             </div>
 
             <div class="digex-column" @click="${() => gotoRoute("/graduates")}">
-              <img src="#" alt="Digital break clip" />
+              <img src="#" alt="Digital bread clip" />
               <div class="sign-item">
                 <h3>Digital Design</h3>
               </div>

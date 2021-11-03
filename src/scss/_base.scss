@@ -92,12 +92,20 @@ footer {
   .footer-content {
     display: flex;
     justify-content: space-between;
+    gap: 1rem;
     width: 90%;
     margin: 0 auto;
     .destore-col {
       width: calc(100% / 3);
     }
     .major-col {
+      background: var(--body-bg);
+      width: calc(100% / 3 * 2 / 3);
+      border-radius: 3px;
+    }
+    .footer-digex-column,
+    .footer-graphic-column,
+    .footer-animation-column {
       height: 200px;
       font-family: var(--heading-font-family-B);
       font-size: 1rem;
@@ -106,13 +114,8 @@ footer {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      margin: 1rem;
-      text-transform: uppercase;
-      background: var(--body-bg);
-      width: calc(100% / 3 * 2 / 3);
-      border-radius: 3px;
+      gap: 0.5rem;
       .footer-item {
-        width: 100%;
         min-height: 2rem;
         display: flex;
         flex-direction: column;
@@ -122,6 +125,7 @@ footer {
         transition: 0.2s;
         cursor: pointer;
         width: 90%;
+        margin: 0 auto;
       }
     }
     .footer-digex-column {
