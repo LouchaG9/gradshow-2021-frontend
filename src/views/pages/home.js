@@ -1,40 +1,33 @@
-import App from './../../App'
-import {html, render } from 'lit-html'
-import {gotoRoute, anchorRoute } from './../../Router'
-import Utils from './../../Utils'
+import App from "./../../App";
+import { html, render } from "lit-html";
+import { gotoRoute, anchorRoute } from "./../../Router";
+import Utils from "./../../Utils";
 
 class HomeView {
-  init(){    
-    console.log('HomeView.init')
-    document.title = 'Home'    
-    this.render()    
-    Utils.pageIntroAnim()    
+  init() {
+    console.log("HomeView.init");
+    document.title = "Home";
+    this.render();
+    Utils.pageIntroAnim();
   }
 
-  render(){
+  render() {
     const template = html`
       <va-app-header title="Home"></va-app-header>
 
      
-     <div class="page-content">
+    <div class="page-content">
 
-     <section class="banner">
-        <div class="column-1">
-          <h1>Organic Shop<br>Fruit & Vegetables</h1>
-          <button class="shop-graduates-btn">Shop all graduates</button>
-          <p>The showcase of Curtin University design graduates</p>
-        </div>
-
-        <div class="column-2">
-          <img src="https://i.stack.imgur.com/y9DpT.jpg">
-        </div>
+      <section class="banner">
+        <img class="destore-logo" src="../../static/images/DeStoreLogo-02.png" alt="Destore Logo">
+        <button class="shop-graduates-btn">Shop all graduates</button>
       </section>
 
       <section class="majors">
       <div class="major-columns">
 
        <div class="animation-column">
-         <img class="animation-image" src="https://freepngclipart.com/thumb/bread/61-bread-png-image.png">
+         <img class="animation-image" src="../../../static/images/homepage/animationfruit.png">
          <h3>Animation & Game Design</h3>
        </div>
        
@@ -193,9 +186,9 @@ class HomeView {
       -->
 
 
-    `
-    render(template, App.rootEl)
+    `;
+    render(template, App.rootEl);
   }
 }
 
-export default new HomeView()
+export default new HomeView();

@@ -1,4 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,300;0,500;1,100;1,200;1,500&display=swap");
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../../static/fonts/DeStoreFonts/ProximaNova/Mark\ Simonson\ -\ Proxima\ Nova\ Regular.otf");
+}
+
+@font-face {
+  font-family: "MilkmanRegular";
+  src: url(../../static/fonts/DeStoreFonts/MilkmanRegular.ttf);
+}
+
+@font-face {
+  font-family: "Monospec-Bold";
+  src: url(../../static/fonts/DeStoreFonts/MonoSpec-Bold.otf);
+}
+
 @import "vars";
 @import "base";
 @import "forms";

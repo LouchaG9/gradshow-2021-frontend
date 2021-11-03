@@ -1,27 +1,30 @@
 // Vars
 
 :root {
-  // base
+  // base =====================================================================================
   --base-txt-color: #222;
   --heading-color: #333;
-  --base-font-family: 'Work Sans', sans-serif;
+  --heading-font-family-A: "MilkmanRegular";
+  --heading-font-family-B: "Monospec-Bold";
+  --base-font-family: "Proxima Nova", serif;
   --body-bg: #fff;
-  
 
-  // colors  
-  $brand-color: #E92530;
+  // colors ===================================================================================
+  $brand-color: #e93b2c;
   --brand-color: #{$brand-color};
   --link-color: --brand-color;
 
-  --destore-green: #E3F285;
-  --destore-blue: #A4D1E9;
-  --destore-purple: #DFD8EE;
+  --destore-red-alt: #be1e2d;
+  --destore-logo-blue: #1540b4;
+  --destore-logo-blue-alt: #253764;
 
-  // major brand colors 
-  --agd-green: #AFCBC3;
-  --gd-red: #D6B6A4;
-  --dig-yellow: #FADE95;
-  
+  --destore-background-pink: #f5e3ea;
+
+  // major brand colors
+  --agd-green: #afcbc3;
+  --gd-red: #d6b6a4;
+  --dig-yellow: #fade95;
+
   // app header
   --app-header-height: 60px;
   --app-header-txt-color: #fff;

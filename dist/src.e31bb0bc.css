@@ -1,31 +1,46 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,300;0,500;1,100;1,200;1,500&display=swap");
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("/Mark Simonson - Proxima Nova Regular.ce9c3527.otf");
+}
+@font-face {
+  font-family: "MilkmanRegular";
+  src: url(/MilkmanRegular.abbb0ba7.ttf);
+}
+@font-face {
+  font-family: "Monospec-Bold";
+  src: url(/MonoSpec-Bold.a512cabb.otf);
+}
 :root {
   --base-txt-color: #222;
   --heading-color: #333;
-  --base-font-family: "Work Sans", sans-serif;
+  --heading-font-family-A: "MilkmanRegular";
+  --heading-font-family-B: "Monospec-Bold";
+  --base-font-family: "Proxima Nova", serif;
   --body-bg: #fff;
-  --brand-color: #E92530;
+  --brand-color: #e93b2c;
   --link-color: --brand-color;
-  --destore-green: #E3F285;
-  --destore-blue: #A4D1E9;
-  --destore-purple: #DFD8EE;
-  --agd-green: #AFCBC3;
-  --gd-red: #D6B6A4;
-  --dig-yellow: #FADE95;
+  --destore-red-alt: #be1e2d;
+  --destore-logo-blue: #1540b4;
+  --destore-logo-blue-alt: #253764;
+  --destore-background-pink: #f5e3ea;
+  --agd-green: #afcbc3;
+  --gd-red: #d6b6a4;
+  --dig-yellow: #fade95;
   --app-header-height: 60px;
   --app-header-txt-color: #fff;
   --app-header-title-font-size: 1.6em;
   --sl-color-primary-50: #f4f4f4;
-  --sl-color-primary-100: #fcdee0;
-  --sl-color-primary-200: #f7b0b4;
-  --sl-color-primary-300: #f28288;
-  --sl-color-primary-400: #ee535c;
-  --sl-color-primary-500: #E92530;
-  --sl-color-primary-600: #c7141e;
-  --sl-color-primary-700: #990f17;
-  --sl-color-primary-800: #6a0b10;
-  --sl-color-primary-900: #3c0609;
-  --sl-focus-ring-color-primary: rgba(233, 37, 48, 0.1);
+  --sl-color-primary-100: #fce7e5;
+  --sl-color-primary-200: #f7bcb7;
+  --sl-color-primary-300: #f39188;
+  --sl-color-primary-400: #ee665a;
+  --sl-color-primary-500: #e93b2c;
+  --sl-color-primary-600: #cd2415;
+  --sl-color-primary-700: #9e1c11;
+  --sl-color-primary-800: #70140c;
+  --sl-color-primary-900: #420c07;
+  --sl-focus-ring-color-primary: rgba(233, 59, 44, 0.1);
 }
 
 * {
@@ -101,19 +116,19 @@ a {
   bottom: 0;
   left: 0;
   right: 0;
-  overflow: hidden;
   overflow-y: scroll;
+  display: flex;
+  justify-content: center;
 }
 
 .page-content {
   position: absolute;
   top: var(--app-header-height);
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 1em;
-  max-width: 1920px;
+  border-left: #000 1px solid;
+  border-right: #000 1px solid;
+  width: 90%;
   margin: 0 auto;
+  max-width: 1920px;
 }
 .page-content.no-pad {
   padding: 0;
@@ -142,44 +157,6 @@ footer .footer-content {
   justify-content: space-around;
 }
 
-.signinup-box,
-.signup-box {
-  max-width: 320px;
-  text-align: center;
-}
-
-.signinup-logo {
-  width: 200px;
-  margin-bottom: 1em;
-}
-
-.guide-step {
-  padding: 1em;
-  margin: 1.5em auto;
-  max-width: 600px;
-}
-.guide-step img {
-  width: 100%;
-  height: auto;
-}
-
-.haircuts-grid {
-  display: flex;
-  flex-wrap: wrap;
-}
-.haircuts-grid .haircut-card {
-  width: calc(33.3% - 1em);
-  margin: 0.5em;
-}
-
-.haircut-dialog {
-  --width: 70%;
-}
-
-.haircut-dialog::part(body) {
-  margin-top: -4em;
-}
-
 button {
   background-color: var(--brand-color);
   color: white;
@@ -200,23 +177,11 @@ h1 {
 
 .banner {
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.banner .column-1 {
-  width: 40%;
-  padding: 1rem;
-}
-.banner .column-1 p {
-  text-transform: uppercase;
-  margin: 1rem 0 1rem 1rem;
-  font-size: 0.5rem;
-  letter-spacing: 0.1rem;
-}
-.banner .column-2 {
-  width: 60%;
-}
-.banner .column-2 img {
-  width: 90%;
-  margin: 1rem rem 1rem 4rem;
+.banner .destore-logo {
+  padding: 2rem;
 }
 
 .major-columns {
@@ -242,27 +207,33 @@ h1 {
   margin-bottom: 50px;
 }
 
-.animation-column, .digex-column, .graphic-column {
-  background: var(--destore-blue);
+.animation-column,
+.digex-column,
+.graphic-column {
+  background: var(--agd-green);
   height: 200px;
   width: 33.3%;
+  font-family: var(--heading-font-family-B);
+  font-size: 0.7rem;
   text-align: center;
   padding: 20px 0 0 0;
-  margin: 10px;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
+  border-bottom: #000 1px solid;
 }
 
 .digex-column {
-  background: var(--destore-green);
+  background: var(--dig-yellow);
+  border-left: #000 1px solid;
+  border-right: #000 1px solid;
 }
 
 .graphic-column {
-  background: var(--destore-purple);
+  background: var(--gd-red);
 }
 
 .what-are-we {
@@ -316,12 +287,6 @@ h1 {
   font-weight: 200;
 }
 
-@media all and (max-width: 768px) {
-  .signinup-box {
-    width: 90%;
-    max-width: none;
-  }
-}
 .input-group {
   margin-bottom: 0.5em;
 }
