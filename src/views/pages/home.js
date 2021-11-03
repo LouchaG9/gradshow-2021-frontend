@@ -92,9 +92,10 @@ class HomeView {
         <section class="about-us">
           <div class="left">
             <img
-              src="../../static/images/DeStoreLogo-02.png"
+              src="./../../../static/images/DeStoreLogo-02.png"
               alt="Destore Logo"
             />
+            <!-- I have triple checked this path and I cannot understand why this isn't working ¯/_(ツ)_/¯ -->
           </div>
           <div class="right">
             <h2>What are we?</h2>
@@ -116,15 +117,15 @@ class HomeView {
           </div>
         </section>
 
-        <section class="what-are-people-saying">
-          <div class="saying-left">
+        <section class="reviews">
+          <div class="left">
             <h2>What are people saying?</h2>
           </div>
 
-          <div class="saying-right">
-            <div class="saying-joel">
-              <h2>Joel Louie</h2>
-              <h3>Digital Design Major Coordinator</h3>
+          <div class="right">
+            <div class="joel">
+              <h3>Joel Louie</h3>
+              <h4>Digital Design Major Coordinator</h4>
               <p>
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                 elementum maximus sem non venenatis. In erat turpis, suscipit
@@ -132,9 +133,9 @@ class HomeView {
                 amet."
               </p>
             </div>
-            <div class="saying-lee">
-              <h2>Lee Ingram</h2>
-              <h3>Digital Design Major Coordinator</h3>
+            <div class="lee">
+              <h3>Lee Ingram</h3>
+              <h4>Graphic Design Major Coordinator</h4>
               <p>
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                 elementum maximus sem non venenatis. In erat turpis, suscipit
@@ -142,9 +143,9 @@ class HomeView {
                 amet."
               </p>
             </div>
-            <div class="saying-jonathon">
-              <h2>Jonathon Pillai</h2>
-              <h3>Digital Design Major Coordinator</h3>
+            <div class="jonathon">
+              <h3>Jonathon Pillai</h3>
+              <h4>Animation & Game Design Major Coordinator</h4>
               <p>
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                 elementum maximus sem non venenatis. In erat turpis, suscipit
@@ -159,38 +160,77 @@ class HomeView {
           not sure how we want to code this one in. Might need to look at
           something like slick-slider or glide.js
         </section>
-
-        <footer>
-          <div class="footer-content">
-            <div class="footer-col">
-              <h3>DeStore</h3>
-              <p>
-                Monday – Saturday: 8:00 am – 4:00pm <br />
-                Sunday: 9:00 am – 5:00pm<br />
-                Kent St, Bentley, 6102, Western Australia<br /><br />
-                @destore
-              </p>
-            </div>
-            <div class="footer-col">
-              <h3>Quick Links</h3>
-              <ul>
-                <li>Home</li>
-                <li>Shop</li>
-                <li>About</li>
-                <li>Contact</li>
-              </ul>
-            </div>
-            <div class="footer-col">
-              <h3>Shop</h3>
-              <ul>
-                <li>Fresh Produce</li>
-                <li>Butcher</li>
-                <li>Bakery</li>
-              </ul>
+      </div>
+      <footer>
+        <div class="footer-content">
+          <div class="destore-col">
+            <h3>DeStore</h3>
+            <p>
+              Monday – Saturday: 8:00 am – 4:00pm <br />
+              Sunday: 9:00 am – 5:00pm<br />
+              Kent St, Bentley, 6102, Western Australia<br /><br />
+              @destore
+            </p>
+          </div>
+          <div class="major-col">
+            <div
+              class="footer-animation-column"
+              @click="${() => gotoRoute("/graduates")}"
+            >
+              <div class="footer-item">
+                <h3>Animation</h3>
+              </div>
+              <div class="footer-item">
+                <h3>Game Design</h3>
+              </div>
+              <div class="footer-item">
+                <h3>Fruit</h3>
+              </div>
+              <div class="footer-item">
+                <h3>Vegetables</h3>
+              </div>
             </div>
           </div>
-        </footer>
-      </div>
+          <div class="major-col">
+            <div
+              class="footer-digex-column"
+              @click="${() => gotoRoute("/graduates")}"
+            >
+              <div class="footer-item">
+                <h3>Digital Design</h3>
+              </div>
+              <div class="footer-item">
+                <h3>Baked Goods</h3>
+              </div>
+              <div class="footer-item">
+                <h3>Fresh Bread</h3>
+              </div>
+              <div class="footer-item">
+                <h3>Wraps</h3>
+              </div>
+            </div>
+          </div>
+          <div class="major-col">
+            <div
+              class="footer-graphic-column"
+              @click="${() => gotoRoute("/graduates")}"
+            >
+              <div class="footer-item">
+                <h3>Graphic Design</h3>
+              </div>
+              <div class="footer-item">
+                <h3>Cold Meats</h3>
+              </div>
+              <div class="footer-item">
+                <h3>Cheese</h3>
+              </div>
+              <div class="footer-item">
+                <h3>Olives</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     `;
     render(template, App.rootEl);
   }
