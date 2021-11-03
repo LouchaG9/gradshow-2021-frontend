@@ -145,6 +145,20 @@ customElements.define(
             text-align: center;
           }
 
+          header > nav > div.links > a:hover {
+            color: var(--brand-color);
+          }
+
+          header > nav > div.links > sl-dropdown > a:hover {
+            color: var(--brand-color);
+          }
+
+          header > nav > div.links > sl-dropdown > a:focus-within {
+            font-weight: bold;
+            color: var(--brand-color);
+            border: 1px var(--brand-color) solid;
+          }
+
           /* active nav links */
           .app-top-nav a.active,
           .app-side-menu-items a.active {
@@ -182,8 +196,13 @@ customElements.define(
                   slot="trigger"
                   href="#"
                   @click="${(e) => e.preventDefault()}"
+                  caret
                 >
                   Graduates
+                  <sl-icon
+                    style="font-size:0.6rem"
+                    name="chevron-down"
+                  ></sl-icon>
                 </a>
                 <sl-menu>
                   <sl-menu-item @click="${() => gotoRoute("/graduates")}"
@@ -198,18 +217,9 @@ customElements.define(
                   <sl-menu-item @click="${() => gotoRoute("/graduates")}"
                     >Graphic Design</sl-menu-item
                   >
-                  <sl-menu-item @click="${() => gotoRoute("/graduates")}"
-                    >Illustration</sl-menu-item
-                  >
                 </sl-menu>
               </sl-dropdown>
               <a href="/about" @click="${() => gotoRoute("/about")}">About</a>
-              <a href="/contact" @click="${() => gotoRoute("/contact")}"
-                >Contact</a
-              >
-            </div>
-            <div class="logo-container">
-              <!-- This is where our logo will probably go on the nav bar -->
             </div>
           </nav>
         </header>

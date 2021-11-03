@@ -17,7 +17,7 @@
   --heading-font-family-A: "MilkmanRegular";
   --heading-font-family-B: "Monospec-Bold";
   --base-font-family: "Proxima Nova", serif;
-  --body-bg: #fff;
+  --body-bg: #f6f4ec;
   --brand-color: #e93b2c;
   --link-color: --brand-color;
   --destore-red-alt: #be1e2d;
@@ -67,6 +67,13 @@ h6 {
   color: var(--heading-color);
 }
 
+h2 {
+  font-family: var(--heading-font-family-B);
+  font-size: 2rem;
+  padding-left: 1rem;
+  color: var(--brand-color);
+}
+
 a {
   color: var(--link-color);
 }
@@ -102,14 +109,6 @@ a {
   color: var(--brand-color);
 }
 
-.generic-entry {
-  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.07);
-  border-radius: 5px;
-  margin-bottom: 0.5em;
-  padding: 1em;
-  background: #fff;
-}
-
 #root {
   position: absolute;
   top: 0;
@@ -121,23 +120,18 @@ a {
   justify-content: center;
 }
 
+section {
+  margin-top: 8rem;
+}
+
 .page-content {
-  position: absolute;
   top: var(--app-header-height);
-  border-left: #000 1px solid;
-  border-right: #000 1px solid;
   width: 90%;
   margin: 0 auto;
   max-width: 1920px;
 }
 .page-content.no-pad {
   padding: 0;
-}
-
-.page-centered {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .image-slider {
@@ -149,7 +143,6 @@ footer {
   height: 20vh;
   width: 100%;
   background-color: var(--destore-purple);
-  /* border: 1px solid #000; */
 }
 footer .footer-content {
   width: 70%;
@@ -158,15 +151,22 @@ footer .footer-content {
 }
 
 button {
-  background-color: var(--brand-color);
-  color: white;
-  border: none;
+  border: 2px var(--brand-color) solid;
+  background-color: var(--body-bg);
+  color: var(--brand-color);
   margin: 1rem 0 1rem 1rem;
   padding: 0.5rem 5rem;
   text-align: center;
   place-items: center;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
+  transition: 0.2s;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: var(--brand-color);
+  color: var(--body-bg);
 }
 
 h1 {
@@ -177,91 +177,96 @@ h1 {
 
 .banner {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
+  width: 100%;
 }
-.banner .destore-logo {
-  padding: 2rem;
+.banner .left {
+  width: 50%;
+  padding: 1rem;
+}
+.banner .left h2 {
+  padding-left: 1rem;
+}
+.banner .right {
+  width: 50%;
+  height: 20rem;
+  background: #777;
 }
 
 .major-columns {
   display: flex;
-  padding-top: 3rem;
-}
-
-.animation-image {
-  width: 60%;
-  margin-top: -80px;
-  margin-bottom: 50px;
-}
-
-.digex-image {
-  width: 60%;
-  margin-top: -80px;
-  margin-bottom: 50px;
-}
-
-.graphic-image {
-  width: 60%;
-  margin-top: -80px;
-  margin-bottom: 50px;
 }
 
 .animation-column,
 .digex-column,
 .graphic-column {
-  background: var(--agd-green);
   height: 200px;
-  width: 33.3%;
+  width: calc(100% / 3);
   font-family: var(--heading-font-family-B);
-  font-size: 0.7rem;
+  font-size: 1rem;
   text-align: center;
   padding: 20px 0 0 0;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin: 1rem;
   text-transform: uppercase;
-  border-bottom: #000 1px solid;
 }
 
-.digex-column {
+.sign-item {
+  width: 100%;
+  min-height: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.digex-column .sign-item {
   background: var(--dig-yellow);
-  border-left: #000 1px solid;
-  border-right: #000 1px solid;
+}
+.digex-column .sign-item:hover {
+  background: #ceb169;
 }
 
-.graphic-column {
+.graphic-column .sign-item {
   background: var(--gd-red);
 }
+.graphic-column .sign-item:hover {
+  background: #c29982;
+}
 
-.what-are-we {
+.animation-column .sign-item {
+  background: var(--agd-green);
+}
+.animation-column .sign-item:hover {
+  background: #8eb4a9;
+}
+
+.about-us {
   display: flex;
-  padding: 0.6rem;
-  margin-top: 3rem;
+  width: 100%;
 }
-
-.what-are-we-left {
-  background-color: var(--destore-purple);
+.about-us .left {
+  background-color: var(--destore-background-pink);
   height: 25rem;
-  width: 75rem;
+  width: calc(100% / 3);
 }
-
-.what-are-we-right p {
-  width: 60%;
-  margin-left: 4rem;
-}
-.what-are-we-right h1 {
-  margin-left: 4rem;
-}
-.what-are-we-right button {
-  margin-left: 4rem;
+.about-us .right {
+  width: calc((100% / 3) * 2);
+  padding: 1rem;
 }
 
 .what-are-people-saying {
   display: flex;
-  margin-top: 3rem;
 }
 
 .saying-left {
