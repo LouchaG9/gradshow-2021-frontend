@@ -37,7 +37,12 @@ class HomeView {
               class="animation-column"
               @click="${() => gotoRoute("/graduates")}"
             >
-              <img src="#" alt="animation basket" />
+              <img
+                src="https://drive.google.com/uc?export=view&id=1QVrl6Es1xCGPhqVME2kBesXyO9dG8Mz1"
+                alt="animation basket"
+                class="major-svg agd-svg"
+              />
+              <!-- https://drive.google.com/file/d/1QVrl6Es1xCGPhqVME2kBesXyO9dG8Mz1/view?usp=sharing -->
               <div class="sign-item">
                 <h3>Animation</h3>
               </div>
@@ -53,7 +58,12 @@ class HomeView {
             </div>
 
             <div class="digex-column" @click="${() => gotoRoute("/graduates")}">
-              <img src="#" alt="Digital bread clip" />
+              <img
+                src="https://drive.google.com/uc?export=view&id=1IsaWr0JahaPZcVp5KBb7hjr1n7UpTelJ"
+                alt="Digital bread clip"
+                class="major-svg dd-svg"
+              />
+              <!-- https://drive.google.com/file/d/1IsaWr0JahaPZcVp5KBb7hjr1n7UpTelJ/view?usp=sharing -->
               <div class="sign-item">
                 <h3>Digital Design</h3>
               </div>
@@ -72,7 +82,12 @@ class HomeView {
               class="graphic-column"
               @click="${() => gotoRoute("/graduates")}"
             >
-              <img src="#" alt="graphic design tag" />
+              <img
+                src="https://drive.google.com/uc?export=view&id=19IOsaCGyRr4ABjmjLPYkV-HZnkUrPTUC"
+                alt="graphic design tag"
+                class="major-svg gd-dvg"
+              />
+              <!-- https://drive.google.com/file/d/19IOsaCGyRr4ABjmjLPYkV-HZnkUrPTUC/view?usp=sharing -->
               <div class="sign-item">
                 <h3>Graphic Design</h3>
               </div>
@@ -92,10 +107,10 @@ class HomeView {
         <section class="about-us">
           <div class="left">
             <img
-              src="./../../../static/images/DeStoreLogo-02.png"
+              src="https://drive.google.com/uc?export=view&id=1JxGAVQPoi8QiT08CvTJ3HCLaUbvSQoiu"
               alt="Destore Logo"
+              class="logo-img"
             />
-            <!-- I have triple checked this path and I cannot understand why this isn't working ¯/_(ツ)_/¯ -->
           </div>
           <div class="right">
             <h2>What are we?</h2>
@@ -155,19 +170,24 @@ class HomeView {
             </div>
           </div>
         </section>
-
-        <section class="image-slider">
-          not sure how we want to code this one in. Might need to look at
-          something like slick-slider or glide.js
-        </section>
       </div>
+      <section class="image-slider">
+        <div class="slick kitten1"></div>
+        <div class="slick kitten2"></div>
+        <div class="slick kitten3"></div>
+        <div class="slick kitten4"></div>
+        <div class="slick kitten5"></div>
+        <div class="slick kitten6"></div>
+        <div class="slick kitten7"></div>
+      </section>
       <footer>
         <div class="footer-content">
           <div class="destore-col">
             <h3>DeStore</h3>
             <p>
-              Monday – Saturday: 8:00 am – 4:00pm <br />
-              Sunday: 9:00 am – 5:00pm<br />
+              Monday - Closed <br />
+              Tuesday – Saturday: 7:00 am – 3:00 pm <br />
+              Sunday: 9:00 am – 2:00 pm<br />
               Kent St, Bentley, 6102, Western Australia<br /><br />
               @destore
             </p>

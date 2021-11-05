@@ -1,0 +1,145 @@
+// homepage design ============================================================
+
+// top/hero banner
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  .left {
+    width: 50%;
+    padding: 1rem;
+    h2 {
+      padding-left: 1rem;
+    }
+  }
+  .right {
+    width: 50%;
+    height: 20rem;
+    background: #777;
+  }
+}
+
+// major categories
+.major-columns {
+  display: flex;
+  .animation-column,
+  .digex-column,
+  .graphic-column {
+    height: 200px;
+    width: calc(100% / 3);
+    font-family: var(--heading-font-family-B);
+    font-size: 1rem;
+    text-align: center;
+    padding: 20px 0 0 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin: 1rem;
+    text-transform: uppercase;
+    .major-svg {
+      height: auto;
+      width: 30%;
+      align-self: center;
+    }
+    // This fill bit isn't working yet. Need to troubleshoot why not.
+    // Only trying to change the fill so that they are 100% spot on the colours.
+    .agd-svg {
+      fill: var(--agd-green);
+    }
+    .dd-svg {
+      fill: var(--dig-yellow);
+    }
+    .gd-svg {
+      fill: var(--gd-red);
+    }
+    .sign-item {
+      width: 100%;
+      min-height: 3rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-radius: 3px;
+      transition: 0.2s;
+      cursor: pointer;
+    }
+  }
+  .digex-column {
+    .sign-item {
+      background: var(--dig-yellow);
+      &:hover {
+        background: #ceb169;
+      }
+    }
+  }
+  .graphic-column {
+    .sign-item {
+      background: var(--gd-red);
+      &:hover {
+        background: #c29982;
+      }
+    }
+  }
+  .animation-column {
+    .sign-item {
+      background: var(--agd-green);
+      &:hover {
+        background: #8eb4a9;
+      }
+    }
+  }
+}
+
+// about us description section
+.about-us {
+  display: flex;
+  width: 100%;
+  .left {
+    background-color: var(--destore-background-pink);
+    height: 25rem;
+    width: calc(100% / 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .right {
+    width: calc((100% / 3) * 2);
+    padding: 1rem;
+  }
+}
+
+// reviews section
+.reviews {
+  display: flex;
+  .left {
+    width: calc(100% / 3);
+  }
+  .right {
+    background-color: var(--gd-red);
+    width: calc((100% / 3) * 2);
+    padding: 2.5rem 4rem;
+    display: flex;
+    gap: 20px;
+    p {
+      font-size: 0.8rem;
+    }
+    h3 {
+      text-transform: uppercase;
+      font-size: 1rem;
+    }
+    h4 {
+      font-size: 0.8rem;
+      font-weight: 200;
+      color: var(--brand-color);
+    }
+  }
+}

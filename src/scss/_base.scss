@@ -25,35 +25,27 @@ h6 {
   color: var(--heading-color);
 }
 
+h1 {
+  font-family: var(--heading-font-family-B);
+  color: var(--brand-color);
+  font-size: 3rem;
+  margin: 1rem;
+}
+
 h2 {
   font-family: var(--heading-font-family-B);
   font-size: 2rem;
   color: var(--brand-color);
 }
 
+p {
+  font-family: var(--base-font-family);
+}
+
 // links ---------------
 a {
   color: var(--link-color);
-}
-
-// app splash screen -------
-.app-splash {
-  position: fixed;
-  background: #fff;
-  color: #777;
-  display: flex;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  .app-logo {
-    width: 180px;
-    display: block;
-    margin-bottom: 1em;
-  }
+  font-family: var(--base-font-family);
 }
 
 // root ---------------
@@ -67,6 +59,25 @@ section {
   margin-top: 5rem;
 }
 
+button {
+  border: 2px var(--brand-color) solid;
+  background-color: var(--body-bg);
+  color: var(--brand-color);
+  margin: 1rem 0 1rem 1rem;
+  padding: 0.5rem 5rem;
+  text-align: center;
+  place-items: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  transition: 0.2s;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: var(--brand-color);
+  color: var(--body-bg);
+}
+
 // page --------------------
 .page-content {
   top: var(--app-header-height);
@@ -78,11 +89,7 @@ section {
   max-width: 1920px;
 }
 
-.image-slider {
-  height: 20vh;
-  border: 1px solid #000;
-}
-
+// universal footer styles
 footer {
   width: 100%;
   background-color: var(--agd-green);
@@ -97,6 +104,14 @@ footer {
     margin: 0 auto;
     .destore-col {
       width: calc(100% / 3);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      h3 {
+        font-size: 2rem;
+        color: var(--brand-color);
+        font-family: var(--heading-font-family-B);
+      }
     }
     .major-col {
       background: var(--body-bg);
@@ -155,151 +170,56 @@ footer {
   }
 }
 
-// homepage design ============================================================
-
-// banner
-button {
-  border: 2px var(--brand-color) solid;
-  background-color: var(--body-bg);
-  color: var(--brand-color);
-  margin: 1rem 0 1rem 1rem;
-  padding: 0.5rem 5rem;
-  text-align: center;
-  place-items: center;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-  transition: 0.2s;
-}
-
-button:hover {
-  cursor: pointer;
-  background-color: var(--brand-color);
-  color: var(--body-bg);
-}
-
-h1 {
-  color: var(--brand-color);
-  font-size: 3rem;
-  margin: 1rem;
-}
-
-// top/hero banner
-.banner {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+// image slider
+.image-slider {
+  height: 250px;
   width: 100%;
-  .left {
-    width: 50%;
-    padding: 1rem;
-    h2 {
-      padding-left: 1rem;
-    }
-  }
-  .right {
-    width: 50%;
-    height: 20rem;
-    background: #777;
-  }
-}
-
-// major categories
-.major-columns {
-  display: flex;
-  .animation-column,
-  .digex-column,
-  .graphic-column {
+  .slick {
+    background-color: #8eb4a9;
     height: 200px;
-    width: calc(100% / 3);
-    font-family: var(--heading-font-family-B);
-    font-size: 1rem;
-    text-align: center;
-    padding: 20px 0 0 0;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 0.5rem;
+    width: 150px;
     margin: 1rem;
-    text-transform: uppercase;
-    .sign-item {
-      width: 100%;
-      min-height: 3rem;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      border-radius: 3px;
-      transition: 0.2s;
-      cursor: pointer;
-    }
   }
-  .digex-column {
-    .sign-item {
-      background: var(--dig-yellow);
-      &:hover {
-        background: #ceb169;
-      }
-    }
+  .kitten1 {
+    background: url("https://images.unsplash.com/photo-1595433707802-6b2626ef1c91?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  .graphic-column {
-    .sign-item {
-      background: var(--gd-red);
-      &:hover {
-        background: #c29982;
-      }
-    }
+  .kitten2 {
+    background: url("https://images.unsplash.com/photo-1560114928-40f1f1eb26a0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1770&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  .animation-column {
-    .sign-item {
-      background: var(--agd-green);
-      &:hover {
-        background: #8eb4a9;
-      }
-    }
+  .kitten3 {
+    background: url("https://images.unsplash.com/photo-1572590285030-0ae6a4715671?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-}
-
-// about us description section
-.about-us {
-  display: flex;
-  width: 100%;
-  .left {
-    background-color: var(--destore-background-pink);
-    height: 25rem;
-    width: calc(100% / 3);
+  .kitten4 {
+    background: url("https://images.unsplash.com/photo-1615497001839-b0a0eac3274c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  .right {
-    width: calc((100% / 3) * 2);
-    padding: 1rem;
+  .kitten5 {
+    background: url("https://images.unsplash.com/photo-1606509769472-7660d4a478ac?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-}
-
-// reviews section
-.reviews {
-  display: flex;
-  .left {
-    width: calc(100% / 3);
+  .kitten6 {
+    background: url("https://images.unsplash.com/photo-1558674378-e4334d4fecc2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1770&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  .right {
-    background-color: var(--gd-red);
-    width: calc((100% / 3) * 2);
-    padding: 2.5rem 4rem;
-    display: flex;
-    gap: 20px;
-    p {
-      font-size: 0.8rem;
-    }
-    h3 {
-      text-transform: uppercase;
-      font-size: 1rem;
-    }
-    h4 {
-      font-size: 0.8rem;
-      font-weight: 200;
-      color: var(--brand-color);
-    }
+  .kitten7 {
+    background: url("https://images.unsplash.com/photo-1574144611937-0df059b5ef3e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=928&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
