@@ -114,7 +114,7 @@ button {
   border: 2px var(--brand-color) solid;
   background-color: var(--body-bg);
   color: var(--brand-color);
-  margin: 1rem 0 1rem 1rem;
+  margin: 1rem 0;
   padding: 0.5rem 5rem;
   text-align: center;
   place-items: center;
@@ -342,10 +342,6 @@ footer .footer-content .footer-animation-column .footer-item:hover {
   padding: 1rem;
 }
 
-.banner .left h2 {
-  padding-left: 1rem;
-}
-
 .banner .right {
   width: 50%;
   height: 20rem;
@@ -356,6 +352,9 @@ footer .footer-content .footer-animation-column .footer-item:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .major-columns .animation-column,
@@ -363,6 +362,7 @@ footer .footer-content .footer-animation-column .footer-item:hover {
 .major-columns .graphic-column {
   height: auto;
   width: calc(100% / 3);
+  max-width: 30rem;
   font-family: var(--heading-font-family-B);
   font-size: 1rem;
   text-align: center;
@@ -384,6 +384,9 @@ footer .footer-content .footer-animation-column .footer-item:hover {
   gap: 0.5rem;
   margin: 1rem;
   text-transform: uppercase;
+  background-color: #fffef9;
+  padding: 1rem;
+  border-radius: 3px;
 }
 
 .major-columns .animation-column .major-svg,
@@ -471,7 +474,7 @@ footer .footer-content .footer-animation-column .footer-item:hover {
 
 .about-us .left {
   background-color: var(--destore-background-pink);
-  height: 25rem;
+  height: auto;
   width: calc(100% / 3);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -487,21 +490,30 @@ footer .footer-content .footer-animation-column .footer-item:hover {
 .about-us .left img {
   width: 100%;
   height: auto;
+  max-height: 35rem;
+  max-width: 35rem;
 }
 
 .about-us .right {
   width: calc((100% / 3) * 2);
   padding: 1rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .reviews {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: unset;
 }
 
 .reviews .left {
   width: calc(100% / 3);
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .reviews .right {

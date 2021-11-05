@@ -10,9 +10,6 @@
   .left {
     width: 50%;
     padding: 1rem;
-    h2 {
-      padding-left: 1rem;
-    }
   }
   .right {
     width: 50%;
@@ -24,11 +21,13 @@
 // major categories
 .major-columns {
   display: flex;
+  justify-content: space-between;
   .animation-column,
   .digex-column,
   .graphic-column {
     height: auto;
     width: calc(100% / 3);
+    max-width: 30rem;
     font-family: var(--heading-font-family-B);
     font-size: 1rem;
     text-align: center;
@@ -41,6 +40,9 @@
     gap: 0.5rem;
     margin: 1rem;
     text-transform: uppercase;
+    background-color: #fffef9;
+    padding: 1rem;
+    border-radius: 3px;
     .major-svg {
       height: auto;
       width: 30%;
@@ -101,7 +103,7 @@
   width: 100%;
   .left {
     background-color: var(--destore-background-pink);
-    height: 25rem;
+    height: auto;
     width: calc(100% / 3);
     display: flex;
     justify-content: center;
@@ -109,19 +111,24 @@
     img {
       width: 100%;
       height: auto;
+      max-height: 35rem;
+      max-width: 35rem;
     }
   }
   .right {
     width: calc((100% / 3) * 2);
     padding: 1rem;
+    align-self: center;
   }
 }
 
 // reviews section
 .reviews {
   display: flex;
+  margin-top: unset;
   .left {
     width: calc(100% / 3);
+    align-self: center;
   }
   .right {
     background-color: var(--gd-red);
