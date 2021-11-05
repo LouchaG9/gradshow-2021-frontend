@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,300;0,500;1,100;1,200;1,500&display=swap");
 @font-face {
-  font-family: "Proxima Nova";
+  font-family: "Proxima Nova Regular";
   src: url("../../static/fonts/DeStoreFonts/ProximaNova/Mark Simonson - Proxima Nova Regular.otf");
 }
 
@@ -19,7 +19,7 @@
   --heading-color: #333;
   --heading-font-family-A: "MilkmanRegular";
   --heading-font-family-B: "Monospec-Bold";
-  --base-font-family: "Proxima Nova", serif;
+  --base-font-family: "Proxima Nova Regular", serif;
   --body-bg: #f6f4ec;
   --brand-color: #e93b2c;
   --link-color: --brand-color;
