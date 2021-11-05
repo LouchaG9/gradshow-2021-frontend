@@ -27,7 +27,7 @@
   .animation-column,
   .digex-column,
   .graphic-column {
-    height: 200px;
+    height: auto;
     width: calc(100% / 3);
     font-family: var(--heading-font-family-B);
     font-size: 1rem;
