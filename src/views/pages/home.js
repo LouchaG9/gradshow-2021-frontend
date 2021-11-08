@@ -28,7 +28,8 @@ class HomeView {
               Shop all graduates
             </button>
           </div>
-          <div class="right"></div>
+          <div class="right">
+          </div>
         </section>
 
         <section class="majors">

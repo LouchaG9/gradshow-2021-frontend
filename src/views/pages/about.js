@@ -15,6 +15,7 @@ class AboutView {
       <va-app-header title="About page"></va-app-header>
       <div class="page-content">
         <section class="about-banner">
+        
           <div class="about-landing">
             <h1>About Us</h1>
             <p>
@@ -33,15 +34,15 @@ class AboutView {
             </p>
           </div>
 
-          <img src="https://i.stack.imgur.com/y9DpT.jpg" class="about-img" />
+          <img src="https://drive.google.com/uc?export=view&id=1JxGAVQPoi8QiT08CvTJ3HCLaUbvSQoiu" class="about-img" />
         </section>
 
-        <section class="values-logo">
+        <div class="values-logo">
           <div class="about-logo"></div>
           <h1>Our Values</h1>
-        </section>
+        </div>
 
-        <section class="values">
+        <div class="values">
           <div class="value-1">
             <h4>Value 1</h4>
             <p>
@@ -51,7 +52,7 @@ class AboutView {
             </p>
           </div>
           <div class="value-2">
-            <h4>Value 1</h4>
+            <h4>Value 2</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus
               suspendisse non, sit euismod. Lorem ipsum dolor sit amet,
@@ -59,7 +60,7 @@ class AboutView {
             </p>
           </div>
           <div class="value-3">
-            <h4>Value 1</h4>
+            <h4>Value 3</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus
               suspendisse non, sit euismod. Lorem ipsum dolor sit amet,
@@ -67,14 +68,14 @@ class AboutView {
             </p>
           </div>
           <div class="value-4">
-            <h4>Value 1</h4>
+            <h4>Value 4</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus
               suspendisse non, sit euismod. Lorem ipsum dolor sit amet,
               consectetur adipiscing elit. Tellus suspendisse non, sit euismod.
             </p>
           </div>
-        </section>
+        </div>
 
         <section class="block-100 credit-fill">
           <div class="credit-block">
