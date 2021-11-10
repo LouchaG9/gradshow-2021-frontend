@@ -1,23 +1,25 @@
 {
   "Graduates": [
     {
-      "17159355": {
-        "firstName": "Lachlan",
-        "lastName": "Robertson",
-        "email": "ambitxdesign@gmail.com",
-        "major": "Animation and Game Design",
-        "bio": "3D asset designer specializing in prop development, with skills in illustration and motion graphics. Open to opportunities.",
-        "tagLine": "Give gold, get gold.",
-        "portfolio": "",
-        "linkedin": "https://www.linkedin.com/in/lachlan-robertson-axd/",
-        "instagram": "https://www.instagram.com/ambitxdesign/",
-        "twitter": "https://twitter.com/AmbitxDesign",
-        "vimeo": "",
-        "artStation": "https://www.artstation.com/ambitxdesign",
-        "behance": "",
-        "dribbble": "",
-        "images": "https://drive.google.com/open?id=1hPOLcnrNJAHHXA6x_-MB8qdJZlCdWsLB, https://drive.google.com/open?id=16IfLybWqdDh3iVeyau2H8f22mWk6Lnys, https://drive.google.com/open?id=1P7hgPhg9gv5IviORR4-slnLxMfp6niDS, https://drive.google.com/open?id=1yizn8wO5GQKcnunWuQ4xRtxmsnoiYqZ9"
-      },
+      "17159355": [
+        {
+          "firstName": "Lachlan",
+          "lastName": "Robertson",
+          "email": "ambitxdesign@gmail.com",
+          "major": "Animation and Game Design",
+          "bio": "3D asset designer specializing in prop development, with skills in illustration and motion graphics. Open to opportunities.",
+          "tagLine": "Give gold, get gold.",
+          "portfolio": "",
+          "linkedin": "https://www.linkedin.com/in/lachlan-robertson-axd/",
+          "instagram": "https://www.instagram.com/ambitxdesign/",
+          "twitter": "https://twitter.com/AmbitxDesign",
+          "vimeo": "",
+          "artStation": "https://www.artstation.com/ambitxdesign",
+          "behance": "",
+          "dribbble": "",
+          "images": "https://drive.google.com/open?id=1hPOLcnrNJAHHXA6x_-MB8qdJZlCdWsLB, https://drive.google.com/open?id=16IfLybWqdDh3iVeyau2H8f22mWk6Lnys, https://drive.google.com/open?id=1P7hgPhg9gv5IviORR4-slnLxMfp6niDS, https://drive.google.com/open?id=1yizn8wO5GQKcnunWuQ4xRtxmsnoiYqZ9"
+        }
+      ],
       "17373236": [
         {
           "firstName": "Emily",

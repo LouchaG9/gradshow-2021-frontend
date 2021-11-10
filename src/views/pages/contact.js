@@ -1,26 +1,36 @@
-import App from '../../App'
-import {html, render } from 'lit-html'
-import {gotoRoute, anchorRoute} from '../../Router'
-import Utils from '../../Utils'
+import App from "../../App";
+import { html, render } from "lit-html";
+import { gotoRoute, anchorRoute } from "../../Router";
+import Utils from "../../Utils";
+import { Graduates } from "./../../../static/data/graduateData";
 
 class ContactView {
-  init(){
-    document.title = 'About Page'    
-    this.render()    
-    Utils.pageIntroAnim()
+  init() {
+    document.title = "Playground Page";
+    this.render();
+    Utils.pageIntroAnim();
+    Utils.imageSplice();
   }
 
-  render(){
+  render() {
     const template = html`
-      <va-app-header title="Contact"></va-app-header>
-      <div class="page-content">        
-        <h1>Contact the DeStore</h1>
-        <p>Contact Info</p>
-      </div>      
-    `
-    render(template, App.rootEl)
+      <div
+        style="display:flex; flex-direction:row; flex-flow:wrap; align-items:center; justify-content:center; width:80vw; margin: 0 auto"
+      >
+        ${Graduates.map(
+          (graduate) => html`
+            <div
+              style="height:200px; width:auto; min-width:300px; background:white; margin:1rem; border-radius:15px; padding:1rem"
+            >
+              <h2>${graduate.firstName}</h2>
+              <p>${graduate.tagLine}</p>
+            </div>
+          `
+        )}
+      </div>
+    `;
+    render(template, App.rootEl);
   }
 }
 
-
-export default new ContactView()
+export default new ContactView();
