@@ -168,7 +168,7 @@ customElements.define(
           }
 
           /* RESPONSIVE - MOBILE ------------------- */
-          @media all and (max-width: 768px) {
+          @media all and (max-width: 640px) {
             .app-top-nav {
               display: none;
             }

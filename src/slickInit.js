@@ -10,6 +10,7 @@ $(document).ready(function () {
     autoplaySpeed: 4000,
     arrows: false,
     centerMode: true,
+    variableWidth: true
   });
   console.log("slick init");
 });

@@ -98,6 +98,7 @@ footer {
   margin: 0 auto;
   .footer-content {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     gap: 1rem;
     width: 90%;
@@ -121,9 +122,11 @@ footer {
     .footer-digex-column,
     .footer-graphic-column,
     .footer-animation-column {
-      height: 200px;
+      height: auto;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
       font-family: var(--heading-font-family-B);
-      font-size: 1rem;
+      font-size: calc(0.5vw + 0.5vh + 0.5vmin);
       text-align: center;
       display: flex;
       flex-direction: column;
@@ -221,5 +224,83 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  footer {
+    width: 100%;
+    margin: 0 auto;
+    .footer-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      width: 90%;
+      margin: 0 auto;
+      .destore-col {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h3 {
+          font-size: 2rem;
+          color: var(--brand-color);
+          font-family: var(--heading-font-family-B);
+        }
+      }
+      .major-col {
+        display: none;
+      }
+      .footer-digex-column,
+      .footer-graphic-column,
+      .footer-animation-column {
+        height: 200px;
+        font-family: var(--heading-font-family-B);
+        font-size: 1rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        .footer-item {
+          min-height: 2rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          border-radius: 3px;
+          transition: 0.2s;
+          cursor: pointer;
+          width: 90%;
+          margin: 0 auto;
+        }
+      }
+      .footer-digex-column {
+        .footer-item {
+          background: var(--dig-yellow);
+          &:hover {
+            background: #ceb169;
+          }
+        }
+      }
+      .footer-graphic-column {
+        .footer-item {
+          background: var(--gd-red);
+          &:hover {
+            background: #c29982;
+          }
+        }
+      }
+      .footer-animation-column {
+        .footer-item {
+          background: var(--agd-green);
+          &:hover {
+            background: #8eb4a9;
+          }
+        }
+      }
+    }
   }
 }

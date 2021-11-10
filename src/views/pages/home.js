@@ -142,7 +142,7 @@ class HomeView {
           </div>
 
           <div class="right">
-            <div class="joel">
+            <div class="quote-one">
               <h3>Joel Louie</h3>
               <h4>Digital Design Major Coordinator</h4>
               <p>
@@ -152,7 +152,7 @@ class HomeView {
                 amet."
               </p>
             </div>
-            <div class="lee">
+            <div class="quote-two">
               <h3>Lee Ingram</h3>
               <h4>Graphic Design Major Coordinator</h4>
               <p>
@@ -162,7 +162,7 @@ class HomeView {
                 amet."
               </p>
             </div>
-            <div class="jonathon">
+            <div class="quote-three">
               <h3>Jonathon Pillai</h3>
               <h4>Animation & Game Design Major Coordinator</h4>
               <p>
