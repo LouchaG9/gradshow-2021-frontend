@@ -3,9 +3,12 @@ import { html, render } from "lit-html";
 import { gotoRoute, anchorRoute } from "./../../Router";
 import Utils from "./../../Utils";
 
-const data = require("../../../static/data/graduateData.json");
-console.log(data);
-console.log(data.Graduates[0][18846674][0].bio);
+// How to use the data //
+import { Graduates } from "./../../../static/data/graduateData";
+
+// Graduates.map((graduate) => {
+//   console.log(graduate.firstName);
+// });
 
 class HomeView {
   init() {
