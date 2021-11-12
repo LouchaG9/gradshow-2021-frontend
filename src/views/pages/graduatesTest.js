@@ -1,55 +1,19 @@
-import App from "./../../App";
+import App from "../../App";
 import { html, render } from "lit-html";
-import { gotoRoute, anchorRoute } from "./../../Router";
-import Auth from "./../../Auth";
-import Utils from "./../../Utils";
-import GraduateAPI from "./../../GraduateAPI";
+import { gotoRoute, anchorRoute } from "../../Router";
+import Auth from "../../Auth";
+import Utils from "../../Utils";
+import GraduateAPI from "../../GraduateAPI";
+import { Graduates } from "../../../static/data/graduateData";
 import Toast from "../../Toast";
 
-class GraduatesView {
-  async init() {
+class GraduatesTest {
+  init() {
     document.title = "Shop";
-    this.graduates = null;
+    this.Graduates = Graduates;
+    Utils.shuffle(this.Graduates);
     this.render();
     Utils.pageIntroAnim();
-    await this.getGraduates();
-  }
-
-  async filterGraduates(field, match) {
-    // validate
-    if (!field || !match) return;
-
-    // get fresh copy of the graduates - reset graduates so that no filters have been applied already
-    this.graduates = await GraduateAPI.getGraduates();
-
-    let filteredGraduates;
-
-    // by major
-    if (field == "major") {
-      filteredGraduates = this.graduates.filter(
-        (graduate) => graduate.texture == match
-      );
-    }
-
-    // by firstName
-    if (field == "firstName") {
-      // filter this.graduate where graduate.name contains a searchQuery
-      filteredGraduates = this.graduates.filter((graduate) =>
-        graduate.firstName.toLowerCase().includes(match.toLowerCase())
-      );
-    }
-
-    // by lastName
-    if (field == "lastName") {
-      // filter this.graduate where graduate.description contains a searchQuery
-      filteredGraduates = this.graduates.filter((graduate) =>
-        graduate.lastName.toLowerCase().includes(match.toLowerCase())
-      );
-    }
-
-    // set and render
-    this.graduates = filteredGraduates;
-    this.render();
   }
 
   clearFilterBtns() {
@@ -57,17 +21,66 @@ class GraduatesView {
     filterBtns.forEach((btn) => btn.removeAttribute("type"));
   }
 
-  async handleSearchKeyup(e) {
+  resetGrads() {
+    this.Graduates = Graduates;
+    this.render();
+  }
+
+  filterGraduates(field, match) {
+    // validate
+    if (!field || !match) return;
+
+    // get fresh copy of the graduates - reset graduates so that no filters have been applied already
+    this.Graduates;
+
+    let filteredGraduates;
+
+    // by major
+    if (field == "major") {
+      filteredGraduates = this.Graduates.filter(
+        (graduate) => graduate.texture == match
+      );
+    }
+
+    // by firstName
+    if (field == "firstName") {
+      // filter this.graduate where graduate.name contains a searchQuery
+      filteredGraduates = this.Graduates.filter((graduate) =>
+        graduate.firstName.toLowerCase().includes(match.toLowerCase())
+      );
+    }
+
+    // by lastName
+    if (field == "lastName") {
+      // filter this.graduate where graduate.description contains a searchQuery
+      filteredGraduates = this.Graduates.filter((graduate) =>
+        graduate.lastName.toLowerCase().includes(match.toLowerCase())
+      );
+    }
+
+    // set and render
+    this.Graduates = filteredGraduates;
+    this.render();
+  }
+
+  backSpaceHandler(e) {
+    let key = e.keyCode || e.charCode;
+    if (key == 8) return e.target.value;
+    console.log(e.target.value);
+  }
+
+  handleSearchKeyup(e) {
     // if search query is empty, clear filters
     if (e.target.value == "") {
-      this.getGraduates();
+      this.resetGrads();
     } else {
-      console.log(e.target.value);
+      this.resetGrads();
       // filter graduates based on name and search query
-      await this.filterGraduates("firstName", e.target.value);
+      this.filterGraduates("firstName", e.target.value);
+      console.log(this.Graduates);
       // if no result, filter graduates based on description and search query
-      if (this.graduates.length === 0) {
-        this.getGraduates();
+      if (this.Graduates.length === 0) {
+        this.Graduates;
         this.filterGraduates("lastName", e.target.value);
       }
     }
@@ -88,18 +101,8 @@ class GraduatesView {
   }
 
   clearFilters() {
-    this.getGraduates();
+    this.resetGrads();
     this.clearFilterBtns();
-  }
-
-  async getGraduates() {
-    try {
-      this.graduates = await GraduateAPI.getGraduates();
-      console.log(this.graduates);
-      this.render();
-    } catch (err) {
-      Toast.show(err, "error");
-    }
   }
 
   render() {
@@ -121,9 +124,11 @@ class GraduatesView {
           <div class="search-input-container">
             <input
               class="search-input"
+              id="search-input"
               type="search"
-              @keyup=${this.handleSearchKeyup.bind(this)}
               placeholder="Search"
+              @keyup=${this.handleSearchKeyup.bind(this)}
+              @keydown=${this.backSpaceHandler.bind(this)}
             />
             <i class="fas fa-search"></i>
           </div>
@@ -174,18 +179,17 @@ class GraduatesView {
         <section class="all-graduates-container">
           <!-- graduate component -->
           <div class="graduate-grid">
-            ${this.graduates == null
+            ${Graduates == null
               ? html` <sl-spinner></sl-spinner> `
               : html`
-                  ${this.graduates.map(
+                  ${this.Graduates.map(
                     (graduate) => html`
                       <va-graduates
                         class="graduate-card"
-                        id="${graduate._id}"
-                        firstName="${graduate.name}"
-                        lastName="${graduate.description}"
-                        normalPhoto="${graduate.photoMain}"
-                        quirkyPhoto="${graduate.photoMain}"
+                        firstName="${graduate.firstName}"
+                        lastName="${graduate.lastName}"
+                        portfolio="${graduate.portfolio}"
+                        tagLine="${graduate.tagLine}"
                       >
                       </va-graduates>
                     `
@@ -232,4 +236,4 @@ class GraduatesView {
   }
 }
 
-export default new GraduatesView();
+export default new GraduatesTest();
