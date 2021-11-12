@@ -19,18 +19,13 @@ class AboutView {
           <div class="about-landing">
             <h1>About Us</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus
-              suspendisse non, sit euismod mauris ut. Suscipit non elit at sem
-              massa eget semper. Eget tristique adipiscing congue turpis
-              tincidunt non. Commodo tortor nunc lacus lacinia amet, platea. Ut
-              nec leo, lobortis mattis. Tristique molestie orci nec nulla
-              dapibus ultricies vel cursus. Eget dictumst volutpat integer eu,
-              suscipit tincidunt gravida aliquam ultricies.<br /><br />
-              Pretium parturient a, integer eget aenean vel. Diam commodo,
-              pellentesque purus pretium, nisi nunc nisi tempus, tellus. Amet
-              suspendisse sodales tristique purus. Netus est quam neque arcu
-              elit aliquam. Tristique vulputate sed a in morbi. Enim, adipiscing
-              a purus enim curabitur nunc, ac. Non, eu cursus arcu ut eu, ut
+            Join us at the DeStore Deli for the 2021 Curtin Grad Show!   
+            Featuring employees from Animation & Game Design, Creative Advertising
+            & Graphic Design and Digital Design, we're sure to serve up with best dishes and designs!<br /><br/>
+
+            Of course, none of this would have been possible without the support of friends, families
+            and the Graduates Staff Committee, so this ones for you - here's the culmination of all 
+            hardwork and tears over the past couple years.
             </p>
           </div>
 
@@ -44,35 +39,33 @@ class AboutView {
 
         <div class="values">
           <div class="value-1">
-            <h4>Value 1</h4>
+            <h4>Inclusivity</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus
-              suspendisse non, sit euismod. Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit. Tellus suspendisse non, sit euismod.
+              Providing equal access and opportunities to all members
+              of the Grad Show, creating a safe space for people to contribute.
             </p>
           </div>
           <div class="value-2">
-            <h4>Value 2</h4>
+            <h4>Innovation</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus
-              suspendisse non, sit euismod. Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit. Tellus suspendisse non, sit euismod.
+              Always producing and designing new ideas, 
+              creating advances in innovation and efficiency to
+              be the best that we can be.
             </p>
           </div>
           <div class="value-3">
-            <h4>Value 3</h4>
+            <h4>Creativity</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus
-              suspendisse non, sit euismod. Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit. Tellus suspendisse non, sit euismod.
+             The ability to experiment, to value and learn from mistakes,
+              and build on the experience. 
             </p>
           </div>
           <div class="value-4">
-            <h4>Value 4</h4>
+            <h4>Diversity</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus
-              suspendisse non, sit euismod. Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit. Tellus suspendisse non, sit euismod.
+              Recognising and respecting people of all ethnicity, gender,
+              age, race, religion and sexual orientation - and 
+              valuing their differences.
             </p>
           </div>
         </div>
