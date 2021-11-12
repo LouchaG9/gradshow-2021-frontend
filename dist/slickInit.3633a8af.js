@@ -128,7 +128,8 @@ $(document).ready(function () {
     autoplay: true,
     autoplaySpeed: 4000,
     arrows: false,
-    centerMode: true
+    centerMode: true,
+    variableWidth: true
   });
   console.log("slick init");
 });
@@ -160,7 +161,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57837" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49986" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
