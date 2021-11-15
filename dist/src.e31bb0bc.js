@@ -9057,7 +9057,7 @@ var _GraduateAPI = _interopRequireDefault(require("./../../GraduateAPI"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject3() {
-  const data = _taggedTemplateLiteral(["\n\n        <!-- ABOUT THE STUDENT ---------------------------------->\n        <section class=\"block-50-50\">\n          <div class=\"column\">\n            <img src=\"", "/images/", "\" />\n          </div>\n          <div class=\"column\">\n            <h3>Major", "</h3>\n            <h1>First Name", "</h1>\n            <p><strong>Quirky Fact</strong><br>Something quirky/interesting about the student.", "</p>\n            <p><strong>Hobbies</strong><br>A list of hobbies of the student.", "</p>\n\n            <div class=\"buttons-wrapper\">\n              <button class=\"secondary\">Portfolio</button>\n              <button class=\"icon\">Linkedin</button>\n              <button class=\"icon\">Instagram</button>\n            </div>\n            \n            <p><strong>Description</strong></p>\n            <p>", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus suspendisse non, sit euismod mauris ut. Suscipit non elit at sem massa eget semper. Eget tristique adipiscing congue turpis tincidunt non. Commodo tortor nunc lacus lacinia amet, platea. Ut nec leo, lobortis mattis. Tristique molestie orci nec nulla dapibus ultricies vel cursus. Eget dictumst volutpat integer eu, suscipit tincidunt gravida aliquam ultricies. Pretium parturient a, integer eget aenean vel. Diam commodo, pellentesque purus pretium, nisi nunc nisi tempus, tellus. Amet suspendisse sodales tristique purus. Netus est quam neque arcu elit aliquam. Tristique vulputate sed a in morbi. Enim, adipiscing a purus enim curabitur nunc, ac. Non, eu cursus arcu ut eu, ut.</p>\n          </div>\n        </section>\n        \n\n        <!-- WORK ---------------------------------->\n        <section class=\"block-100 height-1\">\n          <h1>Jane Doe's Work</h1>\n          <div class =\"work-container\">\n            <!-- This is where we will display a couple of the students best works. -->\n          </div>\n        </section>\n\n        "]);
+  const data = _taggedTemplateLiteral(["\n              <!-- ABOUT THE STUDENT ---------------------------------->\n              <section class=\"block-50-50\">\n                <div class=\"column\">\n                  <img\n                    src=\"", "/images/", "\"\n                  />\n                </div>\n                <div class=\"column\">\n                  <h3>Major", "</h3>\n                  <h1>First Name", "</h1>\n                  <p>\n                    <strong>Quirky Fact</strong><br />Something\n                    quirky/interesting about the\n                    student.", "\n                  </p>\n                  <p>\n                    <strong>Hobbies</strong><br />A list of hobbies of the\n                    student.", "\n                  </p>\n\n                  <div class=\"buttons-wrapper\">\n                    <button class=\"secondary\">Portfolio</button>\n                    <button class=\"icon\">Linkedin</button>\n                    <button class=\"icon\">Instagram</button>\n                  </div>\n\n                  <p><strong>Description</strong></p>\n                  <p>\n                    ", "Lorem ipsum dolor sit amet,\n                    consectetur adipiscing elit. Tellus suspendisse non, sit\n                    euismod mauris ut. Suscipit non elit at sem massa eget\n                    semper. Eget tristique adipiscing congue turpis tincidunt\n                    non. Commodo tortor nunc lacus lacinia amet, platea. Ut nec\n                    leo, lobortis mattis. Tristique molestie orci nec nulla\n                    dapibus ultricies vel cursus. Eget dictumst volutpat integer\n                    eu, suscipit tincidunt gravida aliquam ultricies. Pretium\n                    parturient a, integer eget aenean vel. Diam commodo,\n                    pellentesque purus pretium, nisi nunc nisi tempus, tellus.\n                    Amet suspendisse sodales tristique purus. Netus est quam\n                    neque arcu elit aliquam. Tristique vulputate sed a in morbi.\n                    Enim, adipiscing a purus enim curabitur nunc, ac. Non, eu\n                    cursus arcu ut eu, ut.\n                  </p>\n                </div>\n              </section>\n\n              <!-- WORK ---------------------------------->\n              <section class=\"block-100 height-1\">\n                <h1>Jane Doe's Work</h1>\n                <div class=\"work-container\">\n                  <!-- This is where we will display a couple of the students best works. -->\n                </div>\n              </section>\n            "]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -9067,7 +9067,7 @@ function _templateObject3() {
 }
 
 function _templateObject2() {
-  const data = _taggedTemplateLiteral(["\n        <sl-spinner></sl-spinner>\n        "]);
+  const data = _taggedTemplateLiteral([" <sl-spinner></sl-spinner> "]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -9077,7 +9077,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"View Graduate\" user=\"", "\"></va-app-header>\n      <div class=\"page-content\">\n        \n        ", " <!-- end of individual rendering -->\n\n\n         <!-- FOOTER ---------------------------------->\n         <footer>\n          <div class=\"footer-content\">\n            <div class=footer-col>\n              <h3>DeStore</h3>\n              <p>\n                Monday \u2013 Saturday: 8:00 am \u2013 4:00pm <br>\n                Sunday: 9:00 am \u2013 5:00pm<br>\n                Kent St, Bentley, 6102, Western Australia<br><br>\n                @destore\n              </p>\n            </div>\n            <div class=footer-col>\n              <h3>Quick Links</h3>\n              <ul>\n                <li>Home</li>\n                <li>Shop</li>\n                <li>About</li>\n                <li>Contact</li>\n              </ul>\n            </div>\n            <div class=footer-col>\n            <h3>Shop</h3>\n              <ul>\n                <li>Fresh Produce</li>\n                <li>Butcher</li>\n                <li>Bakery</li>\n              </ul>\n            </div>\n          </div>\n        </footer>\n        \n      </div>      \n    "]);
+  const data = _taggedTemplateLiteral(["\n      <va-app-header\n        title=\"View Graduate\"\n        user=\"", "\"\n      ></va-app-header>\n      <div class=\"page-content\">\n        ", "\n        <!-- end of individual rendering -->\n\n        <!-- FOOTER ---------------------------------->\n        <footer>\n          <div class=\"footer-content\">\n            <div class=\"footer-col\">\n              <h3>DeStore</h3>\n              <p>\n                Monday \u2013 Saturday: 8:00 am \u2013 4:00pm <br />\n                Sunday: 9:00 am \u2013 5:00pm<br />\n                Kent St, Bentley, 6102, Western Australia<br /><br />\n                @destore\n              </p>\n            </div>\n            <div class=\"footer-col\">\n              <h3>Quick Links</h3>\n              <ul>\n                <li>Home</li>\n                <li>Shop</li>\n                <li>About</li>\n                <li>Contact</li>\n              </ul>\n            </div>\n            <div class=\"footer-col\">\n              <h3>Shop</h3>\n              <ul>\n                <li>Fresh Produce</li>\n                <li>Butcher</li>\n                <li>Bakery</li>\n              </ul>\n            </div>\n          </div>\n        </footer>\n      </div>\n    "]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -9090,7 +9090,7 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 
 class viewGraduateView {
   init() {
-    document.title = 'View Graduate';
+    document.title = "View Graduate";
     this.graduate = null;
     this.render();
 
@@ -9102,7 +9102,7 @@ class viewGraduateView {
   async getGraduate() {
     // get id param from URL
     const urlParams = new URLSearchParams(location.search);
-    const id = urlParams.get('id'); // console.log(id)
+    const id = urlParams.get("id"); // console.log(id)
     // get the graduate
 
     this.graduate = await _GraduateAPI.default.getGraduate(id);
@@ -9120,7 +9120,7 @@ class viewGraduateView {
 var _default = new viewGraduateView();
 
 exports.default = _default;
-},{"./../../App":"App.js","lit-html":"../node_modules/lit-html/lit-html.js","./../../Router":"Router.js","./../../Auth":"Auth.js","./../../Utils":"Utils.js","./../../GraduateAPI":"GraduateAPI.js"}],"views/pages/graduates.js":[function(require,module,exports) {
+},{"./../../App":"App.js","lit-html":"../node_modules/lit-html/lit-html.js","./../../Router":"Router.js","./../../Auth":"Auth.js","./../../Utils":"Utils.js","./../../GraduateAPI":"GraduateAPI.js"}],"views/pages/oldGraduates.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -9128,17 +9128,17 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _App = _interopRequireDefault(require("./../../App"));
+var _App = _interopRequireDefault(require("../../App"));
 
 var _litHtml = require("lit-html");
 
-var _Router = require("./../../Router");
+var _Router = require("../../Router");
 
-var _Auth = _interopRequireDefault(require("./../../Auth"));
+var _Auth = _interopRequireDefault(require("../../Auth"));
 
-var _Utils = _interopRequireDefault(require("./../../Utils"));
+var _Utils = _interopRequireDefault(require("../../Utils"));
 
-var _GraduateAPI = _interopRequireDefault(require("./../../GraduateAPI"));
+var _GraduateAPI = _interopRequireDefault(require("../../GraduateAPI"));
 
 var _Toast = _interopRequireDefault(require("../../Toast"));
 
@@ -9283,7 +9283,7 @@ class GraduatesView {
 var _default = new GraduatesView();
 
 exports.default = _default;
-},{"./../../App":"App.js","lit-html":"../node_modules/lit-html/lit-html.js","./../../Router":"Router.js","./../../Auth":"Auth.js","./../../Utils":"Utils.js","./../../GraduateAPI":"GraduateAPI.js","../../Toast":"Toast.js"}],"views/pages/graduatesTest.js":[function(require,module,exports) {
+},{"../../App":"App.js","lit-html":"../node_modules/lit-html/lit-html.js","../../Router":"Router.js","../../Auth":"Auth.js","../../Utils":"Utils.js","../../GraduateAPI":"GraduateAPI.js","../../Toast":"Toast.js"}],"views/pages/graduates.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -9451,7 +9451,505 @@ class GraduatesTest {
 var _default = new GraduatesTest();
 
 exports.default = _default;
-},{"../../App":"App.js","lit-html":"../node_modules/lit-html/lit-html.js","../../Router":"Router.js","../../Auth":"Auth.js","../../Utils":"Utils.js","../../GraduateAPI":"GraduateAPI.js","../../../static/data/graduateData":"../static/data/graduateData.js","../../Toast":"Toast.js"}],"Router.js":[function(require,module,exports) {
+},{"../../App":"App.js","lit-html":"../node_modules/lit-html/lit-html.js","../../Router":"Router.js","../../Auth":"Auth.js","../../Utils":"Utils.js","../../GraduateAPI":"GraduateAPI.js","../../../static/data/graduateData":"../static/data/graduateData.js","../../Toast":"Toast.js"}],"views/pages/digitalGraduates.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _App = _interopRequireDefault(require("../../App"));
+
+var _litHtml = require("lit-html");
+
+var _Router = require("../../Router");
+
+var _Utils = _interopRequireDefault(require("../../Utils"));
+
+var _graduateData = require("../../../static/data/graduateData");
+
+var _Toast = _interopRequireDefault(require("../../Toast"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _templateObject4() {
+  const data = _taggedTemplateLiteral(["\n                      <va-graduates\n                        class=\"graduate-card\"\n                        firstName=\"", "\"\n                        lastName=\"", "\"\n                        portfolio=\"", "\"\n                        tagLine=\"", "\"\n                      >\n                      </va-graduates>\n                    "]);
+
+  _templateObject4 = function _templateObject4() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject3() {
+  const data = _taggedTemplateLiteral(["\n                  ", "\n                "]);
+
+  _templateObject3 = function _templateObject3() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject2() {
+  const data = _taggedTemplateLiteral([" <sl-spinner></sl-spinner> "]);
+
+  _templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject() {
+  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"Shop\"></va-app-header>\n      <div class=\"page-content\">\n        <!-- title -->\n        <h2>Graduates.</h2>\n\n        <!-- SHOWREEL CONTAINER ---------------------------------->\n        <section class=\"block-100 height-1 showreel-container\">\n          <h1>showreel container</h1>\n          <!-- This is where we will display a couple of the students best works. -->\n        </section>\n\n        <!-- FILTER DROPDOWN / SEARCH BAR ---------------------------------->\n        <section class=\"search-and-filter-container\">\n          <!-- search bar -->\n          <div class=\"search-input-container\">\n            <input\n              class=\"search-input\"\n              id=\"search-input\"\n              type=\"search\"\n              placeholder=\"Search\"\n              @keyup=", "\n              @keydown=", "\n            />\n            <i class=\"fas fa-search\"></i>\n          </div>\n\n          <!-- search filters -->\n          <label class=\"dropdown\">\n            <div class=\"dd-button\">Filter</div>\n            <input type=\"checkbox\" class=\"dd-input\" id=\"test\" />\n            <ul class=\"dd-menu\">\n              <li size=\"small\" @click=", ">\n                All Employees\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                size=\"small\"\n                data-field=\"major\"\n                data-match=\"animation-and-game-design\"\n                @click=", "\n              >\n                Animation & Game Design\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                size=\"small\"\n                data-field=\"major\"\n                data-match=\"graphic-design\"\n                @click=", "\n              >\n                Graphic Design\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                size=\"small\"\n                data-field=\"major\"\n                data-match=\"digital-design\"\n                @click=", "\n              >\n                Digital Design\n              </li>\n            </ul>\n          </label>\n        </section>\n\n        <!-- ALL STUDENTS ---------------------------------->\n        <section class=\"all-graduates-container\">\n          <!-- graduate component -->\n          <div class=\"graduate-grid\">\n            ", "\n          </div>\n          <!-- /component -->\n        </section>\n\n        <!-- FOOTER ---------------------------------->\n        <footer>\n          <div class=\"footer-content\">\n            <div class=\"footer-col\">\n              <h3>DeStore</h3>\n              <p>\n                Monday \u2013 Saturday: 8:00 am \u2013 4:00pm <br />\n                Sunday: 9:00 am \u2013 5:00pm<br />\n                Kent St, Bentley, 6102, Western Australia<br /><br />\n                @destore\n              </p>\n            </div>\n            <div class=\"footer-col\">\n              <h3>Quick Links</h3>\n              <ul>\n                <li>Home</li>\n                <li>Shop</li>\n                <li>About</li>\n                <li>Contact</li>\n              </ul>\n            </div>\n            <div class=\"footer-col\">\n              <h3>Shop</h3>\n              <ul>\n                <li>Fresh Produce</li>\n                <li>Butcher</li>\n                <li>Bakery</li>\n              </ul>\n            </div>\n          </div>\n        </footer>\n      </div>\n    "]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+var digitalGradsArray = _graduateData.Graduates.filter(function (grad) {
+  return grad.major === "Digital Experience and Interaction Design";
+});
+
+class DigitalGraduatesView {
+  init() {
+    document.title = "Shop";
+    this.Graduates = _graduateData.Graduates;
+
+    _Utils.default.shuffle(digitalGradsArray);
+
+    this.render();
+  }
+
+  clearFilterBtns() {
+    const filterBtns = document.querySelectorAll(".filter-btn");
+    filterBtns.forEach(btn => btn.removeAttribute("type"));
+  }
+
+  resetGrads() {
+    this.Graduates = _graduateData.Graduates;
+    this.render();
+  }
+
+  filterGraduates(field, match) {
+    // validate
+    if (!field || !match) return; // get fresh copy of the graduates - reset graduates so that no filters have been applied already
+
+    this.Graduates;
+    let filteredGraduates; // by major
+
+    if (field == "major") {
+      filteredGraduates = this.Graduates.filter(graduate => graduate.texture == match);
+    } // by firstName
+
+
+    if (field == "firstName") {
+      // filter this.graduate where graduate.name contains a searchQuery
+      filteredGraduates = this.Graduates.filter(graduate => graduate.firstName.toLowerCase().includes(match.toLowerCase()));
+    } // by lastName
+
+
+    if (field == "lastName") {
+      // filter this.graduate where graduate.description contains a searchQuery
+      filteredGraduates = this.Graduates.filter(graduate => graduate.lastName.toLowerCase().includes(match.toLowerCase()));
+    } // set and render
+
+
+    this.Graduates = filteredGraduates;
+    this.render();
+  }
+
+  backSpaceHandler(e) {
+    let key = e.keyCode || e.charCode;
+    if (key == 8) return e.target.value;
+    console.log(e.target.value);
+  }
+
+  handleSearchKeyup(e) {
+    // if search query is empty, clear filters
+    if (e.target.value == "") {
+      this.resetGrads();
+    } else {
+      this.resetGrads(); // filter graduates based on name and search query
+
+      this.filterGraduates("firstName", e.target.value);
+      console.log(this.Graduates); // if no result, filter graduates based on description and search query
+
+      if (this.Graduates.length === 0) {
+        this.Graduates;
+        this.filterGraduates("lastName", e.target.value);
+      }
+    }
+  }
+
+  handleFilterBtn(e) {
+    // clear all filter buttons active state (remove type = primary)
+    this.clearFilterBtns(); // set button active (type = primary)
+
+    e.target.setAttribute("type", "primary"); // extract the field and match from the button
+
+    const field = e.target.getAttribute("data-field");
+    const match = e.target.getAttribute("data-match"); // filter graduates
+
+    this.filterGraduates(field, match);
+  }
+
+  clearFilters() {
+    this.resetGrads();
+    this.clearFilterBtns();
+  }
+
+  render() {
+    const template = (0, _litHtml.html)(_templateObject(), this.handleSearchKeyup.bind(this), this.backSpaceHandler.bind(this), this.clearFilters.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), _graduateData.Graduates == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), digitalGradsArray.map(graduate => (0, _litHtml.html)(_templateObject4(), graduate.firstName, graduate.lastName, graduate.portfolio, graduate.tagLine))));
+    (0, _litHtml.render)(template, _App.default.rootEl);
+  }
+
+}
+
+var _default = new DigitalGraduatesView();
+
+exports.default = _default;
+},{"../../App":"App.js","lit-html":"../node_modules/lit-html/lit-html.js","../../Router":"Router.js","../../Utils":"Utils.js","../../../static/data/graduateData":"../static/data/graduateData.js","../../Toast":"Toast.js"}],"views/pages/animationGraduates.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _App = _interopRequireDefault(require("../../App"));
+
+var _litHtml = require("lit-html");
+
+var _Router = require("../../Router");
+
+var _Utils = _interopRequireDefault(require("../../Utils"));
+
+var _graduateData = require("../../../static/data/graduateData");
+
+var _Toast = _interopRequireDefault(require("../../Toast"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _templateObject4() {
+  const data = _taggedTemplateLiteral(["\n                      <va-graduates\n                        class=\"graduate-card\"\n                        firstName=\"", "\"\n                        lastName=\"", "\"\n                        portfolio=\"", "\"\n                        tagLine=\"", "\"\n                      >\n                      </va-graduates>\n                    "]);
+
+  _templateObject4 = function _templateObject4() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject3() {
+  const data = _taggedTemplateLiteral(["\n                  ", "\n                "]);
+
+  _templateObject3 = function _templateObject3() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject2() {
+  const data = _taggedTemplateLiteral([" <sl-spinner></sl-spinner> "]);
+
+  _templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject() {
+  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"Shop\"></va-app-header>\n      <div class=\"page-content\">\n        <!-- title -->\n        <h2>Graduates.</h2>\n\n        <!-- SHOWREEL CONTAINER ---------------------------------->\n        <section class=\"block-100 height-1 showreel-container\">\n          <h1>showreel container</h1>\n          <!-- This is where we will display a couple of the students best works. -->\n        </section>\n\n        <!-- FILTER DROPDOWN / SEARCH BAR ---------------------------------->\n        <section class=\"search-and-filter-container\">\n          <!-- search bar -->\n          <div class=\"search-input-container\">\n            <input\n              class=\"search-input\"\n              id=\"search-input\"\n              type=\"search\"\n              placeholder=\"Search\"\n              @keyup=", "\n              @keydown=", "\n            />\n            <i class=\"fas fa-search\"></i>\n          </div>\n\n          <!-- search filters -->\n          <label class=\"dropdown\">\n            <div class=\"dd-button\">Filter</div>\n            <input type=\"checkbox\" class=\"dd-input\" id=\"test\" />\n            <ul class=\"dd-menu\">\n              <li size=\"small\" @click=", ">\n                All Employees\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                size=\"small\"\n                data-field=\"major\"\n                data-match=\"animation-and-game-design\"\n                @click=", "\n              >\n                Animation & Game Design\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                size=\"small\"\n                data-field=\"major\"\n                data-match=\"graphic-design\"\n                @click=", "\n              >\n                Graphic Design\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                size=\"small\"\n                data-field=\"major\"\n                data-match=\"digital-design\"\n                @click=", "\n              >\n                Digital Design\n              </li>\n            </ul>\n          </label>\n        </section>\n\n        <!-- ALL STUDENTS ---------------------------------->\n        <section class=\"all-graduates-container\">\n          <!-- graduate component -->\n          <div class=\"graduate-grid\">\n            ", "\n          </div>\n          <!-- /component -->\n        </section>\n\n        <!-- FOOTER ---------------------------------->\n        <footer>\n          <div class=\"footer-content\">\n            <div class=\"footer-col\">\n              <h3>DeStore</h3>\n              <p>\n                Monday \u2013 Saturday: 8:00 am \u2013 4:00pm <br />\n                Sunday: 9:00 am \u2013 5:00pm<br />\n                Kent St, Bentley, 6102, Western Australia<br /><br />\n                @destore\n              </p>\n            </div>\n            <div class=\"footer-col\">\n              <h3>Quick Links</h3>\n              <ul>\n                <li>Home</li>\n                <li>Shop</li>\n                <li>About</li>\n                <li>Contact</li>\n              </ul>\n            </div>\n            <div class=\"footer-col\">\n              <h3>Shop</h3>\n              <ul>\n                <li>Fresh Produce</li>\n                <li>Butcher</li>\n                <li>Bakery</li>\n              </ul>\n            </div>\n          </div>\n        </footer>\n      </div>\n    "]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+var agdGradsArray = _graduateData.Graduates.filter(function (grad) {
+  return grad.major === "Animation and Game Design";
+});
+
+class AnimationGraduatesView {
+  init() {
+    document.title = "Shop";
+    this.Graduates = _graduateData.Graduates;
+
+    _Utils.default.shuffle(agdGradsArray);
+
+    this.render();
+  }
+
+  clearFilterBtns() {
+    const filterBtns = document.querySelectorAll(".filter-btn");
+    filterBtns.forEach(btn => btn.removeAttribute("type"));
+  }
+
+  resetGrads() {
+    this.Graduates = _graduateData.Graduates;
+    this.render();
+  }
+
+  filterGraduates(field, match) {
+    // validate
+    if (!field || !match) return; // get fresh copy of the graduates - reset graduates so that no filters have been applied already
+
+    this.Graduates;
+    let filteredGraduates; // by major
+
+    if (field == "major") {
+      filteredGraduates = this.Graduates.filter(graduate => graduate.texture == match);
+    } // by firstName
+
+
+    if (field == "firstName") {
+      // filter this.graduate where graduate.name contains a searchQuery
+      filteredGraduates = this.Graduates.filter(graduate => graduate.firstName.toLowerCase().includes(match.toLowerCase()));
+    } // by lastName
+
+
+    if (field == "lastName") {
+      // filter this.graduate where graduate.description contains a searchQuery
+      filteredGraduates = this.Graduates.filter(graduate => graduate.lastName.toLowerCase().includes(match.toLowerCase()));
+    } // set and render
+
+
+    this.Graduates = filteredGraduates;
+    this.render();
+  }
+
+  backSpaceHandler(e) {
+    let key = e.keyCode || e.charCode;
+    if (key == 8) return e.target.value;
+    console.log(e.target.value);
+  }
+
+  handleSearchKeyup(e) {
+    // if search query is empty, clear filters
+    if (e.target.value == "") {
+      this.resetGrads();
+    } else {
+      this.resetGrads(); // filter graduates based on name and search query
+
+      this.filterGraduates("firstName", e.target.value);
+      console.log(this.Graduates); // if no result, filter graduates based on description and search query
+
+      if (this.Graduates.length === 0) {
+        this.Graduates;
+        this.filterGraduates("lastName", e.target.value);
+      }
+    }
+  }
+
+  handleFilterBtn(e) {
+    // clear all filter buttons active state (remove type = primary)
+    this.clearFilterBtns(); // set button active (type = primary)
+
+    e.target.setAttribute("type", "primary"); // extract the field and match from the button
+
+    const field = e.target.getAttribute("data-field");
+    const match = e.target.getAttribute("data-match"); // filter graduates
+
+    this.filterGraduates(field, match);
+  }
+
+  clearFilters() {
+    this.resetGrads();
+    this.clearFilterBtns();
+  }
+
+  render() {
+    const template = (0, _litHtml.html)(_templateObject(), this.handleSearchKeyup.bind(this), this.backSpaceHandler.bind(this), this.clearFilters.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), _graduateData.Graduates == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), agdGradsArray.map(graduate => (0, _litHtml.html)(_templateObject4(), graduate.firstName, graduate.lastName, graduate.portfolio, graduate.tagLine))));
+    (0, _litHtml.render)(template, _App.default.rootEl);
+  }
+
+}
+
+var _default = new AnimationGraduatesView();
+
+exports.default = _default;
+},{"../../App":"App.js","lit-html":"../node_modules/lit-html/lit-html.js","../../Router":"Router.js","../../Utils":"Utils.js","../../../static/data/graduateData":"../static/data/graduateData.js","../../Toast":"Toast.js"}],"views/pages/graphicGraduates.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _App = _interopRequireDefault(require("../../App"));
+
+var _litHtml = require("lit-html");
+
+var _Router = require("../../Router");
+
+var _Utils = _interopRequireDefault(require("../../Utils"));
+
+var _graduateData = require("../../../static/data/graduateData");
+
+var _Toast = _interopRequireDefault(require("../../Toast"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _templateObject4() {
+  const data = _taggedTemplateLiteral(["\n                      <va-graduates\n                        class=\"graduate-card\"\n                        firstName=\"", "\"\n                        lastName=\"", "\"\n                        portfolio=\"", "\"\n                        tagLine=\"", "\"\n                      >\n                      </va-graduates>\n                    "]);
+
+  _templateObject4 = function _templateObject4() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject3() {
+  const data = _taggedTemplateLiteral(["\n                  ", "\n                "]);
+
+  _templateObject3 = function _templateObject3() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject2() {
+  const data = _taggedTemplateLiteral([" <sl-spinner></sl-spinner> "]);
+
+  _templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject() {
+  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"Shop\"></va-app-header>\n      <div class=\"page-content\">\n        <!-- title -->\n        <h2>Graduates.</h2>\n\n        <!-- SHOWREEL CONTAINER ---------------------------------->\n        <section class=\"block-100 height-1 showreel-container\">\n          <h1>showreel container</h1>\n          <!-- This is where we will display a couple of the students best works. -->\n        </section>\n\n        <!-- FILTER DROPDOWN / SEARCH BAR ---------------------------------->\n        <section class=\"search-and-filter-container\">\n          <!-- search bar -->\n          <div class=\"search-input-container\">\n            <input\n              class=\"search-input\"\n              id=\"search-input\"\n              type=\"search\"\n              placeholder=\"Search\"\n              @keyup=", "\n              @keydown=", "\n            />\n            <i class=\"fas fa-search\"></i>\n          </div>\n\n          <!-- search filters -->\n          <label class=\"dropdown\">\n            <div class=\"dd-button\">Filter</div>\n            <input type=\"checkbox\" class=\"dd-input\" id=\"test\" />\n            <ul class=\"dd-menu\">\n              <li size=\"small\" @click=", ">\n                All Employees\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                size=\"small\"\n                data-field=\"major\"\n                data-match=\"animation-and-game-design\"\n                @click=", "\n              >\n                Animation & Game Design\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                size=\"small\"\n                data-field=\"major\"\n                data-match=\"graphic-design\"\n                @click=", "\n              >\n                Graphic Design\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                size=\"small\"\n                data-field=\"major\"\n                data-match=\"digital-design\"\n                @click=", "\n              >\n                Digital Design\n              </li>\n            </ul>\n          </label>\n        </section>\n\n        <!-- ALL STUDENTS ---------------------------------->\n        <section class=\"all-graduates-container\">\n          <!-- graduate component -->\n          <div class=\"graduate-grid\">\n            ", "\n          </div>\n          <!-- /component -->\n        </section>\n\n        <!-- FOOTER ---------------------------------->\n        <footer>\n          <div class=\"footer-content\">\n            <div class=\"footer-col\">\n              <h3>DeStore</h3>\n              <p>\n                Monday \u2013 Saturday: 8:00 am \u2013 4:00pm <br />\n                Sunday: 9:00 am \u2013 5:00pm<br />\n                Kent St, Bentley, 6102, Western Australia<br /><br />\n                @destore\n              </p>\n            </div>\n            <div class=\"footer-col\">\n              <h3>Quick Links</h3>\n              <ul>\n                <li>Home</li>\n                <li>Shop</li>\n                <li>About</li>\n                <li>Contact</li>\n              </ul>\n            </div>\n            <div class=\"footer-col\">\n              <h3>Shop</h3>\n              <ul>\n                <li>Fresh Produce</li>\n                <li>Butcher</li>\n                <li>Bakery</li>\n              </ul>\n            </div>\n          </div>\n        </footer>\n      </div>\n    "]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+var graphicGradsArray = _graduateData.Graduates.filter(function (grad) {
+  return grad.major === "Graphic Design";
+});
+
+class GraphicGraduatesView {
+  init() {
+    document.title = "Shop";
+    this.Graduates = _graduateData.Graduates;
+
+    _Utils.default.shuffle(graphicGradsArray);
+
+    this.render();
+  }
+
+  clearFilterBtns() {
+    const filterBtns = document.querySelectorAll(".filter-btn");
+    filterBtns.forEach(btn => btn.removeAttribute("type"));
+  }
+
+  resetGrads() {
+    this.Graduates = _graduateData.Graduates;
+    this.render();
+  }
+
+  filterGraduates(field, match) {
+    // validate
+    if (!field || !match) return; // get fresh copy of the graduates - reset graduates so that no filters have been applied already
+
+    this.Graduates;
+    let filteredGraduates; // by major
+
+    if (field == "major") {
+      filteredGraduates = this.Graduates.filter(graduate => graduate.texture == match);
+    } // by firstName
+
+
+    if (field == "firstName") {
+      // filter this.graduate where graduate.name contains a searchQuery
+      filteredGraduates = this.Graduates.filter(graduate => graduate.firstName.toLowerCase().includes(match.toLowerCase()));
+    } // by lastName
+
+
+    if (field == "lastName") {
+      // filter this.graduate where graduate.description contains a searchQuery
+      filteredGraduates = this.Graduates.filter(graduate => graduate.lastName.toLowerCase().includes(match.toLowerCase()));
+    } // set and render
+
+
+    this.Graduates = filteredGraduates;
+    this.render();
+  }
+
+  backSpaceHandler(e) {
+    let key = e.keyCode || e.charCode;
+    if (key == 8) return e.target.value;
+    console.log(e.target.value);
+  }
+
+  handleSearchKeyup(e) {
+    // if search query is empty, clear filters
+    if (e.target.value == "") {
+      this.resetGrads();
+    } else {
+      this.resetGrads(); // filter graduates based on name and search query
+
+      this.filterGraduates("firstName", e.target.value);
+      console.log(this.Graduates); // if no result, filter graduates based on description and search query
+
+      if (this.Graduates.length === 0) {
+        this.Graduates;
+        this.filterGraduates("lastName", e.target.value);
+      }
+    }
+  }
+
+  handleFilterBtn(e) {
+    // clear all filter buttons active state (remove type = primary)
+    this.clearFilterBtns(); // set button active (type = primary)
+
+    e.target.setAttribute("type", "primary"); // extract the field and match from the button
+
+    const field = e.target.getAttribute("data-field");
+    const match = e.target.getAttribute("data-match"); // filter graduates
+
+    this.filterGraduates(field, match);
+  }
+
+  clearFilters() {
+    this.resetGrads();
+    this.clearFilterBtns();
+  }
+
+  render() {
+    const template = (0, _litHtml.html)(_templateObject(), this.handleSearchKeyup.bind(this), this.backSpaceHandler.bind(this), this.clearFilters.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), _graduateData.Graduates == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), graphicGradsArray.map(graduate => (0, _litHtml.html)(_templateObject4(), graduate.firstName, graduate.lastName, graduate.portfolio, graduate.tagLine))));
+    (0, _litHtml.render)(template, _App.default.rootEl);
+  }
+
+}
+
+var _default = new GraphicGraduatesView();
+
+exports.default = _default;
+},{"../../App":"App.js","lit-html":"../node_modules/lit-html/lit-html.js","../../Router":"Router.js","../../Utils":"Utils.js","../../../static/data/graduateData":"../static/data/graduateData.js","../../Toast":"Toast.js"}],"Router.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -9471,9 +9969,15 @@ var _contact = _interopRequireDefault(require("./views/pages/contact"));
 
 var _viewGraduate = _interopRequireDefault(require("./views/pages/viewGraduate"));
 
+var _oldGraduates = _interopRequireDefault(require("./views/pages/oldGraduates"));
+
 var _graduates = _interopRequireDefault(require("./views/pages/graduates"));
 
-var _graduatesTest = _interopRequireDefault(require("./views/pages/graduatesTest"));
+var _digitalGraduates = _interopRequireDefault(require("./views/pages/digitalGraduates"));
+
+var _animationGraduates = _interopRequireDefault(require("./views/pages/animationGraduates"));
+
+var _graphicGraduates = _interopRequireDefault(require("./views/pages/graphicGraduates"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -9490,7 +9994,9 @@ const routes = {
   // to view individual graduates
   "/graduates": _graduates.default,
   // to view all graduates
-  "/graduatesTest": _graduatesTest.default
+  "/graduates/digitaldesign": _digitalGraduates.default,
+  "/graduates/graphicdesign": _graphicGraduates.default,
+  "/graduates/animationgamedesign": _animationGraduates.default
 };
 
 class Router {
@@ -9544,7 +10050,7 @@ function anchorRoute(e) {
   const pathname = e.target.closest("a").pathname;
   AppRouter.gotoRoute(pathname);
 }
-},{"./views/pages/home":"views/pages/home.js","./views/pages/404":"views/pages/404.js","./views/pages/about":"views/pages/about.js","./views/pages/contact":"views/pages/contact.js","./views/pages/viewGraduate":"views/pages/viewGraduate.js","./views/pages/graduates":"views/pages/graduates.js","./views/pages/graduatesTest":"views/pages/graduatesTest.js"}],"App.js":[function(require,module,exports) {
+},{"./views/pages/home":"views/pages/home.js","./views/pages/404":"views/pages/404.js","./views/pages/about":"views/pages/about.js","./views/pages/contact":"views/pages/contact.js","./views/pages/viewGraduate":"views/pages/viewGraduate.js","./views/pages/oldGraduates":"views/pages/oldGraduates.js","./views/pages/graduates":"views/pages/graduates.js","./views/pages/digitalGraduates":"views/pages/digitalGraduates.js","./views/pages/animationGraduates":"views/pages/animationGraduates.js","./views/pages/graphicGraduates":"views/pages/graphicGraduates.js"}],"App.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -11347,7 +11853,7 @@ var _App = _interopRequireDefault(require("./../App"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject() {
-  const data = _taggedTemplateLiteral(["\n        <style>\n          * {\n            box-sizing: border-box;\n          }\n          .app-header {\n            background: var(--sl-color-white);\n            position: fixed;\n            top: 0;\n            right: 0;\n            left: 0;\n            height: var(--app-header-height);\n            color: #fff;\n            display: flex;\n            z-index: 9;\n            box-shadow: 4px 0px 10px rgba(0, 0, 0, 0.2);\n            align-items: center;\n          }\n\n          .app-logo a {\n            color: #fff;\n            text-decoration: none;\n            font-weight: bold;\n            font-size: 1.2em;\n            padding: 0.6em;\n            display: inline-block;\n          }\n\n          .app-logo img {\n            width: 90px;\n          }\n\n          .hamburger-btn::part(base) {\n            color: #fff;\n            display: none;\n          }\n\n          .app-top-nav {\n            display: flex;\n            height: 100%;\n            align-items: center;\n            justify-content: space-between;\n            width: 100%;\n          }\n\n          .logo-container {\n            width: 200px;\n            height: var(--app-header-height);\n            align-self: flex-end;\n          }\n\n          .app-top-nav a {\n            display: inline-block;\n            padding: 0.8em;\n            text-decoration: none;\n            color: black;\n          }\n\n          .app-side-menu-items a {\n            display: block;\n            padding: 0.5em;\n            text-decoration: none;\n            font-size: 1.3em;\n            color: #333;\n          }\n\n          .app-side-menu-logo {\n            width: 120px;\n            margin-bottom: 1em;\n            position: absolute;\n            top: 2em;\n            left: 1.5em;\n          }\n\n          .page-title {\n            color: var(--app-header-txt-color);\n            margin-right: 0.5em;\n            font-size: var(--app-header-title-font-size);\n          }\n\n          header > nav > div.links > a {\n            margin-left: 1rem;\n            margin-right: 1rem;\n            min-width: 100px;\n            text-align: center;\n          }\n\n          header > nav > div.links > a:hover {\n            color: var(--brand-color);\n          }\n\n          header > nav > div.links > sl-dropdown > a:hover {\n            color: var(--brand-color);\n          }\n\n          header > nav > div.links > sl-dropdown > a:focus-within {\n            font-weight: bold;\n            color: var(--brand-color);\n            border: 1px var(--brand-color) solid;\n          }\n\n          /* active nav links */\n          .app-top-nav a.active,\n          .app-side-menu-items a.active {\n            font-weight: bold;\n            color: var(--brand-color);\n            border: 1px var(--brand-color) solid;\n          }\n\n          /* RESPONSIVE - MOBILE ------------------- */\n          @media all and (max-width: 640px) {\n            .app-top-nav {\n              display: none;\n            }\n\n            .hamburger-btn::part(base) {\n              display: flex;\n            }\n          }\n        </style>\n\n        <header class=\"app-header\">\n          <!-- This is the hamburger button on the top left -->\n          <sl-icon-button\n            class=\"hamburger-btn\"\n            name=\"list\"\n            @click=\"", "\"\n            style=\"font-size: 1.5em;\"\n          ></sl-icon-button>\n\n          <nav class=\"app-top-nav\">\n            <div class=\"links\">\n              <a class=\"home-btn\" href=\"/\" @click=\"", "\">Home</a>\n              <sl-dropdown>\n                <a\n                  slot=\"trigger\"\n                  href=\"#\"\n                  @click=\"", "\"\n                  caret\n                >\n                  Graduates\n                  <sl-icon\n                    style=\"font-size:0.6rem\"\n                    name=\"chevron-down\"\n                  ></sl-icon>\n                </a>\n                <sl-menu>\n                  <sl-menu-item @click=\"", "\"\n                    >All Graduates</sl-menu-item\n                  >\n                  <sl-menu-item @click=\"", "\"\n                    >Animation and Game Design</sl-menu-item\n                  >\n                  <sl-menu-item @click=\"", "\"\n                    >Digital Design</sl-menu-item\n                  >\n                  <sl-menu-item @click=\"", "\"\n                    >Graphic Design</sl-menu-item\n                  >\n                </sl-menu>\n              </sl-dropdown>\n              <a href=\"/about\" @click=\"", "\">About</a>\n            </div>\n          </nav>\n        </header>\n\n        <sl-drawer class=\"app-side-menu\" placement=\"left\">\n          <img class=\"app-side-menu-logo\" src=\"/images/logo.png\" />\n          <nav class=\"app-side-menu-items\">\n            <a href=\"/\" @click=\"", "\">Home</a>\n            <a href=\"/graduates\" @click=\"", "\">Graduates</a>\n            <a href=\"/about\" @click=\"", "\">About</a>\n          </nav>\n        </sl-drawer>\n      "]);
+  const data = _taggedTemplateLiteral(["\n        <style>\n          * {\n            box-sizing: border-box;\n          }\n          .app-header {\n            background: var(--sl-color-white);\n            position: fixed;\n            top: 0;\n            right: 0;\n            left: 0;\n            height: var(--app-header-height);\n            color: #fff;\n            display: flex;\n            z-index: 9;\n            box-shadow: 4px 0px 10px rgba(0, 0, 0, 0.2);\n            align-items: center;\n          }\n\n          .app-logo a {\n            color: #fff;\n            text-decoration: none;\n            font-weight: bold;\n            font-size: 1.2em;\n            padding: 0.6em;\n            display: inline-block;\n          }\n\n          .app-logo img {\n            width: 90px;\n          }\n\n          .hamburger-btn::part(base) {\n            color: #fff;\n            display: none;\n          }\n\n          .app-top-nav {\n            display: flex;\n            height: 100%;\n            align-items: center;\n            justify-content: space-between;\n            width: 100%;\n          }\n\n          .logo-container {\n            width: 200px;\n            height: var(--app-header-height);\n            align-self: flex-end;\n          }\n\n          .app-top-nav a {\n            display: inline-block;\n            padding: 0.8em;\n            text-decoration: none;\n            color: black;\n          }\n\n          .app-side-menu-items a {\n            display: block;\n            padding: 0.5em;\n            text-decoration: none;\n            font-size: 1.3em;\n            color: #333;\n          }\n\n          .app-side-menu-logo {\n            width: 120px;\n            margin-bottom: 1em;\n            position: absolute;\n            top: 2em;\n            left: 1.5em;\n          }\n\n          .page-title {\n            color: var(--app-header-txt-color);\n            margin-right: 0.5em;\n            font-size: var(--app-header-title-font-size);\n          }\n\n          header > nav > div.links > a {\n            margin-left: 1rem;\n            margin-right: 1rem;\n            min-width: 100px;\n            text-align: center;\n          }\n\n          header > nav > div.links > a:hover {\n            color: var(--brand-color);\n          }\n\n          header > nav > div.links > sl-dropdown > a:hover {\n            color: var(--brand-color);\n          }\n\n          header > nav > div.links > sl-dropdown > a:focus-within {\n            font-weight: bold;\n            color: var(--brand-color);\n            border: 1px var(--brand-color) solid;\n          }\n\n          /* active nav links */\n          .app-top-nav a.active,\n          .app-side-menu-items a.active {\n            font-weight: bold;\n            color: var(--brand-color);\n            border: 1px var(--brand-color) solid;\n          }\n\n          /* RESPONSIVE - MOBILE ------------------- */\n          @media all and (max-width: 640px) {\n            .app-top-nav {\n              display: none;\n            }\n\n            .hamburger-btn::part(base) {\n              display: flex;\n            }\n          }\n        </style>\n\n        <header class=\"app-header\">\n          <!-- This is the hamburger button on the top left -->\n          <sl-icon-button\n            class=\"hamburger-btn\"\n            name=\"list\"\n            @click=\"", "\"\n            style=\"font-size: 1.5em;\"\n          ></sl-icon-button>\n\n          <nav class=\"app-top-nav\">\n            <div class=\"links\">\n              <a class=\"home-btn\" href=\"/\" @click=\"", "\">Home</a>\n              <sl-dropdown>\n                <a\n                  slot=\"trigger\"\n                  href=\"#\"\n                  @click=\"", "\"\n                  caret\n                >\n                  Graduates\n                  <sl-icon\n                    style=\"font-size:0.6rem\"\n                    name=\"chevron-down\"\n                  ></sl-icon>\n                </a>\n                <sl-menu>\n                  <sl-menu-item @click=\"", "\"\n                    >All Graduates</sl-menu-item\n                  >\n                  <sl-menu-item\n                    @click=\"", "\"\n                    >Animation and Game Design</sl-menu-item\n                  >\n                  <sl-menu-item\n                    @click=\"", "\"\n                    >Digital Design</sl-menu-item\n                  >\n                  <sl-menu-item\n                    @click=\"", "\"\n                    >Graphic Design</sl-menu-item\n                  >\n                </sl-menu>\n              </sl-dropdown>\n              <a href=\"/about\" @click=\"", "\">About</a>\n            </div>\n          </nav>\n        </header>\n\n        <sl-drawer class=\"app-side-menu\" placement=\"left\">\n          <img class=\"app-side-menu-logo\" src=\"/images/logo.png\" />\n          <nav class=\"app-side-menu-items\">\n            <a href=\"/\" @click=\"", "\">Home</a>\n            <a href=\"/graduates\" @click=\"", "\">Graduates</a>\n            <a href=\"/about\" @click=\"", "\">About</a>\n          </nav>\n        </sl-drawer>\n      "]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -11409,7 +11915,7 @@ customElements.define("va-app-header", class AppHeader extends _litElement.LitEl
   }
 
   render() {
-    return (0, _litElement.html)(_templateObject(), this.hamburgerClick, _Router.anchorRoute, e => e.preventDefault(), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/about"), this.menuClick, this.menuClick, this.menuClick);
+    return (0, _litElement.html)(_templateObject(), this.hamburgerClick, _Router.anchorRoute, e => e.preventDefault(), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates/animationgamedesign"), () => (0, _Router.gotoRoute)("/graduates/digitaldesign"), () => (0, _Router.gotoRoute)("/graduates/graphicdesign"), () => (0, _Router.gotoRoute)("/about"), this.menuClick, this.menuClick, this.menuClick);
   }
 
 });
@@ -11674,7 +12180,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57652" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64448" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

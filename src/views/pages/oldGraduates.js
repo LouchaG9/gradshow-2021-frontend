@@ -4,40 +4,29 @@ import { gotoRoute, anchorRoute } from "../../Router";
 import Auth from "../../Auth";
 import Utils from "../../Utils";
 import GraduateAPI from "../../GraduateAPI";
-import { Graduates } from "../../../static/data/graduateData";
 import Toast from "../../Toast";
 
-class GraduatesTest {
-  init() {
+class GraduatesView {
+  async init() {
     document.title = "Shop";
-    this.Graduates = Graduates;
-    Utils.shuffle(this.Graduates);
+    this.graduates = null;
     this.render();
     Utils.pageIntroAnim();
+    await this.getGraduates();
   }
 
-  clearFilterBtns() {
-    const filterBtns = document.querySelectorAll(".filter-btn");
-    filterBtns.forEach((btn) => btn.removeAttribute("type"));
-  }
-
-  resetGrads() {
-    this.Graduates = Graduates;
-    this.render();
-  }
-
-  filterGraduates(field, match) {
+  async filterGraduates(field, match) {
     // validate
     if (!field || !match) return;
 
     // get fresh copy of the graduates - reset graduates so that no filters have been applied already
-    this.Graduates;
+    this.graduates = await GraduateAPI.getGraduates();
 
     let filteredGraduates;
 
     // by major
     if (field == "major") {
-      filteredGraduates = this.Graduates.filter(
+      filteredGraduates = this.graduates.filter(
         (graduate) => graduate.texture == match
       );
     }
@@ -45,7 +34,7 @@ class GraduatesTest {
     // by firstName
     if (field == "firstName") {
       // filter this.graduate where graduate.name contains a searchQuery
-      filteredGraduates = this.Graduates.filter((graduate) =>
+      filteredGraduates = this.graduates.filter((graduate) =>
         graduate.firstName.toLowerCase().includes(match.toLowerCase())
       );
     }
@@ -53,34 +42,32 @@ class GraduatesTest {
     // by lastName
     if (field == "lastName") {
       // filter this.graduate where graduate.description contains a searchQuery
-      filteredGraduates = this.Graduates.filter((graduate) =>
+      filteredGraduates = this.graduates.filter((graduate) =>
         graduate.lastName.toLowerCase().includes(match.toLowerCase())
       );
     }
 
     // set and render
-    this.Graduates = filteredGraduates;
+    this.graduates = filteredGraduates;
     this.render();
   }
 
-  backSpaceHandler(e) {
-    let key = e.keyCode || e.charCode;
-    if (key == 8) return e.target.value;
-    console.log(e.target.value);
+  clearFilterBtns() {
+    const filterBtns = document.querySelectorAll(".filter-btn");
+    filterBtns.forEach((btn) => btn.removeAttribute("type"));
   }
 
-  handleSearchKeyup(e) {
+  async handleSearchKeyup(e) {
     // if search query is empty, clear filters
     if (e.target.value == "") {
-      this.resetGrads();
+      this.getGraduates();
     } else {
-      this.resetGrads();
+      console.log(e.target.value);
       // filter graduates based on name and search query
-      this.filterGraduates("firstName", e.target.value);
-      console.log(this.Graduates);
+      await this.filterGraduates("firstName", e.target.value);
       // if no result, filter graduates based on description and search query
-      if (this.Graduates.length === 0) {
-        this.Graduates;
+      if (this.graduates.length === 0) {
+        this.getGraduates();
         this.filterGraduates("lastName", e.target.value);
       }
     }
@@ -101,8 +88,18 @@ class GraduatesTest {
   }
 
   clearFilters() {
-    this.resetGrads();
+    this.getGraduates();
     this.clearFilterBtns();
+  }
+
+  async getGraduates() {
+    try {
+      this.graduates = await GraduateAPI.getGraduates();
+      console.log(this.graduates);
+      this.render();
+    } catch (err) {
+      Toast.show(err, "error");
+    }
   }
 
   render() {
@@ -124,11 +121,9 @@ class GraduatesTest {
           <div class="search-input-container">
             <input
               class="search-input"
-              id="search-input"
               type="search"
-              placeholder="Search"
               @keyup=${this.handleSearchKeyup.bind(this)}
-              @keydown=${this.backSpaceHandler.bind(this)}
+              placeholder="Search"
             />
             <i class="fas fa-search"></i>
           </div>
@@ -179,17 +174,18 @@ class GraduatesTest {
         <section class="all-graduates-container">
           <!-- graduate component -->
           <div class="graduate-grid">
-            ${Graduates == null
+            ${this.graduates == null
               ? html` <sl-spinner></sl-spinner> `
               : html`
-                  ${this.Graduates.map(
+                  ${this.graduates.map(
                     (graduate) => html`
                       <va-graduates
                         class="graduate-card"
-                        firstName="${graduate.firstName}"
-                        lastName="${graduate.lastName}"
-                        portfolio="${graduate.portfolio}"
-                        tagLine="${graduate.tagLine}"
+                        id="${graduate._id}"
+                        firstName="${graduate.name}"
+                        lastName="${graduate.description}"
+                        normalPhoto="${graduate.photoMain}"
+                        quirkyPhoto="${graduate.photoMain}"
                       >
                       </va-graduates>
                     `
@@ -236,4 +232,4 @@ class GraduatesTest {
   }
 }
 
-export default new GraduatesTest();
+export default new GraduatesView();

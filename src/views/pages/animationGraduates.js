@@ -1,19 +1,20 @@
 import App from "../../App";
 import { html, render } from "lit-html";
 import { gotoRoute, anchorRoute } from "../../Router";
-import Auth from "../../Auth";
 import Utils from "../../Utils";
-import GraduateAPI from "../../GraduateAPI";
 import { Graduates } from "../../../static/data/graduateData";
 import Toast from "../../Toast";
 
-class GraduatesTest {
+var agdGradsArray = Graduates.filter(function (grad) {
+  return grad.major === "Animation and Game Design";
+});
+
+class AnimationGraduatesView {
   init() {
     document.title = "Shop";
     this.Graduates = Graduates;
-    Utils.shuffle(this.Graduates);
+    Utils.shuffle(agdGradsArray);
     this.render();
-    Utils.pageIntroAnim();
   }
 
   clearFilterBtns() {
@@ -182,7 +183,7 @@ class GraduatesTest {
             ${Graduates == null
               ? html` <sl-spinner></sl-spinner> `
               : html`
-                  ${this.Graduates.map(
+                  ${agdGradsArray.map(
                     (graduate) => html`
                       <va-graduates
                         class="graduate-card"
@@ -236,4 +237,4 @@ class GraduatesTest {
   }
 }
 
-export default new GraduatesTest();
+export default new AnimationGraduatesView();

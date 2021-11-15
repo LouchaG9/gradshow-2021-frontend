@@ -208,13 +208,17 @@ customElements.define(
                   <sl-menu-item @click="${() => gotoRoute("/graduates")}"
                     >All Graduates</sl-menu-item
                   >
-                  <sl-menu-item @click="${() => gotoRoute("/graduates")}"
+                  <sl-menu-item
+                    @click="${() =>
+                      gotoRoute("/graduates/animationgamedesign")}"
                     >Animation and Game Design</sl-menu-item
                   >
-                  <sl-menu-item @click="${() => gotoRoute("/graduates")}"
+                  <sl-menu-item
+                    @click="${() => gotoRoute("/graduates/digitaldesign")}"
                     >Digital Design</sl-menu-item
                   >
-                  <sl-menu-item @click="${() => gotoRoute("/graduates")}"
+                  <sl-menu-item
+                    @click="${() => gotoRoute("/graduates/graphicdesign")}"
                     >Graphic Design</sl-menu-item
                   >
                 </sl-menu>
