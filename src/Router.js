@@ -4,11 +4,12 @@ import fourOFourView from "./views/pages/404";
 import AboutView from "./views/pages/about";
 import ContactView from "./views/pages/contact";
 import viewGraduateView from "./views/pages/viewGraduate"; // to view individual graduates
-import oldGraduatesView from "./views/pages/oldGraduates"; // to view all graduates
-import graduatesView from "./views/pages/graduates";
+import allGraduatesView from "./views/pages/graduates";
 import digitalGraduates from "./views/pages/digitalGraduates";
 import animationGraduates from "./views/pages/animationGraduates";
 import graphicGraduates from "./views/pages/graphicGraduates";
+
+import student19760513View from "./views/pages/individuals/19760513";
 
 // define routes
 const routes = {
@@ -17,10 +18,12 @@ const routes = {
   "/about": AboutView,
   "/contact": ContactView,
   "/viewGraduate": viewGraduateView, // to view individual graduates
-  "/graduates": graduatesView, // to view all graduates
+  "/graduates": allGraduatesView, // to view all graduates
   "/graduates/digitaldesign": digitalGraduates,
   "/graduates/graphicdesign": graphicGraduates,
   "/graduates/animationgamedesign": animationGraduates,
+
+  "/viewGraduate/19760513": student19760513View,
 };
 
 class Router {

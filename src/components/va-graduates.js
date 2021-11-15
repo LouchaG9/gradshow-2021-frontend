@@ -66,7 +66,8 @@ customElements.define(
 
     // go to single page for each clicked graduate
     moreInfoHandler() {
-      gotoRoute(`/viewGraduate?id=${this.id}`);
+      console.log(this.studentNumber);
+      gotoRoute(`/viewGraduate/${this.studentNumber}`);
     }
 
     render() {
@@ -150,7 +151,7 @@ customElements.define(
             <div class="buttons-container">
               <button
                 class="view-employee-button"
-                @click=${this.moreInfoHandler.bind(this)}
+                @click=${() => gotoRoute(`/viewGraduate/${this.studentNumber}`)}
               >
                 View Employee
               </button>

@@ -1,13 +1,11 @@
 import App from "../../App";
 import { html, render } from "lit-html";
 import { gotoRoute, anchorRoute } from "../../Router";
-import Auth from "../../Auth";
 import Utils from "../../Utils";
-import GraduateAPI from "../../GraduateAPI";
 import { Graduates } from "../../../static/data/graduateData";
 import Toast from "../../Toast";
 
-class GraduatesTest {
+class AllGraduates {
   init() {
     document.title = "Shop";
     this.Graduates = Graduates;
@@ -190,6 +188,7 @@ class GraduatesTest {
                         lastName="${graduate.lastName}"
                         portfolio="${graduate.portfolio}"
                         tagLine="${graduate.tagLine}"
+                        studentNumber="${graduate.studentNumber}"
                       >
                       </va-graduates>
                     `
@@ -236,4 +235,4 @@ class GraduatesTest {
   }
 }
 
-export default new GraduatesTest();
+export default new AllGraduates();

@@ -191,6 +191,7 @@ class DigitalGraduatesView {
                         lastName="${graduate.lastName}"
                         portfolio="${graduate.portfolio}"
                         tagLine="${graduate.tagLine}"
+                        studentNumber=${graduate.studentNumber}
                       >
                       </va-graduates>
                     `

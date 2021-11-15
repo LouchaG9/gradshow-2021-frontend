@@ -23,7 +23,7 @@ class GraphicGraduatesView {
   }
 
   resetGrads() {
-    this.Graduates = Graduates;
+    this.Graduates = graphicGradsArray;
     this.render();
   }
 
@@ -191,6 +191,7 @@ class GraphicGraduatesView {
                         lastName="${graduate.lastName}"
                         portfolio="${graduate.portfolio}"
                         tagLine="${graduate.tagLine}"
+                        studentNumber=${graduate.studentNumber}
                       >
                       </va-graduates>
                     `

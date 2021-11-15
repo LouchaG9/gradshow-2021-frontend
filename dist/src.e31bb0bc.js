@@ -9120,7 +9120,7 @@ class viewGraduateView {
 var _default = new viewGraduateView();
 
 exports.default = _default;
-},{"./../../App":"App.js","lit-html":"../node_modules/lit-html/lit-html.js","./../../Router":"Router.js","./../../Auth":"Auth.js","./../../Utils":"Utils.js","./../../GraduateAPI":"GraduateAPI.js"}],"views/pages/oldGraduates.js":[function(require,module,exports) {
+},{"./../../App":"App.js","lit-html":"../node_modules/lit-html/lit-html.js","./../../Router":"Router.js","./../../Auth":"Auth.js","./../../Utils":"Utils.js","./../../GraduateAPI":"GraduateAPI.js"}],"views/pages/graduates.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -9134,174 +9134,7 @@ var _litHtml = require("lit-html");
 
 var _Router = require("../../Router");
 
-var _Auth = _interopRequireDefault(require("../../Auth"));
-
 var _Utils = _interopRequireDefault(require("../../Utils"));
-
-var _GraduateAPI = _interopRequireDefault(require("../../GraduateAPI"));
-
-var _Toast = _interopRequireDefault(require("../../Toast"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _templateObject4() {
-  const data = _taggedTemplateLiteral(["\n                      <va-graduates\n                        class=\"graduate-card\"\n                        id=\"", "\"\n                        firstName=\"", "\"\n                        lastName=\"", "\"\n                        normalPhoto=\"", "\"\n                        quirkyPhoto=\"", "\"\n                      >\n                      </va-graduates>\n                    "]);
-
-  _templateObject4 = function _templateObject4() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject3() {
-  const data = _taggedTemplateLiteral(["\n                  ", "\n                "]);
-
-  _templateObject3 = function _templateObject3() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject2() {
-  const data = _taggedTemplateLiteral([" <sl-spinner></sl-spinner> "]);
-
-  _templateObject2 = function _templateObject2() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject() {
-  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"Shop\"></va-app-header>\n      <div class=\"page-content\">\n        <!-- title -->\n        <h2>Graduates.</h2>\n\n        <!-- SHOWREEL CONTAINER ---------------------------------->\n        <section class=\"block-100 height-1 showreel-container\">\n          <h1>showreel container</h1>\n          <!-- This is where we will display a couple of the students best works. -->\n        </section>\n\n        <!-- FILTER DROPDOWN / SEARCH BAR ---------------------------------->\n        <section class=\"search-and-filter-container\">\n          <!-- search bar -->\n          <div class=\"search-input-container\">\n            <input\n              class=\"search-input\"\n              type=\"search\"\n              @keyup=", "\n              placeholder=\"Search\"\n            />\n            <i class=\"fas fa-search\"></i>\n          </div>\n\n          <!-- search filters -->\n          <label class=\"dropdown\">\n            <div class=\"dd-button\">Filter</div>\n            <input type=\"checkbox\" class=\"dd-input\" id=\"test\" />\n            <ul class=\"dd-menu\">\n              <li size=\"small\" @click=", ">\n                All Employees\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                size=\"small\"\n                data-field=\"major\"\n                data-match=\"animation-and-game-design\"\n                @click=", "\n              >\n                Animation & Game Design\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                size=\"small\"\n                data-field=\"major\"\n                data-match=\"graphic-design\"\n                @click=", "\n              >\n                Graphic Design\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                size=\"small\"\n                data-field=\"major\"\n                data-match=\"digital-design\"\n                @click=", "\n              >\n                Digital Design\n              </li>\n            </ul>\n          </label>\n        </section>\n\n        <!-- ALL STUDENTS ---------------------------------->\n        <section class=\"all-graduates-container\">\n          <!-- graduate component -->\n          <div class=\"graduate-grid\">\n            ", "\n          </div>\n          <!-- /component -->\n        </section>\n\n        <!-- FOOTER ---------------------------------->\n        <footer>\n          <div class=\"footer-content\">\n            <div class=\"footer-col\">\n              <h3>DeStore</h3>\n              <p>\n                Monday \u2013 Saturday: 8:00 am \u2013 4:00pm <br />\n                Sunday: 9:00 am \u2013 5:00pm<br />\n                Kent St, Bentley, 6102, Western Australia<br /><br />\n                @destore\n              </p>\n            </div>\n            <div class=\"footer-col\">\n              <h3>Quick Links</h3>\n              <ul>\n                <li>Home</li>\n                <li>Shop</li>\n                <li>About</li>\n                <li>Contact</li>\n              </ul>\n            </div>\n            <div class=\"footer-col\">\n              <h3>Shop</h3>\n              <ul>\n                <li>Fresh Produce</li>\n                <li>Butcher</li>\n                <li>Bakery</li>\n              </ul>\n            </div>\n          </div>\n        </footer>\n      </div>\n    "]);
-
-  _templateObject = function _templateObject() {
-    return data;
-  };
-
-  return data;
-}
-
-function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
-
-class GraduatesView {
-  async init() {
-    document.title = "Shop";
-    this.graduates = null;
-    this.render();
-
-    _Utils.default.pageIntroAnim();
-
-    await this.getGraduates();
-  }
-
-  async filterGraduates(field, match) {
-    // validate
-    if (!field || !match) return; // get fresh copy of the graduates - reset graduates so that no filters have been applied already
-
-    this.graduates = await _GraduateAPI.default.getGraduates();
-    let filteredGraduates; // by major
-
-    if (field == "major") {
-      filteredGraduates = this.graduates.filter(graduate => graduate.texture == match);
-    } // by firstName
-
-
-    if (field == "firstName") {
-      // filter this.graduate where graduate.name contains a searchQuery
-      filteredGraduates = this.graduates.filter(graduate => graduate.firstName.toLowerCase().includes(match.toLowerCase()));
-    } // by lastName
-
-
-    if (field == "lastName") {
-      // filter this.graduate where graduate.description contains a searchQuery
-      filteredGraduates = this.graduates.filter(graduate => graduate.lastName.toLowerCase().includes(match.toLowerCase()));
-    } // set and render
-
-
-    this.graduates = filteredGraduates;
-    this.render();
-  }
-
-  clearFilterBtns() {
-    const filterBtns = document.querySelectorAll(".filter-btn");
-    filterBtns.forEach(btn => btn.removeAttribute("type"));
-  }
-
-  async handleSearchKeyup(e) {
-    // if search query is empty, clear filters
-    if (e.target.value == "") {
-      this.getGraduates();
-    } else {
-      console.log(e.target.value); // filter graduates based on name and search query
-
-      await this.filterGraduates("firstName", e.target.value); // if no result, filter graduates based on description and search query
-
-      if (this.graduates.length === 0) {
-        this.getGraduates();
-        this.filterGraduates("lastName", e.target.value);
-      }
-    }
-  }
-
-  handleFilterBtn(e) {
-    // clear all filter buttons active state (remove type = primary)
-    this.clearFilterBtns(); // set button active (type = primary)
-
-    e.target.setAttribute("type", "primary"); // extract the field and match from the button
-
-    const field = e.target.getAttribute("data-field");
-    const match = e.target.getAttribute("data-match"); // filter graduates
-
-    this.filterGraduates(field, match);
-  }
-
-  clearFilters() {
-    this.getGraduates();
-    this.clearFilterBtns();
-  }
-
-  async getGraduates() {
-    try {
-      this.graduates = await _GraduateAPI.default.getGraduates();
-      console.log(this.graduates);
-      this.render();
-    } catch (err) {
-      _Toast.default.show(err, "error");
-    }
-  }
-
-  render() {
-    const template = (0, _litHtml.html)(_templateObject(), this.handleSearchKeyup.bind(this), this.clearFilters.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), this.graduates == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), this.graduates.map(graduate => (0, _litHtml.html)(_templateObject4(), graduate._id, graduate.name, graduate.description, graduate.photoMain, graduate.photoMain))));
-    (0, _litHtml.render)(template, _App.default.rootEl);
-  }
-
-}
-
-var _default = new GraduatesView();
-
-exports.default = _default;
-},{"../../App":"App.js","lit-html":"../node_modules/lit-html/lit-html.js","../../Router":"Router.js","../../Auth":"Auth.js","../../Utils":"Utils.js","../../GraduateAPI":"GraduateAPI.js","../../Toast":"Toast.js"}],"views/pages/graduates.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _App = _interopRequireDefault(require("../../App"));
-
-var _litHtml = require("lit-html");
-
-var _Router = require("../../Router");
-
-var _Auth = _interopRequireDefault(require("../../Auth"));
-
-var _Utils = _interopRequireDefault(require("../../Utils"));
-
-var _GraduateAPI = _interopRequireDefault(require("../../GraduateAPI"));
 
 var _graduateData = require("../../../static/data/graduateData");
 
@@ -9310,7 +9143,7 @@ var _Toast = _interopRequireDefault(require("../../Toast"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject4() {
-  const data = _taggedTemplateLiteral(["\n                      <va-graduates\n                        class=\"graduate-card\"\n                        firstName=\"", "\"\n                        lastName=\"", "\"\n                        portfolio=\"", "\"\n                        tagLine=\"", "\"\n                      >\n                      </va-graduates>\n                    "]);
+  const data = _taggedTemplateLiteral(["\n                      <va-graduates\n                        class=\"graduate-card\"\n                        firstName=\"", "\"\n                        lastName=\"", "\"\n                        portfolio=\"", "\"\n                        tagLine=\"", "\"\n                        studentNumber=\"", "\"\n                      >\n                      </va-graduates>\n                    "]);
 
   _templateObject4 = function _templateObject4() {
     return data;
@@ -9351,7 +9184,7 @@ function _templateObject() {
 
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
-class GraduatesTest {
+class AllGraduates {
   init() {
     document.title = "Shop";
     this.Graduates = _graduateData.Graduates;
@@ -9442,16 +9275,16 @@ class GraduatesTest {
   }
 
   render() {
-    const template = (0, _litHtml.html)(_templateObject(), this.handleSearchKeyup.bind(this), this.backSpaceHandler.bind(this), this.clearFilters.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), _graduateData.Graduates == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), this.Graduates.map(graduate => (0, _litHtml.html)(_templateObject4(), graduate.firstName, graduate.lastName, graduate.portfolio, graduate.tagLine))));
+    const template = (0, _litHtml.html)(_templateObject(), this.handleSearchKeyup.bind(this), this.backSpaceHandler.bind(this), this.clearFilters.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), _graduateData.Graduates == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), this.Graduates.map(graduate => (0, _litHtml.html)(_templateObject4(), graduate.firstName, graduate.lastName, graduate.portfolio, graduate.tagLine, graduate.studentNumber))));
     (0, _litHtml.render)(template, _App.default.rootEl);
   }
 
 }
 
-var _default = new GraduatesTest();
+var _default = new AllGraduates();
 
 exports.default = _default;
-},{"../../App":"App.js","lit-html":"../node_modules/lit-html/lit-html.js","../../Router":"Router.js","../../Auth":"Auth.js","../../Utils":"Utils.js","../../GraduateAPI":"GraduateAPI.js","../../../static/data/graduateData":"../static/data/graduateData.js","../../Toast":"Toast.js"}],"views/pages/digitalGraduates.js":[function(require,module,exports) {
+},{"../../App":"App.js","lit-html":"../node_modules/lit-html/lit-html.js","../../Router":"Router.js","../../Utils":"Utils.js","../../../static/data/graduateData":"../static/data/graduateData.js","../../Toast":"Toast.js"}],"views/pages/digitalGraduates.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -9474,7 +9307,7 @@ var _Toast = _interopRequireDefault(require("../../Toast"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject4() {
-  const data = _taggedTemplateLiteral(["\n                      <va-graduates\n                        class=\"graduate-card\"\n                        firstName=\"", "\"\n                        lastName=\"", "\"\n                        portfolio=\"", "\"\n                        tagLine=\"", "\"\n                      >\n                      </va-graduates>\n                    "]);
+  const data = _taggedTemplateLiteral(["\n                      <va-graduates\n                        class=\"graduate-card\"\n                        firstName=\"", "\"\n                        lastName=\"", "\"\n                        portfolio=\"", "\"\n                        tagLine=\"", "\"\n                        studentNumber=", "\n                      >\n                      </va-graduates>\n                    "]);
 
   _templateObject4 = function _templateObject4() {
     return data;
@@ -9608,7 +9441,7 @@ class DigitalGraduatesView {
   }
 
   render() {
-    const template = (0, _litHtml.html)(_templateObject(), this.handleSearchKeyup.bind(this), this.backSpaceHandler.bind(this), this.clearFilters.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), _graduateData.Graduates == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), digitalGradsArray.map(graduate => (0, _litHtml.html)(_templateObject4(), graduate.firstName, graduate.lastName, graduate.portfolio, graduate.tagLine))));
+    const template = (0, _litHtml.html)(_templateObject(), this.handleSearchKeyup.bind(this), this.backSpaceHandler.bind(this), this.clearFilters.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), _graduateData.Graduates == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), digitalGradsArray.map(graduate => (0, _litHtml.html)(_templateObject4(), graduate.firstName, graduate.lastName, graduate.portfolio, graduate.tagLine, graduate.studentNumber))));
     (0, _litHtml.render)(template, _App.default.rootEl);
   }
 
@@ -9640,7 +9473,7 @@ var _Toast = _interopRequireDefault(require("../../Toast"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject4() {
-  const data = _taggedTemplateLiteral(["\n                      <va-graduates\n                        class=\"graduate-card\"\n                        firstName=\"", "\"\n                        lastName=\"", "\"\n                        portfolio=\"", "\"\n                        tagLine=\"", "\"\n                      >\n                      </va-graduates>\n                    "]);
+  const data = _taggedTemplateLiteral(["\n                      <va-graduates\n                        class=\"graduate-card\"\n                        firstName=\"", "\"\n                        lastName=\"", "\"\n                        portfolio=\"", "\"\n                        tagLine=\"", "\"\n                        studentNumber=", "\n                      >\n                      </va-graduates>\n                    "]);
 
   _templateObject4 = function _templateObject4() {
     return data;
@@ -9774,7 +9607,7 @@ class AnimationGraduatesView {
   }
 
   render() {
-    const template = (0, _litHtml.html)(_templateObject(), this.handleSearchKeyup.bind(this), this.backSpaceHandler.bind(this), this.clearFilters.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), _graduateData.Graduates == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), agdGradsArray.map(graduate => (0, _litHtml.html)(_templateObject4(), graduate.firstName, graduate.lastName, graduate.portfolio, graduate.tagLine))));
+    const template = (0, _litHtml.html)(_templateObject(), this.handleSearchKeyup.bind(this), this.backSpaceHandler.bind(this), this.clearFilters.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), _graduateData.Graduates == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), agdGradsArray.map(graduate => (0, _litHtml.html)(_templateObject4(), graduate.firstName, graduate.lastName, graduate.portfolio, graduate.tagLine, graduate.studentNumber))));
     (0, _litHtml.render)(template, _App.default.rootEl);
   }
 
@@ -9806,7 +9639,7 @@ var _Toast = _interopRequireDefault(require("../../Toast"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject4() {
-  const data = _taggedTemplateLiteral(["\n                      <va-graduates\n                        class=\"graduate-card\"\n                        firstName=\"", "\"\n                        lastName=\"", "\"\n                        portfolio=\"", "\"\n                        tagLine=\"", "\"\n                      >\n                      </va-graduates>\n                    "]);
+  const data = _taggedTemplateLiteral(["\n                      <va-graduates\n                        class=\"graduate-card\"\n                        firstName=\"", "\"\n                        lastName=\"", "\"\n                        portfolio=\"", "\"\n                        tagLine=\"", "\"\n                        studentNumber=", "\n                      >\n                      </va-graduates>\n                    "]);
 
   _templateObject4 = function _templateObject4() {
     return data;
@@ -9867,7 +9700,7 @@ class GraphicGraduatesView {
   }
 
   resetGrads() {
-    this.Graduates = _graduateData.Graduates;
+    this.Graduates = graphicGradsArray;
     this.render();
   }
 
@@ -9940,7 +9773,7 @@ class GraphicGraduatesView {
   }
 
   render() {
-    const template = (0, _litHtml.html)(_templateObject(), this.handleSearchKeyup.bind(this), this.backSpaceHandler.bind(this), this.clearFilters.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), _graduateData.Graduates == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), graphicGradsArray.map(graduate => (0, _litHtml.html)(_templateObject4(), graduate.firstName, graduate.lastName, graduate.portfolio, graduate.tagLine))));
+    const template = (0, _litHtml.html)(_templateObject(), this.handleSearchKeyup.bind(this), this.backSpaceHandler.bind(this), this.clearFilters.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), _graduateData.Graduates == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), graphicGradsArray.map(graduate => (0, _litHtml.html)(_templateObject4(), graduate.firstName, graduate.lastName, graduate.portfolio, graduate.tagLine, graduate.studentNumber))));
     (0, _litHtml.render)(template, _App.default.rootEl);
   }
 
@@ -9949,7 +9782,62 @@ class GraphicGraduatesView {
 var _default = new GraphicGraduatesView();
 
 exports.default = _default;
-},{"../../App":"App.js","lit-html":"../node_modules/lit-html/lit-html.js","../../Router":"Router.js","../../Utils":"Utils.js","../../../static/data/graduateData":"../static/data/graduateData.js","../../Toast":"Toast.js"}],"Router.js":[function(require,module,exports) {
+},{"../../App":"App.js","lit-html":"../node_modules/lit-html/lit-html.js","../../Router":"Router.js","../../Utils":"Utils.js","../../../static/data/graduateData":"../static/data/graduateData.js","../../Toast":"Toast.js"}],"views/pages/individuals/19760513.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _App = _interopRequireDefault(require("../../../App"));
+
+var _litHtml = require("lit-html");
+
+var _Router = require("../../../Router");
+
+var _Utils = _interopRequireDefault(require("../../../Utils"));
+
+var _graduateData = require("../../../../static/data/graduateData");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _templateObject() {
+  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"View Graduate\"></va-app-header>\n      <div class=\"page-content\">\n        <section class=\"block-50-50\">\n          <div class=\"column\"></div>\n          <div class=\"column\">\n            <h3>", "</h3>\n            <h1>\n              ", " ", "\n            </h1>\n            <p>", "</p>\n\n            <a\n              class=\"secondary\"\n              href=\"", "\"\n              target=\"_blank\"\n              class=\"secondary\"\n            >\n              Portfolio\n            </a>\n            <div class=\"socials-wrapper\">\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-linkedin-in\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-instagram\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-dribbble\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-artstation\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-behance\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-twitter\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-vimeo-v\"></i>\n              </a>\n            </div>\n\n            <p><strong>Description</strong></p>\n            <p>", "</p>\n          </div>\n        </section>\n      </div>\n    "]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+let student19760513 = _graduateData.Graduates.filter(grad => {
+  return grad.studentNumber === "19760513";
+});
+
+console.log(student19760513);
+
+class student19760513View {
+  init() {
+    document.title = "Brooke Fanto";
+    this.render();
+    console.log(_graduateData.Graduates);
+  }
+
+  render() {
+    const template = (0, _litHtml.html)(_templateObject(), student19760513[0].major, student19760513[0].firstName, student19760513[0].lastName, student19760513[0].tagLine, student19760513[0].portfolio, student19760513[0].linkedin, student19760513[0].instagram, student19760513[0].dribbble, student19760513[0].artStation, student19760513[0].behance, student19760513[0].twitter, student19760513[0].vimeo, student19760513[0].bio);
+    (0, _litHtml.render)(template, _App.default.rootEl);
+  }
+
+}
+
+var _default = new student19760513View();
+
+exports.default = _default;
+},{"../../../App":"App.js","lit-html":"../node_modules/lit-html/lit-html.js","../../../Router":"Router.js","../../../Utils":"Utils.js","../../../../static/data/graduateData":"../static/data/graduateData.js"}],"Router.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -9969,8 +9857,6 @@ var _contact = _interopRequireDefault(require("./views/pages/contact"));
 
 var _viewGraduate = _interopRequireDefault(require("./views/pages/viewGraduate"));
 
-var _oldGraduates = _interopRequireDefault(require("./views/pages/oldGraduates"));
-
 var _graduates = _interopRequireDefault(require("./views/pages/graduates"));
 
 var _digitalGraduates = _interopRequireDefault(require("./views/pages/digitalGraduates"));
@@ -9979,11 +9865,12 @@ var _animationGraduates = _interopRequireDefault(require("./views/pages/animatio
 
 var _graphicGraduates = _interopRequireDefault(require("./views/pages/graphicGraduates"));
 
+var _2 = _interopRequireDefault(require("./views/pages/individuals/19760513"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // import views
 // to view individual graduates
-// to view all graduates
 // define routes
 const routes = {
   "/": _home.default,
@@ -9996,7 +9883,8 @@ const routes = {
   // to view all graduates
   "/graduates/digitaldesign": _digitalGraduates.default,
   "/graduates/graphicdesign": _graphicGraduates.default,
-  "/graduates/animationgamedesign": _animationGraduates.default
+  "/graduates/animationgamedesign": _animationGraduates.default,
+  "/viewGraduate/19760513": _2.default
 };
 
 class Router {
@@ -10050,7 +9938,7 @@ function anchorRoute(e) {
   const pathname = e.target.closest("a").pathname;
   AppRouter.gotoRoute(pathname);
 }
-},{"./views/pages/home":"views/pages/home.js","./views/pages/404":"views/pages/404.js","./views/pages/about":"views/pages/about.js","./views/pages/contact":"views/pages/contact.js","./views/pages/viewGraduate":"views/pages/viewGraduate.js","./views/pages/oldGraduates":"views/pages/oldGraduates.js","./views/pages/graduates":"views/pages/graduates.js","./views/pages/digitalGraduates":"views/pages/digitalGraduates.js","./views/pages/animationGraduates":"views/pages/animationGraduates.js","./views/pages/graphicGraduates":"views/pages/graphicGraduates.js"}],"App.js":[function(require,module,exports) {
+},{"./views/pages/home":"views/pages/home.js","./views/pages/404":"views/pages/404.js","./views/pages/about":"views/pages/about.js","./views/pages/contact":"views/pages/contact.js","./views/pages/viewGraduate":"views/pages/viewGraduate.js","./views/pages/graduates":"views/pages/graduates.js","./views/pages/digitalGraduates":"views/pages/digitalGraduates.js","./views/pages/animationGraduates":"views/pages/animationGraduates.js","./views/pages/graphicGraduates":"views/pages/graphicGraduates.js","./views/pages/individuals/19760513":"views/pages/individuals/19760513.js"}],"App.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -12052,11 +11940,12 @@ customElements.define("va-graduates", class Graduate extends _litElement.LitElem
 
 
   moreInfoHandler() {
-    (0, _Router.gotoRoute)("/viewGraduate?id=".concat(this.id));
+    console.log(this.studentNumber);
+    (0, _Router.gotoRoute)("/viewGraduate/".concat(this.studentNumber));
   }
 
   render() {
-    return (0, _litElement.html)(_templateObject(), _App.default.apiBase, this.quirkyPhoto, this.firstName, this.lastName, this.tagLine, this.moreInfoHandler.bind(this), this.portfolio);
+    return (0, _litElement.html)(_templateObject(), _App.default.apiBase, this.quirkyPhoto, this.firstName, this.lastName, this.tagLine, () => (0, _Router.gotoRoute)("/viewGraduate/".concat(this.studentNumber)), this.portfolio);
   }
 
 });
@@ -12180,7 +12069,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64448" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58300" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
