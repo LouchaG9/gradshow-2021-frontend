@@ -8,6 +8,7 @@
 
   img {
     width: 30%;
+    height: 100%;
   }
 }
 
@@ -67,5 +68,23 @@ text-align: right;
 
   h3 {
     font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .about-banner {
+    width: 100%;
+    flex-direction: column;
+    .about-landing {
+      p {
+        width: 100%;
+      }
+    }
+    img {
+      width: 30%;
+      min-width: 130px;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 }
