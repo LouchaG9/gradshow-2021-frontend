@@ -48,7 +48,6 @@ text-align: right;
   }
 }
 
-
 .credits {
   background-color: #dfd8ee;
   width: 100%;
@@ -72,6 +71,7 @@ text-align: right;
 }
 
 @media screen and (max-width: 640px) {
+  
   .about-banner {
     width: 100%;
     flex-direction: column;
@@ -87,4 +87,19 @@ text-align: right;
       margin-right: auto;
     }
   }
+
+  .values {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    .value-1, .value-4 {
+      background-color: #fff;
+      width: 50%;
+    }
+    .value-2, .value-3 {
+      background-color: var(--gd-red);
+      width: 50%;
+    }
+  }
+
 }
