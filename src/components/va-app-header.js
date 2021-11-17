@@ -168,7 +168,7 @@ customElements.define(
           }
 
           /* RESPONSIVE - MOBILE ------------------- */
-          @media all and (max-width: 640px) {
+          @media all and (max-width: 768px) {
             .app-top-nav {
               display: none;
             }
@@ -190,7 +190,7 @@ customElements.define(
 
           <nav class="app-top-nav">
             <div class="links">
-              <a class="home-btn" href="/" @click="${anchorRoute}">Home</a>
+              <a class="home-btn" href="/" @click="${gotoRoute}">Home</a>
               <sl-dropdown>
                 <a
                   slot="trigger"
