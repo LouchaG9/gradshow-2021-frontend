@@ -87,7 +87,7 @@
 
 // This is a pretty rudimentary media query and I am sure that it will need to change but for now it does basically what we need it to.
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 768px) {
   .height-1,
   .height-2 {
     height: unset;
