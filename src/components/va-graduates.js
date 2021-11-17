@@ -15,48 +15,10 @@ customElements.define(
 
     static get properties() {
       return {
-        studentNumber: {
-          type: Number,
-        },
-        firstName: {
-          type: String,
-        },
-        lastName: {
-          type: String,
-        },
-        major: {
-          type: String,
-        },
-        email: {
-          type: String,
-        },
-        tagLine: {
-          type: String,
-        },
-        bio: {
-          type: String,
-        },
-        artStation: {
-          type: String,
-        },
-        behance: {
-          type: String,
-        },
-        dribbble: {
-          type: String,
-        },
-        instagram: {
-          type: String,
-        },
-        linkedin: {
-          type: String,
-        },
-        twitter: {
-          type: String,
-        },
-        vimeo: {
-          type: String,
-        },
+        studentNumber: {  }, firstName: {  },lastName: { }, major: {  },
+        email: {  }, tagLine: {  }, bio: {  }, artStation: { }, 
+        behance: {  }, dribbble: { }, instagram: {  }, linkedin: { },
+        twitter: {  },  vimeo: {  }, portfolio: { }
       };
     }
 
@@ -65,9 +27,27 @@ customElements.define(
     }
 
     // go to single page for each clicked graduate
-    moreInfoHandler() {
-      console.log(this.studentNumber);
-      gotoRoute(`/viewGraduate/${this.studentNumber}`);
+    
+    employeeHandler() {
+      return(html`
+        <button
+          class="view-employee-button"
+          @click="${() => gotoRoute("/graduates/"+ this.studentNumber)}"
+        >
+        View Employee
+        </button>
+      `)
+    }
+
+    portfolioHandler() {
+      return(html`
+        <button
+          class="view-employee-button"
+          @click="${() => location.href= this.portfolio }"
+        >
+        Portfolio
+        </button>
+      `)
     }
 
     render() {
@@ -149,15 +129,8 @@ customElements.define(
             <h3>${this.firstName} ${this.lastName}</h3>
             <p>${this.tagLine}</p>
             <div class="buttons-container">
-              <button
-                class="view-employee-button"
-                @click=${() => gotoRoute(`/viewGraduate/${this.studentNumber}`)}
-              >
-                View Employee
-              </button>
-              <button onclick="window.location.href='${this.portfolio}';">
-                Portfolio
-              </button>
+              ${this.employeeHandler()}
+              ${this.portfolioHandler()}
               <!-- format of the link 'https://www.google.com' -->
             </div>
           </div>
