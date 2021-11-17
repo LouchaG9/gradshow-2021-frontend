@@ -194,6 +194,22 @@ footer {
   }
 }
 
+// 404 page content
+.calign {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  button {
+    margin: 0 0;
+    padding: 0.5rem 0.5rem;
+    width: 35%;
+    max-width: 100px;
+  }
+}
+
 // image slider
 .image-slider {
   height: 250px;
