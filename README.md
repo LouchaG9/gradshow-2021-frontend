@@ -5,7 +5,7 @@ note from Julian, 19th of November:
 please go to the graduates/19760513 route to view an example of a user profile. 
 only basic styling has been applied for now, it still needs media queries. 
 
-here's a live view on the pre-production site: https://gradshow-preprod.netlify.app/graduates/19760513
+that build is live on: https://gradshow-preprod.netlify.app
 
 i've added a masonry grid layout to showcase peoples work, as people have submitted images of varying resolutions:
 landscape, portrait, big, small, etc. this grid will automatically fit images in to their best position based on the sizing.
