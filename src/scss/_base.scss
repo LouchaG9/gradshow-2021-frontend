@@ -56,7 +56,9 @@ a {
 }
 
 section {
-  margin-top: 5rem;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+
 }
 
 .secondary {
@@ -209,6 +211,185 @@ footer {
     max-width: 100px;
   }
 }
+
+// profile styling ---- individual grads
+
+.bioStyle{
+  padding-bottom: 3rem;
+}
+
+.portfolioItems:hover{
+  transform: scale(98%);
+  transition: ease-in-out 0.3s;
+
+}
+
+.portfolioItems:not(:hover){
+  transform: scale(100%);
+  transition: ease-in-out 0.3s;
+}
+
+.avatarStyling{
+  object-fit: contain;
+  max-width: 100%;
+  max-height: auto;
+}
+
+.avatarStyling:hover{
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+  cursor: default;
+  cursor: pointer;
+}
+
+.avatarStyling:not(:hover){
+  opacity: 1;
+  transition: ease-in-out 0.3s;
+  cursor: default;
+}
+
+.avatarContainer {
+  position: relative;
+
+}
+
+.avatarImage {
+  position: absolute;
+  max-height: 500px;
+  border: #be1e2d 0.1px solid;
+}
+
+.avatarTwo{
+  z-index: 2;
+}
+
+@keyframes fadeInLoad {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.gridContainer {
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr; 
+  gap: 8px 8px; 
+  grid-template-areas: 
+    ". ."
+    ". ."
+    ". ."
+    ". ."; 
+  width: 100%; 
+  height: 100%; 
+}
+
+.gridItem{
+  // grid area for item
+  background-color: #f6f4ec;
+  min-height: 300px;
+}
+
+.gridItem::after{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-image: linear-gradient(
+      90deg,
+      rgba(#fff, 0) 0,
+      rgba(#fff, 0.2) 20%,
+      rgba(#fff, 0.5) 60%,
+      rgba(#fff, 0)
+    );
+    animation: shimmer 5s infinite;
+    content: '';
+  }
+
+
+.portfolioItem{
+  // actual portfolio image styling
+  width: auto;
+height: auto;
+max-width: 100%;
+max-height: 100%;
+max-height: 500px;
+max-width: 50vw;
+}
+
+// utils for profile page ------
+// needs to be removed on mobile media queries
+.paddingLeft{
+  padding-left: 5em;
+}
+
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+
+// MASONRY GRID FOR PORTFOLIO WORKS ----------------------------
+
+#photos {
+  /* Prevent vertical gaps */
+  line-height: 2;
+  
+  -webkit-column-count: 5;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    5;
+  -moz-column-gap:      0px;
+  column-count:         2;
+  column-gap:           10px;
+}
+
+#photos img {
+ /* Just in case there are inline attributes */
+ width: 100% !important;
+ height: auto !important;
+}
+
+// footer styling --------------------- 
+
+
+
+@media (max-width: 1200px) {
+ #photos {
+ -moz-column-count:    4;
+ -webkit-column-count: 4;
+ column-count:         2;
+ }
+}
+@media (max-width: 1000px) {
+ #photos {
+ -moz-column-count:    3;
+ -webkit-column-count: 3;
+ column-count:         2;
+ }
+}
+@media (max-width: 800px) {
+ #photos {
+ -moz-column-count:    2;
+ -webkit-column-count: 2;
+ column-count:         1;
+ }
+}
+@media (max-width: 400px) {
+ #photos {
+ -moz-column-count:    1;
+ -webkit-column-count: 1;
+ column-count:         1;
+ }
+}
+
+
+
+
 
 // image slider
 .image-slider {

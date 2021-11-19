@@ -23,7 +23,7 @@ const routes = {
   "/graduates/graphicdesign": graphicGraduates,
   "/graduates/animationgamedesign": animationGraduates,
 
-  "/viewGraduate/19760513": student19760513View,
+  "/graduates/19760513": student19760513View,
 };
 
 class Router {
