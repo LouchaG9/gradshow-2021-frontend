@@ -28,9 +28,9 @@ class student19760513View {
           <div class="column"> 
             <div class="avatarContainer">
             <!-- first graduate avatar image -->
-              <img class="avatarStyling avatarImage avatarOne" src="/images/graduateBags/_DSC1411.jpg"/> 
+              <img class="avatarStyling avatarImage avatarOne" src="../${student19760513[0].avatarTwo}"/> 
              <!-- second graduate avatar image -->
-              <img class="avatarStyling avatarImage avatarTwo" src="/images/graduateBags/_DSC1408.jpg"/> 
+              <img class="avatarStyling avatarImage avatarTwo" src="../${student19760513[0].avatarOne}"/> 
               </div> 
           </div>
           <div class="column paddingLeft">
