@@ -184,6 +184,8 @@ class AllGraduates {
                     (graduate) => html`
                       <va-graduates
                         class="graduate-card"
+                        avatarTwo="${graduate.avatarTwo}"
+                        avatarOne="${graduate.avatarOne}"
                         firstName="${graduate.firstName}"
                         lastName="${graduate.lastName}"
                         portfolio="${graduate.portfolio}"

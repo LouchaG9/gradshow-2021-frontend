@@ -7401,6 +7401,8 @@ const Graduates = [{
   artStation: "",
   behance: "https://www.behance.net/baileygatland",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19745141_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19745141_BGattand_main.jpg",
   images: "https://drive.google.com/open?id=1J9RcXWX-f_8SIjLbRci8yQ16klnfZlSJ, https://drive.google.com/open?id=1WUoTqDpf85THi5XLhi9KLJbNoaPaDJgk, https://drive.google.com/open?id=1Men_CSLWmcjCdX9p7k54tGGLe1t1Cr5m, https://drive.google.com/open?id=1aVTdabFy5uivB9jpiTibqECa4schgrgi, https://drive.google.com/open?id=1hY4Ve2SDrtVR1Y3AMLDLJiHZ4Kb6x6m3, https://drive.google.com/open?id=13KgSg-o7ifBJeXiKSqCxkSU3PakUfbAL"
 }, {
   studentNumber: "19760513",
@@ -7418,6 +7420,8 @@ const Graduates = [{
   artStation: "",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19760513_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19760513_BFanto_main.jpg",
   images: "https://drive.google.com/open?id=1DJcRLfvxPuNkxrFZ6VwBspKfWHB0sJOi, https://drive.google.com/open?id=1jwDFyLbTgURYQYUPRE2MdrH-lHw9kqIC, https://drive.google.com/open?id=1qTXOZjAKXGrRRVTFlQvMLK-7G9OQeapT, https://drive.google.com/open?id=1o4GROQLgBxfGV94coqUtGdoQg8sWSdN5, https://drive.google.com/open?id=12OP2sZ7n7C2niZhCidY5H95X5yjiPFXf, https://drive.google.com/open?id=1dzYYjrJHe_maZUN--ffgrpSoUZGdvWxN"
 }, {
   studentNumber: "17159355",
@@ -7435,6 +7439,8 @@ const Graduates = [{
   artStation: "https://www.artstation.com/ambitxdesign",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/17159355_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/17159355_Lrobertson_main.jpg",
   images: "https://drive.google.com/open?id=1hPOLcnrNJAHHXA6x_-MB8qdJZlCdWsLB, https://drive.google.com/open?id=16IfLybWqdDh3iVeyau2H8f22mWk6Lnys, https://drive.google.com/open?id=1P7hgPhg9gv5IviORR4-slnLxMfp6niDS, https://drive.google.com/open?id=1yizn8wO5GQKcnunWuQ4xRtxmsnoiYqZ9"
 }, {
   studentNumber: "19760814",
@@ -7452,6 +7458,8 @@ const Graduates = [{
   artStation: "",
   behance: "https://www.behance.net/annamai1",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19760814_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19760814_AMai_main.jpg",
   images: "https://drive.google.com/open?id=1YRgPTV5Dm5EOw_FwlaBi93f0lxvZEYVn, https://drive.google.com/open?id=13Vhn2R4NOyQKyyA-G3fu0QLSmucrMjwg, https://drive.google.com/open?id=1ri2FTBTe5DCbL7WyNpPe-ufWfUpgP5ra, https://drive.google.com/open?id=1e2Et7y2JnOQ-Cz4M-aGqIZASg4b-4dGs, https://drive.google.com/open?id=1OH2DwvhCjSBvd_nu1IF0YqmykimVJ5V_"
 }, {
   studentNumber: "20037952",
@@ -7469,6 +7477,8 @@ const Graduates = [{
   artStation: "",
   behance: "https://www.behance.net/tianhockyan",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/20037952_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/20037952_THYan_main.jpg",
   images: "https://drive.google.com/open?id=1Ebl8MR1S5JNewxb1JxVqjh8iviIaA7i0, https://drive.google.com/open?id=1f065zhyatsG2aHQanG8Fj3ctABDkPSdY, https://drive.google.com/open?id=1w13IH0-9EWVPkIXYooxGXjegpi17vrfa"
 }, {
   studentNumber: "19467322",
@@ -7486,6 +7496,8 @@ const Graduates = [{
   artStation: "",
   behance: "https://www.behance.net/ruitanhuang",
   dribbble: "https://dribbble.com/zeffa/collections",
+  avatarOne: "./images/graduateAvatars/19467322_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19467322_RHuang_main.jpg",
   images: "https://drive.google.com/open?id=1S8Coo168U8X877HyVxpP-dbBFGHNtKLa, https://drive.google.com/open?id=1vvWCRQw9uyTYXKEB9dz1oOjsrj_HC3Yi, https://drive.google.com/open?id=1HUcHBTLpSbcieLNg6bHfh0nKBNU-0cZX"
 }, {
   studentNumber: "19168735",
@@ -7503,6 +7515,8 @@ const Graduates = [{
   artStation: "",
   behance: "https://www.behance.net/nicsndra",
   dribbble: "https://dribbble.com/nicsndra",
+  avatarOne: "./images/graduateAvatars/19168735_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19168735_NCassandra_main.jpg",
   images: "https://drive.google.com/open?id=1m8JWTgIe0y8vpg7Wyz33-NUfMlzmF5Oq, https://drive.google.com/open?id=1RB8w5eRmA5GNm54aES2iffb432eDSgSf, https://drive.google.com/open?id=1LKJXmsFZFHYvnIAQ821nIAWA1eeobfsh, https://drive.google.com/open?id=13n94_7Cgsq_p2ZdhZS_WW6nWJ1X8_w9q, https://drive.google.com/open?id=1dnLieXn5n4xoCmpN_u5T3fdOZdVFjp4W, https://drive.google.com/open?id=1GdiLC7FOzoSLK3zUDOeC1Vee3B-mAHdM"
 }, {
   studentNumber: "19785231",
@@ -7520,6 +7534,8 @@ const Graduates = [{
   artStation: "",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19785231_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19785231_MZhai_main.jpg",
   images: "https://drive.google.com/open?id=1B_N7F065hyiM4LzWvCYgFVFhd4LnTefx, https://drive.google.com/open?id=1BMj9s-rH_kl-8y_bD8w3TmevmsRV63Uu, https://drive.google.com/open?id=1eCjX3yS7B4i3vAtdB9xeTK3NhKHHln5g, https://drive.google.com/open?id=1Jrw-RPAHtpt62UQxLQtHf4N2zOnL6tHk, https://drive.google.com/open?id=1vypgDCBYT2lvkhKnfl0jDrm8vTaahKjk, https://drive.google.com/open?id=1xDu9JVJH3yb4v4N5a7fCElHjqdFwsSDX"
 }, {
   studentNumber: "19775669",
@@ -7537,6 +7553,8 @@ const Graduates = [{
   artStation: "",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19775669_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19775669_PDoick_main.jpg",
   images: "https://drive.google.com/open?id=1DrWgqG3O0C-k-JWcoesaptkM0NknMJBM, https://drive.google.com/open?id=17aw-xKs1BzdXI8jCgvTR_N3bzTTL9-V-, https://drive.google.com/open?id=1OdHEQCtCqvDlkOxyW8WY9_mfuIUQc-1r, https://drive.google.com/open?id=19C6UtGpyya10uZOUWxSKPDjvlFsnoNZx, https://drive.google.com/open?id=1_KIEk2SXs8B2bJ5bQ5tDikxYdh-C4Cki, https://drive.google.com/open?id=1QXSHoXhZ53kDVZBIpkPTM8kfahtrLk8v"
 }, {
   studentNumber: "19192187",
@@ -7554,6 +7572,8 @@ const Graduates = [{
   artStation: "",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19192187_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19192187_EEdwards_main.jpg",
   images: "https://drive.google.com/open?id=1HCd5of-JQ8VQIKqpZf-GpEyP11uslEdS, https://drive.google.com/open?id=1fBh9ZljvI-rycfRznemlG7F_tFAyuIp-, https://drive.google.com/open?id=1rD8vI8Nk6dtKnzOAChL-8BgMnmamu49E, https://drive.google.com/open?id=18ypH-LUbpAKb8MzyZ1aibskqGjXBp0hM, https://drive.google.com/open?id=1YJiBRnLPn6Z5hYoKEk-7r-jHGz0TNbtq, https://drive.google.com/open?id=1VTFnU2K3lgEk9chzRq5pgVmyR56r9I-o"
 }, {
   studentNumber: "19769662",
@@ -7571,6 +7591,8 @@ const Graduates = [{
   artStation: "",
   behance: "https://www.behance.net/malimerttens",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19769662_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19769662_MMerttens_main.jpg",
   images: "https://drive.google.com/open?id=1dTvEOdyrHhyMjS-dsajoV6rZ6I7Vdhfk, https://drive.google.com/open?id=1xTmYP-73yZ_3wZk37fZQr6q1qaHFa12B, https://drive.google.com/open?id=1qExeds-exE5YQMU_pn41jBp7RmEZay5y, https://drive.google.com/open?id=1UF_KqGyENAP6Ehf3jmJSEhKGahjMa3gV, https://drive.google.com/open?id=1ZPRMHY0f3CVU0rhBx3hkNjDTF1HQXNxs"
 }, {
   studentNumber: "18813157",
@@ -7588,6 +7610,8 @@ const Graduates = [{
   artStation: "",
   behance: "https://www.behance.net/adrinacsy/",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/18813157_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/18813157_AChung_main.jpg",
   images: "https://drive.google.com/open?id=1oPgdlkeHd9KhgJzPnU1H4bPPeJCeU6kT, https://drive.google.com/open?id=1n0u2honfDtzzYW-mUdIwR5JqiAuGN0gr, https://drive.google.com/open?id=1yNYkWLMiE4trOEe99_ftA9ClolsyuGXX, https://drive.google.com/open?id=1k995t3PSRUKm0rohKrz96wlRi2EU5NYC, https://drive.google.com/open?id=1lmcUgiDoZlgpxAoCXOJ52M77y0IGBsen, https://drive.google.com/open?id=1WRwi74FgTgF0oevi80Ziqt8IvzLDil8Z"
 }, {
   studentNumber: "19768986",
@@ -7605,6 +7629,8 @@ const Graduates = [{
   artStation: "",
   behance: "",
   dribbble: "https://dribbble.com/leah-schultz",
+  avatarOne: "./images/graduateAvatars/19768986_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19768986_LSchultz_main.jpg",
   images: "https://drive.google.com/open?id=1lmHmHd4o0va4gdsXxYEqn-jyvCYJ931Z, https://drive.google.com/open?id=1DbBof-qXan6Dyj9WEN96JmOPN0VwfU02, https://drive.google.com/open?id=1whCiBQRbRUNa6TJXND_MFZDpbTcoDhx2, https://drive.google.com/open?id=1Po4FTPMC4aljHfkhqXI4CPB32XcPIfte, https://drive.google.com/open?id=1lCykV1zNOxVlGRQerJAZ0n5UbOomOlNl, https://drive.google.com/open?id=1utHWulx3Nx8VO8HGaFAqRR_VwJ9PVpdj"
 }, {
   studentNumber: "19720863",
@@ -7622,6 +7648,8 @@ const Graduates = [{
   artStation: "artstation.com/possibly_joshua",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19720863_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19720863_JMichell_main.jpg",
   images: "https://drive.google.com/open?id=1uprsURppV6Axb14gqFEmF3Y4K6BgkZYK, https://drive.google.com/open?id=12EFKeJeA74CA4BxNZ0vbOch74L3ivqHm, https://drive.google.com/open?id=1D52xcTYZao2yU8YrYg6RC0TMhqP4cOJd, https://drive.google.com/open?id=1pp2VTpIkJXhaTpHtgAvk88mcXuK0mdYy, https://drive.google.com/open?id=1OZ-TL5Zd5ku9T1jN7DQyKN7v6P2m5mFj, https://drive.google.com/open?id=1W6XjQkJDmkK5Aa62cGBfvTF8ZZVHswst"
 }, {
   studentNumber: "19773249",
@@ -7639,6 +7667,8 @@ const Graduates = [{
   artStation: "https://www.artstation.com/michelleqt",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19773249_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19773249_MThomas_main.jpg",
   images: "https://drive.google.com/open?id=12hdGHeYpiGKheIqHCe2NvRg2HgYAQYJG, https://drive.google.com/open?id=1cHKH316hREmOIMBALNz6Ov44xFL4xZGI, https://drive.google.com/open?id=1Z0Ml4W-O8cpuP8Zoo3ebnl8VAmwdwEMm, https://drive.google.com/open?id=1ILSKlyROc6v_v-zdUqS5-jV9Ysw7EWYk, https://drive.google.com/open?id=1krwgFyf4VgyK0H3oSnpRRRR9PONExeon"
 }, {
   studentNumber: "19756130",
@@ -7656,6 +7686,8 @@ const Graduates = [{
   artStation: "",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19756130_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19756130_AMcbee_main.jpg",
   images: "https://drive.google.com/open?id=1Bab3LAQou_uVu2cp1W3ssLmSVDJNpoo_, https://drive.google.com/open?id=1xWanl44Wrv8Zy3oA3ndrGGBjib2W8aHc, https://drive.google.com/open?id=1Gkh3vfEuCiG3TEBNz81j8Q8hm07R03Qt, https://drive.google.com/open?id=15oFYZfwdv3Umy2bojEZ0UJyreku9Y9li, https://drive.google.com/open?id=1fhwEw_PqAj0dkpcyr8FLm87OSveCPpZp, https://drive.google.com/open?id=1vFXSrxKZliPXAgc8WPnAoxgMCu8L9dPz"
 }, {
   studentNumber: "19749253",
@@ -7673,6 +7705,8 @@ const Graduates = [{
   artStation: "https://www.artstation.com/community/projects/3ql3ZB/edit",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19749253_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19749253_YKim_main.jpg",
   images: "https://drive.google.com/open?id=1Rj95FULLV3AC_9w488SN1ZF_kHdrUjHe, https://drive.google.com/open?id=1Kh2VNSRGpsKliO6hturFHaIsEYDpd8wS, https://drive.google.com/open?id=1Rz6N_4HRZb4hy5Icm182T56jmv2d0Rtk, https://drive.google.com/open?id=1IcER5B1d6E98FzxCxp7SKH4Mt-ojT-jV, https://drive.google.com/open?id=1geC4ZbjhD-N-i0m-3QBm82uJn-QV1c-v, https://drive.google.com/open?id=1S3Fdw41fdocmHdUO93kWI1NYV9LomeJc"
 }, {
   studentNumber: "19160142",
@@ -7690,6 +7724,8 @@ const Graduates = [{
   artStation: "",
   behance: "https://www.behance.net/bethnaim",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19160142_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19160142_BNaim_main.jpg",
   images: "https://drive.google.com/open?id=1qBaCcZZSc6VxstiUVYp4IN-wN8wYpwNv, https://drive.google.com/open?id=1jLfYVUi2KwEfLMJQVJ_WTaV2NTTNCJJQ, https://drive.google.com/open?id=1i4zG54XV-NX7k0b7OJWHjD1okcfiY72w, https://drive.google.com/open?id=1b_qLXKv2Dj3MNdgELpRdJqr0jjIsmGkO, https://drive.google.com/open?id=1qzVi4M_vLIFMccRevVY_i70ga47-qJzL, https://drive.google.com/open?id=1xVAam7aCWuEV_29cKlQIMvd7_v4ks7iH"
 }, {
   studentNumber: "19096535",
@@ -7707,6 +7743,8 @@ const Graduates = [{
   artStation: "https://www.artstation.com/sylviachen",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19096535_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19096535_SChaoChen_main.jpg",
   images: "https://drive.google.com/open?id=1LFljFBTLcaexDkAjHfa-YaRvFgEnbII1, https://drive.google.com/open?id=1Yk95TxhX5sk9UfuCD2uckKaPLtzFwBeN, https://drive.google.com/open?id=1adIYZlWq4R4r2NXpWF4LLAzj-7QL8hN_, https://drive.google.com/open?id=1fWGC2z2Z_mLnNrkh2gldMZXimuImyWc-, https://drive.google.com/open?id=1k1Q5UDpNmnTdo2K3WKEgvC0yVzx1BtWO, https://drive.google.com/open?id=1n-s9M38-xsu1UBb2qo5AUcmGEs_ffVdE"
 }, {
   studentNumber: "19792888",
@@ -7724,6 +7762,8 @@ const Graduates = [{
   artStation: "https://www.artstation.com/danaknowles5/",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19792888_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19792888_DKnowles_main.jpg",
   images: "https://drive.google.com/open?id=1ZkR2aF4expumGz7ixym568p2AAMD-0Kk, https://drive.google.com/open?id=1v8FVqEWcZV78HOMeafrsREmkQ2Uimm5N, https://drive.google.com/open?id=16Xy2WgmzVKkvHOQF2C-jcbAmRGEzIVRP, https://drive.google.com/open?id=19_snvQjX_BGXE9EQfsCHUiJfoAGDwNYV, https://drive.google.com/open?id=18V6TrwgSfqvbk5pI5vwtxoIrKmXLyJP9, https://drive.google.com/open?id=11q2Vc9-cDdhVn956SuhZE1kemZm4tPsO"
 }, {
   studentNumber: "19485502",
@@ -7741,6 +7781,8 @@ const Graduates = [{
   artStation: "",
   behance: "https://www.behance.net/tessastirling",
   dribbble: "https://dribbble.com/tessastirling",
+  avatarOne: "./images/graduateAvatars/19485502_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19485502_TStirling_main.jpg",
   images: "https://drive.google.com/open?id=1hhSRcF1MLSe_LlM8oEFMOerjgRP9LTOc, https://drive.google.com/open?id=1FuBo2uQ0g5ZO8rkdjouocdQfBqp2Hy2d, https://drive.google.com/open?id=1uU5HBWA8vuek-bwqLJjCbGQ-Xwy8SIS5, https://drive.google.com/open?id=1svSwYJRijlKZosHQttoj8cP_nzR7rhKu, https://drive.google.com/open?id=1OkFUgOKVDy9TrTJhAwzN1xz124jqMgd5, https://drive.google.com/open?id=1tjKC8DzaL5JWXuuDRNkDnCUDlfV7SwYL"
 }, {
   studentNumber: "19965680",
@@ -7758,6 +7800,8 @@ const Graduates = [{
   artStation: "",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19965680_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19965680_HJones_main.jpg",
   images: "https://drive.google.com/open?id=1G2yFfQb8Ev0qB64udHaPsIUkld0i8QOl, https://drive.google.com/open?id=1DSp-KDGEPayM2A_R92FdgceetDeOaZPx, https://drive.google.com/open?id=1J228wfHjILtJWrpTcZS2NE-CZbvPGDZI, https://drive.google.com/open?id=12RXZREZ9m4ijDc9ZIyVWL5kcxMc3AOa5, https://drive.google.com/open?id=1OUS0KA5-PPqOtwxyjbaKPwtWMsHt2n2N, https://drive.google.com/open?id=1XrAKMV4IrIRI-kRBvcjj5aBttPg9nMnb"
 }, {
   studentNumber: "18846674",
@@ -7775,6 +7819,8 @@ const Graduates = [{
   artStation: "",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/18846674_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/18846674_SMabirrat_main.jpg",
   images: "https://drive.google.com/open?id=1Ttq3qyJ0eah0TUp2zXBXuJ56sElEtZ9Z, https://drive.google.com/open?id=1ZwcbWvLQjE-mDKA0XaY94jvpAC8-3KRR, https://drive.google.com/open?id=15lL6HzHlHv3GnhT72p3hhZ08MxgA6inK, https://drive.google.com/open?id=1CneJLHPMxOJ3VG465GB6Yvp5f8RrkXYg, https://drive.google.com/open?id=14yQ-iwSxjpxgCDGqrGRJR3nEendK5RWc, https://drive.google.com/open?id=1_o78somhYq4AtSitqa3R50-IPMf0vpSL"
 }, {
   studentNumber: "19499736",
@@ -7792,6 +7838,8 @@ const Graduates = [{
   artStation: "",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19499736_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19499736_JNesic_main.jpg",
   images: "https://drive.google.com/open?id=16ZBDkwuaBgn2MqwTegPqCQNZI5-iSPaK, https://drive.google.com/open?id=16cgBwFpt027BHVvKSvDZn9OY4MWjDcKS, https://drive.google.com/open?id=1LiTSRXFWK8KBDIu3s2EpXvFylMWpUTZX, https://drive.google.com/open?id=1X3IYQspdnNXlATxR_rUBQuEaq4yibe6e"
 }, {
   studentNumber: "18342224",
@@ -7809,6 +7857,8 @@ const Graduates = [{
   artStation: "",
   behance: "https://www.behance.net/jaminsaw",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/18342224_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/18342224_JSaw_main.jpg",
   images: "https://drive.google.com/open?id=1usmyHxwKdn8F3IF-iaumChKv3CxOwUUQ, https://drive.google.com/open?id=10BvcU0OsYKgHWYFSAIxUQSypq8TzoXnp, https://drive.google.com/open?id=1uoYP5EQnBe4IC2M-LYIp9SkSSjCV-TFj, https://drive.google.com/open?id=1KOtAx62B23AlBn_0-amcUW6zfcWRwq1Z, https://drive.google.com/open?id=1ufY6ScPXwutxuZ2E_hPzjDcpjLwtl5bR, https://drive.google.com/open?id=1ZThhMHv4_0ykiFg8xSgFz60-QcKdFoV6"
 }, {
   studentNumber: "19148724",
@@ -7826,6 +7876,8 @@ const Graduates = [{
   artStation: "",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19148724_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19148724_ELeicester_main.jpg",
   images: "https://drive.google.com/open?id=1fhDLLGFo6PjjlL-iuWsl_Ms5sjauP4jg, https://drive.google.com/open?id=1OJT_H0ORp3E2Rm_dWq5_DRNm-GF8wgD2, https://drive.google.com/open?id=1jL45hDefli97iG_pvUiItfzN8ZzhRbgS, https://drive.google.com/open?id=1oD9EIbKcUKoaX9-8tUKL2Lr2BBEpXGgY, https://drive.google.com/open?id=1xWIisN2Qx53F-VjmQYVrXuPJJ7pKA5T-, https://drive.google.com/open?id=12EnBeHUxzxQwbpRjwyUz7jU9Uu5w3PMU"
 }, {
   studentNumber: "19749253",
@@ -7843,6 +7895,8 @@ const Graduates = [{
   artStation: "https://www.artstation.com/yaeramkim5",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19749253_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19749253_YKim_main.jpg",
   images: "https://drive.google.com/open?id=1zROtReRaZdY9XSiPc_lODJzSHqP2d8YP, https://drive.google.com/open?id=1lGe7VtmoM-pjEPxhM0k1FCdcVbiriIBO, https://drive.google.com/open?id=11EYCnvSWwjsPbdJJnK-ZcagHjij6DCA9, https://drive.google.com/open?id=1D1P7J4VEF9Bs_AYcGGHk1lOj97m-M4f7, https://drive.google.com/open?id=1rGDHh-khpHaM-jf2APbC1DxQrQ8f8npb, https://drive.google.com/open?id=1XcKrEdWleYvJpCFf2morNTakG2mVhObx"
 }, {
   studentNumber: "19762328",
@@ -7860,6 +7914,8 @@ const Graduates = [{
   artStation: "",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19762328_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19762328_LTarr_main.jpg",
   images: "https://drive.google.com/open?id=1EQUQnsI7ZLI0e0cMKPWRVfDWYYlYtkuK, https://drive.google.com/open?id=1RcGHW6rFJZJUr-yUjNsBDlodGIoHVET1, https://drive.google.com/open?id=1xRsjyLLJn0Vw8G-1TewukQu8sFRmmzW-, https://drive.google.com/open?id=1w3nXFufZ_INfcDkJdl9vnhBEZp9B_AKG, https://drive.google.com/open?id=1wm_GMjH8_FPueGSEK9T2OrkvY3txwANa, https://drive.google.com/open?id=1TcuG1Pl9mRGUEFqolcsCLGy3B0LQ3QOP"
 }, {
   studentNumber: "19790316",
@@ -7877,6 +7933,8 @@ const Graduates = [{
   artStation: "https://www.artstation.com/jcabral",
   behance: "https://www.behance.net/jekkocabral",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19790316_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19790316_JCabral_main.jpg",
   images: "https://drive.google.com/open?id=1O7LkDQMIciWorxGkU5329kKaeSoTApw1, https://drive.google.com/open?id=1UrNcQW2AYoYqOsHUHO-9Zm-eqVutWtbk, https://drive.google.com/open?id=1df-WqIUGqj6yZzNGhbCjgxgDkVX9GeU8, https://drive.google.com/open?id=1w61taUdp_VdF3Ll7Sh1lJ6IW5Bc_qnjS, https://drive.google.com/open?id=1qfHSMbVharXlJVUgQv-5Z721RrmKqzDN, https://drive.google.com/open?id=1DFvi-t0Iw7LdSh8MrNk1b5pY80PYlOpI"
 }, {
   studentNumber: "19918406",
@@ -7894,6 +7952,8 @@ const Graduates = [{
   artStation: "",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19918406_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19918406_NDakin_main.jpg",
   images: "https://drive.google.com/open?id=1fDCFCRld_AjuHh0QjsDEe30OA06xRgKP, https://drive.google.com/open?id=1C4nQxnHedY2zH-AflvrewAerCvIsRvYO, https://drive.google.com/open?id=10GYUR52-HnjYJhKPTbyWiktOv3CDhXv5, https://drive.google.com/open?id=1pdhI56TpXMzyJgklYcSPZ8OYL1PPLuVH, https://drive.google.com/open?id=1XGlN1dhIiruhtsTOB9ncy3fFsQo8t3SJ, https://drive.google.com/open?id=1GpVahrfJE4RPgxHXdipIdyw1aDx-W6B-"
 }, {
   studentNumber: "19770295",
@@ -7911,6 +7971,8 @@ const Graduates = [{
   artStation: "https://www.artstation.com/daffarizkiadi",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19770295_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19770295_DRizkiadi_main.jpg",
   images: "https://drive.google.com/open?id=1AIXADslEOhhSlus4av6e3XAFw5g3jnW0, https://drive.google.com/open?id=1wIfrebjLFLWs9klucF1p6DfUNpLjtV3Y, https://drive.google.com/open?id=1RMfJ_ZRguUdb5PEZwG4S1I--FDhuP5B8, https://drive.google.com/open?id=1yIs_K9_KGxvyCJJGK3AkTK0x7gsXyNub, https://drive.google.com/open?id=1lOeVNKCYeVwtGjQm9qJy3z53dfGHVTRr, https://drive.google.com/open?id=1v4qIJh1YTbSizZnEEhM1WtATPGJ_HkYs"
 }, {
   studentNumber: "19467092",
@@ -7928,6 +7990,8 @@ const Graduates = [{
   artStation: "",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateBags/_DSC1383.jpg",
+  avatarTwo: "./images/graduateBags/_DSC1380.jpg",
   images: "https://drive.google.com/open?id=1YQE_SQfFYGk7uovxjRXYUVNtGtqirDVY, https://drive.google.com/open?id=1HHQavD8VzJhBSg9lv4wu3imvpLvqnLbj, https://drive.google.com/open?id=1NyqiHtPZfi_XaJ0bdNciBMptCFEgc4fL, https://drive.google.com/open?id=1CgSbAj4veeBMRfECypzpN8FB0s5zyKec, https://drive.google.com/open?id=1yRqhRZxuvjlkS__b0oy6d33WNQM2vplq, https://drive.google.com/open?id=1Qo23yW5imu5ihDGYKd8vR0anv4HCpGg8"
 }, {
   studentNumber: "17373236",
@@ -7945,6 +8009,8 @@ const Graduates = [{
   artStation: "",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/17373236_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/17373236_EHarding_main.jpg",
   images: "https://drive.google.com/open?id=15LPXURiarm-mABu5wrIN22KgE9G3sahm, https://drive.google.com/open?id=1IRY5iDGP0nVFbg0JTE09ts9EERAsh1Yh, https://drive.google.com/open?id=1EbwYfoUZv0IKptRXUvdFmUDHO6opKz_2, https://drive.google.com/open?id=1_GLPNYsbzlsQOWfaCmDBtZEHH3nAbstH, https://drive.google.com/open?id=1hu3Fz8eqqoB61IcH6yWtGtHpjicZYbiV, https://drive.google.com/open?id=1yOe7BpK6i0TbzrBZAQdpRx-RhDvjhtjp"
 }, {
   studentNumber: "19449087",
@@ -7962,6 +8028,8 @@ const Graduates = [{
   artStation: "N/A",
   behance: "N/A",
   dribbble: "N/A",
+  avatarOne: "./images/graduateAvatars/19449087_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19449087_MGilmoor_main.jpg",
   images: "https://drive.google.com/open?id=1gAm5t7ru8NSZhtymYrVrswk3wkTurvc_, https://drive.google.com/open?id=1tow5MHIII69MENnsZUdP7Qd4lN2wtTAM, https://drive.google.com/open?id=18LFw4SVN8bfJedmwajXnvSA7Njsjn89u, https://drive.google.com/open?id=1gX1TcV3Naf4Z_BScZ3RtaZXpvngQq6ok, https://drive.google.com/open?id=114iK3PJL1KZAE6rdGS2-ANT7zmaOjhl5, https://drive.google.com/open?id=1x0U7pFI6_V9DjeiDLV8BwG6tKIKFV_wL"
 }, {
   studentNumber: "19131148",
@@ -7979,6 +8047,8 @@ const Graduates = [{
   artStation: "",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19131148_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19131158_JFoti_main.jpg",
   images: "https://drive.google.com/open?id=1o9CUREyKesbJbE2SNBIzejjbY2-0w4bI, https://drive.google.com/open?id=1niO-5zMMxqHjSDIXhuyWDlfyuC71QtGq, https://drive.google.com/open?id=1TLuBBpPxGgSSMcEmurhpTkWWwGeYSDpl, https://drive.google.com/open?id=1dWJUiQI3Gv_FizbUxtSLzYHGh0beuTBQ, https://drive.google.com/open?id=1KnXd56xQzJAlQkjXBdkBKF5AaR5HcUPE, https://drive.google.com/open?id=1H7yCvPLi2yhNBhsRWZkSXHVcwJrNuYg0"
 }, {
   studentNumber: "19783853",
@@ -7996,6 +8066,8 @@ const Graduates = [{
   artStation: "",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19783853_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19783853_OLalacci_main.jpg",
   images: "https://drive.google.com/open?id=1tC2Kqj8bjuE9lJ1WKF007rVjYybtjqmR, https://drive.google.com/open?id=1TXSRvu9Ro8i1yJpZJhuyL8HNv46LwB3A, https://drive.google.com/open?id=1JLjOHXyn1kRLZ5oUPNPCE-31HSv0XPTY, https://drive.google.com/open?id=1Fy-05qrKQQP7rgvA6iu_rMXz6i7zPI6M, https://drive.google.com/open?id=1urgT3PxWhCoR8yXOw30xslM-opDTwTRO, https://drive.google.com/open?id=1Bnuz2p-KJfuoIfu2IKUa5l_Xp0B7YTvh"
 }, {
   studentNumber: "19501903",
@@ -8013,6 +8085,8 @@ const Graduates = [{
   artStation: "https://www.artstation.com/sophietill",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19501903_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19501903_STill_main.jpg",
   images: "https://drive.google.com/open?id=1TiJAHYYc6Bxy6f94gkzKTZJEogIKuge0, https://drive.google.com/open?id=1g-aC626phQskRmJMmLsJ9n2cAruAylxj, https://drive.google.com/open?id=1RqIVSSFmDfwYMNMPyqDmIDBEdxl82DZ_, https://drive.google.com/open?id=19yHp3Ey4x8cWcNol2gOqylT1YkdrKKYM, https://drive.google.com/open?id=1ZZlKTLMPX8ZsDo_7VU3dzNq4sLJmSbLK, https://drive.google.com/open?id=1m4lf9FC9QhQ-33zSDZQbJEcQkn6Z6sUb"
 }, {
   studentNumber: "17817860",
@@ -8030,7 +8104,9 @@ const Graduates = [{
   artStation: "https://www.artstation.com/alex_berti_a",
   behance: "",
   dribbble: "",
-  images: ""
+  images: "",
+  avatarOne: "./images/graduateAvatars/17817860_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/17817860_ABertilone_main.jpg"
 }, {
   studentNumber: "19157254",
   firstName: "Eleyna",
@@ -8047,6 +8123,8 @@ const Graduates = [{
   artStation: "",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19157254_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19157254_ENewby_main.jpg",
   images: "https://drive.google.com/open?id=1vknmDTs0g88-W-Q5Nb7UUkLOpGlw-OZn, https://drive.google.com/open?id=18JNtb4sWQGwrVn6wEs1IhMR8j4Ybuni9, https://drive.google.com/open?id=1eaop2fwL7otVZczh0GsU6RcK7vbnGVEg, https://drive.google.com/open?id=19iGhKg9DA4kbDhZA-0SAhbTg-LmQ2UEA, https://drive.google.com/open?id=1eyCD0eYY9t0fJ5E6HqEcyN6Caa0RE_AD, https://drive.google.com/open?id=13DEDpcYYrGFq8gyruPBkAfminNuB1ifk"
 }, {
   studentNumber: "19454722",
@@ -8064,6 +8142,8 @@ const Graduates = [{
   artStation: "",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19454722_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19454722_MHorler_main.jpg",
   images: "https://drive.google.com/open?id=1OyJN4xzudWQPj87eCpLAdt3cwAMmUzQ1, https://drive.google.com/open?id=1gZs625dLvsRZIAULNsOO96sVRLp71kz4, https://drive.google.com/open?id=1IjPeS-FwYeHc5JpHRSoB-Mhg7q06GL_7, https://drive.google.com/open?id=1qUG1TJL5QUQQg8TPNCmm0mjkO3HNMBSl, https://drive.google.com/open?id=1utN1bUq-ameJyE5smcEUl2VbkOjoWiPv, https://drive.google.com/open?id=14v-0mtvZaxu6ly6UIaJksKQJ_axFC1N7"
 }, {
   studentNumber: "19606154",
@@ -8081,6 +8161,8 @@ const Graduates = [{
   artStation: "",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19606154_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19606154_GRidarta_main.jpg",
   images: "https://drive.google.com/open?id=11BUCTpR-nnLkAE_VtAhylWlKmnDANHPu, https://drive.google.com/open?id=1JwvzsaKxeg_5gXBCWD1uF6HrHWl0Tnq5, https://drive.google.com/open?id=1Dnc4L1hXEd7_cQ67ycV8lLUef45jUoDY, https://drive.google.com/open?id=1xD0u1tH1S9G_lY7pl5NFw3_s7A-Vvw0N, https://drive.google.com/open?id=1gvCiVRH0Z4Huj7f_PCPzJvSNlbqdY-vo"
 }, {
   studentNumber: "19490085",
@@ -8098,6 +8180,8 @@ const Graduates = [{
   artStation: "",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19490085_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19490085_DMusarra_main.jpg",
   images: "https://drive.google.com/open?id=1ANhp4wQDZpFuHl_Zqq39K_VPuI2NpUMc, https://drive.google.com/open?id=1ahdpcHH2FjAgD8cjY4UkLwCYWxS42tiJ, https://drive.google.com/open?id=1yMQO6ihgGbJPI1tpUPf5hvwQ0E3mFmwX, https://drive.google.com/open?id=1t9AIM1m61EQQGyDzsqFQ3sXb3XIPcd80, https://drive.google.com/open?id=1TeRNC7YLULcO3YHPPtR7b4sRFETCFlwm, https://drive.google.com/open?id=1jPsTB5yL2WLRUtYVg3awuopukcI3lL2c"
 }, {
   studentNumber: "19963587",
@@ -8115,6 +8199,8 @@ const Graduates = [{
   artStation: "https://www.artstation.com/ellamatthews7",
   behance: "https://www.behance.net/ellamatthews",
   dribbble: "https://dribbble.com/EllaMatt/about",
+  avatarOne: "./images/graduateAvatars/19963587_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19963587_EMatthews_main.jpg",
   images: "https://drive.google.com/open?id=1srjm_d9tvF8DvFfLtEzaBl6dL8A5a_4k, https://drive.google.com/open?id=1nZk-azC-bJgBihaDqzPtN5DHqjVo1aZv, https://drive.google.com/open?id=14_1SzBg_NRu0w1JIRbw4zPI-D7FNi114, https://drive.google.com/open?id=1ko07maT6m_9yUnlknsnTG_Es7IPyMe5t"
 }, {
   studentNumber: "19133225",
@@ -8132,6 +8218,8 @@ const Graduates = [{
   artStation: "",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19133225_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19133225_AMarbeck_main.jpg",
   images: "https://drive.google.com/open?id=1nxb6FtRl9pwCB5CHT7a6hcW0JMsU0hhN, https://drive.google.com/open?id=18tLMdWhF-bV1tZXwf9KS8CZ5nwFjhUTL, https://drive.google.com/open?id=1Wl0S16kdqL9z5SLh6_E-w7oQ8Izw0isq, https://drive.google.com/open?id=1IV8j9C5W2RVdTrMxhhp5MhZIwGXQxPcf, https://drive.google.com/open?id=1stXdIvsQ1iTWvkoMnI4LPip_8TL9zmPD, https://drive.google.com/open?id=1ac3X5IpFhxZ597lvIPCyApPyZx3oJJgk"
 }, {
   studentNumber: "19749402",
@@ -8149,6 +8237,8 @@ const Graduates = [{
   artStation: "",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19749402_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19749402_GPortelli_main.jpg",
   images: "https://drive.google.com/open?id=1KHq02F49dNLA8PWUSiLWCvAj05I-SgjQ, https://drive.google.com/open?id=1c1WaWf2pwPeIGhFbUyNacGruKX-HHQdZ, https://drive.google.com/open?id=1rOXlX6TBW1jGgLMpJXw7hNgdNAxVxrGV, https://drive.google.com/open?id=1EScxAT4O6PqJA5_o-xxrD88W0eJFwhkf, https://drive.google.com/open?id=1BmvkvSChmELiRjZcMS2ZUT_Bu50uHEjY, https://drive.google.com/open?id=1INk2i-ZX8Zcrae2yI1bVtYFRrbxyi6wD"
 }, {
   studentNumber: "19451231",
@@ -8166,6 +8256,8 @@ const Graduates = [{
   artStation: "",
   behance: "behance.net/joaquinatizado1",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19451231_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19451231_JAtizado_main.jpg",
   images: "https://drive.google.com/open?id=1LiwB9hL_NSqbDjvq9Nmz37ZiyjXDZBhp, https://drive.google.com/open?id=1NLu0Glgx1amMR9KhfCJP8gusNCu3KAgE, https://drive.google.com/open?id=11C3f5_DJrcweMVi3G9nyBhf9MHDaEEnL, https://drive.google.com/open?id=175gsVWR5AXACH-tPAQuTNRdhr4kyn6BZ"
 }, {
   studentNumber: "18451382",
@@ -8183,6 +8275,8 @@ const Graduates = [{
   artStation: "",
   behance: "https://www.behance.net/coopergeyer",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/18451382_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/18451382_CGeyer_main.jpg",
   images: "https://drive.google.com/open?id=1fv_BrBXjyad2o4ee-COYpIXYDDve-dvt, https://drive.google.com/open?id=12SGPGH2I_SbUzhu50xUyfUJ7L38ltsEW, https://drive.google.com/open?id=1N64Owe4WondGEwDOTHHyMiwuwxiI2Y5n, https://drive.google.com/open?id=19s3ECILM2i09jlGQSBRjL2g6Aai9rIV-, https://drive.google.com/open?id=1-ld0h9xz0x-xOpk3OXh1fHu5lsNPoGkH, https://drive.google.com/open?id=1zBz0Fmh57ntDxxlRqfv63h3-uRKeI2EA"
 }, {
   studentNumber: "19691600",
@@ -8200,6 +8294,8 @@ const Graduates = [{
   artStation: "",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19691600_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19691600_Etey_main.jpg",
   images: "https://drive.google.com/open?id=1yta0kBZB-j-xOuskc60ScGcW1VoJMFSg, https://drive.google.com/open?id=1dIKG743DpZBeS_ihJd4YeThdrhDMGYIQ, https://drive.google.com/open?id=1_UXQZckdlcjKKQ-7bwankE0-pjkCbzqA, https://drive.google.com/open?id=1U3ZYJfodOFbKecHxR1cjiQXrEVErnDA-, https://drive.google.com/open?id=17YwYw2UotWj7RfuSsX1weXfI9Q10huKV, https://drive.google.com/open?id=170YApwoC5i7kTG5dLde2YX-K40oIMXjv"
 }, {
   studentNumber: "19778697",
@@ -8217,6 +8313,8 @@ const Graduates = [{
   artStation: "",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19778697_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19778697_IMaccarthy_main.jpg",
   images: "https://drive.google.com/open?id=1J1jwOnUm_rTjI45d-9AvBcCX99xfusPU, https://drive.google.com/open?id=1yehLfstt_-8uCRG__6jQnWCrEdcf73TU, https://drive.google.com/open?id=1wZJYEViOIsCQxFP6NS1pYFb8gLSv825U, https://drive.google.com/open?id=1m-nZDtTrVSOYcIE1XHYfz5NyQmKxKs8b, https://drive.google.com/open?id=1wfz8Z0_FbJoOV0X_gsqzHUAI4JTBzPbp, https://drive.google.com/open?id=1raRelBd0Tn-sExczHtYYsKDMFpuyADoD"
 }, {
   studentNumber: "19523266",
@@ -8234,6 +8332,8 @@ const Graduates = [{
   artStation: "",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19523266_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19523266_EMee_main.jpg",
   images: "https://drive.google.com/open?id=1cSysbFm96BzovLEXPKPITK_xkjTssTVn, https://drive.google.com/open?id=18HphIjuF55pofv7mcNjYOWllfgw85g5J, https://drive.google.com/open?id=1UdxxxLdqX59LQHe95cSWDnNpChHmVlYQ"
 }, {
   studentNumber: "19467322",
@@ -8251,6 +8351,8 @@ const Graduates = [{
   artStation: "",
   behance: "https://www.behance.net/ruitanhuang",
   dribbble: "https://dribbble.com/ruitanexpdesign",
+  avatarOne: "./images/graduateAvatars/19467322_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19467322_RHuang_main.jpg",
   images: ""
 }, {
   studentNumber: "19518259",
@@ -8268,6 +8370,8 @@ const Graduates = [{
   artStation: "",
   behance: "https://www.behance.net/emmirumsa",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19518259_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19518259_ERumsa_main.jpg",
   images: "https://drive.google.com/open?id=1sHETwXL3GQFh8-qsPXi49WMVqmdcPpMB, https://drive.google.com/open?id=1xDMZtO4i2of_OmNlZFZFPcEKoHK4hz03, https://drive.google.com/open?id=1-I55emqEe2Fy2dqy_XYQJWuTEWDf6Ibi, https://drive.google.com/open?id=1RVRyAufoYV5Z7FD6d0lgsEOBL1MP0jxV, https://drive.google.com/open?id=1nzdsgnXIwJHpxARJyaS0MqezftWaBTAC, https://drive.google.com/open?id=1C7Y3fXC6tFvUWamxOyoYtIfxt9xdI_4c"
 }, {
   studentNumber: "19490250",
@@ -8285,6 +8389,8 @@ const Graduates = [{
   artStation: "",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19490250_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19490250_BWatson_main.jpg",
   images: "https://drive.google.com/open?id=1gKqmwb-HV-KZa-1XdxBxh-JNvc5B4vcx, https://drive.google.com/open?id=19-rA4OyPYjSFmzz7SKrAV6XXphMrlUO3, https://drive.google.com/open?id=1kpZzdfrIK7smCtJ306Wpa-3g0pwcazG4, https://drive.google.com/open?id=1htbI1I2hpgc1YdPliTd_4k5FV77u2Tv7"
 }, {
   studentNumber: "19349611",
@@ -8319,6 +8425,8 @@ const Graduates = [{
   artStation: "",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/17978204_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/17978204_SWang_main.jpg",
   images: "https://drive.google.com/open?id=1feurN48cOa3_JlzO6Zj-ugntZs9u8L-y, https://drive.google.com/open?id=1qAg9LYi1omfYe6AwpEGEOJCBiz8l7h-t"
 }, {
   studentNumber: "19162229",
@@ -8336,6 +8444,8 @@ const Graduates = [{
   artStation: "",
   behance: "",
   dribbble: "dribbble.com/uxbydcosta",
+  avatarOne: "./images/graduateAvatars/19162229_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19162229_MCosta_main.jpg",
   images: "https://drive.google.com/open?id=1vfbGSXeq67k18Grf2Y9ar04-zdKYwVFE, https://drive.google.com/open?id=1sLvBUkfoQqSEjCRE6g4s1Wc2a4Az2PC6, https://drive.google.com/open?id=1PQlJVEwsZZhYVVebmhlrAvon-iBX0FzH, https://drive.google.com/open?id=10ZeJVJD0tyNGyan2upnmMsWip8trZrw1, https://drive.google.com/open?id=1-6-JdZIp57SRs6aAsEZ6WSTDvRMqpzjl, https://drive.google.com/open?id=164Rdw-Dxolp68JJr1489rG3gj6UrvE0v"
 }, {
   studentNumber: "19132345",
@@ -8370,6 +8480,8 @@ const Graduates = [{
   artStation: "",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19754202_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19754202_ZLo_main.jpg",
   images: "https://drive.google.com/open?id=1Ctv0lxsxXs1cS0YYcJ1JGtmCqNbml76x, https://drive.google.com/open?id=1kTG92xs-y53hJJNmEkqHsjHq_rapAmgr, https://drive.google.com/open?id=1CKBG9QWDCILA2f2zJkhWT4HeuTr1g87n, https://drive.google.com/open?id=1eWMMhIZNv07yJUuitF8QHXzPW-6evmS-, https://drive.google.com/open?id=1_RA78nRxy9KSOQD6KfGDqI-4Pe_VquMs, https://drive.google.com/open?id=1H4Ks42bJHkydE5C29N9IB7-qv7_oV8h5"
 }, {
   studentNumber: "19460062",
@@ -8387,6 +8499,8 @@ const Graduates = [{
   artStation: "",
   behance: "",
   dribbble: "This isn't actually my Dribble link, but needed somewhere to write that my major isn't one of the multiple choices - I'm doing illustration",
+  avatarOne: "./images/graduateAvatars/19460062_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19460062_CArena_main.jpg",
   images: "https://drive.google.com/open?id=1BSUjqtZn2f1HZ-I97Srxx5IqNOBrjnU_, https://drive.google.com/open?id=1n7Zj2AZADDCy5Zv0atQClkxZB1P84DYY, https://drive.google.com/open?id=1Uo-MNCmL3CgQiTPr2s9UFgtwnw45slob, https://drive.google.com/open?id=1P4laKKvyEGDVfRcKqA7zQVkpjiH4cxDZ"
 }, {
   studentNumber: "19471666",
@@ -8404,6 +8518,8 @@ const Graduates = [{
   artStation: "https://www.artstation.com/jet_trijo",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19471666_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19471666_JTrijo.jpg",
   images: "https://drive.google.com/open?id=1iwi-WEh_HtO2flSFBSW8Q1RETBmUkKXr, https://drive.google.com/open?id=1By9c3k-RorsjmasOX-jd-XqO2S9PKgfv, https://drive.google.com/open?id=1eF7rdvPpgPEm69MLS8FfnhFVsqmYPtWQ, https://drive.google.com/open?id=1AvPbwNNQ7bY0AqwnHjiuG5VWUhvpUIDs, https://drive.google.com/open?id=1Hu8KAeIn0Uv7Diuy9l2JY_P4F8wkI2LY, https://drive.google.com/open?id=1Xfld0gl5vW1PJFec1ZIwSENOZnJhKnh6"
 }, {
   studentNumber: "19483580",
@@ -8421,6 +8537,8 @@ const Graduates = [{
   artStation: "",
   behance: "",
   dribbble: "",
+  avatarOne: "./images/graduateAvatars/19483580_alt.jpg",
+  avatarTwo: "./images/graduateAvatars/19483580_KMarks_main.jpg",
   images: "https://drive.google.com/open?id=1mY1rYnZ2u5qlNsd4YmxzCyEfXvbaukDh, https://drive.google.com/open?id=1jsEfPu3DdNr9YeJp_akbD5JYl4zur2eZ, https://drive.google.com/open?id=1rQ40P66DRHuY0OBqLqhpPkvdmgTVZnIU, https://drive.google.com/open?id=1mgJ-P3NC3HO0dM0CQU-I9UnJL-nbtO2u, https://drive.google.com/open?id=1oAHQmekwhHbzrZqDHeoYk0vQZ2d_0IBS, https://drive.google.com/open?id=1UMufN7Q0IJlRICi4MKbBnaCek6cjsm77"
 }, {
   studentNumber: "19490292",
@@ -9149,7 +9267,7 @@ var _Toast = _interopRequireDefault(require("../../Toast"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject4() {
-  const data = _taggedTemplateLiteral(["\n                      <va-graduates\n                        class=\"graduate-card\"\n                        firstName=\"", "\"\n                        lastName=\"", "\"\n                        portfolio=\"", "\"\n                        tagLine=\"", "\"\n                        studentNumber=\"", "\"\n                      >\n                      </va-graduates>\n                    "]);
+  const data = _taggedTemplateLiteral(["\n                      <va-graduates\n                        class=\"graduate-card\"\n                        avatarTwo=\"", "\"\n                        avatarOne=\"", "\"\n                        firstName=\"", "\"\n                        lastName=\"", "\"\n                        portfolio=\"", "\"\n                        tagLine=\"", "\"\n                        studentNumber=\"", "\"\n                      >\n                      </va-graduates>\n                    "]);
 
   _templateObject4 = function _templateObject4() {
     return data;
@@ -9281,7 +9399,7 @@ class AllGraduates {
   }
 
   render() {
-    const template = (0, _litHtml.html)(_templateObject(), this.handleSearchKeyup.bind(this), this.backSpaceHandler.bind(this), this.clearFilters.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), _graduateData.Graduates == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), this.Graduates.map(graduate => (0, _litHtml.html)(_templateObject4(), graduate.firstName, graduate.lastName, graduate.portfolio, graduate.tagLine, graduate.studentNumber))));
+    const template = (0, _litHtml.html)(_templateObject(), this.handleSearchKeyup.bind(this), this.backSpaceHandler.bind(this), this.clearFilters.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), _graduateData.Graduates == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), this.Graduates.map(graduate => (0, _litHtml.html)(_templateObject4(), graduate.avatarTwo, graduate.avatarOne, graduate.firstName, graduate.lastName, graduate.portfolio, graduate.tagLine, graduate.studentNumber))));
     (0, _litHtml.render)(template, _App.default.rootEl);
   }
 
@@ -13330,7 +13448,7 @@ var _Toast = _interopRequireDefault(require("./../Toast"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject3() {
-  const data = _taggedTemplateLiteral(["\n        <style>\n          button {\n            height: 50px;\n            width: calc(50% - 2em);\n            background-color: transparent;\n            color: black;\n            font-size: 15px;\n            border: 1px solid black;\n          }\n\n          .view-employee-button {\n            background-color: var(--brand-color);\n            color: white;\n            border: none;\n          }\n\n          button:hover {\n            cursor: pointer;\n            background-color: var(--destore-purple);\n            border: none;\n            color: black;\n          }\n\n          h3,\n          p {\n            margin: 0 auto;\n            padding: 0;\n          }\n\n          h3 {\n            font-size: 27px;\n          }\n\n          p {\n            font-size: 18px;\n          }\n\n          .image-container {\n            width: 100%;\n            height: 400px;\n            background-repeat: no-repeat;\n            background-size: cover;\n            background-position: center;\n            border-bottom: 1px solid black;\n            /* easing the hover transition */\n            transition: 0.3s;\n          }\n\n          /* hover effect */\n          /* .image-container:hover {\n            background-image: url(\"", "/images/", "\") !important;\n            cursor: pointer;\n          } */\n\n          .text-container {\n            height: 200px;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            justify-content: space-evenly;\n          }\n\n          .buttons-container {\n            display: flex;\n            justify-content: space-evenly;\n            width: 100%;\n          }\n        </style>\n\n        <!-- delete placeholder text when the real data is used -->\n        <div>\n          <div class=\"image-container\" style=\"background-image: url()\"></div>\n          <div class=\"text-container\">\n            <h3>", " ", "</h3>\n            <p>", "</p>\n            <div class=\"buttons-container\">\n              ", "\n              ", "\n              <!-- format of the link 'https://www.google.com' -->\n            </div>\n          </div>\n        </div>\n      "]);
+  const data = _taggedTemplateLiteral(["\n        <style>\n          button {\n            height: 50px;\n            width: calc(50% - 2em);\n            background-color: transparent;\n            color: black;\n            font-size: 15px;\n            border: 1px solid black;\n          }\n\n          .gradListingAvatar{\n            position: absolute;\n            max-height: 360px;\n            left: 0;\n            cursor: grab;\n            overflow: hidden;\n\n          }\n\n          .gradListingAvatarTwo{\n            position: absolute;\n            max-height: 360px;\n            left: 0;\n            cursor: grab;\n            overflow: hidden;\n\n          }\n\n          .gradListingAvatarTwo:hover{\n            opacity: 0;\n            transition: ease-in-out 0.1s;\n          }\n\n          .gradListingAvatarTwo:not(:hover){\n            opacity: 1;\n            transition: ease-in-out 0.1s;\n          }\n\n          .view-employee-button {\n            background-color: var(--brand-color);\n            color: white;\n            border: none;\n          }\n\n          button:hover {\n            cursor: pointer;\n            background-color: red;\n            border: none;\n            color: black;\n          }\n\n          h3,\n          p {\n            margin: 0 auto;\n            padding: 0;\n          }\n\n          h3 {\n            font-size: 27px;\n          }\n\n          p {\n            font-size: 18px;\n          }\n\n          .image-container {\n            position: relative;\n            width: 100%;\n            min-height: 350px;\n            overflow: hidden;\n            background-repeat: no-repeat;\n            background-size: cover;\n            text-align: center;\n            margin: auto;\n            display: block;\n            background-position: center;\n            border-bottom: 1px solid black;\n            /* easing the hover transition */\n            transition: 0.3s;\n          }\n\n          /* hover effect */\n          /* .image-container:hover {\n            background-image: url(\"", "/images/", "\") !important;\n            cursor: pointer;\n          } */\n\n          .text-container {\n            height: 200px;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            justify-content: space-evenly;\n          }\n\n          .buttons-container {\n            display: flex;\n            justify-content: space-evenly;\n            width: 100%;\n          }\n        </style>\n\n        <!-- delete placeholder text when the real data is used -->\n   \n          <div class=\"image-container\" >  \n          <img class=\"gradListingAvatar\" src=\"", "\"  onerror=\"this.src='/images/graduateBags/_DSC1383.jpg';\">\n          <img class=\"gradListingAvatarTwo\" src=\"", "\" onerror=\"this.src='/images/graduateBags/_DSC1380.jpg';\">\n          </div>\n \n          <div class=\"text-container\">\n            <h3>", " ", "</h3>\n            <i><p>", "</p></i>\n            <div class=\"buttons-container\">\n              ", "\n              ", "\n              <!-- format of the link 'https://www.google.com' -->\n            </div>\n          </div>\n        </div>\n      "]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -13373,6 +13491,7 @@ customElements.define("va-graduates", class Graduate extends _litElement.LitElem
       lastName: {},
       major: {},
       email: {},
+      avatarOne: {},
       tagLine: {},
       bio: {},
       artStation: {},
@@ -13382,7 +13501,8 @@ customElements.define("va-graduates", class Graduate extends _litElement.LitElem
       linkedin: {},
       twitter: {},
       vimeo: {},
-      portfolio: {}
+      portfolio: {},
+      avatarTwo: {}
     };
   }
 
@@ -13400,7 +13520,7 @@ customElements.define("va-graduates", class Graduate extends _litElement.LitElem
   }
 
   render() {
-    return (0, _litElement.html)(_templateObject3(), _App.default.apiBase, this.quirkyPhoto, this.firstName, this.lastName, this.tagLine, this.employeeHandler(), this.portfolioHandler());
+    return (0, _litElement.html)(_templateObject3(), _App.default.apiBase, this.quirkyPhoto, this.avatarOne, this.avatarTwo, this.firstName, this.lastName, this.tagLine, this.employeeHandler(), this.portfolioHandler());
   }
 
 });

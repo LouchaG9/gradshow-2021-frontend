@@ -15,10 +15,10 @@ customElements.define(
 
     static get properties() {
       return {
-        studentNumber: {  }, firstName: {  },lastName: { }, major: {  },
-        email: {  }, tagLine: {  }, bio: {  }, artStation: { }, 
+        studentNumber: {  }, firstName: {  }, lastName: { }, major: {  },
+        email: {  }, avatarOne: {  }, tagLine: {  }, bio: {  }, artStation: { }, 
         behance: {  }, dribbble: { }, instagram: {  }, linkedin: { },
-        twitter: {  },  vimeo: {  }, portfolio: { }
+        twitter: {  },  vimeo: {  }, portfolio: { },  avatarTwo: {  },
       };
     }
 
@@ -62,6 +62,34 @@ customElements.define(
             border: 1px solid black;
           }
 
+          .gradListingAvatar{
+            position: absolute;
+            max-height: 360px;
+            left: 0;
+            cursor: grab;
+            overflow: hidden;
+
+          }
+
+          .gradListingAvatarTwo{
+            position: absolute;
+            max-height: 360px;
+            left: 0;
+            cursor: grab;
+            overflow: hidden;
+
+          }
+
+          .gradListingAvatarTwo:hover{
+            opacity: 0;
+            transition: ease-in-out 0.1s;
+          }
+
+          .gradListingAvatarTwo:not(:hover){
+            opacity: 1;
+            transition: ease-in-out 0.1s;
+          }
+
           .view-employee-button {
             background-color: var(--brand-color);
             color: white;
@@ -70,7 +98,7 @@ customElements.define(
 
           button:hover {
             cursor: pointer;
-            background-color: var(--destore-purple);
+            background-color: red;
             border: none;
             color: black;
           }
@@ -90,10 +118,15 @@ customElements.define(
           }
 
           .image-container {
+            position: relative;
             width: 100%;
-            height: 400px;
+            min-height: 350px;
+            overflow: hidden;
             background-repeat: no-repeat;
             background-size: cover;
+            text-align: center;
+            margin: auto;
+            display: block;
             background-position: center;
             border-bottom: 1px solid black;
             /* easing the hover transition */
@@ -123,11 +156,15 @@ customElements.define(
         </style>
 
         <!-- delete placeholder text when the real data is used -->
-        <div>
-          <div class="image-container" style="background-image: url()"></div>
+   
+          <div class="image-container" >  
+          <img class="gradListingAvatar" src="${this.avatarOne}"  onerror="this.src='/images/graduateBags/_DSC1383.jpg';">
+          <img class="gradListingAvatarTwo" src="${this.avatarTwo}" onerror="this.src='/images/graduateBags/_DSC1380.jpg';">
+          </div>
+ 
           <div class="text-container">
             <h3>${this.firstName} ${this.lastName}</h3>
-            <p>${this.tagLine}</p>
+            <i><p>${this.tagLine}</p></i>
             <div class="buttons-container">
               ${this.employeeHandler()}
               ${this.portfolioHandler()}
