@@ -1,6 +1,7 @@
 // COMMENT HERE
 <!-- COMMENT HERE -->
 /* COMMENT HERE */
+test comment
 
 
 https://training.github.com/downloads/github-git-cheat-sheet/
