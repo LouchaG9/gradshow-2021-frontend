@@ -10,15 +10,25 @@ export const Graduates = [
     portfolio: "https://www.bgatland.com/",
     linkedin: "https://www.linkedin.com/in/baileygatland/",
     instagram: "https://www.bgatland.com/",
-    twitter: "",
-    vimeo: "",
-    artStation: "",
+    twitter: "#",
+    vimeo: "#",
+    artStation: "#",
     behance: "https://www.behance.net/baileygatland",
-    dribbble: "",
+    dribbble: "#",
     avatarOne: "./images/graduateAvatars/19745141_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19745141_BGattand_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1J9RcXWX-f_8SIjLbRci8yQ16klnfZlSJ, https://drive.google.com/open?id=1WUoTqDpf85THi5XLhi9KLJbNoaPaDJgk, https://drive.google.com/open?id=1Men_CSLWmcjCdX9p7k54tGGLe1t1Cr5m, https://drive.google.com/open?id=1aVTdabFy5uivB9jpiTibqECa4schgrgi, https://drive.google.com/open?id=1hY4Ve2SDrtVR1Y3AMLDLJiHZ4Kb6x6m3, https://drive.google.com/open?id=13KgSg-o7ifBJeXiKSqCxkSU3PakUfbAL",
+    imageOne:
+      "../images/work/Bailey_Gatland_19745141_1 - Bailey Gatland.jpg",
+    imageTwo:
+      "../images/work/Bailey_Gatland_19745141_2 - Bailey Gatland.jpg",
+    imageThree:
+    "../images/work/Bailey_Gatland_19745141_3 - Bailey Gatland.jpg",
+    imageFour:
+    "../images/work/Bailey_Gatland_19745141_4 - Bailey Gatland.jpg",
+    imageFive:
+    "../images/work/Bailey_Gatland_19745141_5 - Bailey Gatland.jpg",
+    imageSix:
+    "../images/work/Bailey_Gatland_19745141_6 - Bailey Gatland.jpg"
   },
   {
     studentNumber: "19760513",
@@ -31,9 +41,9 @@ export const Graduates = [
     portfolio: "https://brookefanto.myportfolio.com",
     linkedin: "https://www.linkedin.com/in/brooke-fanto-345909180/",
     instagram: "https://www.instagram.com/brooke_alexia_portfolio/",
-    twitter: "",
-    vimeo: "",
-    artStation: "",
+    twitter: "#",
+    vimeo: "#",
+    artStation: "#",
     behance: "",
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19760513_alt.jpg",
@@ -100,8 +110,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19760814_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19760814_AMai_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1YRgPTV5Dm5EOw_FwlaBi93f0lxvZEYVn, https://drive.google.com/open?id=13Vhn2R4NOyQKyyA-G3fu0QLSmucrMjwg, https://drive.google.com/open?id=1ri2FTBTe5DCbL7WyNpPe-ufWfUpgP5ra, https://drive.google.com/open?id=1e2Et7y2JnOQ-Cz4M-aGqIZASg4b-4dGs, https://drive.google.com/open?id=1OH2DwvhCjSBvd_nu1IF0YqmykimVJ5V_",
+    imageOne:
+      "../images/work/Anna_Mai_19760814_1 - Anna Mai.jpg",
+    imageTwo:
+      "../images/work/Anna_Mai_19760814_2 - Anna Mai.jpg",
+    imageThree:
+    "../images/work/Anna_Mai_19760814_3 - Anna Mai.jpg",
+    imageFour:
+    "../images/work/Anna_Mai_19760814_4 - Anna Mai.jpg",
+    imageFive:
+    "../images/work/Anna_Mai_19760814_5 - Anna Mai.jpg",
+    imageSix:
+    ""
   },
   {
     studentNumber: "20037952",
@@ -121,8 +141,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/20037952_alt.jpg",
     avatarTwo: "./images/graduateAvatars/20037952_THYan_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1Ebl8MR1S5JNewxb1JxVqjh8iviIaA7i0, https://drive.google.com/open?id=1f065zhyatsG2aHQanG8Fj3ctABDkPSdY, https://drive.google.com/open?id=1w13IH0-9EWVPkIXYooxGXjegpi17vrfa",
+    imageOne:
+    "../images/work/1t - Tian Hock Yan.jpg",
+    imageTwo:
+      "../images/work/2t - Tian Hock Yan.jpg",
+    imageThree:
+    "../images/work/3t - Tian Hock Yan.jpg",
+    imageFour:
+    "",
+    imageFive:
+    "",
+    imageSix:
+    ""
   },
   {
     studentNumber: "19467322",
@@ -142,8 +172,18 @@ export const Graduates = [
     dribbble: "https://dribbble.com/zeffa/collections",
     avatarOne: "./images/graduateAvatars/19467322_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19467322_RHuang_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1S8Coo168U8X877HyVxpP-dbBFGHNtKLa, https://drive.google.com/open?id=1vvWCRQw9uyTYXKEB9dz1oOjsrj_HC3Yi, https://drive.google.com/open?id=1HUcHBTLpSbcieLNg6bHfh0nKBNU-0cZX",
+    imageOne:
+    "../images/work/Ruitan_Huang_19467322_2 - Ruitan Huang.jpg",
+    imageTwo:
+      "../images/work/Ruitan_Huang_19467322_4 - Ruitan Huang.jpg",
+    imageThree:
+    "../images/work/Ruitan_Huang_19467322_5 - Ruitan Huang.jpg",
+    imageFour:
+    "",
+    imageFive:
+    "",
+    imageSix:
+    ""
   },
   {
     studentNumber: "19168735",
@@ -164,8 +204,18 @@ export const Graduates = [
     dribbble: "https://dribbble.com/nicsndra",
     avatarOne: "./images/graduateAvatars/19168735_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19168735_NCassandra_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1m8JWTgIe0y8vpg7Wyz33-NUfMlzmF5Oq, https://drive.google.com/open?id=1RB8w5eRmA5GNm54aES2iffb432eDSgSf, https://drive.google.com/open?id=1LKJXmsFZFHYvnIAQ821nIAWA1eeobfsh, https://drive.google.com/open?id=13n94_7Cgsq_p2ZdhZS_WW6nWJ1X8_w9q, https://drive.google.com/open?id=1dnLieXn5n4xoCmpN_u5T3fdOZdVFjp4W, https://drive.google.com/open?id=1GdiLC7FOzoSLK3zUDOeC1Vee3B-mAHdM",
+    imageOne:
+    "../images/work/Nicole_Torres_19168735_1 - Nicole Cassandra Torres.jpg",
+    imageTwo:
+      "../images/work/Nicole_Torres_19168735_3 - Nicole Cassandra Torres.jpg",
+    imageThree:
+    "../images/work/Nicole_Torres_19168735_5 - Nicole Cassandra Torres.jpg",
+    imageFour:
+    "../images/work/Nicole_Torres_19168735_2 - Nicole Cassandra Torres.jpg",
+    imageFive:
+    "../images/work/Nicole_Torres_19168735_4 - Nicole Cassandra Torres.jpg",
+    imageSix:
+    "../images/work/Nicole_Torres_19168735_6 - Nicole Cassandra Torres.jpg"
   },
   {
     studentNumber: "19785231",
@@ -185,8 +235,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19785231_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19785231_MZhai_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1B_N7F065hyiM4LzWvCYgFVFhd4LnTefx, https://drive.google.com/open?id=1BMj9s-rH_kl-8y_bD8w3TmevmsRV63Uu, https://drive.google.com/open?id=1eCjX3yS7B4i3vAtdB9xeTK3NhKHHln5g, https://drive.google.com/open?id=1Jrw-RPAHtpt62UQxLQtHf4N2zOnL6tHk, https://drive.google.com/open?id=1vypgDCBYT2lvkhKnfl0jDrm8vTaahKjk, https://drive.google.com/open?id=1xDu9JVJH3yb4v4N5a7fCElHjqdFwsSDX",
+    imageOne:
+    "../images/work/Milla_Zhai_19785231_1 - milla zhai.jpg",
+    imageTwo:
+      "../images/work/Milla_Zhai_19785231_2 - milla zhai.jpg",
+    imageThree:
+    "../images/work/Milla_Zhai_19785231_6 - milla zhai.jpg",
+    imageFour:
+    "../images/work/Milla_Zhai_19785231_4 - milla zhai.jpg",
+    imageFive:
+    "../images/work/Milla_Zhai_19785231_5 - milla zhai.jpg",
+    imageSix:
+    "../images/work/Milla_Zhai_19785231_ 3 - milla zhai.jpg"
   },
   {
     studentNumber: "19775669",
@@ -207,8 +267,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19775669_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19775669_PDoick_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1DrWgqG3O0C-k-JWcoesaptkM0NknMJBM, https://drive.google.com/open?id=17aw-xKs1BzdXI8jCgvTR_N3bzTTL9-V-, https://drive.google.com/open?id=1OdHEQCtCqvDlkOxyW8WY9_mfuIUQc-1r, https://drive.google.com/open?id=19C6UtGpyya10uZOUWxSKPDjvlFsnoNZx, https://drive.google.com/open?id=1_KIEk2SXs8B2bJ5bQ5tDikxYdh-C4Cki, https://drive.google.com/open?id=1QXSHoXhZ53kDVZBIpkPTM8kfahtrLk8v",
+    imageOne:
+    "../images/work/Paris_Doick_19775669_1 - Paris Doick.jpg",
+    imageTwo:
+      "../images/work/Paris_Doick_19775669_3 - Paris Doick.jpg",
+    imageThree:
+    "../images/work/Paris_Doick_19775669_5 - Paris Doick.jpg",
+    imageFour:
+    "../images/work/Paris_Doick_19775669_2 - Paris Doick.jpg",
+    imageFive:
+    "../images/work/Paris_Doick_19775669_4 - Paris Doick.jpg",
+    imageSix:
+    "../images/work/Paris_Doick_19775669_6 - Paris Doick.jpg"
   },
   {
     studentNumber: "19192187",
@@ -229,8 +299,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19192187_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19192187_EEdwards_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1HCd5of-JQ8VQIKqpZf-GpEyP11uslEdS, https://drive.google.com/open?id=1fBh9ZljvI-rycfRznemlG7F_tFAyuIp-, https://drive.google.com/open?id=1rD8vI8Nk6dtKnzOAChL-8BgMnmamu49E, https://drive.google.com/open?id=18ypH-LUbpAKb8MzyZ1aibskqGjXBp0hM, https://drive.google.com/open?id=1YJiBRnLPn6Z5hYoKEk-7r-jHGz0TNbtq, https://drive.google.com/open?id=1VTFnU2K3lgEk9chzRq5pgVmyR56r9I-o",
+    imageOne:
+    "../images/work/ELLA_EDWARDS_19192187_1 - Ella.jpg",
+    imageTwo:
+      "../images/work/ELLA_EDWARDS_19192187_2 - Ella.jpg",
+    imageThree:
+    "../images/work/ELLA_EDWARDS_19192187_3 - Ella.jpg",
+    imageFour:
+    "../images/work/ELLA_EDWARDS_19192187_4 - Ella.jpg",
+    imageFive:
+    "../images/work/ELLA_EDWARDS_19192187_5 - Ella.jpg",
+    imageSix:
+    "../images/work/ELLA_EDWARDS_19192187_6 - Ella.jpg"
   },
   {
     studentNumber: "19769662",
@@ -250,8 +330,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19769662_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19769662_MMerttens_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1dTvEOdyrHhyMjS-dsajoV6rZ6I7Vdhfk, https://drive.google.com/open?id=1xTmYP-73yZ_3wZk37fZQr6q1qaHFa12B, https://drive.google.com/open?id=1qExeds-exE5YQMU_pn41jBp7RmEZay5y, https://drive.google.com/open?id=1UF_KqGyENAP6Ehf3jmJSEhKGahjMa3gV, https://drive.google.com/open?id=1ZPRMHY0f3CVU0rhBx3hkNjDTF1HQXNxs",
+    imageOne:
+    "../images/work/Mali_Merttens_19769662_1 - Marley.jpg",
+    imageTwo:
+      "../images/work/Mali_Merttens_19769662_3 - Marley.jpg",
+    imageThree:
+    "../images/work/Madi_Horler_19454722_5 - Madison Horler.jpg",
+    imageFour:
+    "../images/work/Mali_Merttens_19769662_2 - Marley.jpg",
+    imageFive:
+    "../images/work/Mali_Merttens_19769662_4 - Marley.jpg",
+    imageSix:
+    "../images/work/Mali_Merttens_19769662_6 - Marley.jpg"
   },
   {
     studentNumber: "18813157",
@@ -271,8 +361,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/18813157_alt.jpg",
     avatarTwo: "./images/graduateAvatars/18813157_AChung_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1oPgdlkeHd9KhgJzPnU1H4bPPeJCeU6kT, https://drive.google.com/open?id=1n0u2honfDtzzYW-mUdIwR5JqiAuGN0gr, https://drive.google.com/open?id=1yNYkWLMiE4trOEe99_ftA9ClolsyuGXX, https://drive.google.com/open?id=1k995t3PSRUKm0rohKrz96wlRi2EU5NYC, https://drive.google.com/open?id=1lmcUgiDoZlgpxAoCXOJ52M77y0IGBsen, https://drive.google.com/open?id=1WRwi74FgTgF0oevi80Ziqt8IvzLDil8Z",
+    imageOne:
+    "../images/work/Adrina_Chung_18813157_1 - adrina chung.jpg",
+    imageTwo:
+      "../images/work/Adrina_Chung_18813157_3 - adrina chung.jpg",
+    imageThree:
+    "../images/work/Adrina_Chung_18813157_5 - adrina chung.jpg",
+    imageFour:
+    "../images/work/Adrina_Chung_18813157_2 - adrina chung.jpg",
+    imageFive:
+    "../images/work/Adrina_Chung_18813157_4 - adrina chung.jpg",
+    imageSix:
+    "../images/work/Adrina_Chung_18813157_6 - adrina chung.jpg"
   },
   {
     studentNumber: "19768986",
@@ -292,8 +392,18 @@ export const Graduates = [
     dribbble: "https://dribbble.com/leah-schultz",
     avatarOne: "./images/graduateAvatars/19768986_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19768986_LSchultz_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1lmHmHd4o0va4gdsXxYEqn-jyvCYJ931Z, https://drive.google.com/open?id=1DbBof-qXan6Dyj9WEN96JmOPN0VwfU02, https://drive.google.com/open?id=1whCiBQRbRUNa6TJXND_MFZDpbTcoDhx2, https://drive.google.com/open?id=1Po4FTPMC4aljHfkhqXI4CPB32XcPIfte, https://drive.google.com/open?id=1lCykV1zNOxVlGRQerJAZ0n5UbOomOlNl, https://drive.google.com/open?id=1utHWulx3Nx8VO8HGaFAqRR_VwJ9PVpdj",
+    imageOne:
+    "../images/work/Leah_Schultz_19768986_1 - Leah Schultz.jpg",
+    imageTwo:
+      "../images/work/Leah_Schultz_19768986_3 - Leah Schultz.jpg",
+    imageThree:
+    "../images/work/Leah_Schultz_19768986_5 - Leah Schultz.jpg",
+    imageFour:
+    "../images/work/Leah_Schultz_19768986_2 - Leah Schultz.jpg",
+    imageFive:
+    "../images/work/Leah_Schultz_19768986_4 - Leah Schultz.jpg",
+    imageSix:
+    "../images/work/Leah_Schultz_19768986_6 - Leah Schultz.jpeg"
   },
   {
     studentNumber: "19720863",
@@ -313,8 +423,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19720863_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19720863_JMichell_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1uprsURppV6Axb14gqFEmF3Y4K6BgkZYK, https://drive.google.com/open?id=12EFKeJeA74CA4BxNZ0vbOch74L3ivqHm, https://drive.google.com/open?id=1D52xcTYZao2yU8YrYg6RC0TMhqP4cOJd, https://drive.google.com/open?id=1pp2VTpIkJXhaTpHtgAvk88mcXuK0mdYy, https://drive.google.com/open?id=1OZ-TL5Zd5ku9T1jN7DQyKN7v6P2m5mFj, https://drive.google.com/open?id=1W6XjQkJDmkK5Aa62cGBfvTF8ZZVHswst",
+    imageOne:
+    "../images/work/Joshua_Michell_19720863_1 - Serial Dreamer.jpg",
+    imageTwo:
+      "../images/work/Joshua_Michell_19720863_3 - Serial Dreamer.jpg",
+    imageThree:
+    "../images/work/Joshua_Michell_19720863_5 - Serial Dreamer.jpg",
+    imageFour:
+    "../images/work/Joshua_Michell_19720863_2 - Serial Dreamer.jpg",
+    imageFive:
+    "../images/work/Joshua_Michell_19720863_4 - Serial Dreamer.jpg",
+    imageSix:
+    "../images/work/Joshua_Michell_19720863_6 - Serial Dreamer.jpg"
   },
   {
     studentNumber: "19773249",
@@ -334,8 +454,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19773249_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19773249_MThomas_main.jpg",
-    images:
-      "https://drive.google.com/open?id=12hdGHeYpiGKheIqHCe2NvRg2HgYAQYJG, https://drive.google.com/open?id=1cHKH316hREmOIMBALNz6Ov44xFL4xZGI, https://drive.google.com/open?id=1Z0Ml4W-O8cpuP8Zoo3ebnl8VAmwdwEMm, https://drive.google.com/open?id=1ILSKlyROc6v_v-zdUqS5-jV9Ysw7EWYk, https://drive.google.com/open?id=1krwgFyf4VgyK0H3oSnpRRRR9PONExeon",
+    imageOne:
+    "../images/work/Michelle_Thomas_19773249_1 - Michelle Thomas.jpg",
+    imageTwo:
+      "../images/work/Michelle_Thomas_19773249_3 - Michelle Thomas.jpg",
+    imageThree:
+    "../images/work/Michelle_Thomas_19773249_5 - Michelle Thomas.jpg",
+    imageFour:
+    "../images/work/Michelle_Thomas_19773249_2 - Michelle Thomas.jpg",
+    imageFive:
+    "../images/work/Michelle_Thomas_19773249_4 - Michelle Thomas.jpg",
+    imageSix:
+    ""
   },
   {
     studentNumber: "19756130",
@@ -355,8 +485,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19756130_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19756130_AMcbee_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1Bab3LAQou_uVu2cp1W3ssLmSVDJNpoo_, https://drive.google.com/open?id=1xWanl44Wrv8Zy3oA3ndrGGBjib2W8aHc, https://drive.google.com/open?id=1Gkh3vfEuCiG3TEBNz81j8Q8hm07R03Qt, https://drive.google.com/open?id=15oFYZfwdv3Umy2bojEZ0UJyreku9Y9li, https://drive.google.com/open?id=1fhwEw_PqAj0dkpcyr8FLm87OSveCPpZp, https://drive.google.com/open?id=1vFXSrxKZliPXAgc8WPnAoxgMCu8L9dPz",
+    imageOne:
+    "../images/work/Alexandra_McGee_19756130_1 - Alexandra McGee.jpg",
+    imageTwo:
+      "../images/work/Alexandra_McGee_19756130_3 - Alexandra McGee.jpg",
+    imageThree:
+    "../images/work/Alexandra_McGee_19756130_5 - Alexandra McGee.jpg",
+    imageFour:
+    "../images/work/Alexandra_McGee_19756130_2 - Alexandra McGee.jpg",
+    imageFive:
+    "../images/work/Alexandra_McGee_19756130_4 - Alexandra McGee.jpg",
+    imageSix:
+    "../images/work/Alexandra_McGee_19756130_6 - Alexandra McGee.jpg"
   },
   {
     studentNumber: "19749253",
@@ -377,8 +517,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19749253_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19749253_YKim_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1Rj95FULLV3AC_9w488SN1ZF_kHdrUjHe, https://drive.google.com/open?id=1Kh2VNSRGpsKliO6hturFHaIsEYDpd8wS, https://drive.google.com/open?id=1Rz6N_4HRZb4hy5Icm182T56jmv2d0Rtk, https://drive.google.com/open?id=1IcER5B1d6E98FzxCxp7SKH4Mt-ojT-jV, https://drive.google.com/open?id=1geC4ZbjhD-N-i0m-3QBm82uJn-QV1c-v, https://drive.google.com/open?id=1S3Fdw41fdocmHdUO93kWI1NYV9LomeJc",
+    imageOne:
+    "../images/work/Yaeram_Kim_19749253_1 - yaeram kim.png",
+    imageTwo:
+      "../images/work/Yaeram_Kim_19749253_3 - yaeram kim.png",
+    imageThree:
+    "../images/work/Yaeram_Kim_19749253_5 - yaeram kim.jpg",
+    imageFour:
+    "../images/work/Yaeram_Kim_19749253_2 - yaeram kim.png",
+    imageFive:
+    "../images/work/Yaeram_Kim_19749253_4 - yaeram kim.png",
+    imageSix:
+    "../images/work/Yaeram_Kim_19749253_6 - yaeram kim.jpg"
   },
   {
     studentNumber: "19160142",
@@ -398,8 +548,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19160142_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19160142_BNaim_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1qBaCcZZSc6VxstiUVYp4IN-wN8wYpwNv, https://drive.google.com/open?id=1jLfYVUi2KwEfLMJQVJ_WTaV2NTTNCJJQ, https://drive.google.com/open?id=1i4zG54XV-NX7k0b7OJWHjD1okcfiY72w, https://drive.google.com/open?id=1b_qLXKv2Dj3MNdgELpRdJqr0jjIsmGkO, https://drive.google.com/open?id=1qzVi4M_vLIFMccRevVY_i70ga47-qJzL, https://drive.google.com/open?id=1xVAam7aCWuEV_29cKlQIMvd7_v4ks7iH",
+    imageOne:
+    "../images/work/BETH_NAIM_19160142_1 - Beth Naim.jpg",
+    imageTwo:
+      "../images/work/BETH_NAIM_19160142_3 - Beth Naim.jpg",
+    imageThree:
+    "../images/work/BETH_NAIM_19160142_5 - Beth Naim.jpg",
+    imageFour:
+    "../images/work/BETH_NAIM_19160142_2 - Beth Naim.jpg",
+    imageFive:
+    "../images/work/BETH_NAIM_19160142_4 - Beth Naim.jpg",
+    imageSix:
+    "../images/work/BETH_NAIM_19160142_6 - Beth Naim.jpg"
   },
   {
     studentNumber: "19096535",

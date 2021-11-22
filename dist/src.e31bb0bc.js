@@ -7396,14 +7396,19 @@ const Graduates = [{
   portfolio: "https://www.bgatland.com/",
   linkedin: "https://www.linkedin.com/in/baileygatland/",
   instagram: "https://www.bgatland.com/",
-  twitter: "",
-  vimeo: "",
-  artStation: "",
+  twitter: "#",
+  vimeo: "#",
+  artStation: "#",
   behance: "https://www.behance.net/baileygatland",
-  dribbble: "",
+  dribbble: "#",
   avatarOne: "./images/graduateAvatars/19745141_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19745141_BGattand_main.jpg",
-  images: "https://drive.google.com/open?id=1J9RcXWX-f_8SIjLbRci8yQ16klnfZlSJ, https://drive.google.com/open?id=1WUoTqDpf85THi5XLhi9KLJbNoaPaDJgk, https://drive.google.com/open?id=1Men_CSLWmcjCdX9p7k54tGGLe1t1Cr5m, https://drive.google.com/open?id=1aVTdabFy5uivB9jpiTibqECa4schgrgi, https://drive.google.com/open?id=1hY4Ve2SDrtVR1Y3AMLDLJiHZ4Kb6x6m3, https://drive.google.com/open?id=13KgSg-o7ifBJeXiKSqCxkSU3PakUfbAL"
+  imageOne: "../images/work/Bailey_Gatland_19745141_1 - Bailey Gatland.jpg",
+  imageTwo: "../images/work/Bailey_Gatland_19745141_2 - Bailey Gatland.jpg",
+  imageThree: "../images/work/Bailey_Gatland_19745141_3 - Bailey Gatland.jpg",
+  imageFour: "../images/work/Bailey_Gatland_19745141_4 - Bailey Gatland.jpg",
+  imageFive: "../images/work/Bailey_Gatland_19745141_5 - Bailey Gatland.jpg",
+  imageSix: "../images/work/Bailey_Gatland_19745141_6 - Bailey Gatland.jpg"
 }, {
   studentNumber: "19760513",
   firstName: "Brooke",
@@ -7415,9 +7420,9 @@ const Graduates = [{
   portfolio: "https://brookefanto.myportfolio.com",
   linkedin: "https://www.linkedin.com/in/brooke-fanto-345909180/",
   instagram: "https://www.instagram.com/brooke_alexia_portfolio/",
-  twitter: "",
-  vimeo: "",
-  artStation: "",
+  twitter: "#",
+  vimeo: "#",
+  artStation: "#",
   behance: "",
   dribbble: "",
   avatarOne: "./images/graduateAvatars/19760513_alt.jpg",
@@ -7470,7 +7475,12 @@ const Graduates = [{
   dribbble: "",
   avatarOne: "./images/graduateAvatars/19760814_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19760814_AMai_main.jpg",
-  images: "https://drive.google.com/open?id=1YRgPTV5Dm5EOw_FwlaBi93f0lxvZEYVn, https://drive.google.com/open?id=13Vhn2R4NOyQKyyA-G3fu0QLSmucrMjwg, https://drive.google.com/open?id=1ri2FTBTe5DCbL7WyNpPe-ufWfUpgP5ra, https://drive.google.com/open?id=1e2Et7y2JnOQ-Cz4M-aGqIZASg4b-4dGs, https://drive.google.com/open?id=1OH2DwvhCjSBvd_nu1IF0YqmykimVJ5V_"
+  imageOne: "../images/work/Anna_Mai_19760814_1 - Anna Mai.jpg",
+  imageTwo: "../images/work/Anna_Mai_19760814_2 - Anna Mai.jpg",
+  imageThree: "../images/work/Anna_Mai_19760814_3 - Anna Mai.jpg",
+  imageFour: "../images/work/Anna_Mai_19760814_4 - Anna Mai.jpg",
+  imageFive: "../images/work/Anna_Mai_19760814_5 - Anna Mai.jpg",
+  imageSix: ""
 }, {
   studentNumber: "20037952",
   firstName: "Tian Hock",
@@ -7489,7 +7499,12 @@ const Graduates = [{
   dribbble: "",
   avatarOne: "./images/graduateAvatars/20037952_alt.jpg",
   avatarTwo: "./images/graduateAvatars/20037952_THYan_main.jpg",
-  images: "https://drive.google.com/open?id=1Ebl8MR1S5JNewxb1JxVqjh8iviIaA7i0, https://drive.google.com/open?id=1f065zhyatsG2aHQanG8Fj3ctABDkPSdY, https://drive.google.com/open?id=1w13IH0-9EWVPkIXYooxGXjegpi17vrfa"
+  imageOne: "../images/work/1t - Tian Hock Yan.jpg",
+  imageTwo: "../images/work/2t - Tian Hock Yan.jpg",
+  imageThree: "../images/work/3t - Tian Hock Yan.jpg",
+  imageFour: "",
+  imageFive: "",
+  imageSix: ""
 }, {
   studentNumber: "19467322",
   firstName: "Ruitan",
@@ -7508,7 +7523,12 @@ const Graduates = [{
   dribbble: "https://dribbble.com/zeffa/collections",
   avatarOne: "./images/graduateAvatars/19467322_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19467322_RHuang_main.jpg",
-  images: "https://drive.google.com/open?id=1S8Coo168U8X877HyVxpP-dbBFGHNtKLa, https://drive.google.com/open?id=1vvWCRQw9uyTYXKEB9dz1oOjsrj_HC3Yi, https://drive.google.com/open?id=1HUcHBTLpSbcieLNg6bHfh0nKBNU-0cZX"
+  imageOne: "../images/work/Ruitan_Huang_19467322_2 - Ruitan Huang.jpg",
+  imageTwo: "../images/work/Ruitan_Huang_19467322_4 - Ruitan Huang.jpg",
+  imageThree: "../images/work/Ruitan_Huang_19467322_5 - Ruitan Huang.jpg",
+  imageFour: "",
+  imageFive: "",
+  imageSix: ""
 }, {
   studentNumber: "19168735",
   firstName: "Nicole Cassandra",
@@ -7527,7 +7547,12 @@ const Graduates = [{
   dribbble: "https://dribbble.com/nicsndra",
   avatarOne: "./images/graduateAvatars/19168735_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19168735_NCassandra_main.jpg",
-  images: "https://drive.google.com/open?id=1m8JWTgIe0y8vpg7Wyz33-NUfMlzmF5Oq, https://drive.google.com/open?id=1RB8w5eRmA5GNm54aES2iffb432eDSgSf, https://drive.google.com/open?id=1LKJXmsFZFHYvnIAQ821nIAWA1eeobfsh, https://drive.google.com/open?id=13n94_7Cgsq_p2ZdhZS_WW6nWJ1X8_w9q, https://drive.google.com/open?id=1dnLieXn5n4xoCmpN_u5T3fdOZdVFjp4W, https://drive.google.com/open?id=1GdiLC7FOzoSLK3zUDOeC1Vee3B-mAHdM"
+  imageOne: "../images/work/Nicole_Torres_19168735_1 - Nicole Cassandra Torres.jpg",
+  imageTwo: "../images/work/Nicole_Torres_19168735_3 - Nicole Cassandra Torres.jpg",
+  imageThree: "../images/work/Nicole_Torres_19168735_5 - Nicole Cassandra Torres.jpg",
+  imageFour: "../images/work/Nicole_Torres_19168735_2 - Nicole Cassandra Torres.jpg",
+  imageFive: "../images/work/Nicole_Torres_19168735_4 - Nicole Cassandra Torres.jpg",
+  imageSix: "../images/work/Nicole_Torres_19168735_6 - Nicole Cassandra Torres.jpg"
 }, {
   studentNumber: "19785231",
   firstName: "Milla",
@@ -7546,7 +7571,12 @@ const Graduates = [{
   dribbble: "",
   avatarOne: "./images/graduateAvatars/19785231_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19785231_MZhai_main.jpg",
-  images: "https://drive.google.com/open?id=1B_N7F065hyiM4LzWvCYgFVFhd4LnTefx, https://drive.google.com/open?id=1BMj9s-rH_kl-8y_bD8w3TmevmsRV63Uu, https://drive.google.com/open?id=1eCjX3yS7B4i3vAtdB9xeTK3NhKHHln5g, https://drive.google.com/open?id=1Jrw-RPAHtpt62UQxLQtHf4N2zOnL6tHk, https://drive.google.com/open?id=1vypgDCBYT2lvkhKnfl0jDrm8vTaahKjk, https://drive.google.com/open?id=1xDu9JVJH3yb4v4N5a7fCElHjqdFwsSDX"
+  imageOne: "../images/work/Milla_Zhai_19785231_1 - milla zhai.jpg",
+  imageTwo: "../images/work/Milla_Zhai_19785231_2 - milla zhai.jpg",
+  imageThree: "../images/work/Milla_Zhai_19785231_6 - milla zhai.jpg",
+  imageFour: "../images/work/Milla_Zhai_19785231_4 - milla zhai.jpg",
+  imageFive: "../images/work/Milla_Zhai_19785231_5 - milla zhai.jpg",
+  imageSix: "../images/work/Milla_Zhai_19785231_ 3 - milla zhai.jpg"
 }, {
   studentNumber: "19775669",
   firstName: "Paris",
@@ -7565,7 +7595,12 @@ const Graduates = [{
   dribbble: "",
   avatarOne: "./images/graduateAvatars/19775669_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19775669_PDoick_main.jpg",
-  images: "https://drive.google.com/open?id=1DrWgqG3O0C-k-JWcoesaptkM0NknMJBM, https://drive.google.com/open?id=17aw-xKs1BzdXI8jCgvTR_N3bzTTL9-V-, https://drive.google.com/open?id=1OdHEQCtCqvDlkOxyW8WY9_mfuIUQc-1r, https://drive.google.com/open?id=19C6UtGpyya10uZOUWxSKPDjvlFsnoNZx, https://drive.google.com/open?id=1_KIEk2SXs8B2bJ5bQ5tDikxYdh-C4Cki, https://drive.google.com/open?id=1QXSHoXhZ53kDVZBIpkPTM8kfahtrLk8v"
+  imageOne: "../images/work/Paris_Doick_19775669_1 - Paris Doick.jpg",
+  imageTwo: "../images/work/Paris_Doick_19775669_3 - Paris Doick.jpg",
+  imageThree: "../images/work/Paris_Doick_19775669_5 - Paris Doick.jpg",
+  imageFour: "../images/work/Paris_Doick_19775669_2 - Paris Doick.jpg",
+  imageFive: "../images/work/Paris_Doick_19775669_4 - Paris Doick.jpg",
+  imageSix: "../images/work/Paris_Doick_19775669_6 - Paris Doick.jpg"
 }, {
   studentNumber: "19192187",
   firstName: "Ella",
@@ -7584,7 +7619,12 @@ const Graduates = [{
   dribbble: "",
   avatarOne: "./images/graduateAvatars/19192187_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19192187_EEdwards_main.jpg",
-  images: "https://drive.google.com/open?id=1HCd5of-JQ8VQIKqpZf-GpEyP11uslEdS, https://drive.google.com/open?id=1fBh9ZljvI-rycfRznemlG7F_tFAyuIp-, https://drive.google.com/open?id=1rD8vI8Nk6dtKnzOAChL-8BgMnmamu49E, https://drive.google.com/open?id=18ypH-LUbpAKb8MzyZ1aibskqGjXBp0hM, https://drive.google.com/open?id=1YJiBRnLPn6Z5hYoKEk-7r-jHGz0TNbtq, https://drive.google.com/open?id=1VTFnU2K3lgEk9chzRq5pgVmyR56r9I-o"
+  imageOne: "../images/work/ELLA_EDWARDS_19192187_1 - Ella.jpg",
+  imageTwo: "../images/work/ELLA_EDWARDS_19192187_2 - Ella.jpg",
+  imageThree: "../images/work/ELLA_EDWARDS_19192187_3 - Ella.jpg",
+  imageFour: "../images/work/ELLA_EDWARDS_19192187_4 - Ella.jpg",
+  imageFive: "../images/work/ELLA_EDWARDS_19192187_5 - Ella.jpg",
+  imageSix: "../images/work/ELLA_EDWARDS_19192187_6 - Ella.jpg"
 }, {
   studentNumber: "19769662",
   firstName: "Mali ",
@@ -7603,7 +7643,12 @@ const Graduates = [{
   dribbble: "",
   avatarOne: "./images/graduateAvatars/19769662_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19769662_MMerttens_main.jpg",
-  images: "https://drive.google.com/open?id=1dTvEOdyrHhyMjS-dsajoV6rZ6I7Vdhfk, https://drive.google.com/open?id=1xTmYP-73yZ_3wZk37fZQr6q1qaHFa12B, https://drive.google.com/open?id=1qExeds-exE5YQMU_pn41jBp7RmEZay5y, https://drive.google.com/open?id=1UF_KqGyENAP6Ehf3jmJSEhKGahjMa3gV, https://drive.google.com/open?id=1ZPRMHY0f3CVU0rhBx3hkNjDTF1HQXNxs"
+  imageOne: "../images/work/Mali_Merttens_19769662_1 - Marley.jpg",
+  imageTwo: "../images/work/Mali_Merttens_19769662_3 - Marley.jpg",
+  imageThree: "../images/work/Madi_Horler_19454722_5 - Madison Horler.jpg",
+  imageFour: "../images/work/Mali_Merttens_19769662_2 - Marley.jpg",
+  imageFive: "../images/work/Mali_Merttens_19769662_4 - Marley.jpg",
+  imageSix: "../images/work/Mali_Merttens_19769662_6 - Marley.jpg"
 }, {
   studentNumber: "18813157",
   firstName: "Adrina",
@@ -7622,7 +7667,12 @@ const Graduates = [{
   dribbble: "",
   avatarOne: "./images/graduateAvatars/18813157_alt.jpg",
   avatarTwo: "./images/graduateAvatars/18813157_AChung_main.jpg",
-  images: "https://drive.google.com/open?id=1oPgdlkeHd9KhgJzPnU1H4bPPeJCeU6kT, https://drive.google.com/open?id=1n0u2honfDtzzYW-mUdIwR5JqiAuGN0gr, https://drive.google.com/open?id=1yNYkWLMiE4trOEe99_ftA9ClolsyuGXX, https://drive.google.com/open?id=1k995t3PSRUKm0rohKrz96wlRi2EU5NYC, https://drive.google.com/open?id=1lmcUgiDoZlgpxAoCXOJ52M77y0IGBsen, https://drive.google.com/open?id=1WRwi74FgTgF0oevi80Ziqt8IvzLDil8Z"
+  imageOne: "../images/work/Adrina_Chung_18813157_1 - adrina chung.jpg",
+  imageTwo: "../images/work/Adrina_Chung_18813157_3 - adrina chung.jpg",
+  imageThree: "../images/work/Adrina_Chung_18813157_5 - adrina chung.jpg",
+  imageFour: "../images/work/Adrina_Chung_18813157_2 - adrina chung.jpg",
+  imageFive: "../images/work/Adrina_Chung_18813157_4 - adrina chung.jpg",
+  imageSix: "../images/work/Adrina_Chung_18813157_6 - adrina chung.jpg"
 }, {
   studentNumber: "19768986",
   firstName: "Leah",
@@ -7641,7 +7691,12 @@ const Graduates = [{
   dribbble: "https://dribbble.com/leah-schultz",
   avatarOne: "./images/graduateAvatars/19768986_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19768986_LSchultz_main.jpg",
-  images: "https://drive.google.com/open?id=1lmHmHd4o0va4gdsXxYEqn-jyvCYJ931Z, https://drive.google.com/open?id=1DbBof-qXan6Dyj9WEN96JmOPN0VwfU02, https://drive.google.com/open?id=1whCiBQRbRUNa6TJXND_MFZDpbTcoDhx2, https://drive.google.com/open?id=1Po4FTPMC4aljHfkhqXI4CPB32XcPIfte, https://drive.google.com/open?id=1lCykV1zNOxVlGRQerJAZ0n5UbOomOlNl, https://drive.google.com/open?id=1utHWulx3Nx8VO8HGaFAqRR_VwJ9PVpdj"
+  imageOne: "../images/work/Leah_Schultz_19768986_1 - Leah Schultz.jpg",
+  imageTwo: "../images/work/Leah_Schultz_19768986_3 - Leah Schultz.jpg",
+  imageThree: "../images/work/Leah_Schultz_19768986_5 - Leah Schultz.jpg",
+  imageFour: "../images/work/Leah_Schultz_19768986_2 - Leah Schultz.jpg",
+  imageFive: "../images/work/Leah_Schultz_19768986_4 - Leah Schultz.jpg",
+  imageSix: "../images/work/Leah_Schultz_19768986_6 - Leah Schultz.jpeg"
 }, {
   studentNumber: "19720863",
   firstName: "Joshua",
@@ -7660,7 +7715,12 @@ const Graduates = [{
   dribbble: "",
   avatarOne: "./images/graduateAvatars/19720863_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19720863_JMichell_main.jpg",
-  images: "https://drive.google.com/open?id=1uprsURppV6Axb14gqFEmF3Y4K6BgkZYK, https://drive.google.com/open?id=12EFKeJeA74CA4BxNZ0vbOch74L3ivqHm, https://drive.google.com/open?id=1D52xcTYZao2yU8YrYg6RC0TMhqP4cOJd, https://drive.google.com/open?id=1pp2VTpIkJXhaTpHtgAvk88mcXuK0mdYy, https://drive.google.com/open?id=1OZ-TL5Zd5ku9T1jN7DQyKN7v6P2m5mFj, https://drive.google.com/open?id=1W6XjQkJDmkK5Aa62cGBfvTF8ZZVHswst"
+  imageOne: "../images/work/Joshua_Michell_19720863_1 - Serial Dreamer.jpg",
+  imageTwo: "../images/work/Joshua_Michell_19720863_3 - Serial Dreamer.jpg",
+  imageThree: "../images/work/Joshua_Michell_19720863_5 - Serial Dreamer.jpg",
+  imageFour: "../images/work/Joshua_Michell_19720863_2 - Serial Dreamer.jpg",
+  imageFive: "../images/work/Joshua_Michell_19720863_4 - Serial Dreamer.jpg",
+  imageSix: "../images/work/Joshua_Michell_19720863_6 - Serial Dreamer.jpg"
 }, {
   studentNumber: "19773249",
   firstName: "Michelle",
@@ -7679,7 +7739,12 @@ const Graduates = [{
   dribbble: "",
   avatarOne: "./images/graduateAvatars/19773249_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19773249_MThomas_main.jpg",
-  images: "https://drive.google.com/open?id=12hdGHeYpiGKheIqHCe2NvRg2HgYAQYJG, https://drive.google.com/open?id=1cHKH316hREmOIMBALNz6Ov44xFL4xZGI, https://drive.google.com/open?id=1Z0Ml4W-O8cpuP8Zoo3ebnl8VAmwdwEMm, https://drive.google.com/open?id=1ILSKlyROc6v_v-zdUqS5-jV9Ysw7EWYk, https://drive.google.com/open?id=1krwgFyf4VgyK0H3oSnpRRRR9PONExeon"
+  imageOne: "../images/work/Michelle_Thomas_19773249_1 - Michelle Thomas.jpg",
+  imageTwo: "../images/work/Michelle_Thomas_19773249_3 - Michelle Thomas.jpg",
+  imageThree: "../images/work/Michelle_Thomas_19773249_5 - Michelle Thomas.jpg",
+  imageFour: "../images/work/Michelle_Thomas_19773249_2 - Michelle Thomas.jpg",
+  imageFive: "../images/work/Michelle_Thomas_19773249_4 - Michelle Thomas.jpg",
+  imageSix: ""
 }, {
   studentNumber: "19756130",
   firstName: "Alexandra",
@@ -7698,7 +7763,12 @@ const Graduates = [{
   dribbble: "",
   avatarOne: "./images/graduateAvatars/19756130_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19756130_AMcbee_main.jpg",
-  images: "https://drive.google.com/open?id=1Bab3LAQou_uVu2cp1W3ssLmSVDJNpoo_, https://drive.google.com/open?id=1xWanl44Wrv8Zy3oA3ndrGGBjib2W8aHc, https://drive.google.com/open?id=1Gkh3vfEuCiG3TEBNz81j8Q8hm07R03Qt, https://drive.google.com/open?id=15oFYZfwdv3Umy2bojEZ0UJyreku9Y9li, https://drive.google.com/open?id=1fhwEw_PqAj0dkpcyr8FLm87OSveCPpZp, https://drive.google.com/open?id=1vFXSrxKZliPXAgc8WPnAoxgMCu8L9dPz"
+  imageOne: "../images/work/Alexandra_McGee_19756130_1 - Alexandra McGee.jpg",
+  imageTwo: "../images/work/Alexandra_McGee_19756130_3 - Alexandra McGee.jpg",
+  imageThree: "../images/work/Alexandra_McGee_19756130_5 - Alexandra McGee.jpg",
+  imageFour: "../images/work/Alexandra_McGee_19756130_2 - Alexandra McGee.jpg",
+  imageFive: "../images/work/Alexandra_McGee_19756130_4 - Alexandra McGee.jpg",
+  imageSix: "../images/work/Alexandra_McGee_19756130_6 - Alexandra McGee.jpg"
 }, {
   studentNumber: "19749253",
   firstName: "Yaeram",
@@ -7717,7 +7787,12 @@ const Graduates = [{
   dribbble: "",
   avatarOne: "./images/graduateAvatars/19749253_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19749253_YKim_main.jpg",
-  images: "https://drive.google.com/open?id=1Rj95FULLV3AC_9w488SN1ZF_kHdrUjHe, https://drive.google.com/open?id=1Kh2VNSRGpsKliO6hturFHaIsEYDpd8wS, https://drive.google.com/open?id=1Rz6N_4HRZb4hy5Icm182T56jmv2d0Rtk, https://drive.google.com/open?id=1IcER5B1d6E98FzxCxp7SKH4Mt-ojT-jV, https://drive.google.com/open?id=1geC4ZbjhD-N-i0m-3QBm82uJn-QV1c-v, https://drive.google.com/open?id=1S3Fdw41fdocmHdUO93kWI1NYV9LomeJc"
+  imageOne: "../images/work/Yaeram_Kim_19749253_1 - yaeram kim.png",
+  imageTwo: "../images/work/Yaeram_Kim_19749253_3 - yaeram kim.png",
+  imageThree: "../images/work/Yaeram_Kim_19749253_5 - yaeram kim.jpg",
+  imageFour: "../images/work/Yaeram_Kim_19749253_2 - yaeram kim.png",
+  imageFive: "../images/work/Yaeram_Kim_19749253_4 - yaeram kim.png",
+  imageSix: "../images/work/Yaeram_Kim_19749253_6 - yaeram kim.jpg"
 }, {
   studentNumber: "19160142",
   firstName: "Beth",
@@ -7736,7 +7811,12 @@ const Graduates = [{
   dribbble: "",
   avatarOne: "./images/graduateAvatars/19160142_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19160142_BNaim_main.jpg",
-  images: "https://drive.google.com/open?id=1qBaCcZZSc6VxstiUVYp4IN-wN8wYpwNv, https://drive.google.com/open?id=1jLfYVUi2KwEfLMJQVJ_WTaV2NTTNCJJQ, https://drive.google.com/open?id=1i4zG54XV-NX7k0b7OJWHjD1okcfiY72w, https://drive.google.com/open?id=1b_qLXKv2Dj3MNdgELpRdJqr0jjIsmGkO, https://drive.google.com/open?id=1qzVi4M_vLIFMccRevVY_i70ga47-qJzL, https://drive.google.com/open?id=1xVAam7aCWuEV_29cKlQIMvd7_v4ks7iH"
+  imageOne: "../images/work/BETH_NAIM_19160142_1 - Beth Naim.jpg",
+  imageTwo: "../images/work/BETH_NAIM_19160142_3 - Beth Naim.jpg",
+  imageThree: "../images/work/BETH_NAIM_19160142_5 - Beth Naim.jpg",
+  imageFour: "../images/work/BETH_NAIM_19160142_2 - Beth Naim.jpg",
+  imageFive: "../images/work/BETH_NAIM_19160142_4 - Beth Naim.jpg",
+  imageSix: "../images/work/BETH_NAIM_19160142_6 - Beth Naim.jpg"
 }, {
   studentNumber: "19096535",
   firstName: "Sylvia",
@@ -9945,7 +10025,7 @@ var _graduates = _interopRequireDefault(require("./graduates"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject() {
-  const data = _taggedTemplateLiteral(["\n       <va-app-header title=\"View Graduate\"></va-app-header>\n      <div class=\"page-content\">\n        <section class=\"block-50-50\">\n          <div class=\"column\"> \n            <div class=\"avatarContainer\">\n            <!-- first graduate avatar image -->\n              <img class=\"avatarStyling avatarImage avatarOne\" src=\"../", "\"/> \n             <!-- second graduate avatar image -->\n              <img class=\"avatarStyling avatarImage avatarTwo\" src=\"../", "\"/> \n              </div> \n          </div>\n          <div class=\"column paddingLeft\">\n            <h3>", "</h3>\n            <h1>\n                ", " ", "\n            </h1>\n            <p><i>", "</i></p>\n\n            <p><strong>About:</strong></p>\n            <p class=\"bioStyle\">", "</p>\n            <a\n              class=\"secondary\" \n              href=\"", "\"\n              target=\"_blank\"\n            >\n              Portfolio\n            </a>\n            <div class=\"socials-wrapper\">\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-linkedin-in\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-instagram\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-dribbble\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-artstation\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-behance\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-twitter\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-vimeo-v\"></i>\n              </a>\n            </div>\n          </div>\n        </section>\n\n             <!-- WORK ---------------------------------->\n             <section>\n          <h2>Some of ", "'s Work</h2>\n            <!-- This is where we will display a couple of the students best works. -->\n            <!-- Maximum number is 6 works -->\n\n            <div id=\"photos\">\n            <img class=\"portfolioItems\" src=\"", "\" alt=\"Design one\">\n            <img class=\"portfolioItems\" src=\"", "\" alt=\"Design two\">\n            <img class=\"portfolioItems\" src=\"", "\" alt=\"Design three\">\n            <img class=\"portfolioItems\" src=\"", "\" alt=\"Design four\">\n            <img class=\"portfolioItems\" src=\"", "\" alt=\"Design five\">\n            <img class=\"portfolioItems\" src=\"", "\" alt=\"Design six\">\n          </div>\n        </section>\n      </div>\n      <va-app-footer></va-app-footer>\n    "]);
+  const data = _taggedTemplateLiteral(["\n       <va-app-header title=\"View Graduate\"></va-app-header>\n      <div class=\"page-content\">\n        <section class=\"block-50-50\">\n          <div class=\"column\"> \n            <div class=\"avatarContainer\">\n            <!-- first graduate avatar image -->\n              <img class=\"avatarStyling avatarImage avatarOne\" src=\"../", "\"/> \n             <!-- second graduate avatar image -->\n              <img class=\"avatarStyling avatarImage avatarTwo\" src=\"../", "\"/> \n              </div> \n          </div>\n          <div class=\"column paddingLeft\">\n            <h3>", "</h3>\n            <h1>\n                ", " ", "\n            </h1>\n            <p><i>", "</i></p>\n\n            <p><strong>About:</strong></p>\n            <p class=\"bioStyle\">", "</p>\n            <a\n              class=\"secondary\" \n              href=\"", "\"\n              target=\"_blank\"\n            >\n              Portfolio\n            </a>\n            <div class=\"socials-wrapper\">\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-linkedin-in\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-instagram\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-dribbble\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-artstation\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-behance\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-twitter\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-vimeo-v\"></i>\n              </a>\n            </div>\n          </div>\n        </section>\n\n             <!-- WORK ---------------------------------->\n             <section>\n          <h2>Some of ", "'s Work</h2>\n            <!-- This is where we will display a couple of the students best works. -->\n            <!-- Maximum number is 6 works -->\n\n            <div id=\"photos\">\n            <img class=\"portfolioItems\" src=\"", "\" alt=\"\">\n            <img class=\"portfolioItems\" src=\"", "\" alt=\"\">\n            <img class=\"portfolioItems\" src=\"", "\" alt=\"\">\n            <img class=\"portfolioItems\" src=\"", "\" alt=\"\">\n            <img class=\"portfolioItems\" src=\"", "\" alt=\"\">\n            <img class=\"portfolioItems\" src=\"", "\" alt=\"\">\n          </div>\n        </section>\n      </div>\n      <va-app-footer></va-app-footer>\n    "]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -9967,7 +10047,16 @@ class specificProfile {
 
     _Utils.default.pageIntroAnim();
 
+    this.handleScrollTop();
     await this.getGraduate();
+  }
+
+  handleScrollTop() {
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
   }
 
   async getGraduate() {
@@ -9990,7 +10079,7 @@ class specificProfile {
   }
 
   render() {
-    const template = (0, _litHtml.html)(_templateObject(), globalThis.studentIdGlobal.avatarOne, globalThis.studentIdGlobal.avatarTwo, globalThis.studentIdGlobal.major, globalThis.studentIdGlobal.firstName, globalThis.studentIdGlobal.lastName, globalThis.studentIdGlobal.tagLine, globalThis.studentIdGlobal.bio, globalThis.studentIdGlobal.portfolio, globalThis.studentIdGlobal.linkedIn, globalThis.studentIdGlobal.instagram, globalThis.studentIdGlobal.dribbble, globalThis.studentIdGlobal.artStation, globalThis.studentIdGlobal.behance, globalThis.studentIdGlobal.twitter, globalThis.studentIdGlobal.vimeo, globalThis.studentIdGlobal.firstName, globalThis.studentIdGlobal.imageOne, globalThis.studentIdGlobal.imageTwo, globalThis.studentIdGlobal.imageThree, globalThis.studentIdGlobal.imageFour, globalThis.studentIdGlobal.imageFive, globalThis.studentIdGlobal.imageSix);
+    const template = (0, _litHtml.html)(_templateObject(), globalThis.studentIdGlobal.avatarOne, globalThis.studentIdGlobal.avatarTwo, globalThis.studentIdGlobal.major, globalThis.studentIdGlobal.firstName, globalThis.studentIdGlobal.lastName, globalThis.studentIdGlobal.tagLine, globalThis.studentIdGlobal.bio, globalThis.studentIdGlobal.portfolio, globalThis.studentIdGlobal.linkedin, globalThis.studentIdGlobal.instagram, globalThis.studentIdGlobal.dribbble, globalThis.studentIdGlobal.artStation, globalThis.studentIdGlobal.behance, globalThis.studentIdGlobal.twitter, globalThis.studentIdGlobal.vimeo, globalThis.studentIdGlobal.firstName, globalThis.studentIdGlobal.imageOne, globalThis.studentIdGlobal.imageTwo, globalThis.studentIdGlobal.imageThree, globalThis.studentIdGlobal.imageFour, globalThis.studentIdGlobal.imageFive, globalThis.studentIdGlobal.imageSix);
     (0, _litHtml.render)(template, _App.default.rootEl);
   }
 
@@ -11429,7 +11518,7 @@ console.warn("The main 'lit-element' module entrypoint is deprecated. Please upd
 var _litElement = require("lit-element");
 
 function _templateObject() {
-  const data = _taggedTemplateLiteral(["\n    <style>\n      .smallFooter{\n        min-width: 90vw;\n        overflow: hidden;\n        min-height: 100px;\n        background-color: #be1e2d;\n      }\n    </style>\n  <div class=\"smallFooter\"></div>\n    \n\n    "]);
+  const data = _taggedTemplateLiteral(["\n<style>\n  footer {\n\t max-width: 100%;\n\t background-color: var(--agd-green);\n\t padding: 1rem;\n\t max-width: 1920px;\n\t margin: 0 auto;\n   \n}\n footer .footer-content {\n\t display: flex;\n\t align-items: center;\n\t justify-content: space-between;\n\t gap: 1rem;\n\t width: 90%;\n\t margin: 0 auto;\n}\n footer .footer-content .destore-col {\n\t width: calc(100% / 3);\n\t display: flex;\n\t flex-direction: column;\n\t justify-content: center;\n}\n footer .footer-content .destore-col h3 {\n\t font-size: 2rem;\n\t color: var(--brand-color);\n\t font-family: var(--heading-font-family-B);\n}\n footer .footer-content .major-col {\n\t background: var(--body-bg);\n\t width: calc(100% / 3 * 2 / 3);\n\t border-radius: 3px;\n}\n footer .footer-content .footer-digex-column, footer .footer-content .footer-graphic-column, footer .footer-content .footer-animation-column {\n\t height: auto;\n\t margin-top: 1rem;\n\t margin-bottom: 1rem;\n\t font-family: var(--heading-font-family-B);\n\t font-size: calc(0.5vw + 0.5vh + 0.5vmin);\n\t text-align: center;\n\t display: flex;\n\t flex-direction: column;\n\t justify-content: center;\n\t align-items: center;\n\t gap: 0.5rem;\n}\n footer .footer-content .footer-digex-column .footer-item, footer .footer-content .footer-graphic-column .footer-item, footer .footer-content .footer-animation-column .footer-item {\n\t min-height: 2rem;\n\t display: flex;\n\t flex-direction: column;\n\t align-items: center;\n\t justify-content: center;\n\t border-radius: 3px;\n\t transition: 0.2s;\n\t cursor: pointer;\n\t width: 90%;\n\t margin: 0 auto;\n}\n footer .footer-content .footer-digex-column .footer-item {\n\t background: var(--dig-yellow);\n}\n footer .footer-content .footer-digex-column .footer-item:hover {\n\t background: #ceb169;\n}\n footer .footer-content .footer-graphic-column .footer-item {\n\t background: var(--gd-red);\n}\n footer .footer-content .footer-graphic-column .footer-item:hover {\n\t background: #c29982;\n}\n footer .footer-content .footer-animation-column .footer-item {\n\t background: var(--agd-green);\n}\n footer .footer-content .footer-animation-column .footer-item:hover {\n\t background: #8eb4a9;\n}\n\n@media (max-width: 1200px) {\n #photos {\n -moz-column-count:    4;\n -webkit-column-count: 4;\n column-count:         2;\n }\n}\n@media (max-width: 1000px) {\n #photos {\n -moz-column-count:    3;\n -webkit-column-count: 3;\n column-count:         2;\n }\n}\n@media (max-width: 800px) {\n #photos {\n -moz-column-count:    2;\n -webkit-column-count: 2;\n column-count:         1;\n }\n}\n@media (max-width: 400px) {\n #photos {\n -moz-column-count:    1;\n -webkit-column-count: 1;\n column-count:         1;\n }\n}\n \n</style>\n\n  <footer>\n          <div class=\"footer-content\">\n            <div class=\"footer-col\">\n              <h3>DeStore</h3>\n              <p>\n                Monday \u2013 Saturday: 8:00 am \u2013 4:00pm <br />\n                Sunday: 9:00 am \u2013 5:00pm<br />\n                Kent St, Bentley, 6102, Western Australia<br /><br />\n                @destore\n              </p>\n            </div>\n            <div class=\"footer-col\">\n              <h3>Quick Links</h3>\n              <ul>\n                <li>Home</li>\n                <li>Shop</li>\n                <li>About</li>\n                <li>Contact</li>\n              </ul>\n            </div>\n            <div class=\"footer-col\">\n              <h3>Shop</h3>\n              <ul>\n                <li>Fresh Produce</li>\n                <li>Butcher</li>\n                <li>Bakery</li>\n              </ul>\n            </div>\n          </div>\n        </footer>\n      </div>\n\n    "]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -13544,7 +13633,7 @@ var _Toast = _interopRequireDefault(require("./../Toast"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject3() {
-  const data = _taggedTemplateLiteral(["\n        <style>\n          button {\n            height: 50px;\n            width: calc(50% - 2em);\n            background-color: transparent;\n            color: black;\n            font-size: 15px;\n            border: 1px solid black;\n          }\n\n          .gradListingAvatar{\n            position: absolute;\n            max-height: 360px;\n            left: 0;\n            cursor: grab;\n            overflow: hidden;\n\n          }\n\n          .gradListingAvatarTwo{\n            position: absolute;\n            max-height: 360px;\n            left: 0;\n            cursor: grab;\n            overflow: hidden;\n\n          }\n\n          .gradListingAvatarTwo:hover{\n            opacity: 0;\n            transition: ease-in-out 0.1s;\n          }\n\n          .gradListingAvatarTwo:not(:hover){\n            opacity: 1;\n            transition: ease-in-out 0.1s;\n          }\n\n          .view-employee-button {\n            background-color: var(--brand-color);\n            color: white;\n            border: none;\n          }\n\n          button:hover {\n            cursor: pointer;\n            background-color: red;\n            border: none;\n            color: black;\n          }\n\n          h3,\n          p {\n            margin: 0 auto;\n            padding: 0;\n          }\n\n          h3 {\n            font-size: 27px;\n          }\n\n          p {\n            font-size: 18px;\n          }\n\n          .image-container {\n            position: relative;\n            width: 100%;\n            min-height: 350px;\n            overflow: hidden;\n            background-repeat: no-repeat;\n            background-size: cover;\n            text-align: center;\n            margin: auto;\n            display: block;\n            background-position: center;\n            border-bottom: 1px solid black;\n            /* easing the hover transition */\n            transition: 0.3s;\n          }\n\n          /* hover effect */\n          /* .image-container:hover {\n            background-image: url(\"", "/images/", "\") !important;\n            cursor: pointer;\n          } */\n\n          .text-container {\n            height: 200px;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            justify-content: space-evenly;\n          }\n\n          .buttons-container {\n            display: flex;\n            justify-content: space-evenly;\n            width: 100%;\n          }\n        </style>\n\n        <!-- delete placeholder text when the real data is used -->\n   \n          <div class=\"image-container\" >  \n          <img class=\"gradListingAvatar\" src=\"", "\"  onerror=\"this.src='/images/graduateBags/_DSC1383.jpg';\">\n          <img class=\"gradListingAvatarTwo\" src=\"", "\" onerror=\"this.src='/images/graduateBags/_DSC1380.jpg';\">\n          </div>\n \n          <div class=\"text-container\">\n            <h3>", " ", "</h3>\n            <i><p>", "</p></i>\n            <div class=\"buttons-container\">\n              ", "\n              ", "\n              <!-- format of the link 'https://www.google.com' -->\n            </div>\n          </div>\n        </div>\n      "]);
+  const data = _taggedTemplateLiteral(["\n        <style>\n          button {\n            height: 50px;\n            width: calc(50% - 2em);\n            background-color: transparent;\n            color: black;\n            font-size: 15px;\n            border: 1px solid black;\n          }\n\n          .gradListingAvatar{\n            position: absolute;\n            max-height: 360px;\n            left: 0;\n            cursor: grab;\n            overflow: hidden;\n\n          }\n\n          .gradListingAvatarTwo{\n            position: absolute;\n            max-height: 360px;\n            left: 0;\n            cursor: grab;\n            overflow: hidden;\n\n          }\n\n          .gradListingAvatarTwo:hover{\n            opacity: 0;\n            transition: ease-in-out 0.1s;\n          }\n\n          .gradListingAvatarTwo:not(:hover){\n            opacity: 1;\n            transition: ease-in-out 0.1s;\n          }\n\n          .view-employee-button {\n            background-color: var(--brand-color);\n            color: white;\n            border: none;\n          }\n\n          button:hover {\n            cursor: pointer;\n            background-color: red;\n            border: none;\n            color: black;\n          }\n\n          h3,\n          p {\n            margin: 0 auto;\n            padding: 0;\n          }\n\n          h3 {\n            font-size: 27px;\n          }\n\n          p {\n            font-size: 18px;\n          }\n\n          .image-container {\n            position: relative;\n            width: 100%;\n            min-height: 350px;\n            overflow: hidden;\n            background-repeat: no-repeat;\n            background-size: cover;\n            text-align: center;\n            margin: auto;\n            display: block;\n            background-position: center;\n            border-bottom: 1px solid black;\n            /* easing the hover transition */\n            transition: 0.3s;\n          }\n\n          /* hover effect */\n          /* .image-container:hover {\n            background-image: url(\"", "/images/", "\") !important;\n            cursor: pointer;\n          } */\n\n          .text-container {\n            height: 200px;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            justify-content: space-evenly;\n          }\n\n          .buttons-container {\n            display: flex;\n            justify-content: space-evenly;\n            width: 100%;\n          }\n        </style>\n\n        <!-- delete placeholder text when the real data is used -->\n   \n          <div class=\"image-container\" >  \n          <img class=\"gradListingAvatar\" src=\"", "\"  onerror=\"this.src='/images/graduateBags/_DSC1383.jpg';\">\n          <img class=\"gradListingAvatarTwo\" src=\"", "\" onerror=\"this.src='/images/graduateBags/_DSC1380.jpg';\">\n          </div>\n \n          <div class=\"text-container\">\n            <h3>", " ", "</h3>\n            <i><p>", "</p></i>\n            <div class=\"buttons-container\">\n              ", "\n              ", "\n              ", "\n              <!-- format of the link 'https://www.google.com' -->\n            </div>\n          </div>\n        </div>\n      "]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -13554,7 +13643,7 @@ function _templateObject3() {
 }
 
 function _templateObject2() {
-  const data = _taggedTemplateLiteral(["\n        <button\n          class=\"view-employee-button\"\n          @click=\"", "\"\n        >\n        Portfolio\n        </button>\n      "]);
+  const data = _taggedTemplateLiteral(["\n        <button\n          class=\"view-employee-button\"\n          @click=\"", "\"\n          \n        >\n        Portfolio\n        </button>\n      "]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -13609,14 +13698,24 @@ customElements.define("va-graduates", class Graduate extends _litElement.LitElem
 
   employeeHandler() {
     return (0, _litElement.html)(_templateObject(), () => (0, _Router.gotoRoute)("/public?id=".concat(this.studentNumber)));
-  }
+  } // scroll to top function
+
+
+  handleScrollTop() {
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
+  } // portfolio link handler
+
 
   portfolioHandler() {
     return (0, _litElement.html)(_templateObject2(), () => location.href = this.portfolio);
   }
 
   render() {
-    return (0, _litElement.html)(_templateObject3(), _App.default.apiBase, this.quirkyPhoto, this.avatarOne, this.avatarTwo, this.firstName, this.lastName, this.tagLine, this.employeeHandler(), this.portfolioHandler());
+    return (0, _litElement.html)(_templateObject3(), _App.default.apiBase, this.quirkyPhoto, this.avatarOne, this.avatarTwo, this.firstName, this.lastName, this.tagLine, this.employeeHandler(), this.handleScrollTop(), this.portfolioHandler());
   }
 
 });

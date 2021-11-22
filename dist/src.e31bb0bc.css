@@ -247,6 +247,10 @@ footer .footer-content .footer-animation-column .footer-item:hover {
   padding-bottom: 3rem;
 }
 
+A[href=""], A[href="#"] {
+  display: none;
+}
+
 .portfolioItems:hover {
   transform: scale(98%);
   transition: ease-in-out 0.3s;

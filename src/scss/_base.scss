@@ -218,6 +218,12 @@ footer {
   padding-bottom: 3rem;
 }
 
+// hiding buttons without href
+
+A[href=""], A[href="#"] {
+  display: none;
+}
+
 .portfolioItems:hover{
   transform: scale(98%);
   transition: ease-in-out 0.3s;

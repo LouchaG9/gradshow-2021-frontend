@@ -16,7 +16,16 @@ class specificProfile {
     let graduates = Graduates
     console.log( Graduates )
     Utils.pageIntroAnim();
+    this.handleScrollTop();
     await this.getGraduate();
+  }
+
+  handleScrollTop() {
+    window.scroll({
+      top: 0,
+      left: 0, 
+      behavior: 'smooth',
+    });
   }
 
   async getGraduate() {
@@ -69,7 +78,7 @@ class specificProfile {
             <div class="socials-wrapper">
               <a
                 class="icon"
-                href="${globalThis.studentIdGlobal.linkedIn}"
+                href="${globalThis.studentIdGlobal.linkedin}"
                 target="_blank"
                 class="secondary"
               >
@@ -134,12 +143,12 @@ class specificProfile {
             <!-- Maximum number is 6 works -->
 
             <div id="photos">
-            <img class="portfolioItems" src="${globalThis.studentIdGlobal.imageOne}" alt="Design one">
-            <img class="portfolioItems" src="${globalThis.studentIdGlobal.imageTwo}" alt="Design two">
-            <img class="portfolioItems" src="${globalThis.studentIdGlobal.imageThree}" alt="Design three">
-            <img class="portfolioItems" src="${globalThis.studentIdGlobal.imageFour}" alt="Design four">
-            <img class="portfolioItems" src="${globalThis.studentIdGlobal.imageFive}" alt="Design five">
-            <img class="portfolioItems" src="${globalThis.studentIdGlobal.imageSix}" alt="Design six">
+            <img class="portfolioItems" src="${globalThis.studentIdGlobal.imageOne}" alt="">
+            <img class="portfolioItems" src="${globalThis.studentIdGlobal.imageTwo}" alt="">
+            <img class="portfolioItems" src="${globalThis.studentIdGlobal.imageThree}" alt="">
+            <img class="portfolioItems" src="${globalThis.studentIdGlobal.imageFour}" alt="">
+            <img class="portfolioItems" src="${globalThis.studentIdGlobal.imageFive}" alt="">
+            <img class="portfolioItems" src="${globalThis.studentIdGlobal.imageSix}" alt="">
           </div>
         </section>
       </div>
