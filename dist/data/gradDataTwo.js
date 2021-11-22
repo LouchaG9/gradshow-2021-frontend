@@ -1,4 +1,4 @@
-export const Graduates = [
+[
   {
     studentNumber: "19745141",
     firstName: "Bailey",

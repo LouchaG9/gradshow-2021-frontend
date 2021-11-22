@@ -117,7 +117,7 @@ class student19760513View {
             <!-- Maximum number is 6 works -->
 
             <div id="photos">
-            <img class="portfolioItems" src="../images/work/Brooke_Fanto_19760513_1 - brooke fanto.jpg" alt="Design one">
+            <img class="portfolioItems" src="${student19760513[0].imageOne}" alt="Design one">
             <img class="portfolioItems" src="../images/work/Brooke_Fanto_19760513_2 - brooke fanto.jpg" alt="Design two">
             <img class="portfolioItems" src="../images/work/Brooke_Fanto_19760513_3 - brooke fanto.jpg" alt="Design three">
             <img class="portfolioItems" src="../images/work/Brooke_Fanto_19760513_4 - brooke fanto.jpg" alt="Design four">

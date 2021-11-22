@@ -32,8 +32,8 @@ customElements.define(
       return(html`
         <button
           class="view-employee-button"
-          @click="${() => gotoRoute("/graduates/"+ this.studentNumber)}"
-        >
+          @click=${() => gotoRoute(`/public?id=${this.studentNumber}`)}>
+        
         View Employee
         </button>
       `)

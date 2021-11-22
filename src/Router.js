@@ -8,7 +8,7 @@ import allGraduatesView from "./views/pages/graduates";
 import digitalGraduates from "./views/pages/digitalGraduates";
 import animationGraduates from "./views/pages/animationGraduates";
 import graphicGraduates from "./views/pages/graphicGraduates";
-
+import specificProfileView from "./views/pages/specificProfile";
 import student19760513View from "./views/pages/individuals/19760513";
 
 // define routes
@@ -22,7 +22,7 @@ const routes = {
   "/graduates/digitaldesign": digitalGraduates,
   "/graduates/graphicdesign": graphicGraduates,
   "/graduates/animationgamedesign": animationGraduates,
-
+  '/public': specificProfileView,
   "/graduates/19760513": student19760513View,
 };
 

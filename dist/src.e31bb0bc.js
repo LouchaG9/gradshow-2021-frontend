@@ -7422,7 +7422,12 @@ const Graduates = [{
   dribbble: "",
   avatarOne: "./images/graduateAvatars/19760513_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19760513_BFanto_main.jpg",
-  images: "https://drive.google.com/open?id=1DJcRLfvxPuNkxrFZ6VwBspKfWHB0sJOi, https://drive.google.com/open?id=1jwDFyLbTgURYQYUPRE2MdrH-lHw9kqIC, https://drive.google.com/open?id=1qTXOZjAKXGrRRVTFlQvMLK-7G9OQeapT, https://drive.google.com/open?id=1o4GROQLgBxfGV94coqUtGdoQg8sWSdN5, https://drive.google.com/open?id=12OP2sZ7n7C2niZhCidY5H95X5yjiPFXf, https://drive.google.com/open?id=1dzYYjrJHe_maZUN--ffgrpSoUZGdvWxN"
+  imageOne: "../images/work/Brooke_Fanto_19760513_1 - brooke fanto.jpg",
+  imageTwo: "../images/work/Brooke_Fanto_19760513_2 - brooke fanto.jpg",
+  imageThree: "../images/work/Brooke_Fanto_19760513_3 - brooke fanto.jpg",
+  imageFour: "../images/work/Brooke_Fanto_19760513_4 - brooke fanto.jpg",
+  imageFive: "../images/work/Brooke_Fanto_19760513_5 - brooke fanto.jpg",
+  imageSix: "../images/work/Brooke_Fanto_19760513_6 - brooke fanto.jpg"
 }, {
   studentNumber: "17159355",
   firstName: "Lachlan",
@@ -7441,7 +7446,12 @@ const Graduates = [{
   dribbble: "",
   avatarOne: "./images/graduateAvatars/17159355_alt.jpg",
   avatarTwo: "./images/graduateAvatars/17159355_Lrobertson_main.jpg",
-  images: "https://drive.google.com/open?id=1hPOLcnrNJAHHXA6x_-MB8qdJZlCdWsLB, https://drive.google.com/open?id=16IfLybWqdDh3iVeyau2H8f22mWk6Lnys, https://drive.google.com/open?id=1P7hgPhg9gv5IviORR4-slnLxMfp6niDS, https://drive.google.com/open?id=1yizn8wO5GQKcnunWuQ4xRtxmsnoiYqZ9"
+  imageOne: "../images/work/Lachlan_Robertson_17159355_1 - Lachlan Robertson.jpg",
+  imageTwo: "../images/work/Lachlan_Robertson_17159355_2 - Lachlan Robertson.jpg",
+  imageThree: "../images/work/Lachlan_Robertson_17159355_3 - Lachlan Robertson.jpg",
+  imageFour: "../images/work/Lachlan_Robertson_17159355_4 - Lachlan Robertson.jpg",
+  imageFive: "",
+  imageSix: ""
 }, {
   studentNumber: "19760814",
   firstName: "Anna",
@@ -9135,7 +9145,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 class GraduateAPI {
   // GET ALL GRADUATES ------------------------------
   async getGraduates() {
-    // fetch the json data
+    console.log(Graduates); // fetch the json data
+
     const response = await fetch("".concat(_App.default.apiBase, "/graduate")); // convert response payload into json - store as data
 
     const data = await response.json(); // return data
@@ -9146,7 +9157,8 @@ class GraduateAPI {
 
   async getGraduate(id) {
     // fetch the json data
-    const response = await fetch("".concat(_App.default.apiBase, "/graduate/").concat(id)); // convert response payload into json - store as data
+    const response = await fetch("".concat(_App.default.apiBase, "/static/data/gradDataTwo.js"));
+    console.log(response); // convert response payload into json - store as data
 
     const data = await response.json(); // return data
 
@@ -9906,7 +9918,88 @@ class GraphicGraduatesView {
 var _default = new GraphicGraduatesView();
 
 exports.default = _default;
-},{"../../App":"App.js","lit-html":"../node_modules/lit-html/lit-html.js","../../Router":"Router.js","../../Utils":"Utils.js","../../../static/data/graduateData":"../static/data/graduateData.js","../../Toast":"Toast.js"}],"../node_modules/@lit/reactive-element/css-tag.js":[function(require,module,exports) {
+},{"../../App":"App.js","lit-html":"../node_modules/lit-html/lit-html.js","../../Router":"Router.js","../../Utils":"Utils.js","../../../static/data/graduateData":"../static/data/graduateData.js","../../Toast":"Toast.js"}],"views/pages/specificProfile.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _App = _interopRequireDefault(require("./../../App"));
+
+var _litHtml = require("lit-html");
+
+var _Router = require("./../../Router");
+
+var _Auth = _interopRequireDefault(require("./../../Auth"));
+
+var _Utils = _interopRequireDefault(require("./../../Utils"));
+
+var _GraduateAPI = _interopRequireDefault(require("./../../GraduateAPI"));
+
+var _graduateData = require("./../../../static/data/graduateData");
+
+var _graduates = _interopRequireDefault(require("./graduates"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _templateObject() {
+  const data = _taggedTemplateLiteral(["\n       <va-app-header title=\"View Graduate\"></va-app-header>\n      <div class=\"page-content\">\n        <section class=\"block-50-50\">\n          <div class=\"column\"> \n            <div class=\"avatarContainer\">\n            <!-- first graduate avatar image -->\n              <img class=\"avatarStyling avatarImage avatarOne\" src=\"../", "\"/> \n             <!-- second graduate avatar image -->\n              <img class=\"avatarStyling avatarImage avatarTwo\" src=\"../", "\"/> \n              </div> \n          </div>\n          <div class=\"column paddingLeft\">\n            <h3>", "</h3>\n            <h1>\n                ", " ", "\n            </h1>\n            <p><i>", "</i></p>\n\n            <p><strong>About:</strong></p>\n            <p class=\"bioStyle\">", "</p>\n            <a\n              class=\"secondary\" \n              href=\"", "\"\n              target=\"_blank\"\n            >\n              Portfolio\n            </a>\n            <div class=\"socials-wrapper\">\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-linkedin-in\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-instagram\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-dribbble\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-artstation\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-behance\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-twitter\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-vimeo-v\"></i>\n              </a>\n            </div>\n          </div>\n        </section>\n\n             <!-- WORK ---------------------------------->\n             <section>\n          <h2>Some of ", "'s Work</h2>\n            <!-- This is where we will display a couple of the students best works. -->\n            <!-- Maximum number is 6 works -->\n\n            <div id=\"photos\">\n            <img class=\"portfolioItems\" src=\"", "\" alt=\"Design one\">\n            <img class=\"portfolioItems\" src=\"", "\" alt=\"Design two\">\n            <img class=\"portfolioItems\" src=\"", "\" alt=\"Design three\">\n            <img class=\"portfolioItems\" src=\"", "\" alt=\"Design four\">\n            <img class=\"portfolioItems\" src=\"", "\" alt=\"Design five\">\n            <img class=\"portfolioItems\" src=\"", "\" alt=\"Design six\">\n          </div>\n        </section>\n      </div>\n      <va-app-footer></va-app-footer>\n    "]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+class specificProfile {
+  async init() {
+    document.title = "View Graduate";
+    this.graduate = null;
+    this.studentId = null;
+    this.studentIdString = null;
+    let graduates = _graduateData.Graduates;
+    console.log(_graduateData.Graduates);
+
+    _Utils.default.pageIntroAnim();
+
+    await this.getGraduate();
+  }
+
+  async getGraduate() {
+    // get id param from URL
+    const urlParams = new URLSearchParams(location.search);
+    const id = urlParams.get("id");
+    console.log(id); // get the graduate
+
+    let studentId = _graduateData.Graduates.filter(grad => {
+      return grad.studentNumber === id;
+    });
+
+    console.log(studentId);
+    const studentIdString = JSON.stringify(studentId);
+    console.log(studentIdString);
+    window.firstName = studentId[0].firstName;
+    window.studentIdGlobal = studentId[0];
+    console.log(firstName);
+    this.render();
+  }
+
+  render() {
+    const template = (0, _litHtml.html)(_templateObject(), globalThis.studentIdGlobal.avatarOne, globalThis.studentIdGlobal.avatarTwo, globalThis.studentIdGlobal.major, globalThis.studentIdGlobal.firstName, globalThis.studentIdGlobal.lastName, globalThis.studentIdGlobal.tagLine, globalThis.studentIdGlobal.bio, globalThis.studentIdGlobal.portfolio, globalThis.studentIdGlobal.linkedIn, globalThis.studentIdGlobal.instagram, globalThis.studentIdGlobal.dribbble, globalThis.studentIdGlobal.artStation, globalThis.studentIdGlobal.behance, globalThis.studentIdGlobal.twitter, globalThis.studentIdGlobal.vimeo, globalThis.studentIdGlobal.firstName, globalThis.studentIdGlobal.imageOne, globalThis.studentIdGlobal.imageTwo, globalThis.studentIdGlobal.imageThree, globalThis.studentIdGlobal.imageFour, globalThis.studentIdGlobal.imageFive, globalThis.studentIdGlobal.imageSix);
+    (0, _litHtml.render)(template, _App.default.rootEl);
+  }
+
+}
+
+var _default = new specificProfile();
+
+exports.default = _default;
+},{"./../../App":"App.js","lit-html":"../node_modules/lit-html/lit-html.js","./../../Router":"Router.js","./../../Auth":"Auth.js","./../../Utils":"Utils.js","./../../GraduateAPI":"GraduateAPI.js","./../../../static/data/graduateData":"../static/data/graduateData.js","./graduates":"views/pages/graduates.js"}],"../node_modules/@lit/reactive-element/css-tag.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -11380,7 +11473,7 @@ var _vaAppFooter = require("../../../components/va-app-footer");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject() {
-  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"View Graduate\"></va-app-header>\n      <div class=\"page-content\">\n        <section class=\"block-50-50\">\n          <div class=\"column\"> \n            <div class=\"avatarContainer\">\n            <!-- first graduate avatar image -->\n              <img class=\"avatarStyling avatarImage avatarOne\" src=\"../", "\"/> \n             <!-- second graduate avatar image -->\n              <img class=\"avatarStyling avatarImage avatarTwo\" src=\"../", "\"/> \n              </div> \n          </div>\n          <div class=\"column paddingLeft\">\n            <h3>", "</h3>\n            <h1>\n              ", " ", "\n            </h1>\n            <p><i>", "</i></p>\n\n            <p><strong>About ", ": </strong></p>\n            <p class=\"bioStyle\">", "</p>\n            <a\n              class=\"secondary\" \n              href=\"", "\"\n              target=\"_blank\"\n            >\n              Portfolio\n            </a>\n            <div class=\"socials-wrapper\">\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-linkedin-in\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-instagram\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-dribbble\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-artstation\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-behance\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-twitter\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-vimeo-v\"></i>\n              </a>\n            </div>\n          </div>\n        </section>\n\n             <!-- WORK ---------------------------------->\n             <section>\n          <h2>Some of ", "'s Work</h2>\n            <!-- This is where we will display a couple of the students best works. -->\n            <!-- Maximum number is 6 works -->\n\n            <div id=\"photos\">\n            <img class=\"portfolioItems\" src=\"../images/work/Brooke_Fanto_19760513_1 - brooke fanto.jpg\" alt=\"Design one\">\n            <img class=\"portfolioItems\" src=\"../images/work/Brooke_Fanto_19760513_2 - brooke fanto.jpg\" alt=\"Design two\">\n            <img class=\"portfolioItems\" src=\"../images/work/Brooke_Fanto_19760513_3 - brooke fanto.jpg\" alt=\"Design three\">\n            <img class=\"portfolioItems\" src=\"../images/work/Brooke_Fanto_19760513_4 - brooke fanto.jpg\" alt=\"Design four\">\n            <img class=\"portfolioItems\" src=\"../images/work/Brooke_Fanto_19760513_5 - brooke fanto.jpg\" alt=\"Design five\">\n            <img class=\"portfolioItems\" src=\"../images/work/Brooke_Fanto_19760513_6 - brooke fanto.jpg\" alt=\"Design six\">\n          </div>\n        </section>\n      </div>\n      <va-app-footer></va-app-footer>\n    "]);
+  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"View Graduate\"></va-app-header>\n      <div class=\"page-content\">\n        <section class=\"block-50-50\">\n          <div class=\"column\"> \n            <div class=\"avatarContainer\">\n            <!-- first graduate avatar image -->\n              <img class=\"avatarStyling avatarImage avatarOne\" src=\"../", "\"/> \n             <!-- second graduate avatar image -->\n              <img class=\"avatarStyling avatarImage avatarTwo\" src=\"../", "\"/> \n              </div> \n          </div>\n          <div class=\"column paddingLeft\">\n            <h3>", "</h3>\n            <h1>\n              ", " ", "\n            </h1>\n            <p><i>", "</i></p>\n\n            <p><strong>About ", ": </strong></p>\n            <p class=\"bioStyle\">", "</p>\n            <a\n              class=\"secondary\" \n              href=\"", "\"\n              target=\"_blank\"\n            >\n              Portfolio\n            </a>\n            <div class=\"socials-wrapper\">\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-linkedin-in\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-instagram\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-dribbble\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-artstation\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-behance\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-twitter\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-vimeo-v\"></i>\n              </a>\n            </div>\n          </div>\n        </section>\n\n             <!-- WORK ---------------------------------->\n             <section>\n          <h2>Some of ", "'s Work</h2>\n            <!-- This is where we will display a couple of the students best works. -->\n            <!-- Maximum number is 6 works -->\n\n            <div id=\"photos\">\n            <img class=\"portfolioItems\" src=\"", "\" alt=\"Design one\">\n            <img class=\"portfolioItems\" src=\"../images/work/Brooke_Fanto_19760513_2 - brooke fanto.jpg\" alt=\"Design two\">\n            <img class=\"portfolioItems\" src=\"../images/work/Brooke_Fanto_19760513_3 - brooke fanto.jpg\" alt=\"Design three\">\n            <img class=\"portfolioItems\" src=\"../images/work/Brooke_Fanto_19760513_4 - brooke fanto.jpg\" alt=\"Design four\">\n            <img class=\"portfolioItems\" src=\"../images/work/Brooke_Fanto_19760513_5 - brooke fanto.jpg\" alt=\"Design five\">\n            <img class=\"portfolioItems\" src=\"../images/work/Brooke_Fanto_19760513_6 - brooke fanto.jpg\" alt=\"Design six\">\n          </div>\n        </section>\n      </div>\n      <va-app-footer></va-app-footer>\n    "]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -11405,7 +11498,7 @@ class student19760513View {
   }
 
   render() {
-    const template = (0, _litHtml.html)(_templateObject(), student19760513[0].avatarOne, student19760513[0].avatarTwo, student19760513[0].major, student19760513[0].firstName, student19760513[0].lastName, student19760513[0].tagLine, student19760513[0].firstName, student19760513[0].bio, student19760513[0].portfolio, student19760513[0].linkedin, student19760513[0].instagram, student19760513[0].dribbble, student19760513[0].artStation, student19760513[0].behance, student19760513[0].twitter, student19760513[0].vimeo, student19760513[0].firstName);
+    const template = (0, _litHtml.html)(_templateObject(), student19760513[0].avatarOne, student19760513[0].avatarTwo, student19760513[0].major, student19760513[0].firstName, student19760513[0].lastName, student19760513[0].tagLine, student19760513[0].firstName, student19760513[0].bio, student19760513[0].portfolio, student19760513[0].linkedin, student19760513[0].instagram, student19760513[0].dribbble, student19760513[0].artStation, student19760513[0].behance, student19760513[0].twitter, student19760513[0].vimeo, student19760513[0].firstName, student19760513[0].imageOne);
     (0, _litHtml.render)(template, _App.default.rootEl);
   }
 
@@ -11442,6 +11535,8 @@ var _animationGraduates = _interopRequireDefault(require("./views/pages/animatio
 
 var _graphicGraduates = _interopRequireDefault(require("./views/pages/graphicGraduates"));
 
+var _specificProfile = _interopRequireDefault(require("./views/pages/specificProfile"));
+
 var _2 = _interopRequireDefault(require("./views/pages/individuals/19760513"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -11461,6 +11556,7 @@ const routes = {
   "/graduates/digitaldesign": _digitalGraduates.default,
   "/graduates/graphicdesign": _graphicGraduates.default,
   "/graduates/animationgamedesign": _animationGraduates.default,
+  '/public': _specificProfile.default,
   "/graduates/19760513": _2.default
 };
 
@@ -11515,7 +11611,7 @@ function anchorRoute(e) {
   const pathname = e.target.closest("a").pathname;
   AppRouter.gotoRoute(pathname);
 }
-},{"./views/pages/home":"views/pages/home.js","./views/pages/404":"views/pages/404.js","./views/pages/about":"views/pages/about.js","./views/pages/contact":"views/pages/contact.js","./views/pages/viewGraduate":"views/pages/viewGraduate.js","./views/pages/graduates":"views/pages/graduates.js","./views/pages/digitalGraduates":"views/pages/digitalGraduates.js","./views/pages/animationGraduates":"views/pages/animationGraduates.js","./views/pages/graphicGraduates":"views/pages/graphicGraduates.js","./views/pages/individuals/19760513":"views/pages/individuals/19760513.js"}],"App.js":[function(require,module,exports) {
+},{"./views/pages/home":"views/pages/home.js","./views/pages/404":"views/pages/404.js","./views/pages/about":"views/pages/about.js","./views/pages/contact":"views/pages/contact.js","./views/pages/viewGraduate":"views/pages/viewGraduate.js","./views/pages/graduates":"views/pages/graduates.js","./views/pages/digitalGraduates":"views/pages/digitalGraduates.js","./views/pages/animationGraduates":"views/pages/animationGraduates.js","./views/pages/graphicGraduates":"views/pages/graphicGraduates.js","./views/pages/specificProfile":"views/pages/specificProfile.js","./views/pages/individuals/19760513":"views/pages/individuals/19760513.js"}],"App.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -13468,7 +13564,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  const data = _taggedTemplateLiteral(["\n        <button\n          class=\"view-employee-button\"\n          @click=\"", "\"\n        >\n        View Employee\n        </button>\n      "]);
+  const data = _taggedTemplateLiteral(["\n        <button\n          class=\"view-employee-button\"\n          @click=", ">\n        \n        View Employee\n        </button>\n      "]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -13512,7 +13608,7 @@ customElements.define("va-graduates", class Graduate extends _litElement.LitElem
 
 
   employeeHandler() {
-    return (0, _litElement.html)(_templateObject(), () => (0, _Router.gotoRoute)("/graduates/" + this.studentNumber));
+    return (0, _litElement.html)(_templateObject(), () => (0, _Router.gotoRoute)("/public?id=".concat(this.studentNumber)));
   }
 
   portfolioHandler() {

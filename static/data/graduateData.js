@@ -38,8 +38,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19760513_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19760513_BFanto_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1DJcRLfvxPuNkxrFZ6VwBspKfWHB0sJOi, https://drive.google.com/open?id=1jwDFyLbTgURYQYUPRE2MdrH-lHw9kqIC, https://drive.google.com/open?id=1qTXOZjAKXGrRRVTFlQvMLK-7G9OQeapT, https://drive.google.com/open?id=1o4GROQLgBxfGV94coqUtGdoQg8sWSdN5, https://drive.google.com/open?id=12OP2sZ7n7C2niZhCidY5H95X5yjiPFXf, https://drive.google.com/open?id=1dzYYjrJHe_maZUN--ffgrpSoUZGdvWxN",
+    imageOne:
+      "../images/work/Brooke_Fanto_19760513_1 - brooke fanto.jpg",
+    imageTwo:
+      "../images/work/Brooke_Fanto_19760513_2 - brooke fanto.jpg",
+    imageThree:
+    "../images/work/Brooke_Fanto_19760513_3 - brooke fanto.jpg",
+    imageFour:
+    "../images/work/Brooke_Fanto_19760513_4 - brooke fanto.jpg",
+    imageFive:
+    "../images/work/Brooke_Fanto_19760513_5 - brooke fanto.jpg",
+    imageSix:
+    "../images/work/Brooke_Fanto_19760513_6 - brooke fanto.jpg"
   },
   {
     studentNumber: "17159355",
@@ -59,8 +69,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/17159355_alt.jpg",
     avatarTwo: "./images/graduateAvatars/17159355_Lrobertson_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1hPOLcnrNJAHHXA6x_-MB8qdJZlCdWsLB, https://drive.google.com/open?id=16IfLybWqdDh3iVeyau2H8f22mWk6Lnys, https://drive.google.com/open?id=1P7hgPhg9gv5IviORR4-slnLxMfp6niDS, https://drive.google.com/open?id=1yizn8wO5GQKcnunWuQ4xRtxmsnoiYqZ9",
+    imageOne:
+      "../images/work/Lachlan_Robertson_17159355_1 - Lachlan Robertson.jpg",
+    imageTwo:
+      "../images/work/Lachlan_Robertson_17159355_2 - Lachlan Robertson.jpg",
+    imageThree:
+    "../images/work/Lachlan_Robertson_17159355_3 - Lachlan Robertson.jpg",
+    imageFour:
+    "../images/work/Lachlan_Robertson_17159355_4 - Lachlan Robertson.jpg",
+    imageFive:
+    "",
+    imageSix:
+    ""
   },
   {
     studentNumber: "19760814",
