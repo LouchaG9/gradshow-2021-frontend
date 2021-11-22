@@ -11645,7 +11645,7 @@ const routes = {
   "/graduates/digitaldesign": _digitalGraduates.default,
   "/graduates/graphicdesign": _graphicGraduates.default,
   "/graduates/animationgamedesign": _animationGraduates.default,
-  '/public': _specificProfile.default,
+  '/graduate': _specificProfile.default,
   "/graduates/19760513": _2.default
 };
 
@@ -13697,7 +13697,7 @@ customElements.define("va-graduates", class Graduate extends _litElement.LitElem
 
 
   employeeHandler() {
-    return (0, _litElement.html)(_templateObject(), () => (0, _Router.gotoRoute)("/public?id=".concat(this.studentNumber)));
+    return (0, _litElement.html)(_templateObject(), () => (0, _Router.gotoRoute)("/graduate?id=".concat(this.studentNumber)));
   } // scroll to top function
 
 

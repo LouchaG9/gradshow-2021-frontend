@@ -22,7 +22,7 @@ const routes = {
   "/graduates/digitaldesign": digitalGraduates,
   "/graduates/graphicdesign": graphicGraduates,
   "/graduates/animationgamedesign": animationGraduates,
-  '/public': specificProfileView,
+  '/graduate': specificProfileView,
   "/graduates/19760513": student19760513View,
 };
 
