@@ -28,9 +28,9 @@ class student19760513View {
           <div class="column"> 
             <div class="avatarContainer">
             <!-- first graduate avatar image -->
-              <img class="avatarStyling avatarImage avatarOne" src="../${student19760513[0].avatarTwo}"/> 
+              <img class="avatarStyling avatarImage avatarOne" src="../${student19760513[0].avatarOne}"/> 
              <!-- second graduate avatar image -->
-              <img class="avatarStyling avatarImage avatarTwo" src="../${student19760513[0].avatarOne}"/> 
+              <img class="avatarStyling avatarImage avatarTwo" src="../${student19760513[0].avatarTwo}"/> 
               </div> 
           </div>
           <div class="column paddingLeft">
@@ -40,16 +40,12 @@ class student19760513View {
             </h1>
             <p><i>${student19760513[0].tagLine}</i></p>
 
-           
-
             <p><strong>About ${student19760513[0].firstName}: </strong></p>
             <p class="bioStyle">${student19760513[0].bio}</p>
-
             <a
               class="secondary" 
               href="${student19760513[0].portfolio}"
               target="_blank"
-
             >
               Portfolio
             </a>
@@ -117,31 +113,22 @@ class student19760513View {
              <!-- WORK ---------------------------------->
              <section>
           <h2>Some of ${student19760513[0].firstName}'s Work</h2>
-       
-        <!--   <div class ="gridContainer"> -->
             <!-- This is where we will display a couple of the students best works. -->
             <!-- Maximum number is 6 works -->
 
             <div id="photos">
-            <img class="portfolioItems" src="https://drive.google.com/uc?id=1DJcRLfvxPuNkxrFZ6VwBspKfWHB0sJOi" alt="Design one">
-            <img class="portfolioItems" src="https://drive.google.com/uc?id=1jwDFyLbTgURYQYUPRE2MdrH-lHw9kqIC" alt="Design two">
-            <img class="portfolioItems" src="https://drive.google.com/uc?id=1qTXOZjAKXGrRRVTFlQvMLK-7G9OQeapT" alt="Design three">
-            <img class="portfolioItems" src="https://drive.google.com/uc?id=1o4GROQLgBxfGV94coqUtGdoQg8sWSdN5" alt="Design four">
-            <img class="portfolioItems" src="https://drive.google.com/uc?id=12OP2sZ7n7C2niZhCidY5H95X5yjiPFXf" alt="Design five">
-            <img class="portfolioItems" src="https://drive.google.com/uc?id=1dzYYjrJHe_maZUN--ffgrpSoUZGdvWxN" alt="Design six">
-  </div>
-
-
-      <!---    </div> --->
-       
+            <img class="portfolioItems" src="../images/work/Brooke_Fanto_19760513_1 - brooke fanto.jpg" alt="Design one">
+            <img class="portfolioItems" src="../images/work/Brooke_Fanto_19760513_2 - brooke fanto.jpg" alt="Design two">
+            <img class="portfolioItems" src="../images/work/Brooke_Fanto_19760513_3 - brooke fanto.jpg" alt="Design three">
+            <img class="portfolioItems" src="../images/work/Brooke_Fanto_19760513_4 - brooke fanto.jpg" alt="Design four">
+            <img class="portfolioItems" src="../images/work/Brooke_Fanto_19760513_5 - brooke fanto.jpg" alt="Design five">
+            <img class="portfolioItems" src="../images/work/Brooke_Fanto_19760513_6 - brooke fanto.jpg" alt="Design six">
+          </div>
         </section>
-   
-        
       </div>
       <va-app-footer></va-app-footer>
     `;
     render(template, App.rootEl);
   }
 }
-
 export default new student19760513View();
