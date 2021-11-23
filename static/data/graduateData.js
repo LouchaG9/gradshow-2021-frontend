@@ -1670,7 +1670,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "",
-
+    avatarOne: "./images/graduateBags/_DSC1383.jpg",
+    avatarTwo: "./images/graduateBags/_DSC1380.jpg",
     imageOne:
     "../images/work/dimitri_koranis_19349611_1 - Australia Post.jpg",
     imageTwo:
@@ -1763,6 +1764,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "",
+    avatarOne: "./images/graduateBags/_DSC1383.jpg",
+    avatarTwo: "./images/graduateBags/_DSC1380.jpg",
     imageOne:
     "../images/work/Henry_Malkovic_19132345_ - Henry M.jpg",
     imageTwo:
@@ -1918,6 +1921,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "",
+    avatarOne: "./images/graduateBags/_DSC1383.jpg",
+    avatarTwo: "./images/graduateBags/_DSC1380.jpg",
     imageOne:
     "../images/work/Emily_Lowry_19490292_1 - Em Lowry.jpg",
     imageTwo:
