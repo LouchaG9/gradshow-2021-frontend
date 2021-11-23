@@ -11827,7 +11827,87 @@ class student19760513View {
 var _default = new student19760513View();
 
 exports.default = _default;
-},{"../../../App":"App.js","lit-html":"../node_modules/lit-html/lit-html.js","../../../Router":"Router.js","../../../Utils":"Utils.js","../../../../static/data/graduateData":"../static/data/graduateData.js","lit-element":"../node_modules/lit-element/index.js","../../../components/va-app-footer":"components/va-app-footer.js"}],"Router.js":[function(require,module,exports) {
+},{"../../../App":"App.js","lit-html":"../node_modules/lit-html/lit-html.js","../../../Router":"Router.js","../../../Utils":"Utils.js","../../../../static/data/graduateData":"../static/data/graduateData.js","lit-element":"../node_modules/lit-element/index.js","../../../components/va-app-footer":"components/va-app-footer.js"}],"views/pages/comingSoon.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _App = _interopRequireDefault(require("../../App"));
+
+var _litHtml = require("lit-html");
+
+var _Router = require("../../Router");
+
+var _Utils = _interopRequireDefault(require("../../Utils"));
+
+var _graduateData = require("../../../static/data/graduateData");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _templateObject() {
+  const data = _taggedTemplateLiteral(["\n      <div class=\"page-content\">\n      <div class=\"bgimg\">\n  <div class=\"topleft\">\n  </div>\n  <div class=\"middle\">\n  <img class=\"comingSoonLogo\"\n    src=\"./images/DeStoreLogo-02.png\"\n    />\n    <h1>COMING SOON</h1>\n    <hr>\n    <div class=\"timingDiv\">\n    <p id=\"timing\" ></p>\n    </div>\n  </div>\n\n</div>\n        </div>\n\n    "]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+// Graduates.map((graduate) => {
+//   console.log(graduate.firstName);
+// });
+// so now an issue found was when we open the home page, click the about page,
+// and then come back to home page, the slider lost its style,
+// the temporary ( or maybe this is the only ) solution is use "gotoRoute"
+// to force a re-fresh, silly but it works.
+class comingSoonView {
+  init() {
+    console.log("HomeView.init");
+    document.title = "Home";
+    this.render();
+
+    _Utils.default.pageIntroAnim(); // Set the date we're counting down to
+
+
+    var countDownDate = new Date("Nov 26, 2021 11:59:59").getTime(); // Update the count down every 1 second
+
+    var x = setInterval(function () {
+      // Get todays date and time
+      var now = new Date().getTime(); // Find the distance between now an the count down date
+
+      var distance = countDownDate - now; // Time calculations for days, hours, minutes and seconds
+
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor(distance % (1000 * 60 * 60 * 24) / (1000 * 60 * 60));
+      var minutes = Math.floor(distance % (1000 * 60 * 60) / (1000 * 60));
+      var seconds = Math.floor(distance % (1000 * 60) / 1000); // Display the result in an element with id="demo"
+
+      document.getElementById("timing").innerHTML = days + " days, " + hours + " hours, " + minutes + " minutes, & " + seconds + " seconds left!"; // If the count down is finished, write some text
+
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("timing").innerHTML = "🎉 Site launch immminent 🎉";
+      }
+    }, 1000);
+  }
+
+  render() {
+    const template = (0, _litHtml.html)(_templateObject());
+    (0, _litHtml.render)(template, _App.default.rootEl);
+  }
+
+}
+
+var _default = new comingSoonView();
+
+exports.default = _default;
+},{"../../App":"App.js","lit-html":"../node_modules/lit-html/lit-html.js","../../Router":"Router.js","../../Utils":"Utils.js","../../../static/data/graduateData":"../static/data/graduateData.js"}],"Router.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -11859,6 +11939,8 @@ var _specificProfile = _interopRequireDefault(require("./views/pages/specificPro
 
 var _2 = _interopRequireDefault(require("./views/pages/individuals/19760513"));
 
+var _comingSoon = _interopRequireDefault(require("./views/pages/comingSoon"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // import views
@@ -11877,7 +11959,8 @@ const routes = {
   "/graduates/graphicdesign": _graphicGraduates.default,
   "/graduates/animationgamedesign": _animationGraduates.default,
   '/graduate': _specificProfile.default,
-  "/graduates/19760513": _2.default
+  "/graduates/19760513": _2.default,
+  "/comingsoon": _comingSoon.default
 };
 
 class Router {
@@ -11931,7 +12014,7 @@ function anchorRoute(e) {
   const pathname = e.target.closest("a").pathname;
   AppRouter.gotoRoute(pathname);
 }
-},{"./views/pages/home":"views/pages/home.js","./views/pages/404":"views/pages/404.js","./views/pages/about":"views/pages/about.js","./views/pages/contact":"views/pages/contact.js","./views/pages/viewGraduate":"views/pages/viewGraduate.js","./views/pages/graduates":"views/pages/graduates.js","./views/pages/digitalGraduates":"views/pages/digitalGraduates.js","./views/pages/animationGraduates":"views/pages/animationGraduates.js","./views/pages/graphicGraduates":"views/pages/graphicGraduates.js","./views/pages/specificProfile":"views/pages/specificProfile.js","./views/pages/individuals/19760513":"views/pages/individuals/19760513.js"}],"App.js":[function(require,module,exports) {
+},{"./views/pages/home":"views/pages/home.js","./views/pages/404":"views/pages/404.js","./views/pages/about":"views/pages/about.js","./views/pages/contact":"views/pages/contact.js","./views/pages/viewGraduate":"views/pages/viewGraduate.js","./views/pages/graduates":"views/pages/graduates.js","./views/pages/digitalGraduates":"views/pages/digitalGraduates.js","./views/pages/animationGraduates":"views/pages/animationGraduates.js","./views/pages/graphicGraduates":"views/pages/graphicGraduates.js","./views/pages/specificProfile":"views/pages/specificProfile.js","./views/pages/individuals/19760513":"views/pages/individuals/19760513.js","./views/pages/comingSoon":"views/pages/comingSoon.js"}],"App.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -13864,7 +13947,7 @@ var _Toast = _interopRequireDefault(require("./../Toast"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject3() {
-  const data = _taggedTemplateLiteral(["\n        <style>\n          button {\n            height: 50px;\n            width: calc(50% - 2em);\n            background-color: transparent;\n            color: black;\n            font-size: 15px;\n            border: 1px solid black;\n          }\n\n          .gradListingAvatar{\n            position: absolute;\n            max-height: 360px;\n            left: 0;\n            cursor: grab;\n            overflow: hidden;\n\n          }\n\n          .gradListingAvatarTwo{\n            position: absolute;\n            max-height: 360px;\n            left: 0;\n            cursor: grab;\n            overflow: hidden;\n\n          }\n\n          .gradListingAvatarTwo:hover{\n            opacity: 0;\n            transition: ease-in-out 0.1s;\n          }\n\n          .gradListingAvatarTwo:not(:hover){\n            opacity: 1;\n            transition: ease-in-out 0.1s;\n          }\n\n          .view-employee-button {\n            background-color: var(--brand-color);\n            color: white;\n            border: none;\n          }\n\n          button:hover {\n            cursor: pointer;\n            background-color: red;\n            border: none;\n            color: black;\n          }\n\n          h3,\n          p {\n            margin: 0 auto;\n            padding: 0;\n          }\n\n          h3 {\n            font-size: 27px;\n          }\n\n          p {\n            font-size: 18px;\n          }\n\n          .image-container {\n            position: relative;\n            width: 100%;\n            min-height: 350px;\n            overflow: hidden;\n            background-repeat: no-repeat;\n            background-size: cover;\n            text-align: center;\n            margin: auto;\n            display: block;\n            background-position: center;\n            border-bottom: 1px solid black;\n            /* easing the hover transition */\n            transition: 0.3s;\n          }\n\n          /* hover effect */\n          /* .image-container:hover {\n            background-image: url(\"", "/images/", "\") !important;\n            cursor: pointer;\n          } */\n\n          .text-container {\n            height: 200px;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            justify-content: space-evenly;\n          }\n\n          .buttons-container {\n            display: flex;\n            justify-content: space-evenly;\n            width: 100%;\n          }\n        </style>\n\n        <!-- delete placeholder text when the real data is used -->\n   \n          <div class=\"image-container\" >  \n          <img class=\"gradListingAvatar\" src=\"", "\"  onerror=\"this.src='/images/graduateBags/_DSC1383.jpg';\">\n          <img class=\"gradListingAvatarTwo\" src=\"", "\" onerror=\"this.src='/images/graduateBags/_DSC1380.jpg';\">\n          </div>\n \n          <div class=\"text-container\">\n            <h3>", " ", "</h3>\n            <i><p>", "</p></i>\n            <div class=\"buttons-container\">\n              ", "\n              ", "\n              ", "\n              <!-- format of the link 'https://www.google.com' -->\n            </div>\n          </div>\n        </div>\n      "]);
+  const data = _taggedTemplateLiteral(["\n        <style>\n          button {\n            height: 50px;\n            width: calc(50% - 2em);\n            background-color: transparent;\n            color: black;\n            font-size: 15px;\n            border: 1px solid black;\n          }\n\n          .gradListingAvatar{\n            position: absolute;\n            max-height: 360px;\n            left: 0;\n            cursor: grab;\n            overflow: hidden;\n\n          }\n\n          .gradListingAvatarTwo{\n            position: absolute;\n            max-height: 360px;\n            left: 0;\n            cursor: grab;\n            overflow: hidden;\n\n          }\n\n          .gradListingAvatarTwo:hover{\n            opacity: 0;\n            transition: ease-in-out 0.1s;\n          }\n\n          .gradListingAvatarTwo:not(:hover){\n            opacity: 1;\n            transition: ease-in-out 0.1s;\n          }\n\n          .view-employee-button {\n            background-color: var(--brand-color);\n            color: white;\n            border: none;\n          }\n\n          button:hover {\n            cursor: pointer;\n            background-color: red;\n            border: none;\n            color: black;\n          }\n\n          h3,\n          p {\n            margin: 0 auto;\n            padding: 0;\n          }\n\n          h3 {\n            font-size: 27px;\n          }\n\n          p {\n            font-size: 18px;\n          }\n\n          .image-container {\n            position: relative;\n            width: 100%;\n            min-height: 350px;\n            overflow: hidden;\n            background-repeat: no-repeat;\n            background-size: cover;\n            text-align: center;\n            margin: auto;\n            display: block;\n            background-position: center;\n            border-bottom: 1px solid black;\n            /* easing the hover transition */\n            transition: 0.3s;\n          }\n\n          /* hover effect */\n          /* .image-container:hover {\n            background-image: url(\"", "/images/", "\") !important;\n            cursor: pointer;\n          } */\n\n          .text-container {\n            height: 200px;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            justify-content: space-evenly;\n          }\n\n          .buttons-container {\n            display: flex;\n            justify-content: space-evenly;\n            width: 100%;\n          }\n        </style>\n\n        <!-- delete placeholder text when the real data is used -->\n   \n          <div class=\"image-container\" >  \n          <img loading=\"eager\" class=\"gradListingAvatar\" src=\"", "\"  onerror=\"this.src='/images/graduateBags/_DSC1383.jpg';\">\n          <img  loading=\"eager\" class=\"gradListingAvatarTwo\" src=\"", "\" onerror=\"this.src='/images/graduateBags/_DSC1380.jpg';\">\n          </div>\n \n          <div class=\"text-container\">\n            <h3>", " ", "</h3>\n            <i><p>", "</p></i>\n            <div class=\"buttons-container\">\n              ", "\n              ", "\n              ", "\n              <!-- format of the link 'https://www.google.com' -->\n            </div>\n          </div>\n        </div>\n      "]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -14022,7 +14105,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../../static/fonts/DeStoreFonts/MarkSimonson-ProximaNovaRegular.otf":[["MarkSimonson-ProximaNovaRegular.aa2a2292.otf","../static/fonts/DeStoreFonts/MarkSimonson-ProximaNovaRegular.otf"],"../static/fonts/DeStoreFonts/MarkSimonson-ProximaNovaRegular.otf"],"./../../static/fonts/DeStoreFonts/MilkmanRegular.ttf":[["MilkmanRegular.abbb0ba7.ttf","../static/fonts/DeStoreFonts/MilkmanRegular.ttf"],"../static/fonts/DeStoreFonts/MilkmanRegular.ttf"],"./../../static/fonts/DeStoreFonts/MonoSpec-Bold.otf":[["MonoSpec-Bold.a512cabb.otf","../static/fonts/DeStoreFonts/MonoSpec-Bold.otf"],"../static/fonts/DeStoreFonts/MonoSpec-Bold.otf"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
+},{"./..\\..\\static\\fonts\\DeStoreFonts\\MarkSimonson-ProximaNovaRegular.otf":[["MarkSimonson-ProximaNovaRegular.aa2a2292.otf","../static/fonts/DeStoreFonts/MarkSimonson-ProximaNovaRegular.otf"],"../static/fonts/DeStoreFonts/MarkSimonson-ProximaNovaRegular.otf"],"./..\\..\\static\\fonts\\DeStoreFonts\\MilkmanRegular.ttf":[["MilkmanRegular.abbb0ba7.ttf","../static/fonts/DeStoreFonts/MilkmanRegular.ttf"],"../static/fonts/DeStoreFonts/MilkmanRegular.ttf"],"./..\\..\\static\\fonts\\DeStoreFonts\\MonoSpec-Bold.otf":[["MonoSpec-Bold.a512cabb.otf","../static/fonts/DeStoreFonts/MonoSpec-Bold.otf"],"../static/fonts/DeStoreFonts/MonoSpec-Bold.otf"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 var _App = _interopRequireDefault(require("./App.js"));
@@ -14070,7 +14153,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49859" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55343" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

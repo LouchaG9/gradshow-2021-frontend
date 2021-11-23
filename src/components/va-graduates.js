@@ -171,8 +171,8 @@ customElements.define(
         <!-- delete placeholder text when the real data is used -->
    
           <div class="image-container" >  
-          <img class="gradListingAvatar" src="${this.avatarOne}"  onerror="this.src='/images/graduateBags/_DSC1383.jpg';">
-          <img class="gradListingAvatarTwo" src="${this.avatarTwo}" onerror="this.src='/images/graduateBags/_DSC1380.jpg';">
+          <img loading="eager" class="gradListingAvatar" src="${this.avatarOne}"  onerror="this.src='/images/graduateBags/_DSC1383.jpg';">
+          <img  loading="eager" class="gradListingAvatarTwo" src="${this.avatarTwo}" onerror="this.src='/images/graduateBags/_DSC1380.jpg';">
           </div>
  
           <div class="text-container">

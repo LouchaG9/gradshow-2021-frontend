@@ -10,6 +10,7 @@ import animationGraduates from "./views/pages/animationGraduates";
 import graphicGraduates from "./views/pages/graphicGraduates";
 import specificProfileView from "./views/pages/specificProfile";
 import student19760513View from "./views/pages/individuals/19760513";
+import comingSoonView from "./views/pages/comingSoon";
 
 // define routes
 const routes = {
@@ -24,6 +25,7 @@ const routes = {
   "/graduates/animationgamedesign": animationGraduates,
   '/graduate': specificProfileView,
   "/graduates/19760513": student19760513View,
+  "/comingsoon": comingSoonView,
 };
 
 class Router {
