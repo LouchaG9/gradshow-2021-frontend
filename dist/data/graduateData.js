@@ -69,7 +69,7 @@ export const Graduates = [
     major: "Animation and Game Design",
     bio: "3D asset designer specializing in prop development, with skills in illustration and motion graphics. Open to opportunities.",
     tagLine: "Give gold, get gold.",
-    portfolio: "",
+    portfolio: "https://www.artstation.com/ambitxdesign",
     linkedin: "https://www.linkedin.com/in/lachlan-robertson-axd/",
     instagram: "https://www.instagram.com/ambitxdesign/",
     twitter: "https://twitter.com/AmbitxDesign",
@@ -100,7 +100,7 @@ export const Graduates = [
     major: "Graphic Design",
     bio: "I am a graphic designer who specializes in packaging design as well as branding that will help clients achieve a clear form of identity by creating compelling strategies that enhance the experience of the target audience. I highly value communication not only between working creatives but also between a design and the viewer. I make it a goal to empathize with the target audience and allow them to bathe in a magical experience when coming face to face with my works. With the Magician as my main archetype, I am an approachable creative who is mystical, transformative and all in all ensure that my clients and target audience have the best time of their lives. \n",
     tagLine: "Design with a hint of magic.",
-    portfolio: "",
+    portfolio: "https://www.behance.net/annamai1",
     linkedin: "www.linkedin.com/in/i-am-anna-mai",
     instagram: "",
     twitter: "",
@@ -194,7 +194,7 @@ export const Graduates = [
     bio: "Hi! Hello! Pleasure to meet you! I’m Nics, your local Filipino Graphic Designer. I've also studied Illustration! My family described me as passionate and dedicated. My friends described me as self-driven and reliable. I described myself as a dreamer who loves listening to showtunes. No, I can't sing. I’ve always been a dreamer, creating stories and characters through my drawings as an outlet for my vivid imagination. Due to my Illustration background, I always add my love for visual storytelling to my designs. This gives my work a unique concept and voice. I want my work to leave a positive lasting impression on people, the same feeling when your favourite show ended beautifully.",
     tagLine:
       "I may be only 152cm but I have my dreams and determination on my side",
-    portfolio: "",
+    portfolio: "https://www.instagram.com/nicsndra/",
     linkedin: "",
     instagram: "https://www.instagram.com/nicsndra/",
     twitter: "https://twitter.com/nicsndra",
@@ -225,7 +225,7 @@ export const Graduates = [
     major: "Graphic Design",
     bio: "I come from a sport and design background. 2 very different thing but interestingly enough they need each other to flourish. Let’s just say the choice was tough when deciding on my future but eventually I realised I could combine the two, where hopefully in the future I’ll be able to work in the sport industry as a graphic designer. \n\nMy eagerness and determination has allowed me to hone my skills at Curtin, where I am able to mix in photography, illustration and story telling into a variety of projects. I love how design can emulate someone’s dream or passion into a reality. It’s always so pleasing to see my work on display in the real world. For myself, brand marketing, publication and poster design are my main attributes. \n\nThe last 2 years I’ve been exploring freelance and had the opportunity to intern at The R Collective , a sustainable fashion brand, as a recipient of NCP or the New Colombo mobility plan OR in simpler terms I was supposed to complete my internship in Hong Kong (it’s not like this is the third trip that has been cancelled on me). Tasks that I worked on was UX design on their website, developing icons and their branding guidelines.",
     tagLine: "To sum myself up in four words: all. over. the. place. ",
-    portfolio: "",
+    portfolio: "https://www.instagram.com/designedbymilla/",
     linkedin: "https://www.linkedin.com/in/milla-zhai-0a4b4617b/",
     instagram: "https://www.instagram.com/designedbymilla/",
     twitter: "",
@@ -351,9 +351,9 @@ export const Graduates = [
     major: "Graphic Design",
     bio: "I am a curious creative who is ambitious and genuine. I seek to appeal not only in the aesthetic aspects but also in social causes. I specialise in brand identity and packaging, hoping to redefine the limits with acquired specialised knowledge in graphic design, advertising and entrepreneur experiences. My operations seek to embolden and highlight both established and new brands. I am always on the pursuit for innovation and designs which are close to the heart. I value giving back to the a larger cause, and seek collaboration with like-minded businesses and individuals. As a business owner myself, I have a deeper understanding of the struggles and challenges in putting a brand forth, and these experiences will better align and aid with customers request. ",
     tagLine: "Bridging your dreams into reality ",
-    portfolio: "",
+    portfolio: "https://www.instagram.com/projectme.n.u",
     linkedin: "https://www.linkedin.com/in/adrinacsy/",
-    instagram: "@projectme.n.u",
+    instagram: "https://www.instagram.com/projectme.n.u",
     twitter: "",
     vimeo: "",
     artStation: "",
@@ -382,7 +382,7 @@ export const Graduates = [
     major: "Graphic Design",
     bio: "I specialise in branding and illustration with aspirations to be a change maker, storyteller, and collaborator. I believe the experience of design impacts our everyday lives and provides a relief to our community.\n\nDesign has been in my bones throughout my life. I studied Design in High School, which coincidentally, my mum was my teacher. I have her to thank. She’s taught me about design and passed it down in my very DNA.\nI really did get it from my mama. I never wanted to study design leaving school. After all, both my older sisters were already designers in their fields. No way was I going to be the third designer in the family.\nBut... here I am, graduating in Bachelor of Design at Curtin, and something I’ll never regret doing and wear with pride to be apart of a creative family.",
     tagLine: "I got it from my mama",
-    portfolio: "",
+    portfolio: "https://www.instagram.com/bystudioleah/",
     linkedin: "",
     instagram: "https://www.instagram.com/bystudioleah/",
     twitter: "",
@@ -444,7 +444,7 @@ export const Graduates = [
     major: "Animation and Game Design",
     bio: "Hello! I’m Michelle and I like to make cute things that move. My strengths lie in 3D animation and character rigging, but I’m always trying to learn new skills so I can continue to make what I love. I aspire to be part of a project that will show others the beauty of animation. In my spare time I watch animations, read, and game.",
     tagLine: "I like making the pixels move",
-    portfolio: "",
+    portfolio: "https://www.artstation.com/michelleqt",
     linkedin: "https://www.linkedin.com/in/michelleqthomas/",
     instagram: "",
     twitter: "https://twitter.com/michelleqthomas",
@@ -538,7 +538,7 @@ export const Graduates = [
     major: "Graphic Design",
     bio: "I’m a graphic designer, creative advertiser and above all, a creative problem solver. I design and strategise with purpose, take pride in transparency and retaining an openminded attitude. Valuer of individualism and authenticity. Driver for cultural, social and corporate responsibility. Highly motivated and driven to break boundaries, both in and out of the workplace.\n\nI have an interest in pursuing strategy and art direction. Currently working on pushing personal and design barriers, and establishing myself as a creative within the advertising community.",
     tagLine: "Creative problem solver, driven by purpose",
-    portfolio: "",
+    portfolio: "https://www.instagram.com/bnaim_studio/",
     linkedin: "https://www.linkedin.com/in/bethnaim/",
     instagram: "https://www.instagram.com/bnaim_studio/",
     twitter: "",
@@ -551,7 +551,7 @@ export const Graduates = [
     imageOne:
     "../images/work/BETH_NAIM_19160142_1 - Beth Naim.jpg",
     imageTwo:
-      "../images/work/BETH_NAIM_19160142_3 - Beth Naim.jpg",
+    "../images/work/BETH_NAIM_19160142_3 - Beth Naim.jpg",
     imageThree:
     "../images/work/BETH_NAIM_19160142_5 - Beth Naim.jpg",
     imageFour:
@@ -580,8 +580,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19096535_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19096535_SChaoChen_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1LFljFBTLcaexDkAjHfa-YaRvFgEnbII1, https://drive.google.com/open?id=1Yk95TxhX5sk9UfuCD2uckKaPLtzFwBeN, https://drive.google.com/open?id=1adIYZlWq4R4r2NXpWF4LLAzj-7QL8hN_, https://drive.google.com/open?id=1fWGC2z2Z_mLnNrkh2gldMZXimuImyWc-, https://drive.google.com/open?id=1k1Q5UDpNmnTdo2K3WKEgvC0yVzx1BtWO, https://drive.google.com/open?id=1n-s9M38-xsu1UBb2qo5AUcmGEs_ffVdE",
+    imageOne:
+    "../images/work/SylviaChen_19096535_1 - wtxwkl.jpg",
+    imageTwo:
+    "../images/work/SylviaChen_19096535_2 - wtxwkl.jpg",
+    imageThree:
+    "../images/work/SylviaChen_19096535_3 - wtxwkl.jpg",
+    imageFour:
+    "../images/work/SylviaChen_19096535_4 - wtxwkl.jpg",
+    imageFive:
+    "../images/work/SylviaChen_19096535_5 - wtxwkl.jpg",
+    imageSix:
+    "../images/work/SylviaChen_19096535_6 - wtxwkl.jpg"
   },
   {
     studentNumber: "19792888",
@@ -591,7 +601,7 @@ export const Graduates = [
     major: "Animation and Game Design",
     bio: "I wanted to start a career in something I was passionate about and have loved developing new skills and creating projects throughout the degree. Raised on old school Nintendo and PCs and a background of drawing and painting, I chose a Double Degree in Graphic Design and Animation and Game Design and found I have a passion for modelling, idea generation and creating things from scratch across the pipeline of a project.",
     tagLine: "Get lost in the rabbit hole of Modelling ",
-    portfolio: "",
+    portfolio: "https://www.artstation.com/danaknowles5/",
     linkedin: "https://www.linkedin.com/in/dana-knowles-7bab3117b/",
     instagram: " https://www.instagram.com/dee_designs_333",
     twitter: "",
@@ -601,8 +611,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19792888_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19792888_DKnowles_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1ZkR2aF4expumGz7ixym568p2AAMD-0Kk, https://drive.google.com/open?id=1v8FVqEWcZV78HOMeafrsREmkQ2Uimm5N, https://drive.google.com/open?id=16Xy2WgmzVKkvHOQF2C-jcbAmRGEzIVRP, https://drive.google.com/open?id=19_snvQjX_BGXE9EQfsCHUiJfoAGDwNYV, https://drive.google.com/open?id=18V6TrwgSfqvbk5pI5vwtxoIrKmXLyJP9, https://drive.google.com/open?id=11q2Vc9-cDdhVn956SuhZE1kemZm4tPsO",
+    imageOne:
+    "../images/work/Dana_Knowles_19792888_1 - Dana Knowles.jpg",
+    imageTwo:
+    "../images/work/Dana_Knowles_19792888_2 - Dana Knowles.jpg",
+    imageThree:
+    "../images/work/Dana_Knowles_19792888_3 - Dana Knowles.jpg",
+    imageFour:
+    "../images/work/Dana_Knowles_19792888_4 - Dana Knowles.jpg",
+    imageFive:
+    "../images/work/Dana_Knowles_19792888_5 - Dana Knowles.jpg",
+    imageSix:
+    "../images/work/Dana_Knowles_19792888_6 - Dana Knowles.jpg"
   },
   {
     studentNumber: "19485502",
@@ -622,8 +642,18 @@ export const Graduates = [
     dribbble: "https://dribbble.com/tessastirling",
     avatarOne: "./images/graduateAvatars/19485502_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19485502_TStirling_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1hhSRcF1MLSe_LlM8oEFMOerjgRP9LTOc, https://drive.google.com/open?id=1FuBo2uQ0g5ZO8rkdjouocdQfBqp2Hy2d, https://drive.google.com/open?id=1uU5HBWA8vuek-bwqLJjCbGQ-Xwy8SIS5, https://drive.google.com/open?id=1svSwYJRijlKZosHQttoj8cP_nzR7rhKu, https://drive.google.com/open?id=1OkFUgOKVDy9TrTJhAwzN1xz124jqMgd5, https://drive.google.com/open?id=1tjKC8DzaL5JWXuuDRNkDnCUDlfV7SwYL",
+    imageOne:
+    "../images/work/Tessa_Stirling_19485502_1 - Tessa Stirling.jpg",
+    imageTwo:
+    "../images/work/Tessa_Stirling_19485502_2 - Tessa Stirling.jpg",
+    imageThree:
+    "../images/work/Tessa_Stirling_19485502_3 - Tessa Stirling.jpg",
+    imageFour:
+    "../images/work/Tessa_Stirling_19485502_4 - Tessa Stirling.jpg",
+    imageFive:
+    "../images/work/Tessa_Stirling_19485502_5 - Tessa Stirling.jpg",
+    imageSix:
+    "../images/work/Tessa_Stirling_19485502_6 - Tessa Stirling.jpg"
   },
   {
     studentNumber: "19965680",
@@ -633,7 +663,7 @@ export const Graduates = [
     major: "Graphic Design",
     bio: "Hello! I’m Hannah. What started with a Microsoft Paint addiction at the age of 7, has quickly turned into a strong love for Graphic Design. Over the past three years of studying at Curtin University, I have developed a passion for branding and packaging design. I have completed a diverse range of projects, and believe that I will be able to continuously create new and refreshing designs with my unique set of skills I’ve gained throughout my time at Curtin. I strive to enable my clients to achieve their goals for their brand through the use of clear branding strategies and clever design solutions.",
     tagLine: "Lover of all things creative",
-    portfolio: "",
+    portfolio: "https://www.instagram.com/designs.by.hann/",
     linkedin: "",
     instagram: "https://www.instagram.com/designs.by.hann/",
     twitter: "",
@@ -643,8 +673,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19965680_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19965680_HJones_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1G2yFfQb8Ev0qB64udHaPsIUkld0i8QOl, https://drive.google.com/open?id=1DSp-KDGEPayM2A_R92FdgceetDeOaZPx, https://drive.google.com/open?id=1J228wfHjILtJWrpTcZS2NE-CZbvPGDZI, https://drive.google.com/open?id=12RXZREZ9m4ijDc9ZIyVWL5kcxMc3AOa5, https://drive.google.com/open?id=1OUS0KA5-PPqOtwxyjbaKPwtWMsHt2n2N, https://drive.google.com/open?id=1XrAKMV4IrIRI-kRBvcjj5aBttPg9nMnb",
+    imageOne:
+    "../images/work/Hannah_Jones_19965680_1 - Hannah Jones.jpg",
+    imageTwo:
+    "../images/work/Hannah_Jones_19965680_2 - Hannah Jones.jpg",
+    imageThree:
+    "../images/work/Hannah_Jones_19965680_3 - Hannah Jones.jpg",
+    imageFour:
+    "../images/work/Hannah_Jones_19965680_4 - Hannah Jones.jpg",
+    imageFive:
+    "../images/work/Hannah_Jones_19965680_5 - Hannah Jones.jpg",
+    imageSix:
+    "../images/work/Hannah_Jones_19965680_6 - Hannah Jones.jpg"
   },
   {
     studentNumber: "18846674",
@@ -654,7 +694,7 @@ export const Graduates = [
     major: "Graphic Design",
     bio: "I am Samantha and I like spending my time on computers making posters and gaming. I own two lovely guinea pigs named Gilbert and Rupert who are my service pigs that got me through crazy uni assessments. I also have passion in watching movies. Horror is my favourite genre and my dream job is to work as a Graphic Designer for the movie industry from anywhere to Australia to Hollywood California.",
     tagLine: "Eccentric, Experimental, Out of the box",
-    portfolio: "",
+    portfolio: "https://www.instagram.com/s.maliwat_designs/",
     linkedin: "",
     instagram: "https://www.instagram.com/s.maliwat_designs/",
     twitter: "https://twitter.com/smaliwatdesigns",
@@ -664,8 +704,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/18846674_alt.jpg",
     avatarTwo: "./images/graduateAvatars/18846674_SMabirrat_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1Ttq3qyJ0eah0TUp2zXBXuJ56sElEtZ9Z, https://drive.google.com/open?id=1ZwcbWvLQjE-mDKA0XaY94jvpAC8-3KRR, https://drive.google.com/open?id=15lL6HzHlHv3GnhT72p3hhZ08MxgA6inK, https://drive.google.com/open?id=1CneJLHPMxOJ3VG465GB6Yvp5f8RrkXYg, https://drive.google.com/open?id=14yQ-iwSxjpxgCDGqrGRJR3nEendK5RWc, https://drive.google.com/open?id=1_o78somhYq4AtSitqa3R50-IPMf0vpSL",
+    imageOne:
+    "../images/work/Samantha_Maliwat_18846674_1 - Bacon Omnom.jpg",
+    imageTwo:
+    "../images/work/Samantha_Maliwat_18846674_2 - Bacon Omnom.jpg",
+    imageThree:
+    "../images/work/Samantha_Maliwat_18846674_3 - Bacon Omnom.jpg",
+    imageFour:
+    "../images/work/Samantha_Maliwat_18846674_4 - Bacon Omnom.jpg",
+    imageFive:
+    "../images/work/Samantha_Maliwat_18846674_5 - Bacon Omnom.jpg",
+    imageSix:
+    "../images/work/Samantha_Maliwat_18846674_6 - Bacon Omnom.jpg"
   },
   {
     studentNumber: "19499736",
@@ -686,8 +736,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19499736_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19499736_JNesic_main.jpg",
-    images:
-      "https://drive.google.com/open?id=16ZBDkwuaBgn2MqwTegPqCQNZI5-iSPaK, https://drive.google.com/open?id=16cgBwFpt027BHVvKSvDZn9OY4MWjDcKS, https://drive.google.com/open?id=1LiTSRXFWK8KBDIu3s2EpXvFylMWpUTZX, https://drive.google.com/open?id=1X3IYQspdnNXlATxR_rUBQuEaq4yibe6e",
+    imageOne:
+    "../images/work/Jordan_Nesic_19499736_1 - Jordan N.jpg",
+    imageTwo:
+    "../images/work/Jordan_Nesic_19499736_2 - Jordan N.jpg",
+    imageThree:
+    "../images/work/Jordan_Nesic_19499736_3 - Jordan N.jpg",
+    imageFour:
+    "../images/work/Jordan_Nesic_19499736_4 - Jordan N.jpg",
+    imageFive:
+    "",
+    imageSix:
+    ""
   },
   {
     studentNumber: "18342224",
@@ -707,8 +767,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/18342224_alt.jpg",
     avatarTwo: "./images/graduateAvatars/18342224_JSaw_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1usmyHxwKdn8F3IF-iaumChKv3CxOwUUQ, https://drive.google.com/open?id=10BvcU0OsYKgHWYFSAIxUQSypq8TzoXnp, https://drive.google.com/open?id=1uoYP5EQnBe4IC2M-LYIp9SkSSjCV-TFj, https://drive.google.com/open?id=1KOtAx62B23AlBn_0-amcUW6zfcWRwq1Z, https://drive.google.com/open?id=1ufY6ScPXwutxuZ2E_hPzjDcpjLwtl5bR, https://drive.google.com/open?id=1ZThhMHv4_0ykiFg8xSgFz60-QcKdFoV6",
+    imageOne:
+    "../images/work/Jamin_Saw_18342224_1 - Jamin Saw.jpg",
+    imageTwo:
+    "../images/work/Jamin_Saw_18342224_2 - Jamin Saw.jpg",
+    imageThree:
+    "../images/work/Jamin_Saw_18342224_3 - Jamin Saw.jpg",
+    imageFour:
+    "../images/work/Jamin_Saw_18342224_4 - Jamin Saw.jpg",
+    imageFive:
+    "../images/work/Jamin_Saw_18342224_5 - Jamin Saw.jpg",
+    imageSix:
+    "../images/work/Jamin_Saw_18342224_6 - Jamin Saw.jpg"
   },
   {
     studentNumber: "19148724",
@@ -728,8 +798,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19148724_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19148724_ELeicester_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1fhDLLGFo6PjjlL-iuWsl_Ms5sjauP4jg, https://drive.google.com/open?id=1OJT_H0ORp3E2Rm_dWq5_DRNm-GF8wgD2, https://drive.google.com/open?id=1jL45hDefli97iG_pvUiItfzN8ZzhRbgS, https://drive.google.com/open?id=1oD9EIbKcUKoaX9-8tUKL2Lr2BBEpXGgY, https://drive.google.com/open?id=1xWIisN2Qx53F-VjmQYVrXuPJJ7pKA5T-, https://drive.google.com/open?id=12EnBeHUxzxQwbpRjwyUz7jU9Uu5w3PMU",
+    imageOne:
+    "../images/work/Eden_Leicester_19148724_1 - Eden Leicester.jpg",
+    imageTwo:
+    "../images/work/Eden_Leicester_19148724_2 - Eden Leicester.jpg",
+    imageThree:
+    "../images/work/Eden_Leicester_19148724_3 - Eden Leicester.jpg",
+    imageFour:
+    "../images/work/Eden_Leicester_19148724_4 - Eden Leicester.jpg",
+    imageFive:
+    "../images/work/Eden_Leicester_19148724_5 - Eden Leicester.jpg",
+    imageSix:
+    "../images/work/Eden_Leicester_19148724_6 - Eden Leicester.jpg"
   },
   {
     studentNumber: "19749253",
@@ -739,7 +819,7 @@ export const Graduates = [
     major: "Animation and Game Design",
     bio: "Attending a visual art specialist high school, I wanted to do something that I know I would want to do and enjoy. Animation and Game Design was just that. Going to Curtin University for the Animation and Game Design course really helped me to focus on the skills I need and experience the things that would push me to higher steps. With these new skills and experiences that I have gained and will gain, I hope to create the things that other people would enjoy just as much as I enjoyed other's.",
     tagLine: '"There are no accidents." - Master Oogway',
-    portfolio: "",
+    portfolio: "https://www.artstation.com/yaeramkim5",
     linkedin: "https://www.linkedin.com/in/yaeram-kim-a1b270181/",
     instagram: "https://www.instagram.com/yaeramk/?hl=en",
     twitter: "",
@@ -749,8 +829,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19749253_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19749253_YKim_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1zROtReRaZdY9XSiPc_lODJzSHqP2d8YP, https://drive.google.com/open?id=1lGe7VtmoM-pjEPxhM0k1FCdcVbiriIBO, https://drive.google.com/open?id=11EYCnvSWwjsPbdJJnK-ZcagHjij6DCA9, https://drive.google.com/open?id=1D1P7J4VEF9Bs_AYcGGHk1lOj97m-M4f7, https://drive.google.com/open?id=1rGDHh-khpHaM-jf2APbC1DxQrQ8f8npb, https://drive.google.com/open?id=1XcKrEdWleYvJpCFf2morNTakG2mVhObx",
+    imageOne:
+    "../images/work/Yaeram_Kim_19749253_1 - yaeram kim.png",
+    imageTwo:
+    "../images/work/Yaeram_Kim_19749253_2 - yaeram kim.png",
+    imageThree:
+    "../images/work/Yaeram_Kim_19749253_3 - yaeram kim.png",
+    imageFour:
+    "../images/work/Yaeram_Kim_19749253_4 - yaeram kim.png",
+    imageFive:
+    "../images/work/Yaeram_Kim_19749253_5 - yaeram kim.JPG",
+    imageSix:
+    "../images/work/Yaeram_Kim_19749253_6 - yaeram kim.JPG"
   },
   {
     studentNumber: "19762328",
@@ -760,7 +850,7 @@ export const Graduates = [
     major: "Graphic Design",
     bio: "Hi, I'm Lily and I specialise in innovative brand strategy solutions for small businesses in the hospitality industry. I enjoy creating vibrant and bold design solutions that challenge the norm, and break stereotypes. Above all, I value empathy, and believe empathy should lead all design solutions. Branding for the hospitality industry is truly my calling due to the fact I have five years of experience in the industry, mostly as a barista. In many ways, working in a café has many similarities to delivering a project. Be efficient, put the customer first and always remember the small details, even if it is a quarter sugar in your flat white. ",
     tagLine: "Small Places, Big Ideas.",
-    portfolio: "",
+    portfolio: "https://www.instagram.com/lilybelle.design/",
     linkedin: "https://www.linkedin.com/in/lilybelle-tarr-585164175/",
     instagram: "https://www.instagram.com/lilybelle.design/",
     twitter: "",
@@ -770,8 +860,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19762328_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19762328_LTarr_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1EQUQnsI7ZLI0e0cMKPWRVfDWYYlYtkuK, https://drive.google.com/open?id=1RcGHW6rFJZJUr-yUjNsBDlodGIoHVET1, https://drive.google.com/open?id=1xRsjyLLJn0Vw8G-1TewukQu8sFRmmzW-, https://drive.google.com/open?id=1w3nXFufZ_INfcDkJdl9vnhBEZp9B_AKG, https://drive.google.com/open?id=1wm_GMjH8_FPueGSEK9T2OrkvY3txwANa, https://drive.google.com/open?id=1TcuG1Pl9mRGUEFqolcsCLGy3B0LQ3QOP",
+    imageOne:
+    "../images/work/Lilybelle_Tarr_19762328_1 - Lilybelle tarr.jpg",
+    imageTwo:
+    "../images/work/Lilybelle_Tarr_19762328_2 - Lilybelle tarr.jpg",
+    imageThree:
+    "../images/work/Lilybelle_Tarr_19762329_3 - Lilybelle tarr.jpg",
+    imageFour:
+    "../images/work/Lilybelle_Tarr_19762328_4 - Lilybelle tarr.jpg",
+    imageFive:
+    "../images/work/Lilybelle_Tarr_19762328_5 - Lilybelle tarr.jpg",
+    imageSix:
+    "../images/work/Lilybelle_Tarr_19762328_6 - Lilybelle tarr.jpg"
   },
   {
     studentNumber: "19790316",
@@ -791,8 +891,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19790316_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19790316_JCabral_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1O7LkDQMIciWorxGkU5329kKaeSoTApw1, https://drive.google.com/open?id=1UrNcQW2AYoYqOsHUHO-9Zm-eqVutWtbk, https://drive.google.com/open?id=1df-WqIUGqj6yZzNGhbCjgxgDkVX9GeU8, https://drive.google.com/open?id=1w61taUdp_VdF3Ll7Sh1lJ6IW5Bc_qnjS, https://drive.google.com/open?id=1qfHSMbVharXlJVUgQv-5Z721RrmKqzDN, https://drive.google.com/open?id=1DFvi-t0Iw7LdSh8MrNk1b5pY80PYlOpI",
+    imageOne:
+    "../images/work/Jekko_Cabral_19790316_1 - J C.jpg",
+    imageTwo:
+    "../images/work/Jekko_Cabral_19790316_2 - J C.jpg",
+    imageThree:
+    "../images/work/Jekko_Cabral_19790316_3 - J C.jpg",
+    imageFour:
+    "../images/work/Jekko_Cabral_19790316_4 - J C.jpg",
+    imageFive:
+    "../images/work/Jekko_Cabral_19790316_5 - J C.jpg",
+    imageSix:
+    "../images/work/Jekko_Cabral_19790316_6 - J C.jpg"
   },
   {
     studentNumber: "19918406",
@@ -812,8 +922,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19918406_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19918406_NDakin_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1fDCFCRld_AjuHh0QjsDEe30OA06xRgKP, https://drive.google.com/open?id=1C4nQxnHedY2zH-AflvrewAerCvIsRvYO, https://drive.google.com/open?id=10GYUR52-HnjYJhKPTbyWiktOv3CDhXv5, https://drive.google.com/open?id=1pdhI56TpXMzyJgklYcSPZ8OYL1PPLuVH, https://drive.google.com/open?id=1XGlN1dhIiruhtsTOB9ncy3fFsQo8t3SJ, https://drive.google.com/open?id=1GpVahrfJE4RPgxHXdipIdyw1aDx-W6B-",
+    imageOne:
+    "../images/work/Nina_Dakin_19918406_1 - Nina Dakin.jpg",
+    imageTwo:
+    "../images/work/Nina_Dakin_19918406_2 - Nina Dakin.jpg",
+    imageThree:
+    "../images/work/Nina_Dakin_19918406_3 - Nina Dakin.jpg",
+    imageFour:
+    "../images/work/Nina_Dakin_19918406_4 - Nina Dakin.jpg",
+    imageFive:
+    "../images/work/Nina_Dakin_19918406_5 - Nina Dakin.jpg",
+    imageSix:
+    "../images/work/Nina_Dakin_19918406_6 - Nina Dakin.jpg"
   },
   {
     studentNumber: "19770295",
@@ -824,7 +944,7 @@ export const Graduates = [
     bio: "You ever had an idea in your head and wanted to make it a reality? Turn it into something more than just a fleeting thought shelved in an imaginary locker in your brain never to see the light of day? That's what led me here. That and because this degree have no exams. The chance to make something that will put people through a roller coaster of visual and emotional spectacle that leaves them with something new, or being a viewer yourself and being inspired by the work of others. What am I drawn to make? Things involving 3D modelling and illustration, especially stylised works that integrate both 2D and 3D elements. The charm of the design field is how each step is a stairway of growth as you experiment, fail, learn and improve your craft, because your mediocre work today is what leads to your magnum opus tomorrow. Its hard to gauge just how passionate you are at something, but when you get excited at the render finally looking just right by willingly staying up till 3AM, its hard to say you're not invested. Not everyone have the opportunity to turn passion into profession, so its best to try and make the most of it.\n\nAnd remember, stay hydrated.\n\n- Sincerely, me at 3AM\n",
     tagLine:
       '"Remember to check your settings before rendering" - Sun Tzu, Art of War',
-    portfolio: "Currently trapped in rendering purgatory",
+    portfolio: "https://www.artstation.com/daffarizkiadi",
     linkedin: "https://www.linkedin.com/in/daffa-rizkiadi-444b63204/",
     instagram: "",
     twitter: "",
@@ -834,8 +954,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19770295_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19770295_DRizkiadi_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1AIXADslEOhhSlus4av6e3XAFw5g3jnW0, https://drive.google.com/open?id=1wIfrebjLFLWs9klucF1p6DfUNpLjtV3Y, https://drive.google.com/open?id=1RMfJ_ZRguUdb5PEZwG4S1I--FDhuP5B8, https://drive.google.com/open?id=1yIs_K9_KGxvyCJJGK3AkTK0x7gsXyNub, https://drive.google.com/open?id=1lOeVNKCYeVwtGjQm9qJy3z53dfGHVTRr, https://drive.google.com/open?id=1v4qIJh1YTbSizZnEEhM1WtATPGJ_HkYs",
+    imageOne:
+    "../images/work/Daffa_Rizkiadi_19770295_1 - Daffa Rizkiadi.jpg",
+    imageTwo:
+    "../images/work/Daffa_Rizkiadi19770295_2 - Daffa Rizkiadi.jpg",
+    imageThree:
+    "../images/work/Daffa_Rizkiadi_19770295_3 - Daffa Rizkiadi.jpg",
+    imageFour:
+    "../images/work/Daffa_Rizkiadi_19770295_4 - Daffa Rizkiadi.jpg",
+    imageFive:
+    "../images/work/Daffa_Rizkiadi_19770295_5 - Daffa Rizkiadi.jpg",
+    imageSix:
+    "../images/work/Daffa_Rizkiadi_19770295_6 - Daffa Rizkiadi.jpg"
   },
   {
     studentNumber: "19467092",
@@ -855,8 +985,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateBags/_DSC1383.jpg",
     avatarTwo: "./images/graduateBags/_DSC1380.jpg",
-    images:
-      "https://drive.google.com/open?id=1YQE_SQfFYGk7uovxjRXYUVNtGtqirDVY, https://drive.google.com/open?id=1HHQavD8VzJhBSg9lv4wu3imvpLvqnLbj, https://drive.google.com/open?id=1NyqiHtPZfi_XaJ0bdNciBMptCFEgc4fL, https://drive.google.com/open?id=1CgSbAj4veeBMRfECypzpN8FB0s5zyKec, https://drive.google.com/open?id=1yRqhRZxuvjlkS__b0oy6d33WNQM2vplq, https://drive.google.com/open?id=1Qo23yW5imu5ihDGYKd8vR0anv4HCpGg8",
+    imageOne:
+    "../images/work/Julian_Osborn_19467092_1 - Jippy.jpg",
+    imageTwo:
+    "../images/work/Julian_Osborn_19467092_2 - Jippy.jpg",
+    imageThree:
+    "../images/work/Julian_Osborn_19467092_3 - Jippy.jpg",
+    imageFour:
+    "../images/work/Julian_Osborn_19467092_4 - Jippy.jpg",
+    imageFive:
+    "../images/work/Julian_Osborn_19467092_5 - Jippy.jpg",
+    imageSix:
+    "../images/work/Julian_Osborn_19467092_6 - Jippy.jpg"
   },
   {
     studentNumber: "17373236",
@@ -876,8 +1016,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/17373236_alt.jpg",
     avatarTwo: "./images/graduateAvatars/17373236_EHarding_main.jpg",
-    images:
-      "https://drive.google.com/open?id=15LPXURiarm-mABu5wrIN22KgE9G3sahm, https://drive.google.com/open?id=1IRY5iDGP0nVFbg0JTE09ts9EERAsh1Yh, https://drive.google.com/open?id=1EbwYfoUZv0IKptRXUvdFmUDHO6opKz_2, https://drive.google.com/open?id=1_GLPNYsbzlsQOWfaCmDBtZEHH3nAbstH, https://drive.google.com/open?id=1hu3Fz8eqqoB61IcH6yWtGtHpjicZYbiV, https://drive.google.com/open?id=1yOe7BpK6i0TbzrBZAQdpRx-RhDvjhtjp",
+    imageOne:
+    "../images/work/Emily_Harding_17373236_1 - Emily Harding.jpg",
+    imageTwo:
+    "../images/work/Emily_Harding_17373236_2 - Emily Harding.jpg",
+    imageThree:
+    "../images/work/Emily_Harding_17373236_3 - Emily Harding.jpg",
+    imageFour:
+    "../images/work/Emily_Harding_17373236_4 - Emily Harding.jpg",
+    imageFive:
+    "../images/work/Emily_Harding_17373236_5 - Emily Harding.jpg",
+    imageSix:
+    "../images/work/Emily_Harding_17373236_6 - Emily Harding.jpg"
   },
   {
     studentNumber: "19449087",
@@ -898,8 +1048,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19449087_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19449087_MGilmoor_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1gAm5t7ru8NSZhtymYrVrswk3wkTurvc_, https://drive.google.com/open?id=1tow5MHIII69MENnsZUdP7Qd4lN2wtTAM, https://drive.google.com/open?id=18LFw4SVN8bfJedmwajXnvSA7Njsjn89u, https://drive.google.com/open?id=1gX1TcV3Naf4Z_BScZ3RtaZXpvngQq6ok, https://drive.google.com/open?id=114iK3PJL1KZAE6rdGS2-ANT7zmaOjhl5, https://drive.google.com/open?id=1x0U7pFI6_V9DjeiDLV8BwG6tKIKFV_wL",
+    imageOne:
+    "../images/work/Matthew_Gilmour_19449087_1 - Matthew Gilmour.jpg",
+    imageTwo:
+    "../images/work/Matthew_Gilmour_19449087_2 - Matthew Gilmour.jpg",
+    imageThree:
+    "../images/work/Matthew_Gilmour_19449087_3 - Matthew Gilmour.jpg",
+    imageFour:
+    "../images/work/Matthew_Gilmour_19449087_4 - Matthew Gilmour.jpg",
+    imageFive:
+    "../images/work/Matthew_Gilmour_19449087_5 - Matthew Gilmour.jpg",
+    imageSix:
+    "../images/work/Matthew_Gilmour_19449087_6 - Matthew Gilmour.jpg"
   },
   {
     studentNumber: "19131148",
@@ -919,8 +1079,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19131148_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19131158_JFoti_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1o9CUREyKesbJbE2SNBIzejjbY2-0w4bI, https://drive.google.com/open?id=1niO-5zMMxqHjSDIXhuyWDlfyuC71QtGq, https://drive.google.com/open?id=1TLuBBpPxGgSSMcEmurhpTkWWwGeYSDpl, https://drive.google.com/open?id=1dWJUiQI3Gv_FizbUxtSLzYHGh0beuTBQ, https://drive.google.com/open?id=1KnXd56xQzJAlQkjXBdkBKF5AaR5HcUPE, https://drive.google.com/open?id=1H7yCvPLi2yhNBhsRWZkSXHVcwJrNuYg0",
+    imageOne:
+    "../images/work/Joshua_Foti_19131148_1 - lilvinci.jpg",
+    imageTwo:
+    "../images/work/Joshua_Foti_19131148_2 - lilvinci.jpg",
+    imageThree:
+    "../images/work/Joshua_Foti_19131148_3 - lilvinci.jpg",
+    imageFour:
+    "../images/work/Joshua_Foti_19131148_4 - lilvinci.jpg",
+    imageFive:
+    "../images/work/Joshua_Foti_19131148_5 - lilvinci.jpg",
+    imageSix:
+    "../images/work/Joshua_Foti_19131148_6 - lilvinci.jpg"
   },
   {
     studentNumber: "19783853",
@@ -941,8 +1111,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19783853_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19783853_OLalacci_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1tC2Kqj8bjuE9lJ1WKF007rVjYybtjqmR, https://drive.google.com/open?id=1TXSRvu9Ro8i1yJpZJhuyL8HNv46LwB3A, https://drive.google.com/open?id=1JLjOHXyn1kRLZ5oUPNPCE-31HSv0XPTY, https://drive.google.com/open?id=1Fy-05qrKQQP7rgvA6iu_rMXz6i7zPI6M, https://drive.google.com/open?id=1urgT3PxWhCoR8yXOw30xslM-opDTwTRO, https://drive.google.com/open?id=1Bnuz2p-KJfuoIfu2IKUa5l_Xp0B7YTvh",
+    imageOne:
+    "../images/work/Olivia_Ialacci_19783853_1 - Olivia Ialacci.jpg",
+    imageTwo:
+    "../images/work/Olivia_Ialacci_19783853_2 - Olivia Ialacci.jpg",
+    imageThree:
+    "../images/work/Olivia_Ialacci_19783853_3 - Olivia Ialacci.jpg",
+    imageFour:
+    "../images/work/Olivia_Ialacci_19783853_4 - Olivia Ialacci.jpg",
+    imageFive:
+    "../images/work/Olivia_Ialacci_19783853_5 - Olivia Ialacci.jpg",
+    imageSix:
+    "../images/work/Olivia_Ialacci_19783853_6 - Olivia Ialacci.jpg"
   },
   {
     studentNumber: "19501903",
@@ -963,8 +1143,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19501903_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19501903_STill_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1TiJAHYYc6Bxy6f94gkzKTZJEogIKuge0, https://drive.google.com/open?id=1g-aC626phQskRmJMmLsJ9n2cAruAylxj, https://drive.google.com/open?id=1RqIVSSFmDfwYMNMPyqDmIDBEdxl82DZ_, https://drive.google.com/open?id=19yHp3Ey4x8cWcNol2gOqylT1YkdrKKYM, https://drive.google.com/open?id=1ZZlKTLMPX8ZsDo_7VU3dzNq4sLJmSbLK, https://drive.google.com/open?id=1m4lf9FC9QhQ-33zSDZQbJEcQkn6Z6sUb",
+    imageOne:
+    "../images/work/Sophie_Till_19501903_1 - Sophie Till.jpg",
+    imageTwo:
+    "../images/work/Sophie_Till_19501903_2 - Sophie Till.jpg",
+    imageThree:
+    "../images/work/Sophie_Till_19501903_3 - Sophie Till.jpg",
+    imageFour:
+    "../images/work/Sophie_Till_19501903_4 - Sophie Till.jpg",
+    imageFive:
+    "../images/work/Sophie_Till_19501903_5 - Sophie Till.jpg",
+    imageSix:
+    "../images/work/Sophie_Till_19501903_6 - Sophie Till.jpg"
   },
   {
     studentNumber: "17817860",
@@ -982,9 +1172,20 @@ export const Graduates = [
     artStation: "https://www.artstation.com/alex_berti_a",
     behance: "",
     dribbble: "",
-    images: "",
     avatarOne: "./images/graduateAvatars/17817860_alt.jpg",
     avatarTwo: "./images/graduateAvatars/17817860_ABertilone_main.jpg",
+    imageOne:
+    "../images/work/Alex_Bertilone_17817860_1 - Alex Bertilone.jpg",
+    imageTwo:
+    "../images/work/Alex_Bertilone_17817860_2 - Alex Bertilone.jpg",
+    imageThree:
+    "../images/work/Alex_Bertilone_17817860_3 - Alex Bertilone.jpg",
+    imageFour:
+    "../images/work/Alex_Bertilone_17817860_4 - Alex Bertilone.jpg",
+    imageFive:
+    "../images/work/Alex_Bertilone_17817860_5 - Alex Bertilone.jpg",
+    imageSix:
+    ""
   },
   {
     studentNumber: "19157254",
@@ -994,9 +1195,9 @@ export const Graduates = [
     major: "Graphic Design",
     bio: "From a young age, since I first discovered photoshop and all of the wondrous things I could create, I just haven’t stopped. Through a bubbly and bright vision, I hope to bring a splash of creativity to every project that I design. A practice of mine is learning random facts and trivia about the world and applying them to my design process. I love to bring projects to life through unique and exciting choices while still maintaining a sense of balance. Specifically, I tend to gravitate towards packaging and branding with illustration based designs. Through applying all of my passion and experience I can successfully tackle any design project thrown my way. \n\n",
     tagLine: "Only a Newby in name, not in Design.",
-    portfolio: "",
+    portfolio: "https://www.instagram.com/humble_bee_design",
     linkedin: "",
-    instagram: "humble_bee_design",
+    instagram: "https://www.instagram.com/humble_bee_design",
     twitter: "",
     vimeo: "",
     artStation: "",
@@ -1004,8 +1205,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19157254_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19157254_ENewby_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1vknmDTs0g88-W-Q5Nb7UUkLOpGlw-OZn, https://drive.google.com/open?id=18JNtb4sWQGwrVn6wEs1IhMR8j4Ybuni9, https://drive.google.com/open?id=1eaop2fwL7otVZczh0GsU6RcK7vbnGVEg, https://drive.google.com/open?id=19iGhKg9DA4kbDhZA-0SAhbTg-LmQ2UEA, https://drive.google.com/open?id=1eyCD0eYY9t0fJ5E6HqEcyN6Caa0RE_AD, https://drive.google.com/open?id=13DEDpcYYrGFq8gyruPBkAfminNuB1ifk",
+    imageOne:
+    "../images/work/Eleyna_Newby_19157254_1 - Elle Rose.jpg",
+    imageTwo:
+    "../images/work/Eleyna_Newby_19157254_2 - Elle Rose.jpg",
+    imageThree:
+    "../images/work/Eleyna_Newby_19157254_3 - Elle Rose.jpg",
+    imageFour:
+    "../images/work/Eleyna_Newby_19157254_4 - Elle Rose.jpg",
+    imageFive:
+    "../images/work/Eleyna_Newby_19157254_5 - Elle Rose.jpg",
+    imageSix:
+    "../images/work/Eleyna_Newby_19157254_6 - Elle Rose.jpg"
   },
   {
     studentNumber: "19454722",
@@ -1025,8 +1236,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19454722_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19454722_MHorler_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1OyJN4xzudWQPj87eCpLAdt3cwAMmUzQ1, https://drive.google.com/open?id=1gZs625dLvsRZIAULNsOO96sVRLp71kz4, https://drive.google.com/open?id=1IjPeS-FwYeHc5JpHRSoB-Mhg7q06GL_7, https://drive.google.com/open?id=1qUG1TJL5QUQQg8TPNCmm0mjkO3HNMBSl, https://drive.google.com/open?id=1utN1bUq-ameJyE5smcEUl2VbkOjoWiPv, https://drive.google.com/open?id=14v-0mtvZaxu6ly6UIaJksKQJ_axFC1N7",
+    imageOne:
+    "../images/work/Madi_Horler_19454722_1 - Madison Horler.jpg",
+    imageTwo:
+    "../images/work/Madi_Horler_19454722_2 - Madison Horler.jpg",
+    imageThree:
+    "../images/work/Madi_Horler_19454722_3 - Madison Horler.jpg",
+    imageFour:
+    "../images/work/Madi_Horler_19454722_4 - Madison Horler.jpg",
+    imageFive:
+    "../images/work/Madi_Horler_19454722_5 - Madison Horler.jpg",
+    imageSix:
+    "../images/work/Madi_Horler_19454722_6 - Madison Horler.jpg"
   },
   {
     studentNumber: "19606154",
@@ -1046,8 +1267,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19606154_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19606154_GRidarta_main.jpg",
-    images:
-      "https://drive.google.com/open?id=11BUCTpR-nnLkAE_VtAhylWlKmnDANHPu, https://drive.google.com/open?id=1JwvzsaKxeg_5gXBCWD1uF6HrHWl0Tnq5, https://drive.google.com/open?id=1Dnc4L1hXEd7_cQ67ycV8lLUef45jUoDY, https://drive.google.com/open?id=1xD0u1tH1S9G_lY7pl5NFw3_s7A-Vvw0N, https://drive.google.com/open?id=1gvCiVRH0Z4Huj7f_PCPzJvSNlbqdY-vo",
+    imageOne:
+    "../images/work/Ghassani_Ridarta_19606154_1 - Ghassani A Ridarta.jpg",
+    imageTwo:
+    "../images/work/Ghassani_Ridarta_19606154_2 - Ghassani A Ridarta.jpg",
+    imageThree:
+    "../images/work/Ghassani_Ridarta_19606154_3 - Ghassani A Ridarta.jpg",
+    imageFour:
+    "../images/work/Ghassani_Ridarta_19606154_4 - Ghassani A Ridarta.jpg",
+    imageFive:
+    "../images/work/Ghassani_Ridarta_19606154_5 - Ghassani A Ridarta.jpg",
+    imageSix:
+    ""
   },
   {
     studentNumber: "19490085",
@@ -1068,8 +1299,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19490085_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19490085_DMusarra_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1ANhp4wQDZpFuHl_Zqq39K_VPuI2NpUMc, https://drive.google.com/open?id=1ahdpcHH2FjAgD8cjY4UkLwCYWxS42tiJ, https://drive.google.com/open?id=1yMQO6ihgGbJPI1tpUPf5hvwQ0E3mFmwX, https://drive.google.com/open?id=1t9AIM1m61EQQGyDzsqFQ3sXb3XIPcd80, https://drive.google.com/open?id=1TeRNC7YLULcO3YHPPtR7b4sRFETCFlwm, https://drive.google.com/open?id=1jPsTB5yL2WLRUtYVg3awuopukcI3lL2c",
+    imageOne:
+    "../images/work/Danielle_Musarra_19490085_1 - Danielle Musarra.jpg",
+    imageTwo:
+    "../images/work/Danielle_Musarra_19490085_2 - Danielle Musarra.jpg",
+    imageThree:
+    "../images/work/Danielle_Musarra_19490085_3 - Danielle Musarra.jpg",
+    imageFour:
+    "../images/work/Danielle_Musarra_19490085_4 - Danielle Musarra.jpg",
+    imageFive:
+    "../images/work/Danielle_Musarra_19490085_5 - Danielle Musarra.jpg",
+    imageSix:
+    "../images/work/Danielle_Musarra_19490085_6 - Danielle Musarra.jpg"
   },
   {
     studentNumber: "19963587",
@@ -1089,8 +1330,18 @@ export const Graduates = [
     dribbble: "https://dribbble.com/EllaMatt/about",
     avatarOne: "./images/graduateAvatars/19963587_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19963587_EMatthews_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1srjm_d9tvF8DvFfLtEzaBl6dL8A5a_4k, https://drive.google.com/open?id=1nZk-azC-bJgBihaDqzPtN5DHqjVo1aZv, https://drive.google.com/open?id=14_1SzBg_NRu0w1JIRbw4zPI-D7FNi114, https://drive.google.com/open?id=1ko07maT6m_9yUnlknsnTG_Es7IPyMe5t",
+    imageOne:
+    "../images/work/Ella_Matthews_19963587_1 - Ella Matthews.jpg",
+    imageTwo:
+    "../images/work/Ella_Matthews_19963587_2 - Ella Matthews.jpg",
+    imageThree:
+    "../images/work/Ella_Matthews_19963587_3 - Ella Matthews.jpg",
+    imageFour:
+    "../images/work/Ella_Matthews_19963587_4 - Ella Matthews.jpg",
+    imageFive:
+    "",
+    imageSix:
+    ""
   },
   {
     studentNumber: "19133225",
@@ -1110,8 +1361,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19133225_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19133225_AMarbeck_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1nxb6FtRl9pwCB5CHT7a6hcW0JMsU0hhN, https://drive.google.com/open?id=18tLMdWhF-bV1tZXwf9KS8CZ5nwFjhUTL, https://drive.google.com/open?id=1Wl0S16kdqL9z5SLh6_E-w7oQ8Izw0isq, https://drive.google.com/open?id=1IV8j9C5W2RVdTrMxhhp5MhZIwGXQxPcf, https://drive.google.com/open?id=1stXdIvsQ1iTWvkoMnI4LPip_8TL9zmPD, https://drive.google.com/open?id=1ac3X5IpFhxZ597lvIPCyApPyZx3oJJgk",
+    imageOne:
+    "../images/work/AlexandraMarbeck_19133225_1 - ali marbeck.jpg",
+    imageTwo:
+    "../images/work/AlexandraMarbeck_19133225_3 - ali marbeck.jpg",
+    imageThree:
+    "../images/work/AlexandraMarbeck_19133225_4 - ali marbeck.jpg",
+    imageFour:
+    "../images/work/AlexandraMarbeck_19133225_5 - ali marbeck.jpg",
+    imageFive:
+    "../images/work/AlexandraMarbeck_19133225_6 - ali marbeck.jpg",
+    imageSix:
+    "../images/work/Alexnadra_Marbeck_19133225_2 - ali marbeck.jpg"
   },
   {
     studentNumber: "19749402",
@@ -1121,7 +1382,7 @@ export const Graduates = [
     major: "Graphic Design",
     bio: "To put this simply, I am a daydreamer - seeing things that aren't there. While my head is in the clouds, I aspire to be a brand builder, providing a specialised approach catering to the needs and interests of younger audiences. I wish to focus on sustainable practices during design production - a reduction of waste through the creation of timeless, functional and dynamic designs. It's time to make the world just a bit more whimsical through the enchanting nature of design.",
     tagLine: "Crafting something out of nothing.",
-    portfolio: "",
+    portfolio: "https://www.instagram.com/incwhimsy/",
     linkedin: "",
     instagram: "https://www.instagram.com/incwhimsy/",
     twitter: "",
@@ -1131,8 +1392,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19749402_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19749402_GPortelli_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1KHq02F49dNLA8PWUSiLWCvAj05I-SgjQ, https://drive.google.com/open?id=1c1WaWf2pwPeIGhFbUyNacGruKX-HHQdZ, https://drive.google.com/open?id=1rOXlX6TBW1jGgLMpJXw7hNgdNAxVxrGV, https://drive.google.com/open?id=1EScxAT4O6PqJA5_o-xxrD88W0eJFwhkf, https://drive.google.com/open?id=1BmvkvSChmELiRjZcMS2ZUT_Bu50uHEjY, https://drive.google.com/open?id=1INk2i-ZX8Zcrae2yI1bVtYFRrbxyi6wD",
+    imageOne:
+    "../images/work/Gia_Portelli_19749402_1 - Gia Portelli.jpg",
+    imageTwo:
+    "../images/work/Gia_Portelli_19749402_2 - Gia Portelli.jpg",
+    imageThree:
+    "../images/work/Gia_Portelli_19749402_3 - Gia Portelli.jpg",
+    imageFour:
+    "../images/work/Gia_Portelli_19749402_4 - Gia Portelli.jpg",
+    imageFive:
+    "../images/work/Gia_Portelli_19749402_5 - Gia Portelli.jpg",
+    imageSix:
+    "../images/work/Gia_Portelli_19749402_6 - Gia Portelli.jpg"
   },
   {
     studentNumber: "19451231",
@@ -1152,8 +1423,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19451231_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19451231_JAtizado_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1LiwB9hL_NSqbDjvq9Nmz37ZiyjXDZBhp, https://drive.google.com/open?id=1NLu0Glgx1amMR9KhfCJP8gusNCu3KAgE, https://drive.google.com/open?id=11C3f5_DJrcweMVi3G9nyBhf9MHDaEEnL, https://drive.google.com/open?id=175gsVWR5AXACH-tPAQuTNRdhr4kyn6BZ",
+    imageOne:
+    "../images/work/Joaquin_Atizado_1451231_1 - Joaquin Atizado.jpeg",
+    imageTwo:
+    "../images/work/Joaquin_Atizado_1451231_2 - Joaquin Atizado.jpg",
+    imageThree:
+    "../images/work/Joaquin_Atizado_1451231_4 - Joaquin Atizado.jpg",
+    imageFour:
+    "../images/work/Joaquin_Atizado_1451231_5 - Joaquin Atizado.jpg",
+    imageFive:
+    "",
+    imageSix:
+    ""
   },
   {
     studentNumber: "18451382",
@@ -1173,8 +1454,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/18451382_alt.jpg",
     avatarTwo: "./images/graduateAvatars/18451382_CGeyer_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1fv_BrBXjyad2o4ee-COYpIXYDDve-dvt, https://drive.google.com/open?id=12SGPGH2I_SbUzhu50xUyfUJ7L38ltsEW, https://drive.google.com/open?id=1N64Owe4WondGEwDOTHHyMiwuwxiI2Y5n, https://drive.google.com/open?id=19s3ECILM2i09jlGQSBRjL2g6Aai9rIV-, https://drive.google.com/open?id=1-ld0h9xz0x-xOpk3OXh1fHu5lsNPoGkH, https://drive.google.com/open?id=1zBz0Fmh57ntDxxlRqfv63h3-uRKeI2EA",
+    imageOne:
+    "../images/work/Cooper_Geyer_18451382_1 - Cooper Geyer.png",
+    imageTwo:
+    "../images/work/Cooper_Geyer_18451382_2 - Cooper Geyer.png",
+    imageThree:
+    "../images/work/Cooper_Geyer_18451382_3 - Cooper Geyer.png",
+    imageFour:
+    "../images/work/Cooper_Geyer_18451382_4 - Cooper Geyer.png",
+    imageFive:
+    "../images/work/Cooper_Geyer_18451382_5 - Cooper Geyer.png",
+    imageSix:
+    "../images/work/Cooper_Geyer_18451382_6 - Cooper Geyer.png"
   },
   {
     studentNumber: "19691600",
@@ -1194,8 +1485,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19691600_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19691600_Etey_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1yta0kBZB-j-xOuskc60ScGcW1VoJMFSg, https://drive.google.com/open?id=1dIKG743DpZBeS_ihJd4YeThdrhDMGYIQ, https://drive.google.com/open?id=1_UXQZckdlcjKKQ-7bwankE0-pjkCbzqA, https://drive.google.com/open?id=1U3ZYJfodOFbKecHxR1cjiQXrEVErnDA-, https://drive.google.com/open?id=17YwYw2UotWj7RfuSsX1weXfI9Q10huKV, https://drive.google.com/open?id=170YApwoC5i7kTG5dLde2YX-K40oIMXjv",
+    imageOne:
+    "../images/work/QuenYi_Tey_19691600_1 - Emily Tey.jpg",
+    imageTwo:
+    "../images/work/QuenYi_Tey_19691600_2 - Emily Tey.jpg",
+    imageThree:
+    "../images/work/QuenYi_Tey_19691600_3 - Emily Tey.jpg",
+    imageFour:
+    "../images/work/QuenYi_Tey_19691600_4 - Emily Tey.jpg",
+    imageFive:
+    "../images/work/QuenYi_Tey_19691600_5 - Emily Tey.jpg",
+    imageSix:
+    "../images/work/QuenYi_Tey_19691600_6 - Emily Tey.jpg"
   },
   {
     studentNumber: "19778697",
@@ -1215,8 +1516,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19778697_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19778697_IMaccarthy_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1J1jwOnUm_rTjI45d-9AvBcCX99xfusPU, https://drive.google.com/open?id=1yehLfstt_-8uCRG__6jQnWCrEdcf73TU, https://drive.google.com/open?id=1wZJYEViOIsCQxFP6NS1pYFb8gLSv825U, https://drive.google.com/open?id=1m-nZDtTrVSOYcIE1XHYfz5NyQmKxKs8b, https://drive.google.com/open?id=1wfz8Z0_FbJoOV0X_gsqzHUAI4JTBzPbp, https://drive.google.com/open?id=1raRelBd0Tn-sExczHtYYsKDMFpuyADoD",
+    imageOne:
+    "../images/work/Imogen_McCarthy_19778697_1 - Imogen McCarthy.jpg",
+    imageTwo:
+    "../images/work/Imogen_McCarthy_19778697_2 - Imogen McCarthy.jpg",
+    imageThree:
+    "../images/work/Imogen_McCarthy_19778697_3 - Imogen McCarthy.jpg",
+    imageFour:
+    "../images/work/Imogen_McCarthy_19778697_4 - Imogen McCarthy.jpg",
+    imageFive:
+    "../images/work/Imogen_McCarthy_19778697_5 - Imogen McCarthy.jpg",
+    imageSix:
+    "../images/work/Imogen_McCarthy_19778697_6 - Imogen McCarthy.jpg"
   },
   {
     studentNumber: "19523266",
@@ -1224,9 +1535,9 @@ export const Graduates = [
     lastName: "Mee",
     email: "emilymee@pobox.com",
     major: "Digital Experience and Interaction Design",
-    bio: "Design is deeply personal, powerful and political. The way we shape experiences impacts people in more ways than can be summarized by A/B testing or usage metrics. My main goal as a designer (and human) is to ask tricky questions: In what situations could this product cause harm? Is this experience equally accessible for everyone? How can we better protect users’ digital rights? I don’t know the answers, but I do know that it’s really important to consider the broader impacts of the technologies we design. When I’m not pixel-pushing in Figma, I write policy submissions, create informational primers, make vegan nacho dip, and watch sunsets.",
+    bio: "Hey! I'm Emily and I think design is deeply personal, powerful and political. The way we shape experiences impacts people in more ways than can be summarized by A/B testing or usage metrics. My main goal as a designer (and human) is to ask tricky questions: In what situations could this product cause harm? Is this experience equally accessible for everyone? How can we better protect users’ digital rights? I don’t know the answers, but I do know that it’s really important to consider the broader impacts of the technologies we design. When I’m not pixel-pushing in Figma, I write policy submissions, create informational primers, make vegan nacho dip, and watch sunsets.",
     tagLine:
-      "User experience designer, burrito eater, surveillance capitalism cynic ",
+    "Designer, burrito eater, surveillance capitalism cynic ",
     portfolio: "emilymee.com",
     linkedin: "https://www.linkedin.com/in/emily-mee-8549031b4/",
     instagram: "",
@@ -1237,8 +1548,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19523266_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19523266_EMee_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1cSysbFm96BzovLEXPKPITK_xkjTssTVn, https://drive.google.com/open?id=18HphIjuF55pofv7mcNjYOWllfgw85g5J, https://drive.google.com/open?id=1UdxxxLdqX59LQHe95cSWDnNpChHmVlYQ",
+    imageOne:
+    "../images/work/Emily_Mee_19523266_1 - Emily Mee.png",
+    imageTwo:
+    "../images/work/Emily_Mee_19523266_2 - Emily Mee.png",
+    imageThree:
+    "../images/work/Emily_Mee_19523266_3 - Emily Mee.png",
+    imageFour:
+    "",
+    imageFive:
+    "",
+    imageSix:
+    ""
   },
   {
     studentNumber: "19467322",
@@ -1247,7 +1568,7 @@ export const Graduates = [
     email: "ruitan1520@gmail.com",
     major: "Digital Experience and Interaction Design",
     bio: "Hi, I'm Ruitan. I'm an upbeat, self-motivated team player with excellent communication skills. I'm based in Perth who loves to design interfaces and tackle problems to improve user experience. I'm also keen on always learning new skills, so I'm always on top of trends. I have excellent UI design skills and an excellent understanding of user experience design and research.",
-    tagLine: "Already Submitted ",
+    tagLine: "Already Submitted",
     portfolio: "https://ruitanexpdesign.com/",
     linkedin: "https://www.linkedin.com/in/ruitan-huang/",
     instagram: "https://www.instagram.com/ruitan_uidesign/",
@@ -1258,7 +1579,18 @@ export const Graduates = [
     dribbble: "https://dribbble.com/ruitanexpdesign",
     avatarOne: "./images/graduateAvatars/19467322_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19467322_RHuang_main.jpg",
-    images: "",
+    imageOne:
+    "../images/work/Ruitan_Huang_19467322_2 - Ruitan Huang.jpg",
+    imageTwo:
+    "../images/work/Ruitan_Huang_19467322_4 - Ruitan Huang.jpg",
+    imageThree:
+    "../images/work/Ruitan_Huang_19467322_5 - Ruitan Huang.jpg",
+    imageFour:
+    "",
+    imageFive:
+    "",
+    imageSix:
+    ""
   },
   {
     studentNumber: "19518259",
@@ -1270,7 +1602,7 @@ export const Graduates = [
     tagLine: "Good design creates a lasting impression. ",
     portfolio: "https://emmigraphicdesign.myportfolio.com/",
     linkedin: "https://www.linkedin.com/in/emmigraphicdesign/",
-    instagram: "emmigraphicdesign",
+    instagram: "https://www.instagram.com/emmigraphicdesign",
     twitter: "",
     vimeo: "",
     artStation: "",
@@ -1278,8 +1610,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19518259_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19518259_ERumsa_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1sHETwXL3GQFh8-qsPXi49WMVqmdcPpMB, https://drive.google.com/open?id=1xDMZtO4i2of_OmNlZFZFPcEKoHK4hz03, https://drive.google.com/open?id=1-I55emqEe2Fy2dqy_XYQJWuTEWDf6Ibi, https://drive.google.com/open?id=1RVRyAufoYV5Z7FD6d0lgsEOBL1MP0jxV, https://drive.google.com/open?id=1nzdsgnXIwJHpxARJyaS0MqezftWaBTAC, https://drive.google.com/open?id=1C7Y3fXC6tFvUWamxOyoYtIfxt9xdI_4c",
+    imageOne:
+    "../images/work/Emmi_Rumsa_19518259_1  - Emmi Rumsa.jpg",
+    imageTwo:
+    "../images/work/Emmi_Rumsa_19518259_2 - Emmi Rumsa.jpg",
+    imageThree:
+    "../images/work/Emmi_Rumsa_19518259_3 - Emmi Rumsa.jpg",
+    imageFour:
+    "../images/work/Emmi_Rumsa_19518259_4 - Emmi Rumsa.jpg",
+    imageFive:
+    "../images/work/Emmi_Rumsa_19518259_5 - Emmi Rumsa.jpg",
+    imageSix:
+    "../images/work/Emmi_Rumsa_19518259_6 - Emmi Rumsa.jpg"
   },
   {
     studentNumber: "19490250",
@@ -1299,8 +1641,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19490250_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19490250_BWatson_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1gKqmwb-HV-KZa-1XdxBxh-JNvc5B4vcx, https://drive.google.com/open?id=19-rA4OyPYjSFmzz7SKrAV6XXphMrlUO3, https://drive.google.com/open?id=1kpZzdfrIK7smCtJ306Wpa-3g0pwcazG4, https://drive.google.com/open?id=1htbI1I2hpgc1YdPliTd_4k5FV77u2Tv7",
+    imageOne:
+    "../images/work/Brandon_Watson_19490520_1 - Brandon Watson.jpg",
+    imageTwo:
+    "../images/work/Brandon_Watson_19490520_2 - Brandon Watson.jpg",
+    imageThree:
+    "../images/work/Brandon_Watson_19490520_3 - Brandon Watson.jpg",
+    imageFour:
+    "../images/work/Brandon_Watson_19490520_4 - Brandon Watson.jpg",
+    imageFive:
+    "",
+    imageSix:
+    ""
   },
   {
     studentNumber: "19349611",
@@ -1310,17 +1662,27 @@ export const Graduates = [
     major: "Graphic Design",
     bio: "Identity, Packaging, Illustration.",
     tagLine: "Designing packaging for products I love ",
-    portfolio: "",
+    portfolio: "https://instagram.com/dimitrikoranis.design",
     linkedin: "",
-    instagram: "@dimitrikoranis.design",
+    instagram: "https://instagram.com/dimitrikoranis.design",
     twitter: "",
     vimeo: "",
     artStation: "",
     behance: "",
     dribbble: "",
 
-    images:
-      "https://drive.google.com/open?id=11UdDc2twORv_xdf6Cd2bebTmSk-IGiuo, https://drive.google.com/open?id=1JAF9t_34vzlaKP76I8ag3gvdi0OdOaPw, https://drive.google.com/open?id=1fVl9EOfs3mmWbkK7LHmVzvGujFsyUN3y, https://drive.google.com/open?id=1hh85f5I36LoYOWhqKY2Nzr1okFM0GthJ, https://drive.google.com/open?id=1LAzQOtNE41oKhwTKpDI0b09V9FfqaxhK, https://drive.google.com/open?id=1Olgg6qr6j4UfAp3LcWtflmGuyQQWk_wq",
+    imageOne:
+    "../images/work/dimitri_koranis_19349611_1 - Australia Post.jpg",
+    imageTwo:
+    "../images/work/dimitri_koranis_19349611_2 - Australia Post.jpg",
+    imageThree:
+    "../images/work/dimitri_koranis_19349611_3 - Australia Post.jpg",
+    imageFour:
+    "../images/work/dimitri_koranis_19349611_4 - Australia Post.jpg",
+    imageFive:
+    "../images/work/dimitri_koranis_19349611_5 - Australia Post.jpg",
+    imageSix:
+    "../images/work/dimitri_koranis_19349611_6 - Australia Post.jpg"
   },
   {
     studentNumber: "17978204",
@@ -1340,8 +1702,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/17978204_alt.jpg",
     avatarTwo: "./images/graduateAvatars/17978204_SWang_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1feurN48cOa3_JlzO6Zj-ugntZs9u8L-y, https://drive.google.com/open?id=1qAg9LYi1omfYe6AwpEGEOJCBiz8l7h-t",
+    imageOne:
+    "../images/work/Shining_Wang_17978204_1 - Shining Wang.jpg",
+    imageTwo:
+    "../images/work/Shining_Wang_17978204_2 - Shining Wang.jpg",
+    imageThree:
+    "",
+    imageFour:
+    "",
+    imageFive:
+    "",
+    imageSix:
+    ""
   },
   {
     studentNumber: "19162229",
@@ -1361,8 +1733,18 @@ export const Graduates = [
     dribbble: "dribbble.com/uxbydcosta",
     avatarOne: "./images/graduateAvatars/19162229_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19162229_MCosta_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1vfbGSXeq67k18Grf2Y9ar04-zdKYwVFE, https://drive.google.com/open?id=1sLvBUkfoQqSEjCRE6g4s1Wc2a4Az2PC6, https://drive.google.com/open?id=1PQlJVEwsZZhYVVebmhlrAvon-iBX0FzH, https://drive.google.com/open?id=10ZeJVJD0tyNGyan2upnmMsWip8trZrw1, https://drive.google.com/open?id=1-6-JdZIp57SRs6aAsEZ6WSTDvRMqpzjl, https://drive.google.com/open?id=164Rdw-Dxolp68JJr1489rG3gj6UrvE0v",
+    imageOne:
+    "../images/work/Michael_D_Costa_19162229_1.jpg - Michael D_Costa.jpg",
+    imageTwo:
+    "../images/work/Michael_D_Costa_19162229_2.jpg - Michael D_Costa.jpg",
+    imageThree:
+    "../images/work/Michael_D_Costa_19162229_3.jpg - Michael D_Costa.jpg",
+    imageFour:
+    "../images/work/Michael_D_Costa_19162229_4.jpg - Michael D_Costa.jpg",
+    imageFive:
+    "../images/work/Michael_D_Costa_19162229_5 - Michael D_Costa.jpg",
+    imageSix:
+    "../images/work/Michael_D_Costa_19162229_6 - Michael D_Costa.jpg"
   },
   {
     studentNumber: "19132345",
@@ -1373,16 +1755,26 @@ export const Graduates = [
     bio: "Copywriter and art director, but known to borrow other titles.",
     tagLine:
       "I come up with ideas and make them real, not always in that order.",
-    portfolio: "",
+    portfolio: "https://www.instagram.com/henrymalkovic",
     linkedin: "https://www.linkedin.com/in/henry-malkovic-930a80205/",
-    instagram: "@henrymalkovic",
+    instagram: "https://www.instagram.com/henrymalkovic",
     twitter: "",
     vimeo: "",
     artStation: "",
     behance: "",
     dribbble: "",
-    images:
-      "https://drive.google.com/open?id=17Z5wI_AK4DxGaZsLjix-oTrZWGfAqhrP, https://drive.google.com/open?id=1Istg8xnwEAuPpq3UMuryhwbXVEVDjiqi, https://drive.google.com/open?id=18BjgV8Ndg45kifHuTqnER4Of9Js-49UB, https://drive.google.com/open?id=1u5eObserYq4-lKSI9mG0jB8iqNpNeAJ6, https://drive.google.com/open?id=16zKHVq5OY30HyRVjo-sRATyCZVYfWjEl, https://drive.google.com/open?id=1o7cfO1ENEPBBnW2cFdoJP62GOFykrLk7",
+    imageOne:
+    "../images/work/Henry_Malkovic_19132345_ - Henry M.jpg",
+    imageTwo:
+    "../images/work/Henry_Malkovic_19132345_2 - Henry M.jpg",
+    imageThree:
+    "../images/work/Henry_Malkovic_19132345_3 - Henry M.jpg",
+    imageFour:
+    "../images/work/Henry_Malkovic_19132345_4 - Henry M.jpg",
+    imageFive:
+    "../images/work/Henry_Malkovic_19132345_5 - Henry M.jpg",
+    imageSix:
+    "../images/work/Henry_Malkovic_19132345_6 - Henry M.jpg"
   },
   {
     studentNumber: "19754202",
@@ -1393,7 +1785,7 @@ export const Graduates = [
     bio: "Hey! I'm a creative who specialises in Graphic Design and Brand Strategy. This means I love empowering new and existing brands to help create or improve their brand strategy and visual identity. I'm passionate about design that is functional, engaging and suitable for its original purpose. (I'm also a huge sneaker enthusiast and pasta lover). I strive to bring excellence and a tenacious work ethic to everything I work on, bringing my unique perspective and learning everyone else's. I love collaborating alongside people and building a healthy and mutually benefiting relationship that extends far beyond a simple contract or transactional connection. I strongly believe that with any project, genuine empathy is the key to understanding problems, audiences and solutions. Above all I am passionate about what I do because I know it has the opportunity to help grow and mature people's dreams into realities, and as an avid dreamer myself, it's a joy to help bring them to life.",
     tagLine:
       "Graphic Designer & Brand Strategist who loves people and sneakers.",
-    portfolio: "",
+    portfolio: "https://www.instagram.com/houseof.lostudio/",
     linkedin: "https://www.linkedin.com/in/zac-lo-87041720a/",
     instagram: "https://www.instagram.com/houseof.lostudio/",
     twitter: "",
@@ -1403,8 +1795,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19754202_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19754202_ZLo_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1Ctv0lxsxXs1cS0YYcJ1JGtmCqNbml76x, https://drive.google.com/open?id=1kTG92xs-y53hJJNmEkqHsjHq_rapAmgr, https://drive.google.com/open?id=1CKBG9QWDCILA2f2zJkhWT4HeuTr1g87n, https://drive.google.com/open?id=1eWMMhIZNv07yJUuitF8QHXzPW-6evmS-, https://drive.google.com/open?id=1_RA78nRxy9KSOQD6KfGDqI-4Pe_VquMs, https://drive.google.com/open?id=1H4Ks42bJHkydE5C29N9IB7-qv7_oV8h5",
+    imageOne:
+    "../images/work/Zac_Lo_19754202_1 - Zac Lo.jpg",
+    imageTwo:
+    "../images/work/Zac_Lo_19754202_2 - Zac Lo.jpg",
+    imageThree:
+    "../images/work/Zac_Lo_19754202_3 - Zac Lo.jpg",
+    imageFour:
+    "../images/work/Zac_Lo_19754202_4 - Zac Lo.jpg",
+    imageFive:
+    "../images/work/Zac_Lo_19754202_5 - Zac Lo.png",
+    imageSix:
+    "../images/work/Zac_Lo_19754202_6 - Zac Lo.png"
   },
   {
     studentNumber: "19460062",
@@ -1421,12 +1823,21 @@ export const Graduates = [
     vimeo: "",
     artStation: "",
     behance: "",
-    dribbble:
-      "This isn't actually my Dribble link, but needed somewhere to write that my major isn't one of the multiple choices - I'm doing illustration",
-      avatarOne: "./images/graduateAvatars/19460062_alt.jpg",
-      avatarTwo: "./images/graduateAvatars/19460062_CArena_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1BSUjqtZn2f1HZ-I97Srxx5IqNOBrjnU_, https://drive.google.com/open?id=1n7Zj2AZADDCy5Zv0atQClkxZB1P84DYY, https://drive.google.com/open?id=1Uo-MNCmL3CgQiTPr2s9UFgtwnw45slob, https://drive.google.com/open?id=1P4laKKvyEGDVfRcKqA7zQVkpjiH4cxDZ",
+    dribbble: "",
+    avatarOne: "./images/graduateAvatars/19460062_alt.jpg",
+    avatarTwo: "./images/graduateAvatars/19460062_CArena_main.jpg",
+    imageOne:
+    "",
+    imageTwo:
+    "",
+    imageThree:
+    "",
+    imageFour:
+    "",
+    imageFive:
+    "",
+    imageSix:
+    ""
   },
   {
     studentNumber: "19471666",
@@ -1437,7 +1848,7 @@ export const Graduates = [
     bio: "“Hi! My name is Jet. J-E-T. Like the jet-plane in the sky but without the plane.”  I consider myself a generalist. I am willing to investigate, learn and dive into the various areas and fields. I have a keen interest in 3D Modelling, Texturing and Animation. Creating worlds within a 3D space is quite amazing.  Creating VFX excites me, especially 3D that you can find within animation or games. It's amazing creating particles that grow, flow and dissipate magically.  I also dive into UI/UX. A great user interface can really make or break a product and paying attention to the user’s experience is at the heart of all things design.  Although, my main passion is Game Development. I love making a player feel a sense of awe, fun or excitement.  Overall, working for an Animation or Game studio would be a dream for me.  When I work on projects, I also tend to keep a positive, pleasant but still practical attitude and I believe in a good, pleasant team-working environment to be crucial to success.  In my spare time, you can catch me try-harding to reach Rank 1 in a MOBA, shooters, fighting games, or going out to the city with friends and family for lunch or dinner.  See you around! ",
     tagLine:
       "I enjoy creating fake worlds which exist within your screen that make you feel something. ",
-    portfolio: "",
+    portfolio: "https://www.artstation.com/jet_trijo",
     linkedin: "https://www.linkedin.com/in/jet-t/",
     instagram: "https://www.instagram.com/jet.trijo.work/",
     twitter: "https://twitter.com/JetTrijo",
@@ -1447,8 +1858,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19471666_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19471666_JTrijo.jpg",
-    images:
-      "https://drive.google.com/open?id=1iwi-WEh_HtO2flSFBSW8Q1RETBmUkKXr, https://drive.google.com/open?id=1By9c3k-RorsjmasOX-jd-XqO2S9PKgfv, https://drive.google.com/open?id=1eF7rdvPpgPEm69MLS8FfnhFVsqmYPtWQ, https://drive.google.com/open?id=1AvPbwNNQ7bY0AqwnHjiuG5VWUhvpUIDs, https://drive.google.com/open?id=1Hu8KAeIn0Uv7Diuy9l2JY_P4F8wkI2LY, https://drive.google.com/open?id=1Xfld0gl5vW1PJFec1ZIwSENOZnJhKnh6",
+    imageOne:
+    "../images/work/Jet_Trijo_19471666_1 - Jet.jpg",
+    imageTwo:
+    "../images/work/Jet_Trijo_19471666_2 - Jet.jpg",
+    imageThree:
+    "../images/work/Jet_Trijo_19471666_3 - Jet.jpg",
+    imageFour:
+    "../images/work/Jet_Trijo_19471666_4 - Jet.jpg",
+    imageFive:
+    "../images/work/Jet_Trijo_19471666_5 - Jet.jpg",
+    imageSix:
+    "../images/work/Jet_Trijo_19471666_6 - Jet.jpg"
   },
   {
     studentNumber: "19483580",
@@ -1468,8 +1889,18 @@ export const Graduates = [
     dribbble: "",
     avatarOne: "./images/graduateAvatars/19483580_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19483580_KMarks_main.jpg",
-    images:
-      "https://drive.google.com/open?id=1mY1rYnZ2u5qlNsd4YmxzCyEfXvbaukDh, https://drive.google.com/open?id=1jsEfPu3DdNr9YeJp_akbD5JYl4zur2eZ, https://drive.google.com/open?id=1rQ40P66DRHuY0OBqLqhpPkvdmgTVZnIU, https://drive.google.com/open?id=1mgJ-P3NC3HO0dM0CQU-I9UnJL-nbtO2u, https://drive.google.com/open?id=1oAHQmekwhHbzrZqDHeoYk0vQZ2d_0IBS, https://drive.google.com/open?id=1UMufN7Q0IJlRICi4MKbBnaCek6cjsm77",
+    imageOne:
+    "../images/work/Kasey_Marks_19483580_1 - Kasey Marks.jpg",
+    imageTwo:
+    "../images/work/Kasey_Marks_19483580_2 - Kasey Marks.jpg",
+    imageThree:
+    "../images/work/Kasey_Marks_19483580_3 - Kasey Marks.jpg",
+    imageFour:
+    "../images/work/Kasey_Marks_19483580_4 - Kasey Marks.jpg",
+    imageFive:
+    "../images/work/Kasey_Marks_19483580_5 - Kasey Marks.jpg",
+    imageSix:
+    "../images/work/Kasey_Marks_19483580_6 - Kasey Marks.jpg"
   },
   {
     studentNumber: "19490292",
@@ -1481,14 +1912,24 @@ export const Graduates = [
     tagLine: "Connecting Film & Graphics though Design",
     portfolio: "https://emilylowrypd.wixsite.com/productiondesign",
     linkedin: "https://www.linkedin.com/in/emily-lowry-305863193 HpQQ6d0WhA",
-    instagram: "@xem_lowryx",
+    instagram: "https://www.instagram.com/xem_lowryx",
     twitter: "",
     vimeo: "",
     artStation: "",
     behance: "",
     dribbble: "",
-    images:
-      "https://drive.google.com/open?id=1MapstRIOrpfdp42ayElSHB9ndM8ShS-C, https://drive.google.com/open?id=1DOv_TGQNm3ZoQqIFlZVCrut-MTbRlCf0, https://drive.google.com/open?id=1bzhInJhVzjRyBWiIuLLf7_DOx9E5AcDG, https://drive.google.com/open?id=12f4xG1CLfrfmhS0OYggxHrDhkEXCruY_, https://drive.google.com/open?id=106RPISj_KCgutiMzdzHNFxlorJDkgefD, https://drive.google.com/open?id=1R_nA-elBXO-NT4Nhrhi0ZH4_banHnjz-",
+    imageOne:
+    "../images/work/Emily_Lowry_19490292_1 - Em Lowry.jpg",
+    imageTwo:
+    "../images/work/Emily_Lowry_19490292_2 - Em Lowry.png",
+    imageThree:
+    "../images/work/Emily_Lowry_19490292_3 - Em Lowry.png",
+    imageFour:
+    "../images/work/Emily_Lowry_19490292_4 - Em Lowry.png",
+    imageFive:
+    "../images/work/Emily_Lowry_19490292_5 - Em Lowry.png",
+    imageSix:
+    "../images/work/Emily_Lowry_19490292_6 - Em Lowry.png"
   },
   {
     studentNumber: "19502317",
@@ -1506,7 +1947,17 @@ export const Graduates = [
     artStation: "",
     behance: "https://www.behance.net/lucasavieira",
     dribbble: "",
-    images:
-      "https://drive.google.com/open?id=1SKZaCHGQ8299Lgfi6JD7w5FcfpJbwRSx, https://drive.google.com/open?id=1yWlqaHVzjfUTGUfu6E7wYqlNTuzpQ37x, https://drive.google.com/open?id=1kzqg1ifjF9-4Hw1nVDnd1Smtl95wb0xK, https://drive.google.com/open?id=15ZETZ63pvP5T2tRZGb9B0G-pt6ThxC6d, https://drive.google.com/open?id=15ap8hw6AgeTIynPo3dIU2Sv1JVlMw8an, https://drive.google.com/open?id=1Em6mkBjsQWw4Svix1ICFKibX8lqdq3YQ",
+    imageOne:
+    "../images/work/vieira_lucas_19502317_1 - Scott Wicks.jpg",
+    imageTwo:
+    "../images/work/vieira_lucas_19502317_2 - Scott Wicks.jpg",
+    imageThree:
+    "../images/work/vieira_lucas_19502317_3 - Scott Wicks.jpg",
+    imageFour:
+    "../images/work/vieira_lucas_19502317_4 - Scott Wicks.jpg",
+    imageFive:
+    "../images/work/vieira_lucas_19502317_5 - Scott Wicks.jpg",
+    imageSix:
+    "../images/work/vieira_lucas_19502317_6 - Scott Wicks.jpg"
   },
 ];
