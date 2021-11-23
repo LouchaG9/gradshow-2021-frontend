@@ -1827,7 +1827,7 @@ export const Graduates = [
     avatarOne: "./images/graduateAvatars/19460062_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19460062_CArena_main.jpg",
     imageOne:
-    "",
+    "../images/work/riley - Lotte Arena.png",
     imageTwo:
     "",
     imageThree:
