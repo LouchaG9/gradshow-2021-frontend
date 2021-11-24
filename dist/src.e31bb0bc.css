@@ -71,7 +71,7 @@ h1 {
   font-family: var(--heading-font-family-B);
   color: var(--brand-color);
   font-size: 3rem;
-  margin: 1rem;
+  margin: 0rem;
 }
 
 h2 {
@@ -82,6 +82,7 @@ h2 {
 
 p {
   font-family: var(--base-font-family);
+  line-height: 1.8;
 }
 
 a {
@@ -243,6 +244,11 @@ footer .footer-content .footer-animation-column .footer-item:hover {
   max-width: 100px;
 }
 
+.page-content h2 {
+  text-align: start;
+  padding-bottom: 3rem;
+}
+
 .bioStyle {
   padding-bottom: 3rem;
 }
@@ -287,7 +293,6 @@ A[href=""], A[href="#"] {
 .avatarImage {
   position: absolute;
   max-height: 500px;
-  border: #be1e2d 0.1px solid;
 }
 
 .avatarTwo {
@@ -591,6 +596,44 @@ footer .footer-content .footer-animation-column .footer-item {
   background: #777;
 }
 
+.learn {
+  border: 2px var(--brand-color) solid;
+  background-color: var(--body-bg);
+  color: var(--brand-color);
+  margin: 1rem 0;
+  padding: 1rem 2rem;
+  text-align: center;
+  place-items: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.learn:hover {
+  cursor: pointer;
+  background-color: var(--brand-color);
+  color: var(--body-bg);
+}
+
+.shop-graduates-btn {
+  border: 2px var(--brand-color) solid;
+  background-color: var(--body-bg);
+  color: var(--brand-color);
+  margin: 1rem 0;
+  padding: 1rem 5rem;
+  text-align: center;
+  place-items: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.shop-graduates-btn:hover {
+  cursor: pointer;
+  background-color: var(--brand-color);
+  color: var(--body-bg);
+}
+
 .major-columns {
   display: flex;
   justify-content: space-between;
@@ -694,6 +737,7 @@ footer .footer-content .footer-animation-column .footer-item {
   width: calc((100% / 3) * 2);
   padding: 1rem;
   align-self: center;
+  margin-left: 2vw;
 }
 
 .reviews {
@@ -722,6 +766,16 @@ footer .footer-content .footer-animation-column .footer-item {
   font-size: 0.8rem;
   font-weight: 200;
   color: var(--brand-color);
+}
+.reviews .right button {
+  margin: 1rem 0;
+  padding: 1rem 5rem;
+  text-align: center;
+  place-items: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  transition: 0.2s;
 }
 
 .image-slider .slick {
@@ -1212,11 +1266,12 @@ li.divider {
 .graduate-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  grid-column-gap: 42px;
 }
 .graduate-grid .graduate-card {
-  width: calc(100% / 4);
-  min-width: 350px;
+  width: calc(90% / 4);
+  min-width: 320px;
   padding-bottom: 5px;
   margin-bottom: 30px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;

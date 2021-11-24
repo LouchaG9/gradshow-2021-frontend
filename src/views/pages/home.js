@@ -138,7 +138,7 @@ class HomeView {
               untrammelled and when nothing prevents our being able to do what
               we like best
             </p>
-            <button @click="${() => gotoRoute("/about")}">
+            <button class="learn" @click="${() => gotoRoute("/about")}">
               Learn about us
             </button>
           </div>

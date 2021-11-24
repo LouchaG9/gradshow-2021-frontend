@@ -29,7 +29,7 @@ h1 {
   font-family: var(--heading-font-family-B);
   color: var(--brand-color);
   font-size: 3rem;
-  margin: 1rem;
+  margin: 0rem;
 }
 
 h2 {
@@ -40,6 +40,9 @@ h2 {
 
 p {
   font-family: var(--base-font-family);
+  line-height: 1.8;
+ 
+  
 }
 
 // links ---------------
@@ -111,6 +114,9 @@ a:hover {
   }
   max-width: 1420px;
 }
+
+
+
 
 // universal footer styles
 footer {
@@ -213,7 +219,12 @@ footer {
 }
 
 // profile styling ---- individual grads
-
+.page-content {
+  h2 {
+    text-align: start;
+    padding-bottom: 3rem;
+  }
+}
 .bioStyle{
   padding-bottom: 3rem;
 }
@@ -262,7 +273,7 @@ A[href=""], A[href="#"] {
 .avatarImage {
   position: absolute;
   max-height: 500px;
-  border: #be1e2d 0.1px solid;
+  
 }
 
 

@@ -15,7 +15,51 @@
     width: 50%;
     height: 20rem;
     background: #777;
+
+  
   }
+}
+
+.learn {
+ 
+    border: 2px var(--brand-color) solid;
+    background-color: var(--body-bg);
+    color: var(--brand-color);
+    margin: 1rem 0;
+    padding: 1rem 2rem;
+    text-align: center;
+    place-items: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    transition: 0.2s;
+  
+    &:hover {
+      cursor: pointer;
+    background-color: var(--brand-color);
+    color: var(--body-bg);
+    }
+}
+
+.shop-graduates-btn {
+  border: 2px var(--brand-color) solid;
+  background-color: var(--body-bg);
+  color: var(--brand-color);
+  margin: 1rem 0;
+  padding: 1rem 5rem;
+  text-align: center;
+  place-items: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  transition: 0.2s;
+
+  &:hover {
+    cursor: pointer;
+  background-color: var(--brand-color);
+  color: var(--body-bg);
+  }
+ 
 }
 
 // major categories
@@ -120,6 +164,7 @@
     width: calc((100% / 3) * 2);
     padding: 1rem;
     align-self: center;
+    margin-left: 2vw;
   }
 }
 
@@ -148,6 +193,23 @@
       font-size: 0.8rem;
       font-weight: 200;
       color: var(--brand-color);
+    }
+
+    button {
+     
+       
+        margin: 1rem 0;
+        padding: 1rem 5rem;
+        text-align: center;
+        place-items: center;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+        text-decoration: none;
+        transition: 0.2s;
+      
+       
+      
+      
     }
   }
 }
@@ -221,6 +283,7 @@
     }
     .right {
       width: 100%;
+     
       button {
         margin: 0 0;
         padding: 0.5rem 0.5rem;
