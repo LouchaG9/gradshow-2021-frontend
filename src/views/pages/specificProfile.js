@@ -132,6 +132,22 @@ class specificProfile {
               >
                 <i class="fab fa-vimeo-v"></i>
               </a>
+              <a
+                class="icon"
+                href="${globalThis.studentIdGlobal.github}"
+                target="_blank"
+                class="secondary"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                class="icon"
+                href="${globalThis.studentIdGlobal.shirt}"
+                target="_blank"
+                class="secondary"
+              >
+                <i class="fas fa-tshirt"></i>
+              </a>
             </div>
           </div>
         </section>

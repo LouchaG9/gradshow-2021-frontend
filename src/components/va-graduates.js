@@ -39,16 +39,6 @@ customElements.define(
       `)
     }
 
-    // scroll to top function
-
-    handleScrollTop() {
-      window.scroll({
-        top: 0,
-        left: 0, 
-        behavior: 'smooth',
-      });
-    }
-
     // portfolio link handler
 
     portfolioHandler() {
@@ -180,7 +170,6 @@ customElements.define(
             <i><p>${this.tagLine}</p></i>
             <div class="buttons-container">
               ${this.employeeHandler()}
-              ${this.handleScrollTop()}
               ${this.portfolioHandler()}
               <!-- format of the link 'https://www.google.com' -->
             </div>
