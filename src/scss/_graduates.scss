@@ -90,6 +90,7 @@
   list-style-type: none;
   font-family: 'montserrat';
   font-size: 1.1em;
+  z-index: 10;
 
   li {
     padding: 15px;
@@ -98,7 +99,8 @@
     background-color: white;
 
     &:hover {
-      background-color: var(--destore-purple);
+      background-color: rgb(235, 235, 235);
+      
     }
   }
 }
