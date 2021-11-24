@@ -90,8 +90,23 @@ customElements.define(
             width: 90px;
           }
 
+          .headerLogo{
+            margin-bottom: 30px;
+            width: 120px;
+            margin-bottom: 1em;
+            position: absolute;
+            top: 0.8em;
+            left: 1.5em;
+          }
+
+          .headerLogo:hover{
+            cursor: pointer;
+            filter: saturate(1);
+            
+          }
+
           .hamburger-btn::part(base) {
-            color: #fff;
+            color: #e24130;
             display: none;
           }
 
@@ -101,6 +116,10 @@ customElements.define(
             align-items: center;
             justify-content: space-between;
             width: 100%;
+          }
+
+          .home-btn:hover{
+            cursor: pointer;
           }
 
           .logo-container {
@@ -190,6 +209,7 @@ customElements.define(
 
           <nav class="app-top-nav">
             <div class="links">
+           <a><img   @click="${() => gotoRoute("/")}" class="headerLogo" src="/images/logo.png" /></a> 
               <a class="home-btn" @click="${() => gotoRoute("/")}">Home</a>
               <sl-dropdown>
                 <a
