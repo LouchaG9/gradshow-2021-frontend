@@ -10,11 +10,6 @@ import { Graduates } from "./../../../static/data/graduateData";
 //   console.log(graduate.firstName);
 // });
 
-// so now an issue found was when we open the home page, click the about page,
-// and then come back to home page, the slider lost its style,
-// the temporary ( or maybe this is the only ) solution is use "gotoRoute"
-// to force a re-fresh, silly but it works.
-
 class HomeView {
   init() {
     console.log("HomeView.init");
