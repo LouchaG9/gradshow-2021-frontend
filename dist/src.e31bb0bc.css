@@ -151,15 +151,18 @@ a:hover {
 }
 
 footer {
+  display: flex;
+  align-items: center;
+  height: 30vh;
   width: 100%;
   background-color: var(--agd-green);
   padding: 1rem;
-  max-width: 1920px;
   margin: 0 auto;
 }
 footer .footer-content {
   display: flex;
   align-items: center;
+  max-width: 1920px;
   justify-content: space-between;
   gap: 1rem;
   width: 90%;
@@ -170,6 +173,9 @@ footer .footer-content .destore-col {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+footer .footer-content .destore-col p {
+  font-size: 1.2em;
 }
 footer .footer-content .destore-col h3 {
   font-size: 2rem;
@@ -637,6 +643,11 @@ footer .footer-content .footer-animation-column .footer-item {
   color: var(--body-bg);
 }
 
+section {
+  margin-bottom: 6rem;
+  margin-top: 6rem;
+}
+
 .major-columns {
   display: flex;
   justify-content: space-between;
@@ -655,12 +666,12 @@ footer .footer-content .footer-animation-column .footer-item {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   gap: 0.5rem;
   margin: 1rem;
   text-transform: uppercase;
   background-color: #fffef9;
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 3px;
 }
 .major-columns .animation-column .major-svg,
@@ -688,8 +699,10 @@ footer .footer-content .footer-animation-column .footer-item {
 .major-columns .animation-column .sign-item,
 .major-columns .digex-column .sign-item,
 .major-columns .graphic-column .sign-item {
-  width: 100%;
+  width: 90%;
   min-height: 3rem;
+  padding: 0.8em;
+  margin-top: 0.5em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -698,6 +711,11 @@ footer .footer-content .footer-animation-column .footer-item {
   transition: 0.2s;
   cursor: pointer;
   font-size: calc(0.5vw + 0.5vh + 0.5vmin);
+}
+.major-columns .animation-column .sign-item h3,
+.major-columns .digex-column .sign-item h3,
+.major-columns .graphic-column .sign-item h3 {
+  margin: 0;
 }
 .major-columns .digex-column .sign-item {
   background: var(--dig-yellow);
