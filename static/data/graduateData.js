@@ -1013,8 +1013,8 @@ export const Graduates = [
     dribbble: "",
     github: "https://github.com/julian099",
     shirt: "https://yourbestfriendjippy.com",
-    avatarOne: "./images/graduateBags/_DSC1383.jpg",
-    avatarTwo: "./images/graduateBags/_DSC1380.jpg",
+    avatarOne: "./images/graduateBags/_DSC1411.jpg",
+    avatarTwo: "./images/graduateBags/_DSC1408.jpg",
     imageOne:
     "../images/work/Julian_Osborn_19467092_1 - Jippy.jpg",
     imageTwo:
@@ -1711,8 +1711,8 @@ export const Graduates = [
     dribbble: "",
     github: "",
     shirt: "",
-    avatarOne: "./images/graduateBags/_DSC1383.jpg",
-    avatarTwo: "./images/graduateBags/_DSC1380.jpg",
+    avatarOne: "./images/graduateBags/_DSC1293.jpg",
+    avatarTwo: "./images/graduateBags/_DSC1294.jpg",
     imageOne:
     "../images/work/dimitri_koranis_19349611_1 - Australia Post.jpg",
     imageTwo:
@@ -1811,8 +1811,8 @@ export const Graduates = [
     dribbble: "",
     github: "",
     shirt: "",
-    avatarOne: "./images/graduateBags/_DSC1383.jpg",
-    avatarTwo: "./images/graduateBags/_DSC1380.jpg",
+    avatarOne: "./images/graduateBags/_DSC1305.jpg",
+    avatarTwo: "./images/graduateBags/_DSC1306.jpg",
     imageOne:
     "../images/work/Henry_Malkovic_19132345_ - Henry M.jpg",
     imageTwo:
@@ -1978,8 +1978,8 @@ export const Graduates = [
     dribbble: "",
     github: "",
     shirt: "",
-    avatarOne: "./images/graduateBags/_DSC1383.jpg",
-    avatarTwo: "./images/graduateBags/_DSC1380.jpg",
+    avatarOne: "./images/graduateBags/_DSC1450.jpg",
+    avatarTwo: "./images/graduateBags/_DSC1453.jpg",
     imageOne:
     "../images/work/Emily_Lowry_19490292_1 - Em Lowry.jpg",
     imageTwo:

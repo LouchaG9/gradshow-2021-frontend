@@ -8183,8 +8183,8 @@ const Graduates = [{
   dribbble: "",
   github: "https://github.com/julian099",
   shirt: "https://yourbestfriendjippy.com",
-  avatarOne: "./images/graduateBags/_DSC1383.jpg",
-  avatarTwo: "./images/graduateBags/_DSC1380.jpg",
+  avatarOne: "./images/graduateBags/_DSC1411.jpg",
+  avatarTwo: "./images/graduateBags/_DSC1408.jpg",
   imageOne: "../images/work/Julian_Osborn_19467092_1 - Jippy.jpg",
   imageTwo: "../images/work/Julian_Osborn_19467092_2 - Jippy.jpg",
   imageThree: "../images/work/Julian_Osborn_19467092_3 - Jippy.jpg",
@@ -8729,8 +8729,8 @@ const Graduates = [{
   dribbble: "",
   github: "",
   shirt: "",
-  avatarOne: "./images/graduateBags/_DSC1383.jpg",
-  avatarTwo: "./images/graduateBags/_DSC1380.jpg",
+  avatarOne: "./images/graduateBags/_DSC1293.jpg",
+  avatarTwo: "./images/graduateBags/_DSC1294.jpg",
   imageOne: "../images/work/dimitri_koranis_19349611_1 - Australia Post.jpg",
   imageTwo: "../images/work/dimitri_koranis_19349611_2 - Australia Post.jpg",
   imageThree: "../images/work/dimitri_koranis_19349611_3 - Australia Post.jpg",
@@ -8807,8 +8807,8 @@ const Graduates = [{
   dribbble: "",
   github: "",
   shirt: "",
-  avatarOne: "./images/graduateBags/_DSC1383.jpg",
-  avatarTwo: "./images/graduateBags/_DSC1380.jpg",
+  avatarOne: "./images/graduateBags/_DSC1305.jpg",
+  avatarTwo: "./images/graduateBags/_DSC1306.jpg",
   imageOne: "../images/work/Henry_Malkovic_19132345_ - Henry M.jpg",
   imageTwo: "../images/work/Henry_Malkovic_19132345_2 - Henry M.jpg",
   imageThree: "../images/work/Henry_Malkovic_19132345_3 - Henry M.jpg",
@@ -8937,8 +8937,8 @@ const Graduates = [{
   dribbble: "",
   github: "",
   shirt: "",
-  avatarOne: "./images/graduateBags/_DSC1383.jpg",
-  avatarTwo: "./images/graduateBags/_DSC1380.jpg",
+  avatarOne: "./images/graduateBags/_DSC1450.jpg",
+  avatarTwo: "./images/graduateBags/_DSC1453.jpg",
   imageOne: "../images/work/Emily_Lowry_19490292_1 - Em Lowry.jpg",
   imageTwo: "../images/work/Emily_Lowry_19490292_2 - Em Lowry.png",
   imageThree: "../images/work/Emily_Lowry_19490292_3 - Em Lowry.png",
@@ -9066,10 +9066,6 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 // Graduates.map((graduate) => {
 //   console.log(graduate.firstName);
 // });
-// so now an issue found was when we open the home page, click the about page,
-// and then come back to home page, the slider lost its style,
-// the temporary ( or maybe this is the only ) solution is use "gotoRoute"
-// to force a re-fresh, silly but it works.
 class HomeView {
   init() {
     console.log("HomeView.init");
@@ -12029,7 +12025,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 // define routes
 const routes = {
   "/": _home.default,
-  404: _.default,
+  "404": _.default,
   "/about": _about.default,
   "/contact": _contact.default,
   "/viewGraduate": _viewGraduate.default,
@@ -13891,7 +13887,7 @@ LitElement.render = _shadyRender.render;
 
 var _litElement = require("@polymer/lit-element");
 
-var _Router = require("./../Router");
+var _Router = require("../Router");
 
 var _App = _interopRequireDefault(require("./../App"));
 
@@ -13964,7 +13960,7 @@ customElements.define("va-app-header", class AppHeader extends _litElement.LitEl
   }
 
 });
-},{"@polymer/lit-element":"../node_modules/@polymer/lit-element/lit-element.js","./../Router":"Router.js","./../App":"App.js"}],"UserAPI.js":[function(require,module,exports) {
+},{"@polymer/lit-element":"../node_modules/@polymer/lit-element/lit-element.js","../Router":"Router.js","./../App":"App.js"}],"UserAPI.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -14028,7 +14024,7 @@ var _Toast = _interopRequireDefault(require("./../Toast"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject3() {
-  const data = _taggedTemplateLiteral(["\n        <style>\n          button {\n            height: 50px;\n            width: calc(50% - 2em);\n            background-color: transparent;\n            color: black;\n            font-size: 15px;\n            border: 1px solid black;\n            border-radius: 10px;\n            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;\n          }\n\n          .gradListingAvatar{\n            position: absolute;\n            max-height: 360px;\n            left: 0;\n            cursor: grab;\n            overflow: hidden;\n\n          }\n\n          .gradListingAvatarTwo{\n            position: absolute;\n            max-height: 360px;\n            left: 0;\n            cursor: grab;\n            overflow: hidden;\n\n          }\n\n          .gradListingAvatarTwo:hover{\n            opacity: 0;\n            transition: ease-in-out 0.1s;\n          }\n\n          .gradListingAvatarTwo:not(:hover){\n            opacity: 1;\n            transition: ease-in-out 0.1s;\n          }\n\n          .view-employee-button {\n            background-color: var(--brand-color);\n            color: white;\n            border: none;\n          }\n\n          button:hover {\n            cursor: pointer;\n            box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;\n            transition: ease-in-out 0.3s;\n            border: none;\n            color: white;\n          }\n          button:not(:hover){\n            color: white;\n            transition: ease-in-out 0.3s;\n          }\n\n          h3,\n          p {\n            margin: 0 auto;\n            padding: 0;\n          }\n\n          h3 {\n            font-size: 27px;\n          }\n\n          p {\n            font-size: 18px;\n          }\n\n          .image-container {\n            position: relative;\n            width: 100%;\n            min-height: 350px;\n            overflow: hidden;\n            background-repeat: no-repeat;\n            background-size: cover;\n            text-align: center;\n            margin: auto;\n            display: block;\n            background-position: center;\n            border-bottom: 1px solid black;\n            /* easing the hover transition */\n            transition: 0.3s;\n          }\n\n          /* hover effect */\n          /* .image-container:hover {\n            background-image: url(\"", "/images/", "\") !important;\n            cursor: pointer;\n          } */\n\n          .text-container {\n            height: 200px;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            justify-content: space-evenly;\n          }\n\n          .buttons-container {\n            display: flex;\n            justify-content: space-evenly;\n            width: 100%;\n          }\n        </style>\n\n        <!-- delete placeholder text when the real data is used -->\n   \n          <div class=\"image-container\" >  \n          <img loading=\"eager\" class=\"gradListingAvatar\" src=\"", "\"  onerror=\"this.src='/images/graduateBags/_DSC1383.jpg';\">\n          <img  loading=\"eager\" class=\"gradListingAvatarTwo\" src=\"", "\" onerror=\"this.src='/images/graduateBags/_DSC1380.jpg';\">\n          </div>\n \n          <div class=\"text-container\">\n            <h3>", " ", "</h3>\n            <i><p>", "</p></i>\n            <div class=\"buttons-container\">\n              ", "\n              ", "\n              <!-- format of the link 'https://www.google.com' -->\n            </div>\n          </div>\n        </div>\n      "]);
+  const data = _taggedTemplateLiteral(["\n        <style>\n          button {\n            height: 50px;\n            width: calc(50% - 2em);\n            background-color: transparent;\n            color: black;\n            font-size: 15px;\n            border: 1px solid black;\n            border-radius: 10px;\n            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;\n          }\n\n          .gradListingAvatar{\n            position: absolute;\n            max-height: 360px;\n            cursor: grab;\n            overflow: hidden;\n            display: flex;\n          }\n\n          .gradListingAvatarTwo{\n            position: absolute;\n            max-height: 360px;\n            cursor: grab;\n            overflow: hidden;\n            display: flex;\n          }\n\n          .gradListingAvatarTwo:hover{\n            opacity: 0;\n            transition: ease-in-out 0.1s;\n          }\n\n          .gradListingAvatarTwo:not(:hover){\n            opacity: 1;\n            transition: ease-in-out 0.1s;\n          }\n\n          .view-employee-button {\n            background-color: var(--brand-color);\n            color: white;\n            border: none;\n          }\n\n          button:hover {\n            cursor: pointer;\n            box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;\n            transition: ease-in-out 0.3s;\n            border: none;\n            color: white;\n          }\n          button:not(:hover){\n            color: white;\n            transition: ease-in-out 0.3s;\n          }\n\n          h3,\n          p {\n            margin: 0 auto;\n            padding: 0;\n          }\n\n          h3 {\n            font-size: 27px;\n          }\n\n          p {\n            font-size: 18px;\n          }\n\n          .image-container {\n            position: relative;\n            width: 100%;\n            min-height: 350px;\n            overflow: hidden;\n            text-align: center;\n            margin: auto;\n\n            display: flex;\n            justify-content: center;\n\n            border-bottom: 1px solid black;\n            /* easing the hover transition */\n            transition: 0.3s;\n          }\n\n          /* hover effect */\n          /* .image-container:hover {\n            background-image: url(\"", "/images/", "\") !important;\n            cursor: pointer;\n          } */\n\n          .text-container {\n            height: 200px;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            justify-content: space-evenly;\n          }\n\n          .buttons-container {\n            display: flex;\n            justify-content: space-evenly;\n            width: 100%;\n          }\n        </style>\n\n        <!-- delete placeholder text when the real data is used -->\n   \n          <div class=\"image-container\" >  \n          <img loading=\"eager\" class=\"gradListingAvatar\" src=\"", "\"  onerror=\"this.src='/images/graduateBags/_DSC1414.jpg';\">\n          <img @click=\"", "\"  loading=\"eager\" class=\"gradListingAvatarTwo\" src=\"", "\" onerror=\"this.src='/images/graduateBags/_DSC1417.jpg';\">\n          </div>\n \n          <div class=\"text-container\">\n            <h3>", " ", "</h3>\n            <i><p>", "</p></i>\n            <div class=\"buttons-container\">\n              ", "\n              ", "\n              <!-- format of the link 'https://www.google.com' -->\n            </div>\n          </div>\n        </div>\n      "]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -14101,7 +14097,7 @@ customElements.define("va-graduates", class Graduate extends _litElement.LitElem
   }
 
   render() {
-    return (0, _litElement.html)(_templateObject3(), _App.default.apiBase, this.quirkyPhoto, this.avatarOne, this.avatarTwo, this.firstName, this.lastName, this.tagLine, this.employeeHandler(), this.portfolioHandler());
+    return (0, _litElement.html)(_templateObject3(), _App.default.apiBase, this.quirkyPhoto, this.avatarOne, () => (0, _Router.gotoRoute)("/graduate?id=" + this.studentNumber), this.avatarTwo, this.firstName, this.lastName, this.tagLine, this.employeeHandler(), this.portfolioHandler());
   }
 
 });
