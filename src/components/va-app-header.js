@@ -223,7 +223,7 @@ customElements.define(
                   >
                 </sl-menu>
               </sl-dropdown>
-              <a href="/about" @click="${() => gotoRoute("/about")}">About</a>
+              <a class="home-btn" href="/about" @click="${gotoRoute}">About</a>
             </div>
           </nav>
         </header>
