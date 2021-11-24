@@ -68,19 +68,17 @@ customElements.define(
           .gradListingAvatar{
             position: absolute;
             max-height: 360px;
-            left: 0;
             cursor: grab;
             overflow: hidden;
-
+            display: flex;
           }
 
           .gradListingAvatarTwo{
             position: absolute;
             max-height: 360px;
-            left: 0;
             cursor: grab;
             overflow: hidden;
-
+            display: flex;
           }
 
           .gradListingAvatarTwo:hover{
@@ -125,12 +123,12 @@ customElements.define(
             width: 100%;
             min-height: 350px;
             overflow: hidden;
-            background-repeat: no-repeat;
-            background-size: cover;
             text-align: center;
             margin: auto;
-            display: block;
-            background-position: center;
+
+            display: flex;
+            justify-content: center;
+
             border-bottom: 1px solid black;
             /* easing the hover transition */
             transition: 0.3s;
