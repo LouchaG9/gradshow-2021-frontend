@@ -45,7 +45,7 @@ class HomeView {
               @click="${() => gotoRoute("/graduates")}"
             >
               <img
-                src="https://drive.google.com/uc?export=view&id=1QVrl6Es1xCGPhqVME2kBesXyO9dG8Mz1"
+                src="./images/AGD-Basket.svg"
                 alt="animation basket"
                 class="major-svg agd-svg"
               />
@@ -66,7 +66,7 @@ class HomeView {
 
             <div class="digex-column" @click="${() => gotoRoute("/graduates")}">
               <img
-                src="https://drive.google.com/uc?export=view&id=1IsaWr0JahaPZcVp5KBb7hjr1n7UpTelJ"
+                src="./images/DD-Clip.svg"
                 alt="Digital bread clip"
                 class="major-svg dd-svg"
               />
@@ -90,7 +90,7 @@ class HomeView {
               @click="${() => gotoRoute("/graduates")}"
             >
               <img
-                src="https://drive.google.com/uc?export=view&id=19IOsaCGyRr4ABjmjLPYkV-HZnkUrPTUC"
+                src="./images/GD-Tag.svg"
                 alt="graphic design tag"
                 class="major-svg gd-dvg"
               />
