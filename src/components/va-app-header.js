@@ -1,7 +1,7 @@
 // App header is the top bar of the website
-
+import { html, render } from "lit-html";
 import { LitElement, html, css } from "@polymer/lit-element";
-import { anchorRoute, gotoRoute } from "./../Router";
+import { anchorRoute, gotoRoute } from "../Router";
 import App from "./../App";
 
 customElements.define(
