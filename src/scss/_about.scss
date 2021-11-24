@@ -1,9 +1,9 @@
 .about-banner {
   display: flex;
   p {
-    font-size: 1em;
+    font-size: 1rem;
     width: 90%;
-    padding-left: 1em;
+   
   }
 
   img {
@@ -14,12 +14,16 @@
 
 .about-landing p {
   width: 75%;
-  font-size: 1em;
-  line-height: 22px;
+  font-size: 1.4em;
+  line-height: 1.5;
 }
 
 .values-logo {
 text-align: right;
+
+h1{
+  padding-bottom: 1em;
+}
 }
 
 .values {
@@ -27,16 +31,17 @@ text-align: right;
   text-align: center;
 
   p {
-    font-size: 0.75em;
+    font-size: 1.1em;
     width: 90%;
     margin: 0 auto;
     padding-bottom: 2em;
   }
 
   h4 {
+    font-size: 1.3em;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    font-weight: 300;
+    font-weight: bold;
   }
 
   .value-1, .value-3 {
@@ -62,11 +67,11 @@ text-align: right;
 
 .credit-block {
   li {
-    font-size: 1em;
+    font-size: 1.1em;
   }
 
   h3 {
-    font-size: 1em;
+    font-size: 1.3em;
   }
 }
 
