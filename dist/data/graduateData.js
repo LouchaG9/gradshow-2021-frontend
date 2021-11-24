@@ -15,6 +15,8 @@ export const Graduates = [
     artStation: "#",
     behance: "https://www.behance.net/baileygatland",
     dribbble: "#",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19745141_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19745141_BGattand_main.jpg",
     imageOne:
@@ -46,6 +48,8 @@ export const Graduates = [
     artStation: "#",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19760513_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19760513_BFanto_main.jpg",
     imageOne:
@@ -77,6 +81,8 @@ export const Graduates = [
     artStation: "https://www.artstation.com/ambitxdesign",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/17159355_alt.jpg",
     avatarTwo: "./images/graduateAvatars/17159355_Lrobertson_main.jpg",
     imageOne:
@@ -108,6 +114,8 @@ export const Graduates = [
     artStation: "",
     behance: "https://www.behance.net/annamai1",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19760814_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19760814_AMai_main.jpg",
     imageOne:
@@ -139,6 +147,8 @@ export const Graduates = [
     artStation: "",
     behance: "https://www.behance.net/tianhockyan",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/20037952_alt.jpg",
     avatarTwo: "./images/graduateAvatars/20037952_THYan_main.jpg",
     imageOne:
@@ -170,6 +180,8 @@ export const Graduates = [
     artStation: "",
     behance: "https://www.behance.net/ruitanhuang",
     dribbble: "https://dribbble.com/zeffa/collections",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19467322_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19467322_RHuang_main.jpg",
     imageOne:
@@ -202,6 +214,8 @@ export const Graduates = [
     artStation: "",
     behance: "https://www.behance.net/nicsndra",
     dribbble: "https://dribbble.com/nicsndra",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19168735_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19168735_NCassandra_main.jpg",
     imageOne:
@@ -233,6 +247,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19785231_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19785231_MZhai_main.jpg",
     imageOne:
@@ -265,6 +281,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19775669_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19775669_PDoick_main.jpg",
     imageOne:
@@ -297,6 +315,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19192187_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19192187_EEdwards_main.jpg",
     imageOne:
@@ -328,6 +348,8 @@ export const Graduates = [
     artStation: "",
     behance: "https://www.behance.net/malimerttens",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19769662_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19769662_MMerttens_main.jpg",
     imageOne:
@@ -359,6 +381,8 @@ export const Graduates = [
     artStation: "",
     behance: "https://www.behance.net/adrinacsy/",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/18813157_alt.jpg",
     avatarTwo: "./images/graduateAvatars/18813157_AChung_main.jpg",
     imageOne:
@@ -390,6 +414,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "https://dribbble.com/leah-schultz",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19768986_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19768986_LSchultz_main.jpg",
     imageOne:
@@ -421,6 +447,8 @@ export const Graduates = [
     artStation: "artstation.com/possibly_joshua",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19720863_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19720863_JMichell_main.jpg",
     imageOne:
@@ -452,6 +480,8 @@ export const Graduates = [
     artStation: "https://www.artstation.com/michelleqt",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19773249_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19773249_MThomas_main.jpg",
     imageOne:
@@ -483,6 +513,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19756130_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19756130_AMcbee_main.jpg",
     imageOne:
@@ -497,38 +529,6 @@ export const Graduates = [
     "../images/work/Alexandra_McGee_19756130_4 - Alexandra McGee.jpg",
     imageSix:
     "../images/work/Alexandra_McGee_19756130_6 - Alexandra McGee.jpg"
-  },
-  {
-    studentNumber: "19749253",
-    firstName: "Yaeram",
-    lastName: "Kim",
-    email: "destinylover45@gmail.com",
-    major: "Animation and Game Design",
-    bio: "Attending a visual art specialist high school, I wanted to pursue in something I wanted to do and would enjoy. For me, Animation and Game Design was just that. My love of animation and video games led me to attend a course at Curtin University so that one day I may be able to create something that other people can enjoy just as much as I enjoyed doing before.",
-    tagLine:
-      "As long as we're enjoying ourselves, that's the most important thing.",
-    portfolio: "",
-    linkedin: "https://www.linkedin.com/in/yaeram-kim-a1b270181/",
-    instagram: "https://www.instagram.com/yaeramk/",
-    twitter: "",
-    vimeo: "",
-    artStation: "https://www.artstation.com/community/projects/3ql3ZB/edit",
-    behance: "",
-    dribbble: "",
-    avatarOne: "./images/graduateAvatars/19749253_alt.jpg",
-    avatarTwo: "./images/graduateAvatars/19749253_YKim_main.jpg",
-    imageOne:
-    "../images/work/Yaeram_Kim_19749253_1 - yaeram kim.png",
-    imageTwo:
-      "../images/work/Yaeram_Kim_19749253_3 - yaeram kim.png",
-    imageThree:
-    "../images/work/Yaeram_Kim_19749253_5 - yaeram kim.jpg",
-    imageFour:
-    "../images/work/Yaeram_Kim_19749253_2 - yaeram kim.png",
-    imageFive:
-    "../images/work/Yaeram_Kim_19749253_4 - yaeram kim.png",
-    imageSix:
-    "../images/work/Yaeram_Kim_19749253_6 - yaeram kim.jpg"
   },
   {
     studentNumber: "19160142",
@@ -546,6 +546,8 @@ export const Graduates = [
     artStation: "",
     behance: "https://www.behance.net/bethnaim",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19160142_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19160142_BNaim_main.jpg",
     imageOne:
@@ -578,6 +580,8 @@ export const Graduates = [
     artStation: "https://www.artstation.com/sylviachen",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19096535_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19096535_SChaoChen_main.jpg",
     imageOne:
@@ -609,6 +613,8 @@ export const Graduates = [
     artStation: "https://www.artstation.com/danaknowles5/",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19792888_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19792888_DKnowles_main.jpg",
     imageOne:
@@ -640,6 +646,8 @@ export const Graduates = [
     artStation: "",
     behance: "https://www.behance.net/tessastirling",
     dribbble: "https://dribbble.com/tessastirling",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19485502_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19485502_TStirling_main.jpg",
     imageOne:
@@ -671,6 +679,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19965680_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19965680_HJones_main.jpg",
     imageOne:
@@ -702,6 +712,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/18846674_alt.jpg",
     avatarTwo: "./images/graduateAvatars/18846674_SMabirrat_main.jpg",
     imageOne:
@@ -734,6 +746,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19499736_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19499736_JNesic_main.jpg",
     imageOne:
@@ -765,6 +779,8 @@ export const Graduates = [
     artStation: "",
     behance: "https://www.behance.net/jaminsaw",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/18342224_alt.jpg",
     avatarTwo: "./images/graduateAvatars/18342224_JSaw_main.jpg",
     imageOne:
@@ -796,6 +812,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19148724_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19148724_ELeicester_main.jpg",
     imageOne:
@@ -827,6 +845,8 @@ export const Graduates = [
     artStation: "https://www.artstation.com/yaeramkim5",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19749253_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19749253_YKim_main.jpg",
     imageOne:
@@ -858,6 +878,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19762328_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19762328_LTarr_main.jpg",
     imageOne:
@@ -889,6 +911,8 @@ export const Graduates = [
     artStation: "https://www.artstation.com/jcabral",
     behance: "https://www.behance.net/jekkocabral",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19790316_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19790316_JCabral_main.jpg",
     imageOne:
@@ -920,6 +944,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19918406_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19918406_NDakin_main.jpg",
     imageOne:
@@ -952,6 +978,8 @@ export const Graduates = [
     artStation: "https://www.artstation.com/daffarizkiadi",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19770295_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19770295_DRizkiadi_main.jpg",
     imageOne:
@@ -1016,6 +1044,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/17373236_alt.jpg",
     avatarTwo: "./images/graduateAvatars/17373236_EHarding_main.jpg",
     imageOne:
@@ -1048,6 +1078,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19449087_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19449087_MGilmoor_main.jpg",
     imageOne:
@@ -1079,6 +1111,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19131148_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19131158_JFoti_main.jpg",
     imageOne:
@@ -1111,6 +1145,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19783853_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19783853_OLalacci_main.jpg",
     imageOne:
@@ -1143,6 +1179,8 @@ export const Graduates = [
     artStation: "https://www.artstation.com/sophietill",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19501903_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19501903_STill_main.jpg",
     imageOne:
@@ -1174,6 +1212,8 @@ export const Graduates = [
     artStation: "https://www.artstation.com/alex_berti_a",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/17817860_alt.jpg",
     avatarTwo: "./images/graduateAvatars/17817860_ABertilone_main.jpg",
     imageOne:
@@ -1205,6 +1245,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19157254_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19157254_ENewby_main.jpg",
     imageOne:
@@ -1236,6 +1278,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19454722_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19454722_MHorler_main.jpg",
     imageOne:
@@ -1267,6 +1311,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19606154_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19606154_GRidarta_main.jpg",
     imageOne:
@@ -1299,6 +1345,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19490085_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19490085_DMusarra_main.jpg",
     imageOne:
@@ -1330,6 +1378,8 @@ export const Graduates = [
     artStation: "https://www.artstation.com/ellamatthews7",
     behance: "https://www.behance.net/ellamatthews",
     dribbble: "https://dribbble.com/EllaMatt/about",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19963587_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19963587_EMatthews_main.jpg",
     imageOne:
@@ -1361,6 +1411,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19133225_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19133225_AMarbeck_main.jpg",
     imageOne:
@@ -1392,6 +1444,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19749402_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19749402_GPortelli_main.jpg",
     imageOne:
@@ -1423,6 +1477,8 @@ export const Graduates = [
     artStation: "",
     behance: "behance.net/joaquinatizado1",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19451231_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19451231_JAtizado_main.jpg",
     imageOne:
@@ -1454,6 +1510,8 @@ export const Graduates = [
     artStation: "",
     behance: "https://www.behance.net/coopergeyer",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/18451382_alt.jpg",
     avatarTwo: "./images/graduateAvatars/18451382_CGeyer_main.jpg",
     imageOne:
@@ -1485,6 +1543,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19691600_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19691600_Etey_main.jpg",
     imageOne:
@@ -1516,6 +1576,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19778697_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19778697_IMaccarthy_main.jpg",
     imageOne:
@@ -1548,6 +1610,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19523266_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19523266_EMee_main.jpg",
     imageOne:
@@ -1556,37 +1620,6 @@ export const Graduates = [
     "../images/work/Emily_Mee_19523266_2 - Emily Mee.png",
     imageThree:
     "../images/work/Emily_Mee_19523266_3 - Emily Mee.png",
-    imageFour:
-    "",
-    imageFive:
-    "",
-    imageSix:
-    ""
-  },
-  {
-    studentNumber: "19467322",
-    firstName: "Ruitan ",
-    lastName: "Huang",
-    email: "ruitan1520@gmail.com",
-    major: "Digital Experience and Interaction Design",
-    bio: "Hi, I'm Ruitan. I'm an upbeat, self-motivated team player with excellent communication skills. I'm based in Perth who loves to design interfaces and tackle problems to improve user experience. I'm also keen on always learning new skills, so I'm always on top of trends. I have excellent UI design skills and an excellent understanding of user experience design and research.",
-    tagLine: "Already Submitted",
-    portfolio: "https://ruitanexpdesign.com/",
-    linkedin: "https://www.linkedin.com/in/ruitan-huang/",
-    instagram: "https://www.instagram.com/ruitan_uidesign/",
-    twitter: "",
-    vimeo: "https://youtu.be/2MnpR2gHEkg",
-    artStation: "",
-    behance: "https://www.behance.net/ruitanhuang",
-    dribbble: "https://dribbble.com/ruitanexpdesign",
-    avatarOne: "./images/graduateAvatars/19467322_alt.jpg",
-    avatarTwo: "./images/graduateAvatars/19467322_RHuang_main.jpg",
-    imageOne:
-    "../images/work/Ruitan_Huang_19467322_2 - Ruitan Huang.jpg",
-    imageTwo:
-    "../images/work/Ruitan_Huang_19467322_4 - Ruitan Huang.jpg",
-    imageThree:
-    "../images/work/Ruitan_Huang_19467322_5 - Ruitan Huang.jpg",
     imageFour:
     "",
     imageFive:
@@ -1610,6 +1643,8 @@ export const Graduates = [
     artStation: "",
     behance: "https://www.behance.net/emmirumsa",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19518259_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19518259_ERumsa_main.jpg",
     imageOne:
@@ -1641,6 +1676,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19490250_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19490250_BWatson_main.jpg",
     imageOne:
@@ -1672,6 +1709,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateBags/_DSC1383.jpg",
     avatarTwo: "./images/graduateBags/_DSC1380.jpg",
     imageOne:
@@ -1703,6 +1742,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/17978204_alt.jpg",
     avatarTwo: "./images/graduateAvatars/17978204_SWang_main.jpg",
     imageOne:
@@ -1734,6 +1775,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "dribbble.com/uxbydcosta",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19162229_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19162229_MCosta_main.jpg",
     imageOne:
@@ -1766,6 +1809,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateBags/_DSC1383.jpg",
     avatarTwo: "./images/graduateBags/_DSC1380.jpg",
     imageOne:
@@ -1798,6 +1843,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19754202_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19754202_ZLo_main.jpg",
     imageOne:
@@ -1829,6 +1876,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19460062_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19460062_CArena_main.jpg",
     imageOne:
@@ -1861,6 +1910,8 @@ export const Graduates = [
     artStation: "https://www.artstation.com/jet_trijo",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19471666_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19471666_JTrijo.jpg",
     imageOne:
@@ -1892,6 +1943,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateAvatars/19483580_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19483580_KMarks_main.jpg",
     imageOne:
@@ -1923,6 +1976,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "",
+    github: "",
+    shirt: "",
     avatarOne: "./images/graduateBags/_DSC1383.jpg",
     avatarTwo: "./images/graduateBags/_DSC1380.jpg",
     imageOne:
@@ -1954,6 +2009,8 @@ export const Graduates = [
     artStation: "",
     behance: "https://www.behance.net/lucasavieira",
     dribbble: "",
+    github: "",
+    shirt: "",
     imageOne:
     "../images/work/vieira_lucas_19502317_1 - Scott Wicks.jpg",
     imageTwo:
