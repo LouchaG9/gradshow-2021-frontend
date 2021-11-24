@@ -983,6 +983,8 @@ export const Graduates = [
     artStation: "",
     behance: "",
     dribbble: "",
+    github: "https://github.com/julian099",
+    shirt: "https://yourbestfriendjippy.com",
     avatarOne: "./images/graduateBags/_DSC1383.jpg",
     avatarTwo: "./images/graduateBags/_DSC1380.jpg",
     imageOne:
