@@ -190,7 +190,7 @@ customElements.define(
 
           <nav class="app-top-nav">
             <div class="links">
-              <a class="home-btn" href="/" @click="${gotoRoute}">Home</a>
+              <a class="home-btn" @click="${() => gotoRoute("/")}">Home</a>
               <sl-dropdown>
                 <a
                   slot="trigger"
@@ -223,7 +223,7 @@ customElements.define(
                   >
                 </sl-menu>
               </sl-dropdown>
-              <a class="home-btn" href="/about" @click="${gotoRoute}">About</a>
+              <a class="home-btn" @click="${() => gotoRoute("/about")}">About</a>
             </div>
           </nav>
         </header>
