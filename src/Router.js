@@ -15,7 +15,7 @@ import comingSoonView from "./views/pages/comingSoon";
 // define routes
 const routes = {
   "/": homeView,
-  404: fourOFourView,
+  "404": fourOFourView,
   "/about": AboutView,
   "/contact": ContactView,
   "/viewGraduate": viewGraduateView, // to view individual graduates
