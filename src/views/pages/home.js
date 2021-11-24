@@ -2,6 +2,7 @@ import App from "./../../App";
 import { html, render } from "lit-html";
 import { gotoRoute, anchorRoute } from "./../../Router";
 import Utils from "./../../Utils";
+import gsap from "gsap";
 
 // How to use the data //
 import { Graduates } from "./../../../static/data/graduateData";
@@ -11,18 +12,23 @@ import { Graduates } from "./../../../static/data/graduateData";
 // });
 
 class HomeView {
+
   init() {
     console.log("HomeView.init");
     document.title = "Home";
     this.render();
-    Utils.pageIntroAnim();
+    this.pageIntroAnim2();
+  }
+
+  pageIntroAnim2(){
+    gsap.fromTo(".subheading", {x: -1000, opacity: 0}, {x: 0, opacity: 1, ease: "power2.out", duration: 1});
   }
 
   render() {
     const template = html`
       <va-app-header title="Home"></va-app-header>
 
-      <div class="page-content">
+      <div class="page-content" id="pageContent">
         <section class="banner">
           <div class="left">
             <h2 class="subheading">

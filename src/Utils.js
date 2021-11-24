@@ -40,6 +40,7 @@ class Utils {
       { opacity: 1, y: 0, ease: "power2.out", duration: 0.3 }
     );
   }
+
 }
 
 export default new Utils();
