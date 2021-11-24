@@ -151,7 +151,7 @@ class HomeView {
 
           <div class="right">
             <div class="quote-one">
-              <h3>Joel Louie</h3>
+              <h3 class="tutor">Joel Louie</h3>
               <h4>Digital Design Major Coordinator</h4>
               <p>
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
@@ -161,7 +161,7 @@ class HomeView {
               </p>
             </div>
             <div class="quote-two">
-              <h3>Lee Ingram</h3>
+              <h3 class="tutor">Lee Ingram</h3>
               <h4>Graphic Design Major Coordinator</h4>
               <p>
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
@@ -171,7 +171,7 @@ class HomeView {
               </p>
             </div>
             <div class="quote-three">
-              <h3>Jonathon Pillai</h3>
+              <h3 class="tutor">Jonathon Pillai</h3>
               <h4>Animation & Game Design Major Coordinator</h4>
               <p>
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed

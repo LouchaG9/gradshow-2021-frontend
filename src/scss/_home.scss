@@ -10,6 +10,10 @@
   .left {
     width: 50%;
     padding: 1rem;
+
+    h2 {
+      font-size: 2.5em;
+    }
   }
   .right {
     width: 50%;
@@ -165,6 +169,15 @@
     padding: 1rem;
     align-self: center;
     margin-left: 2vw;
+
+    h2 {
+      padding-bottom: 0rem;
+      font-size: 4em;
+    }
+
+    p{
+      font-size: 1.1em;
+    }
   }
 }
 
@@ -174,7 +187,11 @@
   margin-top: unset;
   .left {
     width: calc(100% / 3);
-    align-self: center;
+    align-self: flex-start;
+
+    h2{
+      font-size: 5em;
+    }
   }
   .right {
     background-color: var(--gd-red);
@@ -183,15 +200,17 @@
     display: flex;
     gap: 20px;
     p {
-      font-size: 0.8rem;
+      font-size: 1.1rem;
+      
     }
     h3 {
       text-transform: uppercase;
-      font-size: 1rem;
+      font-size: 1.7rem;
     }
     h4 {
-      font-size: 0.8rem;
+      font-size: 1rem;
       font-weight: 200;
+      min-height: 3vh;
       color: var(--brand-color);
     }
 
@@ -229,14 +248,14 @@
     width: 100%;
     .left {
       width: 100%;
-      padding: 1rem;
+      padding: 2rem 0rem;
       display: block;
       h2 {
-        width: 80%;
+        width: 100%;
       }
       button {
         margin: 0 0;
-        padding: 0.5rem 0.5rem;
+        padding: 1rem 0.5rem;
         width: 60%;
       }
     }
@@ -248,9 +267,15 @@
     }
   }
 
+  section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
   .major-columns {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     .animation-column,
     .digex-column,
     .graphic-column {
@@ -270,6 +295,12 @@
       }
     }
   }
+
+  .major-columns .animation-column, .major-columns .digex-column, .major-columns .graphic-column {
+ 
+    width: calc(100% / 1);
+
+}
   .about-us {
     flex-direction: column;
     .left {

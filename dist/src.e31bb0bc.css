@@ -590,6 +590,9 @@ footer .footer-content .footer-animation-column .footer-item {
   width: 50%;
   padding: 1rem;
 }
+.banner .left h2 {
+  font-size: 2.5em;
+}
 .banner .right {
   width: 50%;
   height: 20rem;
@@ -739,6 +742,13 @@ footer .footer-content .footer-animation-column .footer-item {
   align-self: center;
   margin-left: 2vw;
 }
+.about-us .right h2 {
+  padding-bottom: 0rem;
+  font-size: 4em;
+}
+.about-us .right p {
+  font-size: 1.1em;
+}
 
 .reviews {
   display: flex;
@@ -746,7 +756,10 @@ footer .footer-content .footer-animation-column .footer-item {
 }
 .reviews .left {
   width: calc(100% / 3);
-  align-self: center;
+  align-self: flex-start;
+}
+.reviews .left h2 {
+  font-size: 5em;
 }
 .reviews .right {
   background-color: var(--gd-red);
@@ -756,15 +769,16 @@ footer .footer-content .footer-animation-column .footer-item {
   gap: 20px;
 }
 .reviews .right p {
-  font-size: 0.8rem;
+  font-size: 1.1rem;
 }
 .reviews .right h3 {
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 1.7rem;
 }
 .reviews .right h4 {
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 200;
+  min-height: 3vh;
   color: var(--brand-color);
 }
 .reviews .right button {
@@ -792,15 +806,15 @@ footer .footer-content .footer-animation-column .footer-item {
   }
   .banner .left {
     width: 100%;
-    padding: 1rem;
+    padding: 2rem 0rem;
     display: block;
   }
   .banner .left h2 {
-    width: 80%;
+    width: 100%;
   }
   .banner .left button {
     margin: 0 0;
-    padding: 0.5rem 0.5rem;
+    padding: 1rem 0.5rem;
     width: 60%;
   }
   .banner .right {
@@ -810,9 +824,16 @@ footer .footer-content .footer-animation-column .footer-item {
     background: #777;
   }
 
+  section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
   .major-columns {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
   .major-columns .animation-column,
 .major-columns .digex-column,
@@ -839,6 +860,10 @@ footer .footer-content .footer-animation-column .footer-item {
 .major-columns .digex-column .gd-svg,
 .major-columns .graphic-column .gd-svg {
     fill: var(--gd-red);
+  }
+
+  .major-columns .animation-column, .major-columns .digex-column, .major-columns .graphic-column {
+    width: calc(100% / 1);
   }
 
   .about-us {
@@ -1066,9 +1091,8 @@ sl-dialog::part(title) {
   display: flex;
 }
 .about-banner p {
-  font-size: 1em;
+  font-size: 1rem;
   width: 90%;
-  padding-left: 1em;
 }
 .about-banner img {
   width: 30%;
@@ -1077,12 +1101,15 @@ sl-dialog::part(title) {
 
 .about-landing p {
   width: 75%;
-  font-size: 1em;
-  line-height: 22px;
+  font-size: 1.4em;
+  line-height: 1.5;
 }
 
 .values-logo {
   text-align: right;
+}
+.values-logo h1 {
+  padding-bottom: 1em;
 }
 
 .values {
@@ -1090,15 +1117,16 @@ sl-dialog::part(title) {
   text-align: center;
 }
 .values p {
-  font-size: 0.75em;
+  font-size: 1.1em;
   width: 90%;
   margin: 0 auto;
   padding-bottom: 2em;
 }
 .values h4 {
+  font-size: 1.3em;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  font-weight: 300;
+  font-weight: bold;
 }
 .values .value-1, .values .value-3 {
   background-color: var(#fff);
@@ -1119,10 +1147,10 @@ sl-dialog::part(title) {
 }
 
 .credit-block li {
-  font-size: 1em;
+  font-size: 1.1em;
 }
 .credit-block h3 {
-  font-size: 1em;
+  font-size: 1.3em;
 }
 
 @media screen and (max-width: 768px) {
