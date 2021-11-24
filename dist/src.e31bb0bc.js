@@ -8937,15 +8937,6 @@ class Utils {
     return array;
   }
 
-  imageSplice(splitString) {
-    _graduateData.Graduates.map(grad => {
-      const imageString = grad.images;
-      const splitString = imageString.split(", ");
-      return splitString;
-      console.log(splitString);
-    });
-  }
-
   pageIntroAnim() {
     const pageContent = document.querySelector(".page-content");
     if (!pageContent) return;
@@ -9620,7 +9611,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"Shop\"></va-app-header>\n      <div class=\"page-content\">\n        <!-- title -->\n        <h2>Graduates.</h2>\n\n        <!-- SHOWREEL CONTAINER ---------------------------------->\n        <section class=\"block-100 height-1 showreel-container\">\n          <h1>showreel container</h1>\n          <!-- This is where we will display a couple of the students best works. -->\n        </section>\n\n        <!-- FILTER DROPDOWN / SEARCH BAR ---------------------------------->\n        <section class=\"search-and-filter-container\">\n          <!-- search bar -->\n          <div class=\"search-input-container\">\n            <input\n              class=\"search-input\"\n              id=\"search-input\"\n              type=\"search\"\n              placeholder=\"Search\"\n              @keyup=", "\n              @keydown=", "\n            />\n            <i class=\"fas fa-search\"></i>\n          </div>\n\n          <!-- search filters -->\n          <label class=\"dropdown\">\n            <div class=\"dd-button\">Filter</div>\n            <input type=\"checkbox\" class=\"dd-input\" id=\"test\" />\n            <ul class=\"dd-menu\">\n              <li size=\"small\" @click=", ">\n                All Employees\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                size=\"small\"\n                data-field=\"major\"\n                data-match=\"animation-and-game-design\"\n                @click=", "\n              >\n                Animation & Game Design\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                size=\"small\"\n                data-field=\"major\"\n                data-match=\"graphic-design\"\n                @click=", "\n              >\n                Graphic Design\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                size=\"small\"\n                data-field=\"major\"\n                data-match=\"digital-design\"\n                @click=", "\n              >\n                Digital Design\n              </li>\n            </ul>\n          </label>\n        </section>\n\n        <!-- ALL STUDENTS ---------------------------------->\n        <section class=\"all-graduates-container\">\n          <!-- graduate component -->\n          <div class=\"graduate-grid\">\n            ", "\n          </div>\n          <!-- /component -->\n        </section>\n\n        <!-- FOOTER ---------------------------------->\n        <footer>\n          <div class=\"footer-content\">\n            <div class=\"footer-col\">\n              <h3>DeStore</h3>\n              <p>\n                Monday \u2013 Saturday: 8:00 am \u2013 4:00pm <br />\n                Sunday: 9:00 am \u2013 5:00pm<br />\n                Kent St, Bentley, 6102, Western Australia<br /><br />\n                @destore\n              </p>\n            </div>\n            <div class=\"footer-col\">\n              <h3>Quick Links</h3>\n              <ul>\n                <li>Home</li>\n                <li>Shop</li>\n                <li>About</li>\n                <li>Contact</li>\n              </ul>\n            </div>\n            <div class=\"footer-col\">\n              <h3>Shop</h3>\n              <ul>\n                <li>Fresh Produce</li>\n                <li>Butcher</li>\n                <li>Bakery</li>\n              </ul>\n            </div>\n          </div>\n        </footer>\n      </div>\n    "]);
+  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"Shop\"></va-app-header>\n      <div class=\"page-content\">\n        <!-- title -->\n        <h2>Graduates.</h2>\n\n        <!-- SHOWREEL CONTAINER ---------------------------------->\n        <section class=\"block-100 height-1 showreel-container\">\n          <h1>showreel container</h1>\n          <!-- This is where we will display a couple of the students best works. -->\n        </section>\n\n        <!-- FILTER DROPDOWN / SEARCH BAR ---------------------------------->\n        <section class=\"search-and-filter-container\">\n          <!-- search bar -->\n          <div class=\"search-input-container\">\n            <input\n              class=\"search-input\"\n              id=\"search-input\"\n              type=\"search\"\n              placeholder=\"Search\"\n              @keyup=", "\n              @keydown=", "\n            />\n            <i class=\"fas fa-search\"></i>\n          </div>\n\n          <!-- search filters -->\n          <label class=\"dropdown\">\n            <div class=\"dd-button\">Filter</div>\n            <input type=\"checkbox\" class=\"dd-input\" id=\"test\" />\n            <ul class=\"dd-menu\">\n              <li size=\"small\" @click=", ">\n                All Employees\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                data-match=\"animation-and-game-design\"\n                @click=", "\n              >\n                Animation & Game Design\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                data-match=\"graphic-design\"\n                @click=", "\n              >\n                Graphic Design\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                data-match=\"digital-design\"\n                @click=", "\n              >\n                Digital Design\n              </li>\n            </ul>\n          </label>\n        </section>\n\n        <!-- ALL STUDENTS ---------------------------------->\n        <section class=\"all-graduates-container\">\n          <!-- graduate component -->\n          <div class=\"graduate-grid\">\n            ", "\n          </div>\n          <!-- /component -->\n        </section>\n\n        <!-- FOOTER ---------------------------------->\n        <footer>\n          <div class=\"footer-content\">\n            <div class=\"footer-col\">\n              <h3>DeStore</h3>\n              <p>\n                Monday \u2013 Saturday: 8:00 am \u2013 4:00pm <br />\n                Sunday: 9:00 am \u2013 5:00pm<br />\n                Kent St, Bentley, 6102, Western Australia<br /><br />\n                @destore\n              </p>\n            </div>\n            <div class=\"footer-col\">\n              <h3>Quick Links</h3>\n              <ul>\n                <li>Home</li>\n                <li>Shop</li>\n                <li>About</li>\n                <li>Contact</li>\n              </ul>\n            </div>\n            <div class=\"footer-col\">\n              <h3>Shop</h3>\n              <ul>\n                <li>Fresh Produce</li>\n                <li>Butcher</li>\n                <li>Bakery</li>\n              </ul>\n            </div>\n          </div>\n        </footer>\n      </div>\n    "]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -9643,11 +9634,6 @@ class AllGraduates {
     _Utils.default.pageIntroAnim();
   }
 
-  clearFilterBtns() {
-    const filterBtns = document.querySelectorAll(".filter-btn");
-    filterBtns.forEach(btn => btn.removeAttribute("type"));
-  }
-
   resetGrads() {
     this.Graduates = _graduateData.Graduates;
     this.render();
@@ -9658,16 +9644,17 @@ class AllGraduates {
     if (!field || !match) return; // get fresh copy of the graduates - reset graduates so that no filters have been applied already
 
     this.Graduates;
-    let filteredGraduates; // by major
-
-    if (field == "major") {
-      filteredGraduates = this.Graduates.filter(graduate => graduate.texture == match);
-    } // by firstName
-
+    let filteredGraduates; // by firstName
 
     if (field == "firstName") {
       // filter this.graduate where graduate.name contains a searchQuery
       filteredGraduates = this.Graduates.filter(graduate => graduate.firstName.toLowerCase().includes(match.toLowerCase()));
+    } // FIRSTNAME IS THE ONLY ONE THAT ACUTALLY WORKS OOPS
+    // by major
+
+
+    if (field == "major") {
+      filteredGraduates = this.Graduates.filter(graduate => graduate.texture == match);
     } // by lastName
 
 
@@ -9704,25 +9691,45 @@ class AllGraduates {
     }
   }
 
-  handleFilterBtn(e) {
-    // clear all filter buttons active state (remove type = primary)
-    this.clearFilterBtns(); // set button active (type = primary)
+  handleAGDFilter(e) {
+    console.log(e.target.dataset.match);
 
-    e.target.setAttribute("type", "primary"); // extract the field and match from the button
+    let agdGrads = _graduateData.Graduates.filter(function (grad) {
+      return grad.major === "Animation and Game Design";
+    });
 
-    const field = e.target.getAttribute("data-field");
-    const match = e.target.getAttribute("data-match"); // filter graduates
+    this.Graduates = agdGrads;
+    this.render();
+  }
 
-    this.filterGraduates(field, match);
+  handleGDFilter(e) {
+    console.log(e.target.dataset.match);
+
+    let graphicGrads = _graduateData.Graduates.filter(function (grad) {
+      return grad.major === "Graphic Design";
+    });
+
+    this.Graduates = graphicGrads;
+    this.render();
+  }
+
+  handleDDFilter(e) {
+    console.log(e.target.dataset.match);
+
+    let digitalGrads = _graduateData.Graduates.filter(function (grad) {
+      return grad.major === "Digital Experience and Interaction Design";
+    });
+
+    this.Graduates = digitalGrads;
+    this.render();
   }
 
   clearFilters() {
     this.resetGrads();
-    this.clearFilterBtns();
   }
 
   render() {
-    const template = (0, _litHtml.html)(_templateObject(), this.handleSearchKeyup.bind(this), this.backSpaceHandler.bind(this), this.clearFilters.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), _graduateData.Graduates == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), this.Graduates.map(graduate => (0, _litHtml.html)(_templateObject4(), graduate.avatarTwo, graduate.avatarOne, graduate.firstName, graduate.lastName, graduate.portfolio, graduate.tagLine, graduate.studentNumber))));
+    const template = (0, _litHtml.html)(_templateObject(), this.handleSearchKeyup.bind(this), this.backSpaceHandler.bind(this), this.clearFilters.bind(this), this.handleAGDFilter.bind(this), this.handleGDFilter.bind(this), this.handleDDFilter.bind(this), _graduateData.Graduates == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), this.Graduates.map(graduate => (0, _litHtml.html)(_templateObject4(), graduate.avatarTwo, graduate.avatarOne, graduate.firstName, graduate.lastName, graduate.portfolio, graduate.tagLine, graduate.studentNumber))));
     (0, _litHtml.render)(template, _App.default.rootEl);
   }
 
@@ -14153,7 +14160,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55343" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56359" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

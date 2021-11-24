@@ -14,11 +14,6 @@ class AllGraduates {
     Utils.pageIntroAnim();
   }
 
-  clearFilterBtns() {
-    const filterBtns = document.querySelectorAll(".filter-btn");
-    filterBtns.forEach((btn) => btn.removeAttribute("type"));
-  }
-
   resetGrads() {
     this.Graduates = Graduates;
     this.render();
@@ -33,18 +28,20 @@ class AllGraduates {
 
     let filteredGraduates;
 
-    // by major
-    if (field == "major") {
-      filteredGraduates = this.Graduates.filter(
-        (graduate) => graduate.texture == match
-      );
-    }
-
     // by firstName
     if (field == "firstName") {
       // filter this.graduate where graduate.name contains a searchQuery
       filteredGraduates = this.Graduates.filter((graduate) =>
         graduate.firstName.toLowerCase().includes(match.toLowerCase())
+      );
+    }
+
+    // FIRSTNAME IS THE ONLY ONE THAT ACUTALLY WORKS OOPS
+
+    // by major
+    if (field == "major") {
+      filteredGraduates = this.Graduates.filter(
+        (graduate) => graduate.texture == match
       );
     }
 
@@ -84,23 +81,33 @@ class AllGraduates {
     }
   }
 
-  handleFilterBtn(e) {
-    // clear all filter buttons active state (remove type = primary)
-    this.clearFilterBtns();
-
-    // set button active (type = primary)
-    e.target.setAttribute("type", "primary");
-    // extract the field and match from the button
-    const field = e.target.getAttribute("data-field");
-    const match = e.target.getAttribute("data-match");
-
-    // filter graduates
-    this.filterGraduates(field, match);
+  handleAGDFilter(e) {
+    console.log(e.target.dataset.match);
+    let agdGrads = Graduates.filter(function (grad) {
+      return grad.major === "Animation and Game Design";
+    });
+    this.Graduates = agdGrads;
+    this.render();
+  }
+  handleGDFilter(e) {
+    console.log(e.target.dataset.match);
+    let graphicGrads = Graduates.filter(function (grad) {
+      return grad.major === "Graphic Design";
+    });
+    this.Graduates = graphicGrads;
+    this.render();
+  }
+  handleDDFilter(e) {
+    console.log(e.target.dataset.match);
+    let digitalGrads = Graduates.filter(function (grad) {
+      return grad.major === "Digital Experience and Interaction Design";
+    });
+    this.Graduates = digitalGrads;
+    this.render();
   }
 
   clearFilters() {
     this.resetGrads();
-    this.clearFilterBtns();
   }
 
   render() {
@@ -142,30 +149,24 @@ class AllGraduates {
               <li class="divider"></li>
               <li
                 class="filter-btn"
-                size="small"
-                data-field="major"
                 data-match="animation-and-game-design"
-                @click=${this.handleFilterBtn.bind(this)}
+                @click=${this.handleAGDFilter.bind(this)}
               >
                 Animation & Game Design
               </li>
               <li class="divider"></li>
               <li
                 class="filter-btn"
-                size="small"
-                data-field="major"
                 data-match="graphic-design"
-                @click=${this.handleFilterBtn.bind(this)}
+                @click=${this.handleGDFilter.bind(this)}
               >
                 Graphic Design
               </li>
               <li class="divider"></li>
               <li
                 class="filter-btn"
-                size="small"
-                data-field="major"
                 data-match="digital-design"
-                @click=${this.handleFilterBtn.bind(this)}
+                @click=${this.handleDDFilter.bind(this)}
               >
                 Digital Design
               </li>

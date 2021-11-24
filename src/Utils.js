@@ -31,15 +31,6 @@ class Utils {
     return array;
   }
 
-  imageSplice(splitString) {
-    Graduates.map((grad) => {
-      const imageString = grad.images;
-      const splitString = imageString.split(", ");
-      return splitString;
-      console.log(splitString);
-    });
-  }
-
   pageIntroAnim() {
     const pageContent = document.querySelector(".page-content");
     if (!pageContent) return;
