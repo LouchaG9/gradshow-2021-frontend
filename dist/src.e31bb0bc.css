@@ -1285,6 +1285,7 @@ sl-dialog::part(title) {
   list-style-type: none;
   font-family: "montserrat";
   font-size: 1.1em;
+  z-index: 10;
 }
 .dd-menu li {
   padding: 15px;
@@ -1293,7 +1294,7 @@ sl-dialog::part(title) {
   background-color: white;
 }
 .dd-menu li:hover {
-  background-color: var(--destore-purple);
+  background-color: #ebebeb;
 }
 
 li.divider {
