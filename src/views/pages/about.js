@@ -79,18 +79,26 @@ class AboutView {
           <div class="credit-block" id="tres">
             <h3>Treasury</h3>
             <ul>
-              <li>Name LastName</li>
-              <li>Name LastName</li>
+              <li>Ella Edwards</li>
+              <li>Lachlan Robertson</li>
             </ul>
           </div>
           <div class="credit-block">
             <h3>Animation & Video Production Team</h3>
             <ul>
-              <li>Name LastName</li>
-              <li>Name LastName</li>
-              <li>Name LastName</li>
-              <li>Name LastName</li>
-              <li>Name LastName</li>
+              <li>Sylvia Chen</li>
+              <li>Michelle Thomas</li>
+              <li>Sophie Till</li>
+              <li>Dana Knowles</li>
+              <li>Eden Leicester</li>
+              <li>Alex Bertilone</li>
+              <li>Nina Dakin</li>
+              <li>Ella Matthews</li>
+              <li>Joshua Michell</li>
+              <li>Daffa Rizkiadi</li>
+              <li>Lachlan Robertson</li>
+              <li>Jekko Cabral</li>
+              <li>Yaeram Kim</li>
             </ul>
           </div>
           <div class="credit-block">
@@ -104,42 +112,48 @@ class AboutView {
           <div class="credit-block">
             <h3>Testing & Quality Team</h3>
             <ul>
-              <li>Name LastName</li>
-              <li>Name LastName</li>
-              <li>Name LastName</li>
-              <li>Name LastName</li>
-              <li>Name LastName</li>
+              <li>Nina Dakin</li>
+              <li>Daffa Rizkiadi</li>
+              <li>Julian Osborn</li>
+              <li>Lucas Vieira</li>
+              <li>Alexandra McGee</li>
+              <li>Sylvia Chen</li>
+              <li>Eden Leicester</li>
+              <li>Michelle Thomas</li>
+              <li>Lachlan Robertson</li>
+              <li>Jekko Cabral</li>
+              <li>Sophie Till</li>
             </ul>
           </div>
           <div class="credit-block">
             <h3>Website Programmers</h3>
             <ul>
-              <li>Name LastName</li>
-              <li>Name LastName</li>
-              <li>Name LastName</li>
-              <li>Name LastName</li>
-              <li>Name LastName</li>
-              <li>Name LastName</li>
-              <li>Name LastName</li>
-              <li>Name LastName</li>
+              <li>Emily Lowry</li>
+              <li>Joaquin Atizado</li>
+              <li>Michael D'Costa</li>
+              <li>Julian Osborn</li>
+              <li>Shi Ning Wang</li>
+              <li>Ruitan Huang</li>
+              <li>Tian Hock Yan</li>
+              <li>Lucas Vieira</li>
+              <li>Brandon Watson</li>
+              <li>Jet Trijo</li>
             </ul>
           </div>
-          <div class="credit-block">
-            <h3>Copy Writing Team</h3>
-            <ul>
-              <li>Name LastName</li>
-              <li>Name LastName</li>
-            </ul>
-          </div>
+
           <div class="credit-block">
             <h3>Communications & Logistics Team</h3>
             <ul>
-              <li>Name LastName</li>
-              <li>Name LastName</li>
-              <li>Name LastName</li>
-              <li>Name LastName</li>
-              <li>Name LastName</li>
-              <li>Name LastName</li>
+              <li>Joshua Michell</li>
+              <li>Dana Knowles</li>
+              <li>Tian Hock Yan</li>
+              <li>Michael D'Costa</li>
+              <li>Ella Edwards</li>
+              <li>Ruitan Huang</li>
+              <li>Jet Trijo</li>
+              <li>Yaeram Kim</li>
+              <li>Emily Harding</li>
+              <li>Joaquin Atizado</li>
             </ul>
           </div>
           <div class="credit-block">
