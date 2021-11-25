@@ -7909,8 +7909,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19792888_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19792888_DKnowles_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19792888_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19792888_DKnowles_main.jpg",
   imageOne: "../images/work/Dana_Knowles_19792888_1 - Dana Knowles.jpg",
   imageTwo: "../images/work/Dana_Knowles_19792888_2 - Dana Knowles.jpg",
   imageThree: "../images/work/Dana_Knowles_19792888_3 - Dana Knowles.jpg",
@@ -7937,8 +7937,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19485502_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19485502_TStirling_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19485502_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19485502_TStirling_main.jpg",
   imageOne: "../images/work/Tessa_Stirling_19485502_1 - Tessa Stirling.jpg",
   imageTwo: "../images/work/Tessa_Stirling_19485502_2 - Tessa Stirling.jpg",
   imageThree: "../images/work/Tessa_Stirling_19485502_3 - Tessa Stirling.jpg",
@@ -7965,8 +7965,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19965680_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19965680_HJones_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19965680_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19965680_HJones_main.jpg",
   imageOne: "../images/work/Hannah_Jones_19965680_1 - Hannah Jones.jpg",
   imageTwo: "../images/work/Hannah_Jones_19965680_2 - Hannah Jones.jpg",
   imageThree: "../images/work/Hannah_Jones_19965680_3 - Hannah Jones.jpg",
@@ -7993,8 +7993,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/18846674_alt.jpg",
   avatarTwo: "./images/graduateAvatars/18846674_SMabirrat_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/18846674_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/18846674_SMabirrat_main.jpg",
   imageOne: "../images/work/Samantha_Maliwat_18846674_1 - Bacon Omnom.jpg",
   imageTwo: "../images/work/Samantha_Maliwat_18846674_2 - Bacon Omnom.jpg",
   imageThree: "../images/work/Samantha_Maliwat_18846674_3 - Bacon Omnom.jpg",
@@ -8021,8 +8021,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19499736_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19499736_JNesic_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19499736_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19499736_JNesic_main.jpg",
   imageOne: "../images/work/Jordan_Nesic_19499736_1 - Jordan N.jpg",
   imageTwo: "../images/work/Jordan_Nesic_19499736_2 - Jordan N.jpg",
   imageThree: "../images/work/Jordan_Nesic_19499736_3 - Jordan N.jpg",
@@ -8049,8 +8049,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/18342224_alt.jpg",
   avatarTwo: "./images/graduateAvatars/18342224_JSaw_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/18342224_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/18342224_JSaw_main.jpg",
   imageOne: "../images/work/Jamin_Saw_18342224_1 - Jamin Saw.jpg",
   imageTwo: "../images/work/Jamin_Saw_18342224_2 - Jamin Saw.jpg",
   imageThree: "../images/work/Jamin_Saw_18342224_3 - Jamin Saw.jpg",
@@ -8077,8 +8077,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19148724_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19148724_ELeicester_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19148724_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19148724_ELeicester_main.jpg",
   imageOne: "../images/work/Eden_Leicester_19148724_1 - Eden Leicester.jpg",
   imageTwo: "../images/work/Eden_Leicester_19148724_2 - Eden Leicester.jpg",
   imageThree: "../images/work/Eden_Leicester_19148724_3 - Eden Leicester.jpg",
@@ -8105,8 +8105,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19749253_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19749253_YKim_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19749253_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19749253_YKim_main.jpg",
   imageOne: "../images/work/Yaeram_Kim_19749253_1 - yaeram kim.png",
   imageTwo: "../images/work/Yaeram_Kim_19749253_2 - yaeram kim.png",
   imageThree: "../images/work/Yaeram_Kim_19749253_3 - yaeram kim.png",
@@ -8133,8 +8133,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19762328_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19762328_LTarr_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19762328_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19762328_LTarr_main.jpg",
   imageOne: "../images/work/Lilybelle_Tarr_19762328_1 - Lilybelle tarr.jpg",
   imageTwo: "../images/work/Lilybelle_Tarr_19762328_2 - Lilybelle tarr.jpg",
   imageThree: "../images/work/Lilybelle_Tarr_19762329_3 - Lilybelle tarr.jpg",
@@ -8161,8 +8161,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19790316_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19790316_JCabral_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19790316_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19790316_JCabral_main.jpg",
   imageOne: "../images/work/Jekko_Cabral_19790316_1 - J C.jpg",
   imageTwo: "../images/work/Jekko_Cabral_19790316_2 - J C.jpg",
   imageThree: "../images/work/Jekko_Cabral_19790316_3 - J C.jpg",
@@ -8189,8 +8189,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19918406_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19918406_NDakin_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19918406_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19918406_NDakin_main.jpg",
   imageOne: "../images/work/Nina_Dakin_19918406_1 - Nina Dakin.jpg",
   imageTwo: "../images/work/Nina_Dakin_19918406_2 - Nina Dakin.jpg",
   imageThree: "../images/work/Nina_Dakin_19918406_3 - Nina Dakin.jpg",
@@ -8217,8 +8217,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19770295_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19770295_DRizkiadi_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19770295_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19770295_DRizkiadi_main.jpg",
   imageOne: "../images/work/Daffa_Rizkiadi_19770295_1 - Daffa Rizkiadi.jpg",
   imageTwo: "../images/work/Daffa_Rizkiadi19770295_2 - Daffa Rizkiadi.jpg",
   imageThree: "../images/work/Daffa_Rizkiadi_19770295_3 - Daffa Rizkiadi.jpg",
@@ -8245,8 +8245,8 @@ const Graduates = [{
   shirt: "https://yourbestfriendjippy.com",
   avatarOne: "./images/graduateBags/_DSC1411.jpg",
   avatarTwo: "./images/graduateBags/_DSC1408.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateBagsHQ/_DSC1411.jpg",
+  avatarTwoHQ: "./images/graduateBagsHQ/_DSC1408.jpg",
   imageOne: "../images/work/Julian_Osborn_19467092_1 - Jippy.jpg",
   imageTwo: "../images/work/Julian_Osborn_19467092_2 - Jippy.jpg",
   imageThree: "../images/work/Julian_Osborn_19467092_3 - Jippy.jpg",
@@ -8273,8 +8273,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/17373236_alt.jpg",
   avatarTwo: "./images/graduateAvatars/17373236_EHarding_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/17373236_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/17373236_EHarding_main.jpg",
   imageOne: "../images/work/Emily_Harding_17373236_1 - Emily Harding.jpg",
   imageTwo: "../images/work/Emily_Harding_17373236_2 - Emily Harding.jpg",
   imageThree: "../images/work/Emily_Harding_17373236_3 - Emily Harding.jpg",
@@ -8301,8 +8301,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19449087_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19449087_MGilmoor_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19449087_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19449087_MGilmoor_main.jpg",
   imageOne: "../images/work/Matthew_Gilmour_19449087_1 - Matthew Gilmour.jpg",
   imageTwo: "../images/work/Matthew_Gilmour_19449087_2 - Matthew Gilmour.jpg",
   imageThree: "../images/work/Matthew_Gilmour_19449087_3 - Matthew Gilmour.jpg",
@@ -8329,8 +8329,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19131148_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19131158_JFoti_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19131148_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19131158_JFoti_main.jpg",
   imageOne: "../images/work/Joshua_Foti_19131148_1 - lilvinci.jpg",
   imageTwo: "../images/work/Joshua_Foti_19131148_2 - lilvinci.jpg",
   imageThree: "../images/work/Joshua_Foti_19131148_3 - lilvinci.jpg",
@@ -8357,8 +8357,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19783853_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19783853_OLalacci_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19783853_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19783853_OLalacci_main.jpg",
   imageOne: "../images/work/Olivia_Ialacci_19783853_1 - Olivia Ialacci.jpg",
   imageTwo: "../images/work/Olivia_Ialacci_19783853_2 - Olivia Ialacci.jpg",
   imageThree: "../images/work/Olivia_Ialacci_19783853_3 - Olivia Ialacci.jpg",
@@ -8385,8 +8385,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19501903_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19501903_STill_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19501903_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19501903_STill_main.jpg",
   imageOne: "../images/work/Sophie_Till_19501903_1 - Sophie Till.jpg",
   imageTwo: "../images/work/Sophie_Till_19501903_2 - Sophie Till.jpg",
   imageThree: "../images/work/Sophie_Till_19501903_3 - Sophie Till.jpg",
@@ -8413,8 +8413,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/17817860_alt.jpg",
   avatarTwo: "./images/graduateAvatars/17817860_ABertilone_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/17817860_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/17817860_ABertilone_main.jpg",
   imageOne: "../images/work/Alex_Bertilone_17817860_1 - Alex Bertilone.jpg",
   imageTwo: "../images/work/Alex_Bertilone_17817860_2 - Alex Bertilone.jpg",
   imageThree: "../images/work/Alex_Bertilone_17817860_3 - Alex Bertilone.jpg",
@@ -8441,8 +8441,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19157254_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19157254_ENewby_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19157254_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19157254_ENewby_main.jpg",
   imageOne: "../images/work/Eleyna_Newby_19157254_1 - Elle Rose.jpg",
   imageTwo: "../images/work/Eleyna_Newby_19157254_2 - Elle Rose.jpg",
   imageThree: "../images/work/Eleyna_Newby_19157254_3 - Elle Rose.jpg",
@@ -8469,8 +8469,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19454722_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19454722_MHorler_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19454722_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19454722_MHorler_main.jpg",
   imageOne: "../images/work/Madi_Horler_19454722_1 - Madison Horler.jpg",
   imageTwo: "../images/work/Madi_Horler_19454722_2 - Madison Horler.jpg",
   imageThree: "../images/work/Madi_Horler_19454722_3 - Madison Horler.jpg",
@@ -8497,8 +8497,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19606154_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19606154_GRidarta_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19606154_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19606154_GRidarta_main.jpg",
   imageOne: "../images/work/Ghassani_Ridarta_19606154_1 - Ghassani A Ridarta.jpg",
   imageTwo: "../images/work/Ghassani_Ridarta_19606154_2 - Ghassani A Ridarta.jpg",
   imageThree: "../images/work/Ghassani_Ridarta_19606154_3 - Ghassani A Ridarta.jpg",
@@ -8525,8 +8525,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19490085_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19490085_DMusarra_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19490085_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19490085_DMusarra_main.jpg",
   imageOne: "../images/work/Danielle_Musarra_19490085_1 - Danielle Musarra.jpg",
   imageTwo: "../images/work/Danielle_Musarra_19490085_2 - Danielle Musarra.jpg",
   imageThree: "../images/work/Danielle_Musarra_19490085_3 - Danielle Musarra.jpg",
@@ -8553,8 +8553,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19963587_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19963587_EMatthews_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19963587_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19963587_EMatthews_main.jpg",
   imageOne: "../images/work/Ella_Matthews_19963587_1 - Ella Matthews.jpg",
   imageTwo: "../images/work/Ella_Matthews_19963587_2 - Ella Matthews.jpg",
   imageThree: "../images/work/Ella_Matthews_19963587_3 - Ella Matthews.jpg",
@@ -8581,8 +8581,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19133225_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19133225_AMarbeck_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19133225_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19133225_AMarbeck_main.jpg",
   imageOne: "../images/work/AlexandraMarbeck_19133225_1 - ali marbeck.jpg",
   imageTwo: "../images/work/AlexandraMarbeck_19133225_3 - ali marbeck.jpg",
   imageThree: "../images/work/AlexandraMarbeck_19133225_4 - ali marbeck.jpg",
@@ -8609,8 +8609,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19749402_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19749402_GPortelli_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19749402_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19749402_GPortelli_main.jpg",
   imageOne: "../images/work/Gia_Portelli_19749402_1 - Gia Portelli.jpg",
   imageTwo: "../images/work/Gia_Portelli_19749402_2 - Gia Portelli.jpg",
   imageThree: "../images/work/Gia_Portelli_19749402_3 - Gia Portelli.jpg",
@@ -9748,7 +9748,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  const data = _taggedTemplateLiteral(["\n      <va-app-header\n        title=\"View Graduate\"\n        user=\"", "\"\n      ></va-app-header>\n      <div class=\"page-content\">\n        ", "\n        <!-- end of individual rendering -->\n\n        <!-- FOOTER ---------------------------------->\n        <footer>\n        <div class=\"footer-content\">\n          <div class=\"destore-col\">\n            <h3>DeStore</h3>\n            <p>\n              Monday - Closed <br />\n              Tuesday \u2013 Saturday: 7:00 am \u2013 3:00 pm <br />\n              Sunday: 9:00 am \u2013 2:00 pm<br />\n              Kent St, Bentley, 6102, Western Australia<br /><br />\n              @destore\n            </p>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-animation-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Animation</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Game Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fruit</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Vegetables</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-digex-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Digital Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Baked Goods</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fresh Bread</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Wraps</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-graphic-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Graphic Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cold Meats</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cheese</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Olives</h3>\n              </div>\n            </div>\n          </div>\n        </div>\n      </footer>\n      </div>\n    "]);
+  const data = _taggedTemplateLiteral(["\n      <va-app-header\n        title=\"View Graduate\"\n        user=\"", "\"\n      ></va-app-header>\n      <div class=\"page-content\">\n        ", "\n        <!-- end of individual rendering -->\n        \n      </div>\n    "]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -9782,7 +9782,7 @@ class viewGraduateView {
   }
 
   render() {
-    const template = (0, _litHtml.html)(_templateObject(), JSON.stringify(_Auth.default.currentUser), this.graduate == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), _App.default.apiBase, this.graduate.normalPhoto, this.graduate.major, this.graduate.firstName, this.graduate.quirkyFact, this.graduate.hobbies, this.graduate.description), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"));
+    const template = (0, _litHtml.html)(_templateObject(), JSON.stringify(_Auth.default.currentUser), this.graduate == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), _App.default.apiBase, this.graduate.normalPhoto, this.graduate.major, this.graduate.firstName, this.graduate.quirkyFact, this.graduate.hobbies, this.graduate.description));
     (0, _litHtml.render)(template, _App.default.rootEl);
   }
 
@@ -10496,7 +10496,7 @@ var _graduates = _interopRequireDefault(require("./graduates"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject() {
-  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"View Graduate\"></va-app-header>\n      <div class=\"page-content\">\n        <section class=\"block-50-50\">\n          <div class=\"column\">\n            <div class=\"avatarContainer\">\n              <!-- first graduate avatar image -->\n              <img\n                class=\"avatarStyling avatarImage avatarOne\"\n                src=\"../", "\"\n              />\n              <!-- second graduate avatar image -->\n              <img\n                class=\"avatarStyling avatarImage avatarTwo\"\n                src=\"../", "\"\n              />\n            </div>\n          </div>\n          <div class=\"column paddingLeft\">\n            <h3>", "</h3>\n            <h1>\n              ", "\n              ", "\n            </h1>\n            <p><i>", "</i></p>\n\n            <p class=\"bioStyle\">", "</p>\n\n            <div class=\"socials-wrapper\">\n              <a\n                class=\"secondary\"\n                href=\"", "\"\n                target=\"_blank\"\n              >\n                Portfolio\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-linkedin-in\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-instagram\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-dribbble\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-artstation\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-behance\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-twitter\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-vimeo-v\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-github\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fas fa-tshirt\"></i>\n              </a>\n            </div>\n          </div>\n        </section>\n\n        <!-- WORK ---------------------------------->\n        <section>\n          <h2 class=\"profile\">\n            Some of ", "'s Work\n          </h2>\n          <!-- This is where we will display a couple of the students best works. -->\n          <!-- Maximum number is 6 works -->\n\n          <div id=\"photos\">\n            <img\n              class=\"portfolioItems\"\n              src=\"", "\"\n              alt=\"\"\n            />\n            <img\n              class=\"portfolioItems\"\n              src=\"", "\"\n              alt=\"\"\n            />\n            <img\n              class=\"portfolioItems\"\n              src=\"", "\"\n              alt=\"\"\n            />\n            <img\n              class=\"portfolioItems\"\n              src=\"", "\"\n              alt=\"\"\n            />\n            <img\n              class=\"portfolioItems\"\n              src=\"", "\"\n              alt=\"\"\n            />\n            <img\n              class=\"portfolioItems\"\n              src=\"", "\"\n              alt=\"\"\n            />\n          </div>\n        </section>\n      </div>\n      <va-app-footer></va-app-footer>\n    "]);
+  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"View Graduate\"></va-app-header>\n      <div class=\"page-content\">\n        <section class=\"block-50-50\">\n          <div class=\"column\">\n            <div class=\"avatarContainer\">\n              <!-- first graduate avatar image -->\n              <img\n                class=\"avatarStyling avatarImage avatarOne\"\n                src=\"../", "\"\n              />\n              <!-- second graduate avatar image -->\n              <img\n                class=\"avatarStyling avatarImage avatarTwo\"\n                src=\"../", "\"\n              />\n            </div>\n          </div>\n          <div class=\"column paddingLeft\">\n            <h3>", "</h3>\n            <h1>\n              ", "\n              ", "\n            </h1>\n            <p><i>", "</i></p>\n\n            <p class=\"bioStyle\">", "</p>\n\n            <div class=\"socials-wrapper\">\n              <a\n                class=\"secondary\"\n                href=\"", "\"\n                target=\"_blank\"\n              >\n                Portfolio\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-linkedin-in\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-instagram\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-dribbble\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-artstation\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-behance\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-twitter\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-vimeo-v\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-github\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fas fa-tshirt\"></i>\n              </a>\n            </div>\n          </div>\n        </section>\n\n        <!-- WORK ---------------------------------->\n        <section>\n          <h2 class=\"profile\">\n            Some of ", "'s Work\n          </h2>\n          <!-- This is where we will display a couple of the students best works. -->\n          <!-- Maximum number is 6 works -->\n\n          <div id=\"photos\">\n            <img\n              class=\"portfolioItems\"\n              src=\"", "\"\n              alt=\"\"\n            />\n            <img\n              class=\"portfolioItems\"\n              src=\"", "\"\n              alt=\"\"\n            />\n            <img\n              class=\"portfolioItems\"\n              src=\"", "\"\n              alt=\"\"\n            />\n            <img\n              class=\"portfolioItems\"\n              src=\"", "\"\n              alt=\"\"\n            />\n            <img\n              class=\"portfolioItems\"\n              src=\"", "\"\n              alt=\"\"\n            />\n            <img\n              class=\"portfolioItems\"\n              src=\"", "\"\n              alt=\"\"\n            />\n          </div>\n        </section>\n      </div>\n      <footer>\n        <div class=\"footer-content\">\n          <div class=\"destore-col\">\n            <h3>DeStore</h3>\n            <p>\n              Monday - Closed <br />\n              Tuesday \u2013 Saturday: 7:00 am \u2013 3:00 pm <br />\n              Sunday: 9:00 am \u2013 2:00 pm<br />\n              Kent St, Bentley, 6102, Western Australia<br /><br />\n              @destore\n            </p>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-animation-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Animation</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Game Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fruit</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Vegetables</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-digex-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Digital Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Baked Goods</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fresh Bread</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Wraps</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-graphic-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Graphic Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cold Meats</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cheese</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Olives</h3>\n              </div>\n            </div>\n          </div>\n        </div>\n      </footer>\n    "]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -10550,7 +10550,7 @@ class specificProfile {
   }
 
   render() {
-    const template = (0, _litHtml.html)(_templateObject(), globalThis.studentIdGlobal.avatarOne, globalThis.studentIdGlobal.avatarTwo, globalThis.studentIdGlobal.major, globalThis.studentIdGlobal.firstName, globalThis.studentIdGlobal.lastName, globalThis.studentIdGlobal.tagLine, globalThis.studentIdGlobal.bio, globalThis.studentIdGlobal.portfolio, globalThis.studentIdGlobal.linkedin, globalThis.studentIdGlobal.instagram, globalThis.studentIdGlobal.dribbble, globalThis.studentIdGlobal.artStation, globalThis.studentIdGlobal.behance, globalThis.studentIdGlobal.twitter, globalThis.studentIdGlobal.vimeo, globalThis.studentIdGlobal.github, globalThis.studentIdGlobal.shirt, globalThis.studentIdGlobal.firstName, globalThis.studentIdGlobal.imageOne, globalThis.studentIdGlobal.imageTwo, globalThis.studentIdGlobal.imageThree, globalThis.studentIdGlobal.imageFour, globalThis.studentIdGlobal.imageFive, globalThis.studentIdGlobal.imageSix);
+    const template = (0, _litHtml.html)(_templateObject(), globalThis.studentIdGlobal.avatarOne, globalThis.studentIdGlobal.avatarTwo, globalThis.studentIdGlobal.major, globalThis.studentIdGlobal.firstName, globalThis.studentIdGlobal.lastName, globalThis.studentIdGlobal.tagLine, globalThis.studentIdGlobal.bio, globalThis.studentIdGlobal.portfolio, globalThis.studentIdGlobal.linkedin, globalThis.studentIdGlobal.instagram, globalThis.studentIdGlobal.dribbble, globalThis.studentIdGlobal.artStation, globalThis.studentIdGlobal.behance, globalThis.studentIdGlobal.twitter, globalThis.studentIdGlobal.vimeo, globalThis.studentIdGlobal.github, globalThis.studentIdGlobal.shirt, globalThis.studentIdGlobal.firstName, globalThis.studentIdGlobal.imageOne, globalThis.studentIdGlobal.imageTwo, globalThis.studentIdGlobal.imageThree, globalThis.studentIdGlobal.imageFour, globalThis.studentIdGlobal.imageFive, globalThis.studentIdGlobal.imageSix, () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"));
     (0, _litHtml.render)(template, _App.default.rootEl);
   }
 
@@ -14339,7 +14339,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\..\\static\\fonts\\DeStoreFonts\\MarkSimonson-ProximaNovaRegular.otf":[["MarkSimonson-ProximaNovaRegular.aa2a2292.otf","../static/fonts/DeStoreFonts/MarkSimonson-ProximaNovaRegular.otf"],"../static/fonts/DeStoreFonts/MarkSimonson-ProximaNovaRegular.otf"],"./..\\..\\static\\fonts\\DeStoreFonts\\MilkmanRegular.ttf":[["MilkmanRegular.abbb0ba7.ttf","../static/fonts/DeStoreFonts/MilkmanRegular.ttf"],"../static/fonts/DeStoreFonts/MilkmanRegular.ttf"],"./..\\..\\static\\fonts\\DeStoreFonts\\MonoSpec-Bold.otf":[["MonoSpec-Bold.a512cabb.otf","../static/fonts/DeStoreFonts/MonoSpec-Bold.otf"],"../static/fonts/DeStoreFonts/MonoSpec-Bold.otf"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
+},{"./../../static/fonts/DeStoreFonts/MarkSimonson-ProximaNovaRegular.otf":[["MarkSimonson-ProximaNovaRegular.aa2a2292.otf","../static/fonts/DeStoreFonts/MarkSimonson-ProximaNovaRegular.otf"],"../static/fonts/DeStoreFonts/MarkSimonson-ProximaNovaRegular.otf"],"./../../static/fonts/DeStoreFonts/MilkmanRegular.ttf":[["MilkmanRegular.abbb0ba7.ttf","../static/fonts/DeStoreFonts/MilkmanRegular.ttf"],"../static/fonts/DeStoreFonts/MilkmanRegular.ttf"],"./../../static/fonts/DeStoreFonts/MonoSpec-Bold.otf":[["MonoSpec-Bold.a512cabb.otf","../static/fonts/DeStoreFonts/MonoSpec-Bold.otf"],"../static/fonts/DeStoreFonts/MonoSpec-Bold.otf"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 var _App = _interopRequireDefault(require("./App.js"));
@@ -14387,7 +14387,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63008" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49576" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
