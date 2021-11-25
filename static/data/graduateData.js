@@ -89,8 +89,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/17159355_alt.jpg",
     avatarTwo: "./images/graduateAvatars/17159355_Lrobertson_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/17159355_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/17159355_Lrobertson_main.jpg",
     imageOne:
       "../images/work/Lachlan_Robertson_17159355_1 - Lachlan Robertson.jpg",
     imageTwo:
@@ -124,8 +124,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19760814_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19760814_AMai_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19760814_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19760814_AMai_main.jpg",
     imageOne:
       "../images/work/Anna_Mai_19760814_1 - Anna Mai.jpg",
     imageTwo:
@@ -159,8 +159,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/20037952_alt.jpg",
     avatarTwo: "./images/graduateAvatars/20037952_THYan_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/20037952_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/20037952_THYan_main.jpg",
     imageOne:
     "../images/work/1t - Tian Hock Yan.jpg",
     imageTwo:
@@ -180,8 +180,8 @@ export const Graduates = [
     lastName: "Huang",
     email: "ruitan1520@gmail.com",
     major: "Digital Experience and Interaction Design",
-    bio: "Hi, I'm Ruitan, I'm an upbeat, self- motivated team player with excellent communication skills. I'm based in Perth who loves to design interfaces and tackle the problem to improve user experience. I'm also keen on always learning new skills so I'm always on top of all the trends. I have excellent UI design skills as well as an excellent understanding of user experience design and research.",
-    tagLine: "I'm loving the UX problems",
+    bio: "Hi, I'm Ruitan. I'm an upbeat, self-motivated team player with strong communication skills. I love tackling design problems, and undertaking research to better understand users' needs and pain points. I am passionate  about learning new things and keeping up to date with design trends. ",
+    tagLine: "I love learning new things, and I’m also an avid photographer",
     portfolio: "http://ruitanexpdesign.com",
     linkedin: "https://www.linkedin.com/in/ruitan-huang/",
     instagram: "https://www.instagram.com/ruitan_uidesign/",
@@ -194,8 +194,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19467322_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19467322_RHuang_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19467322_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19467322_RHuang_main.jpg",
     imageOne:
     "../images/work/Ruitan_Huang_19467322_2 - Ruitan Huang.jpg",
     imageTwo:
@@ -230,8 +230,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19168735_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19168735_NCassandra_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19168735_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19168735_NCassandra_main.jpg",
     imageOne:
     "../images/work/Nicole_Torres_19168735_1 - Nicole Cassandra Torres.jpg",
     imageTwo:
