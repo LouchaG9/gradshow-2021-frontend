@@ -513,6 +513,12 @@ hr {
 }
 
 @media screen and (max-width: 768px) {
+  .paddingLeft {
+    position: relative;
+    padding-left: 0em;
+    margin-top: 68vw;
+  }
+
   footer {
     width: 100%;
     margin: 0 auto;
@@ -583,6 +589,11 @@ footer .footer-content .footer-animation-column .footer-item {
   }
   footer .footer-content .footer-animation-column .footer-item:hover {
     background: #8eb4a9;
+  }
+}
+@media screen and (max-width: 500px) {
+  .paddingLeft {
+    margin-top: 95vw;
   }
 }
 .banner {
@@ -1105,8 +1116,13 @@ sl-dialog::part(title) {
     width: 100%;
   }
 }
+footer {
+  height: fit-content;
+}
+
 .about-banner {
   display: flex;
+  margin-top: 8em;
 }
 .about-banner p {
   font-size: 1rem;
@@ -1210,6 +1226,10 @@ sl-dialog::part(title) {
   justify-content: space-between;
   height: 20vh;
 }
+.search-and-filter-container ul {
+  font-family: var(--base-font-family);
+  font-weight: 100;
+}
 
 .search-input-container {
   position: relative;
@@ -1250,8 +1270,6 @@ sl-dialog::part(title) {
   height: 50px;
   width: 100%;
   color: var(--base-txt-color);
-  font-family: "montserrat";
-  font-size: 18px;
   border: 1px solid black;
   background-color: var(--body-bg);
 }
