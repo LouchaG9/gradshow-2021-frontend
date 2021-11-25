@@ -17,7 +17,7 @@
   --heading-font-family-A: "MilkmanRegular";
   --heading-font-family-B: "Monospec-Bold";
   --base-font-family: "Proxima Nova Regular", serif;
-  --body-bg: #f6f4ec;
+  --body-bg: #ffffff;
   --brand-color: #e93b2c;
   --link-color: --brand-color;
   --destore-red-alt: #be1e2d;
@@ -109,18 +109,18 @@ section {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  gap: 5px;
+  gap: 10px;
 }
 
 a {
-  border: 2px var(--brand-color) solid;
-  background-color: var(--body-bg);
-  color: var(--brand-color);
+  border: none;
+  background-color: #3F3F3F;
+  color: white;
   margin: 1rem 0;
   text-align: center;
   place-items: center;
   text-transform: uppercase;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.2rem;
   text-decoration: none;
   transition: 0.2s;
 }
@@ -294,6 +294,7 @@ A[href=""], A[href="#"] {
 
 .avatarContainer {
   position: relative;
+  margin-top: 1vw;
 }
 
 .avatarImage {
@@ -1135,6 +1136,10 @@ sl-dialog::part(title) {
     width: 100%;
   }
 }
+footer {
+  height: fit-content;
+}
+
 .about-banner {
   display: flex;
   margin-top: 8em;
