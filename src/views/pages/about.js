@@ -83,6 +83,25 @@ class AboutView {
               <li>Lachlan Robertson</li>
             </ul>
           </div>
+
+          <div class="credit-block">
+            <h3>Testing & Quality Team</h3>
+            <ul>
+              <li>Nina Dakin</li>
+              <li>Daffa Rizkiadi</li>
+              <li>Julian Osborn</li>
+              <li>Lucas Vieira</li>
+              <li>Shi Ning Wang</li>
+              <li>Alexandra McGee</li>
+              <li>Sylvia Chen</li>
+              <li>Eden Leicester</li>
+              <li>Michelle Thomas</li>
+              <li>Lachlan Robertson</li>
+              <li>Jekko Cabral</li>
+              <li>Sophie Till</li>
+            </ul>
+          </div>
+
           <div class="credit-block">
             <h3>Animation & Video Production Team</h3>
             <ul>
@@ -101,6 +120,7 @@ class AboutView {
               <li>Yaeram Kim</li>
             </ul>
           </div>
+
           <div class="credit-block">
             <h3>Photography Team</h3>
             <ul>
@@ -109,22 +129,7 @@ class AboutView {
               <li>Name LastName</li>
             </ul>
           </div>
-          <div class="credit-block">
-            <h3>Testing & Quality Team</h3>
-            <ul>
-              <li>Nina Dakin</li>
-              <li>Daffa Rizkiadi</li>
-              <li>Julian Osborn</li>
-              <li>Lucas Vieira</li>
-              <li>Alexandra McGee</li>
-              <li>Sylvia Chen</li>
-              <li>Eden Leicester</li>
-              <li>Michelle Thomas</li>
-              <li>Lachlan Robertson</li>
-              <li>Jekko Cabral</li>
-              <li>Sophie Till</li>
-            </ul>
-          </div>
+          
           <div class="credit-block">
             <h3>Website Programmers</h3>
             <ul>
