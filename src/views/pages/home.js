@@ -12,27 +12,37 @@ import { Graduates } from "./../../../static/data/graduateData";
 // });
 
 class HomeView {
-
   init() {
     console.log("HomeView.init");
     document.title = "Home";
     this.render();
     this.pageIntroAnim2();
-    
   }
 
-
-
-  pageIntroAnim2(){
-    gsap.from(".subheading", {x: -1000, opacity: 0}, {x: 0, opacity: 1, duration: 1})
-    gsap.from(".animation-column", {y: -600, opacity: 0}, {x: 0, opacity: 1, duration: 3},"-=1")
-    gsap.from(".digex-column", {y: -400, opacity: 0}, {x: 0, opacity: 1, duration: 3})
-    gsap.from(".graphic-column", {y: -300, opacity: 0}, {x: 0, opacity: 1, duration: 3},"-=1")
+  pageIntroAnim2() {
+    gsap.from(
+      ".subheading",
+      { x: -1000, opacity: 0 },
+      { x: 0, opacity: 1, duration: 1 }
+    );
+    gsap.from(
+      ".animation-column",
+      { y: -600, opacity: 0 },
+      { x: 0, opacity: 1, duration: 3 },
+      "-=1"
+    );
+    gsap.from(
+      ".digex-column",
+      { y: -400, opacity: 0 },
+      { x: 0, opacity: 1, duration: 3 }
+    );
+    gsap.from(
+      ".graphic-column",
+      { y: -300, opacity: 0 },
+      { x: 0, opacity: 1, duration: 3 },
+      "-=1"
+    );
   }
-
-
-
-
 
   render() {
     const template = html`
@@ -42,7 +52,7 @@ class HomeView {
         <section class="banner">
           <div class="left">
             <h2 class="subheading">
-              organic grad show handcrafted by curtin design students
+              Welcome to the DeStore 2021 Curtin Design Graduate Showcase
             </h2>
             <button
               class="shop-graduates-btn"
@@ -194,7 +204,7 @@ class HomeView {
           </div>
         </section>
       </div>
-      
+
       <footer>
         <div class="footer-content">
           <div class="destore-col">

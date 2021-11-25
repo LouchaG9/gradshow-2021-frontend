@@ -23,24 +23,23 @@
 }
 
 .learn {
- 
-    border: 2px var(--brand-color) solid;
-    background-color: var(--body-bg);
-    color: var(--brand-color);
-    margin: 1rem 0;
-    padding: 1rem 2rem;
-    text-align: center;
-    place-items: center;
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
-    text-decoration: none;
-    transition: 0.2s;
-  
-    &:hover {
-      cursor: pointer;
+  border: 2px var(--brand-color) solid;
+  background-color: var(--body-bg);
+  color: var(--brand-color);
+  margin: 1rem 0;
+  padding: 1rem 2rem;
+  text-align: center;
+  place-items: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  transition: 0.2s;
+
+  &:hover {
+    cursor: pointer;
     background-color: var(--brand-color);
     color: var(--body-bg);
-    }
+  }
 }
 
 .shop-graduates-btn {
@@ -58,15 +57,11 @@
 
   &:hover {
     cursor: pointer;
-  background-color: var(--brand-color);
-  color: var(--body-bg);
+    background-color: var(--brand-color);
+    color: var(--body-bg);
   }
- 
 }
-section {
-  margin-bottom: 6rem;
-  margin-top: 6rem;
-}
+
 // major categories
 .major-columns {
   display: flex;
@@ -85,7 +80,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     gap: 0.5rem;
     margin: 1rem;
     text-transform: uppercase;
@@ -122,7 +117,7 @@ section {
       cursor: pointer;
       font-size: calc(0.5vw + 0.5vh + 0.5vmin);
 
-      h3{
+      h3 {
         margin: 0;
       }
     }
@@ -182,7 +177,7 @@ section {
       font-size: 4em;
     }
 
-    p{
+    p {
       font-size: 1.1em;
     }
   }
@@ -196,7 +191,7 @@ section {
     width: calc(100% / 3);
     align-self: flex-start;
 
-    h2{
+    h2 {
       font-size: 5em;
     }
   }
@@ -208,7 +203,6 @@ section {
     gap: 20px;
     p {
       font-size: 1.1rem;
-      
     }
     h3 {
       text-transform: uppercase;
@@ -222,20 +216,14 @@ section {
     }
 
     button {
-     
-       
-        margin: 1rem 0;
-        padding: 1rem 5rem;
-        text-align: center;
-        place-items: center;
-        text-transform: uppercase;
-        letter-spacing: 0.1rem;
-        text-decoration: none;
-        transition: 0.2s;
-      
-       
-      
-      
+      margin: 1rem 0;
+      padding: 1rem 5rem;
+      text-align: center;
+      place-items: center;
+      text-transform: uppercase;
+      letter-spacing: 0.1rem;
+      text-decoration: none;
+      transition: 0.2s;
     }
   }
 }
@@ -249,7 +237,7 @@ section {
 @media screen and (max-width: 768px) {
   .banner {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -303,11 +291,11 @@ section {
     }
   }
 
-  .major-columns .animation-column, .major-columns .digex-column, .major-columns .graphic-column {
- 
+  .major-columns .animation-column,
+  .major-columns .digex-column,
+  .major-columns .graphic-column {
     width: calc(100% / 1);
-
-}
+  }
   .about-us {
     flex-direction: column;
     .left {
@@ -321,7 +309,7 @@ section {
     }
     .right {
       width: 100%;
-     
+
       button {
         margin: 0 0;
         padding: 0.5rem 0.5rem;
@@ -339,7 +327,9 @@ section {
     .right {
       width: 100%;
       flex-direction: column;
-      .quote-one, .quote-two, .quote-three {
+      .quote-one,
+      .quote-two,
+      .quote-three {
         width: 100%;
       }
     }
