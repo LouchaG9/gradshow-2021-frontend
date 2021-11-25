@@ -106,7 +106,8 @@ customElements.define(
           }
           
           .mobileLogoHolder {
-            width: 100%;
+            width: 50%;
+            margin-left: 50%;
             position:absolute;
             display: flex;
             justify-content: flex-end;
