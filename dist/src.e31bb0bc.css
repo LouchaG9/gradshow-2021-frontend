@@ -350,7 +350,16 @@ A[href=""], A[href="#"] {
 }
 
 .paddingLeft {
-  padding-left: 5em;
+  padding-left: 0em;
+}
+.paddingLeft h3 {
+  font-size: 2em;
+}
+.paddingLeft h1 {
+  font-size: 4em;
+}
+.paddingLeft p {
+  font-size: 1.2em;
 }
 
 @keyframes shimmer {
@@ -513,6 +522,12 @@ hr {
 }
 
 @media screen and (max-width: 768px) {
+  .paddingLeft {
+    position: relative;
+    padding-left: 0em;
+    margin-top: 68vw;
+  }
+
   footer {
     width: 100%;
     margin: 0 auto;
@@ -583,6 +598,14 @@ footer .footer-content .footer-animation-column .footer-item {
   }
   footer .footer-content .footer-animation-column .footer-item:hover {
     background: #8eb4a9;
+  }
+}
+@media screen and (max-width: 500px) {
+  .paddingLeft {
+    margin-top: 95vw;
+  }
+  .paddingLeft h1 {
+    font-size: 2.6em;
   }
 }
 .banner {
@@ -1061,6 +1084,13 @@ sl-dialog::part(title) {
 }
 
 @media screen and (max-width: 768px) {
+  .block-100 {
+    /*  display: flex;
+     flex-flow: row wrap;
+     justify-content: center; */
+    grid-template-columns: 1fr;
+  }
+
   .height-1,
 .height-2 {
     height: unset;
@@ -1107,6 +1137,7 @@ sl-dialog::part(title) {
 }
 .about-banner {
   display: flex;
+  margin-top: 8em;
 }
 .about-banner p {
   font-size: 1rem;
@@ -1159,19 +1190,38 @@ sl-dialog::part(title) {
   height: 800px;
 }
 
-.credit-fill {
-  background-color: var(--destore-background-pink);
-  padding: 1em;
+.credit-logo h1 {
+  margin-top: 5vw;
 }
 
-.credit-block li {
+.credit-fill {
+  background-color: var(--destore-background-pink);
+  padding: 3em;
+}
+
+.block-100.credit-fill {
+  margin-top: 3rem;
+}
+
+.credit-block ul {
+  margin-block-start: 2em;
+  padding-inline-start: 0px;
+}
+.credit-block ul li {
   font-size: 1.1em;
+  list-style-type: none;
+  line-height: 1.8;
 }
 .credit-block h3 {
-  font-size: 1.3em;
+  font-size: 1.6em;
+  padding-top: 2em;
 }
 
 @media screen and (max-width: 768px) {
+  .credit-logo h1 {
+    margin-top: 15vw;
+  }
+
   .about-banner {
     width: 100%;
     flex-direction: column;
@@ -1181,7 +1231,7 @@ sl-dialog::part(title) {
   }
   .about-banner img {
     width: 30%;
-    min-width: 130px;
+    min-width: 350px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -1209,6 +1259,10 @@ sl-dialog::part(title) {
   align-items: center;
   justify-content: space-between;
   height: 20vh;
+}
+.search-and-filter-container ul {
+  font-family: var(--base-font-family);
+  font-weight: 100;
 }
 
 .search-input-container {
@@ -1250,8 +1304,6 @@ sl-dialog::part(title) {
   height: 50px;
   width: 100%;
   color: var(--base-txt-color);
-  font-family: "montserrat";
-  font-size: 18px;
   border: 1px solid black;
   background-color: var(--body-bg);
 }

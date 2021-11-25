@@ -184,15 +184,7 @@ class HomeView {
           </div>
         </section>
       </div>
-      <section class="image-slider">
-        <div class="slick kitten1"></div>
-        <div class="slick kitten2"></div>
-        <div class="slick kitten3"></div>
-        <div class="slick kitten4"></div>
-        <div class="slick kitten5"></div>
-        <div class="slick kitten6"></div>
-        <div class="slick kitten7"></div>
-      </section>
+      
       <footer>
         <div class="footer-content">
           <div class="destore-col">
