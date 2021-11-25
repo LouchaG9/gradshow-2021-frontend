@@ -20,9 +20,9 @@ const routes = {
   "/contact": ContactView,
   "/viewGraduate": viewGraduateView, // to view individual graduates
   "/graduates": allGraduatesView, // to view all graduates
-  "/graduates/digitaldesign": digitalGraduates,
-  "/graduates/graphicdesign": graphicGraduates,
-  "/graduates/animationgamedesign": animationGraduates,
+  "/graduates%digitaldesign": digitalGraduates,
+  "/graduates%graphicdesign": graphicGraduates,
+  "/graduates%animationgamedesign": animationGraduates,
   '/graduate': specificProfileView,
   "/graduates/19760513": student19760513View,
   "/comingsoon": comingSoonView,
