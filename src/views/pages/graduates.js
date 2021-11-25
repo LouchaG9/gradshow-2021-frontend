@@ -187,6 +187,8 @@ class AllGraduates {
                         class="graduate-card"
                         avatarTwo="${graduate.avatarTwo}"
                         avatarOne="${graduate.avatarOne}"
+                        avatarOneHQ="${graduate.avatarOneHQ}"
+                        avatarTwoHQ="${graduate.avatarTwoHQ}"
                         firstName="${graduate.firstName}"
                         lastName="${graduate.lastName}"
                         portfolio="${graduate.portfolio}"
