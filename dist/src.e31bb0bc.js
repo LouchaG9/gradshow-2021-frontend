@@ -7550,8 +7550,8 @@ const Graduates = [{
   imageOne: "../images/work/Ruitan_Huang_19467322_2 - Ruitan Huang.jpg",
   imageTwo: "../images/work/Ruitan_Huang_19467322_4 - Ruitan Huang.jpg",
   imageThree: "../images/work/Ruitan_Huang_19467322_5 - Ruitan Huang.jpg",
-  imageFour: "",
-  imageFive: "",
+  imageFour: "../images/work/Ruitan_Huang_19467322_1 - Ruitan Huang.jpg",
+  imageFive: "../images/work/Ruitan_Huang_19467322_3 - Ruitan Huang.jpg",
   imageSix: ""
 }, {
   studentNumber: "19168735",
