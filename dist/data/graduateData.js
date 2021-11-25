@@ -89,8 +89,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/17159355_alt.jpg",
     avatarTwo: "./images/graduateAvatars/17159355_Lrobertson_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/17159355_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/17159355_Lrobertson_main.jpg",
     imageOne:
       "../images/work/Lachlan_Robertson_17159355_1 - Lachlan Robertson.jpg",
     imageTwo:
@@ -124,8 +124,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19760814_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19760814_AMai_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19760814_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19760814_AMai_main.jpg",
     imageOne:
       "../images/work/Anna_Mai_19760814_1 - Anna Mai.jpg",
     imageTwo:
@@ -159,8 +159,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/20037952_alt.jpg",
     avatarTwo: "./images/graduateAvatars/20037952_THYan_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/20037952_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/20037952_THYan_main.jpg",
     imageOne:
     "../images/work/1t - Tian Hock Yan.jpg",
     imageTwo:
@@ -180,8 +180,8 @@ export const Graduates = [
     lastName: "Huang",
     email: "ruitan1520@gmail.com",
     major: "Digital Experience and Interaction Design",
-    bio: "Hi, I'm Ruitan, I'm an upbeat, self- motivated team player with excellent communication skills. I'm based in Perth who loves to design interfaces and tackle the problem to improve user experience. I'm also keen on always learning new skills so I'm always on top of all the trends. I have excellent UI design skills as well as an excellent understanding of user experience design and research.",
-    tagLine: "I'm loving the UX problems",
+    bio: "Hi, I'm Ruitan. I'm an upbeat, self-motivated team player with strong communication skills. I love tackling design problems, and undertaking research to better understand users' needs and pain points. I am passionate  about learning new things and keeping up to date with design trends. ",
+    tagLine: "I love learning new things, and I’m also an avid photographer",
     portfolio: "http://ruitanexpdesign.com",
     linkedin: "https://www.linkedin.com/in/ruitan-huang/",
     instagram: "https://www.instagram.com/ruitan_uidesign/",
@@ -194,8 +194,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19467322_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19467322_RHuang_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19467322_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19467322_RHuang_main.jpg",
     imageOne:
     "../images/work/Ruitan_Huang_19467322_2 - Ruitan Huang.jpg",
     imageTwo:
@@ -230,8 +230,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19168735_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19168735_NCassandra_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19168735_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19168735_NCassandra_main.jpg",
     imageOne:
     "../images/work/Nicole_Torres_19168735_1 - Nicole Cassandra Torres.jpg",
     imageTwo:
@@ -301,8 +301,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19775669_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19775669_PDoick_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19775669_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19775669_PDoick_main.jpg",
     imageOne:
     "../images/work/Paris_Doick_19775669_1 - Paris Doick.jpg",
     imageTwo:
@@ -337,8 +337,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19192187_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19192187_EEdwards_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19192187_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19192187_EEdwards_main.jpg",
     imageOne:
     "../images/work/ELLA_EDWARDS_19192187_1 - Ella.jpg",
     imageTwo:
@@ -372,8 +372,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19769662_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19769662_MMerttens_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19769662_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19769662_MMerttens_main.jpg",
     imageOne:
     "../images/work/Mali_Merttens_19769662_1 - Marley.jpg",
     imageTwo:
@@ -407,8 +407,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/18813157_alt.jpg",
     avatarTwo: "./images/graduateAvatars/18813157_AChung_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/18813157_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/18813157_AChung_main.jpg",
     imageOne:
     "../images/work/Adrina_Chung_18813157_1 - adrina chung.jpg",
     imageTwo:
@@ -442,8 +442,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19768986_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19768986_LSchultz_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19768986_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19768986_LSchultz_main.jpg",
     imageOne:
     "../images/work/Leah_Schultz_19768986_1 - Leah Schultz.jpg",
     imageTwo:
@@ -477,8 +477,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19720863_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19720863_JMichell_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19720863_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19720863_JMichell_main.jpg",
     imageOne:
     "../images/work/Joshua_Michell_19720863_1 - Serial Dreamer.jpg",
     imageTwo:
@@ -512,8 +512,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19773249_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19773249_MThomas_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19773249_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19773249_MThomas_main.jpg",
     imageOne:
     "../images/work/Michelle_Thomas_19773249_1 - Michelle Thomas.jpg",
     imageTwo:
@@ -547,8 +547,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19756130_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19756130_AMcbee_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19756130_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19756130_AMcbee_main.jpg",
     imageOne:
     "../images/work/Alexandra_McGee_19756130_1 - Alexandra McGee.jpg",
     imageTwo:
@@ -582,8 +582,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19160142_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19160142_BNaim_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19160142_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19160142_BNaim_main.jpg",
     imageOne:
     "../images/work/BETH_NAIM_19160142_1 - Beth Naim.jpg",
     imageTwo:
@@ -618,8 +618,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19096535_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19096535_SChaoChen_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ:  "./images/graduateAvatarsHQ/19096535_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19096535_SChaoChen_main.jpg",
     imageOne:
     "../images/work/SylviaChen_19096535_1 - wtxwkl.jpg",
     imageTwo:

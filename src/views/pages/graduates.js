@@ -115,14 +115,7 @@ class AllGraduates {
       <va-app-header title="Shop"></va-app-header>
       <div class="page-content">
         <!-- title -->
-        <h2>Graduates.</h2>
-
-        <!-- SHOWREEL CONTAINER ---------------------------------->
-        <section class="block-100 height-1 showreel-container">
-          <h1>showreel container</h1>
-          <!-- This is where we will display a couple of the students best works. -->
-        </section>
-
+        <h2>All Graduates</h2>
         <!-- FILTER DROPDOWN / SEARCH BAR ---------------------------------->
         <section class="search-and-filter-container">
           <!-- search bar -->
@@ -179,10 +172,10 @@ class AllGraduates {
           <!-- graduate component -->
           <div class="graduate-grid">
             ${Graduates == null
-        ? html` <sl-spinner></sl-spinner> `
-        : html`
+              ? html` <sl-spinner></sl-spinner> `
+              : html`
                   ${this.Graduates.map(
-          (graduate) => html`
+                    (graduate) => html`
                       <va-graduates
                         class="graduate-card"
                         avatarTwo="${graduate.avatarTwo}"
@@ -197,15 +190,15 @@ class AllGraduates {
                       >
                       </va-graduates>
                     `
-        )}
+                  )}
                 `}
           </div>
           <!-- /component -->
         </section>
       </div>
 
-        <!-- FOOTER ---------------------------------->
-        <footer>
+      <!-- FOOTER ---------------------------------->
+      <footer>
         <div class="footer-content">
           <div class="destore-col">
             <h3>DeStore</h3>
