@@ -9093,6 +9093,202 @@ const Graduates = [{
   imageFour: "../images/work/vieira_lucas_19502317_4 - Scott Wicks.jpg",
   imageFive: "../images/work/vieira_lucas_19502317_5 - Scott Wicks.jpg",
   imageSix: "../images/work/vieira_lucas_19502317_6 - Scott Wicks.jpg"
+}, {
+  studentNumber: "19517094",
+  firstName: "Aisha",
+  lastName: "Berecz",
+  email: "aderrick1110@gmail.com",
+  major: "Graphic Design",
+  bio: "My name is Aisha, and I'm a brand strategist, graphic designer and Advertising graduate based in Perth, WA, specialising in executing conceptual, human-centred designs. For me, being a creative means going beyond initial problem solving, creating holistic solutions.",
+  tagLine: "Brand Strategist and Creative Advertiser",
+  portfolio: "aisharaindesign.com",
+  linkedin: "",
+  instagram: "https://www.instagram.com/aisharaindesign/",
+  twitter: "",
+  vimeo: "",
+  artStation: "",
+  behance: "https://www.behance.net/aisharain",
+  dribbble: "",
+  github: "",
+  shirt: "",
+  avatarOne: "",
+  avatarTwo: "",
+  avatarOneHQ: "",
+  avatarTwoHQ: "",
+  imageOne: "../images/work/",
+  imageTwo: "../images/work/",
+  imageThree: "../images/work/",
+  imageFour: "../images/work/",
+  imageFive: "../images/work/",
+  imageSix: "../images/work/"
+}, {
+  studentNumber: "19390758",
+  firstName: "Annabelle",
+  lastName: "Jenkins",
+  email: "19390758@student.curtin.edu.au",
+  major: "Graphic Design",
+  bio: "Annie Jenkins is a freelance graphic designer who enjoys engaging in creative practices both on and off the screen. When she isn't designing, Annie loves upcycling clothing, screen printing, film photography, bush walking, and creating mosaics.",
+  tagLine: "Graphic Design, Photography, Styling",
+  portfolio: "slowdancestudio.com",
+  linkedin: "",
+  instagram: "https://www.instagram.com/slowdancestudio/",
+  twitter: "",
+  vimeo: "",
+  artStation: "",
+  behance: "",
+  dribbble: "",
+  github: "",
+  shirt: "",
+  avatarOne: "",
+  avatarTwo: "",
+  avatarOneHQ: "",
+  avatarTwoHQ: "",
+  imageOne: "../images/work/",
+  imageTwo: "../images/work/",
+  imageThree: "../images/work/",
+  imageFour: "../images/work/",
+  imageFive: "../images/work/",
+  imageSix: "../images/work/"
+}, {
+  studentNumber: "19780537",
+  firstName: "Caitlyn",
+  lastName: "Johnson",
+  email: "johno.caitlyn@gmail.com",
+  major: "Digital Experience and Interaction Design",
+  bio: "Hi, I’m Caitlyn a digital designer with a passion for UX/UI design and just enough graphic design thrown in for good measure. I am a bit wacky a bit odd and a lot of fun - so most of my designs are too. I am a problem solver font hoarder and colour lover with a keen eye for detail and I will always rise to a challenge.\n\nI believe my lifes calling has always been to solve problems and help people, and what better way to do that then through deisgn. I believe the best designs are made when you listen to and understand the user and their probelm so all my work has a big focues on user centric design.",
+  tagLine: "Day Dreamer, Star Watcher, Dinosaur Lover",
+  portfolio: "https://dath-designs.netlify.app/",
+  linkedin: "https://www.linkedin.com/in/caitlyn-johnson-24270b219/",
+  instagram: "https://www.instagram.com/dath_designs/",
+  twitter: "",
+  vimeo: "",
+  artStation: "",
+  behance: "",
+  dribbble: "",
+  github: "",
+  shirt: "",
+  avatarOne: "",
+  avatarTwo: "",
+  avatarOneHQ: "",
+  avatarTwoHQ: "",
+  imageOne: "../images/work/",
+  imageTwo: "../images/work/",
+  imageThree: "../images/work/",
+  imageFour: "../images/work/",
+  imageFive: "../images/work/",
+  imageSix: "../images/work/"
+}, {
+  studentNumber: "18523692",
+  firstName: "Kirren",
+  lastName: "Jones",
+  email: "hello@kirren.com.au",
+  major: "Graphic Design",
+  bio: "I am an advertising creative, recently having completed my degree in Creative Advertising and Graphic Design with Curtin University. Prior to Curtin I completed a Diploma AND Advanced Diploma in Graphic Design.\n\nIllustration has always been a huge part of my life, and as a result, plays a dominant role in my design process and how I like to create. I enjoy the challenge that comes with cracking open a new brief and putting pen to paper. I’m easily inspired, and find excitement in exploring every possible solution, which is why I specialise in storyboarding.\n\nI look forward to finding my way in Perth’s advertising scene, eager to learn more from the incredible talent our industry has to offer.",
+  tagLine: "Be what you set out to be",
+  portfolio: "kirren.com.au",
+  linkedin: "https://www.linkedin.com/in/kirren-jones-512896199",
+  instagram: "https://www.instagram.com/nerrik/",
+  twitter: "",
+  vimeo: "",
+  artStation: "",
+  behance: "",
+  dribbble: "",
+  github: "",
+  shirt: "",
+  avatarOne: "",
+  avatarTwo: "",
+  avatarOneHQ: "",
+  avatarTwoHQ: "",
+  imageOne: "../images/work/",
+  imageTwo: "../images/work/",
+  imageThree: "../images/work/",
+  imageFour: "../images/work/",
+  imageFive: "../images/work/",
+  imageSix: "../images/work/"
+}, {
+  studentNumber: "19453790",
+  firstName: "Leander",
+  lastName: "D'Cruz",
+  email: "leanderjdcruz@gmail.com",
+  major: "Graphic Design",
+  bio: "I'm a graphic designer and illustrator based in Perth, Western Australia. I'm great at visualising and coming up with unique solutions to design problems. My strong communication skills allow me to work well in a team and explain design decisions to those who aren't as familiar with the conventions of graphic design. A lot of my work is heavily influenced by comic books, particularly Silver Age comics. I aim to create a sense of nostalgia with my work as I believe that it is a great way to establish a connection with the audience. I also am a big believer in adaptability and am able to illustrate in a variety of different styles to find the most appropriate one for the job.",
+  tagLine: "“If you think a man draws the type of hands you want to draw. Steal them, take those hands” - Jack Kirby",
+  portfolio: "https://leanderjdcruz.myportfolio.com/contact",
+  linkedin: "https://www.linkedin.com/in/leander-d-cruz-9a0b51180/",
+  instagram: "https://www.instagram.com/leanderdcruzdesigns/",
+  twitter: "https://twitter.com/LeanderDCruz1",
+  vimeo: "",
+  artStation: "",
+  behance: "https://www.behance.net/leanderdcruz1/projects",
+  dribbble: "",
+  github: "",
+  shirt: "",
+  avatarOne: "",
+  avatarTwo: "",
+  avatarOneHQ: "",
+  avatarTwoHQ: "",
+  imageOne: "../images/work/",
+  imageTwo: "../images/work/",
+  imageThree: "../images/work/",
+  imageFour: "../images/work/",
+  imageFive: "../images/work/",
+  imageSix: "../images/work/"
+}, {
+  studentNumber: "18365331",
+  firstName: "Louis",
+  lastName: "Klause",
+  email: "louis.klause@gmail.com",
+  major: "Digital Experience and Interaction Design",
+  bio: "Hi, my name's Louis 👋\n\nRecent graduate of User Experience and Interaction Design at Curtin University, Perth.\n\nI approach life and design with a double-diamond methodology, and if that doesn't work I'll usually resort to flexbox.\n\nThe images here and on my portfolio are just a sample of some of my projects undertaken at University and during my time as an intern at Humaan.\n\nWhen I'm not designing or coding, I'm illutrating, listening to Mac Miller, and wondering how they originally thought it would be a good idea to name the like button the 'awesome button'..",
+  tagLine: "More steam than a locomotive scroll",
+  portfolio: "louisklause.design",
+  linkedin: "https://www.linkedin.com/in/louis-klause-09230180/",
+  instagram: "https://www.instagram.com/louisklause.design/",
+  twitter: "",
+  vimeo: "",
+  artStation: "",
+  behance: "",
+  dribbble: "",
+  github: "https://github.com/LouchaG9",
+  shirt: "",
+  avatarOne: "",
+  avatarTwo: "",
+  avatarOneHQ: "",
+  avatarTwoHQ: "",
+  imageOne: "../images/work/",
+  imageTwo: "../images/work/",
+  imageThree: "../images/work/",
+  imageFour: "../images/work/",
+  imageFive: "../images/work/",
+  imageSix: "../images/work/"
+}, {
+  studentNumber: "19690717",
+  firstName: "Rebekah",
+  lastName: "van Zalm",
+  email: "rebekahdigital@gmail.com",
+  major: "Digital Experience and Interaction Design",
+  bio: "Hello! I’m Rebekah, a UI / UX designer and frontend developer who loves bringing interfaces to life with code. My design approach is creative and empathetic, with an aim to create aesthetically-pleasing and intuitive applications— nothing compares to the feeling of solving a design problem! Outside of design, my hobbies include horse riding, photography, reading and tea-drinking. You might also find me daydreaming about the life I would have if I worked for Apple…",
+  tagLine: 'var Rebekah = "Amazing Developer and UI / UX Designer"',
+  portfolio: "https://www.rebekahdigital.com/",
+  linkedin: "https://www.linkedin.com/in/rebekah-van-zalm-445b45197/",
+  instagram: "https://instagram.com/rebekah_digital",
+  twitter: "",
+  vimeo: "",
+  artStation: "",
+  behance: "https://www.behance.net/rebekahvanzalm2",
+  dribbble: "https://dribbble.com/rebekahdigital",
+  github: "",
+  shirt: "",
+  avatarOne: "",
+  avatarTwo: "",
+  avatarOneHQ: "",
+  avatarTwoHQ: "",
+  imageOne: "../images/work/",
+  imageTwo: "../images/work/",
+  imageThree: "../images/work/",
+  imageFour: "../images/work/",
+  imageFive: "../images/work/",
+  imageSix: "../images/work/"
 }];
 exports.Graduates = Graduates;
 },{}],"Utils.js":[function(require,module,exports) {
@@ -9312,7 +9508,7 @@ var _Utils = _interopRequireDefault(require("../../Utils"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject() {
-  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"About page\"></va-app-header>\n      <div class=\"page-content\">\n        <section class=\"about-banner\">\n        \n          <div class=\"about-landing\">\n            <h1>About Us</h1>\n            <p>\n            Welcome to the DeStore 2021 Curtin Design Graduate Showcase! \n            We have prepared a scrumptious selection of tasty design treats to \n            tantalise your taste buds. This year's Curtin Design grads from Animation & \n            Game Design, Digital Experience & Interaction Design and Graphic Design \n            have served up a refined assortment of design products that feature a diversity \n            of modalities, aesthetics and conceptual/technical approaches.<br/><br/>\n            \n            Are you hankering for a treat that's full-fat and bursting with flavour, \n            or do you want something nutritious yet tasty? Do you have specific preferences \n            or intolerances? Need a custom short-order? Don't worry, our team have got you covered.<br/><br/>\n\n            Our artisan graduates put loving care and attention into every single design that they craft, \n            tailoring them to your unique tastes and requirements. So go on, try a sample by \n            checking out the quality portfolio work showcased by our grads. Freshness guaranteed!\n            </p>\n          </div>\n\n          <img src=\"https://drive.google.com/uc?export=view&id=1JxGAVQPoi8QiT08CvTJ3HCLaUbvSQoiu\" class=\"about-img\" />\n        </section>\n\n        <div class=\"values-logo\">\n          <div class=\"about-logo\"></div>\n          <h1>Our Values</h1>\n        </div>\n\n        <div class=\"values\">\n          <div class=\"value-1\">\n            <h4>Inclusivity</h4>\n            <p>\n              Providing equal access and opportunities to all members\n              of the Grad Show, creating a safe space for people to contribute.\n            </p>\n          </div>\n          <div class=\"value-2\">\n            <h4>Innovation</h4>\n            <p>\n              Always producing and designing new ideas, \n              creating advances in innovation and efficiency to\n              be the best that we can be.\n            </p>\n          </div>\n          <div class=\"value-3\">\n            <h4>Creativity</h4>\n            <p>\n             The ability to experiment, to value and learn from mistakes,\n              and build on the experience. \n            </p>\n          </div>\n          <div class=\"value-4\">\n            <h4>Diversity</h4>\n            <p>\n              Recognising and respecting people of all ethnicity, gender,\n              age, race, religion and sexual orientation - and \n              valuing their differences.\n            </p>\n          </div>\n        </div>\n\n        <div class=\"credit-logo\">\n          <div class=\"credits-logo\"></div>\n          <h1>Credits</h1>\n        </div>\n\n        <section class=\"block-100 credit-fill\">\n          <div class=\"credit-block\" id=\"tres\">\n            <h3>Treasury</h3>\n            <ul>\n              <li>Ella Edwards</li>\n              <li>Lachlan Robertson</li>\n            </ul>\n          </div>\n\n          <div class=\"credit-block\">\n            <h3>Testing & Quality Team</h3>\n            <ul>\n              <li>Nina Dakin</li>\n              <li>Daffa Rizkiadi</li>\n              <li>Julian Osborn</li>\n              <li>Lucas Vieira</li>\n              <li>Shi Ning Wang</li>\n              <li>Alexandra McGee</li>\n              <li>Sylvia Chen</li>\n              <li>Eden Leicester</li>\n              <li>Michelle Thomas</li>\n              <li>Lachlan Robertson</li>\n              <li>Jekko Cabral</li>\n              <li>Sophie Till</li>\n            </ul>\n          </div>\n\n          <div class=\"credit-block\">\n            <h3>Animation & Video Production Team</h3>\n            <ul>\n              <li>Sylvia Chen</li>\n              <li>Michelle Thomas</li>\n              <li>Sophie Till</li>\n              <li>Dana Knowles</li>\n              <li>Eden Leicester</li>\n              <li>Alex Bertilone</li>\n              <li>Nina Dakin</li>\n              <li>Ella Matthews</li>\n              <li>Joshua Michell</li>\n              <li>Daffa Rizkiadi</li>\n              <li>Lachlan Robertson</li>\n              <li>Jekko Cabral</li>\n              <li>Yaeram Kim</li>\n            </ul>\n          </div>\n\n          <div class=\"credit-block\">\n            <h3>Photography Team</h3>\n            <ul>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n            </ul>\n          </div>\n          \n          <div class=\"credit-block\">\n            <h3>Website Programmers</h3>\n            <ul>\n              <li>Emily Lowry</li>\n              <li>Joaquin Atizado</li>\n              <li>Michael D'Costa</li>\n              <li>Julian Osborn</li>\n              <li>Shi Ning Wang</li>\n              <li>Ruitan Huang</li>\n              <li>Tian Hock Yan</li>\n              <li>Lucas Vieira</li>\n              <li>Brandon Watson</li>\n              <li>Jet Trijo</li>\n            </ul>\n          </div>\n\n          <div class=\"credit-block\">\n            <h3>Communications & Logistics Team</h3>\n            <ul>\n              <li>Joshua Michell</li>\n              <li>Dana Knowles</li>\n              <li>Tian Hock Yan</li>\n              <li>Michael D'Costa</li>\n              <li>Ella Edwards</li>\n              <li>Ruitan Huang</li>\n              <li>Jet Trijo</li>\n              <li>Yaeram Kim</li>\n              <li>Emily Harding</li>\n              <li>Joaquin Atizado</li>\n            </ul>\n          </div>\n          <div class=\"credit-block\">\n            <h3>UI / UX Designers</h3>\n            <ul>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n            </ul>\n          </div>\n          <div class=\"credit-block\">\n            <h3>Social Media</h3>\n            <ul>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n            </ul>\n          </div>\n        </section>\n      </div>\n    \n      \n      <footer>\n        <div class=\"footer-content\">\n          <div class=\"destore-col\">\n            <h3>DeStore</h3>\n            <p>\n              Monday - Closed <br />\n              Tuesday \u2013 Saturday: 7:00 am \u2013 3:00 pm <br />\n              Sunday: 9:00 am \u2013 2:00 pm<br />\n              Kent St, Bentley, 6102, Western Australia<br /><br />\n              @destore\n            </p>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-animation-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Animation</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Game Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fruit</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Vegetables</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-digex-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Digital Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Baked Goods</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fresh Bread</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Wraps</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-graphic-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Graphic Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cold Meats</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cheese</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Olives</h3>\n              </div>\n            </div>\n          </div>\n        </div>\n      </footer>\n    "]);
+  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"About page\"></va-app-header>\n      <div class=\"page-content\">\n        <section class=\"about-banner\">\n        \n          <div class=\"about-landing\">\n            <h1>About Us</h1>\n            <p>\n            Welcome to the DeStore 2021 Curtin Design Graduate Showcase! \n            We have prepared a scrumptious selection of tasty design treats to \n            tantalise your taste buds. This year's Curtin Design grads from Animation & \n            Game Design, Digital Experience & Interaction Design and Graphic Design \n            have served up a refined assortment of design products that feature a diversity \n            of modalities, aesthetics and conceptual/technical approaches.<br/><br/>\n            \n            Are you hankering for a treat that's full-fat and bursting with flavour, \n            or do you want something nutritious yet tasty? Do you have specific preferences \n            or intolerances? Need a custom short-order? Don't worry, our team have got you covered.<br/><br/>\n\n            Our artisan graduates put loving care and attention into every single design that they craft, \n            tailoring them to your unique tastes and requirements. So go on, try a sample by \n            checking out the quality portfolio work showcased by our grads. Freshness guaranteed!\n            </p>\n          </div>\n\n          <img src=\"https://drive.google.com/uc?export=view&id=1JxGAVQPoi8QiT08CvTJ3HCLaUbvSQoiu\" class=\"about-img\" />\n        </section>\n\n        <div class=\"values-logo\">\n          <div class=\"about-logo\"></div>\n          <h1>Our Values</h1>\n        </div>\n\n        <div class=\"values\">\n          <div class=\"value-1\">\n            <h4>Inclusivity</h4>\n            <p>\n              Providing equal access and opportunities to all members\n              of the Grad Show, creating a safe space for people to contribute.\n            </p>\n          </div>\n          <div class=\"value-2\">\n            <h4>Innovation</h4>\n            <p>\n              Always producing and designing new ideas, \n              creating advances in innovation and efficiency to\n              be the best that we can be.\n            </p>\n          </div>\n          <div class=\"value-3\">\n            <h4>Creativity</h4>\n            <p>\n             The ability to experiment, to value and learn from mistakes,\n              and build on the experience. \n            </p>\n          </div>\n          <div class=\"value-4\">\n            <h4>Diversity</h4>\n            <p>\n              Recognising and respecting people of all ethnicity, gender,\n              age, race, religion and sexual orientation - and \n              valuing their differences.\n            </p>\n          </div>\n        </div>\n\n        <div class=\"credit-logo\">\n          <div class=\"credits-logo\"></div>\n          <h1>Credits</h1>\n        </div>\n\n        <section class=\"block-100 credit-fill\">\n          <div class=\"credit-block\" id=\"tres\">\n            <h3>Treasury</h3>\n            <ul>\n              <li>Ella Edwards</li>\n              <li>Lachlan Robertson</li>\n            </ul>\n          </div>\n\n          <div class=\"credit-block\">\n            <h3>Testing & Quality Team</h3>\n            <ul>\n              <li>Nina Dakin</li>\n              <li>Daffa Rizkiadi</li>\n              <li>Julian Osborn</li>\n              <li>Lucas Vieira</li>\n              <li>Shi Ning Wang</li>\n              <li>Alexandra McGee</li>\n              <li>Sylvia Chen</li>\n              <li>Eden Leicester</li>\n              <li>Michelle Thomas</li>\n              <li>Lachlan Robertson</li>\n              <li>Jekko Cabral</li>\n              <li>Sophie Till</li>\n            </ul>\n          </div>\n\n          <div class=\"credit-block\">\n            <h3>Animation & Video Production Team</h3>\n            <ul>\n              <li>Sylvia Chen</li>\n              <li>Michelle Thomas</li>\n              <li>Sophie Till</li>\n              <li>Dana Knowles</li>\n              <li>Eden Leicester</li>\n              <li>Alex Bertilone</li>\n              <li>Nina Dakin</li>\n              <li>Ella Matthews</li>\n              <li>Joshua Michell</li>\n              <li>Daffa Rizkiadi</li>\n              <li>Lachlan Robertson</li>\n              <li>Jekko Cabral</li>\n              <li>Yaeram Kim</li>\n            </ul>\n          </div>\n\n          <div class=\"credit-block\">\n            <h3>Photography Team</h3>\n            <ul>\n              <li>Ruitan Huang</li>\n              <li>Dee</li>\n              <li>Jet</li>\n              <li>Rebekah</li>\n              <li>Caitlyn</li>\n              <li>Josh</li>\n              <li>Brandon</li>\n              <li>Rhys</li>\n              <li>Jake</li>\n            </ul>\n          </div>\n          \n          <div class=\"credit-block\">\n            <h3>Website Programmers</h3>\n            <ul>\n              <li>Emily Lowry</li>\n              <li>Joaquin Atizado</li>\n              <li>Michael D'Costa</li>\n              <li>Julian Osborn</li>\n              <li>Shi Ning Wang</li>\n              <li>Ruitan Huang</li>\n              <li>Tian Hock Yan</li>\n              <li>Lucas Vieira</li>\n              <li>Brandon Watson</li>\n              <li>Jet Trijo</li>\n            </ul>\n          </div>\n\n          <div class=\"credit-block\">\n            <h3>Communications & Logistics Team</h3>\n            <ul>\n              <li>Joshua Michell</li>\n              <li>Dana Knowles</li>\n              <li>Tian Hock Yan</li>\n              <li>Michael D'Costa</li>\n              <li>Ella Edwards</li>\n              <li>Ruitan Huang</li>\n              <li>Jet Trijo</li>\n              <li>Yaeram Kim</li>\n              <li>Emily Harding</li>\n              <li>Joaquin Atizado</li>\n            </ul>\n          </div>\n          <div class=\"credit-block\">\n            <h3>UI / UX Designers</h3>\n            <ul>\n              <li>Rebekah Van Zalm</li>\n              <li>Ruitan Huang</li>\n              <li>Tian Hock Yan</li>\n              <li>Michael D'Costa</li>\n            </ul>\n          </div>\n          <div class=\"credit-block\">\n            <h3>Social Media</h3>\n            <ul>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n            </ul>\n          </div>\n        </section>\n      </div>\n    \n      \n      <footer>\n        <div class=\"footer-content\">\n          <div class=\"destore-col\">\n            <h3>DeStore</h3>\n            <p>\n              Monday - Closed <br />\n              Tuesday \u2013 Saturday: 7:00 am \u2013 3:00 pm <br />\n              Sunday: 9:00 am \u2013 2:00 pm<br />\n              Kent St, Bentley, 6102, Western Australia<br /><br />\n              @destore\n            </p>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-animation-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Animation</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Game Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fruit</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Vegetables</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-digex-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Digital Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Baked Goods</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fresh Bread</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Wraps</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-graphic-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Graphic Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cold Meats</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cheese</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Olives</h3>\n              </div>\n            </div>\n          </div>\n        </div>\n      </footer>\n    "]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -14339,7 +14535,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../../static/fonts/DeStoreFonts/MarkSimonson-ProximaNovaRegular.otf":[["MarkSimonson-ProximaNovaRegular.aa2a2292.otf","../static/fonts/DeStoreFonts/MarkSimonson-ProximaNovaRegular.otf"],"../static/fonts/DeStoreFonts/MarkSimonson-ProximaNovaRegular.otf"],"./../../static/fonts/DeStoreFonts/MilkmanRegular.ttf":[["MilkmanRegular.abbb0ba7.ttf","../static/fonts/DeStoreFonts/MilkmanRegular.ttf"],"../static/fonts/DeStoreFonts/MilkmanRegular.ttf"],"./../../static/fonts/DeStoreFonts/MonoSpec-Bold.otf":[["MonoSpec-Bold.a512cabb.otf","../static/fonts/DeStoreFonts/MonoSpec-Bold.otf"],"../static/fonts/DeStoreFonts/MonoSpec-Bold.otf"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
+},{"./..\\..\\static\\fonts\\DeStoreFonts\\MarkSimonson-ProximaNovaRegular.otf":[["MarkSimonson-ProximaNovaRegular.aa2a2292.otf","../static/fonts/DeStoreFonts/MarkSimonson-ProximaNovaRegular.otf"],"../static/fonts/DeStoreFonts/MarkSimonson-ProximaNovaRegular.otf"],"./..\\..\\static\\fonts\\DeStoreFonts\\MilkmanRegular.ttf":[["MilkmanRegular.abbb0ba7.ttf","../static/fonts/DeStoreFonts/MilkmanRegular.ttf"],"../static/fonts/DeStoreFonts/MilkmanRegular.ttf"],"./..\\..\\static\\fonts\\DeStoreFonts\\MonoSpec-Bold.otf":[["MonoSpec-Bold.a512cabb.otf","../static/fonts/DeStoreFonts/MonoSpec-Bold.otf"],"../static/fonts/DeStoreFonts/MonoSpec-Bold.otf"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 var _App = _interopRequireDefault(require("./App.js"));
@@ -14387,7 +14583,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50991" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56825" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
