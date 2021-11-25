@@ -131,9 +131,15 @@ class AboutView {
           <div class="credit-block">
             <h3>Photography Team</h3>
             <ul>
-              <li>Name LastName</li>
-              <li>Name LastName</li>
-              <li>Name LastName</li>
+              <li>Ruitan Huang</li>
+              <li>Dee</li>
+              <li>Jet</li>
+              <li>Rebekah</li>
+              <li>Caitlyn</li>
+              <li>Josh</li>
+              <li>Brandon</li>
+              <li>Rhys</li>
+              <li>Jake</li>
             </ul>
           </div>
           
@@ -171,10 +177,10 @@ class AboutView {
           <div class="credit-block">
             <h3>UI / UX Designers</h3>
             <ul>
-              <li>Name LastName</li>
-              <li>Name LastName</li>
-              <li>Name LastName</li>
-              <li>Name LastName</li>
+              <li>Rebekah Van Zalm</li>
+              <li>Ruitan Huang</li>
+              <li>Tian Hock Yan</li>
+              <li>Michael D'Costa</li>
             </ul>
           </div>
           <div class="credit-block">

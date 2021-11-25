@@ -7548,11 +7548,11 @@ const Graduates = [{
   avatarOneHQ: "./images/graduateAvatarsHQ/19467322_alt.jpg",
   avatarTwoHQ: "./images/graduateAvatarsHQ/19467322_RHuang_main.jpg",
   imageOne: "../images/work/Ruitan_Huang_19467322_2 - Ruitan Huang.jpg",
-  imageTwo: "../images/work/Ruitan_Huang_19467322_4 - Ruitan Huang.jpg",
+  imageTwo: "../images/work/Ruitan_Huang_19467322_4 - Ruitan Huang.png",
   imageThree: "../images/work/Ruitan_Huang_19467322_5 - Ruitan Huang.jpg",
-  imageFour: "../images/work/Ruitan_Huang_19467322_1 - Ruitan Huang.jpg",
-  imageFive: "../images/work/Ruitan_Huang_19467322_3 - Ruitan Huang.jpg",
-  imageSix: ""
+  imageFour: "../images/work/Ruitan_Huang_19467322_1 - Ruitan Huang.png",
+  imageFive: "../images/work/Ruitan_Huang_19467322_3 - Ruitan Huang.png",
+  imageSix: "../images/work/Ruitan_Huang_19467322_6 - Ruitan Huang.png"
 }, {
   studentNumber: "19168735",
   firstName: "Nicole Cassandra",
@@ -12195,9 +12195,9 @@ const routes = {
   // to view individual graduates
   "/graduates": _graduates.default,
   // to view all graduates
-  "/graduates%digitaldesign": _digitalGraduates.default,
-  "/graduates%graphicdesign": _graphicGraduates.default,
-  "/graduates%animationgamedesign": _animationGraduates.default,
+  "/digitaldesign": _digitalGraduates.default,
+  "/graphicdesign": _graphicGraduates.default,
+  "/animationgamedesign": _animationGraduates.default,
   '/graduate': _specificProfile.default,
   "/graduates/19760513": _2.default,
   "/comingsoon": _comingSoon.default
@@ -14120,7 +14120,7 @@ customElements.define("va-app-header", class AppHeader extends _litElement.LitEl
   }
 
   render() {
-    return (0, _litElement.html)(_templateObject(), this.hamburgerClick, () => (0, _Router.gotoRoute)("/"), () => (0, _Router.gotoRoute)("/"), () => (0, _Router.gotoRoute)("/"), e => e.preventDefault(), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates%animationgamedesign"), () => (0, _Router.gotoRoute)("/graduates%digitaldesign"), () => (0, _Router.gotoRoute)("/graduates%graphicdesign"), () => (0, _Router.gotoRoute)("/about"), this.menuClick, this.menuClick, this.menuClick);
+    return (0, _litElement.html)(_templateObject(), this.hamburgerClick, () => (0, _Router.gotoRoute)("/"), () => (0, _Router.gotoRoute)("/"), () => (0, _Router.gotoRoute)("/"), e => e.preventDefault(), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/animationgamedesign"), () => (0, _Router.gotoRoute)("/digitaldesign"), () => (0, _Router.gotoRoute)("/graphicdesign"), () => (0, _Router.gotoRoute)("/about"), this.menuClick, this.menuClick, this.menuClick);
   }
 
 });
@@ -14387,7 +14387,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50351" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50991" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
