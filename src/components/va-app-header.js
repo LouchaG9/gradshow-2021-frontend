@@ -104,23 +104,9 @@ customElements.define(
             cursor: pointer;
             filter: saturate(1);
           }
-          
+
           .mobileLogoHolder {
-            width: 50%;
-            margin-left: 50%;
-            position:absolute;
-            display: flex;
-            justify-content: flex-end;
-          }
-
-          .mobileHeaderLogo{
-            width: 120px;
-            margin-right: 1.5em;
-          }
-
-          .mobileHeaderLogo:hover{
-            cursor: pointer;
-            filter: saturate(1);
+            display:none;
           }
 
           .hamburger-btn::part(base) {
@@ -208,6 +194,24 @@ customElements.define(
           @media all and (max-width: 768px) {
             .app-top-nav {
               display: none;
+            }
+
+            .mobileLogoHolder {
+              width: 50%;
+              margin-left: 50%;
+              position:absolute;
+              display: flex;
+              justify-content: flex-end;
+            }
+  
+            .mobileHeaderLogo{
+              width: 120px;
+              margin-right: 1.5em;
+            }
+  
+            .mobileHeaderLogo:hover{
+              cursor: pointer;
+              filter: saturate(1);
             }
 
             .hamburger-btn::part(base) {
