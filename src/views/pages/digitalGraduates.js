@@ -200,7 +200,7 @@ class DigitalGraduatesView {
           </div>
           <!-- /component -->
         </section>
-
+      </div>
         <!-- FOOTER ---------------------------------->
         <footer>
         <div class="footer-content">
@@ -273,7 +273,6 @@ class DigitalGraduatesView {
           </div>
         </div>
       </footer>
-      </div>
     `;
     render(template, App.rootEl);
   }

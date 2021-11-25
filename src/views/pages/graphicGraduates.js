@@ -201,38 +201,78 @@ class GraphicGraduatesView {
           <!-- /component -->
         </section>
 
-        <!-- FOOTER ---------------------------------->
-        <footer>
-          <div class="footer-content">
-            <div class="footer-col">
-              <h3>DeStore</h3>
-              <p>
-                Monday – Saturday: 8:00 am – 4:00pm <br />
-                Sunday: 9:00 am – 5:00pm<br />
-                Kent St, Bentley, 6102, Western Australia<br /><br />
-                @destore
-              </p>
-            </div>
-            <div class="footer-col">
-              <h3>Quick Links</h3>
-              <ul>
-                <li>Home</li>
-                <li>Shop</li>
-                <li>About</li>
-                <li>Contact</li>
-              </ul>
-            </div>
-            <div class="footer-col">
-              <h3>Shop</h3>
-              <ul>
-                <li>Fresh Produce</li>
-                <li>Butcher</li>
-                <li>Bakery</li>
-              </ul>
+      </div>
+      <footer>
+        <div class="footer-content">
+          <div class="destore-col">
+            <h3>DeStore</h3>
+            <p>
+              Monday - Closed <br />
+              Tuesday – Saturday: 7:00 am – 3:00 pm <br />
+              Sunday: 9:00 am – 2:00 pm<br />
+              Kent St, Bentley, 6102, Western Australia<br /><br />
+              @destore
+            </p>
+          </div>
+          <div class="major-col">
+            <div
+              class="footer-animation-column"
+              @click="${() => gotoRoute("/graduates")}"
+            >
+              <div class="footer-item">
+                <h3>Animation</h3>
+              </div>
+              <div class="footer-item">
+                <h3>Game Design</h3>
+              </div>
+              <div class="footer-item">
+                <h3>Fruit</h3>
+              </div>
+              <div class="footer-item">
+                <h3>Vegetables</h3>
+              </div>
             </div>
           </div>
-        </footer>
-      </div>
+          <div class="major-col">
+            <div
+              class="footer-digex-column"
+              @click="${() => gotoRoute("/graduates")}"
+            >
+              <div class="footer-item">
+                <h3>Digital Design</h3>
+              </div>
+              <div class="footer-item">
+                <h3>Baked Goods</h3>
+              </div>
+              <div class="footer-item">
+                <h3>Fresh Bread</h3>
+              </div>
+              <div class="footer-item">
+                <h3>Wraps</h3>
+              </div>
+            </div>
+          </div>
+          <div class="major-col">
+            <div
+              class="footer-graphic-column"
+              @click="${() => gotoRoute("/graduates")}"
+            >
+              <div class="footer-item">
+                <h3>Graphic Design</h3>
+              </div>
+              <div class="footer-item">
+                <h3>Cold Meats</h3>
+              </div>
+              <div class="footer-item">
+                <h3>Cheese</h3>
+              </div>
+              <div class="footer-item">
+                <h3>Olives</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     `;
     render(template, App.rootEl);
   }

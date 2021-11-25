@@ -179,10 +179,10 @@ class AllGraduates {
           <!-- graduate component -->
           <div class="graduate-grid">
             ${Graduates == null
-              ? html` <sl-spinner></sl-spinner> `
-              : html`
+        ? html` <sl-spinner></sl-spinner> `
+        : html`
                   ${this.Graduates.map(
-                    (graduate) => html`
+          (graduate) => html`
                       <va-graduates
                         class="graduate-card"
                         avatarTwo="${graduate.avatarTwo}"
@@ -197,11 +197,12 @@ class AllGraduates {
                       >
                       </va-graduates>
                     `
-                  )}
+        )}
                 `}
           </div>
           <!-- /component -->
         </section>
+      </div>
 
         <!-- FOOTER ---------------------------------->
         <footer>
@@ -275,7 +276,6 @@ class AllGraduates {
           </div>
         </div>
       </footer>
-      </div>
     `;
     render(template, App.rootEl);
   }

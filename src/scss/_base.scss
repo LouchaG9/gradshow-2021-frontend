@@ -128,12 +128,10 @@ footer {
   width: 100%;
   background-color: var(--agd-green);
   padding: 1rem;
-  
   margin: 0 auto;
   .footer-content {
     display: flex;
     align-items: center;
-    max-width: 1920px;
     justify-content: space-between;
     gap: 1rem;
     width: 90%;
