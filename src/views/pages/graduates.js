@@ -117,11 +117,7 @@ class AllGraduates {
         <!-- title -->
         <h2>Graduates.</h2>
 
-        <!-- SHOWREEL CONTAINER ---------------------------------->
-        <section class="block-100 height-1 showreel-container">
-          <h1>showreel container</h1>
-          <!-- This is where we will display a couple of the students best works. -->
-        </section>
+        <h1>ALL GRADUATES</h1>
 
         <!-- FILTER DROPDOWN / SEARCH BAR ---------------------------------->
         <section class="search-and-filter-container">

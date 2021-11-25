@@ -19,13 +19,20 @@ class AboutView {
           <div class="about-landing">
             <h1>About Us</h1>
             <p>
-            Join us at the DeStore Deli for the 2021 Curtin Grad Show!   
-            Featuring employees from Animation & Game Design, Creative Advertising
-            & Graphic Design and Digital Design, we're sure to serve up with best dishes and designs!<br /><br/>
+            Welcome to the DeStore 2021 Curtin Design Graduate Showcase! 
+            We have prepared a scrumptious selection of tasty design treats to 
+            tantalise your taste buds. This year's Curtin Design grads from Animation & 
+            Game Design, Digital Experience & Interaction Design and Graphic Design 
+            have served up a refined assortment of design products that feature a diversity 
+            of modalities, aesthetics and conceptual/technical approaches.<br/><br/>
+            
+            Are you hankering for a treat that's full-fat and bursting with flavour, 
+            or do you want something nutritious yet tasty? Do you have specific preferences 
+            or intolerances? Need a custom short-order? Don't worry, our team have got you covered.<br/><br/>
 
-            Of course, none of this would have been possible without the support of friends, families
-            and the Graduates Staff Committee, so this ones for you - here's the culmination of all 
-            hardwork and tears over the past couple years.
+            Our artisan graduates put loving care and attention into every single design that they craft, 
+            tailoring them to your unique tastes and requirements. So go on, try a sample by 
+            checking out the quality portfolio work showcased by our grads. Freshness guaranteed!
             </p>
           </div>
 

@@ -8,7 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 20vh; // same height as footer
+  height: fit-content;
   ul {
     font-family: var(--base-font-family);
     font-weight: 100;
