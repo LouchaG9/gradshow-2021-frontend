@@ -136,7 +136,7 @@ customElements.define(
             display: flex;
             justify-content: center;
 
-            border-bottom: 1px solid black;
+            border-bottom: 0px solid black;
             /* easing the hover transition */
             transition: 0.3s;
           }
