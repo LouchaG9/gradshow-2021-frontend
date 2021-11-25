@@ -71,13 +71,15 @@ h1 {
   font-family: var(--heading-font-family-B);
   color: var(--brand-color);
   font-size: 3rem;
-  margin: 0rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 h2 {
   font-family: var(--heading-font-family-B);
   font-size: 3rem;
   color: var(--brand-color);
+  margin-top: var(--app-header-height);
 }
 
 p {
@@ -96,11 +98,6 @@ a {
   justify-content: center;
 }
 
-section {
-  margin-top: 8rem;
-  margin-bottom: 8rem;
-}
-
 .secondary {
   padding: 0.5rem 3rem;
 }
@@ -114,7 +111,7 @@ section {
 
 a {
   border: none;
-  background-color: #3F3F3F;
+  background-color: #3f3f3f;
   color: white;
   margin: 1rem 0;
   text-align: center;
@@ -141,9 +138,10 @@ a:hover {
 }
 
 .page-content {
-  top: var(--app-header-height);
+  margin-top: var(--app-header-height);
+  margin-left: auto;
+  margin-right: auto;
   width: 90%;
-  margin: 0 auto;
   max-width: 1420px;
 }
 .page-content.no-pad {
@@ -153,7 +151,7 @@ a:hover {
 footer {
   display: flex;
   align-items: center;
-  height: 30vh;
+  height: fit-content;
   width: 100%;
   background-color: var(--agd-green);
   padding: 1rem;
@@ -162,7 +160,6 @@ footer {
 footer .footer-content {
   display: flex;
   align-items: center;
-  max-width: 1920px;
   justify-content: space-between;
   gap: 1rem;
   width: 90%;
@@ -250,7 +247,7 @@ footer .footer-content .footer-animation-column .footer-item:hover {
   max-width: 100px;
 }
 
-.page-content h2 {
+.page-content h2.profile {
   text-align: start;
   padding-bottom: 3rem;
 }
@@ -259,7 +256,8 @@ footer .footer-content .footer-animation-column .footer-item:hover {
   padding-bottom: 3rem;
 }
 
-A[href=""], A[href="#"] {
+A[href=""],
+A[href="#"] {
   display: none;
 }
 
@@ -620,11 +618,6 @@ footer .footer-content .footer-animation-column .footer-item {
   color: var(--body-bg);
 }
 
-section {
-  margin-bottom: 6rem;
-  margin-top: 6rem;
-}
-
 .major-columns {
   display: flex;
   justify-content: space-between;
@@ -857,7 +850,9 @@ section {
     fill: var(--gd-red);
   }
 
-  .major-columns .animation-column, .major-columns .digex-column, .major-columns .graphic-column {
+  .major-columns .animation-column,
+.major-columns .digex-column,
+.major-columns .graphic-column {
     width: calc(100% / 1);
   }
 
@@ -894,7 +889,9 @@ section {
     width: 100%;
     flex-direction: column;
   }
-  .reviews .right .quote-one, .reviews .right .quote-two, .reviews .right .quote-three {
+  .reviews .right .quote-one,
+.reviews .right .quote-two,
+.reviews .right .quote-three {
     width: 100%;
   }
 
@@ -1106,8 +1103,10 @@ footer {
   height: 100%;
 }
 
-.about-landing p {
+.about-landing {
   width: 75%;
+}
+.about-landing p {
   font-size: 1.4em;
   line-height: 1.5;
 }
@@ -1216,7 +1215,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 20vh;
+  height: fit-content;
+  padding-bottom: 3rem;
 }
 .search-and-filter-container ul {
   font-family: var(--base-font-family);
@@ -1241,7 +1241,7 @@ footer {
   width: 100%;
   height: 50px;
   background-color: transparent;
-  border: 1px solid black;
+  border: 2px solid black;
 }
 .search-input:focus {
   outline: none;
