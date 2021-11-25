@@ -72,19 +72,21 @@ section {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  gap: 5px;
+  gap: 10px;
 }
 
 a {
-  border: 2px var(--brand-color) solid;
-  background-color: var(--body-bg);
-  color: var(--brand-color);
+  border: none;
+  background-color: #3F3F3F;
+  color: white;
   margin: 1rem 0;
+
   // padding: 0.5rem 5rem;
   text-align: center;
+ 
   place-items: center;
   text-transform: uppercase;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.2rem;
   text-decoration: none;
   transition: 0.2s;
 }
@@ -274,7 +276,7 @@ A[href=""], A[href="#"] {
 
 .avatarContainer {
   position: relative;
-
+  margin-top: 1vw;
 }
 
 .avatarImage {

@@ -22,6 +22,7 @@ class HomeView {
 
   pageIntroAnim2(){
     gsap.fromTo(".subheading", {x: -1000, opacity: 0}, {x: 0, opacity: 1, ease: "power2.out", duration: 1});
+    gsap.from(".shop-graduates-btn", {x: -2000, opacity: 0}, {x: 0, opacity: 1, ease: "power2.out", duration: 1});
   }
 
   render() {

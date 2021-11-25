@@ -66,8 +66,10 @@ class specificProfile {
             </h1>
             <p><i>${globalThis.studentIdGlobal.tagLine}</i></p>
 
-            <p><strong>About:</strong></p>
+          
             <p class="bioStyle">${globalThis.studentIdGlobal.bio}</p>
+            
+            <div class="socials-wrapper">
             <a
               class="secondary" 
               href="${globalThis.studentIdGlobal.portfolio}"
@@ -75,7 +77,6 @@ class specificProfile {
             >
               Portfolio
             </a>
-            <div class="socials-wrapper">
               <a
                 class="icon"
                 href="${globalThis.studentIdGlobal.linkedin}"
