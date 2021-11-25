@@ -7461,8 +7461,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/17159355_alt.jpg",
   avatarTwo: "./images/graduateAvatars/17159355_Lrobertson_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/17159355_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/17159355_Lrobertson_main.jpg",
   imageOne: "../images/work/Lachlan_Robertson_17159355_1 - Lachlan Robertson.jpg",
   imageTwo: "../images/work/Lachlan_Robertson_17159355_2 - Lachlan Robertson.jpg",
   imageThree: "../images/work/Lachlan_Robertson_17159355_3 - Lachlan Robertson.jpg",
@@ -7489,8 +7489,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19760814_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19760814_AMai_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19760814_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19760814_AMai_main.jpg",
   imageOne: "../images/work/Anna_Mai_19760814_1 - Anna Mai.jpg",
   imageTwo: "../images/work/Anna_Mai_19760814_2 - Anna Mai.jpg",
   imageThree: "../images/work/Anna_Mai_19760814_3 - Anna Mai.jpg",
@@ -7517,8 +7517,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/20037952_alt.jpg",
   avatarTwo: "./images/graduateAvatars/20037952_THYan_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/20037952_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/20037952_THYan_main.jpg",
   imageOne: "../images/work/1t - Tian Hock Yan.jpg",
   imageTwo: "../images/work/2t - Tian Hock Yan.jpg",
   imageThree: "../images/work/3t - Tian Hock Yan.jpg",
@@ -7531,8 +7531,8 @@ const Graduates = [{
   lastName: "Huang",
   email: "ruitan1520@gmail.com",
   major: "Digital Experience and Interaction Design",
-  bio: "Hi, I'm Ruitan, I'm an upbeat, self- motivated team player with excellent communication skills. I'm based in Perth who loves to design interfaces and tackle the problem to improve user experience. I'm also keen on always learning new skills so I'm always on top of all the trends. I have excellent UI design skills as well as an excellent understanding of user experience design and research.",
-  tagLine: "I'm loving the UX problems",
+  bio: "Hi, I'm Ruitan. I'm an upbeat, self-motivated team player with strong communication skills. I love tackling design problems, and undertaking research to better understand users' needs and pain points. I am passionate  about learning new things and keeping up to date with design trends. ",
+  tagLine: "I love learning new things, and I’m also an avid photographer",
   portfolio: "http://ruitanexpdesign.com",
   linkedin: "https://www.linkedin.com/in/ruitan-huang/",
   instagram: "https://www.instagram.com/ruitan_uidesign/",
@@ -7545,13 +7545,13 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19467322_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19467322_RHuang_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19467322_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19467322_RHuang_main.jpg",
   imageOne: "../images/work/Ruitan_Huang_19467322_2 - Ruitan Huang.jpg",
   imageTwo: "../images/work/Ruitan_Huang_19467322_4 - Ruitan Huang.jpg",
   imageThree: "../images/work/Ruitan_Huang_19467322_5 - Ruitan Huang.jpg",
-  imageFour: "",
-  imageFive: "",
+  imageFour: "../images/work/Ruitan_Huang_19467322_1 - Ruitan Huang.jpg",
+  imageFive: "../images/work/Ruitan_Huang_19467322_3 - Ruitan Huang.jpg",
   imageSix: ""
 }, {
   studentNumber: "19168735",
@@ -7573,8 +7573,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19168735_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19168735_NCassandra_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19168735_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19168735_NCassandra_main.jpg",
   imageOne: "../images/work/Nicole_Torres_19168735_1 - Nicole Cassandra Torres.jpg",
   imageTwo: "../images/work/Nicole_Torres_19168735_3 - Nicole Cassandra Torres.jpg",
   imageThree: "../images/work/Nicole_Torres_19168735_5 - Nicole Cassandra Torres.jpg",
@@ -7629,8 +7629,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19775669_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19775669_PDoick_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19775669_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19775669_PDoick_main.jpg",
   imageOne: "../images/work/Paris_Doick_19775669_1 - Paris Doick.jpg",
   imageTwo: "../images/work/Paris_Doick_19775669_3 - Paris Doick.jpg",
   imageThree: "../images/work/Paris_Doick_19775669_5 - Paris Doick.jpg",
@@ -7657,8 +7657,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19192187_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19192187_EEdwards_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19192187_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19192187_EEdwards_main.jpg",
   imageOne: "../images/work/ELLA_EDWARDS_19192187_1 - Ella.jpg",
   imageTwo: "../images/work/ELLA_EDWARDS_19192187_2 - Ella.jpg",
   imageThree: "../images/work/ELLA_EDWARDS_19192187_3 - Ella.jpg",
@@ -7685,8 +7685,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19769662_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19769662_MMerttens_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19769662_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19769662_MMerttens_main.jpg",
   imageOne: "../images/work/Mali_Merttens_19769662_1 - Marley.jpg",
   imageTwo: "../images/work/Mali_Merttens_19769662_3 - Marley.jpg",
   imageThree: "../images/work/Madi_Horler_19454722_5 - Madison Horler.jpg",
@@ -7713,8 +7713,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/18813157_alt.jpg",
   avatarTwo: "./images/graduateAvatars/18813157_AChung_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/18813157_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/18813157_AChung_main.jpg",
   imageOne: "../images/work/Adrina_Chung_18813157_1 - adrina chung.jpg",
   imageTwo: "../images/work/Adrina_Chung_18813157_3 - adrina chung.jpg",
   imageThree: "../images/work/Adrina_Chung_18813157_5 - adrina chung.jpg",
@@ -7741,8 +7741,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19768986_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19768986_LSchultz_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19768986_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19768986_LSchultz_main.jpg",
   imageOne: "../images/work/Leah_Schultz_19768986_1 - Leah Schultz.jpg",
   imageTwo: "../images/work/Leah_Schultz_19768986_3 - Leah Schultz.jpg",
   imageThree: "../images/work/Leah_Schultz_19768986_5 - Leah Schultz.jpg",
@@ -7769,8 +7769,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19720863_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19720863_JMichell_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19720863_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19720863_JMichell_main.jpg",
   imageOne: "../images/work/Joshua_Michell_19720863_1 - Serial Dreamer.jpg",
   imageTwo: "../images/work/Joshua_Michell_19720863_3 - Serial Dreamer.jpg",
   imageThree: "../images/work/Joshua_Michell_19720863_5 - Serial Dreamer.jpg",
@@ -7797,8 +7797,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19773249_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19773249_MThomas_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19773249_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19773249_MThomas_main.jpg",
   imageOne: "../images/work/Michelle_Thomas_19773249_1 - Michelle Thomas.jpg",
   imageTwo: "../images/work/Michelle_Thomas_19773249_3 - Michelle Thomas.jpg",
   imageThree: "../images/work/Michelle_Thomas_19773249_5 - Michelle Thomas.jpg",
@@ -7825,8 +7825,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19756130_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19756130_AMcbee_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19756130_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19756130_AMcbee_main.jpg",
   imageOne: "../images/work/Alexandra_McGee_19756130_1 - Alexandra McGee.jpg",
   imageTwo: "../images/work/Alexandra_McGee_19756130_3 - Alexandra McGee.jpg",
   imageThree: "../images/work/Alexandra_McGee_19756130_5 - Alexandra McGee.jpg",
@@ -7853,8 +7853,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19160142_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19160142_BNaim_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19160142_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19160142_BNaim_main.jpg",
   imageOne: "../images/work/BETH_NAIM_19160142_1 - Beth Naim.jpg",
   imageTwo: "../images/work/BETH_NAIM_19160142_3 - Beth Naim.jpg",
   imageThree: "../images/work/BETH_NAIM_19160142_5 - Beth Naim.jpg",
@@ -7881,8 +7881,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19096535_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19096535_SChaoChen_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19096535_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19096535_SChaoChen_main.jpg",
   imageOne: "../images/work/SylviaChen_19096535_1 - wtxwkl.jpg",
   imageTwo: "../images/work/SylviaChen_19096535_2 - wtxwkl.jpg",
   imageThree: "../images/work/SylviaChen_19096535_3 - wtxwkl.jpg",
@@ -7909,8 +7909,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19792888_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19792888_DKnowles_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19792888_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19792888_DKnowles_main.jpg",
   imageOne: "../images/work/Dana_Knowles_19792888_1 - Dana Knowles.jpg",
   imageTwo: "../images/work/Dana_Knowles_19792888_2 - Dana Knowles.jpg",
   imageThree: "../images/work/Dana_Knowles_19792888_3 - Dana Knowles.jpg",
@@ -7937,8 +7937,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19485502_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19485502_TStirling_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19485502_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19485502_TStirling_main.jpg",
   imageOne: "../images/work/Tessa_Stirling_19485502_1 - Tessa Stirling.jpg",
   imageTwo: "../images/work/Tessa_Stirling_19485502_2 - Tessa Stirling.jpg",
   imageThree: "../images/work/Tessa_Stirling_19485502_3 - Tessa Stirling.jpg",
@@ -7965,8 +7965,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19965680_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19965680_HJones_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19965680_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19965680_HJones_main.jpg",
   imageOne: "../images/work/Hannah_Jones_19965680_1 - Hannah Jones.jpg",
   imageTwo: "../images/work/Hannah_Jones_19965680_2 - Hannah Jones.jpg",
   imageThree: "../images/work/Hannah_Jones_19965680_3 - Hannah Jones.jpg",
@@ -7993,8 +7993,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/18846674_alt.jpg",
   avatarTwo: "./images/graduateAvatars/18846674_SMabirrat_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/18846674_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/18846674_SMabirrat_main.jpg",
   imageOne: "../images/work/Samantha_Maliwat_18846674_1 - Bacon Omnom.jpg",
   imageTwo: "../images/work/Samantha_Maliwat_18846674_2 - Bacon Omnom.jpg",
   imageThree: "../images/work/Samantha_Maliwat_18846674_3 - Bacon Omnom.jpg",
@@ -8021,8 +8021,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19499736_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19499736_JNesic_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19499736_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19499736_JNesic_main.jpg",
   imageOne: "../images/work/Jordan_Nesic_19499736_1 - Jordan N.jpg",
   imageTwo: "../images/work/Jordan_Nesic_19499736_2 - Jordan N.jpg",
   imageThree: "../images/work/Jordan_Nesic_19499736_3 - Jordan N.jpg",
@@ -8049,8 +8049,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/18342224_alt.jpg",
   avatarTwo: "./images/graduateAvatars/18342224_JSaw_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/18342224_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/18342224_JSaw_main.jpg",
   imageOne: "../images/work/Jamin_Saw_18342224_1 - Jamin Saw.jpg",
   imageTwo: "../images/work/Jamin_Saw_18342224_2 - Jamin Saw.jpg",
   imageThree: "../images/work/Jamin_Saw_18342224_3 - Jamin Saw.jpg",
@@ -8077,8 +8077,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19148724_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19148724_ELeicester_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19148724_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19148724_ELeicester_main.jpg",
   imageOne: "../images/work/Eden_Leicester_19148724_1 - Eden Leicester.jpg",
   imageTwo: "../images/work/Eden_Leicester_19148724_2 - Eden Leicester.jpg",
   imageThree: "../images/work/Eden_Leicester_19148724_3 - Eden Leicester.jpg",
@@ -8105,8 +8105,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19749253_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19749253_YKim_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19749253_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19749253_YKim_main.jpg",
   imageOne: "../images/work/Yaeram_Kim_19749253_1 - yaeram kim.png",
   imageTwo: "../images/work/Yaeram_Kim_19749253_2 - yaeram kim.png",
   imageThree: "../images/work/Yaeram_Kim_19749253_3 - yaeram kim.png",
@@ -8133,8 +8133,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19762328_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19762328_LTarr_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19762328_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19762328_LTarr_main.jpg",
   imageOne: "../images/work/Lilybelle_Tarr_19762328_1 - Lilybelle tarr.jpg",
   imageTwo: "../images/work/Lilybelle_Tarr_19762328_2 - Lilybelle tarr.jpg",
   imageThree: "../images/work/Lilybelle_Tarr_19762329_3 - Lilybelle tarr.jpg",
@@ -8161,8 +8161,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19790316_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19790316_JCabral_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19790316_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19790316_JCabral_main.jpg",
   imageOne: "../images/work/Jekko_Cabral_19790316_1 - J C.jpg",
   imageTwo: "../images/work/Jekko_Cabral_19790316_2 - J C.jpg",
   imageThree: "../images/work/Jekko_Cabral_19790316_3 - J C.jpg",
@@ -8189,8 +8189,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19918406_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19918406_NDakin_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19918406_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19918406_NDakin_main.jpg",
   imageOne: "../images/work/Nina_Dakin_19918406_1 - Nina Dakin.jpg",
   imageTwo: "../images/work/Nina_Dakin_19918406_2 - Nina Dakin.jpg",
   imageThree: "../images/work/Nina_Dakin_19918406_3 - Nina Dakin.jpg",
@@ -8217,8 +8217,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19770295_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19770295_DRizkiadi_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19770295_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19770295_DRizkiadi_main.jpg",
   imageOne: "../images/work/Daffa_Rizkiadi_19770295_1 - Daffa Rizkiadi.jpg",
   imageTwo: "../images/work/Daffa_Rizkiadi19770295_2 - Daffa Rizkiadi.jpg",
   imageThree: "../images/work/Daffa_Rizkiadi_19770295_3 - Daffa Rizkiadi.jpg",
@@ -8245,8 +8245,8 @@ const Graduates = [{
   shirt: "https://yourbestfriendjippy.com",
   avatarOne: "./images/graduateBags/_DSC1411.jpg",
   avatarTwo: "./images/graduateBags/_DSC1408.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateBagsHQ/_DSC1411.jpg",
+  avatarTwoHQ: "./images/graduateBagsHQ/_DSC1408.jpg",
   imageOne: "../images/work/Julian_Osborn_19467092_1 - Jippy.jpg",
   imageTwo: "../images/work/Julian_Osborn_19467092_2 - Jippy.jpg",
   imageThree: "../images/work/Julian_Osborn_19467092_3 - Jippy.jpg",
@@ -8273,8 +8273,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/17373236_alt.jpg",
   avatarTwo: "./images/graduateAvatars/17373236_EHarding_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/17373236_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/17373236_EHarding_main.jpg",
   imageOne: "../images/work/Emily_Harding_17373236_1 - Emily Harding.jpg",
   imageTwo: "../images/work/Emily_Harding_17373236_2 - Emily Harding.jpg",
   imageThree: "../images/work/Emily_Harding_17373236_3 - Emily Harding.jpg",
@@ -8301,8 +8301,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19449087_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19449087_MGilmoor_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19449087_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19449087_MGilmoor_main.jpg",
   imageOne: "../images/work/Matthew_Gilmour_19449087_1 - Matthew Gilmour.jpg",
   imageTwo: "../images/work/Matthew_Gilmour_19449087_2 - Matthew Gilmour.jpg",
   imageThree: "../images/work/Matthew_Gilmour_19449087_3 - Matthew Gilmour.jpg",
@@ -8329,8 +8329,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19131148_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19131158_JFoti_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19131148_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19131158_JFoti_main.jpg",
   imageOne: "../images/work/Joshua_Foti_19131148_1 - lilvinci.jpg",
   imageTwo: "../images/work/Joshua_Foti_19131148_2 - lilvinci.jpg",
   imageThree: "../images/work/Joshua_Foti_19131148_3 - lilvinci.jpg",
@@ -8357,8 +8357,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19783853_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19783853_OLalacci_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19783853_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19783853_OLalacci_main.jpg",
   imageOne: "../images/work/Olivia_Ialacci_19783853_1 - Olivia Ialacci.jpg",
   imageTwo: "../images/work/Olivia_Ialacci_19783853_2 - Olivia Ialacci.jpg",
   imageThree: "../images/work/Olivia_Ialacci_19783853_3 - Olivia Ialacci.jpg",
@@ -8385,8 +8385,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19501903_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19501903_STill_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19501903_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19501903_STill_main.jpg",
   imageOne: "../images/work/Sophie_Till_19501903_1 - Sophie Till.jpg",
   imageTwo: "../images/work/Sophie_Till_19501903_2 - Sophie Till.jpg",
   imageThree: "../images/work/Sophie_Till_19501903_3 - Sophie Till.jpg",
@@ -8413,8 +8413,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/17817860_alt.jpg",
   avatarTwo: "./images/graduateAvatars/17817860_ABertilone_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/17817860_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/17817860_ABertilone_main.jpg",
   imageOne: "../images/work/Alex_Bertilone_17817860_1 - Alex Bertilone.jpg",
   imageTwo: "../images/work/Alex_Bertilone_17817860_2 - Alex Bertilone.jpg",
   imageThree: "../images/work/Alex_Bertilone_17817860_3 - Alex Bertilone.jpg",
@@ -8441,8 +8441,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19157254_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19157254_ENewby_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19157254_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19157254_ENewby_main.jpg",
   imageOne: "../images/work/Eleyna_Newby_19157254_1 - Elle Rose.jpg",
   imageTwo: "../images/work/Eleyna_Newby_19157254_2 - Elle Rose.jpg",
   imageThree: "../images/work/Eleyna_Newby_19157254_3 - Elle Rose.jpg",
@@ -8469,8 +8469,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19454722_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19454722_MHorler_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19454722_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19454722_MHorler_main.jpg",
   imageOne: "../images/work/Madi_Horler_19454722_1 - Madison Horler.jpg",
   imageTwo: "../images/work/Madi_Horler_19454722_2 - Madison Horler.jpg",
   imageThree: "../images/work/Madi_Horler_19454722_3 - Madison Horler.jpg",
@@ -8497,8 +8497,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19606154_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19606154_GRidarta_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19606154_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19606154_GRidarta_main.jpg",
   imageOne: "../images/work/Ghassani_Ridarta_19606154_1 - Ghassani A Ridarta.jpg",
   imageTwo: "../images/work/Ghassani_Ridarta_19606154_2 - Ghassani A Ridarta.jpg",
   imageThree: "../images/work/Ghassani_Ridarta_19606154_3 - Ghassani A Ridarta.jpg",
@@ -8525,8 +8525,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19490085_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19490085_DMusarra_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19490085_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19490085_DMusarra_main.jpg",
   imageOne: "../images/work/Danielle_Musarra_19490085_1 - Danielle Musarra.jpg",
   imageTwo: "../images/work/Danielle_Musarra_19490085_2 - Danielle Musarra.jpg",
   imageThree: "../images/work/Danielle_Musarra_19490085_3 - Danielle Musarra.jpg",
@@ -8553,8 +8553,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19963587_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19963587_EMatthews_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19963587_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19963587_EMatthews_main.jpg",
   imageOne: "../images/work/Ella_Matthews_19963587_1 - Ella Matthews.jpg",
   imageTwo: "../images/work/Ella_Matthews_19963587_2 - Ella Matthews.jpg",
   imageThree: "../images/work/Ella_Matthews_19963587_3 - Ella Matthews.jpg",
@@ -8581,8 +8581,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19133225_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19133225_AMarbeck_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19133225_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19133225_AMarbeck_main.jpg",
   imageOne: "../images/work/AlexandraMarbeck_19133225_1 - ali marbeck.jpg",
   imageTwo: "../images/work/AlexandraMarbeck_19133225_3 - ali marbeck.jpg",
   imageThree: "../images/work/AlexandraMarbeck_19133225_4 - ali marbeck.jpg",
@@ -8609,8 +8609,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19749402_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19749402_GPortelli_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19749402_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19749402_GPortelli_main.jpg",
   imageOne: "../images/work/Gia_Portelli_19749402_1 - Gia Portelli.jpg",
   imageTwo: "../images/work/Gia_Portelli_19749402_2 - Gia Portelli.jpg",
   imageThree: "../images/work/Gia_Portelli_19749402_3 - Gia Portelli.jpg",
@@ -8637,8 +8637,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19451231_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19451231_JAtizado_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19451231_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19451231_JAtizado_main.jpg",
   imageOne: "../images/work/Joaquin_Atizado_1451231_1 - Joaquin Atizado.jpeg",
   imageTwo: "../images/work/Joaquin_Atizado_1451231_2 - Joaquin Atizado.jpg",
   imageThree: "../images/work/Joaquin_Atizado_1451231_4 - Joaquin Atizado.jpg",
@@ -8665,8 +8665,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/18451382_alt.jpg",
   avatarTwo: "./images/graduateAvatars/18451382_CGeyer_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/18451382_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/18451382_CGeyer_main.jpg",
   imageOne: "../images/work/Cooper_Geyer_18451382_1 - Cooper Geyer.png",
   imageTwo: "../images/work/Cooper_Geyer_18451382_2 - Cooper Geyer.png",
   imageThree: "../images/work/Cooper_Geyer_18451382_3 - Cooper Geyer.png",
@@ -8693,8 +8693,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19691600_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19691600_Etey_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19691600_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19691600_Etey_main.jpg",
   imageOne: "../images/work/QuenYi_Tey_19691600_1 - Emily Tey.jpg",
   imageTwo: "../images/work/QuenYi_Tey_19691600_2 - Emily Tey.jpg",
   imageThree: "../images/work/QuenYi_Tey_19691600_3 - Emily Tey.jpg",
@@ -8721,8 +8721,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19778697_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19778697_IMaccarthy_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19778697_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19778697_IMaccarthy_main.jpg",
   imageOne: "../images/work/Imogen_McCarthy_19778697_1 - Imogen McCarthy.jpg",
   imageTwo: "../images/work/Imogen_McCarthy_19778697_2 - Imogen McCarthy.jpg",
   imageThree: "../images/work/Imogen_McCarthy_19778697_3 - Imogen McCarthy.jpg",
@@ -8749,8 +8749,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19523266_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19523266_EMee_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19523266_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19523266_EMee_main.jpg",
   imageOne: "../images/work/Emily_Mee_19523266_1 - Emily Mee.png",
   imageTwo: "../images/work/Emily_Mee_19523266_2 - Emily Mee.png",
   imageThree: "../images/work/Emily_Mee_19523266_3 - Emily Mee.png",
@@ -8777,8 +8777,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19518259_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19518259_ERumsa_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19518259_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19518259_ERumsa_main.jpg",
   imageOne: "../images/work/Emmi_Rumsa_19518259_1  - Emmi Rumsa.jpg",
   imageTwo: "../images/work/Emmi_Rumsa_19518259_2 - Emmi Rumsa.jpg",
   imageThree: "../images/work/Emmi_Rumsa_19518259_3 - Emmi Rumsa.jpg",
@@ -8805,8 +8805,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19490250_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19490250_BWatson_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19490250_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19490250_BWatson_main.jpg",
   imageOne: "../images/work/Brandon_Watson_19490520_1 - Brandon Watson.jpg",
   imageTwo: "../images/work/Brandon_Watson_19490520_2 - Brandon Watson.jpg",
   imageThree: "../images/work/Brandon_Watson_19490520_3 - Brandon Watson.jpg",
@@ -8833,8 +8833,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateBags/_DSC1293.jpg",
   avatarTwo: "./images/graduateBags/_DSC1294.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateBagsHQ/_DSC1293.jpg",
+  avatarTwoHQ: "./images/graduateBagsHQ/_DSC1294.jpg",
   imageOne: "../images/work/dimitri_koranis_19349611_1 - Australia Post.jpg",
   imageTwo: "../images/work/dimitri_koranis_19349611_2 - Australia Post.jpg",
   imageThree: "../images/work/dimitri_koranis_19349611_3 - Australia Post.jpg",
@@ -8861,8 +8861,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/17978204_alt.jpg",
   avatarTwo: "./images/graduateAvatars/17978204_SWang_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/17978204_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/17978204_SWang_main.jpg",
   imageOne: "../images/work/Shining_Wang_17978204_1 - Shining Wang.jpg",
   imageTwo: "../images/work/Shining_Wang_17978204_2 - Shining Wang.jpg",
   imageThree: "",
@@ -8889,8 +8889,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19162229_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19162229_MCosta_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19162229_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19162229_MCosta_main.jpg",
   imageOne: "../images/work/Michael_D_Costa_19162229_1.jpg - Michael D_Costa.jpg",
   imageTwo: "../images/work/Michael_D_Costa_19162229_2.jpg - Michael D_Costa.jpg",
   imageThree: "../images/work/Michael_D_Costa_19162229_3.jpg - Michael D_Costa.jpg",
@@ -8917,8 +8917,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateBags/_DSC1305.jpg",
   avatarTwo: "./images/graduateBags/_DSC1306.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateBagsHQ/_DSC1305.jpg",
+  avatarTwoHQ: "./images/graduateBagsHQ/_DSC1306.jpg",
   imageOne: "../images/work/Henry_Malkovic_19132345_ - Henry M.jpg",
   imageTwo: "../images/work/Henry_Malkovic_19132345_2 - Henry M.jpg",
   imageThree: "../images/work/Henry_Malkovic_19132345_3 - Henry M.jpg",
@@ -8945,8 +8945,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19754202_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19754202_ZLo_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19754202_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19754202_ZLo_main.jpg",
   imageOne: "../images/work/Zac_Lo_19754202_1 - Zac Lo.jpg",
   imageTwo: "../images/work/Zac_Lo_19754202_2 - Zac Lo.jpg",
   imageThree: "../images/work/Zac_Lo_19754202_3 - Zac Lo.jpg",
@@ -8973,8 +8973,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19460062_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19460062_CArena_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19460062_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19460062_CArena_main.jpg",
   imageOne: "../images/work/riley - Lotte Arena.png",
   imageTwo: "",
   imageThree: "",
@@ -9001,8 +9001,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19471666_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19471666_JTrijo.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19471666_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19471666_JTrijo.jpg",
   imageOne: "../images/work/Jet_Trijo_19471666_1 - Jet.jpg",
   imageTwo: "../images/work/Jet_Trijo_19471666_2 - Jet.jpg",
   imageThree: "../images/work/Jet_Trijo_19471666_3 - Jet.jpg",
@@ -9029,8 +9029,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateAvatars/19483580_alt.jpg",
   avatarTwo: "./images/graduateAvatars/19483580_KMarks_main.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateAvatarsHQ/19483580_alt.jpg",
+  avatarTwoHQ: "./images/graduateAvatarsHQ/19483580_KMarks_main.jpg",
   imageOne: "../images/work/Kasey_Marks_19483580_1 - Kasey Marks.jpg",
   imageTwo: "../images/work/Kasey_Marks_19483580_2 - Kasey Marks.jpg",
   imageThree: "../images/work/Kasey_Marks_19483580_3 - Kasey Marks.jpg",
@@ -9057,8 +9057,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateBags/_DSC1450.jpg",
   avatarTwo: "./images/graduateBags/_DSC1453.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateBagsHQ/_DSC1450.jpg",
+  avatarTwoHQ: "./images/graduateBagsHQ/_DSC1453.jpg",
   imageOne: "../images/work/Emily_Lowry_19490292_1 - Em Lowry.jpg",
   imageTwo: "../images/work/Emily_Lowry_19490292_2 - Em Lowry.png",
   imageThree: "../images/work/Emily_Lowry_19490292_3 - Em Lowry.png",
@@ -9085,8 +9085,8 @@ const Graduates = [{
   shirt: "",
   avatarOne: "./images/graduateBags/_DSC1450.jpg",
   avatarTwo: "./images/graduateBags/_DSC1453.jpg",
-  avatarOneHQ: "",
-  avatarTwoHQ: "",
+  avatarOneHQ: "./images/graduateBagsHQ/_DSC1450.jpg",
+  avatarTwoHQ: "./images/graduateBagsHQ/_DSC1453.jpg",
   imageOne: "../images/work/vieira_lucas_19502317_1 - Scott Wicks.jpg",
   imageTwo: "../images/work/vieira_lucas_19502317_2 - Scott Wicks.jpg",
   imageThree: "../images/work/vieira_lucas_19502317_3 - Scott Wicks.jpg",
@@ -9178,11 +9178,7 @@ var _graduateData = require("./../../../static/data/graduateData");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject() {
-<<<<<<< HEAD
   const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"Home\"></va-app-header>\n\n      <div class=\"page-content\" id=\"pageContent\">\n        <section class=\"banner\">\n          <div class=\"left\">\n            <h2 class=\"subheading\">\n              Welcome to the DeStore 2021 Curtin Design Graduate Showcase\n            </h2>\n            <button\n              class=\"shop-graduates-btn\"\n              @click=\"", "\"\n            >\n              Shop all graduates\n            </button>\n          </div>\n          <div class=\"right\"></div>\n        </section>\n\n        <section class=\"majors\">\n          <div class=\"major-columns\">\n            <div\n              class=\"animation-column\"\n              @click=\"", "\"\n            >\n              <img\n                src=\"./images/AGD-Basket.svg\"\n                alt=\"animation basket\"\n                class=\"major-svg agd-svg\"\n              />\n              <div class=\"sign-item\">\n                <h3>Animation</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Game Design</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Fruit</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Vegetables</h3>\n              </div>\n            </div>\n\n            <div class=\"digex-column\" @click=\"", "\">\n              <img\n                src=\"./images/DD-Clip.svg\"\n                alt=\"Digital bread clip\"\n                class=\"major-svg dd-svg\"\n              />\n              <!-- https://drive.google.com/file/d/1IsaWr0JahaPZcVp5KBb7hjr1n7UpTelJ/view?usp=sharing -->\n              <div class=\"sign-item\">\n                <h3>Digital Design</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Baked Goods</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Fresh Bread</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Wraps</h3>\n              </div>\n            </div>\n\n            <div\n              class=\"graphic-column\"\n              @click=\"", "\"\n            >\n              <img\n                src=\"./images/GD-Tag.svg\"\n                alt=\"graphic design tag\"\n                class=\"major-svg gd-dvg\"\n              />\n              <div class=\"sign-item\">\n                <h3>Graphic Design</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Cold Meats</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Cheese</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Olives</h3>\n              </div>\n            </div>\n          </div>\n        </section>\n\n        <section class=\"about-us\">\n          <div class=\"left\">\n            <img\n              src=\"https://drive.google.com/uc?export=view&id=1JxGAVQPoi8QiT08CvTJ3HCLaUbvSQoiu\"\n              alt=\"Destore Logo\"\n              class=\"logo-img\"\n            />\n          </div>\n          <div class=\"right\">\n            <h2>What are we?</h2>\n            <p>\n              On the other hand, we denounce with righteous indignation and\n              dislike men who are so beguiled and demoralized by the charms of\n              pleasure of the moment, so blinded by desire, that they cannot\n              foresee the pain and trouble that are bound to ensue;<br /><br />and\n              equal blame belongs to those who fail in their duty through\n              weakness of will, which is the same as saying through shrinking\n              from toil and pain. These cases are perfectly simple and easy to\n              distinguish. In a free hour, when our power of choice is\n              untrammelled and when nothing prevents our being able to do what\n              we like best\n            </p>\n            <button class=\"learn\" @click=\"", "\">\n              Learn about us\n            </button>\n          </div>\n        </section>\n\n        <section class=\"reviews\">\n          <div class=\"left\">\n            <h2 class=\"subheading\">What are people saying?</h2>\n          </div>\n\n          <div class=\"right\">\n            <div class=\"quote-one\">\n              <h3 class=\"tutor\">Joel Louie</h3>\n              <h4>Digital Design Major Coordinator</h4>\n              <p>\n                \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed\n                elementum maximus sem non venenatis. In erat turpis, suscipit\n                non libero sed, fermentum interdum nunc. Duis sagittis neque sit\n                amet.\"\n              </p>\n            </div>\n            <div class=\"quote-two\">\n              <h3 class=\"tutor\">Lee Ingram</h3>\n              <h4>Graphic Design Major Coordinator</h4>\n              <p>\n                \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed\n                elementum maximus sem non venenatis. In erat turpis, suscipit\n                non libero sed, fermentum interdum nunc. Duis sagittis neque sit\n                amet.\"\n              </p>\n            </div>\n            <div class=\"quote-three\">\n              <h3 class=\"tutor\">Jonathon Pillai</h3>\n              <h4>Animation & Game Design Major Coordinator</h4>\n              <p>\n                \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed\n                elementum maximus sem non venenatis. In erat turpis, suscipit\n                non libero sed, fermentum interdum nunc. Duis sagittis neque sit\n                amet.\"\n              </p>\n            </div>\n          </div>\n        </section>\n      </div>\n\n      <footer>\n        <div class=\"footer-content\">\n          <div class=\"destore-col\">\n            <h3>DeStore</h3>\n            <p>\n              Monday - Closed <br />\n              Tuesday \u2013 Saturday: 7:00 am \u2013 3:00 pm <br />\n              Sunday: 9:00 am \u2013 2:00 pm<br />\n              Kent St, Bentley, 6102, Western Australia<br /><br />\n              @destore\n            </p>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-animation-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Animation</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Game Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fruit</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Vegetables</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-digex-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Digital Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Baked Goods</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fresh Bread</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Wraps</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-graphic-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Graphic Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cold Meats</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cheese</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Olives</h3>\n              </div>\n            </div>\n          </div>\n        </div>\n      </footer>\n    "]);
-=======
-  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"Home\"></va-app-header>\n\n      <div class=\"page-content\" id=\"pageContent\">\n        <section class=\"banner\">\n          <div class=\"left\">\n            <h2 class=\"subheading\">\n              organic grad show handcrafted by curtin design students\n            </h2>\n            <button\n              class=\"shop-graduates-btn\"\n              @click=\"", "\"\n            >\n              Shop all graduates\n            </button>\n          </div>\n          <div class=\"right\"></div>\n        </section>\n\n        <section class=\"majors\">\n          <div class=\"major-columns\">\n            <div\n              class=\"animation-column\"\n              @click=\"", "\"\n            >\n              <img\n                src=\"./images/AGD-Basket.svg\"\n                alt=\"animation basket\"\n                class=\"major-svg agd-svg\"\n              />\n              <!-- https://drive.google.com/file/d/1QVrl6Es1xCGPhqVME2kBesXyO9dG8Mz1/view?usp=sharing -->\n              <div class=\"sign-item\">\n                <h3>Animation</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Game Design</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Fruit</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Vegetables</h3>\n              </div>\n            </div>\n\n            <div class=\"digex-column\" @click=\"", "\">\n              <img\n                src=\"./images/DD-Clip.svg\"\n                alt=\"Digital bread clip\"\n                class=\"major-svg dd-svg\"\n              />\n              <!-- https://drive.google.com/file/d/1IsaWr0JahaPZcVp5KBb7hjr1n7UpTelJ/view?usp=sharing -->\n              <div class=\"sign-item\">\n                <h3>Digital Design</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Baked Goods</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Fresh Bread</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Wraps</h3>\n              </div>\n            </div>\n\n            <div\n              class=\"graphic-column\"\n              @click=\"", "\"\n            >\n              <img\n                src=\"./images/GD-Tag.svg\"\n                alt=\"graphic design tag\"\n                class=\"major-svg gd-dvg\"\n              />\n              <!-- https://drive.google.com/file/d/19IOsaCGyRr4ABjmjLPYkV-HZnkUrPTUC/view?usp=sharing -->\n              <div class=\"sign-item\">\n                <h3>Graphic Design</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Cold Meats</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Cheese</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Olives</h3>\n              </div>\n            </div>\n          </div>\n        </section>\n\n        <section class=\"about-us\">\n          <div class=\"left\">\n            <img\n              src=\"https://drive.google.com/uc?export=view&id=1JxGAVQPoi8QiT08CvTJ3HCLaUbvSQoiu\"\n              alt=\"Destore Logo\"\n              class=\"logo-img\"\n            />\n          </div>\n          <div class=\"right\">\n            <h2>What are we?</h2>\n            <p>\n              On the other hand, we denounce with righteous indignation and\n              dislike men who are so beguiled and demoralized by the charms of\n              pleasure of the moment, so blinded by desire, that they cannot\n              foresee the pain and trouble that are bound to ensue;<br /><br />and\n              equal blame belongs to those who fail in their duty through\n              weakness of will, which is the same as saying through shrinking\n              from toil and pain. These cases are perfectly simple and easy to\n              distinguish. In a free hour, when our power of choice is\n              untrammelled and when nothing prevents our being able to do what\n              we like best\n            </p>\n            <button class=\"learn\" @click=\"", "\">\n              Learn about us\n            </button>\n          </div>\n        </section>\n\n        <section class=\"reviews\">\n          <div class=\"left\">\n            <h2>What are people saying?</h2>\n          </div>\n\n          <div class=\"right\">\n            <div class=\"quote-one\">\n              <h3 class=\"tutor\">Joel Louie</h3>\n              <h4>Digital Design Major Coordinator</h4>\n              <p>\n                \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed\n                elementum maximus sem non venenatis. In erat turpis, suscipit\n                non libero sed, fermentum interdum nunc. Duis sagittis neque sit\n                amet.\"\n              </p>\n            </div>\n            <div class=\"quote-two\">\n              <h3 class=\"tutor\">Lee Ingram</h3>\n              <h4>Graphic Design Major Coordinator</h4>\n              <p>\n                \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed\n                elementum maximus sem non venenatis. In erat turpis, suscipit\n                non libero sed, fermentum interdum nunc. Duis sagittis neque sit\n                amet.\"\n              </p>\n            </div>\n            <div class=\"quote-three\">\n              <h3 class=\"tutor\">Jonathon Pillai</h3>\n              <h4>Animation & Game Design Major Coordinator</h4>\n              <p>\n                \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed\n                elementum maximus sem non venenatis. In erat turpis, suscipit\n                non libero sed, fermentum interdum nunc. Duis sagittis neque sit\n                amet.\"\n              </p>\n            </div>\n          </div>\n        </section>\n      </div>\n      \n      <footer>\n        <div class=\"footer-content\">\n          <div class=\"destore-col\">\n            <h3>DeStore</h3>\n            <p>\n              Monday - Closed <br />\n              Tuesday \u2013 Saturday: 7:00 am \u2013 3:00 pm <br />\n              Sunday: 9:00 am \u2013 2:00 pm<br />\n              Kent St, Bentley, 6102, Western Australia<br /><br />\n              @destore\n            </p>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-animation-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Animation</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Game Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fruit</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Vegetables</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-digex-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Digital Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Baked Goods</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fresh Bread</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Wraps</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-graphic-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Graphic Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cold Meats</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cheese</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Olives</h3>\n              </div>\n            </div>\n          </div>\n        </div>\n      </footer>\n    "]);
->>>>>>> e5888d001c409d1d6f5ddbf4105a4099b5ecd265
 
   _templateObject = function _templateObject() {
     return data;
@@ -9316,7 +9312,7 @@ var _Utils = _interopRequireDefault(require("../../Utils"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject() {
-  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"About page\"></va-app-header>\n      <div class=\"page-content\">\n        <section class=\"about-banner\">\n        \n          <div class=\"about-landing\">\n            <h1>About Us</h1>\n            <p>\n            Join us at the DeStore Deli for the 2021 Curtin Grad Show!   \n            Featuring employees from Animation & Game Design, Creative Advertising\n            & Graphic Design and Digital Design, we're sure to serve up with best dishes and designs!<br /><br/>\n\n            Of course, none of this would have been possible without the support of friends, families\n            and the Graduates Staff Committee, so this ones for you - here's the culmination of all \n            hardwork and tears over the past couple years.\n            </p>\n          </div>\n\n          <img src=\"https://drive.google.com/uc?export=view&id=1JxGAVQPoi8QiT08CvTJ3HCLaUbvSQoiu\" class=\"about-img\" />\n        </section>\n\n        <div class=\"values-logo\">\n          <div class=\"about-logo\"></div>\n          <h1>Our Values</h1>\n        </div>\n\n        <div class=\"values\">\n          <div class=\"value-1\">\n            <h4>Inclusivity</h4>\n            <p>\n              Providing equal access and opportunities to all members\n              of the Grad Show, creating a safe space for people to contribute.\n            </p>\n          </div>\n          <div class=\"value-2\">\n            <h4>Innovation</h4>\n            <p>\n              Always producing and designing new ideas, \n              creating advances in innovation and efficiency to\n              be the best that we can be.\n            </p>\n          </div>\n          <div class=\"value-3\">\n            <h4>Creativity</h4>\n            <p>\n             The ability to experiment, to value and learn from mistakes,\n              and build on the experience. \n            </p>\n          </div>\n          <div class=\"value-4\">\n            <h4>Diversity</h4>\n            <p>\n              Recognising and respecting people of all ethnicity, gender,\n              age, race, religion and sexual orientation - and \n              valuing their differences.\n            </p>\n          </div>\n        </div>\n\n        <div class=\"credit-logo\">\n          <div class=\"credits-logo\"></div>\n          <h1>Credits</h1>\n        </div>\n\n        <section class=\"block-100 credit-fill\">\n          <div class=\"credit-block\" id=\"tres\">\n            <h3>Treasury</h3>\n            <ul>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n            </ul>\n          </div>\n          <div class=\"credit-block\">\n            <h3>Animation & Video Production Team</h3>\n            <ul>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n            </ul>\n          </div>\n          <div class=\"credit-block\">\n            <h3>Photography Team</h3>\n            <ul>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n            </ul>\n          </div>\n          <div class=\"credit-block\">\n            <h3>Testing & Quality Team</h3>\n            <ul>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n            </ul>\n          </div>\n          <div class=\"credit-block\">\n            <h3>Website Programmers</h3>\n            <ul>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n            </ul>\n          </div>\n          <div class=\"credit-block\">\n            <h3>Copy Writing Team</h3>\n            <ul>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n            </ul>\n          </div>\n          <div class=\"credit-block\">\n            <h3>Communications & Logistics Team</h3>\n            <ul>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n            </ul>\n          </div>\n          <div class=\"credit-block\">\n            <h3>UI / UX Designers</h3>\n            <ul>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n            </ul>\n          </div>\n          <div class=\"credit-block\">\n            <h3>Social Media</h3>\n            <ul>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n            </ul>\n          </div>\n        </section>\n      </div>\n    \n      \n      <footer>\n        <div class=\"footer-content\">\n          <div class=\"destore-col\">\n            <h3>DeStore</h3>\n            <p>\n              Monday - Closed <br />\n              Tuesday \u2013 Saturday: 7:00 am \u2013 3:00 pm <br />\n              Sunday: 9:00 am \u2013 2:00 pm<br />\n              Kent St, Bentley, 6102, Western Australia<br /><br />\n              @destore\n            </p>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-animation-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Animation</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Game Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fruit</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Vegetables</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-digex-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Digital Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Baked Goods</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fresh Bread</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Wraps</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-graphic-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Graphic Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cold Meats</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cheese</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Olives</h3>\n              </div>\n            </div>\n          </div>\n        </div>\n      </footer>\n    "]);
+  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"About page\"></va-app-header>\n      <div class=\"page-content\">\n        <section class=\"about-banner\">\n        \n          <div class=\"about-landing\">\n            <h1>About Us</h1>\n            <p>\n            Welcome to the DeStore 2021 Curtin Design Graduate Showcase! \n            We have prepared a scrumptious selection of tasty design treats to \n            tantalise your taste buds. This year's Curtin Design grads from Animation & \n            Game Design, Digital Experience & Interaction Design and Graphic Design \n            have served up a refined assortment of design products that feature a diversity \n            of modalities, aesthetics and conceptual/technical approaches.<br/><br/>\n            \n            Are you hankering for a treat that's full-fat and bursting with flavour, \n            or do you want something nutritious yet tasty? Do you have specific preferences \n            or intolerances? Need a custom short-order? Don't worry, our team have got you covered.<br/><br/>\n\n            Our artisan graduates put loving care and attention into every single design that they craft, \n            tailoring them to your unique tastes and requirements. So go on, try a sample by \n            checking out the quality portfolio work showcased by our grads. Freshness guaranteed!\n            </p>\n          </div>\n\n          <img src=\"https://drive.google.com/uc?export=view&id=1JxGAVQPoi8QiT08CvTJ3HCLaUbvSQoiu\" class=\"about-img\" />\n        </section>\n\n        <div class=\"values-logo\">\n          <div class=\"about-logo\"></div>\n          <h1>Our Values</h1>\n        </div>\n\n        <div class=\"values\">\n          <div class=\"value-1\">\n            <h4>Inclusivity</h4>\n            <p>\n              Providing equal access and opportunities to all members\n              of the Grad Show, creating a safe space for people to contribute.\n            </p>\n          </div>\n          <div class=\"value-2\">\n            <h4>Innovation</h4>\n            <p>\n              Always producing and designing new ideas, \n              creating advances in innovation and efficiency to\n              be the best that we can be.\n            </p>\n          </div>\n          <div class=\"value-3\">\n            <h4>Creativity</h4>\n            <p>\n             The ability to experiment, to value and learn from mistakes,\n              and build on the experience. \n            </p>\n          </div>\n          <div class=\"value-4\">\n            <h4>Diversity</h4>\n            <p>\n              Recognising and respecting people of all ethnicity, gender,\n              age, race, religion and sexual orientation - and \n              valuing their differences.\n            </p>\n          </div>\n        </div>\n\n        <div class=\"credit-logo\">\n          <div class=\"credits-logo\"></div>\n          <h1>Credits</h1>\n        </div>\n\n        <section class=\"block-100 credit-fill\">\n          <div class=\"credit-block\" id=\"tres\">\n            <h3>Treasury</h3>\n            <ul>\n              <li>Ella Edwards</li>\n              <li>Lachlan Robertson</li>\n            </ul>\n          </div>\n\n          <div class=\"credit-block\">\n            <h3>Testing & Quality Team</h3>\n            <ul>\n              <li>Nina Dakin</li>\n              <li>Daffa Rizkiadi</li>\n              <li>Julian Osborn</li>\n              <li>Lucas Vieira</li>\n              <li>Shi Ning Wang</li>\n              <li>Alexandra McGee</li>\n              <li>Sylvia Chen</li>\n              <li>Eden Leicester</li>\n              <li>Michelle Thomas</li>\n              <li>Lachlan Robertson</li>\n              <li>Jekko Cabral</li>\n              <li>Sophie Till</li>\n            </ul>\n          </div>\n\n          <div class=\"credit-block\">\n            <h3>Animation & Video Production Team</h3>\n            <ul>\n              <li>Sylvia Chen</li>\n              <li>Michelle Thomas</li>\n              <li>Sophie Till</li>\n              <li>Dana Knowles</li>\n              <li>Eden Leicester</li>\n              <li>Alex Bertilone</li>\n              <li>Nina Dakin</li>\n              <li>Ella Matthews</li>\n              <li>Joshua Michell</li>\n              <li>Daffa Rizkiadi</li>\n              <li>Lachlan Robertson</li>\n              <li>Jekko Cabral</li>\n              <li>Yaeram Kim</li>\n            </ul>\n          </div>\n\n          <div class=\"credit-block\">\n            <h3>Photography Team</h3>\n            <ul>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n            </ul>\n          </div>\n          \n          <div class=\"credit-block\">\n            <h3>Website Programmers</h3>\n            <ul>\n              <li>Emily Lowry</li>\n              <li>Joaquin Atizado</li>\n              <li>Michael D'Costa</li>\n              <li>Julian Osborn</li>\n              <li>Shi Ning Wang</li>\n              <li>Ruitan Huang</li>\n              <li>Tian Hock Yan</li>\n              <li>Lucas Vieira</li>\n              <li>Brandon Watson</li>\n              <li>Jet Trijo</li>\n            </ul>\n          </div>\n\n          <div class=\"credit-block\">\n            <h3>Communications & Logistics Team</h3>\n            <ul>\n              <li>Joshua Michell</li>\n              <li>Dana Knowles</li>\n              <li>Tian Hock Yan</li>\n              <li>Michael D'Costa</li>\n              <li>Ella Edwards</li>\n              <li>Ruitan Huang</li>\n              <li>Jet Trijo</li>\n              <li>Yaeram Kim</li>\n              <li>Emily Harding</li>\n              <li>Joaquin Atizado</li>\n            </ul>\n          </div>\n          <div class=\"credit-block\">\n            <h3>UI / UX Designers</h3>\n            <ul>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n            </ul>\n          </div>\n          <div class=\"credit-block\">\n            <h3>Social Media</h3>\n            <ul>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n              <li>Name LastName</li>\n            </ul>\n          </div>\n        </section>\n      </div>\n    \n      \n      <footer>\n        <div class=\"footer-content\">\n          <div class=\"destore-col\">\n            <h3>DeStore</h3>\n            <p>\n              Monday - Closed <br />\n              Tuesday \u2013 Saturday: 7:00 am \u2013 3:00 pm <br />\n              Sunday: 9:00 am \u2013 2:00 pm<br />\n              Kent St, Bentley, 6102, Western Australia<br /><br />\n              @destore\n            </p>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-animation-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Animation</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Game Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fruit</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Vegetables</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-digex-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Digital Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Baked Goods</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fresh Bread</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Wraps</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-graphic-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Graphic Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cold Meats</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cheese</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Olives</h3>\n              </div>\n            </div>\n          </div>\n        </div>\n      </footer>\n    "]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -9848,7 +9844,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"Shop\"></va-app-header>\n      <div class=\"page-content\">\n        <!-- title -->\n        <h2>Graduates.</h2>\n\n        <!-- SHOWREEL CONTAINER ---------------------------------->\n        <section class=\"block-100 height-1 showreel-container\">\n          <h1>showreel container</h1>\n          <!-- This is where we will display a couple of the students best works. -->\n        </section>\n\n        <!-- FILTER DROPDOWN / SEARCH BAR ---------------------------------->\n        <section class=\"search-and-filter-container\">\n          <!-- search bar -->\n          <div class=\"search-input-container\">\n            <input\n              class=\"search-input\"\n              id=\"search-input\"\n              type=\"search\"\n              placeholder=\"Search\"\n              @keyup=", "\n              @keydown=", "\n            />\n            <i class=\"fas fa-search\"></i>\n          </div>\n\n          <!-- search filters -->\n          <label class=\"dropdown\">\n            <div class=\"dd-button\">Filter</div>\n            <input type=\"checkbox\" class=\"dd-input\" id=\"test\" />\n            <ul class=\"dd-menu\">\n              <li size=\"small\" @click=", ">\n                All Employees\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                data-match=\"animation-and-game-design\"\n                @click=", "\n              >\n                Animation & Game Design\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                data-match=\"graphic-design\"\n                @click=", "\n              >\n                Graphic Design\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                data-match=\"digital-design\"\n                @click=", "\n              >\n                Digital Design\n              </li>\n            </ul>\n          </label>\n        </section>\n\n        <!-- ALL STUDENTS ---------------------------------->\n        <section class=\"all-graduates-container\">\n          <!-- graduate component -->\n          <div class=\"graduate-grid\">\n            ", "\n          </div>\n          <!-- /component -->\n        </section>\n\n        <!-- FOOTER ---------------------------------->\n        <footer>\n        <div class=\"footer-content\">\n          <div class=\"destore-col\">\n            <h3>DeStore</h3>\n            <p>\n              Monday - Closed <br />\n              Tuesday \u2013 Saturday: 7:00 am \u2013 3:00 pm <br />\n              Sunday: 9:00 am \u2013 2:00 pm<br />\n              Kent St, Bentley, 6102, Western Australia<br /><br />\n              @destore\n            </p>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-animation-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Animation</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Game Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fruit</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Vegetables</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-digex-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Digital Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Baked Goods</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fresh Bread</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Wraps</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-graphic-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Graphic Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cold Meats</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cheese</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Olives</h3>\n              </div>\n            </div>\n          </div>\n        </div>\n      </footer>\n      </div>\n    "]);
+  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"Shop\"></va-app-header>\n      <div class=\"page-content\">\n        <!-- title -->\n        \n        <h1>ALL GRADUATES</h1>\n\n        <!-- FILTER DROPDOWN / SEARCH BAR ---------------------------------->\n        <section class=\"search-and-filter-container\">\n          <!-- search bar -->\n          <div class=\"search-input-container\">\n            <input\n              class=\"search-input\"\n              id=\"search-input\"\n              type=\"search\"\n              placeholder=\"Search\"\n              @keyup=", "\n              @keydown=", "\n            />\n            <i class=\"fas fa-search\"></i>\n          </div>\n\n          <!-- search filters -->\n          <label class=\"dropdown\">\n            <div class=\"dd-button\">Filter</div>\n            <input type=\"checkbox\" class=\"dd-input\" id=\"test\" />\n            <ul class=\"dd-menu\">\n              <li size=\"small\" @click=", ">\n                All Employees\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                data-match=\"animation-and-game-design\"\n                @click=", "\n              >\n                Animation & Game Design\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                data-match=\"graphic-design\"\n                @click=", "\n              >\n                Graphic Design\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                data-match=\"digital-design\"\n                @click=", "\n              >\n                Digital Design\n              </li>\n            </ul>\n          </label>\n        </section>\n\n        <!-- ALL STUDENTS ---------------------------------->\n        <section class=\"all-graduates-container\">\n          <!-- graduate component -->\n          <div class=\"graduate-grid\">\n            ", "\n          </div>\n          <!-- /component -->\n        </section>\n      </div>\n\n      <!-- FOOTER ---------------------------------->\n      <footer>\n        <div class=\"footer-content\">\n          <div class=\"destore-col\">\n            <h3>DeStore</h3>\n            <p>\n              Monday - Closed <br />\n              Tuesday \u2013 Saturday: 7:00 am \u2013 3:00 pm <br />\n              Sunday: 9:00 am \u2013 2:00 pm<br />\n              Kent St, Bentley, 6102, Western Australia<br /><br />\n              @destore\n            </p>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-animation-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Animation</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Game Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fruit</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Vegetables</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-digex-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Digital Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Baked Goods</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fresh Bread</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Wraps</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-graphic-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Graphic Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cold Meats</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cheese</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Olives</h3>\n              </div>\n            </div>\n          </div>\n        </div>\n      </footer>\n    "]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -10028,7 +10024,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"Shop\"></va-app-header>\n      <div class=\"page-content\">\n        <!-- title -->\n        <h2>Graduates.</h2>\n\n        <!-- SHOWREEL CONTAINER ---------------------------------->\n        <section class=\"block-100 height-1 showreel-container\">\n          <h1>showreel container</h1>\n          <!-- This is where we will display a couple of the students best works. -->\n        </section>\n\n        <!-- FILTER DROPDOWN / SEARCH BAR ---------------------------------->\n        <section class=\"search-and-filter-container\">\n          <!-- search bar -->\n          <div class=\"search-input-container\">\n            <input\n              class=\"search-input\"\n              id=\"search-input\"\n              type=\"search\"\n              placeholder=\"Search\"\n              @keyup=", "\n              @keydown=", "\n            />\n            <i class=\"fas fa-search\"></i>\n          </div>\n\n          <!-- search filters -->\n          <label class=\"dropdown\">\n            <div class=\"dd-button\">Filter</div>\n            <input type=\"checkbox\" class=\"dd-input\" id=\"test\" />\n            <ul class=\"dd-menu\">\n              <li size=\"small\" @click=", ">\n                All Employees\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                size=\"small\"\n                data-field=\"major\"\n                data-match=\"animation-and-game-design\"\n                @click=", "\n              >\n                Animation & Game Design\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                size=\"small\"\n                data-field=\"major\"\n                data-match=\"graphic-design\"\n                @click=", "\n              >\n                Graphic Design\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                size=\"small\"\n                data-field=\"major\"\n                data-match=\"digital-design\"\n                @click=", "\n              >\n                Digital Design\n              </li>\n            </ul>\n          </label>\n        </section>\n\n        <!-- ALL STUDENTS ---------------------------------->\n        <section class=\"all-graduates-container\">\n          <!-- graduate component -->\n          <div class=\"graduate-grid\">\n            ", "\n          </div>\n          <!-- /component -->\n        </section>\n\n        <!-- FOOTER ---------------------------------->\n        <footer>\n        <div class=\"footer-content\">\n          <div class=\"destore-col\">\n            <h3>DeStore</h3>\n            <p>\n              Monday - Closed <br />\n              Tuesday \u2013 Saturday: 7:00 am \u2013 3:00 pm <br />\n              Sunday: 9:00 am \u2013 2:00 pm<br />\n              Kent St, Bentley, 6102, Western Australia<br /><br />\n              @destore\n            </p>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-animation-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Animation</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Game Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fruit</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Vegetables</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-digex-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Digital Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Baked Goods</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fresh Bread</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Wraps</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-graphic-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Graphic Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cold Meats</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cheese</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Olives</h3>\n              </div>\n            </div>\n          </div>\n        </div>\n      </footer>\n      </div>\n    "]);
+  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"Shop\"></va-app-header>\n      <div class=\"page-content\">\n        <!-- title -->\n\n        <h1>Digital Design Graduates</h1>\n\n        <!-- FILTER DROPDOWN / SEARCH BAR ---------------------------------->\n        <section class=\"search-and-filter-container\">\n          <!-- search bar -->\n          <div class=\"search-input-container\">\n            <input\n              class=\"search-input\"\n              id=\"search-input\"\n              type=\"search\"\n              placeholder=\"Search\"\n              @keyup=", "\n              @keydown=", "\n            />\n            <i class=\"fas fa-search\"></i>\n          </div>\n\n          <!-- search filters -->\n          <label class=\"dropdown\">\n            <div class=\"dd-button\">Filter</div>\n            <input type=\"checkbox\" class=\"dd-input\" id=\"test\" />\n            <ul class=\"dd-menu\">\n              <li size=\"small\" @click=", ">\n                All Employees\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                size=\"small\"\n                data-field=\"major\"\n                data-match=\"animation-and-game-design\"\n                @click=", "\n              >\n                Animation & Game Design\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                size=\"small\"\n                data-field=\"major\"\n                data-match=\"graphic-design\"\n                @click=", "\n              >\n                Graphic Design\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                size=\"small\"\n                data-field=\"major\"\n                data-match=\"digital-design\"\n                @click=", "\n              >\n                Digital Design\n              </li>\n            </ul>\n          </label>\n        </section>\n\n        <!-- ALL STUDENTS ---------------------------------->\n        <section class=\"all-graduates-container\">\n          <!-- graduate component -->\n          <div class=\"graduate-grid\">\n            ", "\n          </div>\n          <!-- /component -->\n        </section>\n      </div>\n        <!-- FOOTER ---------------------------------->\n        <footer>\n        <div class=\"footer-content\">\n          <div class=\"destore-col\">\n            <h3>DeStore</h3>\n            <p>\n              Monday - Closed <br />\n              Tuesday \u2013 Saturday: 7:00 am \u2013 3:00 pm <br />\n              Sunday: 9:00 am \u2013 2:00 pm<br />\n              Kent St, Bentley, 6102, Western Australia<br /><br />\n              @destore\n            </p>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-animation-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Animation</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Game Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fruit</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Vegetables</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-digex-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Digital Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Baked Goods</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fresh Bread</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Wraps</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-graphic-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Graphic Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cold Meats</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cheese</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Olives</h3>\n              </div>\n            </div>\n          </div>\n        </div>\n      </footer>\n    "]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -10194,7 +10190,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"Shop\"></va-app-header>\n      <div class=\"page-content\">\n        <!-- title -->\n        <h2>Graduates.</h2>\n\n        <!-- SHOWREEL CONTAINER ---------------------------------->\n        <section class=\"block-100 height-1 showreel-container\">\n          <h1>showreel container</h1>\n          <!-- This is where we will display a couple of the students best works. -->\n        </section>\n\n        <!-- FILTER DROPDOWN / SEARCH BAR ---------------------------------->\n        <section class=\"search-and-filter-container\">\n          <!-- search bar -->\n          <div class=\"search-input-container\">\n            <input\n              class=\"search-input\"\n              id=\"search-input\"\n              type=\"search\"\n              placeholder=\"Search\"\n              @keyup=", "\n              @keydown=", "\n            />\n            <i class=\"fas fa-search\"></i>\n          </div>\n\n          <!-- search filters -->\n          <label class=\"dropdown\">\n            <div class=\"dd-button\">Filter</div>\n            <input type=\"checkbox\" class=\"dd-input\" id=\"test\" />\n            <ul class=\"dd-menu\">\n              <li size=\"small\" @click=", ">\n                All Employees\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                size=\"small\"\n                data-field=\"major\"\n                data-match=\"animation-and-game-design\"\n                @click=", "\n              >\n                Animation & Game Design\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                size=\"small\"\n                data-field=\"major\"\n                data-match=\"graphic-design\"\n                @click=", "\n              >\n                Graphic Design\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                size=\"small\"\n                data-field=\"major\"\n                data-match=\"digital-design\"\n                @click=", "\n              >\n                Digital Design\n              </li>\n            </ul>\n          </label>\n        </section>\n\n        <!-- ALL STUDENTS ---------------------------------->\n        <section class=\"all-graduates-container\">\n          <!-- graduate component -->\n          <div class=\"graduate-grid\">\n            ", "\n          </div>\n          <!-- /component -->\n        </section>\n\n        <!-- FOOTER ---------------------------------->\n        <footer>\n          <div class=\"footer-content\">\n            <div class=\"footer-col\">\n              <h3>DeStore</h3>\n              <p>\n                Monday \u2013 Saturday: 8:00 am \u2013 4:00pm <br />\n                Sunday: 9:00 am \u2013 5:00pm<br />\n                Kent St, Bentley, 6102, Western Australia<br /><br />\n                @destore\n              </p>\n            </div>\n            <div class=\"footer-col\">\n              <h3>Quick Links</h3>\n              <ul>\n                <li>Home</li>\n                <li>Shop</li>\n                <li>About</li>\n                <li>Contact</li>\n              </ul>\n            </div>\n            <div class=\"footer-col\">\n              <h3>Shop</h3>\n              <ul>\n                <li>Fresh Produce</li>\n                <li>Butcher</li>\n                <li>Bakery</li>\n              </ul>\n            </div>\n          </div>\n        </footer>\n      </div>\n    "]);
+  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"Shop\"></va-app-header>\n      <div class=\"page-content\">\n        <!-- title -->\n\n        <h1>Animation And Game Design Graduates</h1>\n\n        <!-- FILTER DROPDOWN / SEARCH BAR ---------------------------------->\n        <section class=\"search-and-filter-container\">\n          <!-- search bar -->\n          <div class=\"search-input-container\">\n            <input\n              class=\"search-input\"\n              id=\"search-input\"\n              type=\"search\"\n              placeholder=\"Search\"\n              @keyup=", "\n              @keydown=", "\n            />\n            <i class=\"fas fa-search\"></i>\n          </div>\n\n          <!-- search filters -->\n          <label class=\"dropdown\">\n            <div class=\"dd-button\">Filter</div>\n            <input type=\"checkbox\" class=\"dd-input\" id=\"test\" />\n            <ul class=\"dd-menu\">\n              <li size=\"small\" @click=", ">\n                All Employees\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                size=\"small\"\n                data-field=\"major\"\n                data-match=\"animation-and-game-design\"\n                @click=", "\n              >\n                Animation & Game Design\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                size=\"small\"\n                data-field=\"major\"\n                data-match=\"graphic-design\"\n                @click=", "\n              >\n                Graphic Design\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                size=\"small\"\n                data-field=\"major\"\n                data-match=\"digital-design\"\n                @click=", "\n              >\n                Digital Design\n              </li>\n            </ul>\n          </label>\n        </section>\n\n        <!-- ALL STUDENTS ---------------------------------->\n        <section class=\"all-graduates-container\">\n          <!-- graduate component -->\n          <div class=\"graduate-grid\">\n            ", "\n          </div>\n          <!-- /component -->\n        </section>\n\n      </div>\n      <footer>\n        <div class=\"footer-content\">\n          <div class=\"destore-col\">\n            <h3>DeStore</h3>\n            <p>\n              Monday - Closed <br />\n              Tuesday \u2013 Saturday: 7:00 am \u2013 3:00 pm <br />\n              Sunday: 9:00 am \u2013 2:00 pm<br />\n              Kent St, Bentley, 6102, Western Australia<br /><br />\n              @destore\n            </p>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-animation-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Animation</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Game Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fruit</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Vegetables</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-digex-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Digital Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Baked Goods</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fresh Bread</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Wraps</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-graphic-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Graphic Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cold Meats</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cheese</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Olives</h3>\n              </div>\n            </div>\n          </div>\n        </div>\n      </footer>\n    "]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -10298,7 +10294,7 @@ class AnimationGraduatesView {
   }
 
   render() {
-    const template = (0, _litHtml.html)(_templateObject(), this.handleSearchKeyup.bind(this), this.backSpaceHandler.bind(this), this.clearFilters.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), _graduateData.Graduates == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), agdGradsArray.map(graduate => (0, _litHtml.html)(_templateObject4(), graduate.firstName, graduate.lastName, graduate.portfolio, graduate.tagLine, graduate.studentNumber))));
+    const template = (0, _litHtml.html)(_templateObject(), this.handleSearchKeyup.bind(this), this.backSpaceHandler.bind(this), this.clearFilters.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), _graduateData.Graduates == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), agdGradsArray.map(graduate => (0, _litHtml.html)(_templateObject4(), graduate.firstName, graduate.lastName, graduate.portfolio, graduate.tagLine, graduate.studentNumber))), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"));
     (0, _litHtml.render)(template, _App.default.rootEl);
   }
 
@@ -10360,7 +10356,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"Shop\"></va-app-header>\n      <div class=\"page-content\">\n        <!-- title -->\n        <h2>Graduates.</h2>\n\n        <!-- SHOWREEL CONTAINER ---------------------------------->\n        <section class=\"block-100 height-1 showreel-container\">\n          <h1>showreel container</h1>\n          <!-- This is where we will display a couple of the students best works. -->\n        </section>\n\n        <!-- FILTER DROPDOWN / SEARCH BAR ---------------------------------->\n        <section class=\"search-and-filter-container\">\n          <!-- search bar -->\n          <div class=\"search-input-container\">\n            <input\n              class=\"search-input\"\n              id=\"search-input\"\n              type=\"search\"\n              placeholder=\"Search\"\n              @keyup=", "\n              @keydown=", "\n            />\n            <i class=\"fas fa-search\"></i>\n          </div>\n\n          <!-- search filters -->\n          <label class=\"dropdown\">\n            <div class=\"dd-button\">Filter</div>\n            <input type=\"checkbox\" class=\"dd-input\" id=\"test\" />\n            <ul class=\"dd-menu\">\n              <li size=\"small\" @click=", ">\n                All Employees\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                size=\"small\"\n                data-field=\"major\"\n                data-match=\"animation-and-game-design\"\n                @click=", "\n              >\n                Animation & Game Design\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                size=\"small\"\n                data-field=\"major\"\n                data-match=\"graphic-design\"\n                @click=", "\n              >\n                Graphic Design\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                size=\"small\"\n                data-field=\"major\"\n                data-match=\"digital-design\"\n                @click=", "\n              >\n                Digital Design\n              </li>\n            </ul>\n          </label>\n        </section>\n\n        <!-- ALL STUDENTS ---------------------------------->\n        <section class=\"all-graduates-container\">\n          <!-- graduate component -->\n          <div class=\"graduate-grid\">\n            ", "\n          </div>\n          <!-- /component -->\n        </section>\n\n        <!-- FOOTER ---------------------------------->\n        <footer>\n          <div class=\"footer-content\">\n            <div class=\"footer-col\">\n              <h3>DeStore</h3>\n              <p>\n                Monday \u2013 Saturday: 8:00 am \u2013 4:00pm <br />\n                Sunday: 9:00 am \u2013 5:00pm<br />\n                Kent St, Bentley, 6102, Western Australia<br /><br />\n                @destore\n              </p>\n            </div>\n            <div class=\"footer-col\">\n              <h3>Quick Links</h3>\n              <ul>\n                <li>Home</li>\n                <li>Shop</li>\n                <li>About</li>\n                <li>Contact</li>\n              </ul>\n            </div>\n            <div class=\"footer-col\">\n              <h3>Shop</h3>\n              <ul>\n                <li>Fresh Produce</li>\n                <li>Butcher</li>\n                <li>Bakery</li>\n              </ul>\n            </div>\n          </div>\n        </footer>\n      </div>\n    "]);
+  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"Shop\"></va-app-header>\n      <div class=\"page-content\">\n        <!-- title -->\n\n        <h1>Graphic Design Graduates</h1>\n\n        <!-- FILTER DROPDOWN / SEARCH BAR ---------------------------------->\n        <section class=\"search-and-filter-container\">\n          <!-- search bar -->\n          <div class=\"search-input-container\">\n            <input\n              class=\"search-input\"\n              id=\"search-input\"\n              type=\"search\"\n              placeholder=\"Search\"\n              @keyup=", "\n              @keydown=", "\n            />\n            <i class=\"fas fa-search\"></i>\n          </div>\n\n          <!-- search filters -->\n          <label class=\"dropdown\">\n            <div class=\"dd-button\">Filter</div>\n            <input type=\"checkbox\" class=\"dd-input\" id=\"test\" />\n            <ul class=\"dd-menu\">\n              <li size=\"small\" @click=", ">\n                All Employees\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                size=\"small\"\n                data-field=\"major\"\n                data-match=\"animation-and-game-design\"\n                @click=", "\n              >\n                Animation & Game Design\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                size=\"small\"\n                data-field=\"major\"\n                data-match=\"graphic-design\"\n                @click=", "\n              >\n                Graphic Design\n              </li>\n              <li class=\"divider\"></li>\n              <li\n                class=\"filter-btn\"\n                size=\"small\"\n                data-field=\"major\"\n                data-match=\"digital-design\"\n                @click=", "\n              >\n                Digital Design\n              </li>\n            </ul>\n          </label>\n        </section>\n\n        <!-- ALL STUDENTS ---------------------------------->\n        <section class=\"all-graduates-container\">\n          <!-- graduate component -->\n          <div class=\"graduate-grid\">\n            ", "\n          </div>\n          <!-- /component -->\n        </section>\n\n      </div>\n      <footer>\n        <div class=\"footer-content\">\n          <div class=\"destore-col\">\n            <h3>DeStore</h3>\n            <p>\n              Monday - Closed <br />\n              Tuesday \u2013 Saturday: 7:00 am \u2013 3:00 pm <br />\n              Sunday: 9:00 am \u2013 2:00 pm<br />\n              Kent St, Bentley, 6102, Western Australia<br /><br />\n              @destore\n            </p>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-animation-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Animation</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Game Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fruit</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Vegetables</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-digex-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Digital Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Baked Goods</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fresh Bread</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Wraps</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-graphic-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Graphic Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cold Meats</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cheese</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Olives</h3>\n              </div>\n            </div>\n          </div>\n        </div>\n      </footer>\n    "]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -10464,7 +10460,7 @@ class GraphicGraduatesView {
   }
 
   render() {
-    const template = (0, _litHtml.html)(_templateObject(), this.handleSearchKeyup.bind(this), this.backSpaceHandler.bind(this), this.clearFilters.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), _graduateData.Graduates == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), graphicGradsArray.map(graduate => (0, _litHtml.html)(_templateObject4(), graduate.firstName, graduate.lastName, graduate.portfolio, graduate.tagLine, graduate.studentNumber))));
+    const template = (0, _litHtml.html)(_templateObject(), this.handleSearchKeyup.bind(this), this.backSpaceHandler.bind(this), this.clearFilters.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), _graduateData.Graduates == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), graphicGradsArray.map(graduate => (0, _litHtml.html)(_templateObject4(), graduate.firstName, graduate.lastName, graduate.portfolio, graduate.tagLine, graduate.studentNumber))), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"));
     (0, _litHtml.render)(template, _App.default.rootEl);
   }
 
@@ -10500,11 +10496,7 @@ var _graduates = _interopRequireDefault(require("./graduates"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject() {
-<<<<<<< HEAD
   const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"View Graduate\"></va-app-header>\n      <div class=\"page-content\">\n        <section class=\"block-50-50\">\n          <div class=\"column\">\n            <div class=\"avatarContainer\">\n              <!-- first graduate avatar image -->\n              <img\n                class=\"avatarStyling avatarImage avatarOne\"\n                src=\"../", "\"\n              />\n              <!-- second graduate avatar image -->\n              <img\n                class=\"avatarStyling avatarImage avatarTwo\"\n                src=\"../", "\"\n              />\n            </div>\n          </div>\n          <div class=\"column paddingLeft\">\n            <h3>", "</h3>\n            <h1>\n              ", "\n              ", "\n            </h1>\n            <p><i>", "</i></p>\n\n            <p class=\"bioStyle\">", "</p>\n\n            <div class=\"socials-wrapper\">\n              <a\n                class=\"secondary\"\n                href=\"", "\"\n                target=\"_blank\"\n              >\n                Portfolio\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-linkedin-in\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-instagram\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-dribbble\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-artstation\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-behance\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-twitter\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-vimeo-v\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-github\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fas fa-tshirt\"></i>\n              </a>\n            </div>\n          </div>\n        </section>\n\n        <!-- WORK ---------------------------------->\n        <section>\n          <h2 class=\"profile\">\n            Some of ", "'s Work\n          </h2>\n          <!-- This is where we will display a couple of the students best works. -->\n          <!-- Maximum number is 6 works -->\n\n          <div id=\"photos\">\n            <img\n              class=\"portfolioItems\"\n              src=\"", "\"\n              alt=\"\"\n            />\n            <img\n              class=\"portfolioItems\"\n              src=\"", "\"\n              alt=\"\"\n            />\n            <img\n              class=\"portfolioItems\"\n              src=\"", "\"\n              alt=\"\"\n            />\n            <img\n              class=\"portfolioItems\"\n              src=\"", "\"\n              alt=\"\"\n            />\n            <img\n              class=\"portfolioItems\"\n              src=\"", "\"\n              alt=\"\"\n            />\n            <img\n              class=\"portfolioItems\"\n              src=\"", "\"\n              alt=\"\"\n            />\n          </div>\n        </section>\n      </div>\n      <footer>\n        <div class=\"footer-content\">\n          <div class=\"destore-col\">\n            <h3>DeStore</h3>\n            <p>\n              Monday - Closed <br />\n              Tuesday \u2013 Saturday: 7:00 am \u2013 3:00 pm <br />\n              Sunday: 9:00 am \u2013 2:00 pm<br />\n              Kent St, Bentley, 6102, Western Australia<br /><br />\n              @destore\n            </p>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-animation-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Animation</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Game Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fruit</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Vegetables</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-digex-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Digital Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Baked Goods</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fresh Bread</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Wraps</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-graphic-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Graphic Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cold Meats</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cheese</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Olives</h3>\n              </div>\n            </div>\n          </div>\n        </div>\n      </footer>\n    "]);
-=======
-  const data = _taggedTemplateLiteral(["\n       <va-app-header title=\"View Graduate\"></va-app-header>\n      <div class=\"page-content\">\n        <section class=\"block-50-50\">\n          <div class=\"column\"> \n            <div class=\"avatarContainer\">\n            <!-- first graduate avatar image -->\n              <img class=\"avatarStyling avatarImage avatarOne\" src=\"../", "\"/> \n             <!-- second graduate avatar image -->\n              <img class=\"avatarStyling avatarImage avatarTwo\" src=\"../", "\"/> \n              </div> \n          </div>\n          <div class=\"column paddingLeft\">\n            <h3>", "</h3>\n            <h1>\n                ", " ", "\n            </h1>\n            <p><i>", "</i></p>\n\n          \n            <p class=\"bioStyle\">", "</p>\n            \n            <div class=\"socials-wrapper\">\n            <a\n              class=\"secondary\" \n              href=\"", "\"\n              target=\"_blank\"\n            >\n              Portfolio\n            </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-linkedin-in\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-instagram\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-dribbble\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-artstation\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-behance\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-twitter\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-vimeo-v\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fab fa-github\"></i>\n              </a>\n              <a\n                class=\"icon\"\n                href=\"", "\"\n                target=\"_blank\"\n                class=\"secondary\"\n              >\n                <i class=\"fas fa-tshirt\"></i>\n              </a>\n            </div>\n          </div>\n        </section>\n\n             <!-- WORK ---------------------------------->\n             <section>\n          <h2>Some of ", "'s Work</h2>\n            <!-- This is where we will display a couple of the students best works. -->\n            <!-- Maximum number is 6 works -->\n\n            <div id=\"photos\">\n            <img class=\"portfolioItems\" src=\"", "\" alt=\"\">\n            <img class=\"portfolioItems\" src=\"", "\" alt=\"\">\n            <img class=\"portfolioItems\" src=\"", "\" alt=\"\">\n            <img class=\"portfolioItems\" src=\"", "\" alt=\"\">\n            <img class=\"portfolioItems\" src=\"", "\" alt=\"\">\n            <img class=\"portfolioItems\" src=\"", "\" alt=\"\">\n          </div>\n        </section>\n      </div>\n      <va-app-footer></va-app-footer>\n    "]);
->>>>>>> e5888d001c409d1d6f5ddbf4105a4099b5ecd265
 
   _templateObject = function _templateObject() {
     return data;
@@ -10534,7 +10526,7 @@ class specificProfile {
     window.scroll({
       top: 0,
       left: 0,
-      behavior: 'smooth'
+      behavior: "smooth"
     });
   }
 
@@ -12203,9 +12195,9 @@ const routes = {
   // to view individual graduates
   "/graduates": _graduates.default,
   // to view all graduates
-  "/graduates/digitaldesign": _digitalGraduates.default,
-  "/graduates/graphicdesign": _graphicGraduates.default,
-  "/graduates/animationgamedesign": _animationGraduates.default,
+  "/graduates%digitaldesign": _digitalGraduates.default,
+  "/graduates%graphicdesign": _graphicGraduates.default,
+  "/graduates%animationgamedesign": _animationGraduates.default,
   '/graduate': _specificProfile.default,
   "/graduates/19760513": _2.default,
   "/comingsoon": _comingSoon.default
@@ -14128,7 +14120,7 @@ customElements.define("va-app-header", class AppHeader extends _litElement.LitEl
   }
 
   render() {
-    return (0, _litElement.html)(_templateObject(), this.hamburgerClick, () => (0, _Router.gotoRoute)("/"), () => (0, _Router.gotoRoute)("/"), () => (0, _Router.gotoRoute)("/"), e => e.preventDefault(), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates/animationgamedesign"), () => (0, _Router.gotoRoute)("/graduates/digitaldesign"), () => (0, _Router.gotoRoute)("/graduates/graphicdesign"), () => (0, _Router.gotoRoute)("/about"), this.menuClick, this.menuClick, this.menuClick);
+    return (0, _litElement.html)(_templateObject(), this.hamburgerClick, () => (0, _Router.gotoRoute)("/"), () => (0, _Router.gotoRoute)("/"), () => (0, _Router.gotoRoute)("/"), e => e.preventDefault(), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates%animationgamedesign"), () => (0, _Router.gotoRoute)("/graduates%digitaldesign"), () => (0, _Router.gotoRoute)("/graduates%graphicdesign"), () => (0, _Router.gotoRoute)("/about"), this.menuClick, this.menuClick, this.menuClick);
   }
 
 });
@@ -14206,7 +14198,7 @@ function _templateObject3() {
 }
 
 function _templateObject2() {
-  const data = _taggedTemplateLiteral(["\n        <button\n          class=\"view-employee-button\"\n          @click=\"", "\"\n          \n        >\n        Portfolio\n        </button>\n      "]);
+  const data = _taggedTemplateLiteral(["\n        <button\n          class=\"view-employee-button\"\n          @click=\"", "\"\n        >\n        Portfolio\n        </button>\n      "]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -14267,7 +14259,7 @@ customElements.define("va-graduates", class Graduate extends _litElement.LitElem
 
 
   portfolioHandler() {
-    return (0, _litElement.html)(_templateObject2(), () => location.href = this.portfolio);
+    return (0, _litElement.html)(_templateObject2(), () => window.open(this.portfolio, '_blank').focus());
   }
 
   render() {
@@ -14395,11 +14387,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-<<<<<<< HEAD
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65029" + '/');
-=======
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58784" + '/');
->>>>>>> e5888d001c409d1d6f5ddbf4105a4099b5ecd265
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50351" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
