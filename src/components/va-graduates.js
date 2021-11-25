@@ -45,8 +45,7 @@ customElements.define(
       return(html`
         <button
           class="view-employee-button"
-          @click="${() => location.href= this.portfolio }"
-          
+          @click="${() => window.open(this.portfolio, '_blank').focus() }"
         >
         Portfolio
         </button>
