@@ -115,7 +115,14 @@ class AllGraduates {
       <va-app-header title="Shop"></va-app-header>
       <div class="page-content">
         <!-- title -->
+<<<<<<< HEAD
+        <h2>Graduates.</h2>
+
+        <h1>ALL GRADUATES</h1>
+
+=======
         <h2>All Graduates</h2>
+>>>>>>> d332db9300b6063e83585be368b2e9c4943a1ab5
         <!-- FILTER DROPDOWN / SEARCH BAR ---------------------------------->
         <section class="search-and-filter-container">
           <!-- search bar -->
