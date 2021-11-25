@@ -11,7 +11,7 @@ var agdGradsArray = Graduates.filter(function (grad) {
 
 class AnimationGraduatesView {
   init() {
-    document.title = "Shop";
+    document.title = "AGD Grads";
     this.Graduates = Graduates;
     Utils.shuffle(agdGradsArray);
     this.render();
@@ -182,6 +182,10 @@ class AnimationGraduatesView {
                     (graduate) => html`
                       <va-graduates
                         class="graduate-card"
+                        avatarTwo="${graduate.avatarTwo}"
+                        avatarOne="${graduate.avatarOne}"
+                        avatarOneHQ="${graduate.avatarOneHQ}"
+                        avatarTwoHQ="${graduate.avatarTwoHQ}"
                         firstName="${graduate.firstName}"
                         lastName="${graduate.lastName}"
                         portfolio="${graduate.portfolio}"

@@ -10190,7 +10190,7 @@ var _Toast = _interopRequireDefault(require("../../Toast"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject4() {
-  const data = _taggedTemplateLiteral(["\n                      <va-graduates\n                        class=\"graduate-card\"\n                        firstName=\"", "\"\n                        lastName=\"", "\"\n                        portfolio=\"", "\"\n                        tagLine=\"", "\"\n                        studentNumber=", "\n                      >\n                      </va-graduates>\n                    "]);
+  const data = _taggedTemplateLiteral(["\n                      <va-graduates\n                        class=\"graduate-card\"\n                        avatarTwo=\"", "\"\n                        avatarOne=\"", "\"\n                        avatarOneHQ=\"", "\"\n                        avatarTwoHQ=\"", "\"\n                        firstName=\"", "\"\n                        lastName=\"", "\"\n                        portfolio=\"", "\"\n                        tagLine=\"", "\"\n                        studentNumber=", "\n                      >\n                      </va-graduates>\n                    "]);
 
   _templateObject4 = function _templateObject4() {
     return data;
@@ -10237,7 +10237,7 @@ var digitalGradsArray = _graduateData.Graduates.filter(function (grad) {
 
 class DigitalGraduatesView {
   init() {
-    document.title = "Shop";
+    document.title = "Digital Grads";
     this.Graduates = _graduateData.Graduates;
 
     _Utils.default.shuffle(digitalGradsArray);
@@ -10324,7 +10324,7 @@ class DigitalGraduatesView {
   }
 
   render() {
-    const template = (0, _litHtml.html)(_templateObject(), this.handleSearchKeyup.bind(this), this.backSpaceHandler.bind(this), this.clearFilters.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), _graduateData.Graduates == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), digitalGradsArray.map(graduate => (0, _litHtml.html)(_templateObject4(), graduate.firstName, graduate.lastName, graduate.portfolio, graduate.tagLine, graduate.studentNumber))), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"));
+    const template = (0, _litHtml.html)(_templateObject(), this.handleSearchKeyup.bind(this), this.backSpaceHandler.bind(this), this.clearFilters.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), _graduateData.Graduates == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), digitalGradsArray.map(graduate => (0, _litHtml.html)(_templateObject4(), graduate.avatarTwo, graduate.avatarOne, graduate.avatarOneHQ, graduate.avatarTwoHQ, graduate.firstName, graduate.lastName, graduate.portfolio, graduate.tagLine, graduate.studentNumber))), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"));
     (0, _litHtml.render)(template, _App.default.rootEl);
   }
 
@@ -10356,7 +10356,7 @@ var _Toast = _interopRequireDefault(require("../../Toast"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject4() {
-  const data = _taggedTemplateLiteral(["\n                      <va-graduates\n                        class=\"graduate-card\"\n                        firstName=\"", "\"\n                        lastName=\"", "\"\n                        portfolio=\"", "\"\n                        tagLine=\"", "\"\n                        studentNumber=", "\n                      >\n                      </va-graduates>\n                    "]);
+  const data = _taggedTemplateLiteral(["\n                      <va-graduates\n                        class=\"graduate-card\"\n                        avatarTwo=\"", "\"\n                        avatarOne=\"", "\"\n                        avatarOneHQ=\"", "\"\n                        avatarTwoHQ=\"", "\"\n                        firstName=\"", "\"\n                        lastName=\"", "\"\n                        portfolio=\"", "\"\n                        tagLine=\"", "\"\n                        studentNumber=", "\n                      >\n                      </va-graduates>\n                    "]);
 
   _templateObject4 = function _templateObject4() {
     return data;
@@ -10403,7 +10403,7 @@ var agdGradsArray = _graduateData.Graduates.filter(function (grad) {
 
 class AnimationGraduatesView {
   init() {
-    document.title = "Shop";
+    document.title = "AGD Grads";
     this.Graduates = _graduateData.Graduates;
 
     _Utils.default.shuffle(agdGradsArray);
@@ -10490,7 +10490,7 @@ class AnimationGraduatesView {
   }
 
   render() {
-    const template = (0, _litHtml.html)(_templateObject(), this.handleSearchKeyup.bind(this), this.backSpaceHandler.bind(this), this.clearFilters.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), _graduateData.Graduates == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), agdGradsArray.map(graduate => (0, _litHtml.html)(_templateObject4(), graduate.firstName, graduate.lastName, graduate.portfolio, graduate.tagLine, graduate.studentNumber))), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"));
+    const template = (0, _litHtml.html)(_templateObject(), this.handleSearchKeyup.bind(this), this.backSpaceHandler.bind(this), this.clearFilters.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), _graduateData.Graduates == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), agdGradsArray.map(graduate => (0, _litHtml.html)(_templateObject4(), graduate.avatarTwo, graduate.avatarOne, graduate.avatarOneHQ, graduate.avatarTwoHQ, graduate.firstName, graduate.lastName, graduate.portfolio, graduate.tagLine, graduate.studentNumber))), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"));
     (0, _litHtml.render)(template, _App.default.rootEl);
   }
 
@@ -10522,7 +10522,7 @@ var _Toast = _interopRequireDefault(require("../../Toast"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject4() {
-  const data = _taggedTemplateLiteral(["\n                      <va-graduates\n                        class=\"graduate-card\"\n                        firstName=\"", "\"\n                        lastName=\"", "\"\n                        portfolio=\"", "\"\n                        tagLine=\"", "\"\n                        studentNumber=", "\n                      >\n                      </va-graduates>\n                    "]);
+  const data = _taggedTemplateLiteral(["\n                      <va-graduates\n                        class=\"graduate-card\"\n                        avatarTwo=\"", "\"\n                        avatarOne=\"", "\"\n                        avatarOneHQ=\"", "\"\n                        avatarTwoHQ=\"", "\"\n                        firstName=\"", "\"\n                        lastName=\"", "\"\n                        portfolio=\"", "\"\n                        tagLine=\"", "\"\n                        studentNumber=", "\n                      >\n                      </va-graduates>\n                    "]);
 
   _templateObject4 = function _templateObject4() {
     return data;
@@ -10569,7 +10569,7 @@ var graphicGradsArray = _graduateData.Graduates.filter(function (grad) {
 
 class GraphicGraduatesView {
   init() {
-    document.title = "Shop";
+    document.title = "Graphic Grads";
     this.Graduates = _graduateData.Graduates;
 
     _Utils.default.shuffle(graphicGradsArray);
@@ -10656,7 +10656,7 @@ class GraphicGraduatesView {
   }
 
   render() {
-    const template = (0, _litHtml.html)(_templateObject(), this.handleSearchKeyup.bind(this), this.backSpaceHandler.bind(this), this.clearFilters.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), _graduateData.Graduates == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), graphicGradsArray.map(graduate => (0, _litHtml.html)(_templateObject4(), graduate.firstName, graduate.lastName, graduate.portfolio, graduate.tagLine, graduate.studentNumber))), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"));
+    const template = (0, _litHtml.html)(_templateObject(), this.handleSearchKeyup.bind(this), this.backSpaceHandler.bind(this), this.clearFilters.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), this.handleFilterBtn.bind(this), _graduateData.Graduates == null ? (0, _litHtml.html)(_templateObject2()) : (0, _litHtml.html)(_templateObject3(), graphicGradsArray.map(graduate => (0, _litHtml.html)(_templateObject4(), graduate.avatarTwo, graduate.avatarOne, graduate.avatarOneHQ, graduate.avatarTwoHQ, graduate.firstName, graduate.lastName, graduate.portfolio, graduate.tagLine, graduate.studentNumber))), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"));
     (0, _litHtml.render)(template, _App.default.rootEl);
   }
 
@@ -10714,14 +10714,16 @@ class specificProfile {
 
     _Utils.default.pageIntroAnim();
 
-    this.handleScrollTop();
     await this.getGraduate();
+    this.handleScrollTop();
   }
 
-  handleScrollTop() {
+  async handleScrollTop() {
+    let ele = await document.querySelectorAll(".block-50-50");
+    let toTop = ele[0].clientTop;
+    console.log(toTop);
     window.scroll({
-      top: 0,
-      left: 0,
+      top: toTop,
       behavior: "smooth"
     });
   }

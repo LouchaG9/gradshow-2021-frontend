@@ -11,7 +11,7 @@ var digitalGradsArray = Graduates.filter(function (grad) {
 
 class DigitalGraduatesView {
   init() {
-    document.title = "Shop";
+    document.title = "Digital Grads";
     this.Graduates = Graduates;
     Utils.shuffle(digitalGradsArray);
     this.render();
@@ -182,6 +182,10 @@ class DigitalGraduatesView {
                     (graduate) => html`
                       <va-graduates
                         class="graduate-card"
+                        avatarTwo="${graduate.avatarTwo}"
+                        avatarOne="${graduate.avatarOne}"
+                        avatarOneHQ="${graduate.avatarOneHQ}"
+                        avatarTwoHQ="${graduate.avatarTwoHQ}"
                         firstName="${graduate.firstName}"
                         lastName="${graduate.lastName}"
                         portfolio="${graduate.portfolio}"
