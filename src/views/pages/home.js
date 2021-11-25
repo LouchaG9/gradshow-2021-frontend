@@ -18,12 +18,21 @@ class HomeView {
     document.title = "Home";
     this.render();
     this.pageIntroAnim2();
+    
   }
 
+
+
   pageIntroAnim2(){
-    gsap.fromTo(".subheading", {x: -1000, opacity: 0}, {x: 0, opacity: 1, ease: "power2.out", duration: 1});
-    gsap.from(".shop-graduates-btn", {x: -2000, opacity: 0}, {x: 0, opacity: 1, ease: "power2.out", duration: 1});
+    gsap.from(".subheading", {x: -1000, opacity: 0}, {x: 0, opacity: 1, duration: 1})
+    gsap.from(".animation-column", {y: -600, opacity: 0}, {x: 0, opacity: 1, duration: 3},"-=1")
+    gsap.from(".digex-column", {y: -400, opacity: 0}, {x: 0, opacity: 1, duration: 3})
+    gsap.from(".graphic-column", {y: -300, opacity: 0}, {x: 0, opacity: 1, duration: 3},"-=1")
   }
+
+
+
+
 
   render() {
     const template = html`
