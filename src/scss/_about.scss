@@ -8,7 +8,6 @@ footer {
   p {
     font-size: 1rem;
     width: 90%;
-   
   }
 
   img {
@@ -17,10 +16,12 @@ footer {
   }
 }
 
-.about-landing p {
+.about-landing {
   width: 75%;
-  font-size: 1.4em;
-  line-height: 1.5;
+  p {
+    font-size: 1.4em;
+    line-height: 1.5;
+  }
 }
 
 .values-logo {
