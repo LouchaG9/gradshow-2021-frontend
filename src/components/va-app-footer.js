@@ -20,6 +20,7 @@ class AppFooter extends LitElement {
 	 width: 90%;
 	 margin: 0 auto;
 }
+
  footer .footer-content .destore-col {
 	 width: calc(100% / 3);
 	 display: flex;
