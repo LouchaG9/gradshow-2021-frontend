@@ -2023,6 +2023,6 @@ export const Graduates = [
     imageThree: "../images/work/",
     imageFour: "../images/work/",
     imageFive: "../images/work/",
-    imageSix: "../images/work/",
+    imageSix: "../images/work/#",
   },
 ];
