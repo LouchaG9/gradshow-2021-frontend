@@ -111,7 +111,6 @@ class AnimationGraduatesView {
       <va-app-header title="Shop"></va-app-header>
       <div class="page-content">
         <!-- title -->
-        <h2>Graduates.</h2>
 
         <h1>Animation And Game Design Graduates</h1>
 
