@@ -29,6 +29,7 @@ customElements.define(
 
     navActiveLinks() {
       const currentPath = window.location.pathname;
+      console.log(currentPath)
       const navLinks = this.shadowRoot.querySelectorAll(
         ".app-top-nav a, .app-side-menu-items a"
       );
@@ -102,7 +103,23 @@ customElements.define(
           .headerLogo:hover{
             cursor: pointer;
             filter: saturate(1);
-            
+          }
+          
+          .mobileLogoHolder {
+            width: 100%;
+            position:absolute;
+            display: flex;
+            justify-content: flex-end;
+          }
+
+          .mobileHeaderLogo{
+            width: 120px;
+            margin-right: 1.5em;
+          }
+
+          .mobileHeaderLogo:hover{
+            cursor: pointer;
+            filter: saturate(1);
           }
 
           .hamburger-btn::part(base) {
@@ -206,10 +223,15 @@ customElements.define(
             @click="${this.hamburgerClick}"
             style="font-size: 1.5em;"
           ></sl-icon-button>
+          <div class="mobileLogoHolder">
+            <img @click="${() => gotoRoute("/")}" class="mobileHeaderLogo" src="/images/logo.png" />
+          </div> 
 
           <nav class="app-top-nav">
             <div class="links">
-           <a><img   @click="${() => gotoRoute("/")}" class="headerLogo" src="/images/logo.png" /></a> 
+              <a>
+                <img @click="${() => gotoRoute("/")}" class="headerLogo" src="/images/logo.png" />
+              </a> 
               <a class="home-btn" @click="${() => gotoRoute("/")}">Home</a>
               <sl-dropdown>
                 <a
