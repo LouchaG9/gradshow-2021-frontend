@@ -18,7 +18,7 @@ customElements.define(
         studentNumber: {  }, firstName: {  }, lastName: { }, major: {  },
         email: {  }, avatarOne: {  }, tagLine: {  }, bio: {  }, artStation: { }, 
         behance: {  }, dribbble: { }, instagram: {  }, linkedin: { },
-        twitter: {  },  vimeo: {  }, portfolio: { },  avatarTwo: {  },
+        twitter: {  },  vimeo: {  }, portfolio: { },  avatarTwo: {  }, avatarOneHQ: { }, avatarTwoHQ: { },
       };
     }
 
@@ -166,8 +166,8 @@ customElements.define(
         <!-- delete placeholder text when the real data is used -->
    
           <div class="image-container" >  
-          <img loading="eager" class="gradListingAvatar" src="${this.avatarOne}"  onerror="this.src='/images/graduateBags/_DSC1414.jpg';">
-          <img @click="${() => gotoRoute("/graduate?id="+this.studentNumber)}"  loading="eager" class="gradListingAvatarTwo" src="${this.avatarTwo}" onerror="this.src='/images/graduateBags/_DSC1417.jpg';">
+          <img loading="eager" class="gradListingAvatar" src="${this.avatarOneHQ}"  onerror="this.src='/images/graduateBags/_DSC1414.jpg';">
+          <img @click="${() => gotoRoute("/graduate?id="+this.studentNumber)}"  loading="eager" class="gradListingAvatarTwo" src="${this.avatarTwoHQ}" onerror="this.src='/images/graduateBags/_DSC1417.jpg';">
           </div>
  
           <div class="text-container">

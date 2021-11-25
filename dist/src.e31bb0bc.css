@@ -1135,6 +1135,10 @@ sl-dialog::part(title) {
     width: 100%;
   }
 }
+footer {
+  height: fit-content;
+}
+
 .about-banner {
   display: flex;
   margin-top: 8em;
