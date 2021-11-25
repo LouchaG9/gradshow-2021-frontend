@@ -207,7 +207,7 @@ export const Graduates = [
     imageFive:
     "../images/work/Ruitan_Huang_19467322_3 - Ruitan Huang.png",
     imageSix:
-    ""
+    "../images/work/Ruitan_Huang_19467322_6 - Ruitan Huang.png",
   },
   {
     studentNumber: "19168735",
