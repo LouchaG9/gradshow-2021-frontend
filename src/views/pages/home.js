@@ -75,7 +75,6 @@ class HomeView {
                 alt="animation basket"
                 class="major-svg agd-svg"
               />
-              <!-- https://drive.google.com/file/d/1QVrl6Es1xCGPhqVME2kBesXyO9dG8Mz1/view?usp=sharing -->
               <div class="sign-item">
                 <h3>Animation</h3>
               </div>
@@ -120,7 +119,6 @@ class HomeView {
                 alt="graphic design tag"
                 class="major-svg gd-dvg"
               />
-              <!-- https://drive.google.com/file/d/19IOsaCGyRr4ABjmjLPYkV-HZnkUrPTUC/view?usp=sharing -->
               <div class="sign-item">
                 <h3>Graphic Design</h3>
               </div>
@@ -167,7 +165,7 @@ class HomeView {
 
         <section class="reviews">
           <div class="left">
-            <h2>What are people saying?</h2>
+            <h2 class="subheading">What are people saying?</h2>
           </div>
 
           <div class="right">
