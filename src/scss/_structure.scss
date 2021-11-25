@@ -88,6 +88,18 @@
 // This is a pretty rudimentary media query and I am sure that it will need to change but for now it does basically what we need it to.
 
 @media screen and (max-width: 768px) {
+
+  .block-100 {
+    /*  display: flex;
+     flex-flow: row wrap;
+     justify-content: center; */
+   
+  
+ 
+       grid-template-columns: 1fr;
+     
+   }
+
   .height-1,
   .height-2 {
     height: unset;

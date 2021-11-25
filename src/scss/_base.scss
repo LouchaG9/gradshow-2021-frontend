@@ -349,7 +349,17 @@ max-width: 50vw;
 // utils for profile page ------
 // needs to be removed on mobile media queries
 .paddingLeft{
-  padding-left: 5em;
+  padding-left: 0em;
+
+  h3 {
+    font-size: 2em;
+  }
+  h1 {
+    font-size: 4em;
+  }
+  p {
+    font-size: 1.2em;
+  }
 }
 
 @keyframes shimmer {
@@ -617,8 +627,12 @@ hr {
 
 @media screen and (max-width: 500px) {
   .paddingLeft{
-
+    
     margin-top: 95vw;
+
+    h1 {
+      font-size: 2.6em;
+    }
   }
 }
 

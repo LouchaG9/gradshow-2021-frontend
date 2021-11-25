@@ -70,8 +70,13 @@ class AboutView {
           </div>
         </div>
 
+        <div class="credit-logo">
+          <div class="credits-logo"></div>
+          <h1>Credits</h1>
+        </div>
+
         <section class="block-100 credit-fill">
-          <div class="credit-block">
+          <div class="credit-block" id="tres">
             <h3>Treasury</h3>
             <ul>
               <li>Name LastName</li>
@@ -156,15 +161,7 @@ class AboutView {
           </div>
         </section>
       </div>
-      <section class="image-slider">
-        <div class="slick kitten1"></div>
-        <div class="slick kitten2"></div>
-        <div class="slick kitten3"></div>
-        <div class="slick kitten4"></div>
-        <div class="slick kitten5"></div>
-        <div class="slick kitten6"></div>
-        <div class="slick kitten7"></div>
-      </section>
+    
       
       <footer>
         <div class="footer-content">

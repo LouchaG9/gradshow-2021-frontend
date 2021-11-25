@@ -1,6 +1,4 @@
-footer {
-  height: fit-content;
-}
+
 
 .about-banner {
   display: flex;
@@ -64,23 +62,48 @@ h1{
   height: 800px;
 }
 
+.credit-logo {
+  h1 {
+    margin-top: 5vw;
+  
+  }
+}
 .credit-fill {
   background-color: var(--destore-background-pink);
-  padding: 1em;
+  padding: 3em;
 }
 
-
+.block-100.credit-fill {
+  margin-top: 3rem;
+}
 .credit-block {
+
+ul{
+  margin-block-start: 2em;
+  padding-inline-start: 0px;
   li {
     font-size: 1.1em;
+    list-style-type: none;
+    line-height: 1.8;
+    
   }
+}
+  
 
   h3 {
-    font-size: 1.3em;
+    font-size: 1.6em;
+    padding-top: 2em;
+    
   }
 }
 
 @media screen and (max-width: 768px) {
+  .credit-logo {
+    h1 {
+      margin-top: 15vw;
+    
+    }
+  }
   
   .about-banner {
     width: 100%;
@@ -92,7 +115,7 @@ h1{
     }
     img {
       width: 30%;
-      min-width: 130px;
+      min-width: 350px;
       margin-left: auto;
       margin-right: auto;
     }
