@@ -89,8 +89,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/17159355_alt.jpg",
     avatarTwo: "./images/graduateAvatars/17159355_Lrobertson_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/17159355_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/17159355_Lrobertson_main.jpg",
     imageOne:
       "../images/work/Lachlan_Robertson_17159355_1 - Lachlan Robertson.jpg",
     imageTwo:
@@ -124,8 +124,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19760814_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19760814_AMai_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19760814_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19760814_AMai_main.jpg",
     imageOne:
       "../images/work/Anna_Mai_19760814_1 - Anna Mai.jpg",
     imageTwo:
@@ -159,8 +159,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/20037952_alt.jpg",
     avatarTwo: "./images/graduateAvatars/20037952_THYan_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/20037952_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/20037952_THYan_main.jpg",
     imageOne:
     "../images/work/1t - Tian Hock Yan.jpg",
     imageTwo:
@@ -180,8 +180,8 @@ export const Graduates = [
     lastName: "Huang",
     email: "ruitan1520@gmail.com",
     major: "Digital Experience and Interaction Design",
-    bio: "Hi, I'm Ruitan, I'm an upbeat, self- motivated team player with excellent communication skills. I'm based in Perth who loves to design interfaces and tackle the problem to improve user experience. I'm also keen on always learning new skills so I'm always on top of all the trends. I have excellent UI design skills as well as an excellent understanding of user experience design and research.",
-    tagLine: "I'm loving the UX problems",
+    bio: "Hi, I'm Ruitan. I'm an upbeat, self-motivated team player with strong communication skills. I love tackling design problems, and undertaking research to better understand users' needs and pain points. I am passionate  about learning new things and keeping up to date with design trends. ",
+    tagLine: "I love learning new things, and I’m also an avid photographer",
     portfolio: "http://ruitanexpdesign.com",
     linkedin: "https://www.linkedin.com/in/ruitan-huang/",
     instagram: "https://www.instagram.com/ruitan_uidesign/",
@@ -194,8 +194,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19467322_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19467322_RHuang_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19467322_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19467322_RHuang_main.jpg",
     imageOne:
     "../images/work/Ruitan_Huang_19467322_2 - Ruitan Huang.jpg",
     imageTwo:
@@ -230,8 +230,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19168735_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19168735_NCassandra_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19168735_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19168735_NCassandra_main.jpg",
     imageOne:
     "../images/work/Nicole_Torres_19168735_1 - Nicole Cassandra Torres.jpg",
     imageTwo:
@@ -301,8 +301,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19775669_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19775669_PDoick_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19775669_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19775669_PDoick_main.jpg",
     imageOne:
     "../images/work/Paris_Doick_19775669_1 - Paris Doick.jpg",
     imageTwo:
@@ -337,8 +337,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19192187_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19192187_EEdwards_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19192187_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19192187_EEdwards_main.jpg",
     imageOne:
     "../images/work/ELLA_EDWARDS_19192187_1 - Ella.jpg",
     imageTwo:
@@ -372,8 +372,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19769662_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19769662_MMerttens_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19769662_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19769662_MMerttens_main.jpg",
     imageOne:
     "../images/work/Mali_Merttens_19769662_1 - Marley.jpg",
     imageTwo:
@@ -407,8 +407,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/18813157_alt.jpg",
     avatarTwo: "./images/graduateAvatars/18813157_AChung_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/18813157_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/18813157_AChung_main.jpg",
     imageOne:
     "../images/work/Adrina_Chung_18813157_1 - adrina chung.jpg",
     imageTwo:
@@ -442,8 +442,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19768986_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19768986_LSchultz_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19768986_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19768986_LSchultz_main.jpg",
     imageOne:
     "../images/work/Leah_Schultz_19768986_1 - Leah Schultz.jpg",
     imageTwo:
@@ -477,8 +477,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19720863_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19720863_JMichell_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19720863_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19720863_JMichell_main.jpg",
     imageOne:
     "../images/work/Joshua_Michell_19720863_1 - Serial Dreamer.jpg",
     imageTwo:
@@ -512,8 +512,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19773249_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19773249_MThomas_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19773249_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19773249_MThomas_main.jpg",
     imageOne:
     "../images/work/Michelle_Thomas_19773249_1 - Michelle Thomas.jpg",
     imageTwo:
@@ -547,8 +547,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19756130_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19756130_AMcbee_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19756130_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19756130_AMcbee_main.jpg",
     imageOne:
     "../images/work/Alexandra_McGee_19756130_1 - Alexandra McGee.jpg",
     imageTwo:
@@ -582,8 +582,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19160142_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19160142_BNaim_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19160142_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19160142_BNaim_main.jpg",
     imageOne:
     "../images/work/BETH_NAIM_19160142_1 - Beth Naim.jpg",
     imageTwo:
@@ -618,8 +618,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19096535_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19096535_SChaoChen_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ:  "./images/graduateAvatarsHQ/19096535_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19096535_SChaoChen_main.jpg",
     imageOne:
     "../images/work/SylviaChen_19096535_1 - wtxwkl.jpg",
     imageTwo:
@@ -1569,8 +1569,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19451231_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19451231_JAtizado_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19451231_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19451231_JAtizado_main.jpg",
     imageOne:
     "../images/work/Joaquin_Atizado_1451231_1 - Joaquin Atizado.jpeg",
     imageTwo:
@@ -1604,8 +1604,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/18451382_alt.jpg",
     avatarTwo: "./images/graduateAvatars/18451382_CGeyer_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/18451382_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/18451382_CGeyer_main.jpg",
     imageOne:
     "../images/work/Cooper_Geyer_18451382_1 - Cooper Geyer.png",
     imageTwo:
@@ -1639,8 +1639,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19691600_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19691600_Etey_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19691600_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19691600_Etey_main.jpg",
     imageOne:
     "../images/work/QuenYi_Tey_19691600_1 - Emily Tey.jpg",
     imageTwo:
@@ -1674,8 +1674,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19778697_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19778697_IMaccarthy_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19778697_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19778697_IMaccarthy_main.jpg",
     imageOne:
     "../images/work/Imogen_McCarthy_19778697_1 - Imogen McCarthy.jpg",
     imageTwo:
@@ -1710,8 +1710,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19523266_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19523266_EMee_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19523266_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19523266_EMee_main.jpg",
     imageOne:
     "../images/work/Emily_Mee_19523266_1 - Emily Mee.png",
     imageTwo:
@@ -1745,8 +1745,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19518259_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19518259_ERumsa_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19518259_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19518259_ERumsa_main.jpg",
     imageOne:
     "../images/work/Emmi_Rumsa_19518259_1  - Emmi Rumsa.jpg",
     imageTwo:
@@ -1780,8 +1780,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19490250_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19490250_BWatson_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19490250_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19490250_BWatson_main.jpg",
     imageOne:
     "../images/work/Brandon_Watson_19490520_1 - Brandon Watson.jpg",
     imageTwo:
@@ -1815,8 +1815,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateBags/_DSC1293.jpg",
     avatarTwo: "./images/graduateBags/_DSC1294.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateBagsHQ/_DSC1293.jpg",
+    avatarTwoHQ: "./images/graduateBagsHQ/_DSC1294.jpg",
     imageOne:
     "../images/work/dimitri_koranis_19349611_1 - Australia Post.jpg",
     imageTwo:
@@ -1850,8 +1850,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/17978204_alt.jpg",
     avatarTwo: "./images/graduateAvatars/17978204_SWang_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/17978204_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/17978204_SWang_main.jpg",
     imageOne:
     "../images/work/Shining_Wang_17978204_1 - Shining Wang.jpg",
     imageTwo:
@@ -1885,8 +1885,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19162229_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19162229_MCosta_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19162229_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19162229_MCosta_main.jpg",
     imageOne:
     "../images/work/Michael_D_Costa_19162229_1.jpg - Michael D_Costa.jpg",
     imageTwo:
@@ -1921,8 +1921,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateBags/_DSC1305.jpg",
     avatarTwo: "./images/graduateBags/_DSC1306.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateBagsHQ/_DSC1305.jpg",
+    avatarTwoHQ: "./images/graduateBagsHQ/_DSC1306.jpg",
     imageOne:
     "../images/work/Henry_Malkovic_19132345_ - Henry M.jpg",
     imageTwo:
@@ -1957,8 +1957,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19754202_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19754202_ZLo_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19754202_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19754202_ZLo_main.jpg",
     imageOne:
     "../images/work/Zac_Lo_19754202_1 - Zac Lo.jpg",
     imageTwo:
@@ -1992,8 +1992,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19460062_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19460062_CArena_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ:"./images/graduateAvatarsHQ/19460062_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19460062_CArena_main.jpg",
     imageOne:
     "../images/work/riley - Lotte Arena.png",
     imageTwo:
@@ -2028,8 +2028,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19471666_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19471666_JTrijo.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19471666_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19471666_JTrijo.jpg",
     imageOne:
     "../images/work/Jet_Trijo_19471666_1 - Jet.jpg",
     imageTwo:
@@ -2063,8 +2063,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19483580_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19483580_KMarks_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19483580_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19483580_KMarks_main.jpg",
     imageOne:
     "../images/work/Kasey_Marks_19483580_1 - Kasey Marks.jpg",
     imageTwo:
@@ -2098,8 +2098,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateBags/_DSC1450.jpg",
     avatarTwo: "./images/graduateBags/_DSC1453.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateBagsHQ/_DSC1450.jpg",
+    avatarTwoHQ: "./images/graduateBagsHQ/_DSC1453.jpg",
     imageOne:
     "../images/work/Emily_Lowry_19490292_1 - Em Lowry.jpg",
     imageTwo:
@@ -2133,8 +2133,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateBags/_DSC1450.jpg",
     avatarTwo: "./images/graduateBags/_DSC1453.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateBagsHQ/_DSC1450.jpg",
+    avatarTwoHQ: "./images/graduateBagsHQ/_DSC1453.jpg",
     imageOne:
     "../images/work/vieira_lucas_19502317_1 - Scott Wicks.jpg",
     imageTwo:
