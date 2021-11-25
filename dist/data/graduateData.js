@@ -110,31 +110,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19760814_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19760814_AMai_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19760814_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19760814_AMai_main.jpg",
     imageOne: "../images/work/Anna_Mai_19760814_1 - Anna Mai.jpg",
     imageTwo: "../images/work/Anna_Mai_19760814_2 - Anna Mai.jpg",
     imageThree: "../images/work/Anna_Mai_19760814_3 - Anna Mai.jpg",
     imageFour: "../images/work/Anna_Mai_19760814_4 - Anna Mai.jpg",
     imageFive: "../images/work/Anna_Mai_19760814_5 - Anna Mai.jpg",
     imageSix: "",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/19760814_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/19760814_AMai_main.jpg",
-    imageOne:
-      "../images/work/Anna_Mai_19760814_1 - Anna Mai.jpg",
-    imageTwo:
-      "../images/work/Anna_Mai_19760814_2 - Anna Mai.jpg",
-    imageThree:
-    "../images/work/Anna_Mai_19760814_3 - Anna Mai.jpg",
-    imageFour:
-    "../images/work/Anna_Mai_19760814_4 - Anna Mai.jpg",
-    imageFive:
-    "../images/work/Anna_Mai_19760814_5 - Anna Mai.jpg",
-    imageSix:
-    ""
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "20037952",
@@ -156,31 +139,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/20037952_alt.jpg",
     avatarTwo: "./images/graduateAvatars/20037952_THYan_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/20037952_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/20037952_THYan_main.jpg",
     imageOne: "../images/work/1t - Tian Hock Yan.jpg",
     imageTwo: "../images/work/2t - Tian Hock Yan.jpg",
     imageThree: "../images/work/3t - Tian Hock Yan.jpg",
     imageFour: "",
     imageFive: "",
     imageSix: "",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/20037952_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/20037952_THYan_main.jpg",
-    imageOne:
-    "../images/work/1t - Tian Hock Yan.jpg",
-    imageTwo:
-      "../images/work/2t - Tian Hock Yan.jpg",
-    imageThree:
-    "../images/work/3t - Tian Hock Yan.jpg",
-    imageFour:
-    "",
-    imageFive:
-    "",
-    imageSix:
-    ""
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19467322",
@@ -202,31 +168,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19467322_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19467322_RHuang_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19467322_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19467322_RHuang_main.jpg",
     imageOne: "../images/work/Ruitan_Huang_19467322_2 - Ruitan Huang.jpg",
     imageTwo: "../images/work/Ruitan_Huang_19467322_4 - Ruitan Huang.jpg",
     imageThree: "../images/work/Ruitan_Huang_19467322_5 - Ruitan Huang.jpg",
-    imageFour: "",
-    imageFive: "",
+    imageFour: "../images/work/Ruitan_Huang_19467322_1 - Ruitan Huang.jpg",
+    imageFive: "../images/work/Ruitan_Huang_19467322_3 - Ruitan Huang.jpg",
     imageSix: "",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/19467322_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/19467322_RHuang_main.jpg",
-    imageOne:
-    "../images/work/Ruitan_Huang_19467322_2 - Ruitan Huang.jpg",
-    imageTwo:
-      "../images/work/Ruitan_Huang_19467322_4 - Ruitan Huang.jpg",
-    imageThree:
-    "../images/work/Ruitan_Huang_19467322_5 - Ruitan Huang.jpg",
-    imageFour:
-    "../images/work/Ruitan_Huang_19467322_1 - Ruitan Huang.jpg",
-    imageFive:
-    "../images/work/Ruitan_Huang_19467322_3 - Ruitan Huang.jpg",
-    imageSix:
-    ""
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19168735",
@@ -314,31 +263,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19775669_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19775669_PDoick_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19775669_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19775669_PDoick_main.jpg",
     imageOne: "../images/work/Paris_Doick_19775669_1 - Paris Doick.jpg",
     imageTwo: "../images/work/Paris_Doick_19775669_3 - Paris Doick.jpg",
     imageThree: "../images/work/Paris_Doick_19775669_5 - Paris Doick.jpg",
     imageFour: "../images/work/Paris_Doick_19775669_2 - Paris Doick.jpg",
     imageFive: "../images/work/Paris_Doick_19775669_4 - Paris Doick.jpg",
     imageSix: "../images/work/Paris_Doick_19775669_6 - Paris Doick.jpg",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/19775669_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/19775669_PDoick_main.jpg",
-    imageOne:
-    "../images/work/Paris_Doick_19775669_1 - Paris Doick.jpg",
-    imageTwo:
-      "../images/work/Paris_Doick_19775669_3 - Paris Doick.jpg",
-    imageThree:
-    "../images/work/Paris_Doick_19775669_5 - Paris Doick.jpg",
-    imageFour:
-    "../images/work/Paris_Doick_19775669_2 - Paris Doick.jpg",
-    imageFive:
-    "../images/work/Paris_Doick_19775669_4 - Paris Doick.jpg",
-    imageSix:
-    "../images/work/Paris_Doick_19775669_6 - Paris Doick.jpg"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19192187",
@@ -361,31 +293,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19192187_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19192187_EEdwards_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19192187_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19192187_EEdwards_main.jpg",
     imageOne: "../images/work/ELLA_EDWARDS_19192187_1 - Ella.jpg",
     imageTwo: "../images/work/ELLA_EDWARDS_19192187_2 - Ella.jpg",
     imageThree: "../images/work/ELLA_EDWARDS_19192187_3 - Ella.jpg",
     imageFour: "../images/work/ELLA_EDWARDS_19192187_4 - Ella.jpg",
     imageFive: "../images/work/ELLA_EDWARDS_19192187_5 - Ella.jpg",
     imageSix: "../images/work/ELLA_EDWARDS_19192187_6 - Ella.jpg",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/19192187_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/19192187_EEdwards_main.jpg",
-    imageOne:
-    "../images/work/ELLA_EDWARDS_19192187_1 - Ella.jpg",
-    imageTwo:
-      "../images/work/ELLA_EDWARDS_19192187_2 - Ella.jpg",
-    imageThree:
-    "../images/work/ELLA_EDWARDS_19192187_3 - Ella.jpg",
-    imageFour:
-    "../images/work/ELLA_EDWARDS_19192187_4 - Ella.jpg",
-    imageFive:
-    "../images/work/ELLA_EDWARDS_19192187_5 - Ella.jpg",
-    imageSix:
-    "../images/work/ELLA_EDWARDS_19192187_6 - Ella.jpg"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19769662",
@@ -407,31 +322,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19769662_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19769662_MMerttens_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19769662_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19769662_MMerttens_main.jpg",
     imageOne: "../images/work/Mali_Merttens_19769662_1 - Marley.jpg",
     imageTwo: "../images/work/Mali_Merttens_19769662_3 - Marley.jpg",
     imageThree: "../images/work/Madi_Horler_19454722_5 - Madison Horler.jpg",
     imageFour: "../images/work/Mali_Merttens_19769662_2 - Marley.jpg",
     imageFive: "../images/work/Mali_Merttens_19769662_4 - Marley.jpg",
     imageSix: "../images/work/Mali_Merttens_19769662_6 - Marley.jpg",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/19769662_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/19769662_MMerttens_main.jpg",
-    imageOne:
-    "../images/work/Mali_Merttens_19769662_1 - Marley.jpg",
-    imageTwo:
-      "../images/work/Mali_Merttens_19769662_3 - Marley.jpg",
-    imageThree:
-    "../images/work/Madi_Horler_19454722_5 - Madison Horler.jpg",
-    imageFour:
-    "../images/work/Mali_Merttens_19769662_2 - Marley.jpg",
-    imageFive:
-    "../images/work/Mali_Merttens_19769662_4 - Marley.jpg",
-    imageSix:
-    "../images/work/Mali_Merttens_19769662_6 - Marley.jpg"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "18813157",
@@ -453,31 +351,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/18813157_alt.jpg",
     avatarTwo: "./images/graduateAvatars/18813157_AChung_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/18813157_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/18813157_AChung_main.jpg",
     imageOne: "../images/work/Adrina_Chung_18813157_1 - adrina chung.jpg",
     imageTwo: "../images/work/Adrina_Chung_18813157_3 - adrina chung.jpg",
     imageThree: "../images/work/Adrina_Chung_18813157_5 - adrina chung.jpg",
     imageFour: "../images/work/Adrina_Chung_18813157_2 - adrina chung.jpg",
     imageFive: "../images/work/Adrina_Chung_18813157_4 - adrina chung.jpg",
     imageSix: "../images/work/Adrina_Chung_18813157_6 - adrina chung.jpg",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/18813157_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/18813157_AChung_main.jpg",
-    imageOne:
-    "../images/work/Adrina_Chung_18813157_1 - adrina chung.jpg",
-    imageTwo:
-      "../images/work/Adrina_Chung_18813157_3 - adrina chung.jpg",
-    imageThree:
-    "../images/work/Adrina_Chung_18813157_5 - adrina chung.jpg",
-    imageFour:
-    "../images/work/Adrina_Chung_18813157_2 - adrina chung.jpg",
-    imageFive:
-    "../images/work/Adrina_Chung_18813157_4 - adrina chung.jpg",
-    imageSix:
-    "../images/work/Adrina_Chung_18813157_6 - adrina chung.jpg"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19768986",
@@ -499,31 +380,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19768986_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19768986_LSchultz_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19768986_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19768986_LSchultz_main.jpg",
     imageOne: "../images/work/Leah_Schultz_19768986_1 - Leah Schultz.jpg",
     imageTwo: "../images/work/Leah_Schultz_19768986_3 - Leah Schultz.jpg",
     imageThree: "../images/work/Leah_Schultz_19768986_5 - Leah Schultz.jpg",
     imageFour: "../images/work/Leah_Schultz_19768986_2 - Leah Schultz.jpg",
     imageFive: "../images/work/Leah_Schultz_19768986_4 - Leah Schultz.jpg",
     imageSix: "../images/work/Leah_Schultz_19768986_6 - Leah Schultz.jpeg",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/19768986_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/19768986_LSchultz_main.jpg",
-    imageOne:
-    "../images/work/Leah_Schultz_19768986_1 - Leah Schultz.jpg",
-    imageTwo:
-      "../images/work/Leah_Schultz_19768986_3 - Leah Schultz.jpg",
-    imageThree:
-    "../images/work/Leah_Schultz_19768986_5 - Leah Schultz.jpg",
-    imageFour:
-    "../images/work/Leah_Schultz_19768986_2 - Leah Schultz.jpg",
-    imageFive:
-    "../images/work/Leah_Schultz_19768986_4 - Leah Schultz.jpg",
-    imageSix:
-    "../images/work/Leah_Schultz_19768986_6 - Leah Schultz.jpeg"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19720863",
@@ -545,31 +409,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19720863_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19720863_JMichell_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19720863_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19720863_JMichell_main.jpg",
     imageOne: "../images/work/Joshua_Michell_19720863_1 - Serial Dreamer.jpg",
     imageTwo: "../images/work/Joshua_Michell_19720863_3 - Serial Dreamer.jpg",
     imageThree: "../images/work/Joshua_Michell_19720863_5 - Serial Dreamer.jpg",
     imageFour: "../images/work/Joshua_Michell_19720863_2 - Serial Dreamer.jpg",
     imageFive: "../images/work/Joshua_Michell_19720863_4 - Serial Dreamer.jpg",
     imageSix: "../images/work/Joshua_Michell_19720863_6 - Serial Dreamer.jpg",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/19720863_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/19720863_JMichell_main.jpg",
-    imageOne:
-    "../images/work/Joshua_Michell_19720863_1 - Serial Dreamer.jpg",
-    imageTwo:
-      "../images/work/Joshua_Michell_19720863_3 - Serial Dreamer.jpg",
-    imageThree:
-    "../images/work/Joshua_Michell_19720863_5 - Serial Dreamer.jpg",
-    imageFour:
-    "../images/work/Joshua_Michell_19720863_2 - Serial Dreamer.jpg",
-    imageFive:
-    "../images/work/Joshua_Michell_19720863_4 - Serial Dreamer.jpg",
-    imageSix:
-    "../images/work/Joshua_Michell_19720863_6 - Serial Dreamer.jpg"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19773249",
@@ -591,19 +438,10 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19773249_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19773249_MThomas_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
-    imageOne: "../images/work/Michelle_Thomas_19773249_1 - Michelle Thomas.jpg",
-    imageTwo: "../images/work/Michelle_Thomas_19773249_3 - Michelle Thomas.jpg",
-=======
     avatarOneHQ: "./images/graduateAvatarsHQ/19773249_alt.jpg",
     avatarTwoHQ: "./images/graduateAvatarsHQ/19773249_MThomas_main.jpg",
-    imageOne:
-    "../images/work/Michelle_Thomas_19773249_1 - Michelle Thomas.jpg",
-    imageTwo:
-      "../images/work/Michelle_Thomas_19773249_3 - Michelle Thomas.jpg",
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
+    imageOne: "../images/work/Michelle_Thomas_19773249_1 - Michelle Thomas.jpg",
+    imageTwo: "../images/work/Michelle_Thomas_19773249_3 - Michelle Thomas.jpg",
     imageThree:
       "../images/work/Michelle_Thomas_19773249_5 - Michelle Thomas.jpg",
     imageFour:
@@ -632,19 +470,10 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19756130_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19756130_AMcbee_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
-    imageOne: "../images/work/Alexandra_McGee_19756130_1 - Alexandra McGee.jpg",
-    imageTwo: "../images/work/Alexandra_McGee_19756130_3 - Alexandra McGee.jpg",
-=======
     avatarOneHQ: "./images/graduateAvatarsHQ/19756130_alt.jpg",
     avatarTwoHQ: "./images/graduateAvatarsHQ/19756130_AMcbee_main.jpg",
-    imageOne:
-    "../images/work/Alexandra_McGee_19756130_1 - Alexandra McGee.jpg",
-    imageTwo:
-      "../images/work/Alexandra_McGee_19756130_3 - Alexandra McGee.jpg",
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
+    imageOne: "../images/work/Alexandra_McGee_19756130_1 - Alexandra McGee.jpg",
+    imageTwo: "../images/work/Alexandra_McGee_19756130_3 - Alexandra McGee.jpg",
     imageThree:
       "../images/work/Alexandra_McGee_19756130_5 - Alexandra McGee.jpg",
     imageFour:
@@ -673,31 +502,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19160142_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19160142_BNaim_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19160142_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19160142_BNaim_main.jpg",
     imageOne: "../images/work/BETH_NAIM_19160142_1 - Beth Naim.jpg",
     imageTwo: "../images/work/BETH_NAIM_19160142_3 - Beth Naim.jpg",
     imageThree: "../images/work/BETH_NAIM_19160142_5 - Beth Naim.jpg",
     imageFour: "../images/work/BETH_NAIM_19160142_2 - Beth Naim.jpg",
     imageFive: "../images/work/BETH_NAIM_19160142_4 - Beth Naim.jpg",
     imageSix: "../images/work/BETH_NAIM_19160142_6 - Beth Naim.jpg",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/19160142_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/19160142_BNaim_main.jpg",
-    imageOne:
-    "../images/work/BETH_NAIM_19160142_1 - Beth Naim.jpg",
-    imageTwo:
-    "../images/work/BETH_NAIM_19160142_3 - Beth Naim.jpg",
-    imageThree:
-    "../images/work/BETH_NAIM_19160142_5 - Beth Naim.jpg",
-    imageFour:
-    "../images/work/BETH_NAIM_19160142_2 - Beth Naim.jpg",
-    imageFive:
-    "../images/work/BETH_NAIM_19160142_4 - Beth Naim.jpg",
-    imageSix:
-    "../images/work/BETH_NAIM_19160142_6 - Beth Naim.jpg"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19096535",
@@ -720,31 +532,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19096535_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19096535_SChaoChen_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19096535_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19096535_SChaoChen_main.jpg",
     imageOne: "../images/work/SylviaChen_19096535_1 - wtxwkl.jpg",
     imageTwo: "../images/work/SylviaChen_19096535_2 - wtxwkl.jpg",
     imageThree: "../images/work/SylviaChen_19096535_3 - wtxwkl.jpg",
     imageFour: "../images/work/SylviaChen_19096535_4 - wtxwkl.jpg",
     imageFive: "../images/work/SylviaChen_19096535_5 - wtxwkl.jpg",
     imageSix: "../images/work/SylviaChen_19096535_6 - wtxwkl.jpg",
-=======
-    avatarOneHQ:  "./images/graduateAvatarsHQ/19096535_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/19096535_SChaoChen_main.jpg",
-    imageOne:
-    "../images/work/SylviaChen_19096535_1 - wtxwkl.jpg",
-    imageTwo:
-    "../images/work/SylviaChen_19096535_2 - wtxwkl.jpg",
-    imageThree:
-    "../images/work/SylviaChen_19096535_3 - wtxwkl.jpg",
-    imageFour:
-    "../images/work/SylviaChen_19096535_4 - wtxwkl.jpg",
-    imageFive:
-    "../images/work/SylviaChen_19096535_5 - wtxwkl.jpg",
-    imageSix:
-    "../images/work/SylviaChen_19096535_6 - wtxwkl.jpg"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19792888",
@@ -766,31 +561,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19792888_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19792888_DKnowles_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19792888_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19792888_DKnowles_main.jpg",
     imageOne: "../images/work/Dana_Knowles_19792888_1 - Dana Knowles.jpg",
     imageTwo: "../images/work/Dana_Knowles_19792888_2 - Dana Knowles.jpg",
     imageThree: "../images/work/Dana_Knowles_19792888_3 - Dana Knowles.jpg",
     imageFour: "../images/work/Dana_Knowles_19792888_4 - Dana Knowles.jpg",
     imageFive: "../images/work/Dana_Knowles_19792888_5 - Dana Knowles.jpg",
     imageSix: "../images/work/Dana_Knowles_19792888_6 - Dana Knowles.jpg",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/19792888_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/19792888_DKnowles_main.jpg",
-    imageOne:
-    "../images/work/Dana_Knowles_19792888_1 - Dana Knowles.jpg",
-    imageTwo:
-    "../images/work/Dana_Knowles_19792888_2 - Dana Knowles.jpg",
-    imageThree:
-    "../images/work/Dana_Knowles_19792888_3 - Dana Knowles.jpg",
-    imageFour:
-    "../images/work/Dana_Knowles_19792888_4 - Dana Knowles.jpg",
-    imageFive:
-    "../images/work/Dana_Knowles_19792888_5 - Dana Knowles.jpg",
-    imageSix:
-    "../images/work/Dana_Knowles_19792888_6 - Dana Knowles.jpg"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19485502",
@@ -812,31 +590,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19485502_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19485502_TStirling_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19485502_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19485502_TStirling_main.jpg",
     imageOne: "../images/work/Tessa_Stirling_19485502_1 - Tessa Stirling.jpg",
     imageTwo: "../images/work/Tessa_Stirling_19485502_2 - Tessa Stirling.jpg",
     imageThree: "../images/work/Tessa_Stirling_19485502_3 - Tessa Stirling.jpg",
     imageFour: "../images/work/Tessa_Stirling_19485502_4 - Tessa Stirling.jpg",
     imageFive: "../images/work/Tessa_Stirling_19485502_5 - Tessa Stirling.jpg",
     imageSix: "../images/work/Tessa_Stirling_19485502_6 - Tessa Stirling.jpg",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/19485502_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/19485502_TStirling_main.jpg",
-    imageOne:
-    "../images/work/Tessa_Stirling_19485502_1 - Tessa Stirling.jpg",
-    imageTwo:
-    "../images/work/Tessa_Stirling_19485502_2 - Tessa Stirling.jpg",
-    imageThree:
-    "../images/work/Tessa_Stirling_19485502_3 - Tessa Stirling.jpg",
-    imageFour:
-    "../images/work/Tessa_Stirling_19485502_4 - Tessa Stirling.jpg",
-    imageFive:
-    "../images/work/Tessa_Stirling_19485502_5 - Tessa Stirling.jpg",
-    imageSix:
-    "../images/work/Tessa_Stirling_19485502_6 - Tessa Stirling.jpg"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19965680",
@@ -858,31 +619,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19965680_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19965680_HJones_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19965680_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19965680_HJones_main.jpg",
     imageOne: "../images/work/Hannah_Jones_19965680_1 - Hannah Jones.jpg",
     imageTwo: "../images/work/Hannah_Jones_19965680_2 - Hannah Jones.jpg",
     imageThree: "../images/work/Hannah_Jones_19965680_3 - Hannah Jones.jpg",
     imageFour: "../images/work/Hannah_Jones_19965680_4 - Hannah Jones.jpg",
     imageFive: "../images/work/Hannah_Jones_19965680_5 - Hannah Jones.jpg",
     imageSix: "../images/work/Hannah_Jones_19965680_6 - Hannah Jones.jpg",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/19965680_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/19965680_HJones_main.jpg",
-    imageOne:
-    "../images/work/Hannah_Jones_19965680_1 - Hannah Jones.jpg",
-    imageTwo:
-    "../images/work/Hannah_Jones_19965680_2 - Hannah Jones.jpg",
-    imageThree:
-    "../images/work/Hannah_Jones_19965680_3 - Hannah Jones.jpg",
-    imageFour:
-    "../images/work/Hannah_Jones_19965680_4 - Hannah Jones.jpg",
-    imageFive:
-    "../images/work/Hannah_Jones_19965680_5 - Hannah Jones.jpg",
-    imageSix:
-    "../images/work/Hannah_Jones_19965680_6 - Hannah Jones.jpg"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "18846674",
@@ -904,31 +648,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/18846674_alt.jpg",
     avatarTwo: "./images/graduateAvatars/18846674_SMabirrat_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/18846674_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/18846674_SMabirrat_main.jpg",
     imageOne: "../images/work/Samantha_Maliwat_18846674_1 - Bacon Omnom.jpg",
     imageTwo: "../images/work/Samantha_Maliwat_18846674_2 - Bacon Omnom.jpg",
     imageThree: "../images/work/Samantha_Maliwat_18846674_3 - Bacon Omnom.jpg",
     imageFour: "../images/work/Samantha_Maliwat_18846674_4 - Bacon Omnom.jpg",
     imageFive: "../images/work/Samantha_Maliwat_18846674_5 - Bacon Omnom.jpg",
     imageSix: "../images/work/Samantha_Maliwat_18846674_6 - Bacon Omnom.jpg",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/18846674_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/18846674_SMabirrat_main.jpg",
-    imageOne:
-    "../images/work/Samantha_Maliwat_18846674_1 - Bacon Omnom.jpg",
-    imageTwo:
-    "../images/work/Samantha_Maliwat_18846674_2 - Bacon Omnom.jpg",
-    imageThree:
-    "../images/work/Samantha_Maliwat_18846674_3 - Bacon Omnom.jpg",
-    imageFour:
-    "../images/work/Samantha_Maliwat_18846674_4 - Bacon Omnom.jpg",
-    imageFive:
-    "../images/work/Samantha_Maliwat_18846674_5 - Bacon Omnom.jpg",
-    imageSix:
-    "../images/work/Samantha_Maliwat_18846674_6 - Bacon Omnom.jpg"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19499736",
@@ -951,31 +678,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19499736_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19499736_JNesic_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19499736_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19499736_JNesic_main.jpg",
     imageOne: "../images/work/Jordan_Nesic_19499736_1 - Jordan N.jpg",
     imageTwo: "../images/work/Jordan_Nesic_19499736_2 - Jordan N.jpg",
     imageThree: "../images/work/Jordan_Nesic_19499736_3 - Jordan N.jpg",
     imageFour: "../images/work/Jordan_Nesic_19499736_4 - Jordan N.jpg",
     imageFive: "",
     imageSix: "",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/19499736_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/19499736_JNesic_main.jpg",
-    imageOne:
-    "../images/work/Jordan_Nesic_19499736_1 - Jordan N.jpg",
-    imageTwo:
-    "../images/work/Jordan_Nesic_19499736_2 - Jordan N.jpg",
-    imageThree:
-    "../images/work/Jordan_Nesic_19499736_3 - Jordan N.jpg",
-    imageFour:
-    "../images/work/Jordan_Nesic_19499736_4 - Jordan N.jpg",
-    imageFive:
-    "",
-    imageSix:
-    ""
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "18342224",
@@ -997,31 +707,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/18342224_alt.jpg",
     avatarTwo: "./images/graduateAvatars/18342224_JSaw_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/18342224_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/18342224_JSaw_main.jpg",
     imageOne: "../images/work/Jamin_Saw_18342224_1 - Jamin Saw.jpg",
     imageTwo: "../images/work/Jamin_Saw_18342224_2 - Jamin Saw.jpg",
     imageThree: "../images/work/Jamin_Saw_18342224_3 - Jamin Saw.jpg",
     imageFour: "../images/work/Jamin_Saw_18342224_4 - Jamin Saw.jpg",
     imageFive: "../images/work/Jamin_Saw_18342224_5 - Jamin Saw.jpg",
     imageSix: "../images/work/Jamin_Saw_18342224_6 - Jamin Saw.jpg",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/18342224_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/18342224_JSaw_main.jpg",
-    imageOne:
-    "../images/work/Jamin_Saw_18342224_1 - Jamin Saw.jpg",
-    imageTwo:
-    "../images/work/Jamin_Saw_18342224_2 - Jamin Saw.jpg",
-    imageThree:
-    "../images/work/Jamin_Saw_18342224_3 - Jamin Saw.jpg",
-    imageFour:
-    "../images/work/Jamin_Saw_18342224_4 - Jamin Saw.jpg",
-    imageFive:
-    "../images/work/Jamin_Saw_18342224_5 - Jamin Saw.jpg",
-    imageSix:
-    "../images/work/Jamin_Saw_18342224_6 - Jamin Saw.jpg"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19148724",
@@ -1043,31 +736,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19148724_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19148724_ELeicester_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19148724_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19148724_ELeicester_main.jpg",
     imageOne: "../images/work/Eden_Leicester_19148724_1 - Eden Leicester.jpg",
     imageTwo: "../images/work/Eden_Leicester_19148724_2 - Eden Leicester.jpg",
     imageThree: "../images/work/Eden_Leicester_19148724_3 - Eden Leicester.jpg",
     imageFour: "../images/work/Eden_Leicester_19148724_4 - Eden Leicester.jpg",
     imageFive: "../images/work/Eden_Leicester_19148724_5 - Eden Leicester.jpg",
     imageSix: "../images/work/Eden_Leicester_19148724_6 - Eden Leicester.jpg",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/19148724_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/19148724_ELeicester_main.jpg",
-    imageOne:
-    "../images/work/Eden_Leicester_19148724_1 - Eden Leicester.jpg",
-    imageTwo:
-    "../images/work/Eden_Leicester_19148724_2 - Eden Leicester.jpg",
-    imageThree:
-    "../images/work/Eden_Leicester_19148724_3 - Eden Leicester.jpg",
-    imageFour:
-    "../images/work/Eden_Leicester_19148724_4 - Eden Leicester.jpg",
-    imageFive:
-    "../images/work/Eden_Leicester_19148724_5 - Eden Leicester.jpg",
-    imageSix:
-    "../images/work/Eden_Leicester_19148724_6 - Eden Leicester.jpg"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19749253",
@@ -1089,31 +765,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19749253_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19749253_YKim_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19749253_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19749253_YKim_main.jpg",
     imageOne: "../images/work/Yaeram_Kim_19749253_1 - yaeram kim.png",
     imageTwo: "../images/work/Yaeram_Kim_19749253_2 - yaeram kim.png",
     imageThree: "../images/work/Yaeram_Kim_19749253_3 - yaeram kim.png",
     imageFour: "../images/work/Yaeram_Kim_19749253_4 - yaeram kim.png",
     imageFive: "../images/work/Yaeram_Kim_19749253_5 - yaeram kim.JPG",
     imageSix: "../images/work/Yaeram_Kim_19749253_6 - yaeram kim.JPG",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/19749253_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/19749253_YKim_main.jpg",
-    imageOne:
-    "../images/work/Yaeram_Kim_19749253_1 - yaeram kim.png",
-    imageTwo:
-    "../images/work/Yaeram_Kim_19749253_2 - yaeram kim.png",
-    imageThree:
-    "../images/work/Yaeram_Kim_19749253_3 - yaeram kim.png",
-    imageFour:
-    "../images/work/Yaeram_Kim_19749253_4 - yaeram kim.png",
-    imageFive:
-    "../images/work/Yaeram_Kim_19749253_5 - yaeram kim.JPG",
-    imageSix:
-    "../images/work/Yaeram_Kim_19749253_6 - yaeram kim.JPG"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19762328",
@@ -1135,31 +794,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19762328_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19762328_LTarr_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19762328_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19762328_LTarr_main.jpg",
     imageOne: "../images/work/Lilybelle_Tarr_19762328_1 - Lilybelle tarr.jpg",
     imageTwo: "../images/work/Lilybelle_Tarr_19762328_2 - Lilybelle tarr.jpg",
     imageThree: "../images/work/Lilybelle_Tarr_19762329_3 - Lilybelle tarr.jpg",
     imageFour: "../images/work/Lilybelle_Tarr_19762328_4 - Lilybelle tarr.jpg",
     imageFive: "../images/work/Lilybelle_Tarr_19762328_5 - Lilybelle tarr.jpg",
     imageSix: "../images/work/Lilybelle_Tarr_19762328_6 - Lilybelle tarr.jpg",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/19762328_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/19762328_LTarr_main.jpg",
-    imageOne:
-    "../images/work/Lilybelle_Tarr_19762328_1 - Lilybelle tarr.jpg",
-    imageTwo:
-    "../images/work/Lilybelle_Tarr_19762328_2 - Lilybelle tarr.jpg",
-    imageThree:
-    "../images/work/Lilybelle_Tarr_19762329_3 - Lilybelle tarr.jpg",
-    imageFour:
-    "../images/work/Lilybelle_Tarr_19762328_4 - Lilybelle tarr.jpg",
-    imageFive:
-    "../images/work/Lilybelle_Tarr_19762328_5 - Lilybelle tarr.jpg",
-    imageSix:
-    "../images/work/Lilybelle_Tarr_19762328_6 - Lilybelle tarr.jpg"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19790316",
@@ -1181,31 +823,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19790316_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19790316_JCabral_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19790316_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19790316_JCabral_main.jpg",
     imageOne: "../images/work/Jekko_Cabral_19790316_1 - J C.jpg",
     imageTwo: "../images/work/Jekko_Cabral_19790316_2 - J C.jpg",
     imageThree: "../images/work/Jekko_Cabral_19790316_3 - J C.jpg",
     imageFour: "../images/work/Jekko_Cabral_19790316_4 - J C.jpg",
     imageFive: "../images/work/Jekko_Cabral_19790316_5 - J C.jpg",
     imageSix: "../images/work/Jekko_Cabral_19790316_6 - J C.jpg",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/19790316_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/19790316_JCabral_main.jpg",
-    imageOne:
-    "../images/work/Jekko_Cabral_19790316_1 - J C.jpg",
-    imageTwo:
-    "../images/work/Jekko_Cabral_19790316_2 - J C.jpg",
-    imageThree:
-    "../images/work/Jekko_Cabral_19790316_3 - J C.jpg",
-    imageFour:
-    "../images/work/Jekko_Cabral_19790316_4 - J C.jpg",
-    imageFive:
-    "../images/work/Jekko_Cabral_19790316_5 - J C.jpg",
-    imageSix:
-    "../images/work/Jekko_Cabral_19790316_6 - J C.jpg"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19918406",
@@ -1227,31 +852,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19918406_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19918406_NDakin_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19918406_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19918406_NDakin_main.jpg",
     imageOne: "../images/work/Nina_Dakin_19918406_1 - Nina Dakin.jpg",
     imageTwo: "../images/work/Nina_Dakin_19918406_2 - Nina Dakin.jpg",
     imageThree: "../images/work/Nina_Dakin_19918406_3 - Nina Dakin.jpg",
     imageFour: "../images/work/Nina_Dakin_19918406_4 - Nina Dakin.jpg",
     imageFive: "../images/work/Nina_Dakin_19918406_5 - Nina Dakin.jpg",
     imageSix: "../images/work/Nina_Dakin_19918406_6 - Nina Dakin.jpg",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/19918406_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/19918406_NDakin_main.jpg",
-    imageOne:
-    "../images/work/Nina_Dakin_19918406_1 - Nina Dakin.jpg",
-    imageTwo:
-    "../images/work/Nina_Dakin_19918406_2 - Nina Dakin.jpg",
-    imageThree:
-    "../images/work/Nina_Dakin_19918406_3 - Nina Dakin.jpg",
-    imageFour:
-    "../images/work/Nina_Dakin_19918406_4 - Nina Dakin.jpg",
-    imageFive:
-    "../images/work/Nina_Dakin_19918406_5 - Nina Dakin.jpg",
-    imageSix:
-    "../images/work/Nina_Dakin_19918406_6 - Nina Dakin.jpg"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19770295",
@@ -1274,31 +882,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19770295_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19770295_DRizkiadi_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19770295_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19770295_DRizkiadi_main.jpg",
     imageOne: "../images/work/Daffa_Rizkiadi_19770295_1 - Daffa Rizkiadi.jpg",
     imageTwo: "../images/work/Daffa_Rizkiadi19770295_2 - Daffa Rizkiadi.jpg",
     imageThree: "../images/work/Daffa_Rizkiadi_19770295_3 - Daffa Rizkiadi.jpg",
     imageFour: "../images/work/Daffa_Rizkiadi_19770295_4 - Daffa Rizkiadi.jpg",
     imageFive: "../images/work/Daffa_Rizkiadi_19770295_5 - Daffa Rizkiadi.jpg",
     imageSix: "../images/work/Daffa_Rizkiadi_19770295_6 - Daffa Rizkiadi.jpg",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/19770295_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/19770295_DRizkiadi_main.jpg",
-    imageOne:
-    "../images/work/Daffa_Rizkiadi_19770295_1 - Daffa Rizkiadi.jpg",
-    imageTwo:
-    "../images/work/Daffa_Rizkiadi19770295_2 - Daffa Rizkiadi.jpg",
-    imageThree:
-    "../images/work/Daffa_Rizkiadi_19770295_3 - Daffa Rizkiadi.jpg",
-    imageFour:
-    "../images/work/Daffa_Rizkiadi_19770295_4 - Daffa Rizkiadi.jpg",
-    imageFive:
-    "../images/work/Daffa_Rizkiadi_19770295_5 - Daffa Rizkiadi.jpg",
-    imageSix:
-    "../images/work/Daffa_Rizkiadi_19770295_6 - Daffa Rizkiadi.jpg"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19467092",
@@ -1320,31 +911,14 @@ export const Graduates = [
     shirt: "https://yourbestfriendjippy.com",
     avatarOne: "./images/graduateBags/_DSC1411.jpg",
     avatarTwo: "./images/graduateBags/_DSC1408.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateBagsHQ/_DSC1411.jpg",
+    avatarTwoHQ: "./images/graduateBagsHQ/_DSC1408.jpg",
     imageOne: "../images/work/Julian_Osborn_19467092_1 - Jippy.jpg",
     imageTwo: "../images/work/Julian_Osborn_19467092_2 - Jippy.jpg",
     imageThree: "../images/work/Julian_Osborn_19467092_3 - Jippy.jpg",
     imageFour: "../images/work/Julian_Osborn_19467092_4 - Jippy.jpg",
     imageFive: "../images/work/Julian_Osborn_19467092_5 - Jippy.jpg",
     imageSix: "../images/work/Julian_Osborn_19467092_6 - Jippy.jpg",
-=======
-    avatarOneHQ: "./images/graduateBagsHQ/_DSC1411.jpg",
-    avatarTwoHQ: "./images/graduateBagsHQ/_DSC1408.jpg",
-    imageOne:
-    "../images/work/Julian_Osborn_19467092_1 - Jippy.jpg",
-    imageTwo:
-    "../images/work/Julian_Osborn_19467092_2 - Jippy.jpg",
-    imageThree:
-    "../images/work/Julian_Osborn_19467092_3 - Jippy.jpg",
-    imageFour:
-    "../images/work/Julian_Osborn_19467092_4 - Jippy.jpg",
-    imageFive:
-    "../images/work/Julian_Osborn_19467092_5 - Jippy.jpg",
-    imageSix:
-    "../images/work/Julian_Osborn_19467092_6 - Jippy.jpg"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "17373236",
@@ -1366,31 +940,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/17373236_alt.jpg",
     avatarTwo: "./images/graduateAvatars/17373236_EHarding_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/17373236_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/17373236_EHarding_main.jpg",
     imageOne: "../images/work/Emily_Harding_17373236_1 - Emily Harding.jpg",
     imageTwo: "../images/work/Emily_Harding_17373236_2 - Emily Harding.jpg",
     imageThree: "../images/work/Emily_Harding_17373236_3 - Emily Harding.jpg",
     imageFour: "../images/work/Emily_Harding_17373236_4 - Emily Harding.jpg",
     imageFive: "../images/work/Emily_Harding_17373236_5 - Emily Harding.jpg",
     imageSix: "../images/work/Emily_Harding_17373236_6 - Emily Harding.jpg",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/17373236_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/17373236_EHarding_main.jpg",
-    imageOne:
-    "../images/work/Emily_Harding_17373236_1 - Emily Harding.jpg",
-    imageTwo:
-    "../images/work/Emily_Harding_17373236_2 - Emily Harding.jpg",
-    imageThree:
-    "../images/work/Emily_Harding_17373236_3 - Emily Harding.jpg",
-    imageFour:
-    "../images/work/Emily_Harding_17373236_4 - Emily Harding.jpg",
-    imageFive:
-    "../images/work/Emily_Harding_17373236_5 - Emily Harding.jpg",
-    imageSix:
-    "../images/work/Emily_Harding_17373236_6 - Emily Harding.jpg"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19449087",
@@ -1413,19 +970,10 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19449087_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19449087_MGilmoor_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
-    imageOne: "../images/work/Matthew_Gilmour_19449087_1 - Matthew Gilmour.jpg",
-    imageTwo: "../images/work/Matthew_Gilmour_19449087_2 - Matthew Gilmour.jpg",
-=======
     avatarOneHQ: "./images/graduateAvatarsHQ/19449087_alt.jpg",
     avatarTwoHQ: "./images/graduateAvatarsHQ/19449087_MGilmoor_main.jpg",
-    imageOne:
-    "../images/work/Matthew_Gilmour_19449087_1 - Matthew Gilmour.jpg",
-    imageTwo:
-    "../images/work/Matthew_Gilmour_19449087_2 - Matthew Gilmour.jpg",
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
+    imageOne: "../images/work/Matthew_Gilmour_19449087_1 - Matthew Gilmour.jpg",
+    imageTwo: "../images/work/Matthew_Gilmour_19449087_2 - Matthew Gilmour.jpg",
     imageThree:
       "../images/work/Matthew_Gilmour_19449087_3 - Matthew Gilmour.jpg",
     imageFour:
@@ -1454,31 +1002,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19131148_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19131158_JFoti_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19131148_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19131158_JFoti_main.jpg",
     imageOne: "../images/work/Joshua_Foti_19131148_1 - lilvinci.jpg",
     imageTwo: "../images/work/Joshua_Foti_19131148_2 - lilvinci.jpg",
     imageThree: "../images/work/Joshua_Foti_19131148_3 - lilvinci.jpg",
     imageFour: "../images/work/Joshua_Foti_19131148_4 - lilvinci.jpg",
     imageFive: "../images/work/Joshua_Foti_19131148_5 - lilvinci.jpg",
     imageSix: "../images/work/Joshua_Foti_19131148_6 - lilvinci.jpg",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/19131148_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/19131158_JFoti_main.jpg",
-    imageOne:
-    "../images/work/Joshua_Foti_19131148_1 - lilvinci.jpg",
-    imageTwo:
-    "../images/work/Joshua_Foti_19131148_2 - lilvinci.jpg",
-    imageThree:
-    "../images/work/Joshua_Foti_19131148_3 - lilvinci.jpg",
-    imageFour:
-    "../images/work/Joshua_Foti_19131148_4 - lilvinci.jpg",
-    imageFive:
-    "../images/work/Joshua_Foti_19131148_5 - lilvinci.jpg",
-    imageSix:
-    "../images/work/Joshua_Foti_19131148_6 - lilvinci.jpg"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19783853",
@@ -1501,31 +1032,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19783853_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19783853_OLalacci_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19783853_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19783853_OLalacci_main.jpg",
     imageOne: "../images/work/Olivia_Ialacci_19783853_1 - Olivia Ialacci.jpg",
     imageTwo: "../images/work/Olivia_Ialacci_19783853_2 - Olivia Ialacci.jpg",
     imageThree: "../images/work/Olivia_Ialacci_19783853_3 - Olivia Ialacci.jpg",
     imageFour: "../images/work/Olivia_Ialacci_19783853_4 - Olivia Ialacci.jpg",
     imageFive: "../images/work/Olivia_Ialacci_19783853_5 - Olivia Ialacci.jpg",
     imageSix: "../images/work/Olivia_Ialacci_19783853_6 - Olivia Ialacci.jpg",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/19783853_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/19783853_OLalacci_main.jpg",
-    imageOne:
-    "../images/work/Olivia_Ialacci_19783853_1 - Olivia Ialacci.jpg",
-    imageTwo:
-    "../images/work/Olivia_Ialacci_19783853_2 - Olivia Ialacci.jpg",
-    imageThree:
-    "../images/work/Olivia_Ialacci_19783853_3 - Olivia Ialacci.jpg",
-    imageFour:
-    "../images/work/Olivia_Ialacci_19783853_4 - Olivia Ialacci.jpg",
-    imageFive:
-    "../images/work/Olivia_Ialacci_19783853_5 - Olivia Ialacci.jpg",
-    imageSix:
-    "../images/work/Olivia_Ialacci_19783853_6 - Olivia Ialacci.jpg"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19501903",
@@ -1548,31 +1062,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19501903_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19501903_STill_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19501903_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19501903_STill_main.jpg",
     imageOne: "../images/work/Sophie_Till_19501903_1 - Sophie Till.jpg",
     imageTwo: "../images/work/Sophie_Till_19501903_2 - Sophie Till.jpg",
     imageThree: "../images/work/Sophie_Till_19501903_3 - Sophie Till.jpg",
     imageFour: "../images/work/Sophie_Till_19501903_4 - Sophie Till.jpg",
     imageFive: "../images/work/Sophie_Till_19501903_5 - Sophie Till.jpg",
     imageSix: "../images/work/Sophie_Till_19501903_6 - Sophie Till.jpg",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/19501903_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/19501903_STill_main.jpg",
-    imageOne:
-    "../images/work/Sophie_Till_19501903_1 - Sophie Till.jpg",
-    imageTwo:
-    "../images/work/Sophie_Till_19501903_2 - Sophie Till.jpg",
-    imageThree:
-    "../images/work/Sophie_Till_19501903_3 - Sophie Till.jpg",
-    imageFour:
-    "../images/work/Sophie_Till_19501903_4 - Sophie Till.jpg",
-    imageFive:
-    "../images/work/Sophie_Till_19501903_5 - Sophie Till.jpg",
-    imageSix:
-    "../images/work/Sophie_Till_19501903_6 - Sophie Till.jpg"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "17817860",
@@ -1594,31 +1091,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/17817860_alt.jpg",
     avatarTwo: "./images/graduateAvatars/17817860_ABertilone_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/17817860_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/17817860_ABertilone_main.jpg",
     imageOne: "../images/work/Alex_Bertilone_17817860_1 - Alex Bertilone.jpg",
     imageTwo: "../images/work/Alex_Bertilone_17817860_2 - Alex Bertilone.jpg",
     imageThree: "../images/work/Alex_Bertilone_17817860_3 - Alex Bertilone.jpg",
     imageFour: "../images/work/Alex_Bertilone_17817860_4 - Alex Bertilone.jpg",
     imageFive: "../images/work/Alex_Bertilone_17817860_5 - Alex Bertilone.jpg",
     imageSix: "",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/17817860_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/17817860_ABertilone_main.jpg",
-    imageOne:
-    "../images/work/Alex_Bertilone_17817860_1 - Alex Bertilone.jpg",
-    imageTwo:
-    "../images/work/Alex_Bertilone_17817860_2 - Alex Bertilone.jpg",
-    imageThree:
-    "../images/work/Alex_Bertilone_17817860_3 - Alex Bertilone.jpg",
-    imageFour:
-    "../images/work/Alex_Bertilone_17817860_4 - Alex Bertilone.jpg",
-    imageFive:
-    "../images/work/Alex_Bertilone_17817860_5 - Alex Bertilone.jpg",
-    imageSix:
-    ""
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19157254",
@@ -1640,31 +1120,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19157254_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19157254_ENewby_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19157254_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19157254_ENewby_main.jpg",
     imageOne: "../images/work/Eleyna_Newby_19157254_1 - Elle Rose.jpg",
     imageTwo: "../images/work/Eleyna_Newby_19157254_2 - Elle Rose.jpg",
     imageThree: "../images/work/Eleyna_Newby_19157254_3 - Elle Rose.jpg",
     imageFour: "../images/work/Eleyna_Newby_19157254_4 - Elle Rose.jpg",
     imageFive: "../images/work/Eleyna_Newby_19157254_5 - Elle Rose.jpg",
     imageSix: "../images/work/Eleyna_Newby_19157254_6 - Elle Rose.jpg",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/19157254_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/19157254_ENewby_main.jpg",
-    imageOne:
-    "../images/work/Eleyna_Newby_19157254_1 - Elle Rose.jpg",
-    imageTwo:
-    "../images/work/Eleyna_Newby_19157254_2 - Elle Rose.jpg",
-    imageThree:
-    "../images/work/Eleyna_Newby_19157254_3 - Elle Rose.jpg",
-    imageFour:
-    "../images/work/Eleyna_Newby_19157254_4 - Elle Rose.jpg",
-    imageFive:
-    "../images/work/Eleyna_Newby_19157254_5 - Elle Rose.jpg",
-    imageSix:
-    "../images/work/Eleyna_Newby_19157254_6 - Elle Rose.jpg"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19454722",
@@ -1686,31 +1149,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19454722_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19454722_MHorler_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19454722_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19454722_MHorler_main.jpg",
     imageOne: "../images/work/Madi_Horler_19454722_1 - Madison Horler.jpg",
     imageTwo: "../images/work/Madi_Horler_19454722_2 - Madison Horler.jpg",
     imageThree: "../images/work/Madi_Horler_19454722_3 - Madison Horler.jpg",
     imageFour: "../images/work/Madi_Horler_19454722_4 - Madison Horler.jpg",
     imageFive: "../images/work/Madi_Horler_19454722_5 - Madison Horler.jpg",
     imageSix: "../images/work/Madi_Horler_19454722_6 - Madison Horler.jpg",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/19454722_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/19454722_MHorler_main.jpg",
-    imageOne:
-    "../images/work/Madi_Horler_19454722_1 - Madison Horler.jpg",
-    imageTwo:
-    "../images/work/Madi_Horler_19454722_2 - Madison Horler.jpg",
-    imageThree:
-    "../images/work/Madi_Horler_19454722_3 - Madison Horler.jpg",
-    imageFour:
-    "../images/work/Madi_Horler_19454722_4 - Madison Horler.jpg",
-    imageFive:
-    "../images/work/Madi_Horler_19454722_5 - Madison Horler.jpg",
-    imageSix:
-    "../images/work/Madi_Horler_19454722_6 - Madison Horler.jpg"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19606154",
@@ -1802,31 +1248,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19963587_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19963587_EMatthews_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19963587_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19963587_EMatthews_main.jpg",
     imageOne: "../images/work/Ella_Matthews_19963587_1 - Ella Matthews.jpg",
     imageTwo: "../images/work/Ella_Matthews_19963587_2 - Ella Matthews.jpg",
     imageThree: "../images/work/Ella_Matthews_19963587_3 - Ella Matthews.jpg",
     imageFour: "../images/work/Ella_Matthews_19963587_4 - Ella Matthews.jpg",
     imageFive: "",
     imageSix: "",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/19963587_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/19963587_EMatthews_main.jpg",
-    imageOne:
-    "../images/work/Ella_Matthews_19963587_1 - Ella Matthews.jpg",
-    imageTwo:
-    "../images/work/Ella_Matthews_19963587_2 - Ella Matthews.jpg",
-    imageThree:
-    "../images/work/Ella_Matthews_19963587_3 - Ella Matthews.jpg",
-    imageFour:
-    "../images/work/Ella_Matthews_19963587_4 - Ella Matthews.jpg",
-    imageFive:
-    "",
-    imageSix:
-    ""
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19133225",
@@ -1848,31 +1277,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19133225_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19133225_AMarbeck_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19133225_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19133225_AMarbeck_main.jpg",
     imageOne: "../images/work/AlexandraMarbeck_19133225_1 - ali marbeck.jpg",
     imageTwo: "../images/work/AlexandraMarbeck_19133225_3 - ali marbeck.jpg",
     imageThree: "../images/work/AlexandraMarbeck_19133225_4 - ali marbeck.jpg",
     imageFour: "../images/work/AlexandraMarbeck_19133225_5 - ali marbeck.jpg",
     imageFive: "../images/work/AlexandraMarbeck_19133225_6 - ali marbeck.jpg",
     imageSix: "../images/work/Alexnadra_Marbeck_19133225_2 - ali marbeck.jpg",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/19133225_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/19133225_AMarbeck_main.jpg",
-    imageOne:
-    "../images/work/AlexandraMarbeck_19133225_1 - ali marbeck.jpg",
-    imageTwo:
-    "../images/work/AlexandraMarbeck_19133225_3 - ali marbeck.jpg",
-    imageThree:
-    "../images/work/AlexandraMarbeck_19133225_4 - ali marbeck.jpg",
-    imageFour:
-    "../images/work/AlexandraMarbeck_19133225_5 - ali marbeck.jpg",
-    imageFive:
-    "../images/work/AlexandraMarbeck_19133225_6 - ali marbeck.jpg",
-    imageSix:
-    "../images/work/Alexnadra_Marbeck_19133225_2 - ali marbeck.jpg"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19749402",
@@ -1894,31 +1306,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19749402_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19749402_GPortelli_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19749402_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19749402_GPortelli_main.jpg",
     imageOne: "../images/work/Gia_Portelli_19749402_1 - Gia Portelli.jpg",
     imageTwo: "../images/work/Gia_Portelli_19749402_2 - Gia Portelli.jpg",
     imageThree: "../images/work/Gia_Portelli_19749402_3 - Gia Portelli.jpg",
     imageFour: "../images/work/Gia_Portelli_19749402_4 - Gia Portelli.jpg",
     imageFive: "../images/work/Gia_Portelli_19749402_5 - Gia Portelli.jpg",
     imageSix: "../images/work/Gia_Portelli_19749402_6 - Gia Portelli.jpg",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/19749402_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/19749402_GPortelli_main.jpg",
-    imageOne:
-    "../images/work/Gia_Portelli_19749402_1 - Gia Portelli.jpg",
-    imageTwo:
-    "../images/work/Gia_Portelli_19749402_2 - Gia Portelli.jpg",
-    imageThree:
-    "../images/work/Gia_Portelli_19749402_3 - Gia Portelli.jpg",
-    imageFour:
-    "../images/work/Gia_Portelli_19749402_4 - Gia Portelli.jpg",
-    imageFive:
-    "../images/work/Gia_Portelli_19749402_5 - Gia Portelli.jpg",
-    imageSix:
-    "../images/work/Gia_Portelli_19749402_6 - Gia Portelli.jpg"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19451231",
@@ -1940,19 +1335,10 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19451231_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19451231_JAtizado_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
-    imageOne: "../images/work/Joaquin_Atizado_1451231_1 - Joaquin Atizado.jpeg",
-    imageTwo: "../images/work/Joaquin_Atizado_1451231_2 - Joaquin Atizado.jpg",
-=======
     avatarOneHQ: "./images/graduateAvatarsHQ/19451231_alt.jpg",
     avatarTwoHQ: "./images/graduateAvatarsHQ/19451231_JAtizado_main.jpg",
-    imageOne:
-    "../images/work/Joaquin_Atizado_1451231_1 - Joaquin Atizado.jpeg",
-    imageTwo:
-    "../images/work/Joaquin_Atizado_1451231_2 - Joaquin Atizado.jpg",
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
+    imageOne: "../images/work/Joaquin_Atizado_1451231_1 - Joaquin Atizado.jpeg",
+    imageTwo: "../images/work/Joaquin_Atizado_1451231_2 - Joaquin Atizado.jpg",
     imageThree:
       "../images/work/Joaquin_Atizado_1451231_4 - Joaquin Atizado.jpg",
     imageFour: "../images/work/Joaquin_Atizado_1451231_5 - Joaquin Atizado.jpg",
@@ -1979,31 +1365,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/18451382_alt.jpg",
     avatarTwo: "./images/graduateAvatars/18451382_CGeyer_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/18451382_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/18451382_CGeyer_main.jpg",
     imageOne: "../images/work/Cooper_Geyer_18451382_1 - Cooper Geyer.png",
     imageTwo: "../images/work/Cooper_Geyer_18451382_2 - Cooper Geyer.png",
     imageThree: "../images/work/Cooper_Geyer_18451382_3 - Cooper Geyer.png",
     imageFour: "../images/work/Cooper_Geyer_18451382_4 - Cooper Geyer.png",
     imageFive: "../images/work/Cooper_Geyer_18451382_5 - Cooper Geyer.png",
     imageSix: "../images/work/Cooper_Geyer_18451382_6 - Cooper Geyer.png",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/18451382_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/18451382_CGeyer_main.jpg",
-    imageOne:
-    "../images/work/Cooper_Geyer_18451382_1 - Cooper Geyer.png",
-    imageTwo:
-    "../images/work/Cooper_Geyer_18451382_2 - Cooper Geyer.png",
-    imageThree:
-    "../images/work/Cooper_Geyer_18451382_3 - Cooper Geyer.png",
-    imageFour:
-    "../images/work/Cooper_Geyer_18451382_4 - Cooper Geyer.png",
-    imageFive:
-    "../images/work/Cooper_Geyer_18451382_5 - Cooper Geyer.png",
-    imageSix:
-    "../images/work/Cooper_Geyer_18451382_6 - Cooper Geyer.png"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19691600",
@@ -2025,31 +1394,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19691600_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19691600_Etey_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19691600_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19691600_Etey_main.jpg",
     imageOne: "../images/work/QuenYi_Tey_19691600_1 - Emily Tey.jpg",
     imageTwo: "../images/work/QuenYi_Tey_19691600_2 - Emily Tey.jpg",
     imageThree: "../images/work/QuenYi_Tey_19691600_3 - Emily Tey.jpg",
     imageFour: "../images/work/QuenYi_Tey_19691600_4 - Emily Tey.jpg",
     imageFive: "../images/work/QuenYi_Tey_19691600_5 - Emily Tey.jpg",
     imageSix: "../images/work/QuenYi_Tey_19691600_6 - Emily Tey.jpg",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/19691600_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/19691600_Etey_main.jpg",
-    imageOne:
-    "../images/work/QuenYi_Tey_19691600_1 - Emily Tey.jpg",
-    imageTwo:
-    "../images/work/QuenYi_Tey_19691600_2 - Emily Tey.jpg",
-    imageThree:
-    "../images/work/QuenYi_Tey_19691600_3 - Emily Tey.jpg",
-    imageFour:
-    "../images/work/QuenYi_Tey_19691600_4 - Emily Tey.jpg",
-    imageFive:
-    "../images/work/QuenYi_Tey_19691600_5 - Emily Tey.jpg",
-    imageSix:
-    "../images/work/QuenYi_Tey_19691600_6 - Emily Tey.jpg"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19778697",
@@ -2071,19 +1423,10 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19778697_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19778697_IMaccarthy_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
-    imageOne: "../images/work/Imogen_McCarthy_19778697_1 - Imogen McCarthy.jpg",
-    imageTwo: "../images/work/Imogen_McCarthy_19778697_2 - Imogen McCarthy.jpg",
-=======
     avatarOneHQ: "./images/graduateAvatarsHQ/19778697_alt.jpg",
     avatarTwoHQ: "./images/graduateAvatarsHQ/19778697_IMaccarthy_main.jpg",
-    imageOne:
-    "../images/work/Imogen_McCarthy_19778697_1 - Imogen McCarthy.jpg",
-    imageTwo:
-    "../images/work/Imogen_McCarthy_19778697_2 - Imogen McCarthy.jpg",
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
+    imageOne: "../images/work/Imogen_McCarthy_19778697_1 - Imogen McCarthy.jpg",
+    imageTwo: "../images/work/Imogen_McCarthy_19778697_2 - Imogen McCarthy.jpg",
     imageThree:
       "../images/work/Imogen_McCarthy_19778697_3 - Imogen McCarthy.jpg",
     imageFour:
@@ -2112,31 +1455,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19523266_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19523266_EMee_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19523266_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19523266_EMee_main.jpg",
     imageOne: "../images/work/Emily_Mee_19523266_1 - Emily Mee.png",
     imageTwo: "../images/work/Emily_Mee_19523266_2 - Emily Mee.png",
     imageThree: "../images/work/Emily_Mee_19523266_3 - Emily Mee.png",
     imageFour: "",
     imageFive: "",
     imageSix: "",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/19523266_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/19523266_EMee_main.jpg",
-    imageOne:
-    "../images/work/Emily_Mee_19523266_1 - Emily Mee.png",
-    imageTwo:
-    "../images/work/Emily_Mee_19523266_2 - Emily Mee.png",
-    imageThree:
-    "../images/work/Emily_Mee_19523266_3 - Emily Mee.png",
-    imageFour:
-    "",
-    imageFive:
-    "",
-    imageSix:
-    ""
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19518259",
@@ -2158,31 +1484,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19518259_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19518259_ERumsa_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19518259_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19518259_ERumsa_main.jpg",
     imageOne: "../images/work/Emmi_Rumsa_19518259_1  - Emmi Rumsa.jpg",
     imageTwo: "../images/work/Emmi_Rumsa_19518259_2 - Emmi Rumsa.jpg",
     imageThree: "../images/work/Emmi_Rumsa_19518259_3 - Emmi Rumsa.jpg",
     imageFour: "../images/work/Emmi_Rumsa_19518259_4 - Emmi Rumsa.jpg",
     imageFive: "../images/work/Emmi_Rumsa_19518259_5 - Emmi Rumsa.jpg",
     imageSix: "../images/work/Emmi_Rumsa_19518259_6 - Emmi Rumsa.jpg",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/19518259_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/19518259_ERumsa_main.jpg",
-    imageOne:
-    "../images/work/Emmi_Rumsa_19518259_1  - Emmi Rumsa.jpg",
-    imageTwo:
-    "../images/work/Emmi_Rumsa_19518259_2 - Emmi Rumsa.jpg",
-    imageThree:
-    "../images/work/Emmi_Rumsa_19518259_3 - Emmi Rumsa.jpg",
-    imageFour:
-    "../images/work/Emmi_Rumsa_19518259_4 - Emmi Rumsa.jpg",
-    imageFive:
-    "../images/work/Emmi_Rumsa_19518259_5 - Emmi Rumsa.jpg",
-    imageSix:
-    "../images/work/Emmi_Rumsa_19518259_6 - Emmi Rumsa.jpg"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19490250",
@@ -2204,31 +1513,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19490250_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19490250_BWatson_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19490250_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19490250_BWatson_main.jpg",
     imageOne: "../images/work/Brandon_Watson_19490520_1 - Brandon Watson.jpg",
     imageTwo: "../images/work/Brandon_Watson_19490520_2 - Brandon Watson.jpg",
     imageThree: "../images/work/Brandon_Watson_19490520_3 - Brandon Watson.jpg",
     imageFour: "../images/work/Brandon_Watson_19490520_4 - Brandon Watson.jpg",
     imageFive: "",
     imageSix: "",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/19490250_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/19490250_BWatson_main.jpg",
-    imageOne:
-    "../images/work/Brandon_Watson_19490520_1 - Brandon Watson.jpg",
-    imageTwo:
-    "../images/work/Brandon_Watson_19490520_2 - Brandon Watson.jpg",
-    imageThree:
-    "../images/work/Brandon_Watson_19490520_3 - Brandon Watson.jpg",
-    imageFour:
-    "../images/work/Brandon_Watson_19490520_4 - Brandon Watson.jpg",
-    imageFive:
-    "",
-    imageSix:
-    ""
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19349611",
@@ -2250,19 +1542,10 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateBags/_DSC1293.jpg",
     avatarTwo: "./images/graduateBags/_DSC1294.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
-    imageOne: "../images/work/dimitri_koranis_19349611_1 - Australia Post.jpg",
-    imageTwo: "../images/work/dimitri_koranis_19349611_2 - Australia Post.jpg",
-=======
     avatarOneHQ: "./images/graduateBagsHQ/_DSC1293.jpg",
     avatarTwoHQ: "./images/graduateBagsHQ/_DSC1294.jpg",
-    imageOne:
-    "../images/work/dimitri_koranis_19349611_1 - Australia Post.jpg",
-    imageTwo:
-    "../images/work/dimitri_koranis_19349611_2 - Australia Post.jpg",
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
+    imageOne: "../images/work/dimitri_koranis_19349611_1 - Australia Post.jpg",
+    imageTwo: "../images/work/dimitri_koranis_19349611_2 - Australia Post.jpg",
     imageThree:
       "../images/work/dimitri_koranis_19349611_3 - Australia Post.jpg",
     imageFour: "../images/work/dimitri_koranis_19349611_4 - Australia Post.jpg",
@@ -2289,31 +1572,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/17978204_alt.jpg",
     avatarTwo: "./images/graduateAvatars/17978204_SWang_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/17978204_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/17978204_SWang_main.jpg",
     imageOne: "../images/work/Shining_Wang_17978204_1 - Shining Wang.jpg",
     imageTwo: "../images/work/Shining_Wang_17978204_2 - Shining Wang.jpg",
     imageThree: "",
     imageFour: "",
     imageFive: "",
     imageSix: "",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/17978204_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/17978204_SWang_main.jpg",
-    imageOne:
-    "../images/work/Shining_Wang_17978204_1 - Shining Wang.jpg",
-    imageTwo:
-    "../images/work/Shining_Wang_17978204_2 - Shining Wang.jpg",
-    imageThree:
-    "",
-    imageFour:
-    "",
-    imageFive:
-    "",
-    imageSix:
-    ""
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19162229",
@@ -2370,31 +1636,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateBags/_DSC1305.jpg",
     avatarTwo: "./images/graduateBags/_DSC1306.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateBagsHQ/_DSC1305.jpg",
+    avatarTwoHQ: "./images/graduateBagsHQ/_DSC1306.jpg",
     imageOne: "../images/work/Henry_Malkovic_19132345_ - Henry M.jpg",
     imageTwo: "../images/work/Henry_Malkovic_19132345_2 - Henry M.jpg",
     imageThree: "../images/work/Henry_Malkovic_19132345_3 - Henry M.jpg",
     imageFour: "../images/work/Henry_Malkovic_19132345_4 - Henry M.jpg",
     imageFive: "../images/work/Henry_Malkovic_19132345_5 - Henry M.jpg",
     imageSix: "../images/work/Henry_Malkovic_19132345_6 - Henry M.jpg",
-=======
-    avatarOneHQ: "./images/graduateBagsHQ/_DSC1305.jpg",
-    avatarTwoHQ: "./images/graduateBagsHQ/_DSC1306.jpg",
-    imageOne:
-    "../images/work/Henry_Malkovic_19132345_ - Henry M.jpg",
-    imageTwo:
-    "../images/work/Henry_Malkovic_19132345_2 - Henry M.jpg",
-    imageThree:
-    "../images/work/Henry_Malkovic_19132345_3 - Henry M.jpg",
-    imageFour:
-    "../images/work/Henry_Malkovic_19132345_4 - Henry M.jpg",
-    imageFive:
-    "../images/work/Henry_Malkovic_19132345_5 - Henry M.jpg",
-    imageSix:
-    "../images/work/Henry_Malkovic_19132345_6 - Henry M.jpg"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19754202",
@@ -2417,31 +1666,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19754202_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19754202_ZLo_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19754202_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19754202_ZLo_main.jpg",
     imageOne: "../images/work/Zac_Lo_19754202_1 - Zac Lo.jpg",
     imageTwo: "../images/work/Zac_Lo_19754202_2 - Zac Lo.jpg",
     imageThree: "../images/work/Zac_Lo_19754202_3 - Zac Lo.jpg",
     imageFour: "../images/work/Zac_Lo_19754202_4 - Zac Lo.jpg",
     imageFive: "../images/work/Zac_Lo_19754202_5 - Zac Lo.png",
     imageSix: "../images/work/Zac_Lo_19754202_6 - Zac Lo.png",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/19754202_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/19754202_ZLo_main.jpg",
-    imageOne:
-    "../images/work/Zac_Lo_19754202_1 - Zac Lo.jpg",
-    imageTwo:
-    "../images/work/Zac_Lo_19754202_2 - Zac Lo.jpg",
-    imageThree:
-    "../images/work/Zac_Lo_19754202_3 - Zac Lo.jpg",
-    imageFour:
-    "../images/work/Zac_Lo_19754202_4 - Zac Lo.jpg",
-    imageFive:
-    "../images/work/Zac_Lo_19754202_5 - Zac Lo.png",
-    imageSix:
-    "../images/work/Zac_Lo_19754202_6 - Zac Lo.png"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19460062",
@@ -2463,31 +1695,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19460062_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19460062_CArena_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19460062_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19460062_CArena_main.jpg",
     imageOne: "../images/work/riley - Lotte Arena.png",
     imageTwo: "",
     imageThree: "",
     imageFour: "",
     imageFive: "",
     imageSix: "",
-=======
-    avatarOneHQ:"./images/graduateAvatarsHQ/19460062_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/19460062_CArena_main.jpg",
-    imageOne:
-    "../images/work/riley - Lotte Arena.png",
-    imageTwo:
-    "",
-    imageThree:
-    "",
-    imageFour:
-    "",
-    imageFive:
-    "",
-    imageSix:
-    ""
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19471666",
@@ -2510,31 +1725,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19471666_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19471666_JTrijo.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19471666_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19471666_JTrijo.jpg",
     imageOne: "../images/work/Jet_Trijo_19471666_1 - Jet.jpg",
     imageTwo: "../images/work/Jet_Trijo_19471666_2 - Jet.jpg",
     imageThree: "../images/work/Jet_Trijo_19471666_3 - Jet.jpg",
     imageFour: "../images/work/Jet_Trijo_19471666_4 - Jet.jpg",
     imageFive: "../images/work/Jet_Trijo_19471666_5 - Jet.jpg",
     imageSix: "../images/work/Jet_Trijo_19471666_6 - Jet.jpg",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/19471666_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/19471666_JTrijo.jpg",
-    imageOne:
-    "../images/work/Jet_Trijo_19471666_1 - Jet.jpg",
-    imageTwo:
-    "../images/work/Jet_Trijo_19471666_2 - Jet.jpg",
-    imageThree:
-    "../images/work/Jet_Trijo_19471666_3 - Jet.jpg",
-    imageFour:
-    "../images/work/Jet_Trijo_19471666_4 - Jet.jpg",
-    imageFive:
-    "../images/work/Jet_Trijo_19471666_5 - Jet.jpg",
-    imageSix:
-    "../images/work/Jet_Trijo_19471666_6 - Jet.jpg"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19483580",
@@ -2556,31 +1754,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19483580_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19483580_KMarks_main.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19483580_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19483580_KMarks_main.jpg",
     imageOne: "../images/work/Kasey_Marks_19483580_1 - Kasey Marks.jpg",
     imageTwo: "../images/work/Kasey_Marks_19483580_2 - Kasey Marks.jpg",
     imageThree: "../images/work/Kasey_Marks_19483580_3 - Kasey Marks.jpg",
     imageFour: "../images/work/Kasey_Marks_19483580_4 - Kasey Marks.jpg",
     imageFive: "../images/work/Kasey_Marks_19483580_5 - Kasey Marks.jpg",
     imageSix: "../images/work/Kasey_Marks_19483580_6 - Kasey Marks.jpg",
-=======
-    avatarOneHQ: "./images/graduateAvatarsHQ/19483580_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/19483580_KMarks_main.jpg",
-    imageOne:
-    "../images/work/Kasey_Marks_19483580_1 - Kasey Marks.jpg",
-    imageTwo:
-    "../images/work/Kasey_Marks_19483580_2 - Kasey Marks.jpg",
-    imageThree:
-    "../images/work/Kasey_Marks_19483580_3 - Kasey Marks.jpg",
-    imageFour:
-    "../images/work/Kasey_Marks_19483580_4 - Kasey Marks.jpg",
-    imageFive:
-    "../images/work/Kasey_Marks_19483580_5 - Kasey Marks.jpg",
-    imageSix:
-    "../images/work/Kasey_Marks_19483580_6 - Kasey Marks.jpg"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19490292",
@@ -2602,31 +1783,14 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateBags/_DSC1450.jpg",
     avatarTwo: "./images/graduateBags/_DSC1453.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateBagsHQ/_DSC1450.jpg",
+    avatarTwoHQ: "./images/graduateBagsHQ/_DSC1453.jpg",
     imageOne: "../images/work/Emily_Lowry_19490292_1 - Em Lowry.jpg",
     imageTwo: "../images/work/Emily_Lowry_19490292_2 - Em Lowry.png",
     imageThree: "../images/work/Emily_Lowry_19490292_3 - Em Lowry.png",
     imageFour: "../images/work/Emily_Lowry_19490292_4 - Em Lowry.png",
     imageFive: "../images/work/Emily_Lowry_19490292_5 - Em Lowry.png",
     imageSix: "../images/work/Emily_Lowry_19490292_6 - Em Lowry.png",
-=======
-    avatarOneHQ: "./images/graduateBagsHQ/_DSC1450.jpg",
-    avatarTwoHQ: "./images/graduateBagsHQ/_DSC1453.jpg",
-    imageOne:
-    "../images/work/Emily_Lowry_19490292_1 - Em Lowry.jpg",
-    imageTwo:
-    "../images/work/Emily_Lowry_19490292_2 - Em Lowry.png",
-    imageThree:
-    "../images/work/Emily_Lowry_19490292_3 - Em Lowry.png",
-    imageFour:
-    "../images/work/Emily_Lowry_19490292_4 - Em Lowry.png",
-    imageFive:
-    "../images/work/Emily_Lowry_19490292_5 - Em Lowry.png",
-    imageSix:
-    "../images/work/Emily_Lowry_19490292_6 - Em Lowry.png"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
   {
     studentNumber: "19502317",
@@ -2648,9 +1812,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateBags/_DSC1450.jpg",
     avatarTwo: "./images/graduateBags/_DSC1453.jpg",
-<<<<<<< HEAD
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateBagsHQ/_DSC1450.jpg",
+    avatarTwoHQ: "./images/graduateBagsHQ/_DSC1453.jpg",
     imageOne: "../images/work/vieira_lucas_19502317_1 - Scott Wicks.jpg",
     imageTwo: "../images/work/vieira_lucas_19502317_2 - Scott Wicks.jpg",
     imageThree: "../images/work/vieira_lucas_19502317_3 - Scott Wicks.jpg",
@@ -2861,21 +2024,5 @@ export const Graduates = [
     imageFour: "../images/work/",
     imageFive: "../images/work/",
     imageSix: "../images/work/",
-=======
-    avatarOneHQ: "./images/graduateBagsHQ/_DSC1450.jpg",
-    avatarTwoHQ: "./images/graduateBagsHQ/_DSC1453.jpg",
-    imageOne:
-    "../images/work/vieira_lucas_19502317_1 - Scott Wicks.jpg",
-    imageTwo:
-    "../images/work/vieira_lucas_19502317_2 - Scott Wicks.jpg",
-    imageThree:
-    "../images/work/vieira_lucas_19502317_3 - Scott Wicks.jpg",
-    imageFour:
-    "../images/work/vieira_lucas_19502317_4 - Scott Wicks.jpg",
-    imageFive:
-    "../images/work/vieira_lucas_19502317_5 - Scott Wicks.jpg",
-    imageSix:
-    "../images/work/vieira_lucas_19502317_6 - Scott Wicks.jpg"
->>>>>>> 53943e1ab9ebe898de03f4c35b95eabd5bc8b617
   },
 ];
