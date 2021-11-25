@@ -265,6 +265,8 @@ A[href="#"] {
 .avatarContainer {
   position: relative;
   margin-top: 1vw;
+  width: 100%;
+  height: 100%;
 }
 
 .avatarImage {
@@ -464,61 +466,10 @@ hr {
   }
 }
 
-// image slider
-.image-slider {
-  height: 250px;
-  width: 100%;
-  .slick {
-    background-color: #8eb4a9;
-    height: 200px;
-    width: 150px;
-    margin: 1rem;
-  }
-  .kitten1 {
-    background: url("https://images.unsplash.com/photo-1595433707802-6b2626ef1c91?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .kitten2 {
-    background: url("https://images.unsplash.com/photo-1560114928-40f1f1eb26a0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1770&q=80");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .kitten3 {
-    background: url("https://images.unsplash.com/photo-1572590285030-0ae6a4715671?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .kitten4 {
-    background: url("https://images.unsplash.com/photo-1615497001839-b0a0eac3274c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .kitten5 {
-    background: url("https://images.unsplash.com/photo-1606509769472-7660d4a478ac?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .kitten6 {
-    background: url("https://images.unsplash.com/photo-1558674378-e4334d4fecc2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1770&q=80");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .kitten7 {
-    background: url("https://images.unsplash.com/photo-1574144611937-0df059b5ef3e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=928&q=80");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-}
-
 @media screen and (max-width: 768px) {
+  .bioStyle {
+    padding-bottom: 0;
+  }
   .paddingLeft {
     position: relative;
     padding-left: 0em;
