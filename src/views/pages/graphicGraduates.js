@@ -111,7 +111,6 @@ class GraphicGraduatesView {
       <va-app-header title="Shop"></va-app-header>
       <div class="page-content">
         <!-- title -->
-        <h2>Graduates.</h2>
 
         <h1>Graphic Design Graduates</h1>
 
