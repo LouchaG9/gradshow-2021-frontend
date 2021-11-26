@@ -133,14 +133,10 @@ class AboutView {
             <h3>Photography Team</h3>
             <ul>
               <li>Ruitan Huang</li>
-              <li>Dee</li>
-              <li>Jet</li>
-              <li>Rebekah</li>
-              <li>Caitlyn</li>
-              <li>Josh</li>
-              <li>Brandon</li>
-              <li>Rhys</li>
-              <li>Jake</li>
+              <li>Dana Knowles</li>
+              <li>Jet Trijo</li>
+              <li>Joshua Michell</li>
+              <li>Brandon Watson</li>
             </ul>
           </div>
           
