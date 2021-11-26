@@ -67,9 +67,9 @@ class specificProfile {
               />
             </div>
           </div>
-          <div class="column paddingLeft">
+          <div class="column paddingLeft paddingTop">
             <h3>${globalThis.studentIdGlobal.major}</h3>
-            <h1>
+            <h1 class="lessMargin">
               ${globalThis.studentIdGlobal.firstName}
               ${globalThis.studentIdGlobal.lastName}
             </h1>
@@ -163,7 +163,7 @@ class specificProfile {
 
         <!-- WORK ---------------------------------->
         <section>
-          <h2 class="profile">
+          <h2 class="profile workTitle">
             Some of ${globalThis.studentIdGlobal.firstName}'s Work
           </h2>
           <!-- This is where we will display a couple of the students best works. -->
