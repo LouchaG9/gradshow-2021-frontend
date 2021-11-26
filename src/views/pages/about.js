@@ -125,6 +125,7 @@ class AboutView {
               <li>Lachlan Robertson</li>
               <li>Jekko Cabral</li>
               <li>Yaeram Kim</li>
+              <li>Jamin Saw</li>
             </ul>
           </div>
 
@@ -166,7 +167,7 @@ class AboutView {
               <li>Dana Knowles</li>
               <li>Tian Hock Yan</li>
               <li>Michael D'Costa</li>
-              <li>Ella Edwards</li>
+              <li>Ella Matthews</li>
               <li>Ruitan Huang</li>
               <li>Jet Trijo</li>
               <li>Yaeram Kim</li>
