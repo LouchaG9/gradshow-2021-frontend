@@ -1241,7 +1241,7 @@ export const Graduates = [
     bio: "Since childhood I have loved animals, the natural world and the fantastical, and tried to replicate the feeling of wonder that these awoke inside me. First I followed this to biology before pivoting to animation due to my wish to be able to share my fascination with life with others. My passion for 3D and animation has since bloomed while helping me to explore the depths of my creativity. I'm enraptured by the art of storytelling and have always enjoyed engaging with creative mediums. I recently discovered I have aphantasia, which has only fuelled my passion. Being able to see my creations come to life, compensating for the lack of visuals in my head is incredibly rewarding.\nWhile 3D character design of both humans and animals is my personal passion, I have broadened myself to a 3D generalist as I enjoy other parts of the creative pipeline, including rigging, animation, and environment modelling, as well as gaining significant experience working with game engines. Throughout my studies I have also found a passion for teamwork and love exploring ideas with others to create beautiful stories, be it through games or animations. My dream for the future is to work with other creative individuals on weird and wonderful projects that we can share with the world.",
     tagLine:
       "3D artist here to help create that magical world that brings everyones inner kid out.",
-    portfolio: "http://sophietillart.com/",
+    portfolio: "https://www.artstation.com/sophietill",
     linkedin: "https://www.linkedin.com/in/sophie-till-178a55219/",
     instagram: "https://www.instagram.com/sophietillart/",
     twitter: "",
@@ -1838,7 +1838,7 @@ export const Graduates = [
     major: "Digital Experience and Interaction Design",
     bio: "With a decent knowledge of working under pressure with people, I've developed the confidence and personality that can calm people down and never lose control. I have been exploring and developing skills for several roles: Website Developer, CRM Trainer & Tasks Designer, and Real Estate Photographer. Thanks to those experiences, I realize the most essential thing in collaboration is to maintain clear communication with others about the needs and expectations and close the loop. I'm passionate about full-stack development and always feel super excited when the new projects go up online.",
     tagLine: "Yes, Shi-ning, Two Words, Not Typo ;)",
-    portfolio: "",
+    portfolio: "https://portfolio-sning.herokuapp.com/",
     linkedin: "",
     instagram: "",
     twitter: "",
@@ -1892,11 +1892,11 @@ export const Graduates = [
     imageTwo:
     "../images/work/Michael_D_Costa_19162229_3.jpg - Michael D_Costa.jpg",
     imageThree:
-    "../images/work/Michael_D_Costa_19162229_5.jpg - Michael D_Costa.jpg",
+    "../images/work/Michael_D_Costa_19162229_5 - Michael D_Costa.jpg",
     imageFour:
     "../images/work/Michael_D_Costa_19162229_2.jpg - Michael D_Costa.jpg",
     imageFive:
-    "../images/work/Michael_D_Costa_19162229_4 - Michael D_Costa.jpg",
+    "../images/work/Michael_D_Costa_19162229_4.jpg - Michael D_Costa.jpg",
     imageSix:
     "../images/work/Michael_D_Costa_19162229_6 - Michael D_Costa.jpg"
   },
