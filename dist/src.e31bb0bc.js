@@ -8248,11 +8248,11 @@ const Graduates = [{
   avatarOneHQ: "./images/graduateBagsHQ/_DSC1411.jpg",
   avatarTwoHQ: "./images/graduateBagsHQ/_DSC1408.jpg",
   imageOne: "../images/work/Julian_Osborn_19467092_1 - Jippy.jpg",
-  imageTwo: "../images/work/Julian_Osborn_19467092_2 - Jippy.jpg",
-  imageThree: "../images/work/Julian_Osborn_19467092_3 - Jippy.jpg",
-  imageFour: "../images/work/Julian_Osborn_19467092_4 - Jippy.jpg",
+  imageTwo: "../images/work/Julian_Osborn_19467092_4 - Jippy.jpg",
+  imageThree: "../images/work/Julian_Osborn_19467092_2 - Jippy.png",
+  imageFour: "../images/work/Julian_Osborn_19467092_3 - Jippy.jpg",
   imageFive: "../images/work/Julian_Osborn_19467092_5 - Jippy.jpg",
-  imageSix: "../images/work/Julian_Osborn_19467092_6 - Jippy.jpg"
+  imageSix: "../images/work/Julian_Osborn_19467092_6 - Jippy.png"
 }, {
   studentNumber: "17373236",
   firstName: "Emily",
@@ -16361,7 +16361,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56288" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59542" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

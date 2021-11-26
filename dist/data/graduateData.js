@@ -1080,15 +1080,15 @@ export const Graduates = [
     imageOne:
     "../images/work/Julian_Osborn_19467092_1 - Jippy.jpg",
     imageTwo:
-    "../images/work/Julian_Osborn_19467092_2 - Jippy.jpg",
-    imageThree:
-    "../images/work/Julian_Osborn_19467092_3 - Jippy.jpg",
-    imageFour:
     "../images/work/Julian_Osborn_19467092_4 - Jippy.jpg",
+    imageThree:
+    "../images/work/Julian_Osborn_19467092_2 - Jippy.png",
+    imageFour:
+    "../images/work/Julian_Osborn_19467092_3 - Jippy.jpg",
     imageFive:
     "../images/work/Julian_Osborn_19467092_5 - Jippy.jpg",
     imageSix:
-    "../images/work/Julian_Osborn_19467092_6 - Jippy.jpg"
+    "../images/work/Julian_Osborn_19467092_6 - Jippy.png"
   },
   {
     studentNumber: "17373236",
@@ -2300,9 +2300,9 @@ export const Graduates = [
     lastName: "Klause",
     email: "louis.klause@gmail.com",
     major: "Digital Experience and Interaction Design",
-    bio: "Hi, my name's Louis 👋<br><br>Recent graduate of User Experience and Interaction Design at Curtin University, Perth.<br><br>I approach life and design with a double-diamond methodology, and if that doesn't work I'll usually resort to flexbox.<br><br>The images here and on my portfolio are just a sample of some of my projects undertaken at University and during my time as an intern at Humaan.<br><br>When I'm not designing or coding, I'm illustrating, listening to Mac Miller, and wondering how they originally thought it would be a good idea to name the like button the 'awesome button'..",
-    tagLine: "🚂 More steam than a locomotive scroll 🚂",
-    portfolio: "https://louisklause.design",
+    bio: "Hi, my name's Louis 👋\n\nRecent graduate of User Experience and Interaction Design at Curtin University, Perth.\n\nI approach life and design with a double-diamond methodology, and if that doesn't work I'll usually resort to flexbox.\n\nThe images here and on my portfolio are just a sample of some of my projects undertaken at University and during my time as an intern at Humaan.\n\nWhen I'm not designing or coding, I'm illutrating, listening to Mac Miller, and wondering how they originally thought it would be a good idea to name the like button the 'awesome button'..",
+    tagLine: "More steam than a locomotive scroll",
+    portfolio: "louisklause.design",
     linkedin: "https://www.linkedin.com/in/louis-klause-09230180/",
     instagram: "https://www.instagram.com/louisklause.design/",
     twitter: "",
@@ -2316,9 +2316,9 @@ export const Graduates = [
     avatarTwo: "./images/graduateAvatars/18365331_LKause_main.jpg",
     avatarOneHQ: "./images/graduateAvatarsHQ/18365331_alt.jpg",
     avatarTwoHQ:  "./images/graduateAvatarsHQ/18365331_LKause_main.jpg",
-    imageOne: "../images/work/Louis_Klause_18365331_3 - Louis Klause.jpg",
+    imageOne: "../images/work/Louis_Klause_18365331_1 - Louis Klause.jpg",
     imageTwo: "../images/work/Louis_Klause_18365331_2 - Louis Klause.jpg",
-    imageThree: "../images/work/Louis_Klause_18365331_1 - Louis Klause.jpg",
+    imageThree: "../images/work/Louis_Klause_18365331_3 - Louis Klause.jpg",
     imageFour: "../images/work/",
     imageFive: "../images/work/",
     imageSix: "../images/work/",
