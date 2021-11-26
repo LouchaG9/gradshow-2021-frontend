@@ -2131,10 +2131,10 @@ export const Graduates = [
     dribbble: "",
     github: "",
     shirt: "",
-    avatarOne: "./images/graduateBags/_DSC1450.jpg",
-    avatarTwo: "./images/graduateBags/_DSC1453.jpg",
-    avatarOneHQ: "./images/graduateBagsHQ/_DSC1450.jpg",
-    avatarTwoHQ: "./images/graduateBagsHQ/_DSC1453.jpg",
+    avatarOne: "./images/graduateAvatars/19502317_LVielra_main.jpg",
+    avatarTwo: "./images/graduateAvatars/19502317_alt.jpg",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19502317_LVielra_main.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19502317_alt.jpg",
     imageOne:
     "../images/work/vieira_lucas_19502317_1 - Scott Wicks.jpg",
     imageTwo:
