@@ -15,7 +15,20 @@ class HomeView {
   init() {
     console.log("HomeView.init");
     document.title = "Home";
+    this.videoCurrent = 1;
+    this.videoIndexLink = {
+      1:"https://www.youtube.com/embed/VJGbuDb7pbM?list=TLGGo8m-auYN_bYyNjExMjAyMQ",
+      2:"https://www.youtube.com/embed/VJGbuDb7pbM?list=TLGGo8m-auYN_bYyNjExMjAyMQ",
+      3:"https://www.youtube.com/embed/AXHLKWwcyeI?list=TLGGP8NBRo6B7qsyNjExMjAyMQ"
+    };
+    this.videoIndexTitle = {
+      1:"Graphic Design",
+      2:"Digital Design",
+      3:"Animation And Game Design"
+    };
     this.render();
+    this.videoResize();
+    this.listenToWidthChange();
     this.pageIntroAnim2();
   }
 
@@ -44,13 +57,72 @@ class HomeView {
     );
   }
 
+  videoResize() {
+    let ele = document.querySelector("#topBannerLeft");
+    let targetVideoHolder = document.querySelector(".gradVideoHolder");
+    let topBannerHolderWidth = ele.clientWidth;
+    console.log(topBannerHolderWidth);
+    if(window.innerWidth > 768){
+      targetVideoHolder.style.width = topBannerHolderWidth*0.8 + "px";
+      targetVideoHolder.style.height = topBannerHolderWidth*0.8/16*9 + "px";
+    } else if (window.innerWidth <= 768){
+      targetVideoHolder.style.width = topBannerHolderWidth + "px";
+      targetVideoHolder.style.height = topBannerHolderWidth/16*9 + "px";
+    };
+    let currentPage = window.location.pathname;
+    if(currentPage === "/"){
+      //pass
+    } else {
+      window.removeEventListener('resize', this.videoResize);
+    }
+  }
+
+  listenToWidthChange() {
+    try {
+      window.removeEventListener('resize', this.videoResize);
+      console.log("listener removed")
+    } catch (error) {
+      console.log(error)
+    }
+    console.log("new listenr attached");
+    window.addEventListener('resize', this.videoResize);
+  }
+
+  videoTriggerCal(tra) {
+    if(tra === "-"){
+      if(this.videoCurrent === 1){
+        this.videoCurrent = 3;
+        this.renderVideoDiv(this.videoCurrent);
+      } else {
+        this.videoCurrent -= 1;
+        this.renderVideoDiv(this.videoCurrent);
+      }
+    } else if(tra === "+") {
+      if(this.videoCurrent === 3){
+        this.videoCurrent = 1;
+        this.renderVideoDiv(this.videoCurrent);
+      } else {
+        this.videoCurrent += 1;
+        this.renderVideoDiv(this.videoCurrent);
+      }
+    }
+  }
+
+  renderVideoDiv(i) {
+    let eleIframe = document.querySelector("#videoIframe");
+    eleIframe.src = this.videoIndexLink[i];
+    let eleTitle = document.querySelector("#majorTitle");
+    eleTitle.innerHTML = this.videoIndexTitle[i];
+  }
+
   render() {
     const template = html`
+    
       <va-app-header title="Home"></va-app-header>
 
       <div class="page-content" id="pageContent">
         <section class="banner">
-          <div class="left">
+          <div class="left" id="topBannerLeft">
             <h2 class="subheading">
               Welcome to the DeStore 2021 Curtin Design Graduate Showcase
             </h2>
@@ -61,7 +133,26 @@ class HomeView {
               Shop all graduates
             </button>
           </div>
-          <div class="right"></div>
+          <div class="right">
+            <div class="gradVideoHolder">
+              <iframe id="videoIframe" width="100%" height="100%"
+                src="https://www.youtube.com/embed/VJGbuDb7pbM?list=TLGGo8m-auYN_bYyNjExMjAyMQ" 
+                title="YouTube video player" 
+                frameborder="0" 
+                autoplay; 
+                clipboard-write; 
+                encrypted-media; 
+                gyroscope; 
+                picture-in-picture" 
+                allowfullscreen>
+              </iframe>
+            </div>
+            <div class="videoTriggerHolder">
+              <div class="videoTriggerButtonLeft" @click="${() => this.videoTriggerCal("-")}"> <h3> < </h3></div>
+              <div class="videoTriggerDiv"> <h3><span id="majorTitle">DD Grads</span></h3> </div>
+              <div class="videoTriggerButtonLeft" @click="${() => this.videoTriggerCal("+")}"> <h3> > </h3></div>
+            </div>
+          </div>
         </section>
 
         <section class="majors">
