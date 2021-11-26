@@ -265,8 +265,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateAvatars/19785231_alt.jpg",
     avatarTwo: "./images/graduateAvatars/19785231_MZhai_main.jpg",
-    avatarOneHQ: "",
-    avatarTwoHQ: "",
+    avatarOneHQ: "./images/graduateAvatarsHQ/19785231_alt.jpg",
+    avatarTwoHQ: "./images/graduateAvatarsHQ/19785231_MZhai_main.jpg",
     imageOne:
     "../images/work/Milla_Zhai_19785231_1 - milla zhai.jpg",
     imageTwo:
@@ -1061,8 +1061,8 @@ export const Graduates = [
     lastName: "Osborn",
     email: "19467092@student.curtin.edu.au",
     major: "Digital Experience and Interaction Design",
-    bio: "Hello there. I'm Julian, a designer & developer with a keen eye for curating aesthetics. I draw from a wide range of sources and strive to create meaningful work. I'm well-versed in web development, design, and art. Check out my personal website for an in-depth look at my work.",
-    tagLine: "Friendly guy with strong skills in web & graphic design",
+    bio: "Hi there. I'm Julian, a designer & developer with a keen eye for curating aesthetics. I draw from a wide range of sources and strive to create meaningful work. I'm well-versed in web development, design, and art. I have over 15 million plays on Spotify, run my own e-commerce site, and I like to maintain a determined work ethic. Check out my personal portfolio website for an in-depth look at my work.",
+    tagLine: "A creative person with strong skills in web & graphic design 🎨",
     portfolio: "https://www.julianosborn.com",
     linkedin: "",
     instagram: "https://www.instagram.com/yourbestfriendjippy/",
@@ -1073,10 +1073,10 @@ export const Graduates = [
     dribbble: "",
     github: "https://github.com/julian099",
     shirt: "https://yourbestfriendjippy.com",
-    avatarOne: "./images/graduateBags/_DSC1411.jpg",
-    avatarTwo: "./images/graduateBags/_DSC1408.jpg",
-    avatarOneHQ: "./images/graduateBagsHQ/_DSC1411.jpg",
-    avatarTwoHQ: "./images/graduateBagsHQ/_DSC1408.jpg",
+    avatarOne: "./images/graduateBags/_DSC1450.jpg",
+    avatarTwo: "./images/graduateBags/_DSC1453.jpg",
+    avatarOneHQ: "./images/graduateBags/_DSC1450.jpg",
+    avatarTwoHQ: "./images/graduateBags/_DSC1453.jpg",
     imageOne:
     "../images/work/Julian_Osborn_19467092_1 - Jippy.jpg",
     imageTwo:
@@ -1815,8 +1815,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateBags/_DSC1293.jpg",
     avatarTwo: "./images/graduateBags/_DSC1294.jpg",
-    avatarOneHQ: "./images/graduateBagsHQ/_DSC1293.jpg",
-    avatarTwoHQ: "./images/graduateBagsHQ/_DSC1294.jpg",
+    avatarOneHQ: "./images/graduateBags/_DSC1293.jpg",
+    avatarTwoHQ: "./images/graduateBags/_DSC1294.jpg",
     imageOne:
     "../images/work/dimitri_koranis_19349611_1 - Australia Post.jpg",
     imageTwo:
@@ -1921,8 +1921,8 @@ export const Graduates = [
     shirt: "",
     avatarOne: "./images/graduateBags/_DSC1305.jpg",
     avatarTwo: "./images/graduateBags/_DSC1306.jpg",
-    avatarOneHQ: "./images/graduateBagsHQ/_DSC1305.jpg",
-    avatarTwoHQ: "./images/graduateBagsHQ/_DSC1306.jpg",
+    avatarOneHQ: "./images/graduateBags/_DSC1305.jpg",
+    avatarTwoHQ: "./images/graduateBags/_DSC1306.jpg",
     imageOne:
     "../images/work/Henry_Malkovic_19132345_ - Henry M.jpg",
     imageTwo:
@@ -2096,10 +2096,10 @@ export const Graduates = [
     dribbble: "",
     github: "",
     shirt: "",
-    avatarOne: "./images/graduateBags/_DSC1450.jpg",
-    avatarTwo: "./images/graduateBags/_DSC1453.jpg",
-    avatarOneHQ: "./images/graduateBagsHQ/_DSC1450.jpg",
-    avatarTwoHQ: "./images/graduateBagsHQ/_DSC1453.jpg",
+    avatarOne: "./images/graduateBags/_DSC1411.jpg",
+    avatarTwo: "./images/graduateBags/_DSC1408.jpg",
+    avatarOneHQ: "./images/graduateBags/_DSC1411.jpg",
+    avatarTwoHQ: "./images/graduateBags/_DSC1408.jpg",
     imageOne:
     "../images/work/Emily_Lowry_19490292_1 - Em Lowry.jpg",
     imageTwo:
