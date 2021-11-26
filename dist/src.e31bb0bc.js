@@ -9374,7 +9374,7 @@ var _graduateData = require("./../../../static/data/graduateData");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject() {
-  const data = _taggedTemplateLiteral(["\n      <va-app-header title=\"Home\"></va-app-header>\n\n      <div class=\"page-content\" id=\"pageContent\">\n        <section class=\"banner\">\n          <div class=\"left\">\n            <h2 class=\"subheading\">\n              Welcome to the DeStore 2021 Curtin Design Graduate Showcase\n            </h2>\n            <button\n              class=\"shop-graduates-btn\"\n              @click=\"", "\"\n            >\n              Shop all graduates\n            </button>\n          </div>\n          <div class=\"right\"></div>\n        </section>\n\n        <section class=\"majors\">\n          <div class=\"major-columns\">\n            <div\n              class=\"animation-column\"\n              @click=\"", "\"\n            >\n              <img\n                src=\"./images/AGD-Basket.svg\"\n                alt=\"animation basket\"\n                class=\"major-svg agd-svg\"\n              />\n              <div class=\"sign-item\">\n                <h3>Animation</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Game Design</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Fruit</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Vegetables</h3>\n              </div>\n            </div>\n\n            <div class=\"digex-column\" @click=\"", "\">\n              <img\n                src=\"./images/DD-Clip.svg\"\n                alt=\"Digital bread clip\"\n                class=\"major-svg dd-svg\"\n              />\n              <!-- https://drive.google.com/file/d/1IsaWr0JahaPZcVp5KBb7hjr1n7UpTelJ/view?usp=sharing -->\n              <div class=\"sign-item\">\n                <h3>Digital Design</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Baked Goods</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Fresh Bread</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Wraps</h3>\n              </div>\n            </div>\n\n            <div\n              class=\"graphic-column\"\n              @click=\"", "\"\n            >\n              <img\n                src=\"./images/GD-Tag.svg\"\n                alt=\"graphic design tag\"\n                class=\"major-svg gd-dvg\"\n              />\n              <div class=\"sign-item\">\n                <h3>Graphic Design</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Cold Meats</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Cheese</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Olives</h3>\n              </div>\n            </div>\n          </div>\n        </section>\n\n        <section class=\"about-us\">\n          <div class=\"left\">\n            <img\n              src=\"https://drive.google.com/uc?export=view&id=1JxGAVQPoi8QiT08CvTJ3HCLaUbvSQoiu\"\n              alt=\"Destore Logo\"\n              class=\"logo-img\"\n            />\n          </div>\n          <div class=\"right\">\n            <h2>What are we?</h2>\n            <p>\n              On the other hand, we denounce with righteous indignation and\n              dislike men who are so beguiled and demoralized by the charms of\n              pleasure of the moment, so blinded by desire, that they cannot\n              foresee the pain and trouble that are bound to ensue;<br /><br />and\n              equal blame belongs to those who fail in their duty through\n              weakness of will, which is the same as saying through shrinking\n              from toil and pain. These cases are perfectly simple and easy to\n              distinguish. In a free hour, when our power of choice is\n              untrammelled and when nothing prevents our being able to do what\n              we like best\n            </p>\n            <button class=\"learn\" @click=\"", "\">\n              Learn about us\n            </button>\n          </div>\n        </section>\n\n        <section class=\"reviews\">\n          <div class=\"left\">\n            <h2 class=\"subheading\">What are people saying?</h2>\n          </div>\n\n          <div class=\"right\">\n            <div class=\"quote-one\">\n              <h3 class=\"tutor\">Joel Louie</h3>\n              <h4>Digital Design Major Coordinator</h4>\n              <p>\n                \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed\n                elementum maximus sem non venenatis. In erat turpis, suscipit\n                non libero sed, fermentum interdum nunc. Duis sagittis neque sit\n                amet.\"\n              </p>\n            </div>\n            <div class=\"quote-two\">\n              <h3 class=\"tutor\">Lee Ingram</h3>\n              <h4>Graphic Design Major Coordinator</h4>\n              <p>\n                \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed\n                elementum maximus sem non venenatis. In erat turpis, suscipit\n                non libero sed, fermentum interdum nunc. Duis sagittis neque sit\n                amet.\"\n              </p>\n            </div>\n            <div class=\"quote-three\">\n              <h3 class=\"tutor\">Jonathon Pillai</h3>\n              <h4>Animation & Game Design Major Coordinator</h4>\n              <p>\n                \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed\n                elementum maximus sem non venenatis. In erat turpis, suscipit\n                non libero sed, fermentum interdum nunc. Duis sagittis neque sit\n                amet.\"\n              </p>\n            </div>\n          </div>\n        </section>\n      </div>\n\n      <footer>\n        <div class=\"footer-content\">\n          <div class=\"destore-col\">\n            <h3>DeStore</h3>\n            <p>\n              Monday - Closed <br />\n              Tuesday \u2013 Saturday: 7:00 am \u2013 3:00 pm <br />\n              Sunday: 9:00 am \u2013 2:00 pm<br />\n              Kent St, Bentley, 6102, Western Australia<br /><br />\n              @destore\n            </p>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-animation-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Animation</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Game Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fruit</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Vegetables</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-digex-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Digital Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Baked Goods</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fresh Bread</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Wraps</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-graphic-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Graphic Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cold Meats</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cheese</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Olives</h3>\n              </div>\n            </div>\n          </div>\n        </div>\n      </footer>\n    "]);
+  const data = _taggedTemplateLiteral(["\n    \n      <va-app-header title=\"Home\"></va-app-header>\n\n      <div class=\"page-content\" id=\"pageContent\">\n        <section class=\"banner\">\n          <div class=\"left\" id=\"topBannerLeft\">\n            <h2 class=\"subheading\">\n              Welcome to the DeStore 2021 Curtin Design Graduate Showcase\n            </h2>\n            <button\n              class=\"shop-graduates-btn\"\n              @click=\"", "\"\n            >\n              Shop all graduates\n            </button>\n          </div>\n          <div class=\"right\">\n            <div class=\"gradVideoHolder\">\n              <iframe id=\"videoIframe\" width=\"100%\" height=\"100%\"\n                src=\"https://www.youtube.com/embed/VJGbuDb7pbM?list=TLGGo8m-auYN_bYyNjExMjAyMQ\" \n                title=\"YouTube video player\" \n                frameborder=\"0\" \n                autoplay; \n                clipboard-write; \n                encrypted-media; \n                gyroscope; \n                picture-in-picture\" \n                allowfullscreen>\n              </iframe>\n            </div>\n            <div class=\"videoTriggerHolder\">\n              <div class=\"videoTriggerButtonLeft\" @click=\"", "\"> <h3> < </h3></div>\n              <div class=\"videoTriggerDiv\"> <h3><span id=\"majorTitle\">DD Grads</span></h3> </div>\n              <div class=\"videoTriggerButtonLeft\" @click=\"", "\"> <h3> > </h3></div>\n            </div>\n          </div>\n        </section>\n\n        <section class=\"majors\">\n          <div class=\"major-columns\">\n            <div\n              class=\"animation-column\"\n              @click=\"", "\"\n            >\n              <img\n                src=\"./images/AGD-Basket.svg\"\n                alt=\"animation basket\"\n                class=\"major-svg agd-svg\"\n              />\n              <div class=\"sign-item\">\n                <h3>Animation</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Game Design</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Fruit</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Vegetables</h3>\n              </div>\n            </div>\n\n            <div class=\"digex-column\" @click=\"", "\">\n              <img\n                src=\"./images/DD-Clip.svg\"\n                alt=\"Digital bread clip\"\n                class=\"major-svg dd-svg\"\n              />\n              <!-- https://drive.google.com/file/d/1IsaWr0JahaPZcVp5KBb7hjr1n7UpTelJ/view?usp=sharing -->\n              <div class=\"sign-item\">\n                <h3>Digital Design</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Baked Goods</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Fresh Bread</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Wraps</h3>\n              </div>\n            </div>\n\n            <div\n              class=\"graphic-column\"\n              @click=\"", "\"\n            >\n              <img\n                src=\"./images/GD-Tag.svg\"\n                alt=\"graphic design tag\"\n                class=\"major-svg gd-dvg\"\n              />\n              <div class=\"sign-item\">\n                <h3>Graphic Design</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Cold Meats</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Cheese</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Olives</h3>\n              </div>\n            </div>\n          </div>\n        </section>\n\n        <section class=\"about-us\">\n          <div class=\"left\">\n            <img\n              src=\"https://drive.google.com/uc?export=view&id=1JxGAVQPoi8QiT08CvTJ3HCLaUbvSQoiu\"\n              alt=\"Destore Logo\"\n              class=\"logo-img\"\n            />\n          </div>\n          <div class=\"right\">\n            <h2>What are we?</h2>\n            <p>\n              On the other hand, we denounce with righteous indignation and\n              dislike men who are so beguiled and demoralized by the charms of\n              pleasure of the moment, so blinded by desire, that they cannot\n              foresee the pain and trouble that are bound to ensue;<br /><br />and\n              equal blame belongs to those who fail in their duty through\n              weakness of will, which is the same as saying through shrinking\n              from toil and pain. These cases are perfectly simple and easy to\n              distinguish. In a free hour, when our power of choice is\n              untrammelled and when nothing prevents our being able to do what\n              we like best\n            </p>\n            <button class=\"learn\" @click=\"", "\">\n              Learn about us\n            </button>\n          </div>\n        </section>\n\n        <section class=\"reviews\">\n          <div class=\"left\">\n            <h2 class=\"subheading\">What are people saying?</h2>\n          </div>\n\n          <div class=\"right\">\n            <div class=\"quote-one\">\n              <h3 class=\"tutor\">Joel Louie</h3>\n              <h4>Digital Design Major Coordinator</h4>\n              <p>\n                \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed\n                elementum maximus sem non venenatis. In erat turpis, suscipit\n                non libero sed, fermentum interdum nunc. Duis sagittis neque sit\n                amet.\"\n              </p>\n            </div>\n            <div class=\"quote-two\">\n              <h3 class=\"tutor\">Lee Ingram</h3>\n              <h4>Graphic Design Major Coordinator</h4>\n              <p>\n                \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed\n                elementum maximus sem non venenatis. In erat turpis, suscipit\n                non libero sed, fermentum interdum nunc. Duis sagittis neque sit\n                amet.\"\n              </p>\n            </div>\n            <div class=\"quote-three\">\n              <h3 class=\"tutor\">Jonathon Pillai</h3>\n              <h4>Animation & Game Design Major Coordinator</h4>\n              <p>\n                \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed\n                elementum maximus sem non venenatis. In erat turpis, suscipit\n                non libero sed, fermentum interdum nunc. Duis sagittis neque sit\n                amet.\"\n              </p>\n            </div>\n          </div>\n        </section>\n      </div>\n\n      <footer>\n        <div class=\"footer-content\">\n          <div class=\"destore-col\">\n            <h3>DeStore</h3>\n            <p>\n              Monday - Closed <br />\n              Tuesday \u2013 Saturday: 7:00 am \u2013 3:00 pm <br />\n              Sunday: 9:00 am \u2013 2:00 pm<br />\n              Kent St, Bentley, 6102, Western Australia<br /><br />\n              @destore\n            </p>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-animation-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Animation</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Game Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fruit</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Vegetables</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-digex-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Digital Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Baked Goods</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fresh Bread</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Wraps</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-graphic-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Graphic Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cold Meats</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cheese</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Olives</h3>\n              </div>\n            </div>\n          </div>\n        </div>\n      </footer>\n    "]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -9392,7 +9392,20 @@ class HomeView {
   init() {
     console.log("HomeView.init");
     document.title = "Home";
+    this.videoCurrent = 1;
+    this.videoIndexLink = {
+      1: "https://www.youtube.com/embed/VJGbuDb7pbM?list=TLGGo8m-auYN_bYyNjExMjAyMQ",
+      2: "https://www.youtube.com/embed/VJGbuDb7pbM?list=TLGGo8m-auYN_bYyNjExMjAyMQ",
+      3: "https://www.youtube.com/embed/AXHLKWwcyeI?list=TLGGP8NBRo6B7qsyNjExMjAyMQ"
+    };
+    this.videoIndexTitle = {
+      1: "Graphic Design",
+      2: "Digital Design",
+      3: "Animation And Game Design"
+    };
     this.render();
+    this.videoResize();
+    this.listenToWidthChange();
     this.pageIntroAnim2();
   }
 
@@ -9434,8 +9447,70 @@ class HomeView {
     }, "-=1");
   }
 
+  videoResize() {
+    let ele = document.querySelector("#topBannerLeft");
+    let targetVideoHolder = document.querySelector(".gradVideoHolder");
+    let topBannerHolderWidth = ele.clientWidth;
+    console.log(topBannerHolderWidth);
+
+    if (window.innerWidth > 768) {
+      targetVideoHolder.style.width = topBannerHolderWidth * 0.8 + "px";
+      targetVideoHolder.style.height = topBannerHolderWidth * 0.8 / 16 * 9 + "px";
+    } else if (window.innerWidth <= 768) {
+      targetVideoHolder.style.width = topBannerHolderWidth + "px";
+      targetVideoHolder.style.height = topBannerHolderWidth / 16 * 9 + "px";
+    }
+
+    ;
+    let currentPage = window.location.pathname;
+
+    if (currentPage === "/") {//pass
+    } else {
+      window.removeEventListener('resize', this.videoResize);
+    }
+  }
+
+  listenToWidthChange() {
+    try {
+      window.removeEventListener('resize', this.videoResize);
+      console.log("listener removed");
+    } catch (error) {
+      console.log(error);
+    }
+
+    console.log("new listenr attached");
+    window.addEventListener('resize', this.videoResize);
+  }
+
+  videoTriggerCal(tra) {
+    if (tra === "-") {
+      if (this.videoCurrent === 1) {
+        this.videoCurrent = 3;
+        this.renderVideoDiv(this.videoCurrent);
+      } else {
+        this.videoCurrent -= 1;
+        this.renderVideoDiv(this.videoCurrent);
+      }
+    } else if (tra === "+") {
+      if (this.videoCurrent === 3) {
+        this.videoCurrent = 1;
+        this.renderVideoDiv(this.videoCurrent);
+      } else {
+        this.videoCurrent += 1;
+        this.renderVideoDiv(this.videoCurrent);
+      }
+    }
+  }
+
+  renderVideoDiv(i) {
+    let eleIframe = document.querySelector("#videoIframe");
+    eleIframe.src = this.videoIndexLink[i];
+    let eleTitle = document.querySelector("#majorTitle");
+    eleTitle.innerHTML = this.videoIndexTitle[i];
+  }
+
   render() {
-    const template = (0, _litHtml.html)(_templateObject(), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/about"), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"));
+    const template = (0, _litHtml.html)(_templateObject(), () => (0, _Router.gotoRoute)("/graduates"), () => this.videoTriggerCal("-"), () => this.videoTriggerCal("+"), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/about"), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"));
     (0, _litHtml.render)(template, _App.default.rootEl);
   }
 
@@ -11736,13 +11811,13 @@ class AllGraduates {
     document.title = "Shop";
     this.Graduates = _graduateData.Graduates;
 
+    _gsap.default.registerPlugin(_ScrollTrigger.default);
+
     _Utils.default.shuffle(this.Graduates);
 
     this.render();
 
     _gsap.default.registerPlugin(_ScrollTrigger.default);
-
-    _Utils.default.pageIntroAnim();
 
     this.pageIntroAnimGrads();
   }
@@ -11759,7 +11834,6 @@ class AllGraduates {
       _gsap.default.from(target, {
         y: 0,
         opacity: 0.2,
-        stagger: 0.5,
         ease: "power1.out",
         duration: 1,
         scrollTrigger: {
@@ -16287,7 +16361,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54103" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56288" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

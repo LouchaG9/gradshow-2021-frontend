@@ -11,10 +11,10 @@ class AllGraduates {
   init() {
     document.title = "Shop";
     this.Graduates = Graduates;
+    gsap.registerPlugin(ScrollTrigger)
     Utils.shuffle(this.Graduates);
     this.render();
     gsap.registerPlugin(ScrollTrigger)
-    Utils.pageIntroAnim();
     this.pageIntroAnimGrads();
 
   }
@@ -30,7 +30,6 @@ class AllGraduates {
         gsap.from(target , {
             y: 0, 
             opacity: 0.2, 
-            stagger: 0.5,
             ease: "power1.out",
             duration: 1,
             scrollTrigger: {

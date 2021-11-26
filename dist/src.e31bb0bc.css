@@ -592,8 +592,31 @@ footer .footer-content .footer-animation-column .footer-item {
 }
 .banner .right {
   width: 50%;
-  height: 20rem;
-  background: #777;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner .right .gradVideoHolder {
+  transition: all 0.3s smooth;
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+.banner .right .videoTriggerHolder {
+  width: 80%;
+  display: flex;
+  background-color: var(--agd-green);
+  font-family: var(--heading-font-family-B);
+  transition: all 0.3s smooth;
+  border-radius: 0 0 3px 3px;
+  overflow: hidden;
+}
+.banner .right .videoTriggerHolder .videoTriggerButtonLeft, .banner .right .videoTriggerHolder .videoTriggerButtonRight, .banner .right .videoTriggerHolder .videoTriggerDiv {
+  cursor: pointer;
+  width: fit-content;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 .learn {
@@ -823,9 +846,10 @@ footer .footer-content .footer-animation-column .footer-item {
   }
   .banner .right {
     width: 100%;
-    height: 20rem;
-    display: block;
-    background: #777;
+    margin-top: 6em;
+  }
+  .banner .right .videoTriggerHolder {
+    width: 100%;
   }
 
   section {
