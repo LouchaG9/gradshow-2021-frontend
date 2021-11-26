@@ -292,7 +292,7 @@ A[href="#"] {
 
 .avatarContainer {
   position: relative;
-  margin-top: 1vw;
+  margin-top: 2vw;
   width: 100%;
   height: 100%;
 }
@@ -363,6 +363,21 @@ A[href="#"] {
   font-size: 1.2em;
 }
 
+.lessMargin {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.paddingTop {
+  padding-top: 30px;
+}
+
+.workTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3f3f3f;
+  text-align: center;
+}
+
 @keyframes shimmer {
   100% {
     transform: translateX(100%);
@@ -377,6 +392,7 @@ A[href="#"] {
   -moz-column-gap: 0px;
   column-count: 2;
   column-gap: 10px;
+  padding-bottom: 100px;
 }
 
 #photos img {

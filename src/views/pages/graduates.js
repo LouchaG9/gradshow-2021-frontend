@@ -4,6 +4,8 @@ import { gotoRoute, anchorRoute } from "../../Router";
 import Utils from "../../Utils";
 import { Graduates } from "../../../static/data/graduateData";
 import Toast from "../../Toast";
+import gsap from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
 
 class AllGraduates {
   init() {
@@ -11,13 +13,35 @@ class AllGraduates {
     this.Graduates = Graduates;
     Utils.shuffle(this.Graduates);
     this.render();
+    gsap.registerPlugin(ScrollTrigger)
     Utils.pageIntroAnim();
+    this.pageIntroAnimGrads();
+
   }
 
   resetGrads() {
     this.Graduates = Graduates;
     this.render();
   }
+
+  pageIntroAnimGrads(){
+    const targetelements = gsap.utils.toArray(".graduate-card");
+    targetelements.forEach(target => {
+        gsap.from(target , {
+            y: 0, 
+            opacity: 0.2, 
+            stagger: 0.5,
+            ease: "power1.out",
+            duration: 1,
+            scrollTrigger: {
+                trigger: target ,
+                start: "-900px"
+            }
+        })
+    })
+  }
+
+
 
   filterGraduates(field, match) {
     // validate
