@@ -14,7 +14,6 @@ class specificProfile {
     this.studentId = null;
     this.studentIdString = null;
     let graduates = Graduates;
-    console.log(Graduates);
     Utils.pageIntroAnim();
     this.getGraduate();
     this.handleScrollTop();
@@ -23,7 +22,6 @@ class specificProfile {
   handleScrollTop() {
     let ele = document.querySelectorAll(".block-50-50");
     let toTop = ele[0].clientTop;
-    console.log(toTop);
     window.scroll({
       top: toTop,
       behavior: "smooth",
@@ -34,17 +32,13 @@ class specificProfile {
     // get id param from URL
     const urlParams = new URLSearchParams(location.search);
     const id = urlParams.get("id");
-    console.log(id);
     // get the graduate
     let studentId = Graduates.filter((grad) => {
       return grad.studentNumber === id;
     });
-    console.log(studentId);
     const studentIdString = JSON.stringify(studentId);
-    console.log(studentIdString);
     window.firstName = studentId[0].firstName;
     window.studentIdGlobal = studentId[0];
-    console.log(firstName);
     this.render();
   }
 

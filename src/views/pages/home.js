@@ -13,7 +13,6 @@ import { Graduates } from "./../../../static/data/graduateData";
 
 class HomeView {
   init() {
-    console.log("HomeView.init");
     document.title = "Home";
     this.videoCurrent = 1;
     this.videoIndexLink = {
@@ -61,14 +60,12 @@ class HomeView {
 
   ramdonVideoSelector() {
     let indexNum = Math.floor((Math.random() * 3) + 1);
-    console.log(indexNum)
     this.renderVideoDiv(indexNum);
   }
 
   handleScrollTop() {
     let ele = document.querySelector("#topBannerLeft");
     let toTop = ele.clientTop;
-    console.log(toTop);
     window.scroll({
       top: toTop,
       behavior: "smooth",
@@ -79,7 +76,6 @@ class HomeView {
     let ele = document.querySelector("#topBannerLeft");
     let targetVideoHolder = document.querySelector(".gradVideoHolder");
     let topBannerHolderWidth = ele.clientWidth;
-    console.log(topBannerHolderWidth);
     if(window.innerWidth > 768){
       targetVideoHolder.style.width = topBannerHolderWidth*0.8 + "px";
       targetVideoHolder.style.height = topBannerHolderWidth*0.8/16*9 + "px";
@@ -98,11 +94,9 @@ class HomeView {
   listenToWidthChange() {
     try {
       window.removeEventListener('resize', this.videoResize);
-      console.log("listener removed")
     } catch (error) {
       console.log(error)
     }
-    console.log("new listenr attached");
     window.addEventListener('resize', this.videoResize);
   }
 
@@ -169,77 +163,6 @@ class HomeView {
               <div class="videoTriggerButtonLeft" @click="${() => this.videoTriggerCal("-")}"> <h3> < </h3></div>
               <div class="videoTriggerDiv"> <h3><span id="majorTitle">DD Grads</span></h3> </div>
               <div class="videoTriggerButtonLeft" @click="${() => this.videoTriggerCal("+")}"> <h3> > </h3></div>
-            </div>
-          </div>
-        </section>
-
-        <section class="majors">
-          <div class="major-columns">
-            <div
-              class="animation-column"
-              @click="${() => gotoRoute("/graduates")}"
-            >
-              <img
-                src="./images/AGD-Basket.svg"
-                alt="animation basket"
-                class="major-svg agd-svg"
-              />
-              <div class="sign-item">
-                <h3>Animation</h3>
-              </div>
-              <div class="sign-item">
-                <h3>Game Design</h3>
-              </div>
-              <div class="sign-item">
-                <h3>Fruit</h3>
-              </div>
-              <div class="sign-item">
-                <h3>Vegetables</h3>
-              </div>
-            </div>
-
-            <div class="digex-column" @click="${() => gotoRoute("/graduates")}">
-              <img
-                src="./images/DD-Clip.svg"
-                alt="Digital bread clip"
-                class="major-svg dd-svg"
-              />
-              <!-- https://drive.google.com/file/d/1IsaWr0JahaPZcVp5KBb7hjr1n7UpTelJ/view?usp=sharing -->
-              <div class="sign-item">
-                <h3>Digital Design</h3>
-              </div>
-              <div class="sign-item">
-                <h3>Baked Goods</h3>
-              </div>
-              <div class="sign-item">
-                <h3>Fresh Bread</h3>
-              </div>
-              <div class="sign-item">
-                <h3>Wraps</h3>
-              </div>
-            </div>
-
-            <div
-              class="graphic-column"
-              @click="${() => gotoRoute("/graduates")}"
-            >
-              <img
-                src="./images/GD-Tag.svg"
-                alt="graphic design tag"
-                class="major-svg gd-dvg"
-              />
-              <div class="sign-item">
-                <h3>Graphic Design</h3>
-              </div>
-              <div class="sign-item">
-                <h3>Cold Meats</h3>
-              </div>
-              <div class="sign-item">
-                <h3>Cheese</h3>
-              </div>
-              <div class="sign-item">
-                <h3>Olives</h3>
-              </div>
             </div>
           </div>
         </section>

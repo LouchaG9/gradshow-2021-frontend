@@ -16,10 +16,6 @@ var graphicGradsArray = Graduates.filter(function (grad) {
   return grad.major === "Graphic Design";
 });
 
-console.log(agdGradsArray);
-console.log(digitalGradsArray);
-console.log(graphicGradsArray);
-
 Utils.shuffle(digitalGradsArray);
 
 class ContactView {

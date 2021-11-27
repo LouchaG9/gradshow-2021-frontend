@@ -20,9 +20,7 @@ class AnimationGraduatesView {
   
   handleScrollTop() {
     let ele = document.querySelectorAll("h1");
-    console.log(ele[0])
     let toTop = ele[0].clientTop;
-    console.log(toTop);
     window.scroll({
       top: toTop,
       behavior: "smooth",
@@ -79,7 +77,6 @@ class AnimationGraduatesView {
   backSpaceHandler(e) {
     let key = e.keyCode || e.charCode;
     if (key == 8) return e.target.value;
-    console.log(e.target.value);
   }
 
   handleSearchKeyup(e) {
@@ -90,7 +87,6 @@ class AnimationGraduatesView {
       this.resetGrads();
       // filter graduates based on name and search query
       this.filterGraduates("firstName", e.target.value);
-      console.log(this.Graduates);
       // if no result, filter graduates based on description and search query
       if (this.Graduates.length === 0) {
         this.Graduates;

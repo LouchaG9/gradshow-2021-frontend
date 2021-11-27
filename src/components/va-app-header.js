@@ -29,7 +29,6 @@ customElements.define(
 
     navActiveLinks() {
       const currentPath = window.location.pathname;
-      console.log(currentPath)
       const navLinks = this.shadowRoot.querySelectorAll(
         ".app-top-nav a, .app-side-menu-items a"
       );

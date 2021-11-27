@@ -7,7 +7,6 @@ import Utils from "../../Utils";
 import { Graduates } from "../../../static/data/graduateData";
 
 // Graduates.map((graduate) => {
-//   console.log(graduate.firstName);
 // });
 
 // so now an issue found was when we open the home page, click the about page,
@@ -17,7 +16,6 @@ import { Graduates } from "../../../static/data/graduateData";
 
 class comingSoonView {
   init() {
-    console.log("HomeView.init");
     document.title = "Home";
     this.render();
     Utils.pageIntroAnim();

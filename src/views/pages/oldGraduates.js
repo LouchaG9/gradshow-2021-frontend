@@ -62,7 +62,6 @@ class GraduatesView {
     if (e.target.value == "") {
       this.getGraduates();
     } else {
-      console.log(e.target.value);
       // filter graduates based on name and search query
       await this.filterGraduates("firstName", e.target.value);
       // if no result, filter graduates based on description and search query
@@ -95,7 +94,6 @@ class GraduatesView {
   async getGraduates() {
     try {
       this.graduates = await GraduateAPI.getGraduates();
-      console.log(this.graduates);
       this.render();
     } catch (err) {
       Toast.show(err, "error");
