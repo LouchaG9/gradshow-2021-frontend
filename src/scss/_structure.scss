@@ -74,16 +74,14 @@
  /*  display: flex;
   flex-flow: row wrap;
   justify-content: center; */
-
-  display: grid;
-    grid-auto-flow: row;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    justify-items: center;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .credit-block {
-  width: 300px;
+  min-width: 300px;
+  width: 33%;
 /*   border: 1px solid #000;
  */}
 
