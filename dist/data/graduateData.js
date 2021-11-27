@@ -1848,7 +1848,7 @@ export const Graduates = [
     dribbble: "",
     github: "",
     shirt: "",
-    avatarOne: "./images/graduateBags/_DSC14444.jpg",
+    avatarOne: "./images/graduateBags/_DSC1444.jpg",
     avatarTwo: "./images/graduateBags/_DSC1448.jpg",
     avatarOneHQ: "./images/graduateBags/_DSC1444.jpg",
     avatarTwoHQ: "./images/graduateBags/_DSC1448.jpg",
