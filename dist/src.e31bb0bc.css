@@ -299,7 +299,6 @@ A[href="#"] {
 
 .avatarImage {
   position: absolute;
-  max-height: 500px;
 }
 
 .avatarTwo {
@@ -495,9 +494,7 @@ hr {
   }
 
   .paddingLeft {
-    position: relative;
-    padding-left: 0em;
-    margin-top: 68vw;
+    margin-top: 95vw;
   }
 
   footer {
@@ -1008,7 +1005,9 @@ sl-dialog::part(title) {
    */
 }
 .block-50-50 .column {
-  width: 50%;
+  width: 48%;
+  margin-left: auto;
+  margin-right: auto;
   /*     border: 1px solid #000;
    */
 }

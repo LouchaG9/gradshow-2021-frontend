@@ -2302,7 +2302,7 @@ export const Graduates = [
     major: "Digital Experience and Interaction Design",
     bio: "Hi, my name's Louis 👋\n\nRecent graduate of User Experience and Interaction Design at Curtin University, Perth.\n\nI approach life and design with a double-diamond methodology, and if that doesn't work I'll usually resort to flexbox.\n\nThe images here and on my portfolio are just a sample of some of my projects undertaken at University and during my time as an intern at Humaan.\n\nWhen I'm not designing or coding, I'm illutrating, listening to Mac Miller, and wondering how they originally thought it would be a good idea to name the like button the 'awesome button'..",
     tagLine: "More steam than a locomotive scroll",
-    portfolio: "louisklause.design",
+    portfolio: "https://www.louisklause.design",
     linkedin: "https://www.linkedin.com/in/louis-klause-09230180/",
     instagram: "https://www.instagram.com/louisklause.design/",
     twitter: "",
