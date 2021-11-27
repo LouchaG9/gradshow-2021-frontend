@@ -153,6 +153,7 @@ class AboutView {
               <li>Ruitan Huang</li>
               <li>Rebekah van Zalm</li>
               <li>Louis Klause</li>
+              <li>Jet Trijo</li>
             </ul>
           </div>
 
