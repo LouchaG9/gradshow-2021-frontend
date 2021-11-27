@@ -194,9 +194,10 @@ class AboutView {
           <div class="credit-block">
             <h3>Social Media</h3>
             <ul>
-              <li>Name LastName</li>
-              <li>Name LastName</li>
-              <li>Name LastName</li>
+              <li>Joshua Mitchell</li>
+              <li>Jet Trijo</li>
+              <li>Rebekah van Zalm</li>
+              <li>Leah Schultz</li>
             </ul>
           </div>
           <div class="credit-block">
