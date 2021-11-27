@@ -17,9 +17,9 @@ class HomeView {
     document.title = "Home";
     this.videoCurrent = 1;
     this.videoIndexLink = {
-      1:"https://www.youtube.com/embed/VJGbuDb7pbM?list=TLGGo8m-auYN_bYyNjExMjAyMQ",
-      2:"https://www.youtube.com/embed/VJGbuDb7pbM?list=TLGGo8m-auYN_bYyNjExMjAyMQ",
-      3:"https://www.youtube.com/embed/AXHLKWwcyeI?list=TLGGP8NBRo6B7qsyNjExMjAyMQ"
+      1:"https://www.youtube.com/embed/AfoN2dwqYIc",
+      2:"https://www.youtube.com/embed/pJEOZfFrE_U",
+      3:"https://www.youtube.com/embed/4btrAVnLCR0"
     };
     this.videoIndexTitle = {
       1:"Graphic Design",
@@ -27,6 +27,7 @@ class HomeView {
       3:"Animation And Game Design"
     };
     this.render();
+    this.ramdonVideoSelector();
     this.handleScrollTop();
     this.videoResize();
     this.listenToWidthChange();
@@ -56,6 +57,12 @@ class HomeView {
       { x: 0, opacity: 1, duration: 3 },
       "-=1"
     );
+  }
+
+  ramdonVideoSelector() {
+    let indexNum = Math.floor((Math.random() * 3) + 1);
+    console.log(indexNum)
+    this.renderVideoDiv(indexNum);
   }
 
   handleScrollTop() {
