@@ -65,7 +65,7 @@ class AboutView {
             </div>
           </div>
 
-          <img src="https://drive.google.com/uc?export=view&id=1JxGAVQPoi8QiT08CvTJ3HCLaUbvSQoiu" class="about-img" />
+          <img src="/images/DeStoreLogo-02.png" class="about-img" />
         </section>
 
         

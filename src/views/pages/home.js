@@ -170,7 +170,7 @@ class HomeView {
         <section class="about-us">
           <div class="left">
             <img
-              src="https://drive.google.com/uc?export=view&id=1JxGAVQPoi8QiT08CvTJ3HCLaUbvSQoiu"
+              src="/images/DeStoreLogo-02.png"
               alt="Destore Logo"
               class="logo-img"
             />

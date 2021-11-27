@@ -214,7 +214,7 @@
   .left {
     width: calc(100% / 3);
     align-self: flex-start;
-
+    word-wrap: break-word;
     h2 {
       font-size: 5em;
     }
