@@ -503,7 +503,12 @@ hr {
     padding-bottom: 0;
   }
   .paddingLeft {
-    margin-top: 95vw;
+    margin-top: 90vw;
+  }
+  .avatarImage {
+    position: absolute;
+    height: 85vw;
+    max-height: 85vw;
   }
   footer {
     width: 100%;
@@ -584,7 +589,7 @@ hr {
 
 @media screen and (max-width: 500px) {
   .paddingLeft {
-    margin-top: 95vw;
+    margin-top: 90vw;
 
     h1 {
       font-size: 2.6em;
