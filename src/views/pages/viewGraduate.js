@@ -18,10 +18,8 @@ class viewGraduateView {
     // get id param from URL
     const urlParams = new URLSearchParams(location.search);
     const id = urlParams.get("id");
-    // console.log(id)
     // get the graduate
     this.graduate = await GraduateAPI.getGraduate(id);
-    console.log(this.graduate);
     this.render();
   }
 

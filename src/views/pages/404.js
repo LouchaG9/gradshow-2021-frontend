@@ -4,7 +4,6 @@ import { gotoRoute, anchorRoute } from "./../../Router"
 
 class FourOFourView {
   init() {
-    console.log('FourOFourView.init')
     document.title = '404 File not found'
     this.render()
   }

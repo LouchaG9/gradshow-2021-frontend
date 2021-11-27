@@ -43,9 +43,7 @@ class AllGraduates {
 
   handleScrollTop() {
     let ele = document.querySelectorAll("h1");
-    console.log(ele[0])
     let toTop = ele[0].clientTop;
-    console.log(toTop);
     window.scroll({
       top: toTop,
       behavior: "smooth",
@@ -94,7 +92,6 @@ class AllGraduates {
   backSpaceHandler(e) {
     let key = e.keyCode || e.charCode;
     if (key == 8) return e.target.value;
-    console.log(e.target.value);
   }
 
   handleSearchKeyup(e) {
@@ -105,7 +102,6 @@ class AllGraduates {
       this.resetGrads();
       // filter graduates based on name and search query
       this.filterGraduates("firstName", e.target.value);
-      console.log(this.Graduates);
       // if no result, filter graduates based on description and search query
       if (this.Graduates.length === 0) {
         this.Graduates;
@@ -115,7 +111,6 @@ class AllGraduates {
   }
 
   handleAGDFilter(e) {
-    console.log(e.target.dataset.match);
     let agdGrads = Graduates.filter(function (grad) {
       return grad.major === "Animation and Game Design";
     });
@@ -123,7 +118,6 @@ class AllGraduates {
     this.render();
   }
   handleGDFilter(e) {
-    console.log(e.target.dataset.match);
     let graphicGrads = Graduates.filter(function (grad) {
       return grad.major === "Graphic Design";
     });
@@ -131,7 +125,6 @@ class AllGraduates {
     this.render();
   }
   handleDDFilter(e) {
-    console.log(e.target.dataset.match);
     let digitalGrads = Graduates.filter(function (grad) {
       return grad.major === "Digital Experience and Interaction Design";
     });
