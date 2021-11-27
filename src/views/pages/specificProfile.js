@@ -16,12 +16,12 @@ class specificProfile {
     let graduates = Graduates;
     console.log(Graduates);
     Utils.pageIntroAnim();
-    await this.getGraduate();
+    this.getGraduate();
     this.handleScrollTop();
   }
 
-  async handleScrollTop() {
-    let ele = await document.querySelectorAll(".block-50-50");
+  handleScrollTop() {
+    let ele = document.querySelectorAll(".block-50-50");
     let toTop = ele[0].clientTop;
     console.log(toTop);
     window.scroll({

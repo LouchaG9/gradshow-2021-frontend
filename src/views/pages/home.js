@@ -27,6 +27,7 @@ class HomeView {
       3:"Animation And Game Design"
     };
     this.render();
+    this.handleScrollTop();
     this.videoResize();
     this.listenToWidthChange();
     this.pageIntroAnim2();
@@ -55,6 +56,16 @@ class HomeView {
       { x: 0, opacity: 1, duration: 3 },
       "-=1"
     );
+  }
+
+  handleScrollTop() {
+    let ele = document.querySelector("#topBannerLeft");
+    let toTop = ele.clientTop;
+    console.log(toTop);
+    window.scroll({
+      top: toTop,
+      behavior: "smooth",
+    });
   }
 
   videoResize() {

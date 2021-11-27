@@ -15,6 +15,18 @@ class DigitalGraduatesView {
     this.Graduates = Graduates;
     Utils.shuffle(digitalGradsArray);
     this.render();
+    this.handleScrollTop();
+  }
+
+  handleScrollTop() {
+    let ele = document.querySelectorAll("h1");
+    console.log(ele[0])
+    let toTop = ele[0].clientTop;
+    console.log(toTop);
+    window.scroll({
+      top: toTop,
+      behavior: "smooth",
+    });
   }
 
   clearFilterBtns() {

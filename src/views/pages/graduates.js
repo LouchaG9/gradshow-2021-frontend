@@ -14,6 +14,7 @@ class AllGraduates {
     gsap.registerPlugin(ScrollTrigger)
     Utils.shuffle(this.Graduates);
     this.render();
+    this.handleScrollTop();
     gsap.registerPlugin(ScrollTrigger)
     this.pageIntroAnimGrads();
 
@@ -40,7 +41,16 @@ class AllGraduates {
     })
   }
 
-
+  handleScrollTop() {
+    let ele = document.querySelectorAll("h1");
+    console.log(ele[0])
+    let toTop = ele[0].clientTop;
+    console.log(toTop);
+    window.scroll({
+      top: toTop,
+      behavior: "smooth",
+    });
+  }
 
   filterGraduates(field, match) {
     // validate

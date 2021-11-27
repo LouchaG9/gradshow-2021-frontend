@@ -7,7 +7,19 @@ class AboutView {
   init() {
     document.title = "About Page";
     this.render();
+    this.handleScrollTop();
     Utils.pageIntroAnim();
+  }
+
+  handleScrollTop() {
+    let ele = document.querySelectorAll(".about-banner");
+    console.log(ele[0])
+    let toTop = ele[0].clientTop;
+    console.log(toTop);
+    window.scroll({
+      top: toTop,
+      behavior: "smooth",
+    });
   }
 
   render() {
