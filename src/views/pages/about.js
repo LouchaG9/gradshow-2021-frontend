@@ -181,6 +181,7 @@ class AboutView {
               <li>Jet Trijo</li>
               <li>Rebekah van Zalm</li>
               <li>Leah Schultz</li>
+              <li>Dana Knowles</li>
             </ul>
           </div>
           <div class="credit-block">
