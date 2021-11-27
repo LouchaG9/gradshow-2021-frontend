@@ -7605,10 +7605,10 @@ const Graduates = [{
   avatarTwoHQ: "./images/graduateAvatarsHQ/19785231_MZhai_main.jpg",
   imageOne: "../images/work/Milla_Zhai_19785231_1 - milla zhai.jpg",
   imageTwo: "../images/work/Milla_Zhai_19785231_2 - milla zhai.jpg",
-  imageThree: "../images/work/Milla_Zhai_19785231_6 - milla zhai.jpg",
+  imageThree: "../images/work/",
   imageFour: "../images/work/Milla_Zhai_19785231_4 - milla zhai.jpg",
   imageFive: "../images/work/Milla_Zhai_19785231_5 - milla zhai.jpg",
-  imageSix: "../images/work/Milla_Zhai_19785231_ 3 - milla zhai.jpg"
+  imageSix: "../images/work/Milla_Zhai_19785231_6 - milla zhai.jpg"
 }, {
   studentNumber: "19775669",
   firstName: "Paris",
@@ -9171,11 +9171,11 @@ const Graduates = [{
   avatarTwo: "./images/graduateAvatars/19780537_CJohnson_main.jpg",
   avatarOneHQ: "./images/graduateAvatarsHQ/19780537_alt.jpg",
   avatarTwoHQ: "./images/graduateAvatarsHQ/19780537_CJohnson_main.jpg",
-  imageOne: "../images/work/",
-  imageTwo: "../images/work/",
-  imageThree: "../images/work/",
-  imageFour: "../images/work/",
-  imageFive: "../images/work/",
+  imageOne: "../images/work/Caitlyn_Johnson_19780537_1 - Johno Johnson.png",
+  imageTwo: "../images/work/Caitlyn_Johnson_19780537_3 - Johno Johnson.png",
+  imageThree: "../images/work/Caitlyn_Johnson_19780537_5 - Johno Johnson.png",
+  imageFour: "../images/work/Caitlyn_Johnson_19780537_2 - Johno Johnson.png",
+  imageFive: "../images/work/Caitlyn_Johnson_19780537_4 - Johno Johnson.png",
   imageSix: "../images/work/"
 }, {
   studentNumber: "18523692",
@@ -9199,11 +9199,11 @@ const Graduates = [{
   avatarTwo: "./images/graduateAvatars/18523692_KJones_main.jpg",
   avatarOneHQ: "./images/graduateAvatarsHQ/18523692_alt.jpg",
   avatarTwoHQ: "./images/graduateAvatarsHQ/18523692_KJones_main.jpg",
-  imageOne: "../images/work/",
-  imageTwo: "../images/work/",
+  imageOne: "../images/work/Kirren_Jones_18523692_1 - Kirren J.jpg",
+  imageTwo: "../images/work/Kirren_Jones_18523692_3 - Kirren J.jpg",
   imageThree: "../images/work/",
-  imageFour: "../images/work/",
-  imageFive: "../images/work/",
+  imageFour: "../images/work/Kirren_Jones_18523692_2 - Kirren J.jpg",
+  imageFive: "../images/work/Kirren_Jones_18523692_4 - Kirren J.jpg",
   imageSix: "../images/work/"
 }, {
   studentNumber: "19453790",
@@ -9394,9 +9394,9 @@ class HomeView {
     document.title = "Home";
     this.videoCurrent = 1;
     this.videoIndexLink = {
-      1: "https://www.youtube.com/embed/VJGbuDb7pbM?list=TLGGo8m-auYN_bYyNjExMjAyMQ",
-      2: "https://www.youtube.com/embed/VJGbuDb7pbM?list=TLGGo8m-auYN_bYyNjExMjAyMQ",
-      3: "https://www.youtube.com/embed/AXHLKWwcyeI?list=TLGGP8NBRo6B7qsyNjExMjAyMQ"
+      1: "https://www.youtube.com/embed/AfoN2dwqYIc",
+      2: "https://www.youtube.com/embed/pJEOZfFrE_U",
+      3: "https://www.youtube.com/embed/4btrAVnLCR0"
     };
     this.videoIndexTitle = {
       1: "Graphic Design",
@@ -9404,6 +9404,8 @@ class HomeView {
       3: "Animation And Game Design"
     };
     this.render();
+    this.ramdonVideoSelector();
+    this.handleScrollTop();
     this.videoResize();
     this.listenToWidthChange();
     this.pageIntroAnim2();
@@ -9445,6 +9447,22 @@ class HomeView {
       opacity: 1,
       duration: 3
     }, "-=1");
+  }
+
+  ramdonVideoSelector() {
+    let indexNum = Math.floor(Math.random() * 3 + 1);
+    console.log(indexNum);
+    this.renderVideoDiv(indexNum);
+  }
+
+  handleScrollTop() {
+    let ele = document.querySelector("#topBannerLeft");
+    let toTop = ele.clientTop;
+    console.log(toTop);
+    window.scroll({
+      top: toTop,
+      behavior: "smooth"
+    });
   }
 
   videoResize() {
@@ -9598,8 +9616,20 @@ class AboutView {
   init() {
     document.title = "About Page";
     this.render();
+    this.handleScrollTop();
 
     _Utils.default.pageIntroAnim();
+  }
+
+  handleScrollTop() {
+    let ele = document.querySelectorAll(".about-banner");
+    console.log(ele[0]);
+    let toTop = ele[0].clientTop;
+    console.log(toTop);
+    window.scroll({
+      top: toTop,
+      behavior: "smooth"
+    });
   }
 
   render() {
@@ -11816,6 +11846,7 @@ class AllGraduates {
     _Utils.default.shuffle(this.Graduates);
 
     this.render();
+    this.handleScrollTop();
 
     _gsap.default.registerPlugin(_ScrollTrigger.default);
 
@@ -11841,6 +11872,17 @@ class AllGraduates {
           start: "-900px"
         }
       });
+    });
+  }
+
+  handleScrollTop() {
+    let ele = document.querySelectorAll("h1");
+    console.log(ele[0]);
+    let toTop = ele[0].clientTop;
+    console.log(toTop);
+    window.scroll({
+      top: toTop,
+      behavior: "smooth"
     });
   }
 
@@ -12019,6 +12061,18 @@ class DigitalGraduatesView {
     _Utils.default.shuffle(digitalGradsArray);
 
     this.render();
+    this.handleScrollTop();
+  }
+
+  handleScrollTop() {
+    let ele = document.querySelectorAll("h1");
+    console.log(ele[0]);
+    let toTop = ele[0].clientTop;
+    console.log(toTop);
+    window.scroll({
+      top: toTop,
+      behavior: "smooth"
+    });
   }
 
   clearFilterBtns() {
@@ -12185,6 +12239,18 @@ class AnimationGraduatesView {
     _Utils.default.shuffle(agdGradsArray);
 
     this.render();
+    this.handleScrollTop();
+  }
+
+  handleScrollTop() {
+    let ele = document.querySelectorAll("h1");
+    console.log(ele[0]);
+    let toTop = ele[0].clientTop;
+    console.log(toTop);
+    window.scroll({
+      top: toTop,
+      behavior: "smooth"
+    });
   }
 
   clearFilterBtns() {
@@ -12351,6 +12417,18 @@ class GraphicGraduatesView {
     _Utils.default.shuffle(graphicGradsArray);
 
     this.render();
+    this.handleScrollTop();
+  }
+
+  handleScrollTop() {
+    let ele = document.querySelectorAll("h1");
+    console.log(ele[0]);
+    let toTop = ele[0].clientTop;
+    console.log(toTop);
+    window.scroll({
+      top: toTop,
+      behavior: "smooth"
+    });
   }
 
   clearFilterBtns() {
@@ -12490,12 +12568,12 @@ class specificProfile {
 
     _Utils.default.pageIntroAnim();
 
-    await this.getGraduate();
+    this.getGraduate();
     this.handleScrollTop();
   }
 
-  async handleScrollTop() {
-    let ele = await document.querySelectorAll(".block-50-50");
+  handleScrollTop() {
+    let ele = document.querySelectorAll(".block-50-50");
     let toTop = ele[0].clientTop;
     console.log(toTop);
     window.scroll({
@@ -16361,7 +16439,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58496" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57271" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
