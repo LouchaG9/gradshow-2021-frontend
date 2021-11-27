@@ -28,6 +28,7 @@
     .videoTriggerHolder {
       width: 80%;
       display: flex;
+      justify-content: space-between;
       background-color: var(--agd-green);
       font-family: var(--heading-font-family-B);
       transition: all .3s smooth;
