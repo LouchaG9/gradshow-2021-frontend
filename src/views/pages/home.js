@@ -180,7 +180,7 @@ class HomeView {
             <p>
             We have prepared a scrumptious selection of tasty design treats to tantalise your taste buds. Our artisan graduates from the Animation & Game Design, Digital Experience & Interaction Design and Graphic Design Majors have put loving care and attention into every single design they've crafted.  Are you hankering for a treat that's full-fat and bursting with flavour, or do you want something nutritious yet tasty? Do you have specific preferences or intolerances? Need a custom short-order? Don't worry, our team have got you covered. Go on, try a sample by checking out the quality portfolio work showcased here. Freshness guaranteed!
             </p>
-            <button class="learn" @click="${() => gotoRoute("/about")}">
+            <button class="learn" @click="${() => gotoRoute("/graduates")}">
             See all Graduates
             </button>
           </div>
