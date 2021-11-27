@@ -306,6 +306,10 @@ A[href="#"] {
   z-index: 2;
 }
 
+.majorQuote {
+  color: #241c1c !important;
+}
+
 @keyframes fadeInLoad {
   0% {
     opacity: 0;

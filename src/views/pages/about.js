@@ -84,10 +84,13 @@ class AboutView {
 
         <section class="block-100 credit-fill">
           <div class="credit-block" id="tres">
-            <h3>Treasury</h3>
+            <h3>Website Programmers</h3>
             <ul>
-              <li>Ella Edwards</li>
-              <li>Lachlan Robertson</li>
+              <li>Louis Klause</li>
+              <li>Julian Osborn</li>
+              <li>Shi Ning Wang</li>
+              <li>Ruitan Huang</li>
+              <li>Rebekah van Zalm</li>
             </ul>
           </div>
 
@@ -141,18 +144,15 @@ class AboutView {
           </div>
           
           <div class="credit-block">
-            <h3>Website Programmers</h3>
+            <h3>Website Data Management</h3>
             <ul>
-              <li>Emily Lowry</li>
-              <li>Joaquin Atizado</li>
+            <li>Julian Osborn</li>
+              <li>Emily Mee</li>
               <li>Michael D'Costa</li>
-              <li>Julian Osborn</li>
-              <li>Shi Ning Wang</li>
-              <li>Ruitan Huang</li>
-              <li>Tian Hock Yan</li>
-              <li>Lucas Vieira</li>
               <li>Brandon Watson</li>
-              <li>Jet Trijo</li>
+              <li>Ruitan Huang</li>
+              <li>Rebekah van Zalm</li>
+              <li>Louis Klause</li>
             </ul>
           </div>
 
@@ -186,6 +186,13 @@ class AboutView {
               <li>Name LastName</li>
               <li>Name LastName</li>
               <li>Name LastName</li>
+            </ul>
+          </div>
+          <div class="credit-block">
+            <h3>Treasury</h3>
+            <ul>
+              <li>Ella Edwards</li>
+              <li>Lachlan Robertson</li>
             </ul>
           </div>
         </section>

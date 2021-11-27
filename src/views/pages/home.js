@@ -261,33 +261,24 @@ class HomeView {
 
           <div class="right">
             <div class="quote-one">
-              <h3 class="tutor">Joel Louie</h3>
-              <h4>Digital Design Major Coordinator</h4>
+              <h3 class="tutor">JONATHON PILLAI</h3>
+              <i><h4 class="majorQuote">Animation & Game Design Coordinator</h4></i>
               <p>
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                elementum maximus sem non venenatis. In erat turpis, suscipit
-                non libero sed, fermentum interdum nunc. Duis sagittis neque sit
-                amet."
+                "It has been brilliant to witness how our AGD students have strived towards their goals while pursuing their craft with passion and creativity. I am proud of how they have showcased the quality of their work by winning competitions, securing industry attachments and even garnering job offers before they graduate."
               </p>
             </div>
             <div class="quote-two">
-              <h3 class="tutor">Lee Ingram</h3>
-              <h4>Graphic Design Major Coordinator</h4>
+              <h3 class="tutor">JOEL LOUIE</h3>
+              <i><h4 class="majorQuote">Digital Experience & Interaction Design Coordinator</h4></i>
               <p>
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                elementum maximus sem non venenatis. In erat turpis, suscipit
-                non libero sed, fermentum interdum nunc. Duis sagittis neque sit
-                amet."
+                "I’ve been impressed by the dynamic teamwork of all the DigEx and AGD Grads, and the fantastic Grad Show tapestry that they have woven here. More than that, its been humbling to see the growth in each individual, and the amount time, focus and love they have each put into their portfolios. I hope you enjoy this fresh serving of design goodness"
               </p>
             </div>
             <div class="quote-three">
-              <h3 class="tutor">Jonathon Pillai</h3>
-              <h4>Animation & Game Design Major Coordinator</h4>
+              <h3 class="tutor">LEE INGRAM</h3>
+              <i><h4 class="majorQuote">Graphic Design Coordinator</h4></i>
               <p>
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                elementum maximus sem non venenatis. In erat turpis, suscipit
-                non libero sed, fermentum interdum nunc. Duis sagittis neque sit
-                amet."
+                "With the year not even over, we have already seen much success from the graduating Graphic Design students, numerous finalists in the AGDA student award categories, a number of our students undertook industry internships, and best of all, a lucky few locked in continuing industry positions before they had even wrapped up their studies."
               </p>
             </div>
           </div>
