@@ -97,6 +97,10 @@ a {
   flex-direction: column;
   justify-content: center;
 }
+#root section {
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+}
 
 .secondary {
   padding: 0.5rem 3rem;
@@ -274,7 +278,8 @@ A[href="#"] {
 .avatarStyling {
   object-fit: contain;
   max-width: 100%;
-  max-height: auto;
+  height: 100%;
+  max-height: 500px;
 }
 
 .avatarStyling:hover {
@@ -299,6 +304,7 @@ A[href="#"] {
 
 .avatarImage {
   position: absolute;
+  height: 95vh;
 }
 
 .avatarTwo {
@@ -498,7 +504,13 @@ hr {
   }
 
   .paddingLeft {
-    margin-top: 95vw;
+    margin-top: 90vw;
+  }
+
+  .avatarImage {
+    position: absolute;
+    height: 85vw;
+    max-height: 85vw;
   }
 
   footer {
@@ -575,7 +587,7 @@ footer .footer-content .footer-animation-column .footer-item {
 }
 @media screen and (max-width: 500px) {
   .paddingLeft {
-    margin-top: 95vw;
+    margin-top: 90vw;
   }
   .paddingLeft h1 {
     font-size: 2.6em;
@@ -623,6 +635,7 @@ footer .footer-content .footer-animation-column .footer-item {
   padding-right: 1em;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
+  text-align: center;
 }
 
 .learn {
@@ -790,6 +803,7 @@ footer .footer-content .footer-animation-column .footer-item {
 .reviews .left {
   width: calc(100% / 3);
   align-self: flex-start;
+  word-wrap: break-word;
 }
 .reviews .left h2 {
   font-size: 5em;
@@ -911,7 +925,7 @@ footer .footer-content .footer-animation-column .footer-item {
     width: 100%;
   }
   .about-us .left img {
-    width: 50%;
+    width: 75%;
     height: auto;
   }
   .about-us .right {
@@ -1069,15 +1083,14 @@ sl-dialog::part(title) {
   /*  display: flex;
    flex-flow: row wrap;
    justify-content: center; */
-  display: grid;
-  grid-auto-flow: row;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  justify-items: center;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .credit-block {
-  width: 300px;
+  min-width: 300px;
+  width: 33%;
   /*   border: 1px solid #000;
    */
 }
@@ -1142,6 +1155,9 @@ footer {
   display: flex;
   margin-top: 8em;
 }
+.about-banner .valueHolder {
+  width: 75%;
+}
 .about-banner p {
   font-size: 1rem;
   width: 90%;
@@ -1160,7 +1176,7 @@ footer {
 }
 
 .values-logo {
-  text-align: right;
+  text-align: left;
 }
 .values-logo h1 {
   padding-bottom: 1em;
@@ -1168,7 +1184,9 @@ footer {
 
 .values {
   display: flex;
+  flex-flow: row wrap;
   text-align: center;
+  width: 100%;
 }
 .values p {
   font-size: 1.1em;
@@ -1182,11 +1200,13 @@ footer {
   letter-spacing: 0.1em;
   font-weight: bold;
 }
-.values .value-1, .values .value-3 {
+.values .value-2, .values .value-3 {
   background-color: var(#fff);
+  width: 50%;
 }
-.values .value-2, .values .value-4 {
+.values .value-1, .values .value-4 {
   background-color: var(--gd-red);
+  width: 50%;
 }
 
 .credits {
@@ -1208,6 +1228,9 @@ footer {
   margin-top: 3rem;
 }
 
+.credit-block {
+  height: fit-content;
+}
 .credit-block ul {
   margin-block-start: 2em;
   padding-inline-start: 0px;
@@ -1231,6 +1254,9 @@ footer {
     width: 100%;
     flex-direction: column;
   }
+  .about-banner .valueHolder {
+    width: 100%;
+  }
   .about-banner .about-landing p {
     width: 100%;
   }
@@ -1246,13 +1272,13 @@ footer {
     display: flex;
     flex-wrap: wrap;
   }
-  .values .value-1, .values .value-4 {
+  .values .value-2, .values .value-4 {
     background-color: #fff;
-    width: 50%;
+    width: 100%;
   }
-  .values .value-2, .values .value-3 {
+  .values .value-1, .values .value-3 {
     background-color: var(--gd-red);
-    width: 50%;
+    width: 100%;
   }
 }
 .showreel-container {

@@ -1848,10 +1848,10 @@ export const Graduates = [
     dribbble: "",
     github: "",
     shirt: "",
-    avatarOne: "./images/graduateAvatars/17978204_alt.jpg",
-    avatarTwo: "./images/graduateAvatars/17978204_SWang_main.jpg",
-    avatarOneHQ: "./images/graduateAvatarsHQ/17978204_alt.jpg",
-    avatarTwoHQ: "./images/graduateAvatarsHQ/17978204_SWang_main.jpg",
+    avatarOne: "./images/graduateBags/_DSC14444.jpg",
+    avatarTwo: "./images/graduateBags/_DSC1448.jpg",
+    avatarOneHQ: "./images/graduateBags/_DSC1444.jpg",
+    avatarTwoHQ: "./images/graduateBags/_DSC1448.jpg",
     imageOne:
     "../images/work/Shining_Wang_17978204_1 - Shining Wang.jpg",
     imageTwo:
