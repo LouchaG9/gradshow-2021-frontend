@@ -73,19 +73,18 @@ class HomeView {
   }
 
   videoResize() {
-    let ele = document.querySelector("#topBannerLeft");
-    let targetVideoHolder = document.querySelector(".gradVideoHolder");
-    let topBannerHolderWidth = ele.clientWidth;
-    if(window.innerWidth > 768){
-      targetVideoHolder.style.width = topBannerHolderWidth*0.8 + "px";
-      targetVideoHolder.style.height = topBannerHolderWidth*0.8/16*9 + "px";
-    } else if (window.innerWidth <= 768){
-      targetVideoHolder.style.width = topBannerHolderWidth + "px";
-      targetVideoHolder.style.height = topBannerHolderWidth/16*9 + "px";
-    };
     let currentPage = window.location.pathname;
     if(currentPage === "/"){
-      //pass
+      let ele = document.querySelector("#topBannerLeft");
+      let targetVideoHolder = document.querySelector(".gradVideoHolder");
+      let topBannerHolderWidth = ele.clientWidth;
+      if(window.innerWidth > 768){
+        targetVideoHolder.style.width = topBannerHolderWidth*0.8 + "px";
+        targetVideoHolder.style.height = topBannerHolderWidth*0.8/16*9 + "px";
+      } else if (window.innerWidth <= 768){
+        targetVideoHolder.style.width = topBannerHolderWidth + "px";
+        targetVideoHolder.style.height = topBannerHolderWidth/16*9 + "px";
+      };
     } else {
       window.removeEventListener('resize', this.videoResize);
     }
