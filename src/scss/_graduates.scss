@@ -45,7 +45,7 @@
 .dropdown {
   display: inline-block;
   position: relative;
-  width: calc(100% / 5);
+  width: calc(100% / 4);
 }
 
 .dd-button {
@@ -148,7 +148,7 @@ li.divider {
   }
 
   .dropdown {
-    width: calc(100% / 3);
+    width: calc(100% / 2.5);
   }
 
   .search-input-container {
@@ -166,25 +166,12 @@ li.divider {
   }
 
   .search-input-container {
-    width: calc(100% / 2);
-  }
-}
-
-// RESPONSIVE - MOBILE -------------------
-@media all and (max-width: 425px) {
-  // grid for graduates displayed in a three
-  .graduate-grid {
-    .graduate-card {
-      width: calc(100%);
-    }
-  }
-
-  .search-input-container {
     width: 100%;
   }
 
   .dropdown {
     width: 100%;
+    margin-top: 1em;
   }
 
   .search-and-filter-container {
@@ -198,4 +185,15 @@ li.divider {
     font-size: 18px;
     width: 100%;
   }
+}
+
+// RESPONSIVE - MOBILE -------------------
+@media all and (max-width: 425px) {
+  // grid for graduates displayed in a three
+  .graduate-grid {
+    .graduate-card {
+      width: calc(100%);
+    }
+  }
+
 }

@@ -115,12 +115,21 @@ class AllGraduates {
       return grad.major === "Animation and Game Design";
     });
     this.Graduates = agdGrads;
+    let defSearchButton = document.querySelector(".dd-button");
+    defSearchButton.innerHTML = "Animation and Game Design";
+    defSearchButton.className = "dd-button";
     this.render();
   }
   handleGDFilter(e) {
     let graphicGrads = Graduates.filter(function (grad) {
       return grad.major === "Graphic Design";
     });
+    let defSearchButton = document.querySelector(".dd-button");
+    defSearchButton.innerHTML = "Graphic Design";
+    defSearchButton.className = "dd-button";
+    let optionsEles = document.querySelector(".dd-menu");
+    let elesByTag = optionsEles.getElementsByTagName("li")
+    console.log(elesByTag)
     this.Graduates = graphicGrads;
     this.render();
   }
@@ -128,11 +137,17 @@ class AllGraduates {
     let digitalGrads = Graduates.filter(function (grad) {
       return grad.major === "Digital Experience and Interaction Design";
     });
+    let defSearchButton = document.querySelector(".dd-button");
+    defSearchButton.innerHTML = "Digital Experience and Interaction Design";
+    defSearchButton.className = "dd-button smallFont";
     this.Graduates = digitalGrads;
     this.render();
   }
 
   clearFilters() {
+    let defSearchButton = document.querySelector(".dd-button");
+    defSearchButton.innerHTML = "All Graduates";
+    defSearchButton.className = "dd-button";
     this.resetGrads();
   }
 
@@ -161,7 +176,7 @@ class AllGraduates {
 
           <!-- search filters -->
           <label class="dropdown">
-            <div class="dd-button">Filter</div>
+            <div class="dd-button">All Graduates</div>
             <input type="checkbox" class="dd-input" id="test" />
             <ul class="dd-menu">
               <li size="small" @click=${this.clearFilters.bind(this)}>
