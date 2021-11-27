@@ -9101,7 +9101,7 @@ const Graduates = [{
   major: "Graphic Design",
   bio: "My name is Aisha, and I'm a brand strategist, graphic designer and Advertising graduate based in Perth, WA, specialising in executing conceptual, human-centred designs. For me, being a creative means going beyond initial problem solving, creating holistic solutions.",
   tagLine: "Brand Strategist and Creative Advertiser",
-  portfolio: "aisharaindesign.com",
+  portfolio: "https://www.aisharaindesign.com",
   linkedin: "",
   instagram: "https://www.instagram.com/aisharaindesign/",
   twitter: "",
@@ -9129,7 +9129,7 @@ const Graduates = [{
   major: "Graphic Design",
   bio: "Annie Jenkins is a freelance graphic designer who enjoys engaging in creative practices both on and off the screen. When she isn't designing, Annie loves upcycling clothing, screen printing, film photography, bush walking, and creating mosaics.",
   tagLine: "Graphic Design, Photography, Styling",
-  portfolio: "slowdancestudio.com",
+  portfolio: "https://www.slowdancestudio.com",
   linkedin: "",
   instagram: "https://www.instagram.com/slowdancestudio/",
   twitter: "",
@@ -9185,7 +9185,7 @@ const Graduates = [{
   major: "Graphic Design",
   bio: "I am an advertising creative, recently having completed my degree in Creative Advertising and Graphic Design with Curtin University. Prior to Curtin I completed a Diploma AND Advanced Diploma in Graphic Design.\n\nIllustration has always been a huge part of my life, and as a result, plays a dominant role in my design process and how I like to create. I enjoy the challenge that comes with cracking open a new brief and putting pen to paper. I’m easily inspired, and find excitement in exploring every possible solution, which is why I specialise in storyboarding.\n\nI look forward to finding my way in Perth’s advertising scene, eager to learn more from the incredible talent our industry has to offer.",
   tagLine: "Be what you set out to be",
-  portfolio: "kirren.com.au",
+  portfolio: "https://kirren.com.au",
   linkedin: "https://www.linkedin.com/in/kirren-jones-512896199",
   instagram: "https://www.instagram.com/nerrik/",
   twitter: "",
@@ -9374,7 +9374,7 @@ var _graduateData = require("./../../../static/data/graduateData");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject() {
-  const data = _taggedTemplateLiteral(["\n    \n      <va-app-header title=\"Home\"></va-app-header>\n\n      <div class=\"page-content\" id=\"pageContent\">\n        <section class=\"banner\">\n          <div class=\"left\" id=\"topBannerLeft\">\n            <h2 class=\"subheading\">\n              Welcome to the DeStore 2021 Curtin Design Graduate Showcase\n            </h2>\n            <button\n              class=\"shop-graduates-btn\"\n              @click=\"", "\"\n            >\n              Shop all graduates\n            </button>\n          </div>\n          <div class=\"right\">\n            <div class=\"gradVideoHolder\">\n              <iframe id=\"videoIframe\" width=\"100%\" height=\"100%\"\n                src=\"https://www.youtube.com/embed/VJGbuDb7pbM?list=TLGGo8m-auYN_bYyNjExMjAyMQ\" \n                title=\"YouTube video player\" \n                frameborder=\"0\" \n                autoplay; \n                clipboard-write; \n                encrypted-media; \n                gyroscope; \n                picture-in-picture\" \n                allowfullscreen>\n              </iframe>\n            </div>\n            <div class=\"videoTriggerHolder\">\n              <div class=\"videoTriggerButtonLeft\" @click=\"", "\"> <h3> < </h3></div>\n              <div class=\"videoTriggerDiv\"> <h3><span id=\"majorTitle\">DD Grads</span></h3> </div>\n              <div class=\"videoTriggerButtonLeft\" @click=\"", "\"> <h3> > </h3></div>\n            </div>\n          </div>\n        </section>\n\n        <section class=\"majors\">\n          <div class=\"major-columns\">\n            <div\n              class=\"animation-column\"\n              @click=\"", "\"\n            >\n              <img\n                src=\"./images/AGD-Basket.svg\"\n                alt=\"animation basket\"\n                class=\"major-svg agd-svg\"\n              />\n              <div class=\"sign-item\">\n                <h3>Animation</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Game Design</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Fruit</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Vegetables</h3>\n              </div>\n            </div>\n\n            <div class=\"digex-column\" @click=\"", "\">\n              <img\n                src=\"./images/DD-Clip.svg\"\n                alt=\"Digital bread clip\"\n                class=\"major-svg dd-svg\"\n              />\n              <!-- https://drive.google.com/file/d/1IsaWr0JahaPZcVp5KBb7hjr1n7UpTelJ/view?usp=sharing -->\n              <div class=\"sign-item\">\n                <h3>Digital Design</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Baked Goods</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Fresh Bread</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Wraps</h3>\n              </div>\n            </div>\n\n            <div\n              class=\"graphic-column\"\n              @click=\"", "\"\n            >\n              <img\n                src=\"./images/GD-Tag.svg\"\n                alt=\"graphic design tag\"\n                class=\"major-svg gd-dvg\"\n              />\n              <div class=\"sign-item\">\n                <h3>Graphic Design</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Cold Meats</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Cheese</h3>\n              </div>\n              <div class=\"sign-item\">\n                <h3>Olives</h3>\n              </div>\n            </div>\n          </div>\n        </section>\n\n        <section class=\"about-us\">\n          <div class=\"left\">\n            <img\n              src=\"https://drive.google.com/uc?export=view&id=1JxGAVQPoi8QiT08CvTJ3HCLaUbvSQoiu\"\n              alt=\"Destore Logo\"\n              class=\"logo-img\"\n            />\n          </div>\n          <div class=\"right\">\n            <h2>What are we?</h2>\n            <p>\n              On the other hand, we denounce with righteous indignation and\n              dislike men who are so beguiled and demoralized by the charms of\n              pleasure of the moment, so blinded by desire, that they cannot\n              foresee the pain and trouble that are bound to ensue;<br /><br />and\n              equal blame belongs to those who fail in their duty through\n              weakness of will, which is the same as saying through shrinking\n              from toil and pain. These cases are perfectly simple and easy to\n              distinguish. In a free hour, when our power of choice is\n              untrammelled and when nothing prevents our being able to do what\n              we like best\n            </p>\n            <button class=\"learn\" @click=\"", "\">\n              Learn about us\n            </button>\n          </div>\n        </section>\n\n        <section class=\"reviews\">\n          <div class=\"left\">\n            <h2 class=\"subheading\">What are people saying?</h2>\n          </div>\n\n          <div class=\"right\">\n            <div class=\"quote-one\">\n              <h3 class=\"tutor\">JONATHON PILLAI</h3>\n              <i><h4 class=\"majorQuote\">Animation & Game Design Coordinator</h4></i>\n              <p>\n                \"It has been brilliant to witness how our AGD students have strived towards their goals while pursuing their craft with passion and creativity. I am proud of how they have showcased the quality of their work by winning competitions, securing industry attachments and even garnering job offers before they graduate.\"\n              </p>\n            </div>\n            <div class=\"quote-two\">\n              <h3 class=\"tutor\">JOEL LOUIE</h3>\n              <i><h4 class=\"majorQuote\">Digital Experience & Interaction Design Coordinator</h4></i>\n              <p>\n                \"I\u2019ve been impressed by the dynamic teamwork of all the DigEx and AGD Grads, and the fantastic Grad Show tapestry that they have woven here. More than that, its been humbling to see the growth in each individual, and the amount time, focus and love they have each put into their portfolios. I hope you enjoy this fresh serving of design goodness\"\n              </p>\n            </div>\n            <div class=\"quote-three\">\n              <h3 class=\"tutor\">LEE INGRAM</h3>\n              <i><h4 class=\"majorQuote\">Graphic Design Coordinator</h4></i>\n              <p>\n                \"With the year not even over, we have already seen much success from the graduating Graphic Design students, numerous finalists in the AGDA student award categories, a number of our students undertook industry internships, and best of all, a lucky few locked in continuing industry positions before they had even wrapped up their studies.\"\n              </p>\n            </div>\n          </div>\n        </section>\n      </div>\n\n      <footer>\n        <div class=\"footer-content\">\n          <div class=\"destore-col\">\n            <h3>DeStore</h3>\n            <p>\n              Monday - Closed <br />\n              Tuesday \u2013 Saturday: 7:00 am \u2013 3:00 pm <br />\n              Sunday: 9:00 am \u2013 2:00 pm<br />\n              Kent St, Bentley, 6102, Western Australia<br /><br />\n              @destore\n            </p>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-animation-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Animation</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Game Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fruit</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Vegetables</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-digex-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Digital Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Baked Goods</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fresh Bread</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Wraps</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-graphic-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Graphic Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cold Meats</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cheese</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Olives</h3>\n              </div>\n            </div>\n          </div>\n        </div>\n      </footer>\n    "]);
+  const data = _taggedTemplateLiteral(["\n    \n      <va-app-header title=\"Home\"></va-app-header>\n\n      <div class=\"page-content\" id=\"pageContent\">\n        <section class=\"banner\">\n          <div class=\"left\" id=\"topBannerLeft\">\n            <h2 class=\"subheading\">\n              Welcome to the DeStore 2021 Curtin Design Graduate Showcase\n            </h2>\n            <button\n              class=\"shop-graduates-btn\"\n              @click=\"", "\"\n            >\n              Shop all graduates\n            </button>\n          </div>\n          <div class=\"right\">\n            <div class=\"gradVideoHolder\">\n              <iframe id=\"videoIframe\" width=\"100%\" height=\"100%\"\n                src=\"https://www.youtube.com/embed/VJGbuDb7pbM?list=TLGGo8m-auYN_bYyNjExMjAyMQ\" \n                title=\"YouTube video player\" \n                frameborder=\"0\" \n                autoplay; \n                clipboard-write; \n                encrypted-media; \n                gyroscope; \n                picture-in-picture\" \n                allowfullscreen>\n              </iframe>\n            </div>\n            <div class=\"videoTriggerHolder\">\n              <div class=\"videoTriggerButtonLeft\" @click=\"", "\"> <h3> < </h3></div>\n              <div class=\"videoTriggerDiv\"> <h3><span id=\"majorTitle\">DD Grads</span></h3> </div>\n              <div class=\"videoTriggerButtonLeft\" @click=\"", "\"> <h3> > </h3></div>\n            </div>\n          </div>\n        </section>\n\n        <section class=\"about-us\">\n          <div class=\"left\">\n            <img\n              src=\"https://drive.google.com/uc?export=view&id=1JxGAVQPoi8QiT08CvTJ3HCLaUbvSQoiu\"\n              alt=\"Destore Logo\"\n              class=\"logo-img\"\n            />\n          </div>\n          <div class=\"right\">\n            <h2>What are we?</h2>\n            <p>\n              On the other hand, we denounce with righteous indignation and\n              dislike men who are so beguiled and demoralized by the charms of\n              pleasure of the moment, so blinded by desire, that they cannot\n              foresee the pain and trouble that are bound to ensue;<br /><br />and\n              equal blame belongs to those who fail in their duty through\n              weakness of will, which is the same as saying through shrinking\n              from toil and pain. These cases are perfectly simple and easy to\n              distinguish. In a free hour, when our power of choice is\n              untrammelled and when nothing prevents our being able to do what\n              we like best\n            </p>\n            <button class=\"learn\" @click=\"", "\">\n              Learn about us\n            </button>\n          </div>\n        </section>\n\n        <section class=\"reviews\">\n          <div class=\"left\">\n            <h2 class=\"subheading\">What are people saying?</h2>\n          </div>\n\n          <div class=\"right\">\n            <div class=\"quote-one\">\n              <h3 class=\"tutor\">JONATHON PILLAI</h3>\n              <i><h4 class=\"majorQuote\">Animation & Game Design Coordinator</h4></i>\n              <p>\n                \"It has been brilliant to witness how our AGD students have strived towards their goals while pursuing their craft with passion and creativity. I am proud of how they have showcased the quality of their work by winning competitions, securing industry attachments and even garnering job offers before they graduate.\"\n              </p>\n            </div>\n            <div class=\"quote-two\">\n              <h3 class=\"tutor\">JOEL LOUIE</h3>\n              <i><h4 class=\"majorQuote\">Digital Experience & Interaction Design Coordinator</h4></i>\n              <p>\n                \"I\u2019ve been impressed by the dynamic teamwork of all the DigEx and AGD Grads, and the fantastic Grad Show tapestry that they have woven here. More than that, its been humbling to see the growth in each individual, and the amount time, focus and love they have each put into their portfolios. I hope you enjoy this fresh serving of design goodness\"\n              </p>\n            </div>\n            <div class=\"quote-three\">\n              <h3 class=\"tutor\">LEE INGRAM</h3>\n              <i><h4 class=\"majorQuote\">Graphic Design Coordinator</h4></i>\n              <p>\n                \"With the year not even over, we have already seen much success from the graduating Graphic Design students, numerous finalists in the AGDA student award categories, a number of our students undertook industry internships, and best of all, a lucky few locked in continuing industry positions before they had even wrapped up their studies.\"\n              </p>\n            </div>\n          </div>\n        </section>\n      </div>\n\n      <footer>\n        <div class=\"footer-content\">\n          <div class=\"destore-col\">\n            <h3>DeStore</h3>\n            <p>\n              Monday - Closed <br />\n              Tuesday \u2013 Saturday: 7:00 am \u2013 3:00 pm <br />\n              Sunday: 9:00 am \u2013 2:00 pm<br />\n              Kent St, Bentley, 6102, Western Australia<br /><br />\n              @destore\n            </p>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-animation-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Animation</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Game Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fruit</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Vegetables</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-digex-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Digital Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Baked Goods</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fresh Bread</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Wraps</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-graphic-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Graphic Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cold Meats</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cheese</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Olives</h3>\n              </div>\n            </div>\n          </div>\n        </div>\n      </footer>\n    "]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -9390,7 +9390,6 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 // });
 class HomeView {
   init() {
-    console.log("HomeView.init");
     document.title = "Home";
     this.videoCurrent = 1;
     this.videoIndexLink = {
@@ -9451,14 +9450,12 @@ class HomeView {
 
   ramdonVideoSelector() {
     let indexNum = Math.floor(Math.random() * 3 + 1);
-    console.log(indexNum);
     this.renderVideoDiv(indexNum);
   }
 
   handleScrollTop() {
     let ele = document.querySelector("#topBannerLeft");
     let toTop = ele.clientTop;
-    console.log(toTop);
     window.scroll({
       top: toTop,
       behavior: "smooth"
@@ -9469,7 +9466,6 @@ class HomeView {
     let ele = document.querySelector("#topBannerLeft");
     let targetVideoHolder = document.querySelector(".gradVideoHolder");
     let topBannerHolderWidth = ele.clientWidth;
-    console.log(topBannerHolderWidth);
 
     if (window.innerWidth > 768) {
       targetVideoHolder.style.width = topBannerHolderWidth * 0.8 + "px";
@@ -9491,12 +9487,10 @@ class HomeView {
   listenToWidthChange() {
     try {
       window.removeEventListener('resize', this.videoResize);
-      console.log("listener removed");
     } catch (error) {
       console.log(error);
     }
 
-    console.log("new listenr attached");
     window.addEventListener('resize', this.videoResize);
   }
 
@@ -9528,7 +9522,7 @@ class HomeView {
   }
 
   render() {
-    const template = (0, _litHtml.html)(_templateObject(), () => (0, _Router.gotoRoute)("/graduates"), () => this.videoTriggerCal("-"), () => this.videoTriggerCal("+"), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/about"), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"));
+    const template = (0, _litHtml.html)(_templateObject(), () => (0, _Router.gotoRoute)("/graduates"), () => this.videoTriggerCal("-"), () => this.videoTriggerCal("+"), () => (0, _Router.gotoRoute)("/about"), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"), () => (0, _Router.gotoRoute)("/graduates"));
     (0, _litHtml.render)(template, _App.default.rootEl);
   }
 
@@ -9567,7 +9561,6 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 
 class FourOFourView {
   init() {
-    console.log('FourOFourView.init');
     document.title = '404 File not found';
     this.render();
   }
@@ -9623,9 +9616,7 @@ class AboutView {
 
   handleScrollTop() {
     let ele = document.querySelectorAll(".about-banner");
-    console.log(ele[0]);
     let toTop = ele[0].clientTop;
-    console.log(toTop);
     window.scroll({
       top: toTop,
       behavior: "smooth"
@@ -9695,10 +9686,6 @@ var digitalGradsArray = _graduateData.Graduates.filter(function (grad) {
 var graphicGradsArray = _graduateData.Graduates.filter(function (grad) {
   return grad.major === "Graphic Design";
 });
-
-console.log(agdGradsArray);
-console.log(digitalGradsArray);
-console.log(graphicGradsArray);
 
 _Utils.default.shuffle(digitalGradsArray);
 
@@ -10074,11 +10061,9 @@ class viewGraduateView {
   async getGraduate() {
     // get id param from URL
     const urlParams = new URLSearchParams(location.search);
-    const id = urlParams.get("id"); // console.log(id)
-    // get the graduate
+    const id = urlParams.get("id"); // get the graduate
 
     this.graduate = await _GraduateAPI.default.getGraduate(id);
-    console.log(this.graduate);
     this.render();
   }
 
@@ -11877,9 +11862,7 @@ class AllGraduates {
 
   handleScrollTop() {
     let ele = document.querySelectorAll("h1");
-    console.log(ele[0]);
     let toTop = ele[0].clientTop;
-    console.log(toTop);
     window.scroll({
       top: toTop,
       behavior: "smooth"
@@ -11918,7 +11901,6 @@ class AllGraduates {
   backSpaceHandler(e) {
     let key = e.keyCode || e.charCode;
     if (key == 8) return e.target.value;
-    console.log(e.target.value);
   }
 
   handleSearchKeyup(e) {
@@ -11928,8 +11910,7 @@ class AllGraduates {
     } else {
       this.resetGrads(); // filter graduates based on name and search query
 
-      this.filterGraduates("firstName", e.target.value);
-      console.log(this.Graduates); // if no result, filter graduates based on description and search query
+      this.filterGraduates("firstName", e.target.value); // if no result, filter graduates based on description and search query
 
       if (this.Graduates.length === 0) {
         this.Graduates;
@@ -11939,8 +11920,6 @@ class AllGraduates {
   }
 
   handleAGDFilter(e) {
-    console.log(e.target.dataset.match);
-
     let agdGrads = _graduateData.Graduates.filter(function (grad) {
       return grad.major === "Animation and Game Design";
     });
@@ -11950,8 +11929,6 @@ class AllGraduates {
   }
 
   handleGDFilter(e) {
-    console.log(e.target.dataset.match);
-
     let graphicGrads = _graduateData.Graduates.filter(function (grad) {
       return grad.major === "Graphic Design";
     });
@@ -11961,8 +11938,6 @@ class AllGraduates {
   }
 
   handleDDFilter(e) {
-    console.log(e.target.dataset.match);
-
     let digitalGrads = _graduateData.Graduates.filter(function (grad) {
       return grad.major === "Digital Experience and Interaction Design";
     });
@@ -12066,9 +12041,7 @@ class DigitalGraduatesView {
 
   handleScrollTop() {
     let ele = document.querySelectorAll("h1");
-    console.log(ele[0]);
     let toTop = ele[0].clientTop;
-    console.log(toTop);
     window.scroll({
       top: toTop,
       behavior: "smooth"
@@ -12116,7 +12089,6 @@ class DigitalGraduatesView {
   backSpaceHandler(e) {
     let key = e.keyCode || e.charCode;
     if (key == 8) return e.target.value;
-    console.log(e.target.value);
   }
 
   handleSearchKeyup(e) {
@@ -12126,8 +12098,7 @@ class DigitalGraduatesView {
     } else {
       this.resetGrads(); // filter graduates based on name and search query
 
-      this.filterGraduates("firstName", e.target.value);
-      console.log(this.Graduates); // if no result, filter graduates based on description and search query
+      this.filterGraduates("firstName", e.target.value); // if no result, filter graduates based on description and search query
 
       if (this.Graduates.length === 0) {
         this.Graduates;
@@ -12244,9 +12215,7 @@ class AnimationGraduatesView {
 
   handleScrollTop() {
     let ele = document.querySelectorAll("h1");
-    console.log(ele[0]);
     let toTop = ele[0].clientTop;
-    console.log(toTop);
     window.scroll({
       top: toTop,
       behavior: "smooth"
@@ -12294,7 +12263,6 @@ class AnimationGraduatesView {
   backSpaceHandler(e) {
     let key = e.keyCode || e.charCode;
     if (key == 8) return e.target.value;
-    console.log(e.target.value);
   }
 
   handleSearchKeyup(e) {
@@ -12304,8 +12272,7 @@ class AnimationGraduatesView {
     } else {
       this.resetGrads(); // filter graduates based on name and search query
 
-      this.filterGraduates("firstName", e.target.value);
-      console.log(this.Graduates); // if no result, filter graduates based on description and search query
+      this.filterGraduates("firstName", e.target.value); // if no result, filter graduates based on description and search query
 
       if (this.Graduates.length === 0) {
         this.Graduates;
@@ -12422,9 +12389,7 @@ class GraphicGraduatesView {
 
   handleScrollTop() {
     let ele = document.querySelectorAll("h1");
-    console.log(ele[0]);
     let toTop = ele[0].clientTop;
-    console.log(toTop);
     window.scroll({
       top: toTop,
       behavior: "smooth"
@@ -12472,7 +12437,6 @@ class GraphicGraduatesView {
   backSpaceHandler(e) {
     let key = e.keyCode || e.charCode;
     if (key == 8) return e.target.value;
-    console.log(e.target.value);
   }
 
   handleSearchKeyup(e) {
@@ -12482,8 +12446,7 @@ class GraphicGraduatesView {
     } else {
       this.resetGrads(); // filter graduates based on name and search query
 
-      this.filterGraduates("firstName", e.target.value);
-      console.log(this.Graduates); // if no result, filter graduates based on description and search query
+      this.filterGraduates("firstName", e.target.value); // if no result, filter graduates based on description and search query
 
       if (this.Graduates.length === 0) {
         this.Graduates;
@@ -12564,7 +12527,6 @@ class specificProfile {
     this.studentId = null;
     this.studentIdString = null;
     let graduates = _graduateData.Graduates;
-    console.log(_graduateData.Graduates);
 
     _Utils.default.pageIntroAnim();
 
@@ -12575,7 +12537,6 @@ class specificProfile {
   handleScrollTop() {
     let ele = document.querySelectorAll(".block-50-50");
     let toTop = ele[0].clientTop;
-    console.log(toTop);
     window.scroll({
       top: toTop,
       behavior: "smooth"
@@ -12585,19 +12546,15 @@ class specificProfile {
   async getGraduate() {
     // get id param from URL
     const urlParams = new URLSearchParams(location.search);
-    const id = urlParams.get("id");
-    console.log(id); // get the graduate
+    const id = urlParams.get("id"); // get the graduate
 
     let studentId = _graduateData.Graduates.filter(grad => {
       return grad.studentNumber === id;
     });
 
-    console.log(studentId);
     const studentIdString = JSON.stringify(studentId);
-    console.log(studentIdString);
     window.firstName = studentId[0].firstName;
     window.studentIdGlobal = studentId[0];
-    console.log(firstName);
     this.render();
   }
 
@@ -14152,7 +14109,6 @@ function _templateObject() {
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 // Graduates.map((graduate) => {
-//   console.log(graduate.firstName);
 // });
 // so now an issue found was when we open the home page, click the about page,
 // and then come back to home page, the slider lost its style,
@@ -14160,7 +14116,6 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 // to force a re-fresh, silly but it works.
 class comingSoonView {
   init() {
-    console.log("HomeView.init");
     document.title = "Home";
     this.render();
 
@@ -14334,8 +14289,7 @@ class App {
   }
 
   init() {
-    console.log("App.init"); // Toast init
-
+    // Toast init
     _Toast.default.init(); // Router init
 
 
@@ -16143,7 +16097,6 @@ customElements.define("va-app-header", class AppHeader extends _litElement.LitEl
 
   navActiveLinks() {
     const currentPath = window.location.pathname;
-    console.log(currentPath);
     const navLinks = this.shadowRoot.querySelectorAll(".app-top-nav a, .app-side-menu-items a");
     navLinks.forEach(navLink => {
       if (navLink.href.slice(-1) == "#") return;
@@ -16439,7 +16392,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57271" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57329" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
