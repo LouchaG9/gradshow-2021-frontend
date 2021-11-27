@@ -11,13 +11,9 @@ class AllGraduates {
   init() {
     document.title = "Curtin DeStore - All Graduates";
     this.Graduates = Graduates;
-    gsap.registerPlugin(ScrollTrigger)
     Utils.shuffle(this.Graduates);
     this.render();
     this.handleScrollTop();
-    gsap.registerPlugin(ScrollTrigger)
-    this.pageIntroAnimGrads();
-
   }
 
   resetGrads() {
@@ -25,21 +21,6 @@ class AllGraduates {
     this.render();
   }
 
-  pageIntroAnimGrads(){
-    const targetelements = gsap.utils.toArray(".graduate-card");
-    targetelements.forEach(target => {
-        gsap.from(target , {
-            y: 0, 
-            opacity: 0.2, 
-            ease: "power1.out",
-            duration: 1,
-            scrollTrigger: {
-                trigger: target ,
-                start: "-900px"
-            }
-        })
-    })
-  }
 
   handleScrollTop() {
     let ele = document.querySelectorAll("h1");
