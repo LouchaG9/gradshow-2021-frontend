@@ -272,13 +272,13 @@ export const Graduates = [
     imageTwo:
       "../images/work/Milla_Zhai_19785231_2 - milla zhai.jpg",
     imageThree:
-    "../images/work/Milla_Zhai_19785231_6 - milla zhai.jpg",
+    "../images/work/",
     imageFour:
     "../images/work/Milla_Zhai_19785231_4 - milla zhai.jpg",
     imageFive:
     "../images/work/Milla_Zhai_19785231_5 - milla zhai.jpg",
     imageSix:
-    "../images/work/Milla_Zhai_19785231_ 3 - milla zhai.jpg"
+    "../images/work/Milla_Zhai_19785231_6 - milla zhai.jpg"
   },
   {
     studentNumber: "19775669",
@@ -2228,11 +2228,11 @@ export const Graduates = [
     avatarTwo: "./images/graduateAvatars/19780537_CJohnson_main.jpg",
     avatarOneHQ: "./images/graduateAvatarsHQ/19780537_alt.jpg",
     avatarTwoHQ: "./images/graduateAvatarsHQ/19780537_CJohnson_main.jpg",
-    imageOne: "../images/work/",
-    imageTwo: "../images/work/",
-    imageThree: "../images/work/",
-    imageFour: "../images/work/",
-    imageFive: "../images/work/",
+    imageOne: "../images/work/Caitlyn_Johnson_19780537_1 - Johno Johnson.png",
+    imageTwo: "../images/work/Caitlyn_Johnson_19780537_3 - Johno Johnson.png",
+    imageThree: "../images/work/Caitlyn_Johnson_19780537_5 - Johno Johnson.png",
+    imageFour: "../images/work/Caitlyn_Johnson_19780537_2 - Johno Johnson.png",
+    imageFive: "../images/work/Caitlyn_Johnson_19780537_4 - Johno Johnson.png",
     imageSix: "../images/work/",
   },
   {
@@ -2257,11 +2257,11 @@ export const Graduates = [
     avatarTwo: "./images/graduateAvatars/18523692_KJones_main.jpg",
     avatarOneHQ: "./images/graduateAvatarsHQ/18523692_alt.jpg",
     avatarTwoHQ: "./images/graduateAvatarsHQ/18523692_KJones_main.jpg",
-    imageOne: "../images/work/",
-    imageTwo: "../images/work/",
+    imageOne: "../images/work/Kirren_Jones_18523692_1 - Kirren J.jpg",
+    imageTwo: "../images/work/Kirren_Jones_18523692_3 - Kirren J.jpg",
     imageThree: "../images/work/",
-    imageFour: "../images/work/",
-    imageFive: "../images/work/",
+    imageFour: "../images/work/Kirren_Jones_18523692_2 - Kirren J.jpg",
+    imageFive: "../images/work/Kirren_Jones_18523692_4 - Kirren J.jpg",
     imageSix: "../images/work/",
   },
   {
