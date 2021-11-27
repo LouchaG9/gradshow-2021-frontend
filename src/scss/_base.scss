@@ -56,6 +56,10 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  section {
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+  }
 }
 
 .secondary {

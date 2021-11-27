@@ -26,66 +26,49 @@ class AboutView {
       <div class="page-content">
         <section class="about-banner">
         
-          <div class="about-landing">
-            <h1>About Us</h1>
-            <p>
-            Welcome to the DeStore 2021 Curtin Design Graduate Showcase! 
-            We have prepared a scrumptious selection of tasty design treats to 
-            tantalise your taste buds. This year's Curtin Design grads from Animation & 
-            Game Design, Digital Experience & Interaction Design and Graphic Design 
-            have served up a refined assortment of design products that feature a diversity 
-            of modalities, aesthetics and conceptual/technical approaches.<br/><br/>
-            
-            Are you hankering for a treat that's full-fat and bursting with flavour, 
-            or do you want something nutritious yet tasty? Do you have specific preferences 
-            or intolerances? Need a custom short-order? Don't worry, our team have got you covered.<br/><br/>
+          <div class="valueHolder">
+            <div class="values-logo">
+              <h1>Our Values</h1>
+            </div>
 
-            Our artisan graduates put loving care and attention into every single design that they craft, 
-            tailoring them to your unique tastes and requirements. So go on, try a sample by 
-            checking out the quality portfolio work showcased by our grads. Freshness guaranteed!
-            </p>
+            <div class="values">
+              <div class="value-1">
+                <h4>Inclusivity</h4>
+                <p>
+                  Providing equal access and opportunities to all members
+                  of the Grad Show, creating a safe space for people to contribute.
+                </p>
+              </div>
+              <div class="value-2">
+                <h4>Innovation</h4>
+                <p>
+                  Always producing and designing new ideas, 
+                  creating advances in innovation and efficiency to
+                  be the best that we can be.
+                </p>
+              </div>
+              <div class="value-3">
+                <h4>Creativity</h4>
+                <p>
+                The ability to experiment, to value and learn from mistakes,
+                  and build on the experience. 
+                </p>
+              </div>
+              <div class="value-4">
+                <h4>Diversity</h4>
+                <p>
+                  Recognising and respecting people of all ethnicity, gender,
+                  age, race, religion and sexual orientation - and 
+                  valuing their differences.
+                </p>
+              </div>
+            </div>
           </div>
 
           <img src="https://drive.google.com/uc?export=view&id=1JxGAVQPoi8QiT08CvTJ3HCLaUbvSQoiu" class="about-img" />
         </section>
 
-        <div class="values-logo">
-          <div class="about-logo"></div>
-          <h1>Our Values</h1>
-        </div>
-
-        <div class="values">
-          <div class="value-1">
-            <h4>Inclusivity</h4>
-            <p>
-              Providing equal access and opportunities to all members
-              of the Grad Show, creating a safe space for people to contribute.
-            </p>
-          </div>
-          <div class="value-2">
-            <h4>Innovation</h4>
-            <p>
-              Always producing and designing new ideas, 
-              creating advances in innovation and efficiency to
-              be the best that we can be.
-            </p>
-          </div>
-          <div class="value-3">
-            <h4>Creativity</h4>
-            <p>
-             The ability to experiment, to value and learn from mistakes,
-              and build on the experience. 
-            </p>
-          </div>
-          <div class="value-4">
-            <h4>Diversity</h4>
-            <p>
-              Recognising and respecting people of all ethnicity, gender,
-              age, race, religion and sexual orientation - and 
-              valuing their differences.
-            </p>
-          </div>
-        </div>
+        
 
         <div class="credit-logo">
           <div class="credits-logo"></div>
