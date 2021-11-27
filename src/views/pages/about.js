@@ -5,7 +5,7 @@ import Utils from "../../Utils";
 
 class AboutView {
   init() {
-    document.title = "About Page";
+    document.title = "Curtin DeStore - About Page";
     this.render();
     this.handleScrollTop();
     Utils.pageIntroAnim();

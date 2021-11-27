@@ -4,14 +4,14 @@ import { gotoRoute, anchorRoute } from "./../../Router"
 
 class FourOFourView {
   init() {
-    document.title = '404 File not found'
+    document.title = 'Curtin DeStore - 404'
     this.render()
   }
 
   render() {
     const template = html`    
       <div class="calign">
-        <h1>Opps!</h1>
+        <h1>Oops!</h1>
         <p>Sorry, we couldn't find that.</p>
         <button
           class="return-home-btn"

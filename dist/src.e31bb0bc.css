@@ -305,6 +305,10 @@ A[href="#"] {
   z-index: 2;
 }
 
+.smallFont {
+  font-size: small;
+}
+
 .majorQuote {
   color: #241c1c !important;
 }

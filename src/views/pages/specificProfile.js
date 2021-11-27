@@ -9,7 +9,7 @@ import graduates from "./graduates";
 
 class specificProfile {
   async init() {
-    document.title = "View Graduate";
+    document.title = "Curtin Destore - View Graduate";
     this.graduate = null;
     this.studentId = null;
     this.studentIdString = null;
@@ -256,7 +256,7 @@ class specificProfile {
                 <h3>Graphic Design</h3>
               </div>
               <div class="footer-item">
-                <h3>Cold Meats</h3>
+                <h3>Smallgoods</h3>
               </div>
               <div class="footer-item">
                 <h3>Cheese</h3>

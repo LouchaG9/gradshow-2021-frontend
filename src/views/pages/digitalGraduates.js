@@ -11,7 +11,7 @@ var digitalGradsArray = Graduates.filter(function (grad) {
 
 class DigitalGraduatesView {
   init() {
-    document.title = "Digital Grads";
+    document.title = "Curtin DeStore - Digital Grads";
     this.Graduates = Graduates;
     Utils.shuffle(digitalGradsArray);
     this.render();
@@ -124,60 +124,7 @@ class DigitalGraduatesView {
 
         <!-- FILTER DROPDOWN / SEARCH BAR ---------------------------------->
         <section class="search-and-filter-container">
-          <!-- search bar -->
-          <div class="search-input-container">
-            <input
-              class="search-input"
-              id="search-input"
-              type="search"
-              placeholder="Search"
-              @keyup=${this.handleSearchKeyup.bind(this)}
-              @keydown=${this.backSpaceHandler.bind(this)}
-            />
-            <i class="fas fa-search"></i>
-          </div>
-
-          <!-- search filters -->
-          <label class="dropdown">
-            <div class="dd-button">Filter</div>
-            <input type="checkbox" class="dd-input" id="test" />
-            <ul class="dd-menu">
-              <li size="small" @click=${this.clearFilters.bind(this)}>
-                All Employees
-              </li>
-              <li class="divider"></li>
-              <li
-                class="filter-btn"
-                size="small"
-                data-field="major"
-                data-match="animation-and-game-design"
-                @click=${this.handleFilterBtn.bind(this)}
-              >
-                Animation & Game Design
-              </li>
-              <li class="divider"></li>
-              <li
-                class="filter-btn"
-                size="small"
-                data-field="major"
-                data-match="graphic-design"
-                @click=${this.handleFilterBtn.bind(this)}
-              >
-                Graphic Design
-              </li>
-              <li class="divider"></li>
-              <li
-                class="filter-btn"
-                size="small"
-                data-field="major"
-                data-match="digital-design"
-                @click=${this.handleFilterBtn.bind(this)}
-              >
-                Digital Design
-              </li>
-            </ul>
-          </label>
-        </section>
+     
 
         <!-- ALL STUDENTS ---------------------------------->
         <section class="all-graduates-container">
@@ -268,7 +215,7 @@ class DigitalGraduatesView {
                 <h3>Graphic Design</h3>
               </div>
               <div class="footer-item">
-                <h3>Cold Meats</h3>
+                <h3>Smallgoods</h3>
               </div>
               <div class="footer-item">
                 <h3>Cheese</h3>

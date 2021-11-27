@@ -13,7 +13,7 @@ import { Graduates } from "./../../../static/data/graduateData";
 
 class HomeView {
   init() {
-    document.title = "Home";
+    document.title = "Curtin DeStore - Home";
     this.videoCurrent = 1;
     this.videoIndexLink = {
       1:"https://www.youtube.com/embed/AfoN2dwqYIc",
@@ -22,8 +22,8 @@ class HomeView {
     };
     this.videoIndexTitle = {
       1:"Graphic Design",
-      2:"Digital Design",
-      3:"Animation And Game Design"
+      2:"Digital Experience & Interaction Design",
+      3:"Animation & Game Design"
     };
     this.render();
     this.ramdonVideoSelector();
@@ -176,12 +176,12 @@ class HomeView {
             />
           </div>
           <div class="right">
-            <h2>What are we?</h2>
+            <h2>Today's Specials</h2>
             <p>
-              
+            We have prepared a scrumptious selection of tasty design treats to tantalise your taste buds. Our artisan graduates from the Animation & Game Design, Digital Experience & Interaction Design and Graphic Design Majors have put loving care and attention into every single design they've crafted.  Are you hankering for a treat that's full-fat and bursting with flavour, or do you want something nutritious yet tasty? Do you have specific preferences or intolerances? Need a custom short-order? Don't worry, our team have got you covered. Go on, try a sample by checking out the quality portfolio work showcased here. Freshness guaranteed!
             </p>
             <button class="learn" @click="${() => gotoRoute("/about")}">
-              Learn about us
+            See all Graduates
             </button>
           </div>
         </section>
@@ -193,7 +193,7 @@ class HomeView {
 
           <div class="right">
             <div class="quote-one">
-              <h3 class="tutor">JONATHON PILLAI</h3>
+              <h3 class="tutor">JONATHAN PILLAI</h3>
               <i><h4 class="majorQuote">Animation & Game Design Coordinator</h4></i>
               <p>
                 "It has been brilliant to witness how our AGD students have strived towards their goals while pursuing their craft with passion and creativity. I am proud of how they have showcased the quality of their work by winning competitions, securing industry attachments and even garnering job offers before they graduate."
@@ -276,7 +276,7 @@ class HomeView {
                 <h3>Graphic Design</h3>
               </div>
               <div class="footer-item">
-                <h3>Cold Meats</h3>
+                <h3>Smallgoods</h3>
               </div>
               <div class="footer-item">
                 <h3>Cheese</h3>

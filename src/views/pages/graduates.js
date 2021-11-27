@@ -9,7 +9,7 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 
 class AllGraduates {
   init() {
-    document.title = "Shop";
+    document.title = "Curtin DeStore - All Graduates";
     this.Graduates = Graduates;
     gsap.registerPlugin(ScrollTrigger)
     Utils.shuffle(this.Graduates);
@@ -165,7 +165,7 @@ class AllGraduates {
             <input type="checkbox" class="dd-input" id="test" />
             <ul class="dd-menu">
               <li size="small" @click=${this.clearFilters.bind(this)}>
-                All Employees
+                All Graduates
               </li>
               <li class="divider"></li>
               <li
@@ -177,19 +177,19 @@ class AllGraduates {
               </li>
               <li class="divider"></li>
               <li
+                class="filter-btn smallFont"
+                data-match="digital-design"
+                @click=${this.handleDDFilter.bind(this)}
+              >
+                Digital Experience & Interaction Design
+              </li>
+              <li class="divider"></li>
+              <li
                 class="filter-btn"
                 data-match="graphic-design"
                 @click=${this.handleGDFilter.bind(this)}
               >
                 Graphic Design
-              </li>
-              <li class="divider"></li>
-              <li
-                class="filter-btn"
-                data-match="digital-design"
-                @click=${this.handleDDFilter.bind(this)}
-              >
-                Digital Design
               </li>
             </ul>
           </label>

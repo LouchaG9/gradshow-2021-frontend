@@ -257,11 +257,11 @@ customElements.define(
                   <sl-menu-item
                     @click="${() =>
                       gotoRoute("/animationgamedesign")}"
-                    >Animation and Game Design</sl-menu-item
+                    >Animation & Game Design</sl-menu-item
                   >
                   <sl-menu-item
                     @click="${() => gotoRoute("/digitaldesign")}"
-                    >Digital Design</sl-menu-item
+                    >Digital Experience & Interaction Design</sl-menu-item
                   >
                   <sl-menu-item
                     @click="${() => gotoRoute("/graphicdesign")}"
