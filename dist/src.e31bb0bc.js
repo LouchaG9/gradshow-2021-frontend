@@ -9374,7 +9374,7 @@ var _graduateData = require("./../../../static/data/graduateData");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject() {
-  const data = _taggedTemplateLiteral(["\n    \n      <va-app-header title=\"Home\"></va-app-header>\n\n      <div class=\"page-content\" id=\"pageContent\">\n        <section class=\"banner\">\n          <div class=\"left\" id=\"topBannerLeft\">\n            <h2 class=\"subheading\">\n              Welcome to the DeStore 2021 Curtin Design Graduate Showcase\n            </h2>\n            <button\n              class=\"shop-graduates-btn\"\n              @click=\"", "\"\n            >\n              Shop all graduates\n            </button>\n          </div>\n          <div class=\"right\">\n            <div class=\"gradVideoHolder\">\n              <iframe id=\"videoIframe\" width=\"100%\" height=\"100%\"\n                src=\"https://www.youtube.com/embed/VJGbuDb7pbM?list=TLGGo8m-auYN_bYyNjExMjAyMQ\" \n                title=\"YouTube video player\" \n                frameborder=\"0\" \n                autoplay; \n                clipboard-write; \n                encrypted-media; \n                gyroscope; \n                picture-in-picture\" \n                allowfullscreen>\n              </iframe>\n            </div>\n            <div class=\"videoTriggerHolder\">\n              <div class=\"videoTriggerButtonLeft\" @click=\"", "\"> <h3> < </h3></div>\n              <div class=\"videoTriggerDiv\"> <h3><span id=\"majorTitle\">DD Grads</span></h3> </div>\n              <div class=\"videoTriggerButtonLeft\" @click=\"", "\"> <h3> > </h3></div>\n            </div>\n          </div>\n        </section>\n\n        <section class=\"about-us\">\n          <div class=\"left\">\n            <img\n              src=\"/images/DeStoreLogo-02.png\"\n              alt=\"Destore Logo\"\n              class=\"logo-img\"\n            />\n          </div>\n          <div class=\"right\">\n            <h2>Today's Specials</h2>\n            <p>\n            We have prepared a scrumptious selection of tasty design treats to tantalise your taste buds. Our artisan graduates from the Animation & Game Design, Digital Experience & Interaction Design and Graphic Design Majors have put loving care and attention into every single design they've crafted.  Are you hankering for a treat that's full-fat and bursting with flavour, or do you want something nutritious yet tasty? Do you have specific preferences or intolerances? Need a custom short-order? Don't worry, our team have got you covered. Go on, try a sample by checking out the quality portfolio work showcased here. Freshness guaranteed!\n            </p>\n            <button class=\"learn\" @click=\"", "\">\n            See all Graduates\n            </button>\n          </div>\n        </section>\n\n        <section class=\"reviews\">\n          <div class=\"left\">\n            <h2 class=\"subheading\">What are people saying?</h2>\n          </div>\n\n          <div class=\"right\">\n            <div class=\"quote-one\">\n              <h3 class=\"tutor\">JONATHAN PILLAI</h3>\n              <i><h4 class=\"majorQuote\">Animation & Game Design Coordinator</h4></i>\n              <p>\n                \"It has been brilliant to witness how our AGD students have strived towards their goals while pursuing their craft with passion and creativity. I am proud of how they have showcased the quality of their work by winning competitions, securing industry attachments and even garnering job offers before they graduate.\"\n              </p>\n            </div>\n            <div class=\"quote-two\">\n              <h3 class=\"tutor\">JOEL LOUIE</h3>\n              <i><h4 class=\"majorQuote\">Digital Experience & Interaction Design Coordinator</h4></i>\n              <p>\n                \"I\u2019ve been impressed by the dynamic teamwork of all the DigEx and AGD Grads, and the fantastic Grad Show tapestry that they have woven here. More than that, its been humbling to see the growth in each individual, and the amount time, focus and love they have each put into their portfolios. I hope you enjoy this fresh serving of design goodness\"\n              </p>\n            </div>\n            <div class=\"quote-three\">\n              <h3 class=\"tutor\">LEE INGRAM</h3>\n              <i><h4 class=\"majorQuote\">Graphic Design Coordinator</h4></i>\n              <p>\n                \"With the year not even over, we have already seen much success from the graduating Graphic Design students, numerous finalists in the AGDA student award categories, a number of our students undertook industry internships, and best of all, a lucky few locked in continuing industry positions before they had even wrapped up their studies.\"\n              </p>\n            </div>\n          </div>\n        </section>\n      </div>\n\n      <footer>\n        <div class=\"footer-content\">\n          <div class=\"destore-col\">\n            <h3>DeStore</h3>\n            <p>\n              Monday - Closed <br />\n              Tuesday \u2013 Saturday: 7:00 am \u2013 3:00 pm <br />\n              Sunday: 9:00 am \u2013 2:00 pm<br />\n              Kent St, Bentley, 6102, Western Australia<br /><br />\n              @destore\n            </p>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-animation-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Animation</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Game Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fruit</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Vegetables</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-digex-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Digital Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Baked Goods</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fresh Bread</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Wraps</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-graphic-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Graphic Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Smallgoods</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cheese</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Olives</h3>\n              </div>\n            </div>\n          </div>\n        </div>\n      </footer>\n    "]);
+  const data = _taggedTemplateLiteral(["\n    \n      <va-app-header title=\"Home\"></va-app-header>\n\n      <div class=\"page-content\" id=\"pageContent\">\n        <section class=\"banner\">\n          <div class=\"left\" id=\"topBannerLeft\">\n            <h2 class=\"subheading\">\n              Welcome to the DeStore 2021 Curtin Design Graduate Showcase\n            </h2>\n            <button\n              class=\"shop-graduates-btn\"\n              @click=\"", "\"\n            >\n              Show all graduates\n            </button>\n          </div>\n          <div class=\"right\">\n            <div class=\"gradVideoHolder\">\n              <iframe id=\"videoIframe\" width=\"100%\" height=\"100%\"\n                src=\"https://www.youtube.com/embed/VJGbuDb7pbM?list=TLGGo8m-auYN_bYyNjExMjAyMQ\" \n                title=\"YouTube video player\" \n                frameborder=\"0\" \n                autoplay; \n                clipboard-write; \n                encrypted-media; \n                gyroscope; \n                picture-in-picture\" \n                allowfullscreen>\n              </iframe>\n            </div>\n            <div class=\"videoTriggerHolder\">\n              <div class=\"videoTriggerButtonLeft\" @click=\"", "\"> <h3> < </h3></div>\n              <div class=\"videoTriggerDiv\"> <h3><span id=\"majorTitle\">DD Grads</span></h3> </div>\n              <div class=\"videoTriggerButtonLeft\" @click=\"", "\"> <h3> > </h3></div>\n            </div>\n          </div>\n        </section>\n\n        <section class=\"about-us\">\n          <div class=\"left\">\n            <img\n              src=\"/images/DeStoreLogo-02.png\"\n              alt=\"Destore Logo\"\n              class=\"logo-img\"\n            />\n          </div>\n          <div class=\"right\">\n            <h2>Today's Specials</h2>\n            <p>\n            We have prepared a scrumptious selection of tasty design treats to tantalise your taste buds. Our artisan graduates from the Animation & Game Design, Digital Experience & Interaction Design and Graphic Design Majors have put loving care and attention into every single design they've crafted.  Are you hankering for a treat that's full-fat and bursting with flavour, or do you want something nutritious yet tasty? Do you have specific preferences or intolerances? Need a custom short-order? Don't worry, our team have got you covered. Go on, try a sample by checking out the quality portfolio work showcased here. Freshness guaranteed!\n            </p>\n            <button class=\"learn\" @click=\"", "\">\n            See all Graduates\n            </button>\n          </div>\n        </section>\n\n        <section class=\"reviews\">\n          <div class=\"left\">\n            <h2 class=\"subheading\">What are people saying?</h2>\n          </div>\n\n          <div class=\"right\">\n            <div class=\"quote-one\">\n              <h3 class=\"tutor\">JONATHAN PILLAI</h3>\n              <i><h4 class=\"majorQuote\">Animation & Game Design Coordinator</h4></i>\n              <p>\n                \"It has been brilliant to witness how our AGD students have strived towards their goals while pursuing their craft with passion and creativity. I am proud of how they have showcased the quality of their work by winning competitions, securing industry attachments and even garnering job offers before they graduate.\"\n              </p>\n            </div>\n            <div class=\"quote-two\">\n              <h3 class=\"tutor\">JOEL LOUIE</h3>\n              <i><h4 class=\"majorQuote\">Digital Experience & Interaction Design Coordinator</h4></i>\n              <p>\n                \"I\u2019ve been impressed by the dynamic teamwork of all the DigEx and AGD Grads, and the fantastic Grad Show tapestry that they have woven here. More than that, its been humbling to see the growth in each individual, and the amount time, focus and love they have each put into their portfolios. I hope you enjoy this fresh serving of design goodness\"\n              </p>\n            </div>\n            <div class=\"quote-three\">\n              <h3 class=\"tutor\">LEE INGRAM</h3>\n              <i><h4 class=\"majorQuote\">Graphic Design Coordinator</h4></i>\n              <p>\n                \"With the year not even over, we have already seen much success from the graduating Graphic Design students, numerous finalists in the AGDA student award categories, a number of our students undertook industry internships, and best of all, a lucky few locked in continuing industry positions before they had even wrapped up their studies.\"\n              </p>\n            </div>\n          </div>\n        </section>\n      </div>\n\n      <footer>\n        <div class=\"footer-content\">\n          <div class=\"destore-col\">\n            <h3>DeStore</h3>\n            <p>\n              Monday - Closed <br />\n              Tuesday \u2013 Saturday: 7:00 am \u2013 3:00 pm <br />\n              Sunday: 9:00 am \u2013 2:00 pm<br />\n              Kent St, Bentley, 6102, Western Australia<br /><br />\n              @destore\n            </p>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-animation-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Animation</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Game Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fruit</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Vegetables</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-digex-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Digital Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Baked Goods</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Fresh Bread</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Wraps</h3>\n              </div>\n            </div>\n          </div>\n          <div class=\"major-col\">\n            <div\n              class=\"footer-graphic-column\"\n              @click=\"", "\"\n            >\n              <div class=\"footer-item\">\n                <h3>Graphic Design</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Smallgoods</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Cheese</h3>\n              </div>\n              <div class=\"footer-item\">\n                <h3>Olives</h3>\n              </div>\n            </div>\n          </div>\n        </div>\n      </footer>\n    "]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -9463,22 +9463,22 @@ class HomeView {
   }
 
   videoResize() {
-    let ele = document.querySelector("#topBannerLeft");
-    let targetVideoHolder = document.querySelector(".gradVideoHolder");
-    let topBannerHolderWidth = ele.clientWidth;
-
-    if (window.innerWidth > 768) {
-      targetVideoHolder.style.width = topBannerHolderWidth * 0.8 + "px";
-      targetVideoHolder.style.height = topBannerHolderWidth * 0.8 / 16 * 9 + "px";
-    } else if (window.innerWidth <= 768) {
-      targetVideoHolder.style.width = topBannerHolderWidth + "px";
-      targetVideoHolder.style.height = topBannerHolderWidth / 16 * 9 + "px";
-    }
-
-    ;
     let currentPage = window.location.pathname;
 
-    if (currentPage === "/") {//pass
+    if (currentPage === "/") {
+      let ele = document.querySelector("#topBannerLeft");
+      let targetVideoHolder = document.querySelector(".gradVideoHolder");
+      let topBannerHolderWidth = ele.clientWidth;
+
+      if (window.innerWidth > 768) {
+        targetVideoHolder.style.width = topBannerHolderWidth * 0.8 + "px";
+        targetVideoHolder.style.height = topBannerHolderWidth * 0.8 / 16 * 9 + "px";
+      } else if (window.innerWidth <= 768) {
+        targetVideoHolder.style.width = topBannerHolderWidth + "px";
+        targetVideoHolder.style.height = topBannerHolderWidth / 16 * 9 + "px";
+      }
+
+      ;
     } else {
       window.removeEventListener('resize', this.videoResize);
     }
@@ -11826,38 +11826,15 @@ class AllGraduates {
     document.title = "Curtin DeStore - All Graduates";
     this.Graduates = _graduateData.Graduates;
 
-    _gsap.default.registerPlugin(_ScrollTrigger.default);
-
     _Utils.default.shuffle(this.Graduates);
 
     this.render();
     this.handleScrollTop();
-
-    _gsap.default.registerPlugin(_ScrollTrigger.default);
-
-    this.pageIntroAnimGrads();
   }
 
   resetGrads() {
     this.Graduates = _graduateData.Graduates;
     this.render();
-  }
-
-  pageIntroAnimGrads() {
-    const targetelements = _gsap.default.utils.toArray(".graduate-card");
-
-    targetelements.forEach(target => {
-      _gsap.default.from(target, {
-        y: 0,
-        opacity: 0.2,
-        ease: "power1.out",
-        duration: 1,
-        scrollTrigger: {
-          trigger: target,
-          start: "-900px"
-        }
-      });
-    });
   }
 
   handleScrollTop() {
@@ -16392,7 +16369,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57329" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55557" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

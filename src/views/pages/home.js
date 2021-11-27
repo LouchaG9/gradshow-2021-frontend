@@ -141,7 +141,7 @@ class HomeView {
               class="shop-graduates-btn"
               @click="${() => gotoRoute("/graduates")}"
             >
-              Shop all graduates
+              Show all graduates
             </button>
           </div>
           <div class="right">
