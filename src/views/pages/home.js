@@ -227,6 +227,10 @@ class HomeView {
               Kent St, Bentley, 6102, Western Australia<br /><br />
               @destore
             </p>
+            <div class="previousLinks">
+              <a href="http://2020.curtindesign.com/" target="_blank"><div class="imageLink"><img src="/images/2020favicon.png" />Curtin Design 2020</div></a>
+              <a href="https://2019.curtindesign.com/" target="_blank"><div class="imageLink"><img src="/images/2019favicon.png" />Curtin Design 2019</div></a>
+            </div>
           </div>
           <div class="major-col">
             <div

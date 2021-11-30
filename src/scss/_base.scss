@@ -132,6 +132,33 @@ footer {
     gap: 1rem;
     width: 90%;
     margin: 0 auto;
+    .previousLinks {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      font-family: var(--base-font-family);
+      a {
+        margin: 0;
+        margin-bottom: 0.5em;
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        .imageLink {
+          display: flex;
+          align-items: center;
+          img {
+            width: 1em;
+            height: 1em;
+            margin-left: 0.5em;
+            margin-right: 0.5em;
+          }
+          text {
+            font-size: 1em;
+            line-height: 1em;
+          }
+        }
+      }
+    }
     .destore-col {
       width: calc(100% / 3);
       display: flex;
